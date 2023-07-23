@@ -1,9 +1,11 @@
 ---
-title: "Why do we bother to write?"
+title: "1: Why do we bother to write?"
 tags:
   - writing-handbook
   - writing
 date: 2021-11-28
+updateDate: 2021-11-28
+external: false
 ---
 
 There are many reasons why we must write:

@@ -12,6 +12,11 @@ const baseSchema = z.object({
     invalid_type_error:
       "date must be written in yyyy-mm-dd format without quotes: For example, Jan 22, 2000 should be written as 2000-01-22.",
   }),
+  updateDate: z.date({
+    required_error: "Required frontmatter missing: updateDate",
+    invalid_type_error:
+      "updateDate must be written in yyyy-mm-dd format without quotes: For example, Jan 22, 2000 should be written as 2000-01-22.",
+  }),
 });
 
 /*
@@ -42,17 +47,78 @@ export const blog = z.discriminatedUnion("external", [
   }),
 ]);
 
-export const notes = baseSchema.extend({
-    description: z.optional(z.string()),
-  });
-
-  export const newsletters = baseSchema.extend({
+export const notes = z.discriminatedUnion("external", [
+  // markdown
+  baseSchema.extend({
+    external: z.literal(false),
     description: z.optional(z.string()),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
-  });
+  }),
+  // external link
+  baseSchema.extend({
+    external: z.literal(true),
+    url: z.string({
+      required_error:
+        "external is true but url is missing. url must be set for posts marked as external.",
+      invalid_type_error: "external should be string.",
+    }),
+  }),
+]);
 
-export const books = baseSchema.extend({
-  description: z.optional(z.string()),
-});
+  export const newsletters = z.discriminatedUnion("external", [
+    // markdown
+    baseSchema.extend({
+      external: z.literal(false),
+      description: z.optional(z.string()),
+      ogImagePath: z.optional(z.string()),
+      canonicalUrl: z.optional(z.string()),
+    }),
+    // external link
+    baseSchema.extend({
+      external: z.literal(true),
+      url: z.string({
+        required_error:
+          "external is true but url is missing. url must be set for posts marked as external.",
+        invalid_type_error: "external should be string.",
+      }),
+    }),
+  ]);
 
+export const books = z.discriminatedUnion("external", [
+  // markdown
+  baseSchema.extend({
+    external: z.literal(false),
+    description: z.optional(z.string()),
+    ogImagePath: z.optional(z.string()),
+    canonicalUrl: z.optional(z.string()),
+  }),
+  // external link
+  baseSchema.extend({
+    external: z.literal(true),
+    url: z.string({
+      required_error:
+        "external is true but url is missing. url must be set for posts marked as external.",
+      invalid_type_error: "external should be string.",
+    }),
+  }),
+]);
+
+export const podcasts = z.discriminatedUnion("external", [
+  // markdown
+  baseSchema.extend({
+    external: z.literal(false),
+    description: z.optional(z.string()),
+    ogImagePath: z.optional(z.string()),
+    canonicalUrl: z.optional(z.string()),
+  }),
+  // external link
+  baseSchema.extend({
+    external: z.literal(true),
+    url: z.string({
+      required_error:
+        "external is true but url is missing. url must be set for posts marked as external.",
+      invalid_type_error: "external should be string.",
+    }),
+  }),
+]);

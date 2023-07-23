@@ -8,7 +8,7 @@ import { SITE_URL } from "../../config";
 
 export async function getStaticPaths() {
   const posts = await readAll({
-    directory: "newsletters",
+    directory: "newsletter",
     frontmatterSchema: newsletters,
   });
 
@@ -27,27 +27,29 @@ if (typeof slug !== "string") {
 }
 
 const { content, frontmatter } = await readOne({
-  directory: "newsletters",
+  directory: "newsletter",
   slug,
   frontmatterSchema: newsletters,
 });
 
-const ogImageAbsoluteUrl = frontmatter.ogImagePath
+const ogImageAbsoluteUrl =
+  frontmatter.external !== true && frontmatter.ogImagePath
     ? new URL(frontmatter.ogImagePath, SITE_URL).toString()
     : undefined;
 
-const canonicalURL = frontmatter.canonicalUrl
+const canonicalURL =
+  frontmatter.external !== true && frontmatter.canonicalUrl
   ? new URL(frontmatter.canonicalUrl, SITE_URL).toString()
   : undefined;
-
 ---
 
-<ContentLayout title={frontmatter.title} date={frontmatter.date}>
+<ContentLayout title={frontmatter.title} date={frontmatter.date} updateDate={frontmatter.updateDate}>
   <BlogPostMeta
     title={frontmatter.title}
-    description={frontmatter.description}
+    description={frontmatter.external ? undefined : frontmatter.description}
     publishDate={frontmatter.date.toISOString()}
-    pagePath={`/letters/${slug}`}
+    updateDate={frontmatter.updateDate.toISOString()}
+    pagePath={`/newsletter/${slug}`}
     ogImageAbsoluteUrl={ogImageAbsoluteUrl}
     canonicalUrl={canonicalURL}
     slot="meta"

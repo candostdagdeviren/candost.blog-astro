@@ -37,6 +37,7 @@ type BlogPostOgMeta = {
   imageAlt?: string; // alt text for preview image
   imageWidth?: string; // preview image width - 1200px standard
   imageHeight?: string; // preview image height - 627px standard
+  updateDate: string; // ISO String
 };
 
 type BlogPostTwitterMeta = {
@@ -124,6 +125,7 @@ export function getBlogPostMeta({
   ogImageHeight,
   siteOwnerTwitterHandle,
   contentAuthorTwitterHandle,
+  updateDate,
 }: {
   title: string;
   description: string;
@@ -137,6 +139,7 @@ export function getBlogPostMeta({
   ogImageHeight?: number;
   siteOwnerTwitterHandle?: string;
   contentAuthorTwitterHandle?: string;
+  updateDate: string;
 }): { meta: PageMeta; og: BlogPostOgMeta; twitter: BlogPostTwitterMeta } {
   if (!pageTitle) {
     throw Error("title is required for page SEO");
@@ -162,6 +165,7 @@ export function getBlogPostMeta({
     imageAlt: ogImageAltText,
     imageWidth: ogImageWidth ? String(ogImageWidth) : undefined,
     imageHeight: ogImageHeight ? String(ogImageHeight) : undefined,
+    updateDate: updateDate
   };
 
   const twitter: BlogPostTwitterMeta = {

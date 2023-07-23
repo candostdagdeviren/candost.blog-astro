@@ -17,10 +17,12 @@ import Footer from "../components/Footer.astro";
 export interface Props {
   title: string;
   date: Date;
+  updateDate: Date;
 }
 
-const { title, date } = Astro.props;
+const { title, date, updateDate } = Astro.props;
 const formattedDate = new Date(date).toISOString().slice(0,10);
+const formattedUpdateDate = new Date(updateDate).toISOString().slice(0,10);
 ---
 
 <!DOCTYPE html>
@@ -52,8 +54,7 @@ const formattedDate = new Date(date).toISOString().slice(0,10);
           </span>
         </h1>
         <slot name="content" />
-        <p class="block mb-[2em] text-text-muted">Published at {formattedDate}</p>
-        <p class="block mb-[2em] text-text-muted">Last Updated at {formattedDate}</p>
+        <p class="fa-pull-right fa-2xs block leading-[1.75] mt-9 mb-[2em] text-text-muted">Published at {formattedDate} | Last Updated at {formattedUpdateDate}</p>
       </section>
     </main>
     <Footer />
