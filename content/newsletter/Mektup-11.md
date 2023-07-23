@@ -1,20 +1,11 @@
 ---
-title: "Do you know what's coming next?"
-tags: #Newsletter
-URL: "https://mediations.candost.blog/p/mektup-11"
-published-title: "#11: Do you know what's coming next?"
+title: "Mektup #11: Do you know what's coming next?"
+tags:
+ -
 date: 2021-08-05
 updateDate: 2021-08-05
 external: false
-creation date: 2021-10-14
-modification date: 2023-07-02 21:05:20
 ---
-
-### **Issue Title:** Do you know what's coming next?
-#### **Issue Number:** 11
-*Excerpt:*
-
-# Newsletter Content
 
 Hey friend,
 
@@ -38,32 +29,4 @@ Plan, but not over plan. The trick is planning with a high-level overview, not w
 
 In a changing world, a certain level of expectancy is enough to reduce stress and motivate people. You don't need to create a plan for the following year. When you do, it will probably become obsolete. So, define what's coming next with an eye towards your end goal and vision. Reduce stress to increase motivation.
 
-*P.S.: [You can also improve your prioritization skills to decide what to focus on next.](https://candost.blog/prioritization-skills-for-senior-and-staff-software-engineers/)*
-
-Alright, now onto what I have shared over the last two weeks.
-
----
-
-# **What I Published Over Last Two Weeks**
-
-I took a little bit of vacation over last two weeks and published two articles.
-
-## **[You are not special](https://candost.blog/the-subtle-art-of-not-giving-a-fuck-book-note-you-are-not-special/)**
-
-Most things in life are either average or suck. The media blurs this reality. It also creates a fake one by saying that everyone can achieve everything. But the truth holds: we're not that special as we think we are.
-
-## **[Personal Ego vs. Team Ego](https://candost.blog/personal-ego-vs-team-ego/)**
-
-I shared this on Mektup before. So, if you are a new subscriber or didn't read it before, you can check it out.
-
-When team members have a personal ego, they put the best interest on themselves. When there is a team ego where everyone is competing with themselves, everyone takes pride ad what they do together and want to present their success to everyone.
-
-# **End Note**
-
-As always, if you are enjoying Mektup, I would love it if you shared it with one or two of your friends. [You can send them directly here to sign up](https://candost.blog/mektup/). They will get this issue as a gift when they sign up. I try to make Mektup one of the best and actionable emails that you get to grow your software engineering and leadership career.
-
-[Click here to receive emails for every new podcast episode.](https://candost.blog/podcast/)
-
-[Click here to receive emails for every new blog post.](https://candost.blog/)
-
-[Unsubscribe from Mektup only](https://app.convertkit.com/preferences-confirmed).
+*P.S.: [You can also improve your prioritization skills to decide what to focus on next.](/prioritization-skills-for-senior-and-staff-software-engineers/)*

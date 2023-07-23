@@ -1,20 +1,12 @@
 ---
-title: "Why should you deploy your code in smaller chunks and release software often?"
-tags: #Newsletter
-URL:
-published-title: "#6: Why should you deploy your code in smaller chunks and release software often?"
+title: "Mektup #6: Why should you deploy your code in smaller chunks and release software often?"
+tags:
+ -
 date: 2021-05-27
 updateDate: 2021-05-27
-creation date: 2023-06-25
-modification date: 2023-06-25 20:56:39
 external: false
 ---
 
-### **Issue Title:** Why should you deploy your code in smaller chunks and release software often?
-#### **Issue Number:** 6
-*Excerpt:*
-
-# Newsletter Content
 Hello friend!
 
 I hope you had a great month. Summer is coming, and I'm looking forward to going out to nature more.
@@ -45,21 +37,22 @@ These metrics focus on the acceleration of the deployments and releases. But sti
 Let's start by looking into the cost of bigger batch-size deployments. With bigger-size deployments, we spend more time testing the software, troubleshooting an error, migrating data, and communicating during the code freeze. While these are direct costs and somehow mathematically measurable, we also have indirect costs. These costs are caused by multitasking and parallel work, losing focus, context switching, disconnecting from the work, lower psychological safety, and a slow product feedback cycle.
 
 If we look at direct costs, **increasing batch size demands more testing effort because the changes impact various parts of the system**. Diagnosing the bugs is more complicated and requires more time. The risk and the cost of deployments increase because they need more parallel work, such as running data migrations, checking if the data aggregation is correct, and watching different services concurrently. In these cases, there are often code freezes and communication costs on top of everything.
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F90d16929-cbc7-4ebd-b2bd-b00da519cc4e_2700x1932.jpeg)
+
+![](/images/content/newsletter/cost-batch-size-communication-direct-people.png)
 
 On the other hand, **deploying tiny changes is not free**. Every deployment has infrastructure and people costs (we call them transactional costs). Every CI pipeline costs money, and people need to spend more time if something is broken (_damn you, outdated dependencies_). That's the part where people think they gain more advantage with bigger-size deployments; _fewer deployments mean people are spending less time on it_. The decrease in these transactional costs lures companies. **Using less infrastructure and money on CI & CD pipelines creates an illusion.**
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2553e28b-17fb-4d8f-8bb7-820565b9d7d3_1924x1632.jpeg)
+![](/images/content/newsletter/transactional-costs.png)
 
 While transactional costs decrease with bigger batch sizes, the maintenance costs increase exponentially. When software is not maintained often with small steps, the degree of the disorder increases because many dependencies get new updates and changes. After a while, maintenance efforts start becoming bigger. It's also possible to have newly-discovered security vulnerabilities and cause customer dissatisfaction and poor performance. **The cost of delay in software maintenance increases exponentially; however, we can decrease the cost before it becomes heavy with small batches.**
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1e0d3ae-ef2f-42e4-afc2-5a1e81029bbb_2915x2109.jpeg)
+![](/images/content/newsletter/repair-costs.png)
 
 Maintenance costs add up to our previous ones, and in the end, we get the total costs.
 
-![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2c8399d8-929c-48f9-b94c-b5bba3d41a8c_2905x2623.jpeg)
+![](/images/content/newsletter/optimum-range.png)
 
-If a new feature hits the release early, we quickly learn if it is working or not. We often don't perceive impediments if the new feature will be successful or not. **When we know something doesn't work within a week, it's better not to spend more time on it and instead develop useful (and profitable) features.** Execution and early feedback show us our mistakes and give us a chance to learn. Making bad product decisions because of the [lack of feedback](https://candost.substack.com/p/importance-of-the-feedback) and experiments is one of the indirect costs.
+If a new feature hits the release early, we quickly learn if it is working or not. We often don't perceive impediments if the new feature will be successful or not. **When we know something doesn't work within a week, it's better not to spend more time on it and instead develop useful (and profitable) features.** Execution and early feedback show us our mistakes and give us a chance to learn. Making bad product decisions because of the [lack of feedback](/importance-of-the-feedback) and experiments is one of the indirect costs.
 
 "Big Bang" releases require multitasking. When batch size increases, many things need to be done in parallel, such as running migrations, deployments, and job sync between services and people. One mistake can create significant problems. These parallel efforts interrupt the standard workflow. **When the gap between development and deployment increases, people begin disconnecting from the work that they completed weeks ago.** Diagnosing the problems becomes more difficult. These problems lead to low psychological safety, stress, and fear because of the high risk.
 
@@ -69,12 +62,12 @@ _"Can you deploy on Friday after lunch without being afraid of doing overtime on
 
 **If you can't give a confident yes to this question, look for what lowers your confidence.** What would you change if you had a magic wand? I was a firm believer in no deployment on Fridays. After seeing the costs, risks, and available tools, I'm convinced--thanks to the world of CI/CD and DevOps practices. Before we go, one more thing.
 
-_Release != Deployment_
+{% mark %}Release != Deployment{% /mark %}
 
 **Deploy small batches, and release often.** Both are related but separate. While deployment is a technical decision and setup, the release is a product strategy. If you want to start thinking about how you can get better at the product side, use Eric Schmidt's question that focuses on speed and ask yourself:
 
-> ["Why can't this be done sooner?"](https://candost.substack.com/p/why-cant-this-be-done-sooner) - Larry Page
+> ["Why can't this be done sooner?"](/why-cant-this-be-done-sooner) - Larry Page
 
-It's never too late to start improving. Don't forget; **[minor improvements accumulate](https://candost.substack.com/p/mektup-3) and create a significant impact.** You don't need to start a big project to achieve optimum release and deployments. [Focus on a tiny improvement in each product development cycle.](https://candost.substack.com/p/bias-towards-action)
+It's never too late to start improving. Don't forget; **[minor improvements accumulate](/newsletter/mektup-3) and create a significant impact.** You don't need to start a big project to achieve optimum release and deployments. [Focus on a tiny improvement in each product development cycle.](/bias-towards-action)
 
 — Candost

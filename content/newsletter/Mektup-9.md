@@ -1,14 +1,11 @@
 ---
 title: "Mektup #9: Personal Ego vs. Team Ego"
-tags: #newsletter
-url: "https://mediations.candost.blog/p/mektup-9"
-published-title: "Mektup #9: Personal Ego vs. Team Ego"
+tags:
+ -
 date: 2021-07-08
 updateDate: 2021-07-08
 external: false
 ---
-
-# Mektup #9: Personal Ego vs. Team Ego
 
 Hey friend,
 
@@ -16,7 +13,7 @@ Recently, I witnessed a transition from having a high personal ego to a team ego
 
 Team spirit is often referred to as everyone playing with the team, not in the team. Collins dictionary defines team spirit as "the feeling of pride and loyalty that exists among the members of a team and that makes them want their team to do well or to be the best."
 
-When team members have a personal ego, they put their best interest on themselves. If everyone starts to behave like they are the most critical person in the team, nobody wants to collaborate. People don't take [criticism](https://candost.substack.com/p/importance-of-the-feedback) easily and are not open to being influenced. When a person competes with others, nobody helps them. Only when they compete with themselves, everyone helps each other.
+When team members have a personal ego, they put their best interest on themselves. If everyone starts to behave like they are the most critical person in the team, nobody wants to collaborate. People don't take [criticism](/importance-of-the-feedback/) easily and are not open to being influenced. When a person competes with others, nobody helps them. Only when they compete with themselves, everyone helps each other.
 
 When there is a team ego where everyone is competing with themselves, everyone takes pride in what they do together and wants to present their success to everyone. In sports teams, pride represents itself as competing with other groups, but in software organizations, it is rather feeling an honor and being part of something bigger.
 
@@ -28,7 +25,7 @@ When Steve Jobs returned to Apple in 1997, he laid off all high-level managers a
 
 Moving away from personal ego was one of the many reasons behind Apple's success, and Apple still keeps the same structure. Whenever I talked with Apple engineers at conferences, they were proud of the whole company and being part of the team, even though they didn't work in every aspect of the product.
 
-Building a team ego is not an easy task; it has many aspects. But usually, there are small but impactful movements. First and foremost, **[have a clear team purpose](https://candost.substack.com/p/have-the-first-win-to-build-team-spirit)**. What is the mission of the team? Why are you together? What are you trying to achieve? Find your clear purpose and write it down in a memorable way.
+Building a team ego is not an easy task; it has many aspects. But usually, there are small but impactful movements. First and foremost, **[have a clear team purpose](/have-the-first-win-to-build-team-spirit)**. What is the mission of the team? Why are you together? What are you trying to achieve? Find your clear purpose and write it down in a memorable way.
 
 **Celebrate**. Pride starts with celebrating everything you achieve, whether big or small.
 

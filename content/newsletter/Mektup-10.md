@@ -1,20 +1,11 @@
 ---
-title: "The Career Frameworks"
-tags: #Newsletter
-URL: https://mediations.candost.blog/p/mektup-10
-published-title: "#10: The Career Frameworks"
+title: "Mektup #10: The Career Frameworks"
+tags:
+ -
 date: 2021-07-22
 updateDate: 2021-07-22
 external: false
-creation date: 2023-06-25
-modification date: 2023-06-25 20:54:32
 ---
-
-### **Issue Title:** The Career Frameworks
-#### **Issue Number:** 10
-*Excerpt:*
-
-# Newsletter Content
 
 Hey friend!
 
@@ -44,6 +35,6 @@ Here are the frameworks I am already aware of:
 - ​[Buffer Career Framework](https://buffer.com/resources/engineering-career-framework/)​
 - ​[Rent The Runway Career Framework](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)​
 
-— Candost
+— Candost
 
-**P.S.:** _[You don't need to learn another programming language every three months](https://candost.blog/no-you-dont-need-to-learn-another-programming-language-every-three-months/)._
+**P.S.:** _[You don't need to learn another programming language every three months](/no-you-dont-need-to-learn-another-programming-language-every-three-months)._

@@ -1,5 +1,5 @@
 import rss from "@astrojs/rss";
-import { blog, books, newsletters, notes, podcasts } from "../lib/markdoc/frontmatter.schema";
+import { blog, books, newsletters, notes, podcast } from "../lib/markdoc/frontmatter.schema";
 import { readAll } from "../lib/markdoc/read";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../config";
 
@@ -19,9 +19,9 @@ export const get = async () => {
     frontmatterSchema: newsletters,
   });
 
-  const podcast = await readAll({
-    directory: "podcasts",
-    frontmatterSchema: podcasts,
+  const podcastEpisodes = await readAll({
+    directory: "podcast",
+    frontmatterSchema: podcast,
   });
 
   const shortNotes = await readAll({
@@ -29,7 +29,7 @@ export const get = async () => {
     frontmatterSchema: notes,
   })
 
-  const allPosts = posts.concat(letters).concat(podcast).concat(bookNotes).concat(shortNotes);
+  const allPosts = posts.concat(letters).concat(podcastEpisodes).concat(bookNotes).concat(shortNotes);
 
   const sortedAllPosts = allPosts
   .filter((p) => p.frontmatter.draft !== true)

@@ -1,112 +1,201 @@
 ---
+import { readAll } from "../lib/markdoc/read";
+import { blog, podcast, books } from "../lib/markdoc/frontmatter.schema";
+
+const posts = await readAll({
+  directory: "essays",
+  frontmatterSchema: blog,
+});
+
+const sortedPosts = posts
+  .filter((p) => p.frontmatter.draft !== true)
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
+  )
+  .slice(0,5);
+
+  const episodes = await readAll({
+  directory: "podcast",
+  frontmatterSchema: podcast,
+});
+
+const sortedEpisodes = episodes
+  .filter((e) => e.frontmatter.draft !== true)
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
+  )
+  .slice(0,1);
+
+  const bookNotes = await readAll({
+  directory: "books",
+  frontmatterSchema: books,
+});
+
+const sortedBookNotes = bookNotes
+  .filter((p) => p.frontmatter.draft !== true)
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
+  ).slice(0, 5);
+
 ---
 
+  <p class="mb-10">I used to think reading would help me learn. One day, ten pages before finishing a book, I realized I had read that book before. At that point, I decided to change a few things. On this website, you'll find how I evolved, what I learned, and my reflections on the complicated life, software engineering, leadership, and world.</p>
 
-<h2> Wanna learn the longer story? </h2>
-See my <a href={"/about"} target="_blank">about page</a>.
-
-<div class="l-wrapper">
-  <h1 class="m-hero-title">Hey, I'm Candost.</h1>
-
-  <h2>I am a software engineering manager.</h2>
-
-  <p>I used to think reading would help me learn.</p>
-
-  <p>One day, ten pages before finishing a book, I realized I had read that book before. At that point, I decided to change a few things.</p>
-
-  <p>On this website, you'll find how I evolved, what I learned, and my reflections on the complicated life, software engineering, leadership, and world.</p>
-
-  <h2>Want the longer story?<small>See <u><a href="/about">my "about" page</a></u>.</small></h2>
+  <h2 class="fa-lg mb-20">Want the longer story? <small>See <a href="/about">my "about" page</a>.</small></h2>
 
 
-  <h2>What am I Doing Now?<small>See <u><a href="/now">my "now" page</a></u>.</small></h2>
+  <h2  class="fa-lg mb-20">What am I Doing Now? <small>See <a href="/now">my "now" page</a>.</small></h2>
 
 
-  <h2>Emails<small><u><a href="/mektup">SEE ALL</a></u></small></h2>
-  <em><p>Every second Tuesday, I send <b><u><a href="/mektup" target="_blank">Mektup</a></u></b>, a newsletter that arrives as casual letters reflecting my learnings and thoughts about software engineering, leadership, productivity, and life.</p></em>
-  <p>I also send notifications of my new blog posts and podcast episodes. You can unsubscribe from any of them separately whenever you want.</p>
-
-  <h3>
-    <p>Latest Issue:
-    <!-- {{#get "posts" filter="tags:mektup-archive" limit="1" visibility="all"}}
-      {{#foreach posts}}
-        <a href="{{url}}" aria-label="{{title}}"><u>{{title}}</u></a>
-      {{/foreach}}
-    {{/get}} -->
-    </p>
-  </h3>
-
-
-
-  <h2>Newest Articles<small><u><a href="/articles">SEE ALL</a></u></small></h2>
+  <h2 class="fa-xl mb-5">Newest Essays <small><a href="/essays">SEE ALL</a></small></h2>
   <ul>
-  <!-- {{#get "posts" limit="6" filter="tags:-[book-review-and-notes,mektup-archive,podcast-archive,micro]"}}
-    {{#foreach posts}}
-      <li class="{{post_class}}" style="list-style-type: none;">
-        <div class="m-article-card__info-link">
-          <div class="m-article-card__timestamp">
-            <a href="{{url}}" aria-label="{{title}}">
-              <h2 class="m-article-card__title js-article-card-title" title="{{title}}">
-                <u>{{title}}</u>
-              </h2>
-            </a>
-          </div>
-        </div>
-      </li>
-    {{/foreach}}
-  {{/get}} -->
-  </ul>
+    {
+      sortedPosts.map((post) => {
+        const formattedDate = new Date(
+          post.frontmatter.date
+        ).toISOString().slice(0,10);
 
 
-  <div class="home-podcast">
-    <h2>Podcast
-      <small>
-        <u><a href="/podcast">SEE ALL EPISODES</a></u>
-      </small>
-    </h2>
-    <em><p>Software World Podcast is a series of interviews with industry experts and knowledge sharing episodes. Each episode uncovers a problem and a journey.</p></em>
-    <h3 style="font-size: 1.3rem;">
-      <p>Latest Episode:
-      <!-- {{#get "posts" filter="tags:podcast-archive" limit="1" visibility="all"}}
-        {{#foreach posts}}
-          <a href="{{url}}" aria-label="{{title}}"><u>{{title}}</u></a>
-        {{/foreach}}
-      {{/get}} -->
-      </p>
-    </h3>
-    <p>Subscribe at
-        <u><a href="https://podcasts.apple.com/podcast/software-world-with-candost/id1548135276" target="_blank">Apple</a></u>,
-        <u><a href="https://open.spotify.com/show/2IoILbfQYu4dLiQpjEBKXk" target="_blank">Spotify</a></u>, or
-        <u><a href="https://overcast.fm/itunes1548135276/software-world-with-candost">Overcast</a></u>, or
-        <u><a href="/podcast">on other platforms</a></u>.
-      </p>
-  </div>
-
-
-  <h2>Book Notes<small><u><a href="/book-review-and-notes">SEE ALL</a></u></small></h2>
-  <ul>
-    <!-- {{#get "posts" filter="tags:book-review-and-notes" limit="5" visibility="all"}}
-        {{#foreach posts}}
-          <li class="{{post_class}}" style="list-style-type: none;">
-            <div class="m-article-card__info-link">
-              <div class="m-article-card__timestamp">
-                <a href="{{url}}" aria-label="{{title}}">
-                  <h2 class="m-article-card__title js-article-card-title" title="{{title}}">
-                    <u>{{title}}</u>
-                  </h2>
+        return (
+          <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
+            <div class="title">
+              {post.frontmatter.external ? (
+                <a
+                  href={post.frontmatter.url}
+                  target="_blank"
+                  class="unset
+                      transition-[background-size] duration-300
+                      bg-gradient-to-r bg-left-bottom bg-no-repeat
+                      bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
+                      from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
+                    "
+                >
+                  <span>{post.frontmatter.title}</span>
+                  <span>
+                    <i class="ml-1 mr-1 text-[12px] pb-2 fa-solid fa-up-right-from-square" />
+                  </span>
                 </a>
-              </div>
+              ) : (
+                <a
+                  href={`/${post.slug}`}
+                  class="unset
+                      transition-[background-size] duration-300
+                      bg-gradient-to-r bg-left-bottom bg-no-repeat
+                      bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
+                      from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
+                    "
+                >
+                  {post.frontmatter.title}
+                </a>
+              )}
+            </div>
+            <div class="text-text-muted text-sm italic pt-1">
+              <time datetime={post.frontmatter.date.toISOString()}>
+                {formattedDate}
+              </time>
             </div>
           </li>
-        {{/foreach}}
-    {{/get}} -->
+        );
+      })
+    }
   </ul>
 
-  <h2>Want to reach me?</h2>
+
+    <h2 class="fa-xl mt-20 mb-5">Podcast <small><a href="/essays">SEE ALL</a></small></h2>
+    <em><p>Software World Podcast is a series of interviews with industry experts and knowledge sharing episodes. Each episode uncovers a problem and a journey.</p></em>
+
+      <p class="fa-lg mt-10 mb-10">Latest Episode:
+          {
+            sortedEpisodes.map((post) => {
+              return (
+                      <a
+                        href={post.frontmatter.url}
+                        target="_blank"
+                        class="unset
+                            transition-[background-size] duration-300
+                            bg-gradient-to-r bg-left-bottom bg-no-repeat
+                            bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
+                            from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
+                          "
+                      >
+                        <span>{post.frontmatter.title}</span>
+                      </a>
+                    )})
+                  </p>
+      </p>
+
+    <p>Subscribe at
+        <a href="https://podcasts.apple.com/podcast/software-world-with-candost/id1548135276" target="_blank">Apple</a>,
+        <a href="https://open.spotify.com/show/2IoILbfQYu4dLiQpjEBKXk" target="_blank">Spotify</a>, or
+        <a href="https://overcast.fm/itunes1548135276/software-world-with-candost">Overcast</a>, or
+        <a href="https://mediations.candost.blog/s/podcast">Substack</a>, or
+        <a href="/podcast">on other platforms</a>.
+      </p>
+
+
+  <h2 class="fa-xl mt-20 mb-5">Book Notes <small><a href="/books">SEE ALL</a></small></h2>
+  <ul>
+    {
+      sortedBookNotes.map((note) => {
+        const formattedDate = new Date(
+        note.frontmatter.date
+        ).toISOString().slice(0,10);
+
+
+        return (
+          <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
+            <div class="title">
+              {note.frontmatter.external ? (
+                <a
+                  href={note.frontmatter.url}
+                  target="_blank"
+                  class="unset
+                      transition-[background-size] duration-300
+                      bg-gradient-to-r bg-left-bottom bg-no-repeat
+                      bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
+                      from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
+                    "
+                >
+                  <span>{note.frontmatter.title}</span>
+                  <span>
+                    <i class="ml-1 mr-1 text-[12px] pb-2 fa-solid fa-up-right-from-square" />
+                  </span>
+                </a>
+              ) : (
+                <a
+                  href={`/${note.slug}`}
+                  class="unset
+                      transition-[background-size] duration-300
+                      bg-gradient-to-r bg-left-bottom bg-no-repeat
+                      bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
+                      from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
+                    "
+                >
+                  {note.frontmatter.title}
+                </a>
+              )}
+            </div>
+            <div class="text-text-muted text-sm italic pt-1">
+              <time datetime={note.frontmatter.date.toISOString()}>
+                {formattedDate}
+              </time>
+            </div>
+          </li>
+        );
+      })
+    }
+  </ul>
+
+
+  <h2 class="fa-xl mt-20 mb-5">Want to reach me?</h2>
     <em><p>
       Send me an email at candost[at]candostdagdeviren[dot]com. Also, you can send me a collaboration request on
-      <u><a href="https://polywork.com/candost">Polywork</a></u>.
+      <a href="https://polywork.com/candost">Polywork</a>.
       </p>
     </em>
-
-</div>

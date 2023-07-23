@@ -104,7 +104,7 @@ export const books = z.discriminatedUnion("external", [
   }),
 ]);
 
-export const podcasts = z.discriminatedUnion("external", [
+export const podcast = z.discriminatedUnion("external", [
   // markdown
   baseSchema.extend({
     external: z.literal(false),

@@ -21,12 +21,11 @@ const sortedLetters = letters
 
 <PageLayout>
   <PageMeta title={`Newsletter | ${SITE_TITLE}`} slot="meta" />
-
-  <iframe class="relative not-prose flex flex-col items-center justify-center" src="https://mediations.candost.blog/embed" width="480" height="320" style="border:1px solid #EEE; background:white;"></iframe>
-
-  <h1>Archive</h1>
-
   <section slot="main">
+
+    <iframe class="fa-2x relative not-prose flex flex-col items-center justify-center" src="https://mediations.candost.blog/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;"></iframe>
+
+    <h1 class="fa-2x">Archive</h1>
     <ul>
       {
         sortedLetters.map((letter) => {
