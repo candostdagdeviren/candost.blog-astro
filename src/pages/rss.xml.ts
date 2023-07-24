@@ -4,7 +4,7 @@ import { readAll } from "../lib/markdoc/read";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../config";
 
 export const get = async () => {
-  const posts = await readAll({
+  const essays = await readAll({
     directory: "essays",
     frontmatterSchema: blog,
   });
@@ -29,22 +29,14 @@ export const get = async () => {
     frontmatterSchema: notes,
   })
 
-  const allPosts = posts.concat(letters).concat(podcastEpisodes).concat(bookNotes).concat(shortNotes);
-
-  const sortedAllPosts = allPosts
-  .filter((p) => p.frontmatter.draft !== true)
-  .sort(
-    (a, b) =>
-      new Date(b.frontmatter.date).valueOf() -
-      new Date(a.frontmatter.date).valueOf()
-  );
-
   let baseUrl = SITE_URL;
   // removing trailing slash if found
   // https://example.com/ => https://example.com
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
-  const rssItems = sortedAllPosts.map(({ frontmatter, slug }) => {
+  const rssEssays = essays
+  .filter((p) => p.frontmatter.draft !== true)
+  .map(({ frontmatter, slug }) => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
@@ -60,7 +52,7 @@ export const get = async () => {
     const title = frontmatter.title;
     const pubDate = frontmatter.date;
     const description = frontmatter.description;
-    const link = `${baseUrl}/blog/${slug}`;
+    const link = `${baseUrl}/${slug}`;
 
     return {
       title,
@@ -69,6 +61,129 @@ export const get = async () => {
       link,
     };
   });
+
+  const rssNotes = shortNotes
+  .filter((p) => p.frontmatter.draft !== true)
+  .map(({ frontmatter, slug }) => {
+    if (frontmatter.external) {
+      const title = frontmatter.title;
+      const pubDate = frontmatter.date;
+      const link = frontmatter.url;
+
+      return {
+        title,
+        pubDate,
+        link,
+      };
+    }
+
+    const title = frontmatter.title;
+    const pubDate = frontmatter.date;
+    const description = frontmatter.description;
+    const link = `${baseUrl}/notes/${slug}`;
+
+    return {
+      title,
+      pubDate,
+      description,
+      link,
+    };
+  });
+
+  const rssPodcastEpisodes = podcastEpisodes
+  .filter((p) => p.frontmatter.draft !== true)
+  .map(({ frontmatter, slug }) => {
+    if (frontmatter.external) {
+      const title = frontmatter.title;
+      const pubDate = frontmatter.date;
+      const link = frontmatter.url;
+
+      return {
+        title,
+        pubDate,
+        link,
+      };
+    }
+
+    const title = frontmatter.title;
+    const pubDate = frontmatter.date;
+    const description = frontmatter.description;
+    const link = `${baseUrl}/podcast/${slug}`;
+
+    return {
+      title,
+      pubDate,
+      description,
+      link,
+    };
+  });
+
+  const rssLetters = letters
+  .filter((p) => p.frontmatter.draft !== true)
+  .map(({ frontmatter, slug }) => {
+    if (frontmatter.external) {
+      const title = frontmatter.title;
+      const pubDate = frontmatter.date;
+      const link = frontmatter.url;
+
+      return {
+        title,
+        pubDate,
+        link,
+      };
+    }
+
+    const title = frontmatter.title;
+    const pubDate = frontmatter.date;
+    const description = frontmatter.description;
+    const link = `${baseUrl}/newsletter/${slug}`;
+
+    return {
+      title,
+      pubDate,
+      description,
+      link,
+    };
+  });
+
+  const rssBookNotes = bookNotes
+  .filter((p) => p.frontmatter.draft !== true)
+  .map(({ frontmatter, slug }) => {
+    if (frontmatter.external) {
+      const title = frontmatter.title;
+      const pubDate = frontmatter.date;
+      const link = frontmatter.url;
+
+      return {
+        title,
+        pubDate,
+        link,
+      };
+    }
+
+    const title = frontmatter.title;
+    const pubDate = frontmatter.date;
+    const description = frontmatter.description;
+    const link = `${baseUrl}/books/${slug}`;
+
+    return {
+      title,
+      pubDate,
+      description,
+      link,
+    };
+  });
+
+  const rssItems = rssEssays
+  .concat(rssLetters)
+  .concat(rssPodcastEpisodes)
+  .concat(rssBookNotes)
+  .concat(rssNotes)
+  .sort(
+    (a, b) =>
+      new Date(b.pubDate).valueOf() -
+      new Date(a.pubDate).valueOf()
+  );
 
   return rss({
     title: SITE_TITLE,

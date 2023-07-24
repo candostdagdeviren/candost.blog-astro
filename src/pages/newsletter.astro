@@ -3,7 +3,7 @@ import { readAll } from "../lib/markdoc/read";
 import { newsletters } from "../lib/markdoc/frontmatter.schema";
 import PageLayout from "../layouts/PageLayout.astro";
 import PageMeta from "../components/PageMeta.astro";
-import { SITE_TITLE } from "../config";
+import { SITE_TITLE, SITE_URL } from "../config";
 
 const letters = await readAll({
   directory: "newsletter",
@@ -22,10 +22,14 @@ const sortedLetters = letters
 <PageLayout>
   <PageMeta title={`Newsletter | ${SITE_TITLE}`} slot="meta" />
   <section slot="main">
+    <h2 class="fa-xl mb-10 mt-20">Mediations Newsletter</h2>
+    <p>I always feel like I'm mediating (or maybe negotiating) between multiple aspects and constraints of the complicated life and searching for the balance between leadership, software engineering, personal life, and the world.</p>
+    <p class="mt-5">I share my thoughts on my newsletter. You can subscribe below. I send essays, book notes, and podcast episodes as email via the same newsletter too. You can also get everything via <a href={`${SITE_URL}/rss.xml`}>RSS</a>.</p>
 
-    <iframe class="fa-2x relative not-prose flex flex-col items-center justify-center" src="https://mediations.candost.blog/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;"></iframe>
+    <iframe class="mb-10 mt-10" src="https://mediations.candost.blog/embed" width="100%" height="160"></iframe>
 
-    <h1 class="fa-2x">Archive</h1>
+    <p class="mb-10 mt-10">I used to write another newsletter called Mektup. They were casual letters reflecting my learnings and thoughts about software engineering leadership and life and was arriving every second Tuesday. I stopped Mektup and embedded into this blog.</p>
+    <p class="fa-lg mb-5">You can see the archive of Mektup here:</p>
     <ul>
       {
         sortedLetters.map((letter) => {

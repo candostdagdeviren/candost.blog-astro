@@ -122,3 +122,6 @@ export const podcast = z.discriminatedUnion("external", [
     }),
   }),
 ]);
+
+
+export const regularPage = baseSchema;

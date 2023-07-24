@@ -1,9 +1,9 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-export const SITE_TITLE = "Candost Dagdeviren";
+export const SITE_TITLE = "Candost's Space";
 export const SITE_DESCRIPTION =
-  "Welcome to my blog! I write about modern web development.";
+  "Welcome to Candost's Space. I write about multiple aspects and constraints of the complicated life.";
 export const TWITTER_HANDLE = "@candosten";
 export const MY_NAME = "Candost Dagdeviren";
 

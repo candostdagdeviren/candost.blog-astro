@@ -5,12 +5,12 @@ import PageLayout from "../layouts/PageLayout.astro";
 import PageMeta from "../components/PageMeta.astro";
 import { SITE_TITLE } from "../config";
 
-const zettels = await readAll({
+const bookNotes = await readAll({
   directory: "books",
   frontmatterSchema: books,
 });
 
-const sortedZettels = zettels
+const sortedBookNotes = bookNotes
   .filter((p) => p.frontmatter.draft !== true)
   .sort(
     (a, b) =>
@@ -22,17 +22,21 @@ const sortedZettels = zettels
 <PageLayout>
   <PageMeta title={`Book Notes | ${SITE_TITLE}`} slot="meta" />
   <section slot="main">
+
+    <h1 class="fa-stack-1x fa-2x mb-5 mt-10">Book Notes</h1>
+    <p class="mb-10">I share either a full book review or a single-chapter note from the books I read.</p>
+
     <ul>
       {
-        sortedZettels.map((zettel) => {
+        sortedBookNotes.map((book) => {
           const formattedDate = new Date(
-            zettel.frontmatter.date
+          book.frontmatter.date
           ).toISOString().slice(0,10);
           return (
             <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
               <div class="title">
                   <a
-                    href={`/books/${zettel.slug}`}
+                    href={`/books/${book.slug}`}
                     class="unset
                         transition-[background-size] duration-300
                         bg-gradient-to-r bg-left-bottom bg-no-repeat
@@ -40,11 +44,11 @@ const sortedZettels = zettels
                         from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
                       "
                   >
-                    {zettel.frontmatter.title}
+                    {book.frontmatter.title}
                   </a>
               </div>
               <div class="text-text-muted text-sm italic pt-1">
-                <time datetime={zettel.frontmatter.date.toISOString()}>
+                <time datetime={book.frontmatter.date.toISOString()}>
                   {formattedDate}
                 </time>
               </div>

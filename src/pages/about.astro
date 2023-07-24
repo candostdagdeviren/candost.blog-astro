@@ -1,30 +1,24 @@
 ---
+import { readOne } from "../lib/markdoc/read";
+import { regularPage } from "../lib/markdoc/frontmatter.schema";
+import Renderer from "../components/Renderer.astro";
+import BlogPostMeta from "src/components/BlogPostMeta.astro";
+import ContentLayout from "src/layouts/ContentLayout.astro";
 
-import PageLayout from "../layouts/PageLayout.astro";
-import PageMeta from "../components/PageMeta.astro";
-import { SITE_TITLE } from "../config";
-
+const { content, frontmatter } = await readOne({
+  directory: "pages",
+  slug: "about",
+  frontmatterSchema: regularPage,
+});
 ---
 
-<PageLayout>
-  <PageMeta title={`About | ${SITE_TITLE}`} slot="meta" />
-  <section slot="main">
-    <p class="mb-5">I used to think that reading would make me wise.</p>
-
-    <p class="mb-5">One day, ten pages before finishing a book, I realized that I had read that same book before. At that point, my perspective on reading and, therefore, my life had changed.</p>
-
-    <p class="mb-5">Now, I don't care how many books I read; I take many notes, connect dots, and share what I've found on this blog and newsletter.</p>
-
-    <p class="mb-5">I'm interested in many things at the same time; I am a multipotentialite. So, you will find me trying to do many things. But I'm not a real multitasker. I am interested in many things, but I put them in order and execute them one by one.</p>
-
-    <p class="mb-5">First, I'm a software engineering leader; that's my current job. And I'm also a writer, reader, podcaster, hiker, snowboarder, rookie bass guitarist.</p>
-
-    <p class="mb-5">On this blog, you'll find me talking to tech industry workers, not limited to software engineers, but mostly software engineers. I am mediating (not meditating) between multiple aspects of life. And I believe that teaching is the best way to grow. Therefore, I share my experiences and learnings on this blog/newsletter and podcast.</p>
-
-    <p class="mt-10">Simon Sinek says,</p>
-
-    <p class="mb-5">“What if the goal was to do better work this week than we did the week before? To make this month better than the last month? For no other reason than because we want to leave the organization in a better state than we found it?”</p>
-
-    <p class="mb-5 mt-10">and that's what I'm after; to do better than the day before and take you on this journey with me so we all can learn together.</p>
-  </section>
-</PageLayout>
+<ContentLayout title={frontmatter.title} date={frontmatter.date} updateDate={frontmatter.updateDate}>
+  <BlogPostMeta
+    title={frontmatter.title}
+    publishDate={frontmatter.date.toISOString()}
+    updateDate={frontmatter.updateDate.toISOString()}
+    pagePath={`/about`}
+    slot="meta"
+  />
+  <Renderer content={content} slot="content" />
+</ContentLayout>
