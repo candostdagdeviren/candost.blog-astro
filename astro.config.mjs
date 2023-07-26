@@ -12,7 +12,7 @@ import tailwind from "@astrojs/tailwind";
   If you don't know your website URL yet, don't worry about this
   and leave it empty or use localhost URL. It won't break anything.
 */
-
+import netlify from "@astrojs/netlify/functions";
 const SERVER_PORT = 3000;
 // the url to access your blog during local development
 const LOCALHOST_URL = `http://localhost:${SERVER_PORT}`;
@@ -27,13 +27,17 @@ if (isBuild) {
   BASE_URL = LIVE_URL;
 }
 
+// https://astro.build/config
 export default defineConfig({
-  server: { port: SERVER_PORT },
+  server: {
+    port: SERVER_PORT
+  },
   site: BASE_URL,
-  integrations: [
-    sitemap(),
-    tailwind({
-      config: { applyBaseStyles: false },
-    }),
-  ],
+  integrations: [sitemap(), tailwind({
+    config: {
+      applyBaseStyles: false
+    }
+  })],
+  output: "server",
+  adapter: netlify()
 });
