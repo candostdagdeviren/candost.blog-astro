@@ -12,7 +12,7 @@ Every day, I either write one to three pages or rewrite what I wrote the day bef
 
 I'm not tired. I woke up around 6.30 a.m., the same as each day; no difference in my 6-7 hours of sleep. I had my cup of coffee just like yesterday. Yet, something is different.
 
-Today, I don't see myself entitled to write about anything. I think that if I put word after word, everything will be contrived, not trustworthy. This feeling nudges me to read and research more. Feeling inadequate always [pushed me to learn more](https://candost.blog/growth-with-systematic-bliss/) about the topic I'm interested in.
+Today, I don't see myself entitled to write about anything. I think that if I put word after word, everything will be contrived, not trustworthy. This feeling nudges me to read and research more. Feeling inadequate always [pushed me to learn more](/growth-with-systematic-bliss/) about the topic I'm interested in.
 
 Not being able to write about things that I care about is nothing new, not to me and [not to others](https://www.brainpickings.org/2013/05/03/advice-on-writing/). Many great (and not-so-great) writers face this challenge.
 

@@ -8,7 +8,7 @@ external: false
 
 Hi friend! I hope you and everyone you care about are well.
 
-I've spent quite some time with many e-mail tools and this month I'm trying ConvertKit. While writing and publishing on Substack were easy, I wanted to own and have more control over the content I produce. So, I will move out from Substack, use ConvertKit and publish these emails on my [website](https://mediations.candost.blog/) as well.
+I've spent quite some time with many e-mail tools and this month I'm trying ConvertKit. While writing and publishing on Substack were easy, I wanted to own and have more control over the content I produce. So, I will move out from Substack, use ConvertKit and publish these emails on my website as well.
 
 Tools like Substack creates a marketplace and brings discoverability to the table. After choosing to own the content, the effort to make it discoverable is immense. The same applies to [Superpeer](https://superpeer.com/candost) for my live streams. Even though I love Superpeer and its easiness, it's not great for discoverability. I'm considering hosting live streams somewhere other than Superpeer as well. If you have any suggestions, hit the reply button and let me know.
 
@@ -18,7 +18,7 @@ Now, onto the Mektup.
 
 **👌 [Software Development Topics I've Changed My Mind on After 6 Years in the Industry](https://chriskiehl.com/article/thoughts-after-6-years)​**
 
-Every career has stages. Our thoughts and perspectives change, we learn and evolve. We drop some ideas on the way while learning new ones. This is what we call growth. What Chris shared in the article is one of the good examples of growth. I've experienced a similar thought process. I disagree with some of Chris's opinions, such as the ineffectiveness of project managers or calling people weirdos. But, he has good points where we can learn. I also [shared the lessons I learned](https://mediations.candost.blog/p/14-lessons-i-learned-in-10-years/) in my years of experience with the software.
+Every career has stages. Our thoughts and perspectives change, we learn and evolve. We drop some ideas on the way while learning new ones. This is what we call growth. What Chris shared in the article is one of the good examples of growth. I've experienced a similar thought process. I disagree with some of Chris's opinions, such as the ineffectiveness of project managers or calling people weirdos. But, he has good points where we can learn. I also [shared the lessons I learned](/14-lessons-i-learned-in-10-years/) in my years of experience with the software.
 
 **🏅 [How to Be A Sponsor When You're A Developer](https://larahogan.me/blog/how-be-sponsor-when-youre-developer)​**
 
@@ -54,11 +54,11 @@ Growing skills is difficult. There are many tutorials for beginners. But when it
 
 In February, I wrote two articles. I am planning to write more in March.
 
-**🏗 [How to Build Trust in a Team as a New Manager](https://mediations.candost.blog/p/how-to-build-trust-in-a-team-as-a-new-manager/)​**
+**🏗 [How to Build Trust in a Team as a New Manager](/how-to-build-trust-in-a-team-as-a-new-manager/)​**
 
 I'm transitioning into engineering management. I was curious about how a manager can build trust and I asked people around. The pattern around answers was keeping promises, listening, asking questions, and being aware of differences in people. I collected the suggestions from different managers and summed them up in a post.
 
-**🧰 [The Blue-Green Deployment Strategy](https://mediations.candost.blog/p/the-blue-green-deployment-strategy/)​**
+**🧰 [The Blue-Green Deployment Strategy](/the-blue-green-deployment-strategy/)​**
 
 Last month, my curiosity kicked in and I took a look at one deployment strategy. While researching and reading my notes about deploying software, I learned different strategies. What I understood from the blue-green deployment strategy is we duplicate the production environment. We make deploy our latest service and make a quick switch. I explained this strategy with graphics. Also, you can find the differences between blue-green and canary and rolling deployments.
 

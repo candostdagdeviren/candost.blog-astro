@@ -78,4 +78,4 @@ Questions don't always need answers. Sometimes, they have to stay unanswered. Le
 
 ---
 
-Goals are a recurring theme I'm pondering and writing about. Complement this post with [Growth with Systematic Bliss](https://candost.blog/growth-with-systematic-bliss/), [A Life without Problems—The Happiness](https://candost.blog/a-life-without-problems-the-happiness/) and [What Hades Taught Me](https://candost.blog/what-hades-the-game-had-taught-me/).
+Goals are a recurring theme I'm pondering and writing about. Complement this post with [Growth with Systematic Bliss](/growth-with-systematic-bliss/), [A Life without Problems—The Happiness](/a-life-without-problems-the-happiness/) and [What Hades Taught Me](/what-hades-the-game-had-taught-me/).

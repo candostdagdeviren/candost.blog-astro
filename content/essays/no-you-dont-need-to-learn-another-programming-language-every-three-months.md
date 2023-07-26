@@ -32,6 +32,6 @@ By well, I mean, master it. Start learning in the language you already know. Und
 
 After knowing one language, then go to others. When you learn concurrency well in your language, start looking at how other languages handle concurrency, why Kotlin needed to introduce [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) while Rust chose [fearless concurrency](https://doc.rust-lang.org/book/ch16-00-concurrency.html).
 
-Once you change your mindset and start playing the long game, you will see incredible [growth](https://candost.blog/growth-with-systematic-bliss/)--faster than you think. Learning the concepts and mechanisms will make you more **flexible**. You will learn new languages but differently. Since you will be aware of fundamentals, concepts, and structures in various programming languages, you will become a better software engineer.
+Once you change your mindset and start playing the long game, you will see incredible [growth](/growth-with-systematic-bliss/)--faster than you think. Learning the concepts and mechanisms will make you more **flexible**. You will learn new languages but differently. Since you will be aware of fundamentals, concepts, and structures in various programming languages, you will become a better software engineer.
 
-There are many topics you can learn. You still need to [decide what you should focus on next](https://candost.blog/deciding-on-what-you-should-focus-on-next/).
+There are many topics you can learn. You still need to [decide what you should focus on next](/deciding-on-what-you-should-focus-on-next/).

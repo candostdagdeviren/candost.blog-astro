@@ -46,7 +46,7 @@ After many stages, microservices architecture emerged and reversed Conway's law.
 
 For example, having a separate database administrator (DBA) from teams will create software design with one big database. If we want teams to own their portion of the database, we must embed this competency in the team. Once the database ownership belongs to the team, they separate their part of the big database into its own entity they can maintain. That's how Conway's law works in practice.
 
-**Organization design requires technical expertise:** Anyone who makes decisions about organizational structure should at least understand the basics of [software architecture design](https://candost.substack.com/p/how-to-approach-software-architecture-design).
+**Organization design requires technical expertise:** Anyone who makes decisions about organizational structure should at least understand the basics of [software architecture design](/how-to-approach-software-architecture-design).
 
 **Everyone does not need to communicate**: If we want to reduce the coupling between services, we need to make these teams difficult to communicate with each other. When communication is too easy and people (unnecessarily) over-communicate, it reflects on the system design. Although communication is often promoted as a good practice, we need to be mindful if we want this to reflect on our systems. Sometimes keeping communication at a minimum is better if we want the software systems highly separated.
 
@@ -124,7 +124,7 @@ Organizations should treat the platform as a live production system with downtim
 
 ### Team-First Boundaries
 
-How we shape our teams is important when talking about monolithic applications. There are multiple hidden monoliths that define the organizational structure ([I wrote about hidden monoliths here](https://candost.substack.com/p/hidden-monoliths-affect-the-software-design)). These monoliths are not only software but also physical offices, deployment pipelines, tech standardization, build and release strategies, and software development strategies such as monolithic databases or applications.
+How we shape our teams is important when talking about monolithic applications. There are multiple hidden monoliths that define the organizational structure ([I wrote about hidden monoliths here](/hidden-monoliths-affect-the-software-design)). These monoliths are not only software but also physical offices, deployment pipelines, tech standardization, build and release strategies, and software development strategies such as monolithic databases or applications.
 
 ### Team Interaction Modes
 
@@ -166,7 +166,7 @@ We can also use team interaction modes to determine the problems between teams a
 
 Knowing team interaction modes and different team types allows us to design the organization and systems together. Learning about team interaction modes helps us use [Inverse Conway Maneuver](https://www.thoughtworks.com/en-de/radar/techniques/inverse-conway-maneuver) and shape teams as we create systems design.
 
-During the initial organization design, there will be friction between teams and systems. We cannot expect software design to emerge just by designing the teams. That's where temporary roles like [software architect](https://candost.substack.com/p/19-software-architect-role-and-archicture) can be influential. Architects are expected to be technical and have social, product, strategy, and people management skills to drive these organizational changes.
+During the initial organization design, there will be friction between teams and systems. We cannot expect software design to emerge just by designing the teams. That's where temporary roles like [software architect](https://mediations.candost.blog/p/19-software-architect-role-and-archicture) can be influential. Architects are expected to be technical and have social, product, strategy, and people management skills to drive these organizational changes.
 
 ### Evolve Team Structures with Organizational Sensing
 

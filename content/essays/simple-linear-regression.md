@@ -8,7 +8,7 @@ updateDate: 2018-10-06
 external: false
 ---
 
-[In the first post](https://candost.substack.com/p/machine-learning-introduction), we took a look at the types of machine learning (ML) algorithms. The first one was supervised learning. When we think of the word, _supervise_, we guess that we’ll use data that is identified and separated properly (we know what result we get when we give specific input) to create a model. Some examples of supervised learning can be house prediction problems, understanding a handwritten text, and spam mail detection. There are various algorithms in supervised learning. But as the first thing in supervised learning, we’ll start with Linear Regression.
+[In the first post](/machine-learning-introduction), we took a look at the types of machine learning (ML) algorithms. The first one was supervised learning. When we think of the word, _supervise_, we guess that we’ll use data that is identified and separated properly (we know what result we get when we give specific input) to create a model. Some examples of supervised learning can be house prediction problems, understanding a handwritten text, and spam mail detection. There are various algorithms in supervised learning. But as the first thing in supervised learning, we’ll start with Linear Regression.
 
 Linear Regression (LR) is a basic statistical method that applies a linear function to data and predicts a _**scalar**_ value. A commonly used example of this method is predicting house prices.
 

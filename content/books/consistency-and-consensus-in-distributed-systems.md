@@ -12,15 +12,15 @@ external: false
 
 This article is part of my notes from Chapter 0 of [Designing Data-Intensive Applications by Martin Kleppmann](https://dataintensive.net/). You can read other chapter notes as well.
 
-- [Chapter 1: Reliability, Scalability, and Maintainability in Distributed Applications](https://candost.substack.com/p/reliability-maintainability-and-scalability-in-applications)
-- [Chapter 2: Data Models and Query Languages](https://candost.substack.com/p/data-models-and-query-languages)
-- [Chapter 3: Data Storage and Retrieval](https://candost.substack.com/p/data-storage-and-retrieval)
-- [Chapter 4: Encoding, Decoding, Schemas, and Data Evolution](https://candost.substack.com/p/encoding-decoding-schemas-and-data-evolution)
-- [Chapter 5: Data Replication](https://candost.substack.com/p/data-replication-in-distributed-systems)
-- [Chapter 6: Database Partitioning](https://candost.substack.com/p/database-partitioning)
-- [Chapter 7: Transactions](https://candost.substack.com/p/understanding-how-database-transactions-work)
-- [Chapter 8: The Trouble with Distributed Systems](https://candost.substack.com/p/the-trouble-with-distributed-systems)
-- [Chapter 9: Consistency and Consensus](https://mediations.candost.blog/p/consistency-and-consensus-in-distributed-systems)
+- [Chapter 1: Reliability, Scalability, and Maintainability in Distributed Applications](/books/reliability-maintainability-and-scalability-in-applications)
+- [Chapter 2: Data Models and Query Languages](/books/data-models-and-query-languages)
+- [Chapter 3: Data Storage and Retrieval](/books/data-storage-and-retrieval)
+- [Chapter 4: Encoding, Decoding, Schemas, and Data Evolution](/books/encoding-decoding-schemas-and-data-evolution)
+- [Chapter 5: Data Replication](/books/data-replication-in-distributed-systems)
+- [Chapter 6: Database Partitioning](/books/database-partitioning)
+- [Chapter 7: Transactions](/books/understanding-how-database-transactions-work)
+- [Chapter 8: The Trouble with Distributed Systems](/books/the-trouble-with-distributed-systems)
+- [Chapter 9: Consistency and Consensus](/books/consistency-and-consensus-in-distributed-systems)
 - Chapter 10: Batch Processing
 - Chapter 11: Stream Processing
 - Chapter 12: The Future of Data Systems
@@ -35,11 +35,11 @@ So far, we heard about different consistency levels, such as eventual consistenc
 
 The idea behind the linearizability is to make the system appear as if there is only one replica without any replication lag, even though there are multiple replicas behind the scenes. There are subtle details or nuances that impact how linearizability works, but the main idea is that once one client has seen a new value, all other clients should also see that new value and never the old one. Hence, wherever two clients concurrently request data from different replicas, they should see the same data.
 
-Situations such as selecting a leader in a single-leader system demand linearizability. When [discussing](69-The%20Trouble%20with%20Distributed%20Systems.md#The Truth Is Defined By The Majority) single-leader systems, we mentioned that leaders acquire a leader's lock. There shouldn't be any two nodes acquiring the leader's lock simultaneously. All replicas should accept the node which acquires the lock first as their leader.
+Situations such as selecting a leader in a single-leader system demand linearizability. When [discussing](/books/the-trouble-with-distributed-systems#The Truth Is Defined By The Majority) single-leader systems, we mentioned that leaders acquire a leader's lock. There shouldn't be any two nodes acquiring the leader's lock simultaneously. All replicas should accept the node which acquires the lock first as their leader.
 
 Other use cases include choosing a unique username in a user system, selecting seats in a theatre, or booking a seat on a plane. Although these situ­ations are based on one channel (e.g., one service), there can be cross-channel timing dependencies that require linearizability, such as saving an image and using a message queue to resize it to get a thumbnail in parallel (full-size image must be stored before requesting it to resize) to show in the user creation process.
 
-One confusion is quorums. Quorums in [leaderless replication](Data%20Replication%20in%20Distributed%20Systems.md#Leaderless-Replication) seem linearizable, but they are not. If we use a quorum of two (within three nodes), one client can write a new value to node-1, and another client can read from the other two nodes (node-2 and node-3, satisfying quorum of two) concurrently while the writer is processing writes in node-2 and node-3. When a client reads, they see the old value. Quorum is satisfied, but linearizability is not.
+One confusion is quorums. Quorums in [leaderless replication](/books/data-replication-in-distributed-systems#Leaderless-Replication) seem linearizable, but they are not. If we use a quorum of two (within three nodes), one client can write a new value to node-1, and another client can read from the other two nodes (node-2 and node-3, satisfying quorum of two) concurrently while the writer is processing writes in node-2 and node-3. When a client reads, they see the old value. Quorum is satisfied, but linearizability is not.
 
 Multi-leader systems are by nature non-linearizable (they concurrently process write operations).
 
@@ -55,7 +55,7 @@ Additionally, not many systems provide linearizability, not because of availabil
 
 ## Ordering Guarantees
 
-We have seen [the ordering](Data%20Replication%20in%20Distributed%20Systems.md) and [learned](Data%20Storage%20and%20Retrieval.md) [about concurrency](Data%20Replication%20in%20Distributed%20Systems.md) in many places across the book. The information about which operation happened before another helped us to offer [different levels of guarantees](Understanding%20How%20Database%20Transactions%20Work.md). This happened-before is a *comparison operation*. When we want to put everything in total order, we should be able to *compare* certain things somehow. Yet, not everything is comparable.
+We have seen [the ordering](/books/data-replication-in-distributed-systems) and [learned](/books/data-storage-and-retrieval) [about concurrency](/books/data-replication-in-distributed-systems) in many places across the book. The information about which operation happened before another helped us to offer [different levels of guarantees](/books/understanding-how-database-transactions-work). This happened-before is a *comparison operation*. When we want to put everything in total order, we should be able to *compare* certain things somehow. Yet, not everything is comparable.
 
 For example, two mathematical sets are incomparable: how can we compare {a, b} and {b, a}? We can only say they are partially ordered and can think about causally ordering them. So what's different between total order and causality?
 
@@ -71,7 +71,7 @@ It's difficult to track ordering operations and identify causality. If we track 
 
 If each operation is assigned a unique number, we can use these numbers to order operations. For example, if the system has a single leader, this leader can assign each operation a sequence number or timestamp and use these numbers to order operations. In multi-leader or leaderless systems, *each node* can assign a number together with a unique node id to make these operations uniquely identifiable. However, we still have the problem of ordering (or causally relating two operations) across nodes if the system doesn't have a single leader.
 
-Before we solve the problem across nodes, let's look at non-causal sequence number generators. Imagine we have two nodes: one can generate and assign odd numbers, and the other even numbers. This way, we can get unique numbers for each operation, but one node can be used more, and the other node's number can stay behind. Thus, it still doesn't tell us which operation came first. Another method is using timestamps generated by a time-of-day clock. However, it's subject to clock skew, as [we learned before](The%20Trouble%20with%20Distributed%20Systems.md). Another method is using preallocated numbers in each node (e.g., node A uses 1-1000, node B uses 1001-2000). But again, same as even-odd numbering, using preallocated numbers doesn't ensure a causal relationship.
+Before we solve the problem across nodes, let's look at non-causal sequence number generators. Imagine we have two nodes: one can generate and assign odd numbers, and the other even numbers. This way, we can get unique numbers for each operation, but one node can be used more, and the other node's number can stay behind. Thus, it still doesn't tell us which operation came first. Another method is using timestamps generated by a time-of-day clock. However, it's subject to clock skew, as [we learned before](/books/the-trouble-with-distributed-systems). Another method is using preallocated numbers in each node (e.g., node A uses 1-1000, node B uses 1001-2000). But again, same as even-odd numbering, using preallocated numbers doesn't ensure a causal relationship.
 
 To solve all these issues, we have Lamport timestamps. Lamport timestamps are presented as (counter, node-id). As the pair will always be unique, Lamport represents the total order. If the counters are equal, the higher node-id will be greater. As this structure is the same with even/odd numbering, the system uses an extra parameter to satisfy causality requirements. Every node and every client keeps track of the maximum counter it has seen so far and includes the maximum on every request sent.
 
@@ -159,35 +159,18 @@ The algorithms we discussed look similar to Two-Phase Commit (2PC) but are diffe
 #### Limitations of consensus
 
 - Voting on a proposal process is very similar to synchronous replication. The committed data can be lost, as we saw earlier chapter.
-- The consensus requires a strict majority of nodes to operate (as we learned quorums in [the data replication chapter](Data%20Replication%20in%20Distributed%20Systems.md) before). If we have three nodes, we can tolerate one node's failure; in five nodes, two failures. If any network failure happens, the non-majority can be blocked.
+- The consensus requires a strict majority of nodes to operate (as we learned quorums in [the data replication chapter](/books/data-replication-in-distributed-systems) before). If we have three nodes, we can tolerate one node's failure; in five nodes, two failures. If any network failure happens, the non-majority can be blocked.
 - Adding and removing nodes to the system is difficult. Consensus requires a fixed set of nodes (There is dynamic membership, but it's not well understood in the industry.).
-- The consensus relies on timeouts to detect failed nodes. [Unbounded delays](The%20Trouble%20with%20Distributed%20Systems.md) can cost performance due to frequent leader elections.
+- The consensus relies on timeouts to detect failed nodes. [Unbounded delays](/books/the-trouble-with-distributed-systems) can cost performance due to frequent leader elections.
 
 ### Membership and Coordination Services
 
 Zookeeper and etcd are eventually key-value stores, databases that fit into memory (but still write to disk for durability). However, they implement consensus algorithms. What makes them useful is the features they provide, even though application developers rarely interact with them directly (they are used indirectly; e.g., Kafka and HBase use Zookeeper). They provide an interesting set of features:
 
 - **Linearizable atomic operations:** Atomic compare-and-set operations allow implementing a lock: if several nodes try to write, only one will succeed. The consensus comes into play and guarantees that the ope­ration is atomic and linearizable even in node failures (leases are used in locks).
-- **Total ordering of operations:** With [fencing tokens](The%20Trouble%20with%20Distributed%20Systems.md), Zookeeper prevents clients from conflicting with each other. Zookeeper uses total ordering and assigns each operation a monotonically increasing transaction ID and version number.
+- **Total ordering of operations:** With [fencing tokens](/books/the-trouble-with-distributed-systems), Zookeeper prevents clients from conflicting with each other. Zookeeper uses total ordering and assigns each operation a monotonically increasing transaction ID and version number.
 - **Failure detection:** There are periodic heartbeat checks between Zookeeper and the client. If heartbeats fail above timeout time, the client is considered dead (it's called an ephemeral node in Zookeeper).
 - **Change notifications:** Clients can subscribe to changes in Zookeeper instead of requesting information regularly, so they can be notified when a new client joins the cluster.
 Even though only linearizable atomic operations require a consensus algorithm, combining these features makes Zookeeper worthwhile.
 
 Also, Zookeeper can be used to allocate work to nodes. While partitions can join and leave the cluster, they can register or be declared dead on Zookeeper. Using the combination of features listed above, we can automatically implement mechanisms to recover from failures without human intervention. However, this implementation is complex and difficult. That's why Zookeeper and etcd are often used for service discovery. This service discovery doesn't require consen­sus. However, leader election requires consensus, and knowing the leader (discovering) becomes important, and other services can discover the leader via Zookeeper. Hence, some consensus systems support read-only caching replicas. They do not participate in voting and asynchronously receive the all decision log of the consensus algorithm and serve read requests that are not needed to be linearizable.
-
----
-
-This article is part of my notes from Chapter 9 of [Designing Data-Intensive Applications by Martin Kleppmann](https://dataintensive.net/). You can read other chapter notes as well.
-
-- [Chapter 1: Reliability, Scalability, and Maintainability in Distributed Applications](https://candost.substack.com/p/reliability-maintainability-and-scalability-in-applications)
-- [Chapter 2: Data Models and Query Languages](https://candost.substack.com/p/data-models-and-query-languages)
-- [Chapter 3: Data Storage and Retrieval](https://candost.substack.com/p/data-storage-and-retrieval)
-- [Chapter 4: Encoding, Decoding, Schemas, and Data Evolution](https://candost.substack.com/p/encoding-decoding-schemas-and-data-evolution)
-- [Chapter 5: Data Replication](https://candost.substack.com/p/data-replication-in-distributed-systems)
-- [Chapter 6: Database Partitioning](https://candost.substack.com/p/database-partitioning)
-- [Chapter 7: Transactions](https://candost.substack.com/p/understanding-how-database-transactions-work)
-- [Chapter 8: The Trouble with Distributed Systems](https://candost.substack.com/p/the-trouble-with-distributed-systems)
-- [Chapter 9: Consistency and Consensus](https://mediations.candost.blog/p/consistency-and-consensus-in-distributed-systems)
-- Chapter 10: Batch Processing
-- Chapter 11: Stream Processing
-- Chapter 12: The Future of Data Systems

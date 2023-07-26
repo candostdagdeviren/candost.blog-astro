@@ -22,7 +22,7 @@ They are valuable assets because of their accumulated historical and domain know
 
 They can become blockers of innovation. If they just float around the same area without clear priorities, they prevent new things from developing and seeing the light. If you approach them to get their idea or learn why a particular feature of the product is built that way, they surface all the accumulated problems to your face and demotivate you. They suck the energy out of you by bringing up thousands of issues you couldn't foresee.
 
-Yes, you still learn why something has been built that way, but if these tenures are advocates for staying still instead of being consultants for sensible development, you have a hard time changing them. Once tenures are in their [comfort zone](/letter/mektup-14), getting them out is challenging. Moreover, when they get out, it is often not easy for them to [let old things go](The%20Real%20Difficulty%20of%20Engineering%20Leadership%20is%20Not%20What%20They%20Say.md).
+Yes, you still learn why something has been built that way, but if these tenures are advocates for staying still instead of being consultants for sensible development, you have a hard time changing them. Once tenures are in their [comfort zone](/letter/mektup-14), getting them out is challenging. Moreover, when they get out, it is often not easy for them to [let old things go](https://candost.blog/the-real-difficulty-of-engineering-leadership/).
 
 > "I can't stay silent and ignore what's happening when people do all that stupid stuff to the services I designed and developed for years. I created them; these applications are my babies."
 >

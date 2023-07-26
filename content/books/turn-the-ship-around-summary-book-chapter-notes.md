@@ -8,7 +8,7 @@ updateDate: 2023-07-23
 external: false
 ---
 
-_I also interviewed L. David Marquet, the author of the book; you can [listen to the interview here.](https://candost.substack.com/p/sw-21-intent-based-leadership-with-david-marquet)_
+_I also interviewed L. David Marquet, the author of the book; you can [listen to the interview here.](https://mediations.candost.blog/p/sw-21-intent-based-leadership-with-david-marquet)_
 
 > **How Strongly I Recommend It:** 8/10.
 >
@@ -63,7 +63,7 @@ There are significant practical and applicable suggestions and recommendations t
 
 This a great question that everyone needs to think about before saying a word.
 
-Reflection on oneself is a great deal. Learning what kind of [leadership relationship](https://candost.substack.com/p/mektup-29) you would like to create is a process. It takes time and experience. Once you see an excellent leader-leader structure, you cannot stop thinking about how much it empowers.
+Reflection on oneself is a great deal. Learning what kind of [leadership relationship](/newsletter/mektup-29) you would like to create is a process. It takes time and experience. Once you see an excellent leader-leader structure, you cannot stop thinking about how much it empowers.
 
 On the other side, the leader-follower approach is in the bones of the army. Also, a lot of leaders are using the same strategy in their current businesses.
 
@@ -89,7 +89,7 @@ If you want to give ownership, don't just preach and hope for the best. Implemen
 
 #### Communicate Decisions Informally
 
-[Personalization in the language is essential](https://candost.substack.com/p/why-should-leaders-have-good-storytelling-skills-in-reorganizations-or-restructurings). If you constantly talk formally, you remove the sophistication and the touch of personality from the conversation. It also applies to the decisions. Decisions can be formal. But communication of decisions might be better in an informal way.
+[Personalization in the language is essential](/why-should-leaders-have-good-storytelling-skills-in-reorganizations-or-restructurings). If you constantly talk formally, you remove the sophistication and the touch of personality from the conversation. It also applies to the decisions. Decisions can be formal. But communication of decisions might be better in an informal way.
 
 #### Think Out Loud
 
@@ -127,11 +127,11 @@ Approach training as a way to increase decision-making authority. It makes peopl
 
 #### Continually and Consistently Repeat The Message
 
-People forget. If you want people to [change their minds](https://candost.substack.com/p/18-managing-organizational-changes) or apply a new method, there is no other way than continually and consistently repeating the message. They will eventually learn. The problem is not their competence. When you want to give a message that they should follow, what alternative do you have? Changing the message halfway will only create confusion and a lack of direction.
+People forget. If you want people to [change their minds](https://mediations.candost.blog/p/18-managing-organizational-changes) or apply a new method, there is no other way than continually and consistently repeating the message. They will eventually learn. The problem is not their competence. When you want to give a message that they should follow, what alternative do you have? Changing the message halfway will only create confusion and a lack of direction.
 
 #### Specify Goals, Not Methods
 
-Specifying goals instead of methods creates confidence. When people focus on implementing methods to achieve a goal, they get stuck and forget the purpose. They only focus on [implementing the process](https://candost.substack.com/p/mektup-34). [When they focus on goals](/deciding-on-what-you-should-focus-on-next), they use the methods better and even figure out a superior approach.
+Specifying goals instead of methods creates confidence. When people focus on implementing methods to achieve a goal, they get stuck and forget the purpose. They only focus on [implementing the process](/newsletter/mektup-34). [When they focus on goals](/deciding-on-what-you-should-focus-on-next), they use the methods better and even figure out a superior approach.
 
 #### Clarity Is Needed In The Organisation
 
@@ -159,4 +159,4 @@ Empowerment doesn't work without clarity and competence—it also results from t
 
 ---
 
-Complement with [the Exceptional Books, Articles, Videos, and Communities that Made Me A Better Engineering Leader.](https://candost.substack.com/p/mektup-30)
+Complement with [the Exceptional Books, Articles, Videos, and Communities that Made Me A Better Engineering Leader.](/newsletter/mektup-30)

@@ -3,7 +3,6 @@ title: "Generics in Swift"
 description: "As one of the most powerful features in Swift, Generics can be tricky. A lot of people have trouble understanding and using them, especially application developers."
 tags:
   -
-URL: "https://mediations.candost.blog/p/generics-in-swift"
 date: 2017-10-23
 updateDate: 2017-10-23
 external: false
@@ -46,7 +45,6 @@ protocol Company {
 }
 ```
 
-So, we replaced our **actual type** `Product` with **placeholder type** `T`. The **type parameter** `<T>` defines these functions as generics. **Placeholder types** are replaced with **actual types** during compile time. So, the **actual type** will be determined whenever buy and sell functions are used. This provides flexibility to use the same functions for every product. For example, we’ll sell Penne Arrabiata in our Swift Restaurant. We can directly call `sell` function like the following:
 
 ```swift
 let penneArrabiata = swiftRestaurant.sell(product: PenneArrabiata.Self,
@@ -86,7 +84,6 @@ struct PastaPackageList {
 }
 ```
 
-After a while, our manager started to think that we would need to create a list for each item in the restaurant to track them better. Instead of creating separate list structures every time, generics can help us in here. If we define our inventory list as **a generic type**, we can easily create new inventory lists by using the same struct implementation. Same as the generic functions, **type parameter** `<T>` defines our struct as **generic**. So we just need to replace `PastaPackage` the **actual type** with the **placeholder type** `T`.
 
 ```swift
 struct InventoryList<T> {
@@ -253,5 +250,3 @@ extension Storage {
 In Swift 4, subscripts can be generic, and we can use generic where clauses. In our usage, `indices` parameter has to conform `Sequence` protocol. [From Apple doc](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html), “The generic `where` clause requires that the iterator for the sequence must traverse over elements of type `Int`.” This ensures that the indices in the sequence are the same type as the indices used in storage.
 
 ## Final Words
-
-We made our restaurant fully functional. Our manager and The Council seem to be happy. As we can see from our journey, generics are really powerful. We can satisfy extensive requirements with ease using generics once we get the concept. Generics are widely used in the Swift standard library. For instance, [Array](https://developer.apple.com/documentation/swift/array) and [Dictionary](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html#//apple_ref/doc/uid/TP40014097-CH8-ID113) types are both generic collections. If you want to learn more and dive deep, you can always take a look at these classes and how they are implemented. [Swift Language Doc](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html) also provides an extensive explanation for generics. Lastly, Swift language has a [Generic Manifesto](https://github.com/apple/swift/blob/master/docs/GenericsManifesto.md), which explains the features and future direction of generics. I suggest you take a look at all documents to understand current usage and future plans.

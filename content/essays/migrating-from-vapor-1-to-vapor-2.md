@@ -3,7 +3,6 @@ title: "Migration from Vapor 1 to Vapor 2"
 description: "Migration Guide from Vapor 1 to Vapor 2"
 tags:
   -
-URL: "https://mediations.candost.blog/p/migrating-from-vapor-1-to-vapor-2"
 date: 2017-05-21
 updateDate: 2017-05-21
 external: false

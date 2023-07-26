@@ -86,7 +86,7 @@ People who want to create a learning environment, especially leaders.
 
 ### The Good Fight Club: The Psychology of Constructive Criticism
 
-- [Relationship conflicts are worse than task conflicts.](https://candost.substack.com/relationship-vs-task-conflicts/) When people have relationship conflicts, they focus on topics unrelated to work. Their criticism of each other is based on how they behave toward each other. In task conflicts, people focus on the work, and their goal is to find out the best way to do the work. Task conflicts are necessary. Without conflicts, there is no harmony; there is only apathy.
+- [Relationship conflicts are worse than task conflicts.](/relationship-vs-task-conflicts/) When people have relationship conflicts, they focus on topics unrelated to work. Their criticism of each other is based on how they behave toward each other. In task conflicts, people focus on the work, and their goal is to find out the best way to do the work. Task conflicts are necessary. Without conflicts, there is no harmony; there is only apathy.
 - When in task conflicts, we learn from the other side. We learn from people who challenge our thought processes. When we avoid arguments, it doesn't mean that we have good manners; it means we ignore the other side's views and don't value their perspectives.
 - People like others who agree with their perspective more. However, when we say "agree to disagree," we actually avoid these thoughts and put up walls around our ideas. If someone is challenging our thoughts, it means they value our opinion. We need to create cooperative groups that can disagree with each other while showing respect for each other.
 - When people argue about **why** they should do something in one way or another, they cannot bring out the best solutions, and the discussions end up in relationship conflicts. They should have **one common why** and **argue over how** to do it. When discussions happen over how to part, the conflicts tend to stay as task conflicts and be productive. That's why it's crucial to have leaders who clarify the why so that people can focus on the how part.
@@ -116,10 +116,10 @@ People who want to create a learning environment, especially leaders.
 ### Vaccine Whisperers and Mild-Mannered Interrogators: How the Right Kind of Listening Motivates People to Change
 
 - Motivational interviewing consists of
-    - Asking open-ended questions
-    - Engaging in reflective listening
-    - Affirming the person's desire and ability to change
-    - Summarizing
+  - Asking open-ended questions
+  - Engaging in reflective listening
+  - Affirming the person's desire and ability to change
+  - Summarizing
 
 - Listening well is not only listening. It's asking questions, being curious, and responding to other people. If someone just seems like they listen to you, you feel that they are not interested in what you're saying. Listening well requires listening with interest.
 - **The Righting Reflex**: the desire to fix problems and offer answers. An excellent motivational interviewer resists this reflex.
@@ -135,7 +135,7 @@ People who want to create a learning environment, especially leaders.
 - Doubtful experts are more persuasive. When people hear unknowns and uncertainties from the experts they trust, they pay more attention to the argument.
 - Changing the focus from why to how reduces polarization and enables people to have more constructive conversations.
 - Seeing and appreciating complexities remind us that there is no best and most effective behavior, and all of them have consequences.
-- Binary bias is not only in our behavior but also in our emotions. When we face an adversary, it becomes easy to be stuck in one feeling, and [it's difficult to rethink our position](https://candost.substack.com/mektup-27/) later on.
+- Binary bias is not only in our behavior but also in our emotions. When we face an adversary, it becomes easy to be stuck in one feeling, and [it's difficult to rethink our position](/newsletter/mektup-27/) later on.
 
 ### Rewriting the Textbook: Teaching Students to Question Knowledge
 

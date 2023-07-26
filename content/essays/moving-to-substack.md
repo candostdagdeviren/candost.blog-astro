@@ -28,13 +28,13 @@ I’m sorry, but Substack doesn’t allow me to subscribe you to the right newsl
 
 There are four email lists to which I will distribute:
 
-1. [Mediations with Candost](https://candost.substack.com/)
+1. [Mediations with Candost](https://mediations.candost.blog/)
     This section includes all posts I write (excluding Mektup and book notes).
-2. [Mektup](https://candost.substack.com/s/mektup)
+2. [Mektup](https://mediations.candost.blog/s/mektup)
     This is the bi-weekly newsletter that I send as casual letters reflecting my learnings and thoughts about software engineering leadership and life, arriving every second Tuesday.
-3. [Book Notes](https://candost.substack.com/s/book-notes) (BRAND NEW)
+3. [Book Notes](https://mediations.candost.blog/s/book-notes) (BRAND NEW)
     I decided to separate book notes from my main articles and created a new section on my newsletter that you can subscribe to separately.
-4. [Software World with Candost](https://candost.substack.com/s/podcast) (podcast)
+4. [Software World with Candost](https://mediations.candost.blog/s/podcast) (podcast)
 
 **I don’t think I will send more than two emails per week overall; mostly, it will be once a week.** Feel free to unsubscribe from any list you want. By default, you’re subscribed to all of them.
 

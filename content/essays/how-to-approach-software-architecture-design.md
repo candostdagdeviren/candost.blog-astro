@@ -8,9 +8,9 @@ updateDate: 2021-08-17
 external: false
 ---
 
-[If you prefer listening, I have a podcast episode where I talk all about this article.](https://candost.substack.com/p/20-software-architecture-design-systems-903)
+[If you prefer listening, I have a podcast episode where I talk all about this article.](https://mediations.candost.blog/p/20-software-architecture-design-systems-903)
 
-I [talked and wrote](The%20Role%20of%20a%20Software%20Architecture.md) about the software architect role before. The architect's job is eventually a combination of tech lead, software engineer, R&D engineer, and strategist. But how do these responsibilities come together? Working on architecture is a combination of a comprehensive set of skills. This article will discuss what an architect thinks and how an architect approaches the problem before starting with the design.
+I [talked and wrote](https://mediations.candost.blog/p/19-software-architect-role-and-archicture) about the software architect role before. The architect's job is eventually a combination of tech lead, software engineer, R&D engineer, and strategist. But how do these responsibilities come together? Working on architecture is a combination of a comprehensive set of skills. This article will discuss what an architect thinks and how an architect approaches the problem before starting with the design.
 
 We need to understand what type of architecture we are talking about before we dive.
 
@@ -106,4 +106,4 @@ If the architect group is big, the design they produce will also include their c
 
 ## Last Words
 
-Choosing the most suitable architectural characteristics in the application architecture is one of the architects' most difficult decisions. Architects shouldn't aim to create the best architecture; instead, they should aim to have the least bad and most changeable architecture. The design thinking process is the life source for architects to achieve Conceptual Integrity. Using holistic thinking and an inductive approach in various stages of design thinking will also enable architects to [quickly test their ideas](Bias%20Towards%20Action.md) and filter solutions that are not feasible or viable.
+Choosing the most suitable architectural characteristics in the application architecture is one of the architects' most difficult decisions. Architects shouldn't aim to create the best architecture; instead, they should aim to have the least bad and most changeable architecture. The design thinking process is the life source for architects to achieve Conceptual Integrity. Using holistic thinking and an inductive approach in various stages of design thinking will also enable architects to [quickly test their ideas](bias-towards-action) and filter solutions that are not feasible or viable.

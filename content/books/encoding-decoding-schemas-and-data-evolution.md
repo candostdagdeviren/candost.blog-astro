@@ -10,22 +10,23 @@ external: false
 
 This article is part of my notes from Chapter 4 on [Designing Data-Intensive Applications by Martin Kleppmann](https://dataintensive.net/). You can read other chapter notes as well.
 
-- [Chapter 1: Reliability, Scalability, and Maintainability in Distributed Applications](https://candost.substack.com/p/reliability-maintainability-and-scalability-in-applications)
-- [Chapter 2: Data Models and Query Languages](https://candost.substack.com/p/data-models-and-query-languages)
-- [Chapter 3: Data Storage and Retrieval](https://candost.substack.com/p/data-storage-and-retrieval)
-- [Chapter 4: Encoding, Decoding, Schemas, and Data Evolution](https://candost.substack.com/p/encoding-decoding-schemas-and-data-evolution)
-- [Chapter 5: Data Replication](https://candost.substack.com/p/data-replication-in-distributed-systems)
-- [Chapter 6: Database Partitioning](https://candost.substack.com/p/database-partitioning)
-- [Chapter 7: Transactions](https://candost.substack.com/p/understanding-how-database-transactions-work)
-- [Chapter 8: The Trouble with Distributed Systems](https://candost.substack.com/p/the-trouble-with-distributed-systems)
-- [Chapter 9: Consistency and Consensus](https://mediations.candost.blog/p/consistency-and-consensus-in-distributed-systems)
+- [Chapter 1: Reliability, Scalability, and Maintainability in Distributed Applications](/books/reliability-maintainability-and-scalability-in-applications)
+- [Chapter 2: Data Models and Query Languages](/books/data-models-and-query-languages)
+- [Chapter 3: Data Storage and Retrieval](/books/data-storage-and-retrieval)
+- [Chapter 4: Encoding, Decoding, Schemas, and Data Evolution](/books/encoding-decoding-schemas-and-data-evolution)
+- [Chapter 5: Data Replication](/books/data-replication-in-distributed-systems)
+- [Chapter 6: Database Partitioning](/books/database-partitioning)
+- [Chapter 7: Transactions](/books/understanding-how-database-transactions-work)
+- [Chapter 8: The Trouble with Distributed Systems](/books/the-trouble-with-distributed-systems)
+- [Chapter 9: Consistency and Consensus](/books/consistency-and-consensus-in-distributed-systems)
 - Chapter 10: Batch Processing
 - Chapter 11: Stream Processing
 - Chapter 12: The Future of Data Systems
 
+
 ---
 
-[The previous chapter](https://candost.blog/data-storage-and-retrieval/) talked about data storage and different ways to store data. This chapter talks about schemas, encoding, and decoding.
+[The previous chapter](/books/data-storage-and-retrieval/) talked about data storage and different ways to store data. This chapter talks about schemas, encoding, and decoding.
 
 When we look at relational databases, they have one schema defined at any point in time. Non-relational databases, on the other hand, have no schema defined; the data model can be different for each document for the same data in the application.
 

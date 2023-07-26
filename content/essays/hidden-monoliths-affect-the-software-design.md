@@ -24,10 +24,10 @@ Also, I'm sure some organizations are aware of these. An organization can be in 
 
 These organizations make a conscious choice and deliberately take care of their systems by focusing on hidden structures that affect teams and infrastructure.
 
-On the other hand, some organizations don't even have an office, work asynchronously, and yet, develop [monolithic software](https://candost.substack.com/p/splitting-the-monolith) (e.g., the old WordPress system).
+On the other hand, some organizations don't even have an office, work asynchronously, and yet, develop [monolithic software](/splitting-the-monolith) (e.g., the old WordPress system).
 
 If the organizations are aware of their hidden monoliths and work deliberately to alter disadvantages or extend advantages, they can create the software effectively.
 
-Many problems occur when organizations don't even sense that their hidden structures affect their software design. They create a goal themselves (e.g., use [microservices](https://candost.substack.com/p/microservices-and-their-benefits), use monolith, use domain-driven design, etc.) and follow their decision without the holistic picture.
+Many problems occur when organizations don't even sense that their hidden structures affect their software design. They create a goal themselves (e.g., use [microservices](/microservices-and-their-benefits), use monolith, use domain-driven design, etc.) and follow their decision without the holistic picture.
 
 _The solution:_ we need to look around the (virtual) office, systems, and pipelines and analyze how they impact the software and team design. If we are destined to obey Conway's Law, how we design the environment in which our software will be developed and maintained will define our system design.

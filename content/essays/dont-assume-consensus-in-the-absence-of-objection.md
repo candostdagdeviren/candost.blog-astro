@@ -10,7 +10,7 @@ external: false
 
 We all have been in a meeting with a team discussing a challenge in the project. One of the engineers has strong opinions and loudly shares ideas. Around the end, it looks like people start to accept the engineer's ideas. To confirm everyone agrees, the leader repeats the suggestion and asks if there are any objections. Silence appears—that awkward silence. The leader waits for five seconds while thinking that there is a consensus. The words fell from the leader's lips while thinking everyone agreed: "Well, it looks like that's how we are gonna solve this problem."
 
-The leader assumed that everyone was aligned with the decision and reached a consensus, but that was a mistake. Consensus decision-making means everyone explicitly agreeing to the proposed idea. If this is the [decision-making style](https://candost.substack.com/p/the-decision-making-pendulum) a leader is looking for, then they need explicit agreement from everyone.
+The leader assumed that everyone was aligned with the decision and reached a consensus, but that was a mistake. Consensus decision-making means everyone explicitly agreeing to the proposed idea. If this is the [decision-making style](/the-decision-making-pendulum) a leader is looking for, then they need explicit agreement from everyone.
 
 Whenever I see a leader assuming anything, it often turns out wrong. Guessing is one of the biggest leadership mistakes, and it shows that the leader is not carefully listening. Many leaders fail to read the air and to listen proactively with attention to the details. Effective listening consists of listening, asking clarifying questions, reading between the lines, and understanding facial expressions. The last two, reading between the lines and understanding facial expressions, are very difficult. Many leaders struggle with them and start assuming things.
 
@@ -18,7 +18,7 @@ Whenever I see a leader assuming anything, it often turns out wrong. Guessing is
 
 When a leader effectively listens, they discover common patterns that form these silences.
 
-**People avoid confrontation.** Depending on their cultural background, education, the companies they worked for, and personality, people dodge when there is a possibility of [conflict](https://candost.substack.com/p/how-to-solve-and-prevent-conflicts). For example, when working in Turkey, I couldn't imagine myself confronting my boss in a meeting, and it was customary to [have disagreements](https://candost.substack.com/p/explicit-disagreement-is-better-than-implicit-misunderstanding) with peers, not the boss. So, while I disagreed with my boss in a meeting, I stayed silent.
+**People avoid confrontation.** Depending on their cultural background, education, the companies they worked for, and personality, people dodge when there is a possibility of [conflict](/how-to-solve-and-prevent-conflicts). For example, when working in Turkey, I couldn't imagine myself confronting my boss in a meeting, and it was customary to [have disagreements](/explicit-disagreement-is-better-than-implicit-misunderstanding) with peers, not the boss. So, while I disagreed with my boss in a meeting, I stayed silent.
 
 After moving to Germany and _assuming_ many Germans as more contentious than Turks, I thought I wouldn't face a similar situation. However, I was wrong, and I learned that it's all about the environment.
 
@@ -40,4 +40,4 @@ Understanding people's backgrounds, especially underrepresented minority folks',
 
 Assuming consensus makes people feel frustrated and unheard. It also prevents extracting the best results because high-risk problems and mistakes can stay unnoticed. People might have hidden knowledge that can point out errors. When these people don't share their objections or ideas, we increase the risk in our decision.
 
-The awkward silences increased their appearances and became a norm with virtual meetings. These moments create a misconception that everyone agrees with the proposal. Even if consensus is not something the leader is after, it's worth hearing the objections because, in consent or ["safe to try" decisions](https://candost.substack.com/p/how-to-handle-and-overcome-objections-to-your-proposal-at-work), all objections must surface to reduce the risk.
+The awkward silences increased their appearances and became a norm with virtual meetings. These moments create a misconception that everyone agrees with the proposal. Even if consensus is not something the leader is after, it's worth hearing the objections because, in consent or ["safe to try" decisions](/how-to-handle-and-overcome-objections-to-your-proposal-at-work), all objections must surface to reduce the risk.

@@ -11,18 +11,19 @@ external: false
 
 This article is part of my notes from Chapter 5 on [Designing Data-Intensive Applications by Martin Kleppmann](https://dataintensive.net/). You can read other chapter notes as well.
 
-- [Chapter 1: Reliability, Scalability, and Maintainability in Distributed Applications](https://candost.substack.com/p/reliability-maintainability-and-scalability-in-applications)
-- [Chapter 2: Data Models and Query Languages](https://candost.substack.com/p/data-models-and-query-languages)
-- [Chapter 3: Data Storage and Retrieval](https://candost.substack.com/p/data-storage-and-retrieval)
-- [Chapter 4: Encoding, Decoding, Schemas, and Data Evolution](https://candost.substack.com/p/encoding-decoding-schemas-and-data-evolution)
-- [Chapter 5: Data Replication](https://candost.substack.com/p/data-replication-in-distributed-systems)
-- [Chapter 6: Database Partitioning](https://candost.substack.com/p/database-partitioning)
-- [Chapter 7: Transactions](https://candost.substack.com/p/understanding-how-database-transactions-work)
-- [Chapter 8: The Trouble with Distributed Systems](https://candost.substack.com/p/the-trouble-with-distributed-systems)
-- [Chapter 9: Consistency and Consensus](https://mediations.candost.blog/p/consistency-and-consensus-in-distributed-systems)
+- [Chapter 1: Reliability, Scalability, and Maintainability in Distributed Applications](/books/reliability-maintainability-and-scalability-in-applications)
+- [Chapter 2: Data Models and Query Languages](/books/data-models-and-query-languages)
+- [Chapter 3: Data Storage and Retrieval](/books/data-storage-and-retrieval)
+- [Chapter 4: Encoding, Decoding, Schemas, and Data Evolution](/books/encoding-decoding-schemas-and-data-evolution)
+- [Chapter 5: Data Replication](/books/data-replication-in-distributed-systems)
+- [Chapter 6: Database Partitioning](/books/database-partitioning)
+- [Chapter 7: Transactions](/books/understanding-how-database-transactions-work)
+- [Chapter 8: The Trouble with Distributed Systems](/books/the-trouble-with-distributed-systems)
+- [Chapter 9: Consistency and Consensus](/books/consistency-and-consensus-in-distributed-systems)
 - Chapter 10: Batch Processing
 - Chapter 11: Stream Processing
 - Chapter 12: The Future of Data Systems
+
 
 ---
 
@@ -88,7 +89,7 @@ Once we set up a new follower, it's time for it to receive data updates from the
 Each time data is changed, the system replicates data by sending logs from leader to followers in one of the following ways:
 
 - **Statement-based replication:** Replicating every _write statement_ (`INSERT`, `UPDATE`, `DELETE`, etc.) to followers. This method is problematic when there are nondeterministic functions in the statements (e.g., `RAND()` or `NOW()`), when statements use an auto-incrementing column (the order of statements has to be precise in this case), or statements have side effects (unless the side effects are deterministic).
-- **Write-ahead log (WAL) shipping:** [We talked about WAL before with SSTables, LSM-trees, and B-Trees](https://candost.blog/data-storage-and-retrieval/#b-trees). The WAL is append-only, and the leader can send logs to follower replicas; then, the follower builds the exact same data structures as the leader has. WAL shipping is used by PostgreSQL and Oracle. The disadvantage is that it couples data to the storage engine as WAL operates at the byte level. Thus, upgrading storage engines to new versions can be problematic.
+- **Write-ahead log (WAL) shipping:** [We talked about WAL before with SSTables, LSM-trees, and B-Trees](/books/data-storage-and-retrieval/#b-trees). The WAL is append-only, and the leader can send logs to follower replicas; then, the follower builds the exact same data structures as the leader has. WAL shipping is used by PostgreSQL and Oracle. The disadvantage is that it couples data to the storage engine as WAL operates at the byte level. Thus, upgrading storage engines to new versions can be problematic.
 - **Logical (row-based) log replication:** Similar to write-ahead logs, but to decouple storage engine logs and replication, a logical log is used. For a relational database, logical log records actions _per row_. These logs include all columns if a new row is inserted. If a row is deleted, they include enough information to identify the row. If the data is updated, logs include all (or only updated) columns of the row. The decoupling allows us to upgrade the storage engine when needed without much hassle.
 - **Trigger-based replication:** Predefined database replication methods are not enough when we want to customize replication to our use case. Databases offer _write triggers_ for application developers to allow them to do something when a write occurs. App developers can register their codes that are automatically executed when any write action happens.
   Databases implement this method by logging the change to another table that can be read by an external process to replicate the data. Trigger-based replication is more error-prone and has greater overheads.

@@ -65,7 +65,7 @@ OKRs have four superpowers that help any team increase performance and bring tru
 
 #### Focus & Commit to Priorities
 
-OKRs provide focus and commitment to the right priorities. To [figure out the priority](https://candost.substack.com/p/mektup-5), leaders should ask, "what are the most important things we have to focus on in the next three months?" The answer will be the objective.
+OKRs provide focus and commitment to the right priorities. To [figure out the priority](/newsletter/mektup-5), leaders should ask, "what are the most important things we have to focus on in the next three months?" The answer will be the objective.
 
 A leader's job is to make the most important thing—the objective—clear and communicate it with everyone clearly. Everyone in the company must clearly understand the top-level leadership's perspective—goals and what they mean. Leaders have no chance but to repeat and communicate both what is important and why that objective is important until everyone gets it. (commitment)
 
@@ -105,7 +105,7 @@ Having yearly performance cycles doesn't really work because most of the actions
 
 The first action is disconnecting performance review feedback from compensation. The compensation changes should occur once a year (or every six months), while feedback and recognition should be part of daily work. [It all starts with 1:1 conversations between the manager and the direct report.](/effective-1-1-meetings-one-on-one-meeting-template) Research shows that regular (weekly or bi-weekly) one-on-one meetings save time for the direct report (each hour saves two weeks from employees). These meetings should be aimed at the direct report. [It's their meeting, not the manager.](/effective-1-on-1-meetings-own-your-one-on-one-meeting) The manager should talk to the max. 10% of the time. These meetings should be used for goal setting and reflection, ongoing progress updates, two-way coaching, career growth, and lightweight performance reviews.
 
-As we ditch [yearly performance reviews](https://candost.substack.com/p/mektup-19), we need [consistent positive and negative](/importance-of-the-feedback), [timely, specific, and clear feedback](/three-types-of-feedback). It should be 360: between manager and direct report, between peers, and between cross-collaborations.
+As we ditch [yearly performance reviews](/newsletter/mektup-19), we need [consistent positive and negative](/importance-of-the-feedback), [timely, specific, and clear feedback](/three-types-of-feedback). It should be 360: between manager and direct report, between peers, and between cross-collaborations.
 
 The last missing part is recognition; we need to recognize smaller achievements—[shout-outs of simple things](/have-the-first-win-to-build-team-spirit)—so that people get pride in their work. It contributes to team performance as a positive reinforcement. The recognition shouldn't always come from the manager but also peer-to-peer. There can be stories in recognition, too; they provide authenticity and relatedness. Recognition should be frequent, authentic, and tied to company goals and strategies.
 

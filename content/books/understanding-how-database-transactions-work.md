@@ -10,15 +10,15 @@ external: false
 
 This article is part of my notes from Chapter 7 of [Designing Data-Intensive Applications by Martin Kleppmann](https://dataintensive.net/). You can read other chapter notes as well.
 
-- [Chapter 1: Reliability, Scalability, and Maintainability in Distributed Applications](https://candost.substack.com/p/reliability-maintainability-and-scalability-in-applications)
-- [Chapter 2: Data Models and Query Languages](https://candost.substack.com/p/data-models-and-query-languages)
-- [Chapter 3: Data Storage and Retrieval](https://candost.substack.com/p/data-storage-and-retrieval)
-- [Chapter 4: Encoding, Decoding, Schemas, and Data Evolution](https://candost.substack.com/p/encoding-decoding-schemas-and-data-evolution)
-- [Chapter 5: Data Replication](https://candost.substack.com/p/data-replication-in-distributed-systems)
-- [Chapter 6: Database Partitioning](https://candost.substack.com/p/database-partitioning)
-- [Chapter 7: Transactions](https://candost.substack.com/p/understanding-how-database-transactions-work)
-- [Chapter 8: The Trouble with Distributed Systems](https://candost.substack.com/p/the-trouble-with-distributed-systems)
-- [Chapter 9: Consistency and Consensus](https://mediations.candost.blog/p/consistency-and-consensus-in-distributed-systems)
+- [Chapter 1: Reliability, Scalability, and Maintainability in Distributed Applications](/books/reliability-maintainability-and-scalability-in-applications)
+- [Chapter 2: Data Models and Query Languages](/books/data-models-and-query-languages)
+- [Chapter 3: Data Storage and Retrieval](/books/data-storage-and-retrieval)
+- [Chapter 4: Encoding, Decoding, Schemas, and Data Evolution](/books/encoding-decoding-schemas-and-data-evolution)
+- [Chapter 5: Data Replication](/books/data-replication-in-distributed-systems)
+- [Chapter 6: Database Partitioning](/books/database-partitioning)
+- [Chapter 7: Transactions](/books/understanding-how-database-transactions-work)
+- [Chapter 8: The Trouble with Distributed Systems](/books/the-trouble-with-distributed-systems)
+- [Chapter 9: Consistency and Consensus](/books/consistency-and-consensus-in-distributed-systems)
 - Chapter 10: Batch Processing
 - Chapter 11: Stream Processing
 - Chapter 12: The Future of Data Systems
@@ -98,7 +98,7 @@ We may lose an update when two concurrent transactions try to update the same da
 - **Compare-and-set:** In databases that don't provide transactions, we can see this method. When data needs to be modified, the database allows it only if the data is not changed since the operation last read the data. If changed, it restarts the read-modify-write cycle.
 - **Conflict resolution and replication:** Lost updates take another form in replicated databases. Especially in multi-leader and leaderless databases, it's difficult because they distribute data asynchronously. The main strategy used in these systems is to allow conflicts to happen and use application code or special data structures to resolve them. Atomic operations work well if they are commutative (regardless of order, they give the same result).
 
-[Last-Write-Wins (LWW)](Data%20Replication%20in%20Distributed%20Systems.md) ([LWW](https://candost.blog/data-replication-in-distributed-systems/#detecting-concurrent-writes)) method doesn't prevent lost updates, yet, it is the default in many databases.
+[Last-Write-Wins (LWW)](/books/data-replication-in-distributed-systems) ([LWW](/data-replication-in-distributed-systems/#detecting-concurrent-writes)) method doesn't prevent lost updates, yet, it is the default in many databases.
 
 ### Write Skews and Phantom
 
@@ -135,7 +135,7 @@ Of course, this approach has pros and cons, like everything else. The cons of a 
 
 With in-memory data and stored procedures, the throughput is quite fast on single-threaded transactions. Some vendors use stored procedures for replication: instead of replicating data, they run procedures in each replica (with one condition: it has to be deterministic—produce the same results regardless of where they run).
 
-**[Partitioning](55.md)**: With a single thread, we can actually do more. If we can partition the data well, we can assign a separate CPU to each partition and run transactions on partitions in parallel. So, each partition works with single-threaded transactions, but the whole database runs transactions in parallel. Meanwhile, there will be transactions that need to run in multiple partitions. These operations require locks on data. Databases provide support for this operation, but often, databases limit the number of transactions that can run in parallel over multiple partitions. Ultimately, it will depend on the data structure and [partitioning strategy](55.md). If we pick the right structure and partitioning, we can eliminate most of these costly operations.
+**[Partitioning](/books/database-partitioning)**: With a single thread, we can actually do more. If we can partition the data well, we can assign a separate CPU to each partition and run transactions on partitions in parallel. So, each partition works with single-threaded transactions, but the whole database runs transactions in parallel. Meanwhile, there will be transactions that need to run in multiple partitions. These operations require locks on data. Databases provide support for this operation, but often, databases limit the number of transactions that can run in parallel over multiple partitions. Ultimately, it will depend on the data structure and [partitioning strategy](/books/database-partitioning). If we pick the right structure and partitioning, we can eliminate most of these costly operations.
 
 ### Two-Phase Locking (2PL)
 

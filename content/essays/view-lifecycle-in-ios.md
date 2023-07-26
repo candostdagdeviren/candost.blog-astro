@@ -8,13 +8,13 @@ updateDate: 2018-11-18
 external: false
 ---
 
-The next thing after learning [Application Lifecycle](https://candost.substack.com/p/ios-application-lifecycle), the view lifecycle holds an essential position in every iOS developer’s life.
+The next thing after learning [Application Lifecycle](/ios-application-lifecycle), the view lifecycle holds an essential position in every iOS developer’s life.
 
 Each view is created either using storyboards, xibs, or using a programmatic approach. Independent from the approach, truly understanding when the view is created, loaded, appeared, or destroyed helps us to understand our approach deeply while developing the screen designs, animations, and even business logic.
 
 ## Ok, but why do we need to know
 
-When we think about the [application lifecycle](https://candost.substack.com/p/ios-application-lifecycle), we easily see that certain things happen as the application goes to the background, suspended, etc. Whenever the user interacts with the app, some specific action happens, and the app's state may change. However, the view's state may change with any user interaction or any change in the app's data.
+When we think about the [application lifecycle](/ios-application-lifecycle), we easily see that certain things happen as the application goes to the background, suspended, etc. Whenever the user interacts with the app, some specific action happens, and the app's state may change. However, the view's state may change with any user interaction or any change in the app's data.
 
 On the other hand, we might need to manipulate the user interface when there is a particular state transition in the view. For example, if we would like to use custom views and set them to `UIViewController`'s `view`, we have to do it in a `loadView` method. Or, if our design requires us to have minor differences between landscape and portrait mode, we must know when we can make this change in the code. Therefore, understanding all lifecycle methods not only helps us in code but also enables us to be more creative and implement an advanced user interface.
 
@@ -133,7 +133,7 @@ The only important thing to know here is `removeFromSuperview` method. We can 
 
 ## Last Words
 
-Only knowing one of the [application](https://candost.substack.com/p/ios-application-lifecycle), view controller, and view lifecycles are not enough to understand the whole picture and develop a great overview of iOS applications. Grasping the use of lifecycle methods is important to take appropriate actions in certain places, especially working with custom implementations of UIKit classes. Now we know the lifecycles, we can truly understand what is going on behind the scenes in the system and intervene when necessary.
+Only knowing one of the [application](/ios-application-lifecycle), view controller, and view lifecycles are not enough to understand the whole picture and develop a great overview of iOS applications. Grasping the use of lifecycle methods is important to take appropriate actions in certain places, especially working with custom implementations of UIKit classes. Now we know the lifecycles, we can truly understand what is going on behind the scenes in the system and intervene when necessary.
 
 ---
 

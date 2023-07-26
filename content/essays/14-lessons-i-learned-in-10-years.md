@@ -44,11 +44,11 @@ You will not be able to win all the fights. There are places where you have to s
 
 ## 9. Be humble and share your knowledge as much as you can
 
-Create different mediums to share your knowledge. If you have no space for sharing, initiate one. It can be a new Slack channel, weekly meeting, company-wide monthly event, etc. [Build a community around knowledge sharing](https://candost.substack.com/p/managing-partially-distributed-teams). While sharing wisdom, be humble, and do it for other people’s good. Don’t brag. Develop collective knowledge. It is way better than individual knowledge.
+Create different mediums to share your knowledge. If you have no space for sharing, initiate one. It can be a new Slack channel, weekly meeting, company-wide monthly event, etc. [Build a community around knowledge sharing](/managing-partially-distributed-teams). While sharing wisdom, be humble, and do it for other people’s good. Don’t brag. Develop collective knowledge. It is way better than individual knowledge.
 
 ## 10. Don’t assume; always ask and confirm
 
-People are different. They come from different backgrounds, [cultures](https://candost.substack.com/p/high-productivity-and-clear-communication-in-different-cultures), and families. Everyone has a different communication characteristics. Don’t pretend to look like you understand them. Develop empathy. Don’t assume on behalf of other people. Assuming is one of the mistakes everyone makes. When you assume, you are never sure. Always ask your colleagues what they mean. Afterward, repeat what you heard to them. It is the best tactic and works like magic. Every small miscommunication will disappear.
+People are different. They come from different backgrounds, [cultures](/books/high-productivity-and-clear-communication-in-different-cultures), and families. Everyone has a different communication characteristics. Don’t pretend to look like you understand them. Develop empathy. Don’t assume on behalf of other people. Assuming is one of the mistakes everyone makes. When you assume, you are never sure. Always ask your colleagues what they mean. Afterward, repeat what you heard to them. It is the best tactic and works like magic. Every small miscommunication will disappear.
 
 ## 11. Always go with the truth even if you’re alone and the road is full of pain and fear
 

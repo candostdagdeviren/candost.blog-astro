@@ -22,7 +22,7 @@ Organizational restructuring can be frustrating or exciting for different people
 
 On the other hand, when we choose a frustrated tone because people have to move to another team, everyone will be frustrated. Whatever style we choose will reflect on the other side.
 
-If there is transparency and the team knows the background of the decision, it’s okay to rush to the story’s ending. However, if there is a lack of transparency, having the emotional roller coaster becomes the connection we have with our teams. [We have to ride this rollercoaster with them to eliminate their fears.](https://candost.blog/the-must-have-skill-for-every-leader-listening-with-empathy/) They have to feel the correct emotions at the right time. When we hurry and unnecessarily push people, we block their feelings—which can come out later on where we least expect.
+If there is transparency and the team knows the background of the decision, it’s okay to rush to the story’s ending. However, if there is a lack of transparency, having the emotional roller coaster becomes the connection we have with our teams. [We have to ride this rollercoaster with them to eliminate their fears.](/the-must-have-skill-for-every-leader-listening-with-empathy/) They have to feel the correct emotions at the right time. When we hurry and unnecessarily push people, we block their feelings—which can come out later on where we least expect.
 
 ## The Tone of The Message
 
@@ -46,4 +46,4 @@ To eliminate chaos even before it occurs, we have to present the reorganization�
 
 Whenever the narrative, the structure, and the tone are apparent, it gets easier to onboard in the restructurings. When we think about it, even non-fiction books and articles make us feel _something_. These articles and books keep our curiosity alive while feeding us with information. We’re neither writing a book nor an essay, but whatever we announce has to have the story elements to be impactful. Otherwise, it will be only an analytical statement that creates chaos and leaves everyone with mixed feelings.
 
-Complement with listening to [Managing Organizational Changes Podcast Episode](https://candost.blog/podcast/swc-18-managing-organizational-changes-with-jim-allen/), and reading [Communicating Decisions In The Organizations](https://candost.blog/communicating-decisions-in-the-organizations/), [Bias for Action](https://candost.blog/bias-towards-action/), [The Decision-Making Pendulum](https://candost.blog/the-decision-making-pendulum/).
+Complement with listening to [Managing Organizational Changes Podcast Episode](https://mediations.candost.blog/p/18-managing-organizational-changes), and reading [Communicating Decisions In The Organizations](/communicating-decisions-in-the-organizations/), [Bias for Action](/bias-towards-action/), [The Decision-Making Pendulum](/the-decision-making-pendulum/).

@@ -22,9 +22,9 @@ Dropbox recently published [its career framework](https://dropbox.github.io/dbx
 
 ## Personal Growth in All Levels
 
-Junior and mid-level engineers usually cannot perceive [how they can grow](https://candost.substack.com/p/growth-with-systematic-bliss) and [what they should learn](https://candost.substack.com/p/deciding-on-what-you-should-focus-on-next). The framework assists them with options and opportunities and identifies which skills need attention to plan their growth.
+Junior and mid-level engineers usually cannot perceive [how they can grow](/growth-with-systematic-bliss) and [what they should learn](/deciding-on-what-you-should-focus-on-next). The framework assists them with options and opportunities and identifies which skills need attention to plan their growth.
 
-On the upper levels of the ladder, staff and principal engineers can understand the scope of their work to [prioritize their projects more efficiently](https://candost.substack.com/p/prioritization-skills-for-senior-and-staff-software-engineers). I often encounter principal and staff engineers having trouble describing their impact while preparing for performance reviews. The framework provides a basis for discussion about their responsibilities and influence on the company.
+On the upper levels of the ladder, staff and principal engineers can understand the scope of their work to [prioritize their projects more efficiently](/prioritization-skills-for-senior-and-staff-software-engineers). I often encounter principal and staff engineers having trouble describing their impact while preparing for performance reviews. The framework provides a basis for discussion about their responsibilities and influence on the company.
 
 Regardless of the level, all engineers use the framework in performance reviews. Since it defines the minimum expectations, engineers get help to prepare for the review and the promotion case. However, the framework shouldn't be the only criterion in performance reviews and promotions.
 
@@ -40,7 +40,7 @@ The company's leadership group isn't the only one who creates the framework and 
 
 ## Not Every Skill Is Measurable
 
-Some skills listed in the framework will have a vague meaning. Some companies define them as precisely as possible, albeit the skills themselves are difficult to specify and level, especially soft ones. For example, [being an effective communicator](https://candost.substack.com/p/high-productivity-and-clear-communication-in-different-cultures) has different meanings in [different cultures](https://candost.substack.com/p/8-cross-cultural-communication). Finding what effective communication means is the real challenge.
+Some skills listed in the framework will have a vague meaning. Some companies define them as precisely as possible, albeit the skills themselves are difficult to specify and level, especially soft ones. For example, [being an effective communicator](/books/high-productivity-and-clear-communication-in-different-cultures) has different meanings in [different cultures](https://mediations.candost.blog/p/8-cross-cultural-communication). Finding what effective communication means is the real challenge.
 
 ## Be Aware Of The Cultural Differences
 
@@ -54,7 +54,7 @@ There are other trivial bad points that I won't mention in detail because they a
 
 ## It's Getting Ugly: Promotions
 
-Promotions. As exciting as personal growth is for everyone, governing promotions is difficult. It usually involves many people in the decision, and many factors affect the judgment. The ugliest part is that when people [grow their skills](https://candost.substack.com/p/11-learning-and-growing-in-front-end-development#details) and become ready for the next level, there may not be an available seat.
+Promotions. As exciting as personal growth is for everyone, governing promotions is difficult. It usually involves many people in the decision, and many factors affect the judgment. The ugliest part is that when people [grow their skills](https://mediations.candost.blog/p/11-learning-and-growing-in-front-end-development#details) and become ready for the next level, there may not be an available seat.
 
 The company strategy, size, and growth define how many staff+ engineers will be in the company. Although the goal is to grow engineers into staff-level engineers and give them a seat, not everyone can and should be [a staff engineer](https://staffeng.com/). Even though some people may have the necessary skills to level up, it might not happen, and therefore losing the engineer becomes inevitable.
 
@@ -68,7 +68,7 @@ In some teams, such as automation and platform teams, the day-to-day work brings
 
 Unfair challenges lead to unfair evaluations and promotions. Doing fair evaluation is difficult because of not only lacking opportunities but also different interpretations of the framework. Strategies such as involving another manager or director in the assessment can create a consistent evaluation across teams. However, adding these people will generate a bottleneck and result in a higher evaluation time.
 
-Providing the framework and ladder to engineers shines the light on only one part of the career ladder. The other parts, such as becoming [a software architect](https://candost.substack.com/p/19-software-architect-role-and-archicture#details), team lead, engineering manager, and technical product manager, are usually unclear. For example, while Dropbox defines multiple tracks, CircleCI has [only one framework](https://docs.google.com/spreadsheets/d/131XZCEb8LoXqy79WWrhCX4sBnGhCM1nAIz4feFZJsEo/edit#gid=0) for all engineers. Of course, satisfying everyone is impossible. However, once you start implementing a framework for the software engineering track, the others should follow as soon as possible because people have different career goals.
+Providing the framework and ladder to engineers shines the light on only one part of the career ladder. The other parts, such as becoming [a software architect](https://mediations.candost.blog/p/19-software-architect-role-and-archicture), team lead, engineering manager, and technical product manager, are usually unclear. For example, while Dropbox defines multiple tracks, CircleCI has [only one framework](https://docs.google.com/spreadsheets/d/131XZCEb8LoXqy79WWrhCX4sBnGhCM1nAIz4feFZJsEo/edit#gid=0) for all engineers. Of course, satisfying everyone is impossible. However, once you start implementing a framework for the software engineering track, the others should follow as soon as possible because people have different career goals.
 
 After talking about opportunities, evaluations, leveling, and promotions, skipping the salaries would be inappropriate. Although I like having specific salary ranges for each level, there are trade-offs for all approaches. The good side of aligning compensation levels with the career ladder is that it helps underrepresented groups close the pay gap and make managers' lives easier. However, the salary levels also limit engineers' compensation when they reach the top of their titles but are not ready to level up. This whole process can quickly get ugly when the interests start conflicting.
 

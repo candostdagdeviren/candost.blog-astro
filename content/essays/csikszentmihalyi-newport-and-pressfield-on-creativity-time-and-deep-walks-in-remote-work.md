@@ -78,4 +78,4 @@ Csikszentmihalyi, Newport, Pressfield, Kahneman have done many things in their l
 
 When you need to think about and work on an issue, either alone or in collaboration, turn off all notifications, step away from all electronics, grab a pen and paper, and go for a deep walk. Invite a friend if you want to but focus on a single topic at once. You will be surprised by the results.
 
-Complement this with [Growth with Systematic Bliss](https://candost.blog/growth-with-systematic-bliss/), [You are not special](https://candost.blog/the-subtle-art-of-not-giving-a-fuck-book-note-you-are-not-special/) and [Bias for Action](https://candost.blog/bias-towards-action/).
+Complement this with [Growth with Systematic Bliss](growth-with-systematic-bliss/), [You are not special](/books/the-subtle-art-of-not-giving-a-fuck-book-note-you-are-not-special/) and [Bias for Action](/bias-towards-action/).

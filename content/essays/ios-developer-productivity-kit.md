@@ -72,7 +72,7 @@ I just want to mention some libraries that can save you time, literally.
 
 **[TestDrive](https://github.com/JohnSundell/TestDrive)**, **[SwiftLint](https://github.com/realm/SwiftLint/), [Danger](https://github.com/danger/danger)**
 
-I have another **[blog post](https://candost.substack.com/p/using-swiftlint-and-danger-for-swift-best-practices)** about using SwiftLint and Danger; check it out.
+I have another **[blog post](/using-swiftlint-and-danger-for-swift-best-practices)** about using SwiftLint and Danger; check it out.
 
 ### Last But Not Least - OS-wide shortcuts
 

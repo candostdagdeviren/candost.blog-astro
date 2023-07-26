@@ -24,7 +24,7 @@ We were taught the economy of scale: the more, the merrier. Especially industry 
 
 We can think about everything we do as a system that operates independently. The global economy is a system in the same way a country's economy or a company is a system. Each system is part of a bigger system, has its subsystems, and, at the same time, works semi-independently of other systems.
 
-A software engineering team is also a system. It has its own processes, projects, working style, resources, [people](https://mediations.candost.blog/p/mektup-35), rhythm, and limitations. The output of this system is what the team delivers. Adding one more engineer to an already-full team will increase only one parameter—the number of engineers. However, it *may* or *may not* increase delivery capacity due to increased complexity in processes, communication, and team rituals.
+A software engineering team is also a system. It has its own processes, projects, working style, resources, [people](/newsletter/mektup-35), rhythm, and limitations. The output of this system is what the team delivers. Adding one more engineer to an already-full team will increase only one parameter—the number of engineers. However, it *may* or *may not* increase delivery capacity due to increased complexity in processes, communication, and team rituals.
 
 Many organizations assume they will operate well if they hire more people. I believe this thinking is flawed. If a team has enough engineers, the constraints are somewhere else. If the team is staffed, they will still have many other challenges in delivery.
 

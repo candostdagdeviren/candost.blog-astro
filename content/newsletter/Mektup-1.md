@@ -61,7 +61,7 @@ All marketing campaigns have a big chance of failure if we don’t understand ou
 
 If you want to find out where to focus on marketing and create a better plan, watch it on [YouTube](https://www.youtube.com/watch?v=rYYaO_02bxk) or listen on [Spotify](https://open.spotify.com/episode/0FS7bhGltsUM3ZUrZroQTU?si=lin0qwY8RdKJFc4TLa_awg), [Apple Podcasts](https://podcasts.apple.com/de/podcast/software-world-with-candost/id1548135276?l=en&i=1000505240591), or on [other platforms](https://anchor.fm/candost/episodes/5-Startup-Marketing---Peri-Kadaster-eosq0a/a-a4b66gl).
 
-**[How to Be A Working Student in Tech](/podcasts/2-how-engineering-teams-work-with-product-teams)**
+**[How to Be A Working Student in Tech](https://mediations.candost.blog/2-how-engineering-teams-work-with-product-teams)**
 
 Nobody cares about students in companies, yet they are the future and fundamental part of our knowledge. Students face many problems, including low salary, learning, being disregarded. If these students are ex-pats, then many other challenges come into play, such as visa restrictions. Oksana and I talked about her journey from Ukraine to Germany and working while studying.
 
@@ -73,7 +73,7 @@ Watch it on [YouTube](https://www.youtube.com/watch?v=zWZaLvvr33s), or listen o
 
 **[Diversity in Tech is a First World Problem](/diversity-in-tech-is-a-first-world-problem)**
 
-We had [a talk with Yasemin](https://mediations.candost.blog/p/3-diversity-gender-discrimination#details) about diversity, gender discrimination, and women in tech before. Some people might deny the problem and don't care about it at all. At the same time, many people are aware of the problem, and they try to be inclusive as much as they can. Yet, some of them find themselves in their comfort zone, and they stop pushing about diversity. This loosening happens more often in first-world countries because the third-world countries haven't set up the foundations yet. I [wrote a piece](https://candost.substack.com/p/diversity-in-tech-is-a-first-world-problem) about the need to leave my comfort zone. We should increase the diversity, but not forget that other communities need help to solve more significant problems. If we can create more opportunities for more people, eventually, we can increase diversity anywhere.
+We had [a talk with Yasemin](https://mediations.candost.blog/p/3-diversity-gender-discrimination#details) about diversity, gender discrimination, and women in tech before. Some people might deny the problem and don't care about it at all. At the same time, many people are aware of the problem, and they try to be inclusive as much as they can. Yet, some of them find themselves in their comfort zone, and they stop pushing about diversity. This loosening happens more often in first-world countries because the third-world countries haven't set up the foundations yet. I [wrote a piece](/diversity-in-tech-is-a-first-world-problem) about the need to leave my comfort zone. We should increase the diversity, but not forget that other communities need help to solve more significant problems. If we can create more opportunities for more people, eventually, we can increase diversity anywhere.
 
 **[How to Stop Endless and Meaningless Discussions](/how-to-stop-endless-discussions)**
 

@@ -8,7 +8,7 @@ updateDate: 2023-01-25
 external: false
 ---
 
-> How would you explain the "Shift Left on Security" [to a five years old kid](The%20Power%20of%20Simplicity—ELI5.md)?
+> How would you explain the "Shift Left on Security" to a five years old kid?
 
 That was a question that we had to answer in a group exercise at SumUp lately. Each group in an 80-people workshop took a few of the 24 capabilities that drive improvements in software delivery performance from the book Accelerate.
 
@@ -42,4 +42,4 @@ When InfoSec experts are involved in software design, we can build safer systems
 
 ![Involving InfoSec experts in every stage.](/images/content/essays/shift-left-on-security/Shift-Left-on-Security-4.jpg)
 
-However, it's not feasible to involve security experts in every single project as that will require a lot of effort both in communication and decision-making. Instead, we can leverage [the Enabling Team Topology from Team Topologies](https://candost.blog/team-topologies-book-review-summary-and-notes/#enabling-teams). InfoSec folks can join the team in the early stages to guide and improve their knowledge of information security. This way, both the team developing systems learn more about designing and developing secure applications, and InfoSec folks succeed at elevating the knowledge and systems in the company. As a result, the organization benefits from having fewer vulnerabilities.
+However, it's not feasible to involve security experts in every single project as that will require a lot of effort both in communication and decision-making. Instead, we can leverage [the Enabling Team Topology from Team Topologies](/books/team-topologies-book-review-summary-and-notes/#enabling-teams). InfoSec folks can join the team in the early stages to guide and improve their knowledge of information security. This way, both the team developing systems learn more about designing and developing secure applications, and InfoSec folks succeed at elevating the knowledge and systems in the company. As a result, the organization benefits from having fewer vulnerabilities.

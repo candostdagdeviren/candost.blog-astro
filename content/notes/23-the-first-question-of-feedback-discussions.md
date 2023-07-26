@@ -17,7 +17,7 @@ Use it. You won't regret it.
 
 Before giving any feedback, ask the person how they would like to receive the feedback and in which format—for both negative and positive feedback. Each person is different and wants a different style.
 
-Many people want to receive negative feedback in private and praise in public. However, don't put everyone in the same basket. Many [cultural influences](https://candost.blog/podcast/8-cross-cultural-communication/) impact people's styles.
+Many people want to receive negative feedback in private and praise in public. However, don't put everyone in the same basket. Many [cultural influences](https://mediations.candost.blog/p/8-cross-cultural-communication) impact people's styles.
 
 Some people are okay with receiving negative feedback in front of others. But they might not be okay with sharing praise in public. Some folks want to receive feedback in written form upfront to digest it and think about it before talking with you about your feedback.
 

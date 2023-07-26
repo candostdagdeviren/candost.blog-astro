@@ -24,7 +24,7 @@ After testing and making sure the green is working correctly, we route all traff
 
 ![New version is in use](/images/content/essays/blue-green-deployment/BlueGreenDeployment6.png)
 
-When we fully transfer the traffic to the new version, we can destroy or recycle the old blue instances. However, we might prefer to keep the blue [service](https://candost.substack.com/p/microservices-and-their-benefits) for a while to revert if we face problems with the new green one. One of the continuous delivery goals is to bring the code to production as fast as possible with low risk. It means that the rollback is necessary in case things go south. When we discover the green version is broken, it's easy to roll back to the blue version.
+When we fully transfer the traffic to the new version, we can destroy or recycle the old blue instances. However, we might prefer to keep the blue [service](/books/microservices-and-their-benefits) for a while to revert if we face problems with the new green one. One of the continuous delivery goals is to bring the code to production as fast as possible with low risk. It means that the rollback is necessary in case things go south. When we discover the green version is broken, it's easy to roll back to the blue version.
 
 The blue-green deployment comes with the challenge of handling the database and persistence layer between two easily switchable environments. We can manage this by separating [database schema](https://www.wikiwand.com/en/Database_schema) deployment from service deployment. We can deploy the new database schema and migrate the data to the new schema in a blue environment. Once everything is successful, we can switch the service from blue to green.
 
