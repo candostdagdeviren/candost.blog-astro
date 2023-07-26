@@ -3,11 +3,11 @@ import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
-/* 
+/*
   We are doing some URL mumbo jumbo here to tell Astro what the URL of your website will be.
   In local development, your SEO meta tags will have localhost URL.
   In built production websites, your SEO meta tags should have your website URL.
-  So we give our website URL here and the template will know what URL to use 
+  So we give our website URL here and the template will know what URL to use
   for meta tags during build.
   If you don't know your website URL yet, don't worry about this
   and leave it empty or use localhost URL. It won't break anything.
@@ -38,6 +38,6 @@ export default defineConfig({
       applyBaseStyles: false
     }
   })],
-  output: "server",
+  output: "hybrid",
   adapter: netlify()
 });
