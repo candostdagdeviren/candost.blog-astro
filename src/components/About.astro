@@ -46,19 +46,21 @@ const sortedBookNotes = bookNotes
 
 ---
 
-<p class="mb-10">I used to think reading would help me learn. One day, ten pages before finishing a book, I realized I had read that book before. At that point, I decided to change a few things. On this website, you'll find how I evolved, what I learned, and my reflections on the complicated life, software engineering, leadership, and world.</p>
+<p class="mb-5">I used to think reading would help me learn. One day, ten pages before finishing a book, I realized I had read that book before. At that point, I decided to change a few things.</p>
+
+<p class="mb-10">On this website, you'll find how I evolved, what I learned, and my reflections on the complicated life and how I navigate my life with things I mentioned above.</p>
 
 <h2 class="fa-lg mb-20">Want the longer story? <small>See <a href="/about">my "about" page</a>.</small></h2>
 
-
 <h2  class="fa-lg mb-20">What am I Doing Now? <small>See <a href="/now">my "now" page</a>.</small></h2>
-
 
 <h2 class="fa-xl mb-5">Mediations Newsletter</h2>
 <p>I always feel like I'm mediating (or maybe negotiating) between multiple aspects and constraints of the complicated life and searching for the balance between leadership, software engineering, personal life, and the world.</p>
-<p class="mt-5">I share my thoughts on my newsletter. You can subscribe below. I send essays and book notes as email via the same newsletter too. You can also get everything via <a href={`${SITE_URL}/rss.xml`}>RSS</a>.</p>
+<p class="mt-5">I share my thoughts on my newsletter. You can subscribe below. I send essays and book notes as email via the same newsletter too.</p>
 
-<iframe class="mb-20 mt-10" src="https://mediations.candost.blog/embed" width="100%" height="160"></iframe>
+<iframe class="mt-10" src="https://mediations.candost.blog/embed" width="100%" height="160"></iframe>
+
+<p class="mb-20 mt-5">You can also get everything on this blog via <a href={`${SITE_URL}/rss.xml`}>RSS</a>.</p>
 
 <h2 class="fa-xl mb-5">Newest Essays <small><a href="/essays">SEE ALL</a></small></h2>
 <ul>
@@ -117,7 +119,7 @@ const sortedBookNotes = bookNotes
   <h2 class="fa-xl mt-20 mb-5">Podcast <small><a href="/essays">SEE ALL</a></small></h2>
   <em><p>Software World Podcast uncovers journeys of people and software systems. I sometimes interview the uncelebrated (or famous) experts or sometimes talk alone about a topic I'm researching or thinking about.</p></em>
 
-    <p class="fa-lg mt-10 mb-10">Latest Episode:
+    <p class="fa-m mt-10 mb-10">
         {
           sortedEpisodes.map((post) => {
             return (
@@ -131,7 +133,7 @@ const sortedBookNotes = bookNotes
                           from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
                         "
                     >
-                      <span>{post.frontmatter.title}</span>
+                      <span><u>Latest Episode:</u> {post.frontmatter.title}</span>
                     </a>
                   )})
                 </p>
@@ -201,10 +203,3 @@ const sortedBookNotes = bookNotes
     })
   }
 </ul>
-
-
-<h2 class="fa-xl mt-20 mb-5">Want to reach me?</h2>
-  <em><p>
-    Send me a good old email at candost[at]candostdagdeviren[dot]com.
-    </p>
-  </em>
