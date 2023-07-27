@@ -1,5 +1,5 @@
 ---
-title: "What I learned About Getting Better at Giving Talks and Presentations"
+title: "What I Learned About Getting Better at Giving Talks and Presentations"
 description: "After years of reading about, learning, and trying public speaking in different forms, here is what I have found."
 tags:
   -
