@@ -1,12 +1,15 @@
 ---
 title: "Bias For Action"
 description: "Having a bias to action is more helpful than discussing and researching everything prior. Quantity beats quality in learning. Action beats perfection."
+ogImagePath: /images/banners/essays/Bias-for-Action.jpg
 tags:
   -
 date: 2021-09-08
 updateDate: 2021-09-08
 external: false
 ---
+
+
 
 I always thought that we needed to learn all of the fundamentals of a topic before taking any action. It was the approach I took as a software engineer. I spent my whole life going down rabbit holes, researching, learning, and coming up with solutions that substantially solved the problem. I was wrong. All I needed was action.
 
