@@ -39,5 +39,11 @@ export default defineConfig({
     }
   })],
   output: "hybrid",
-  adapter: netlify()
+  adapter: netlify(),
+  redirects: {
+    "/rss": "/rss.xml",
+    "/podcast/rss": "/rss.xml",
+    "/books/rss": "/rss.xml",
+    "/microservices-and-their-benefits": "/books/microservices-and-their-benefits",
+  }
 });
