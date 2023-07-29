@@ -17,7 +17,7 @@ const SERVER_PORT = 3000;
 // the url to access your blog during local development
 const LOCALHOST_URL = `http://localhost:${SERVER_PORT}`;
 // the url to access your blog after deploying it somewhere (Eg. Netlify)
-const LIVE_URL = "https://yourwebsiteurl.com";
+const LIVE_URL = "https://candost.blog";
 // this is the astro command your npm script runs
 const SCRIPT = process.env.npm_lifecycle_script || "";
 const isBuild = SCRIPT.includes("astro build");
@@ -42,8 +42,10 @@ export default defineConfig({
   adapter: netlify(),
   redirects: {
     "/rss": "/rss.xml",
-    "/podcast/rss": "/rss.xml",
-    "/books/rss": "/rss.xml",
+    "/podcast/rss": "/podcast/rss.xml",
+    "/newsletter/rss": "/newsletter/rss.xml",
+    "/books/rss": "/books/rss.xml",
+    "/notes/rss": "/notes/rss.xml",
     "/microservices-and-their-benefits": "/books/microservices-and-their-benefits",
   }
 });
