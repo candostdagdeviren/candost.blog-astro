@@ -22,6 +22,7 @@ const sortedPosts = posts
 <PageLayout>
   <PageMeta title={`Essays | ${SITE_TITLE}`} slot="meta" />
   <section slot="main">
+    <p class="mt-5 mb-10">You can get all essays via <a href="/essays/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
     <ul>
       {
         sortedPosts.map((post) => {
