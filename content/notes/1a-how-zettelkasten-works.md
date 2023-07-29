@@ -1,0 +1,31 @@
+---
+title: "1a: How Zettelkasten Method Works"
+tags:
+  - zettelkasten
+  - note-taking
+date: 2022-11-28
+updateDate: 2023-07-29
+external: false
+---
+
+Make a fleeting note. Whatever comes to your mind, write it down. No structure or full sentences are needed. It's for you to remember.
+
+Make literature notes: Write what you've learned and don't want to forget. Use your own words. Keep it short—no structure or full sentences are needed here as well. Keep bibliographic details together with the note.
+
+Ideally, once a day, go through fleeting and literature notes and make them permanent by writing them down as you are writing for someone else with full sentences.
+
+And put the note behind the related note or the latest one if there is no related one exists. Scan your slip box and add links to existing notes where you think the new note is somehow related. Make sure you will find the new note either via a link from an index note or via an entry point note about a discussion or topic that is linked to the index.
+
+Develop topics, questions, and research bottom up by using these notes. Check what is missing, and fill them up by doing more research and reading. You don't need any brainstorming on the topic. Find the chain in the notes.
+
+Look at all the notes and find connections. Copy them to “desktop” to work on them. Don't directly work on them since this will change the previous notes.
+
+Create a draft. Don't copy things from previous notes. Translate them into something that is related to your argument.
+
+Edit and proofread the document and share. Go to the next topic.
+
+---
+
+- **Previous Note:** [1: Why do we bother to write?](/notes/1-why-do-we-bother-to-write)
+- **Next Note:** [1b: Writing by Hand](/notes/1b-writing-by-hand)
+- **Related Posts:** [How to Stop Endless Discussions](/how-to-stop-endless-discussions), [Why is Writing Important?](/why-is-writing-important)

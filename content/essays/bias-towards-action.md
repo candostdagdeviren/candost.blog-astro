@@ -10,7 +10,6 @@ external: false
 ---
 
 
-
 I always thought that we needed to learn all of the fundamentals of a topic before taking any action. It was the approach I took as a software engineer. I spent my whole life going down rabbit holes, researching, learning, and coming up with solutions that substantially solved the problem. I was wrong. All I needed was action.
 
 Everything started with how the education system shaped my whole life. It is unimaginable. Each day I come across surprises. How the system teaches you to do homework defines your go-to strategy for implementing projects at work. The communication and decision style of the teacher becomes your default style when you collaborate with your colleagues.

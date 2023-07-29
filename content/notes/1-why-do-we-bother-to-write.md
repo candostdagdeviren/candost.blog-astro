@@ -15,3 +15,9 @@ There are many reasons why we must write:
 - Writing frees the mind from clutter; opens new places for fresh ideas. Whatever we write, we don't have to think about it anymore. It's written, shaped, and out of our minds. We now have more room for new thoughts.
 - Writing is creating. We make connections between ideas when we start writing more and more. Creating a network of thoughts not only helps to reflect our minds but also improves our thought processes. We generate new ideas when we connect written ideas.
 - Writing is sharing. A written idea is not always individual. We share them with others. We get feedback and open more discussions about the topics we write. We create communities, enhance the knowledge of the community and move forward.
+
+---
+
+- **Next Note:** [1a: How Zettelkasten Works](/notes/1a-how-zettelkasten-works)
+- **Related Notes:**
+- **Related Posts:** [How to Stop Endless Discussions](/how-to-stop-endless-discussions), [Why is Writing Important?](/why-is-writing-important)
