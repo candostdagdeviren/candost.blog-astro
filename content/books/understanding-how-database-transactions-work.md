@@ -98,7 +98,7 @@ We may lose an update when two concurrent transactions try to update the same da
 - **Compare-and-set:** In databases that don't provide transactions, we can see this method. When data needs to be modified, the database allows it only if the data is not changed since the operation last read the data. If changed, it restarts the read-modify-write cycle.
 - **Conflict resolution and replication:** Lost updates take another form in replicated databases. Especially in multi-leader and leaderless databases, it's difficult because they distribute data asynchronously. The main strategy used in these systems is to allow conflicts to happen and use application code or special data structures to resolve them. Atomic operations work well if they are commutative (regardless of order, they give the same result).
 
-[Last-Write-Wins (LWW)](/books/data-replication-in-distributed-systems) ([LWW](/data-replication-in-distributed-systems/#detecting-concurrent-writes)) method doesn't prevent lost updates, yet, it is the default in many databases.
+[Last-Write-Wins (LWW)](/books/data-replication-in-distributed-systems) ([LWW](/books/data-replication-in-distributed-systems/#detecting-concurrent-writes)) method doesn't prevent lost updates, yet, it is the default in many databases.
 
 ### Write Skews and Phantom
 
