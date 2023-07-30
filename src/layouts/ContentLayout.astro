@@ -13,14 +13,16 @@ import ThemeScript from "./ThemeScript.astro";
 import Favicon from "./Favicon.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { SITE_URL } from "src/config";
 
 export interface Props {
   title: string;
   date: Date;
   updateDate: Date;
+  slug: string
 }
 
-const { title, date, updateDate } = Astro.props;
+const { title, date, updateDate, slug } = Astro.props;
 const formattedDate = new Date(date).toISOString().slice(0,10);
 const formattedUpdateDate = new Date(updateDate).toISOString().slice(0,10);
 ---
@@ -54,7 +56,11 @@ const formattedUpdateDate = new Date(updateDate).toISOString().slice(0,10);
           </span>
         </h1>
         <slot name="content" />
-        <p class="fa-pull-right fa-2xs block leading-[1.75] mt-9 mb-[2em] text-text-muted">Published at {formattedDate} | Last Updated at {formattedUpdateDate}</p>
+
+        {(slug !== "about/") ? <p class="fa-pull-right mb-[2em] text-text-muted" style="font-size: 0.7em;">Published at {formattedDate} | Last Updated at {formattedUpdateDate}</p> : <p></p> }
+
+        {(slug == "about/" || slug == "now/") ? <p></p> : <p class="pt-[3em] text-text-muted">Reply via: <a href="https://hachyderm.io/@candost" target=”_blank”>Mastodon</a>, <a href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${SITE_URL}/${slug}` target=”_blank”>Email</a></p>}
+
       </section>
     </main>
     <Footer />

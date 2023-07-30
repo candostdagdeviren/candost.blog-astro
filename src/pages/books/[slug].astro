@@ -44,7 +44,12 @@ const canonicalURL =
 
 ---
 
-<ContentLayout title={frontmatter.title} date={frontmatter.date} updateDate={frontmatter.updateDate}>
+<ContentLayout
+  title={frontmatter.title}
+  date={frontmatter.date}
+  updateDate={frontmatter.updateDate}
+  slug={`books/${slug}`}
+  >
   <BlogPostMeta
     title={frontmatter.title}
     description={frontmatter.external ? undefined : frontmatter.description}

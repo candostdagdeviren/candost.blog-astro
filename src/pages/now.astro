@@ -12,7 +12,7 @@ const { content, frontmatter } = await readOne({
 });
 ---
 
-<ContentLayout title={frontmatter.title} date={frontmatter.date} updateDate={frontmatter.updateDate}>
+<ContentLayout title={frontmatter.title} date={frontmatter.date} updateDate={frontmatter.updateDate} slug="now/">
   <BlogPostMeta
     title={frontmatter.title}
     publishDate={frontmatter.date.toISOString()}
