@@ -34,7 +34,7 @@ In February, I had amazing guests in my live streams. If you want to join one of
 
 **🌈 [Cross-Cultural Communication in Engineering Teams](https://mediations.candost.blog/p/8-cross-cultural-communication#details)​**
 
-Living abroad or working with people from around the globe has many challenges. People carry their cultures with them. Erin Meyer maps them to eight scales in the book The Culture Map. I'm a fan of that book and [wrote about it before](/high-productivity-and-clear-communication-in-different-cultures/). We created our team's culture map at work. And what we realized is that we can understand why people behave in a certain way. Right now, our team's map guides us in our communication. Felipe and I talked about our experiences with these eight scales and working as an ex-pat.
+Living abroad or working with people from around the globe has many challenges. People carry their cultures with them. Erin Meyer maps them to eight scales in the book The Culture Map. I'm a fan of that book and [wrote about it before](/books/high-productivity-and-clear-communication-in-different-cultures/). We created our team's culture map at work. And what we realized is that we can understand why people behave in a certain way. Right now, our team's map guides us in our communication. Felipe and I talked about our experiences with these eight scales and working as an ex-pat.
 
 **👩‍💻 [Engineering Career Path](https://mediations.candost.blog/p/9-engineering-career-path#details)​**
 

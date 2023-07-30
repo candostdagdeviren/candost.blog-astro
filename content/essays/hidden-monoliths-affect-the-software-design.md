@@ -24,7 +24,7 @@ Also, I'm sure some organizations are aware of these. An organization can be in 
 
 These organizations make a conscious choice and deliberately take care of their systems by focusing on hidden structures that affect teams and infrastructure.
 
-On the other hand, some organizations don't even have an office, work asynchronously, and yet, develop [monolithic software](/splitting-the-monolith) (e.g., the old WordPress system).
+On the other hand, some organizations don't even have an office, work asynchronously, and yet, develop [monolithic software](/books/splitting-the-monolith) (e.g., the old WordPress system).
 
 If the organizations are aware of their hidden monoliths and work deliberately to alter disadvantages or extend advantages, they can create the software effectively.
 

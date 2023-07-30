@@ -18,7 +18,7 @@ In Blue-Green Deployment, the transition to the new version of the app is gradua
 
 When we want to deploy a new version, a.k.a. green, we create a new environment close to production and deploy our new version into it.
 
-![New Version Deployed](/public/images/content/essays/blue-green-deployment/BlueGreenDeployment5.png)
+![New Version Deployed](/images/content/essays/blue-green-deployment/BlueGreenDeployment5.png)
 
 After testing and making sure the green is working correctly, we route all traffic to the new version.
 

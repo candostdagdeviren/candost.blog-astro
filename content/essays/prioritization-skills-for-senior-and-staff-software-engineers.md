@@ -16,7 +16,7 @@ In this article, I will help you to identify what's changing when you grow and h
 
 ## Prioritization Struggle of Growing Engineers
 
-When you are a junior, you get tasked with smaller work. The boss or seniors ask you to “work on task X,” “fix a bug,” or “implement a new feature.” The expectations from you are finishing the task on time and learning from it. During this time, you get support from senior engineers and managers. They will help you grow not only in technical skills but also in other skills, such as prioritization, stakeholder management, and [breaking down the work into smaller chunks](/why-should-you-deploy-your-code-in-smaller-chunks-and-release-software-often).
+When you are a junior, you get tasked with smaller work. The boss or seniors ask you to “work on task X,” “fix a bug,” or “implement a new feature.” The expectations from you are finishing the task on time and learning from it. During this time, you get support from senior engineers and managers. They will help you grow not only in technical skills but also in other skills, such as prioritization, stakeholder management, and [breaking down the work into smaller chunks](/newsletter/mektup-6).
 
 With becoming a senior, you start working on stories and epics and, later on, projects. The expectations grow, and you become more autonomous; without needing someone else, you can break down and complete a new project end-to-end while helping others. Your freedom and power increase, and you need to learn how to control them.
 
