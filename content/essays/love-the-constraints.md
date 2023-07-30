@@ -24,7 +24,7 @@ We were taught the economy of scale: the more, the merrier. Especially industry 
 
 We can think about everything we do as a system that operates independently. The global economy is a system in the same way a country's economy or a company is a system. Each system is part of a bigger system, has its subsystems, and, at the same time, works semi-independently of other systems.
 
-A software engineering team is also a system. It has its own processes, projects, working style, resources, [people](/newsletter/mektup-35), rhythm, and limitations. The output of this system is what the team delivers. Adding one more engineer to an already-full team will increase only one parameter—the number of engineers. However, it *may* or *may not* increase delivery capacity due to increased complexity in processes, communication, and team rituals.
+A software engineering team is also a system. It has its own processes, projects, working style, resources, [people](/newsletter/mektup-35/), rhythm, and limitations. The output of this system is what the team delivers. Adding one more engineer to an already-full team will increase only one parameter—the number of engineers. However, it *may* or *may not* increase delivery capacity due to increased complexity in processes, communication, and team rituals.
 
 Many organizations assume they will operate well if they hire more people. I believe this thinking is flawed. If a team has enough engineers, the constraints are somewhere else. If the team is staffed, they will still have many other challenges in delivery.
 
@@ -40,7 +40,7 @@ There is no other way than to love all these changing constraints if we want to 
 
 ***P.S.** I recommend reading Thinking in Systems by Donella Meadows to learn more about how systems work and how to understand them and not be victims.*
 
-***P.P.S.** After two and a half years and 53 issues, [Mektup](https://mediations.candost.blog/s/mektup) says goodbye to its readers. Mediations will be the only newsletter from now on (including occasional book notes). The archive of Mektup is always available.*
+***P.P.S.** After two and a half years and 53 issues, [Mektup](/newsletter/) says goodbye to its readers. Mediations will be the only newsletter from now on (including occasional book notes). The archive of Mektup is always available.*
 
 > _There_ are _no separate systems_. The _world_ is a _continuum_. Where to _draw_ a _boundary around_ a _system depends_ on the _purpose_ of the _discussion_.
 > — Donella Meadows.

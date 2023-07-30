@@ -10,12 +10,12 @@ external: false
 
 This post is Chapter 5 of my notes from the book [Building Microservices: Designing Fine-Grained Systems](https://samnewman.io/books/building_microservices/).
 
-1. [Chapter 1: Microservices and Their Benefits](/books/microservices-and-their-benefits)
-2. [Chapter 2: The Evolutionary Architect](/books/the-evolutionary-architect)
-3. [Chapter 3: How to Model Microservices](/books/how-to-model-microservices)
-4. [Chapter 4, Part 1: Integrating Microservices](/books/integrating-microservices-part-1)
-5. [Chapter 4, Part 2: Integrating Microservices](/books/integrating-microservices-part-2)
-6. [Chapter 5: Splitting the Monolith](/books/splitting-the-monolith)
+1. [Chapter 1: Microservices and Their Benefits](/books/microservices-and-their-benefits/)
+2. [Chapter 2: The Evolutionary Architect](/books/the-evolutionary-architect/)
+3. [Chapter 3: How to Model Microservices](/books/how-to-model-microservices/)
+4. [Chapter 4, Part 1: Integrating Microservices](/books/integrating-microservices-part-1/)
+5. [Chapter 4, Part 2: Integrating Microservices](/books/integrating-microservices-part-2/)
+6. [Chapter 5: Splitting the Monolith](/books/splitting-the-monolith/)
 
 ---
 

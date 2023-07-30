@@ -15,7 +15,7 @@ Finding a purpose in life is a difficult journey. Is the journey itself the purp
 
 These days, whoever I talk to splits into two sides. One group has no idea what to do with their lives, and the other group is busy with their kids, so they have no time or energy to think about what to do with their lives. I'm in the former group, even though I want to join an invisible third group—a group full of people who found their purpose in life. Maybe even there is a fourth one that consists of people living in peace without a purpose while life takes them wherever it wants.
 
-Let's stop here for a second. I don't aim to explain those groups (as [I wrote about them before](/goals-and-existence)), but I want to discuss the fundamentals of belonging to any of these groups. I probably won't arrive at any conclusion, but I will leave you with something to think about.
+Let's stop here for a second. I don't aim to explain those groups (as [I wrote about them before](/goals-and-existence/)), but I want to discuss the fundamentals of belonging to any of these groups. I probably won't arrive at any conclusion, but I will leave you with something to think about.
 
 The problem is in the dichotomy between having a good life and not knowing what to do with it (which, in turn, makes life *feel* meaningless). Take me as an example. I have a good life (I think). I know I am very privileged and have a good income and comfort. I have a happy marriage, good health, and social life. Yet, I still don't know what to do with all of these. It feels like I should do something with it. I tried various things like helping others (which mostly made me happier), sharing what I learned, and a few more things that there is no need to mention here. But none was sticky enough to form a new road in my life. The only thing I can shape my life around is work, which takes more than eight hours a day. And that's sad.
 
@@ -77,6 +77,6 @@ Perhaps, we have to live this through to reach what we seek. Not to search for i
 
 I didn't expect to find something when I began writing this. These thoughts were already inside me. There are a lot of maybes and perhaps above. But I have more clarity than before. *Perhaps* these ambiguities will slowly fade away.
 
-This is a journey that I [started discovering a few years ago](/growth-with-systematic-bliss). It [taught me different things](/what-hades-the-game-had-taught-me). It has [ups](/being-morally-good-in-the-war-of-life) and [downs](/a-life-without-problems-the-happiness), and I often [write about it](/goals-and-existence).
+This is a journey that I [started discovering a few years ago](/growth-with-systematic-bliss/). It [taught me different things](/what-hades-the-game-had-taught-me/). It has [ups](/being-morally-good-in-the-war-of-life) and [downs](/a-life-without-problems-the-happiness/), and I often [write about it](/goals-and-existence/).
 
 I hope I somehow take you on this journey as well and give you something to think about.

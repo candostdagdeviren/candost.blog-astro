@@ -63,13 +63,13 @@ There are significant practical and applicable suggestions and recommendations t
 
 This a great question that everyone needs to think about before saying a word.
 
-Reflection on oneself is a great deal. Learning what kind of [leadership relationship](/newsletter/mektup-29) you would like to create is a process. It takes time and experience. Once you see an excellent leader-leader structure, you cannot stop thinking about how much it empowers.
+Reflection on oneself is a great deal. Learning what kind of [leadership relationship](/newsletter/mektup-29/) you would like to create is a process. It takes time and experience. Once you see an excellent leader-leader structure, you cannot stop thinking about how much it empowers.
 
 On the other side, the leader-follower approach is in the bones of the army. Also, a lot of leaders are using the same strategy in their current businesses.
 
 The leader-follower structure is problematic because every responsibility lies in the leaders. Followers-only "follow orders" that leadership gives with no feeling of empowerment. After being in the system for a while, they stop thinking. They do what they have been told. In a leader-leader structure, everyone takes responsibility.
 
-Correctness and punctuality are highly important in the army. Their lives depend on these two terms. The leader-follower structure creates bottlenecks and blockers. People wait for orders instead of acting by themselves. [When the leaders make every decision, they block things that are trivial for the business.](/the-decision-making-pendulum) These trivial tasks might be important for followers. Since the leader doesn't mind them, the followers lose motivation because of the unheard feeling.
+Correctness and punctuality are highly important in the army. Their lives depend on these two terms. The leader-follower structure creates bottlenecks and blockers. People wait for orders instead of acting by themselves. [When the leaders make every decision, they block things that are trivial for the business.](/the-decision-making-pendulum/) These trivial tasks might be important for followers. Since the leader doesn't mind them, the followers lose motivation because of the unheard feeling.
 
 When a mid-level leader wants to implement a leader-leader structure in the leader-follower organization, it ends with a disaster. Immature changes are problematic and end up with worse scenarios than before. While people still feel like followers, they cannot act like leaders, and mistakes happen.
 
@@ -89,7 +89,7 @@ If you want to give ownership, don't just preach and hope for the best. Implemen
 
 #### Communicate Decisions Informally
 
-[Personalization in the language is essential](/why-should-leaders-have-good-storytelling-skills-in-reorganizations-or-restructurings). If you constantly talk formally, you remove the sophistication and the touch of personality from the conversation. It also applies to the decisions. Decisions can be formal. But communication of decisions might be better in an informal way.
+[Personalization in the language is essential](/why-should-leaders-have-good-storytelling-skills-in-reorganizations-or-restructurings/). If you constantly talk formally, you remove the sophistication and the touch of personality from the conversation. It also applies to the decisions. Decisions can be formal. But communication of decisions might be better in an informal way.
 
 #### Think Out Loud
 
@@ -110,7 +110,7 @@ Embrace inspections and monitoring from third parties to check how you are doing
 Support improving competency on technical topics with mechanisms. Mechanisms ensure that technical knowledge expands. These mechanisms include:
 
 - Saying the message multiple times
-- Taking [deliberate action](/bias-towards-action)
+- Taking [deliberate action](/bias-towards-action/)
 - Learning at every opportunity
 - Certifying the learning (tests) and competency
 - Specifying goals, not methods. (This is especially amazing. When you specify methods, you forget why you are doing what you are doing.)
@@ -123,7 +123,7 @@ How effectively do you learn from mistakes? Having different mechanisms, such as
 
 Giving control, autonomy, and ownership requires the person to have the necessary technical capability. If they lack the skills, they will make wrong calls and judgments.
 
-Approach training as a way to increase decision-making authority. It makes people better at their job, and they start owning the decisions with [more trust](/how-to-build-trust-in-a-team-as-a-new-manager) in themselves. Their fear dissolves in time. Increased competency means increased decision-making authority.
+Approach training as a way to increase decision-making authority. It makes people better at their job, and they start owning the decisions with [more trust](/how-to-build-trust-in-a-team-as-a-new-manager/) in themselves. Their fear dissolves in time. Increased competency means increased decision-making authority.
 
 #### Continually and Consistently Repeat The Message
 
@@ -131,7 +131,7 @@ People forget. If you want people to [change their minds](https://mediations.ca
 
 #### Specify Goals, Not Methods
 
-Specifying goals instead of methods creates confidence. When people focus on implementing methods to achieve a goal, they get stuck and forget the purpose. They only focus on [implementing the process](/newsletter/mektup-34). [When they focus on goals](/deciding-on-what-you-should-focus-on-next), they use the methods better and even figure out a superior approach.
+Specifying goals instead of methods creates confidence. When people focus on implementing methods to achieve a goal, they get stuck and forget the purpose. They only focus on [implementing the process](/newsletter/mektup-34/). [When they focus on goals](/deciding-on-what-you-should-focus-on-next/), they use the methods better and even figure out a superior approach.
 
 #### Clarity Is Needed In The Organisation
 
@@ -147,11 +147,11 @@ When you want to reinforce the desired behavior at work, you must recognize thei
 
 #### Set Clear and Measurable Goals
 
-Begin with the end in mind. [Writing up evaluations of 1, 3, and 5 years later and thinking ahead clears the mind and creates achievable goals.](/why-is-writing-important) At the same time, these goals need to be measurable. You can't say "improve test results" as a goal. You need to define how much you want to improve. Do you want 30% or 50%? And these goals have to be aligned with the bigger goals of the organization.
+Begin with the end in mind. [Writing up evaluations of 1, 3, and 5 years later and thinking ahead clears the mind and creates achievable goals.](/why-is-writing-important/) At the same time, these goals need to be measurable. You can't say "improve test results" as a goal. You need to define how much you want to improve. Do you want 30% or 50%? And these goals have to be aligned with the bigger goals of the organization.
 
 #### Resilient Organisations Don't Allow Mistakes
 
-Resilient organizations don't allow mistakes or errors. Even when the captain or CEO makes mistakes, competent people in the area can inform the leader and say, "No, you're wrong." This [confronting attitude](/how-to-handle-and-overcome-objections-to-your-proposal-at-work) creates resilient organizations.
+Resilient organizations don't allow mistakes or errors. Even when the captain or CEO makes mistakes, competent people in the area can inform the leader and say, "No, you're wrong." This [confronting attitude](/how-to-handle-and-overcome-objections-to-your-proposal-at-work/) creates resilient organizations.
 
 #### Teams Need Emancipation, Not Empowerment
 
@@ -159,4 +159,4 @@ Empowerment doesn't work without clarity and competence—it also results from t
 
 ---
 
-Complement with [the Exceptional Books, Articles, Videos, and Communities that Made Me A Better Engineering Leader.](/newsletter/mektup-30)
+Complement with [the Exceptional Books, Articles, Videos, and Communities that Made Me A Better Engineering Leader.](/newsletter/mektup-30/)

@@ -74,8 +74,8 @@ I wrote [an essay](/goals-and-existence/) about the goal of life, my life. Or th
 
 ### Hidden Monoliths Affect The Software Design
 
-[This article](/hidden-monoliths-affect-the-software-design) is about hidden monoliths that I learned while reading Team Topologies. They are everywhere and affect the software system design. When the organization is aware of its software's environment, it can thrive. If not, it faces various challenges.
+[This article](/hidden-monoliths-affect-the-software-design/) is about hidden monoliths that I learned while reading Team Topologies. They are everywhere and affect the software system design. When the organization is aware of its software's environment, it can thrive. If not, it faces various challenges.
 
 ### Encoding, Decoding, Schemas and Data Evolution
 
-I continued reading the book Designing Data-Intensive Applications. Last week, I [published](/books/encoding-decoding-schemas-and-data-evolution) **my notes from the fourth chapter** (read chapters [1](/books/reliability-maintainability-and-scalability-in-applications/), [2](/books/data-models-and-query-languages/), and [3](/books/data-storage-and-retrieval/) here).
+I continued reading the book Designing Data-Intensive Applications. Last week, I [published](/books/encoding-decoding-schemas-and-data-evolution/) **my notes from the fourth chapter** (read chapters [1](/books/reliability-maintainability-and-scalability-in-applications/), [2](/books/data-models-and-query-languages/), and [3](/books/data-storage-and-retrieval/) here).
