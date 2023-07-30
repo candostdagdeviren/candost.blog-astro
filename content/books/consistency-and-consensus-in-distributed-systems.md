@@ -10,7 +10,7 @@ updateDate: 2023-05-23
 external: false
 ---
 
-This article is part of my notes from Chapter 0 of [Designing Data-Intensive Applications by Martin Kleppmann](https://dataintensive.net/). You can read other chapter notes as well.
+This article is part of my notes from Chapter 9 of [Designing Data-Intensive Applications by Martin Kleppmann](https://dataintensive.net/). You can read other chapter notes as well.
 
 - [Chapter 1: Reliability, Scalability, and Maintainability in Distributed Applications](/books/reliability-maintainability-and-scalability-in-applications)
 - [Chapter 2: Data Models and Query Languages](/books/data-models-and-query-languages)
