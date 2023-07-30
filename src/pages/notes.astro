@@ -14,8 +14,8 @@ const sortedZettels = zettels
   .filter((p) => p.frontmatter.draft !== true)
   .sort(
     (a, b) =>
-      parseInt(b.frontmatter.title.split(':')[0]) -
-      parseInt(a.frontmatter.title.split(':')[0])
+      parseInt(a.frontmatter.zettelID) -
+      parseInt(b.frontmatter.zettelID)
   );
 ---
 

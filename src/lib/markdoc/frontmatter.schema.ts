@@ -44,6 +44,7 @@ export const blog = z.discriminatedUnion("external", [
         "external is true but url is missing. url must be set for posts marked as external.",
       invalid_type_error: "external should be string.",
     }),
+    links: z.optional(z.array(z.string()))
   }),
 ]);
 
@@ -52,6 +53,7 @@ export const notes = z.discriminatedUnion("external", [
   baseSchema.extend({
     external: z.literal(false),
     description: z.optional(z.string()),
+    zettelID: z.string(),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
   }),

@@ -1,5 +1,6 @@
 ---
 title: "1a: How Zettelkasten Method Works"
+zettelID: "1a"
 tags:
   - zettelkasten
   - note-taking

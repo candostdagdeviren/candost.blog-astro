@@ -1,5 +1,6 @@
 ---
 title: "1: Why do we bother to write?"
+zettelID: "1"
 tags:
   - writing-handbook
   - writing

@@ -1,5 +1,6 @@
 ---
 title: "23: The First Question of Feedback Discussions"
+zettelID: "23"
 description: "How to give feedback to others? Where do we start?"
 tags:
   - feedback-handbook

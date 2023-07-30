@@ -1,5 +1,6 @@
 ---
 title: "1b: Writing by Hand"
+zettelID: "1b"
 tags:
   - seeking-inconvenience
   - note-taking
