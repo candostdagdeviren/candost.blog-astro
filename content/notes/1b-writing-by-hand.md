@@ -14,5 +14,5 @@ Writing by hand is more effective than writing on a computer or other electronic
 ---
 
 - **Previous Note:** [1a: How Zettelkasten Method Works](/notes/1a-how-zettelkasten-works)
-- **Next Note:**
-- **Source(s):** [How to Take Smart Notes](/books/how-to-take-smart-notes-review-summary-and-notes)
+- **Next Note:** [1c: How to Take Literature Notes](/notes/1c-how-to-take-literature-notes)
+- **Source(s):** How to Take Smart Notes Book
