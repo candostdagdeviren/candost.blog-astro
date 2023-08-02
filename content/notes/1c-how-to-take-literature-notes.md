@@ -5,7 +5,7 @@ tags:
   - zettelkasten
   - note-taking
 date: 2021-11-28
-updateDate: 2023-07-31
+updateDate: 2023-08-02
 external: false
 ---
 
@@ -22,5 +22,5 @@ The goal is understanding the text and preparing to transfer ideas into the cont
 ---
 
 - **Previous Note:** [1b: Writing by Hand](/notes/1b-writing-by-hand)
-- **Next Note:**
+- **Next Note:** [1d: Adding a New Note To Slip-Box](/notes/1d-adding-a-note-to-slip-box)
 - **Source(s):** How to Take Smart Notes Book
