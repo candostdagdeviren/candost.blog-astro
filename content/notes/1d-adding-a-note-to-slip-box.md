@@ -16,4 +16,5 @@ Instead of directly relating the note to something, we are nudged not to fit the
 ---
 
 - **Previous Note:** [1c: How to Take Literature Notes](/notes/1c-how-to-take-literature-notes)
+- **Next Note:** [1e: Contradictions in ideas within the thought line](/1e-contradictions-in-ideas-within-a-thought-line)
 - **Source(s):** How to Take Smart Notes Book
