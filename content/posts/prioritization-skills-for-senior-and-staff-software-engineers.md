@@ -20,13 +20,13 @@ When you are a junior, you get tasked with smaller work. The boss or seniors ask
 
 With becoming a senior, you start working on stories and epics and, later on, projects. The expectations grow, and you become more autonomous; without needing someone else, you can break down and complete a new project end-to-end while helping others. Your freedom and power increase, and you need to learn how to control them.
 
-![Impact and Freedom Growth](/images/content/essays/prioritization-for-staff-plus/growing-software-engineers-impact-freedom.jpg)
+![Impact and Freedom Growth](/images/content/posts/prioritization-for-staff-plus/growing-software-engineers-impact-freedom.jpg)
 
 Until becoming staff or principal engineer, you worked _in_ your team. Now, you work _at the side_ _of_ your team. You will have [one-on-ones](/effective-1-1-meetings-one-on-one-meeting-template) with engineers and negotiations with other engineering teams and [get their buy-ins](/how-to-stop-endless-discussions) and [feedback](/importance-of-the-feedback) on projects covering multiple teams, such as engineering initiatives, major refactorings, or implementing new tools in all departments. The impact of the engineer increases and spreads through the organization.
 
 However, the chances of failure get higher because you have less context now when you compare it with earlier roles. You won't know every detail in one system, but you have a broad knowledge of what's going on. In junior positions, your risks are low because the task is small and the context is more specific. In staff and principal roles, you have less context about a particular system. You don't know every single line of every project that you might have an impact on.
 
-![Risk Cone for Software Engineers](/images/content/essays/prioritization-for-staff-plus/risk-cone-for-software-engineers.jpg)
+![Risk Cone for Software Engineers](/images/content/posts/prioritization-for-staff-plus/risk-cone-for-software-engineers.jpg)
 
 The small details might affect the success of the bigger initiatives. On top of the career ladder, the work often happens in researching and generating new ideas that have a higher chance of failure due to [unknown knowns or unknown unknowns](https://en.wikipedia.org/wiki/There_are_known_knowns). The person on top of the ladder cannot know all the details about how the new project will impact every system. That's why the staff and principal engineers have to spend some time prioritizing tasks and [decreasing the risks](/why-cant-this-be-done-sooner).
 
@@ -42,11 +42,11 @@ Saying "No" is often not easy. You may need to back it up with a valid reason an
 
 There are models and frameworks to help you find valid reasons and [make a better decision](/the-decision-making-pendulum) on which projects you will work on. **Use the [MoSCoW analysis](/deciding-on-what-you-should-focus-on-next) technique**: identify if the task is a "Must," "Should," "Could," or "Won't." Think about the mission and find out where you place it. If it is a "must-do" task, then you have to put a high priority on it.
 
-![MoSCoW Priority Analysis](/images/content/essays/prioritization-for-staff-plus/MoSCoW-Priority-Analysis.jpg)
+![MoSCoW Priority Analysis](/images/content/posts/prioritization-for-staff-plus/MoSCoW-Priority-Analysis.jpg)
 
 On the other hand, when you grow into more senior roles, your knowledge of one system will decay. You won't have comprehensive knowledge about the details of one project. That's okay. Don't push to have a more profound understanding of the details of every system. If you do, you will affect your impact, limit your freedom and even block some projects. **You don't have to know every single line of code, and to be honest, you can't.** Accept it and focus on the big picture.
 
-![](/images/content/essays/prioritization-for-staff-plus/increasing-impact-freedom-with-less-knowledge-software-engineers.jpg)
+![](/images/content/posts/prioritization-for-staff-plus/increasing-impact-freedom-with-less-knowledge-software-engineers.jpg)
 
 Overall, these are the strategies you can follow to prioritize your work better when you grow into more staff and principal roles. Here are the action items you can take.
 

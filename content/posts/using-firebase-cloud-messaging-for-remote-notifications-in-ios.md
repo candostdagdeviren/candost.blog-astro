@@ -12,13 +12,13 @@ Let’s talk about Firebase a little bit first.
 
 On the Firebase website, it says, “Firebase gives you the tools and infrastructure you need to build better apps and grow successful businesses.”. It provides several features divided into three groups **develop**, **grow,** and **earn,** and all of them are connected to Analytics. It doesn’t matter which feature you are using; you’ll get Analytics for free. Features inside Grow and Earn groups are completely free. Actually, only 4 of the 15 features in total are paid. You can check them out [here](https://firebase.google.com/features/).
 
-![](/images/content/essays/firebase/Pasted%20image%2020230722223051.png)
+![](/images/content/posts/firebase/Pasted%20image%2020230722223051.png)
 
 ## Firebase Cloud Messaging (FCM)
 
 Cloud Messaging is one of the cool free features of Firebase. It’s easy to fire push notifications from the server to FCM, and it handles the rest for iOS, Android, and the Web. I will skip the setup in this post. You can follow the well-written [setup guide](https://firebase.google.com/docs/cloud-messaging/ios/client) and add Firebase to your project.
 
-![](/images/content/essays/firebase/Pasted%20image%2020230722223102.png)
+![](/images/content/posts/firebase/Pasted%20image%2020230722223102.png)
 
 You can connect to Firebase Cloud Messaging via Firebase Console or an app server. Firebase Console is pretty easy, but it’s a manual job. I’ll cover the app server side in this post. There are **three** ways to send notifications via Firebase. You can send notifications to **one device** or **device groups,** or **topics**. I would like to send notifications to all devices of a specific user, and I don’t want to store tokens. I’ll skip sending notifications to only one device way in here. Also, device groups are used for grouping one user’s all devices. In this way, you can send notifications to all devices of one user. So, both of them require storing tokens. Firebase suggests using device groups if you need to send messages to multiple devices per user. But as I said, I don’t want to store tokens. So I’m going to focus on only topics in this post. If you prefer storing tokens and dealing with them, you can use two other ways.
 

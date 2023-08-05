@@ -4,8 +4,8 @@ import { readAll } from "../../lib/markdoc/read";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../../config";
 
 export const get = async () => {
-  const essays = await readAll({
-    directory: "essays",
+  const posts = await readAll({
+    directory: "posts",
     frontmatterSchema: blog,
   });
 
@@ -15,7 +15,7 @@ export const get = async () => {
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
 
-  const rssEssays = essays
+  const rssPosts = posts
   .filter((p) => p.frontmatter.draft !== true)
   .map(({ frontmatter, slug }) => {
     if (frontmatter.external) {
@@ -43,7 +43,7 @@ export const get = async () => {
     };
   });
 
-  const rssItems = rssEssays
+  const rssItems = rssPosts
   .sort(
     (a, b) =>
       new Date(b.pubDate).valueOf() -
@@ -51,9 +51,9 @@ export const get = async () => {
   );
 
   return rss({
-    title: "Essays | " + SITE_TITLE,
+    title: "Posts | " + SITE_TITLE,
     description: SITE_DESCRIPTION,
-    site: baseUrl + "/essays",
+    site: baseUrl + "/posts",
     items: rssItems,
   });
 };

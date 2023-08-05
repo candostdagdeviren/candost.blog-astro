@@ -16,7 +16,7 @@ In this article, I will talk about this journey and a few ways to prevent the le
 
 ## Learning Cone
 
-![Learning Cone](/images/content/essays/learning-cone/Learning-Cone.jpg)
+![Learning Cone](/images/content/posts/learning-cone/Learning-Cone.jpg)
 
 Learning starts when we move out of our comfort zone and discover new things. Regardless of the topic, we begin with close-to-none knowledge and look for ways to enhance our wisdom. In engineering teams, people are often more open-minded in the beginning because they are clueless about the topic and have various options to improve. Being open-minded helps these people look at others and approach them with curiosity.
 
@@ -42,13 +42,13 @@ We see blame absorbers both in work and personal relationships. Imagine a couple
 
 At work, blame absorbers play a different role. Let’s use a delayed project as an example. One of the engineers who took on many responsibilities feels responsible for the delay. When the responsibility feeling turns into self-blame, the blame absorbers load mistakes of various factors on themselves. “I should have foreseen the increasing risks,” they say. “Why haven’t I tried to mitigate the problem when it was minor?” they ask. And in all that, they often say, “I could have worked more or harder”—and sometimes they do work harder. This past-wishful thinking increases their stress level, and they get into a blame spiral where even a tiny mistake becomes detrimental.
 
-![Learning Cone and Replacing Blame Spiral](/images/content/essays/learning-cone/Switching-From-Learning-Cone-to-Blame-Spiral.jpg)
+![Learning Cone and Replacing Blame Spiral](/images/content/posts/learning-cone/Switching-From-Learning-Cone-to-Blame-Spiral.jpg)
 
 At the beginning of that spiral, their behaviors look good from the outside, and they get positive feedback for their responsible and accountable behavior. The feedback becomes a positive reinforcer for the blame spiral to grow.
 
 However, as their blame spiral grows and stays unmanaged, they start to impact others. The blame absorber’s spiral touches other people’s learning cones and blocks them.
 
-![Blame Spiral's Impact on Others](/images/content/essays/learning-cone/Impacting-Others-with-Blame-Spiral.jpg)
+![Blame Spiral's Impact on Others](/images/content/posts/learning-cone/Impacting-Others-with-Blame-Spiral.jpg)
 
 Others begin avoiding accountability because someone takes care of the problems every time, so they don’t have to. In the end, a single point of failure emerges, and the team becomes dysfunctional.
 

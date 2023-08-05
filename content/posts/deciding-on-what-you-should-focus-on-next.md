@@ -25,19 +25,19 @@ Now you have all the work under your hands, **start separating these tasks acco
 - Could have/do: Tasks that are desirable but not necessary. Tasks that you wish to do but are not entirely required.
 - Won't have/do (this time): Tasks are neither essential nor appropriate for the time being. Tasks that you will not do at all.
 
-![](/images/content/essays/deciding-on-what-you-should-focus-on-next/moscow-analysis.jpg)
+![](/images/content/posts/deciding-on-what-you-should-focus-on-next/moscow-analysis.jpg)
 
 After separating, you should have a clear picture of what is more important and what's not—seeing all the work that needs to be done without any prioritization gives the false impression that you have to work on all of them and even try to finish them all. One thing we need to clear out is that **you will never have time to finish all**. Now at least, you know what you can do and what you won't do as well.
 
 While Moscow provides us with a model to prioritize, deciding which tasks to start is still missing. Now, each section that you put tasks in doesn't have any order in them. That's why we will include one more small step and apply a scale to all sections.
 
-![](/images/content/essays/deciding-on-what-you-should-focus-on-next/dependency_scale.jpg)
+![](/images/content/posts/deciding-on-what-you-should-focus-on-next/dependency_scale.jpg)
 
 Taking a look at the dependencies, ambiguity, and details of the tasks enables us to see more clearly what to choose next. Most of them have levels, and they are relative to each other. They are not “do” or “don't,” not 1 or 0. That's why we use a scale instead of giving levels (high, medium, low) to them. **Our brain needs the exact frame and minimum ambiguity to make a better decision.** Unambiguity causes stress and affects our choices.
 
 Now, **go over all your tasks in each section and put them into the scale, one by one**. While doing so, consider how a task relates to another one. Is it easier from task X or more challenging to implement?
 
-![](/images/content/essays/deciding-on-what-you-should-focus-on-next/moscow_analysis_with_dependency_scale.jpg)
+![](/images/content/posts/deciding-on-what-you-should-focus-on-next/moscow_analysis_with_dependency_scale.jpg)
 
 After placing all the tasks, **[pick the easiest one to implement from the must-have list](/bias-towards-action)** and gradually go to the difficult ones.
 

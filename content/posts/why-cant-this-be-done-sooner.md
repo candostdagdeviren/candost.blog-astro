@@ -18,15 +18,15 @@ Uncovering risks and filling the knowledge gaps shape the [prioritization strat
 
 Let's think about the domain-driven approach. When the software team goes with a domain-driven approach, they split the problem into user journeys and business domain requirements instead of technical layers. We can think of each following box as one part of the domain requirements.
 
-![Software project/feature blocks](/images/content/essays/why-cant-this-be-done-sooner/feature-blocks.png)
+![Software project/feature blocks](/images/content/posts/why-cant-this-be-done-sooner/feature-blocks.png)
 
 Sometimes the best solution, and often preferred one, is straightforward, following one block after another to build value for the customers and company.
 
-![Straightforward roadmap (build one by one)](/images/content/essays/why-cant-this-be-done-sooner/straightforward-roadmap.png)
+![Straightforward roadmap (build one by one)](/images/content/posts/why-cant-this-be-done-sooner/straightforward-roadmap.png)
 
 A straightforward way satisfies all requirements. But when we want to deliver the project faster and ask, "Why can't this be done sooner? Why not?" we are forced to think of both alternative approaches and risks we currently have in our design. Once we identify them, we can choose another path and remove the risky or unnecessary blocks.
 
-![Finding the risky blocks, removing them, and thinking of alternative ways to create a value](/images/content/essays/why-cant-this-be-done-sooner/finding-risky-blocks.png)
+![Finding the risky blocks, removing them, and thinking of alternative ways to create a value](/images/content/posts/why-cant-this-be-done-sooner/finding-risky-blocks.png)
 
 Despite the question, sometimes there is no change in the result at all. If we're able to answer with "Because of the reason X and dependency Y that we have no other choice," we're acting mindfully. The question makes us clearly see our risks and limitations and [communicate them](/communicating-decisions-in-the-organizations) to other people.
 

@@ -36,7 +36,7 @@ _**Bias**_ is generally included in the definition of parameters. This is anoth
 
 There are two types of Linear Regression, simple (univariate) and multiple (multivariate). We’ll define the general rules and strategy of linear regression, mainly under linear regression, for simplicity now. Then, we’ll focus on the multiple linear regression based on the learnings in here. In simple linear regression, we have only one feature. We can think the price of the house is only dependent on the size of the house. So, we only care about one feature. This is why it’s called simple.
 
-![Data Set](/images/content/essays/simple-linear-regression.png)
+![Data Set](/images/content/posts/simple-linear-regression.png)
 
 The red dots in the graph above represents our data set. Let’s guess some parameters and biases and draw our linear line into our data set like above. This seems like a pretty good guess when you think about the whole data. But we will have errors shown with gray vertical lines in the graph. Those errors are our cost of not being able to fit all the data. So, every approach will come with a cost, and we’ll measure our prediction’s performance according to the cost.
 

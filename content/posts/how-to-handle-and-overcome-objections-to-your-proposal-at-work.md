@@ -16,7 +16,7 @@ Let's take a step back and understand how is the environment we are in and if ou
 
 Depending on the organization's culture and structure, people use different decision-making methods that influence proposals. If we are in a command-based environment such as the military, there won't be any place for objections. Whoever is higher in the hierarchy will have the decision regardless of objections. Of course, we are not interested in a command-based environment *(unless we're a horrible boss)* because objections have no place. In software organizations, we use other styles such as advice, consent, and consensus, which are often all together. On some occasions, we go with the consensus and try to convince as many people as possible. In other situations, we prefer advice-based decisions: propose and ask for advice but keep the right to reject whatever you find unreasonable. Usually, there is no one-style-to-rule-them-all. We adjust our style according to the circumstances.
 
-![Decision-Making Methods](/images/content/essays/overcoming-objections/decision-making-methods.jpg)
+![Decision-Making Methods](/images/content/posts/overcoming-objections/decision-making-methods.jpg)
 
 ## Handling Objections
 
@@ -34,7 +34,7 @@ With all this, we can transform our question from "Are there any objections?" to
 
 We need to be sure if they answer the question above entirely, recommend an edit, not inject a novel idea. **We can validate the objection by asking three questions in order**. If one of the validation steps fails, congrats; we found an invalid objection.
 
-![Validating Objections](/images/content/essays/overcoming-objections/validating-objections.jpg)
+![Validating Objections](/images/content/posts/overcoming-objections/validating-objections.jpg)
 
 Let's go one by one. In the first step, we identify the reason for the objection. Does the dissenter object because they want their proposal to be accepted? **If they come with a better idea, they are not objecting; they are discarding the proposal.** This situation moves us backward and starts discussions from the top. So when the answer is "Yes, it's another idea," the objection becomes invalid. When the answer is "No," we go to the second validation question.
 

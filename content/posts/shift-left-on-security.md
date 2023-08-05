@@ -24,22 +24,22 @@ We want to ensure that what we do is secure from the beginning and throughout th
 ## What the hell does shift left mean?
 
 When we think about any work process, it usually goes from left to right, step by step.
-![Work Stream](/images/content/essays/shift-left-on-security/Work-Stream.jpg)
+![Work Stream](/images/content/posts/shift-left-on-security/Work-Stream.jpg)
 
 When we think of security, it's often thought of near the end together with Quality Assurance. It's usually part of compliance testing and comes as an afterthought, and it quickly becomes a release blocker if any vulnerability is discovered. These vulnerabilities often demand significant time investment to fix because the implementation details or even sometimes software design are not built with that vulnerability in mind.
 
-![Security is often part of quality assurance testing](/images/content/essays/shift-left-on-security/Shift-Left-on-Security-1.jpg)
+![Security is often part of quality assurance testing](/images/content/posts/shift-left-on-security/Shift-Left-on-Security-1.jpg)
 
 If we shift the security review or mindset to the left, we can discover the vulnerabilities earlier, and they often won't require substantial time investments because the software is still in the implementation phase. Yet, if we discover flaws in software design, we'll need to go back and redesign the system.
 
-![Moving security to the left in the process.](/images/content/essays/shift-left-on-security/Shift-Left-on-Security-2.jpg)
+![Moving security to the left in the process.](/images/content/posts/shift-left-on-security/Shift-Left-on-Security-2.jpg)
 
 That's why shifting security to the left help us build secure systems right from the design.
 
-![Shifting Security to the most left position in the process.](/images/content/essays/shift-left-on-security/Shift-Left-on-Security-3.jpg)
+![Shifting Security to the most left position in the process.](/images/content/posts/shift-left-on-security/Shift-Left-on-Security-3.jpg)
 
 When InfoSec experts are involved in software design, we can build safer systems from end to end. Involving security experts only in the beginning can also be a mistake because the team can fall into traps or make mistakes without recognizing their implementation or testing options downstream of the process. That's why InfoSec experts should be involved in every stage.
 
-![Involving InfoSec experts in every stage.](/images/content/essays/shift-left-on-security/Shift-Left-on-Security-4.jpg)
+![Involving InfoSec experts in every stage.](/images/content/posts/shift-left-on-security/Shift-Left-on-Security-4.jpg)
 
 However, it's not feasible to involve security experts in every single project as that will require a lot of effort both in communication and decision-making. Instead, we can leverage [the Enabling Team Topology from Team Topologies](/books/team-topologies-book-review-summary-and-notes/#enabling-teams). InfoSec folks can join the team in the early stages to guide and improve their knowledge of information security. This way, both the team developing systems learn more about designing and developing secure applications, and InfoSec folks succeed at elevating the knowledge and systems in the company. As a result, the organization benefits from having fewer vulnerabilities.

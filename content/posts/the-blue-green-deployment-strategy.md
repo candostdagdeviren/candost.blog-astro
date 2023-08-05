@@ -14,15 +14,15 @@ The Blue-Green Deployment is one of the application release models. The challeng
 
 In Blue-Green Deployment, the transition to the new version of the app is gradual. The blue represents an old version of the service.
 
-![(Before Green Deployment)](/images/content/essays/blue-green-deployment/BlueGreenDeployment4.png)
+![(Before Green Deployment)](/images/content/posts/blue-green-deployment/BlueGreenDeployment4.png)
 
 When we want to deploy a new version, a.k.a. green, we create a new environment close to production and deploy our new version into it.
 
-![New Version Deployed](/images/content/essays/blue-green-deployment/BlueGreenDeployment5.png)
+![New Version Deployed](/images/content/posts/blue-green-deployment/BlueGreenDeployment5.png)
 
 After testing and making sure the green is working correctly, we route all traffic to the new version.
 
-![New version is in use](/images/content/essays/blue-green-deployment/BlueGreenDeployment6.png)
+![New version is in use](/images/content/posts/blue-green-deployment/BlueGreenDeployment6.png)
 
 When we fully transfer the traffic to the new version, we can destroy or recycle the old blue instances. However, we might prefer to keep the blue [service](/books/microservices-and-their-benefits) for a while to revert if we face problems with the new green one. One of the continuous delivery goals is to bring the code to production as fast as possible with low risk. It means that the rollback is necessary in case things go south. When we discover the green version is broken, it's easy to roll back to the blue version.
 

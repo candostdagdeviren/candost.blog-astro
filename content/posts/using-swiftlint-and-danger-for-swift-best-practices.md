@@ -18,7 +18,7 @@ Sounds interesting...🤔 But what are these tools, actually?
 
 [SwiftLint](http://bit.ly/2pszEcm) is an open-source tool to enforce Swift's style and conventions. It is developed by Realm. You can set your coding style rules and force them during development. SwiftLint has a command-line tool, Xcode plugin, AppCode, and Atom integration. So it always fits your development environment. It’ll show you warnings and/or errors if you violate the linting rules.
 
-![](/images/content/essays/ns-for-ios-devs/Pasted%20image%2020230722221510.png)
+![](/images/content/posts/ns-for-ios-devs/Pasted%20image%2020230722221510.png)
 
 You can take a look at the setup guide and tutorial [here](http://bit.ly/2oJGIUS). After installation, you’ll have some rules by default. For example, it warns when you use private IBOutlet or force unwrapping in optionals.
 
@@ -80,7 +80,7 @@ Every project/piece of code has its own specific flow. When the project grows, m
 
 The Danger is a Ruby gem that runs in CI during the pull request/merge request process. It leaves messages and comments or even fails your CI build when your rules are violated. Danger can run on several CI tools and can chat on GitHub, Bitbucket, and GitLab.
 
-![](/images/content/essays/ns-for-ios-devs/Pasted%20image%2020230722221526.png)
+![](/images/content/posts/ns-for-ios-devs/Pasted%20image%2020230722221526.png)
 
 For [single responsibility](http://bit.ly/2qqFzxT) and easier code review, developers shouldn’t open big pull requests. If a pull request has more than 600 lines of code, there should be a warning to split the pull request. Danger can provide this with a single line of configuration:
 

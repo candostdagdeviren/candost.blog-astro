@@ -68,7 +68,7 @@ This is called when the view is about to disappear from the screen. One thing we
 
 This is called when the view is disappeared from the screen. The view is removed from the view hierarchy at the moment.
 
-![Complete View Lifecycle](/images/content/essays/ns-for-ios-devs/ios-complete-view-lifecycle.jpeg)
+![Complete View Lifecycle](/images/content/posts/ns-for-ios-devs/ios-complete-view-lifecycle.jpeg)
 
 We took a look at the most common relationship, view and view controller relationship which was also a default one implemented by UIKit. But the view controller not only gets in a relationship with a view but also with other view controllers like a child and parent.
 

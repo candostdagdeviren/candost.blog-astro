@@ -6,7 +6,7 @@ import PageMeta from "../components/PageMeta.astro";
 import { SITE_TITLE } from "../config";
 
 const posts = await readAll({
-  directory: "essays",
+  directory: "posts",
   frontmatterSchema: blog,
 });
 
@@ -20,10 +20,10 @@ const sortedPosts = posts
 ---
 
 <PageLayout>
-  <PageMeta title={`Essays | ${SITE_TITLE}`} slot="meta" />
+  <PageMeta title={`Posts | ${SITE_TITLE}`} slot="meta" />
   <section slot="main">
-    <h1 class="fa-stack-1x fa-2x mb-5 mt-10">Essays & Articles</h1>
-    <p class="mt-5 mb-10">You can get all essays via <a href="/essays/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
+    <h1 class="fa-stack-1x fa-2x mb-5 mt-10">Posts, Essays, Articles</h1>
+    <p class="mt-5 mb-10">You can get all these posts via <a href="/posts/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
     <ul>
       {
         sortedPosts.map((post) => {

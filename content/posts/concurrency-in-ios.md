@@ -24,7 +24,7 @@ Before talking about `DispatchQueue`, we should understand the queues first. Be
 
 There are two types of queues in iOS, the main queue and the others. We have only one main queue, but we can have more than one background queues that can run different operations on it. Background queues run on the thread pool according to their priorities. But the main queue runs on the main thread. All UI (user interface) updates have to run on the main thread. Therefore, we use the main queue for the UI.
 
-![](/images/content/essays/ns-for-ios-devs/Queues-Network%20Operations.png)
+![](/images/content/posts/ns-for-ios-devs/Queues-Network%20Operations.png)
 
 The most important thing here is having _only one main queue_. The main queue should be used wisely. Since every UI update has to be done in the main queue, if we use the main queue for every other operation, we can freeze the UI operations. For example, if we send a network request on the main queue and update the UI according to the response, we will see the UI is not responsive until we get back the data. The hint is that we should use background queues as much as we can and try to leave the main queue empty for non-UI operations.
 
@@ -59,7 +59,7 @@ DispatchQueue.main.sync {
 
 So, while running this code, if an error happens, the app will switch to the main queue and execute the `showErrorAlert(error)` line. In parallel, the code will continue on the background queue and print `Completed` to the debug console.
 
-![](/images/content/essays/ns-for-ios-devs/send-receive-network.png)
+![](/images/content/posts/ns-for-ios-devs/send-receive-network.png)
 
 Finally, we can see our example code with better user experience handling. The code below starts on the background queue, and when it needs to show a loading indicator on the screen, we switch to the main queue. The execution continues and starts the task. When we got the response, we were still in the background queue. If there is an error, we now switch to the main queue and display the alert.
 

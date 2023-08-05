@@ -22,7 +22,7 @@ Now, you might say, "Well, we are left with just giving advice and consensual de
 
 There is no one way to make decisions; it's a pendulum. On one side, we have the authority, and on the other side, we have the consensus. This pendulum requires leaders to go back and forth. Having flexibility in decision-making is crucial and more persuasive than sticking to only one.
 
-![The Decision-Making Pendulum](/images/content/essays/decision-making-pendulum.jpg)
+![The Decision-Making Pendulum](/images/content/posts/decision-making-pendulum.jpg)
 
 
 Organizations get stuck in convincing everyone or using authority in the wrong place. The problem is trying to use the same decision-making style in all situations. Why people stick to one style depends on the personality and background of the people.

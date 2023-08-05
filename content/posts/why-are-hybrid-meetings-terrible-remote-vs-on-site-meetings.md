@@ -12,7 +12,7 @@ For two years, I have worked as the only remote employee on the team. Right befo
 
 When there is one camera--that no one looks at it directly--at the top of the big screen, the camera captures everyone simultaneously. Whenever someone talks, you need to put extra effort into identifying who is speaking without seeing their face, even though you know their voice. Meanwhile, you see most of the people from the profile, not the front. Think about TV shows where a couple of people are discussing a political topic. The director shows their seating as a group from time to time during the show.
 
-![Political Debate](/images/content/essays/why-are-hybrid-meetings-terrible-remote-vs-on-site-meetings/political-discussion.jpg)
+![Political Debate](/images/content/posts/why-are-hybrid-meetings-terrible-remote-vs-on-site-meetings/political-discussion.jpg)
 
 But throughout the show, the director uses [close-up shots](https://www.masterclass.com/articles/film-101-what-is-a-close-up-shot-how-to-creatively-use-a-close-up-camera-angle-to-convey-emotion) of each person separately and sometimes even assigns a personal camera because TV shows want you to feel included in the discussion. When you see people individually, you think they are talking to you. Humans evolved to read the other person's feelings and micro gestures to organize groups and survive together. That's why humans are so good at reading the smallest mimics on the face, to collaborate better. In the end, with the help of the evolution and the director's camera usage, you stay engaged with the show. In hybrid meetings with only one camera, you cannot read the body language, mimics on the faces, and micro-gestures. There are solutions like [expensive teleconference cameras](https://www.cisco.com/c/en/us/products/collaboration-endpoints/telepresence-speaker-track-60/index.html), but they are still far from being as efficient as individual cameras. As a remote person, you feel like an outsider even though you are bonded with your team.
 
@@ -24,4 +24,4 @@ With many companies going into a hybrid model, they will face these challenges. 
 
 At first, it can, and will, feel awkward to join meetings remotely while you are in the same office. But you need equity, not equality. Here equality is giving everyone a choice according to their preference. Equity is asking everyone to join the meeting remotely when there is only one remote worker. The people in the office might not have the easiest time, but the experience will be the same for everyone **in the meeting**. Everyone shares emotions and body language and, as a result, understands each other better because everyone gets a personal camera with a close-up shot during the whole meeting.
 
-![](/images/content/essays/why-are-hybrid-meetings-terrible-remote-vs-on-site-meetings/hybrid-all-remote-onsite.png)
+![](/images/content/posts/why-are-hybrid-meetings-terrible-remote-vs-on-site-meetings/hybrid-all-remote-onsite.png)

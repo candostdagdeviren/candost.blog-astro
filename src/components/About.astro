@@ -4,7 +4,7 @@ import { blog, podcast, books } from "../lib/markdoc/frontmatter.schema";
 import { SITE_URL } from "src/config";
 
 const posts = await readAll({
-  directory: "essays",
+  directory: "posts",
   frontmatterSchema: blog,
 });
 
@@ -56,13 +56,13 @@ const sortedBookNotes = bookNotes
 
 <h2 class="fa-xl mb-5">Mediations Newsletter</h2>
 <p>I always feel like I'm mediating (or maybe negotiating) between multiple aspects and constraints of the complicated life and searching for the balance between leadership, software engineering, personal life, and the world.</p>
-<p class="mt-5">I share my thoughts on my newsletter. You can subscribe below. I send essays and book notes as email via the same newsletter too.</p>
+<p class="mt-5">I share my thoughts on my newsletter. You can subscribe below. I send posts and book notes as email via the same newsletter too.</p>
 
 <iframe class="mt-10" src="https://mediations.candost.blog/embed" width="100%" height="160"></iframe>
 
 <p class="mb-20 mt-5">You can also get everything on this blog via <a href={`${SITE_URL}/rss.xml`}>RSS</a>.</p>
 
-<h2 class="fa-xl mb-5">Newest Essays <small><a href="/essays">SEE ALL</a></small></h2>
+<h2 class="fa-xl mb-5">Newest Posts <small><a href="/posts">SEE ALL</a></small></h2>
 <ul>
   {
     sortedPosts.map((post) => {

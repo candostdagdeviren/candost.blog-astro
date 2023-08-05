@@ -22,7 +22,7 @@ Let’s start with Xcode.
 - Everyone knows ⌘⇧O to open the file search bar in Xcode. If you’re working with Objective-C and Swift in the same project, you can search in Swift Generated Headers in this search. When the search bar is open, press⌘G to enable Swift-generated headers. It’ll generate headers in Swift for Objective-C files.
 - Let’s take a look at these shortcuts for opening/closing parts in Xcode 12.
 
-![](/images/content/essays/ios-dev-productivity-kit/Pasted%20image%2020230722214113.png)
+![](/images/content/posts/ios-dev-productivity-kit/Pasted%20image%2020230722214113.png)
 
 During debugging, when we stop the running code with a breakpoint, we can use ⌘⌃Y to _Step Over_ as well as ⌘Y to enable/disable all breakpoints.
 
@@ -38,13 +38,13 @@ First, open _Properties_ -like most macOS apps- using ⌘. Switch to the _Key
 
 Below you can see all the customized shortcuts that I’ve been using for some time. Some of them conflict with Xcode default shortcuts, and I decided to remove the default ones because I never use them. You’ll also see some empty ones. Those are the ones I’m not using, conflicting or pressing by mistake all the time, like _Print_ in the beginning.
 
-![](/images/content/essays/ios-dev-productivity-kit/Pasted%20image%2020230722214132.png)
+![](/images/content/posts/ios-dev-productivity-kit/Pasted%20image%2020230722214132.png)
 
 You probably noticed that I changed the _Rename_ shortcut to use the same key combinations with other refactor methods.
 
 In Xcode 12, here are the default Refactor shortcuts:
 
-![](/images/content/essays/ios-dev-productivity-kit/Pasted%20image%2020230722214139.png)
+![](/images/content/posts/ios-dev-productivity-kit/Pasted%20image%2020230722214139.png)
 
 ### Debugger
 

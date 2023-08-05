@@ -26,7 +26,7 @@ Later, I regretted my discourteous action because the situation created an inner
 
 When we respond to rudeness with kindness, the unpleasant situation suddenly sees a bright light. A tiny light of hope bears inside us and tells us everything will be all right. A light like the one coming after a scary storm in the ocean. A light that arises hope for humanity and peace and brings beauty and color.
 
-![In the movie Everything Everywhere All At Once, all the people are kind inside. But circumstances create inner conflicts for them, and everything results in unkindness.](/images/content/essays/why-is-it-so-hard-to-be-kind/why-is-it-hard-to-be-kind.jpg)
+![In the movie Everything Everywhere All At Once, all the people are kind inside. But circumstances create inner conflicts for them, and everything results in unkindness.](/images/content/posts/why-is-it-so-hard-to-be-kind/why-is-it-hard-to-be-kind.jpg)
 
 All these feelings and consequences are there, and it's good that I can see them. But still, the question I asked remains unanswered. Perhaps I need to change the question and approach from another perspective: Waymond's.
 
