@@ -10,7 +10,7 @@ external: false
 
 Creating knowledge silos and building software in a team without involving others is unavoidable in growing organizations. That's why organizations create RFC processes to break down silos, collect feedback early and prevent impediments that can come out later in development, which usually are costly. Later these organizations aim to create governance around the RFC process and give guidance to the people through templates and a refined RFC process.
 
-Even though I love the RFC process and have even introduced it to an organization before, I see a lot of traps that organizations (and people) fall into. I want to explain what I have learned and observed in other organizations.
+Even though I [love the RFC process and have even introduced it to an organization before](/how-to-stop-endless-discussions), I see a lot of traps that organizations (and people) fall into. I want to explain what I have learned and observed in other organizations.
 
 ## No Business Need, No RFC
 
@@ -60,7 +60,7 @@ Organizations should influence people to write RFCs, and the guides to writing t
 
 An RFC template should be flexible. It's there to guide people's thoughts. A template should not only make writing easier but also understanding easier.
 
-I still recommend NABC Model (Need, Approach, Benefits, Competitors) that Stanford introduced. It's short and guides people in a direction where it's easy to understand.
+I [still recommend NABC Model (Need, Approach, Benefits, Competitors) that Stanford introduced](/how-to-stop-endless-discussions). It's short and guides people in a direction where it's easy to understand.
 
 ## Build The Right Culture First
 
