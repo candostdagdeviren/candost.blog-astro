@@ -10,7 +10,7 @@ external: false
 
 Many organizations have knowledge-sharing sessions where people present what they have learned or found interesting. Software engineers are sometimes expected to be on the stage to level up in their careers, as this is one of the most tangible ways to showcase they're trying to grow others. However, engineers are not professional speakers. They rarely spend time getting better at speaking to an audience. For many, explaining how something works is less exciting than learning how that thing works. For me, I was always fascinated by both.
 
-While working as a software engineer, I also improved my presentation skills by reading up on the topic, seeking feedback in every possible way, and talking with the best presenters I've ever listened to. These days, I get good feedback on my talks and podcast episodes, and people ask me to pass on my knowledge of [being a good speaker](/speaking-writing-and-high-quality-ideas). They ask the same questions I asked a long time ago to the best presenters. It's time to pass the baton.
+While working as a software engineer, I also improved my presentation skills by reading up on the topic, seeking feedback in every possible way, and talking with the best presenters I've ever listened to. These days, I get good feedback on my talks and podcast episodes, and people ask me to pass on my knowledge of [being a good speaker](/speaking-writing-and-high-quality-ideas/). They ask the same questions I asked a long time ago to the best presenters. It's time to pass the baton.
 
 Here I want to share the key points for improving public speaking—a business presentation, tech talk, podcast episode, knowledge-sharing talk, or what have you. The below points are not an exhaustive list, but I learned over the years that they are the most crucial ones.
 
@@ -64,7 +64,7 @@ If you jump from one section to another without a pause, the audience cannot clo
 
 Remember, the talk is about you; you also need to focus, and a second of silence helps you gain focus when you're distracted. Taking a slow, deep breath into your stomach relaxes and enables you to remember your next lines.
 
-One caveat: don't overuse silence. As it grabs all the attention, [it needs to be used wisely](/sometimes-saying-nothing-tells-everything). That's why you must create the storyline to support that silence.
+One caveat: don't overuse silence. As it grabs all the attention, [it needs to be used wisely](/sometimes-saying-nothing-tells-everything/). That's why you must create the storyline to support that silence.
 
 ## Connect the Dots in the Story
 
@@ -72,7 +72,7 @@ Most presentations have a main topic and sub-topics. We often hear, "There are f
 
 The goal is to create a single message in listeners' minds—the key message of the talk. You must build the story around _that message_. Whenever there are sub-topics that give more details, you have to create good segues back to the main topic. These sub-topics are supportive ideas of the key message. Listeners should see the connections between them because they will try to connect those topics in their minds. Don't leave this job to them. They should spend their energy listening to you and understanding what you're talking about. **They shouldn't build up the topic on their minds; you must connect the dots for them.**
 
-So, if you [explain four sub-topics one by one](/newsletter/mektup-45), you have to create good segues while switching from one to another instead of taking big jumps between them. You have to connect all sub-topics to the main message. Creating a good story is challenging, and there are [good](https://robbiesenbach.com/books/) [books](https://www.thescienceofstorytelling.com/) and [tons of videos about it](https://www.youtube.com/results?search_query=storytelling); I will leave it out of this post.
+So, if you [explain four sub-topics one by one](/newsletter/mektup-45/), you have to create good segues while switching from one to another instead of taking big jumps between them. You have to connect all sub-topics to the main message. Creating a good story is challenging, and there are [good](https://robbiesenbach.com/books/) [books](https://www.thescienceofstorytelling.com/) and [tons of videos about it](https://www.youtube.com/results?search_query=storytelling); I will leave it out of this post.
 
 Having a good story gives you one more advantage. Once you create the storyline right and connect the dots, you don't have to worry about your notes anymore.
 
@@ -104,6 +104,6 @@ Now, it's understandable that there is so much you can do. You might feel overwh
 
 ## One Step At A Time
 
-Like every skill, improving public speaking [takes time and a lot of practice](/newsletter/mektup-50). Your first preparation will take longer, but the next preparation will take less time once you learn the fundamentals. [You will have many bad presentations but don't give up](/notes/faucets-and-bad-ideas) and focus on [one and only one improvement each time](/newsletter/mektup-41). After a few talks, you'll already be much better than the majority.
+Like every skill, improving public speaking [takes time and a lot of practice](/newsletter/mektup-50/). Your first preparation will take longer, but the next preparation will take less time once you learn the fundamentals. [You will have many bad presentations but don't give up](/notes/faucets-and-bad-ideas/) and focus on [one and only one improvement each time](/newsletter/mektup-41/). After a few talks, you'll already be much better than the majority.
 
-Don't forget; if you make [one improvement](/bias-towards-action), you're already taking one step further than most of the population. And your first step should be deciding on the key message of your talk. The next steps are easier to follow.
+Don't forget; if you make [one improvement](/bias-towards-action/), you're already taking one step further than most of the population. And your first step should be deciding on the key message of your talk. The next steps are easier to follow.

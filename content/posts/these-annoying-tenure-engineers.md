@@ -16,13 +16,13 @@ You name it.
 
 They have seen a lot.
 
-But [they still didn't leave](/do-not-change-jobs).
+But [they still didn't leave](/do-not-change-jobs/).
 
 They are valuable assets because of their accumulated historical and domain knowledge. They are long-time supporters of the mission. They are the sense-makers and challengers for new decisions. Although organizations aim to have more tenures—having these people is a tremendous asset to the company—they can quickly become drawbacks because they have seen **a lot**.
 
 They can become blockers of innovation. If they just float around the same area without clear priorities, they prevent new things from developing and seeing the light. If you approach them to get their idea or learn why a particular feature of the product is built that way, they surface all the accumulated problems to your face and demotivate you. They suck the energy out of you by bringing up thousands of issues you couldn't foresee.
 
-Yes, you still learn why something has been built that way, but if these tenures are advocates for staying still instead of being consultants for sensible development, you have a hard time changing them. Once tenures are in their [comfort zone](/newsletter/mektup-14), getting them out is challenging. Moreover, when they get out, it is often not easy for them to [let old things go](/the-real-difficulty-of-engineering-leadership/).
+Yes, you still learn why something has been built that way, but if these tenures are advocates for staying still instead of being consultants for sensible development, you have a hard time changing them. Once tenures are in their [comfort zone](/newsletter/mektup-14/), getting them out is challenging. Moreover, when they get out, it is often not easy for them to [let old things go](/the-real-difficulty-of-engineering-leadership/).
 
 > "I can't stay silent and ignore what's happening when people do all that stupid stuff to the services I designed and developed for years. I created them; these applications are my babies."
 >
@@ -34,7 +34,7 @@ Of course, not all tenure engineers are like that. Some will seek change and be 
 
 Counsel Tenure Engineers are like your best lawyers. They tell you exactly what would work and what wouldn't while doing everything they can to win your case. They follow your dreams while pulling your feet to the ground.
 
-Leading tenures through change is a big challenge. When they say, "It won't work; we have tried that before," or "Why are we going around the same things again that we did two years ago?" you, as their leader, have to stop and turn things around. You must show how things have changed since then and why you're not in the same environment anymore. [You must encourage them to see the holistic picture](/newsletter/mektup-27). Instead of coaching them with "give it one more try," you should approach with "let's use your knowledge and experience and figure out how to make it successful this time."
+Leading tenures through change is a big challenge. When they say, "It won't work; we have tried that before," or "Why are we going around the same things again that we did two years ago?" you, as their leader, have to stop and turn things around. You must show how things have changed since then and why you're not in the same environment anymore. [You must encourage them to see the holistic picture](/newsletter/mektup-27/). Instead of coaching them with "give it one more try," you should approach with "let's use your knowledge and experience and figure out how to make it successful this time."
 
 Organizations must turn these engineers from advocates of endless stability to consultants for experimentation and counsels of innovation. Their accumulated knowledge must be extracted and used in cross-border domains. If the documentation is not that great (like most organizations), these people are the knowledge your organization has, and you have to treat them as historical non-fiction books, not historical novels; read them to learn what happened instead of getting stuck in a story.
 

@@ -65,7 +65,7 @@ My earlier expectations were shallow and almost non-existent. I took notes to re
 
 Instead of trying to become smarter and memorize stuff, I assume I will forget. Hence, I write things down. As I will forget with or without note-taking, I moved the responsibility of remembering things to my system. No expectation to remember things is a big relief to my mind.
 
-Another expectation I had was to produce more articles or essays to publish on this blog. That is gone too. I will keep writing, but I do not crave to publish more. I expect to write daily and publish only when I'm ready and when it's time to publish [Mektup](/newsletter).
+Another expectation I had was to produce more articles or essays to publish on this blog. That is gone too. I will keep writing, but I do not crave to publish more. I expect to write daily and publish only when I'm ready and when it's time to publish [Mektup](/newsletter/).
 
 One expectation I will keep is to learn more, but this time differently. As I write notes in my _own_ words instead of taking quotes, each one challenges my learning. In every written word, I face a huge learning curve. Every note teaches me something better. That's why I keep my learning expectation.
 

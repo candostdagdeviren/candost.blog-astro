@@ -105,4 +105,4 @@ The path is very similar to how blame absorber stops blaming themselves. While e
 
 Blame absorbers are everywhere. It’s not a personality; it’s a behavior that everyone develops from time to time. For some people, it happens often; for some, it’s rare. However, there is usually a person who blames themselves for things happening around them. Look around yourself; I’m sure you will find someone who behaves like that. If nobody came to your mind, let me make it easier: I’m one of them. I often blame myself for the failures around me.
 
-_P.S. If you’re looking for a systematic way to give feedback to blame absorbers, you can read [this post](/systematic-approach-to-give-feedback-to-blame-absorbers)._
+_P.S. If you’re looking for a systematic way to give feedback to blame absorbers, you can read [this post](/systematic-approach-to-give-feedback-to-blame-absorbers/)._

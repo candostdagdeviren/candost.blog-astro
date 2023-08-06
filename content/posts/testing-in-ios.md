@@ -26,7 +26,8 @@ Architectural decisions are made better with tests. We’ll talk about the archi
 
 Lastly, tests make code reviews easy. If we already have a lot of tests, we are more confident that the change doesn’t affect the other parts of the code. And if we’re not really familiar with the content of the [pull](https://www.atlassian.com/git/tutorials/making-a-pull-request) (or [merge](https://docs.gitlab.com/ee/user/project/merge_requests/)) request, thanks to the tests, we understand that content with ease. I like the quote that Apple engineers say in [one WWDC17 session](https://developer.apple.com/videos/play/wwdc2017/414/), “Code reviews for test code, not code reviews with test code.”
 
-Ok, let’s summarize here;
+Ok, let’s summarize here:
+
 - Manual tests are buggy, and they may cause unwanted behavior
 - Automated tests are robust, and they provide self-documentation to the code
 - Automated tests seem time-consuming at first, but they save more time in the long run
@@ -144,6 +145,7 @@ Covering the app code with tests is a neat way to be sure the app works properly
 ---
 
 Further:
+
 - [Engineering for Testability - WWDC17](https://developer.apple.com/videos/play/wwdc2017/414/)
 - [Writing Swift code with great testability - John Sundell](https://www.youtube.com/watch?v=amVstam84Xo)
 - [Testing Tips & Tricks - WWDC18](https://developer.apple.com/videos/play/wwdc2018/417/)

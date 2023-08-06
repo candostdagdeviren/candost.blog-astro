@@ -25,7 +25,7 @@ There are many 1:1 guides for managers but near to nothing for engineers. The me
 
 ## How to Stop Endless Discussions
 
-**​[Article](/how-to-stop-endless-discussions)​**
+**​[Article](/how-to-stop-endless-discussions/)​**
 
 When we find ourselves in endless debates where everyone defends their idea (tabs vs. spaces, React vs. Angular, iOS vs. Android, Reactive vs. Object-Oriented programming), we don't know how to handle the situation. We often create conflicts between ourselves and other team members. We eventually find a way out, but what we need is an excellent system. In this article, I explain that system.
 

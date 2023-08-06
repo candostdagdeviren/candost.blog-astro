@@ -37,4 +37,4 @@ Here are the frameworks I am already aware of:
 
 — Candost
 
-**P.S.:** _[You don't need to learn another programming language every three months](/no-you-dont-need-to-learn-another-programming-language-every-three-months)._
+**P.S.:** _[You don't need to learn another programming language every three months](/no-you-dont-need-to-learn-another-programming-language-every-three-months/)._

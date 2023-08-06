@@ -52,7 +52,7 @@ Maintenance costs add up to our previous ones, and in the end, we get the total 
 
 ![](/images/content/newsletter/optimum-range.png)
 
-If a new feature hits the release early, we quickly learn if it is working or not. We often don't perceive impediments if the new feature will be successful or not. **When we know something doesn't work within a week, it's better not to spend more time on it and instead develop useful (and profitable) features.** Execution and early feedback show us our mistakes and give us a chance to learn. Making bad product decisions because of the [lack of feedback](/importance-of-the-feedback) and experiments is one of the indirect costs.
+If a new feature hits the release early, we quickly learn if it is working or not. We often don't perceive impediments if the new feature will be successful or not. **When we know something doesn't work within a week, it's better not to spend more time on it and instead develop useful (and profitable) features.** Execution and early feedback show us our mistakes and give us a chance to learn. Making bad product decisions because of the [lack of feedback](/importance-of-the-feedback/) and experiments is one of the indirect costs.
 
 "Big Bang" releases require multitasking. When batch size increases, many things need to be done in parallel, such as running migrations, deployments, and job sync between services and people. One mistake can create significant problems. These parallel efforts interrupt the standard workflow. **When the gap between development and deployment increases, people begin disconnecting from the work that they completed weeks ago.** Diagnosing the problems becomes more difficult. These problems lead to low psychological safety, stress, and fear because of the high risk.
 
@@ -66,8 +66,8 @@ _"Can you deploy on Friday after lunch without being afraid of doing overtime on
 
 **Deploy small batches, and release often.** Both are related but separate. While deployment is a technical decision and setup, the release is a product strategy. If you want to start thinking about how you can get better at the product side, use Eric Schmidt's question that focuses on speed and ask yourself:
 
-> ["Why can't this be done sooner?"](/why-cant-this-be-done-sooner) - Larry Page
+> ["Why can't this be done sooner?"](/why-cant-this-be-done-sooner/) - Larry Page
 
-It's never too late to start improving. Don't forget; **[minor improvements accumulate](/newsletter/mektup-3) and create a significant impact.** You don't need to start a big project to achieve optimum release and deployments. [Focus on a tiny improvement in each product development cycle.](/bias-towards-action)
+It's never too late to start improving. Don't forget; **[minor improvements accumulate](/newsletter/mektup-3) and create a significant impact.** You don't need to start a big project to achieve optimum release and deployments. [Focus on a tiny improvement in each product development cycle.](/bias-towards-action/)
 
 — Candost

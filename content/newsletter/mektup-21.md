@@ -19,7 +19,7 @@ When I realized that I had stopped creating goals, I focused on forming habits i
 
 ## Goals vs. Habits
 
-​[I don't have goals in my life for almost two years](/growth-with-systematic-bliss). This strategy scares some goal-oriented people. However, I am focused on gaining new habits and playing a long-term game while living in the moment. This strategy helped me more than any goal that I had tried before. But I know that this style is not for everyone, especially not for many software engineers.
+​[I don't have goals in my life for almost two years](/growth-with-systematic-bliss/). This strategy scares some goal-oriented people. However, I am focused on gaining new habits and playing a long-term game while living in the moment. This strategy helped me more than any goal that I had tried before. But I know that this style is not for everyone, especially not for many software engineers.
 
 When I think about software engineering, the goals are the profession's nature. K.P.I.s, O.K.R.s, bug metrics, dead­lines, and sprint goals are all pushing us to define more timely, measurable, and specific goals, a.k.a. **[S.M.A.R.T. goals](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals)**. However, there is one thing many engineers forget: **developing skills takes time and demands a lot of practice, courage, and resilience to take an unknown journey.**
 

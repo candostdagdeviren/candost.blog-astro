@@ -19,7 +19,7 @@ Rushing every task, job and finishing everything quickly fastens the process of 
 
 We will never control everything that’s going on. There is no way other than accepting the reality that life is messy and we will never have work-life balance by just copying other people who got up early at 5 a.m. and did X number of things.
 
-Constantly increasing productivity is a capitalist scam that increases the output while promoting more happiness and satisfaction by giving rewards, especially in the knowledge worker community. [I’ve fallen into this trap and confused productivity with happiness.](/a-life-without-problems-the-happiness) When I produce more, I tend to think I’m happy. A small dopamine rush after completing a to-do item gives me pleasure and, as a result, demands more from my life because I take that load and think that I can do more all the time. Yet, I can’t because life puts various difficulties.
+Constantly increasing productivity is a capitalist scam that increases the output while promoting more happiness and satisfaction by giving rewards, especially in the knowledge worker community. [I’ve fallen into this trap and confused productivity with happiness.](/a-life-without-problems-the-happiness/) When I produce more, I tend to think I’m happy. A small dopamine rush after completing a to-do item gives me pleasure and, as a result, demands more from my life because I take that load and think that I can do more all the time. Yet, I can’t because life puts various difficulties.
 
 Whenever life amplifies the difficulties, we choose the easiest way out. That’s what Rainer Maria Rilke [observed](https://www.themarginalian.org/2021/06/29/rilke-letters-to-a-young-poet-macy-barrows/) as well.
 

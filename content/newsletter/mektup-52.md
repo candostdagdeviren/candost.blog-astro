@@ -7,7 +7,7 @@ updateDate: 2023-03-07
 external: false
 ---
 
-When I [wrote you the last time about the myth of multitasking](/newsletter/mektup-41), I talked about our attention limit having a value of only one cognitive task. Today, I want to double-click on that attention-demanding creative task and connect it to the quality of results.
+When I [wrote you the last time about the myth of multitasking](/newsletter/mektup-41/), I talked about our attention limit having a value of only one cognitive task. Today, I want to double-click on that attention-demanding creative task and connect it to the quality of results.
 
 In Mythical Man-Month book, Brooks talks about the importance of execution in software engineering. Much like in any other creative task (writing, painting, etc.), an idea has full of hidden flaws until the execution. Software engineers don't realize the inconsistencies in their proposals before implementing or at least writing the approach down. Without the execution, the flaws in system design will never surface. The discrepancies in component design will only come out with the coding. It's especially true with legacy systems. The majority of us work with codebases or projects we didn't develop. We design new components that fit into systems we cannot 100% comprehend. That's where I want to take Brook's statement one step further. Multitasking conceals all the design flaws even deeper.
 

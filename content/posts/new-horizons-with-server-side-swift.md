@@ -274,6 +274,6 @@ After all coding, it was time to build the API and send a request via Postman. I
 
 ---
 
-[In the next post](/unit-tests-in-server-side-swift), I made this project testable and Dockerized. There are some points to be careful while making it testable.
+[In the next post](/unit-tests-in-server-side-swift/), I made this project testable and Dockerized. There are some points to be careful while making it testable.
 
 As a final step, I’ll try to upload it to the cloud. But my first impression was really good. I should say that I am convinced to work on the backend side of Swift. It’s pretty easy. I’m working with SublimeText instead of Xcode. Thus, I can understand each line I wrote without auto-completion. If you’re working with Swift, you should definitely try to create some backend APIs with Swift.

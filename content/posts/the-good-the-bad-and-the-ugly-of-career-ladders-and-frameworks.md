@@ -22,9 +22,9 @@ Dropbox recently published [its career framework](https://dropbox.github.io/dbx
 
 ## Personal Growth in All Levels
 
-Junior and mid-level engineers usually cannot perceive [how they can grow](/growth-with-systematic-bliss) and [what they should learn](/deciding-on-what-you-should-focus-on-next). The framework assists them with options and opportunities and identifies which skills need attention to plan their growth.
+Junior and mid-level engineers usually cannot perceive [how they can grow](/growth-with-systematic-bliss/) and [what they should learn](/deciding-on-what-you-should-focus-on-next/). The framework assists them with options and opportunities and identifies which skills need attention to plan their growth.
 
-On the upper levels of the ladder, staff and principal engineers can understand the scope of their work to [prioritize their projects more efficiently](/prioritization-skills-for-senior-and-staff-software-engineers). I often encounter principal and staff engineers having trouble describing their impact while preparing for performance reviews. The framework provides a basis for discussion about their responsibilities and influence on the company.
+On the upper levels of the ladder, staff and principal engineers can understand the scope of their work to [prioritize their projects more efficiently](/prioritization-skills-for-senior-and-staff-software-engineers/). I often encounter principal and staff engineers having trouble describing their impact while preparing for performance reviews. The framework provides a basis for discussion about their responsibilities and influence on the company.
 
 Regardless of the level, all engineers use the framework in performance reviews. Since it defines the minimum expectations, engineers get help to prepare for the review and the promotion case. However, the framework shouldn't be the only criterion in performance reviews and promotions.
 
@@ -40,7 +40,7 @@ The company's leadership group isn't the only one who creates the framework and 
 
 ## Not Every Skill Is Measurable
 
-Some skills listed in the framework will have a vague meaning. Some companies define them as precisely as possible, albeit the skills themselves are difficult to specify and level, especially soft ones. For example, [being an effective communicator](/books/high-productivity-and-clear-communication-in-different-cultures) has different meanings in [different cultures](https://mediations.candost.blog/p/8-cross-cultural-communication). Finding what effective communication means is the real challenge.
+Some skills listed in the framework will have a vague meaning. Some companies define them as precisely as possible, albeit the skills themselves are difficult to specify and level, especially soft ones. For example, [being an effective communicator](/books/high-productivity-and-clear-communication-in-different-cultures/) has different meanings in [different cultures](https://mediations.candost.blog/p/8-cross-cultural-communication). Finding what effective communication means is the real challenge.
 
 ## Be Aware Of The Cultural Differences
 

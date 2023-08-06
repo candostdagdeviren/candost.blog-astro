@@ -8,7 +8,7 @@ updateDate: 2022-12-15
 external: false
 ---
 
-For years, I've been planning my days hour by hour, trying to build habits that last for longer periods, not just for a few months. [In a life without goals](/growth-with-systematic-bliss), [habits](/goals-and-existence) are the fundamental stones, and opening some space for them is crucial to not falling into an aimless life.
+For years, I've been planning my days hour by hour, trying to build habits that last for longer periods, not just for a few months. [In a life without goals](/growth-with-systematic-bliss/), [habits](/goals-and-existence/) are the fundamental stones, and opening some space for them is crucial to not falling into an aimless life.
 
 One of the results of these habits (writing every day) is this blog. This blog is the product that came out from me sitting down and writing for at least thirty minutes every morning. It was difficult to start writing at first, but these days, I just grab my pen (or sometimes keyboard) and continue writing or editing my previous drafts. Once I got used to the habit, it became a routine.
 

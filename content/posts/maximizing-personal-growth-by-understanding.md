@@ -20,7 +20,7 @@ A while ago, I [gave a talk](https://www.youtube.com/watch?v=K-RHkk67eCQ) about 
 
 ## **Why is receiving feedback more important than giving feedback?**
 
-I have never met a person who wants to stay as it is. Everyone wants to change a thing or two and knows [there is no better way than to get constructive feedback](/importance-of-the-feedback). However, what constructive means changes from person to person. Also, focusing on how to get feedback well is not everyone's trait, as it's uncomfortable: **_we prefer telling people what they should do instead of hearing what we should be doing._**
+I have never met a person who wants to stay as it is. Everyone wants to change a thing or two and knows [there is no better way than to get constructive feedback](/importance-of-the-feedback/). However, what constructive means changes from person to person. Also, focusing on how to get feedback well is not everyone's trait, as it's uncomfortable: **_we prefer telling people what they should do instead of hearing what we should be doing._**
 
 Receiving any kind of feedback is hard—positive and negative. When we get a compliment, we often don't know what to say besides thank you. We deny it and stay humble even though we like the words we hear, and we deeply know that we deserve them. On the other hand, when we hear any feedback that aims at altering our behavior, we see it as a threat, and somewhere in our chest, anger/sadness/frustration pop up. Our mind tells us to calm down, but it's challenging to push back these negative feelings.
 
@@ -44,7 +44,7 @@ To uncover the case, we need to understand three different kinds of feedback:
 
 #### **Three Kinds of Feedback**
 
-[I wrote about these three kinds of feedback before](/three-types-of-feedback). In short:
+[I wrote about these three kinds of feedback before](/three-types-of-feedback/). In short:
 
 1. **Appreciation:** It's the feedback we love when it's authentic and given on time. Examples:
     "Great job!"
@@ -100,7 +100,7 @@ The second step is understanding the relationship: the role clashes. We have our
 
 The third step is looking with a bird-eye view: the big picture in the organization. We should identify how other people, project and hierarchical structures, work processes, and other relationships influence and constrain decisions and affect the outcomes we get.
 
-> **_Side note:_** _Understanding the relationship system also helps to correct our tendency to absorb blame. For more detail, you can read_ [_this post_](/learning-cone-and-blame-spiral-the-case-of-blame-absorbers)_._
+> **_Side note:_** _Understanding the relationship system also helps to correct our tendency to absorb blame. For more detail, you can read_ [_this post_](/learning-cone-and-blame-spiral-the-case-of-blame-absorbers/)_._
 
 The first two triggers (truth and relationship) were focused on both sides of the feedback. There is a third, and the most fundamental one, that not only causes us to take a stance against feedback but also pushes us to go offensive—identity.
 

@@ -111,7 +111,7 @@ The other problem is handling push notifications was different on the Android si
 
 The last problem is configuring sandbox and production types for Firebase. Most of the iOS apps don’t have a separate target for different release modes. For different configurations like Debug, Test, and Release, you have to set up different apps in Firebase Console. Then, you’ll have a separate GoogleService-Info.plist for different configurations. Renaming them and configuring Firebase with these files won’t work. The only solution I can find is running a script. Put different .plist files for different Firebase apps under separate folders. You can name them like prod, beta, etc., and run the following script before Compile Sources in Build Phases in your app target. (Don’t forget to configure the below script with your folder naming and path)
 
-```
+```shell
 isRelease=`expr "$GCC_PREPROCESSOR_DEFINITIONS" : ".*release=\([0-9]*\)"`
 RESOURCE_PATH=${SRCROOT}/firebase/beta
 if [ $isRelease = 1 ]; then

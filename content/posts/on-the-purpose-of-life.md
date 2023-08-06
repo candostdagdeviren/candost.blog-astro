@@ -77,6 +77,6 @@ Perhaps, we have to live this through to reach what we seek. Not to search for i
 
 I didn't expect to find something when I began writing this. These thoughts were already inside me. There are a lot of maybes and perhaps above. But I have more clarity than before. *Perhaps* these ambiguities will slowly fade away.
 
-This is a journey that I [started discovering a few years ago](/growth-with-systematic-bliss/). It [taught me different things](/what-hades-the-game-had-taught-me/). It has [ups](/being-morally-good-in-the-war-of-life) and [downs](/a-life-without-problems-the-happiness/), and I often [write about it](/goals-and-existence/).
+This is a journey that I [started discovering a few years ago](/growth-with-systematic-bliss/). It [taught me different things](/what-hades-the-game-had-taught-me/). It has [ups](/being-morally-good-in-the-war-of-life/) and [downs](/a-life-without-problems-the-happiness/), and I often [write about it](/goals-and-existence/).
 
 I hope I somehow take you on this journey as well and give you something to think about.

@@ -46,7 +46,7 @@ After many stages, microservices architecture emerged and reversed Conway's law.
 
 For example, having a separate database administrator (DBA) from teams will create software design with one big database. If we want teams to own their portion of the database, we must embed this competency in the team. Once the database ownership belongs to the team, they separate their part of the big database into its own entity they can maintain. That's how Conway's law works in practice.
 
-**Organization design requires technical expertise:** Anyone who makes decisions about organizational structure should at least understand the basics of [software architecture design](/how-to-approach-software-architecture-design).
+**Organization design requires technical expertise:** Anyone who makes decisions about organizational structure should at least understand the basics of [software architecture design](/how-to-approach-software-architecture-design/).
 
 **Everyone does not need to communicate**: If we want to reduce the coupling between services, we need to make these teams difficult to communicate with each other. When communication is too easy and people (unnecessarily) over-communicate, it reflects on the system design. Although communication is often promoted as a good practice, we need to be mindful if we want this to reflect on our systems. Sometimes keeping communication at a minimum is better if we want the software systems highly separated.
 

@@ -8,7 +8,7 @@ updateDate: 2021-03-25
 external: false
 ---
 
-When [I took ownership](/effective-1-on-1-meetings-own-your-one-on-one-meeting) of my one-on-ones with my manager, I searched for a 1:1 template, and most of the things I found did not suit me. As a software engineer, I found most of the templates were focused on the manager's perspective. However, since _I was the facilitator_ of the meeting, I picked the best parts from multiple templates and adjusted them according to the software engineer's perspective.
+When [I took ownership](/effective-1-on-1-meetings-own-your-one-on-one-meeting/) of my one-on-ones with my manager, I searched for a 1:1 template, and most of the things I found did not suit me. As a software engineer, I found most of the templates were focused on the manager's perspective. However, since _I was the facilitator_ of the meeting, I picked the best parts from multiple templates and adjusted them according to the software engineer's perspective.
 
 After using a new template for months, I can say that **it was a game-changer**. Now, I join my one-on-ones in full-ready mode. My manager and I understand each other better, and no topic can slip away from our minds (and from the agenda).
 
@@ -20,7 +20,7 @@ Templates on the internet are often for one side only; managers and engineers us
 
 We use [Confluence](https://www.atlassian.com/software/confluence/) from Atlassian. Confluence sends notifications whenever someone publishes a new version of your document. Writing in between meetings and getting notified helps us to realize some topics that require our attention. For example, some time ago, I wanted to talk about something bothering me in the company, and I saw that my manager had added the same topic to the document. Therefore, I waited for our meeting instead of writing a Slack message to discuss the case we needed to discuss over a call.
 
-We created a shared document where **both sides can contribute**. The template forces both sides to focus on the engineer's issues and [growth](/growth-with-systematic-bliss), _not the projects' status_. Keeping the history in one file helps track previous topics, action items, and learnings, which will become advantageous in the yearly performance review. Having one document will also help to follow up on action items and priorities.
+We created a shared document where **both sides can contribute**. The template forces both sides to focus on the engineer's issues and [growth](/growth-with-systematic-bliss/), _not the projects' status_. Keeping the history in one file helps track previous topics, action items, and learnings, which will become advantageous in the yearly performance review. Having one document will also help to follow up on action items and priorities.
 
 > **DO THIS:** Right after the 1:1 meeting, create a new table on top of the shared document. You can copy-paste the table template from the previous week (don't forget to clean the content).
 
@@ -54,9 +54,9 @@ Even though our expertise or competency is paying our salary, we learn things ev
 
 ### 4. Feedback
 
-Feedback is the [most critical mechanism](/importance-of-the-feedback) for humans to grow. Our lives are packed with small feedback. Each PR (pull request) review comment and failed tests are feedback that we need to perform better. While we receive and [provide](/14-lessons-i-learned-in-10-years) extensive feedback, eliminating the high-quality ones and carefully considering them is an important job.
+Feedback is the [most critical mechanism](/importance-of-the-feedback/) for humans to grow. Our lives are packed with small feedback. Each PR (pull request) review comment and failed tests are feedback that we need to perform better. While we receive and [provide](/14-lessons-i-learned-in-10-years/) extensive feedback, eliminating the high-quality ones and carefully considering them is an important job.
 
-Even though some people and [cultures](/books/high-productivity-and-clear-communication-in-different-cultures) are uncomfortable with direct feedback, **this section helps us assess work, collaboration, well-being, and job satisfaction.** I use this section as much as I can and recommend it too. And since I am the facilitator of the meeting, adding bullet points also nudges my manager to provide feedback.
+Even though some people and [cultures](/books/high-productivity-and-clear-communication-in-different-cultures/) are uncomfortable with direct feedback, **this section helps us assess work, collaboration, well-being, and job satisfaction.** I use this section as much as I can and recommend it too. And since I am the facilitator of the meeting, adding bullet points also nudges my manager to provide feedback.
 
 On the other hand, managers also need feedback, both positive and negative.
 

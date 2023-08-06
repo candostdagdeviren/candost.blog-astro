@@ -10,7 +10,7 @@ external: false
 
 Throughout your career, your work and tasks start simple and evolve. While working on software projects, you first begin with smaller tasks with the goal is finishing the job and learning. After gaining experience, you start taking on more responsibilities. By becoming a senior or staff engineer, you also become more autonomous and free. Instead of someone else planning your work, this autonomy brings prioritization to your shoulders.
 
-When I [talked about](/prioritization-skills-for-senior-and-staff-software-engineers) prioritization for senior and staff engineers, I left out the decision moment specifically. While the two are closely related, they are separate things. In this article, I will close that gap and discuss how to decide what to focus on next.
+When I [talked about](/prioritization-skills-for-senior-and-staff-software-engineers/) prioritization for senior and staff engineers, I left out the decision moment specifically. While the two are closely related, they are separate things. In this article, I will close that gap and discuss how to decide what to focus on next.
 
 In software projects, level-based prioritization is the most common technique currently in use. Assigning tasks and stories high, medium, and low priorities make it clear what to work on next. In real life, this priority strategy is not used a lot. While it's working for software projects, it's abstract for personal work prioritization. That's why I think the Moscow analysis technique is more suitable.
 
@@ -39,8 +39,8 @@ Now, **go over all your tasks in each section and put them into the scale, one 
 
 ![](/images/content/posts/deciding-on-what-you-should-focus-on-next/moscow_analysis_with_dependency_scale.jpg)
 
-After placing all the tasks, **[pick the easiest one to implement from the must-have list](/bias-towards-action)** and gradually go to the difficult ones.
+After placing all the tasks, **[pick the easiest one to implement from the must-have list](/bias-towards-action/)** and gradually go to the difficult ones.
 
 The work is not always will be on the "must-have" list. Sometimes you will need to juggle between must, should, and could. It's possible that you will have some [slack time](https://fs.blog/2021/05/slack/) and want to take one task —such as the minor refactoring you always wanted to do—from the could-have list. If you can, go ahead. You might also be blocked in all of your must-have tasks. Don't stop yourself. That's inevitable, and **juggling between sections is okay**. You can always come back to must-have ones because you know what to work on next and what not to work on.
 
-Prioritization and taking time to decide on something are often neglected and forgotten throughout careers. Although they are crucial parts of software projects, they are not used while [planning](/top-3-tips-for-planners) individual work. Now, you have one new method to try. This method might not be 100% suitable for your work or needs. Feel free to adjust however you feel more comfortable. If you want to learn more about prioritization for senior and staff engineers, check out the [podcast episode](https://mediations.candost.blog/p/15-prioritization-for-senior-and-787) in that Dennis and I talked about prioritization.
+Prioritization and taking time to decide on something are often neglected and forgotten throughout careers. Although they are crucial parts of software projects, they are not used while [planning](/top-3-tips-for-planners/) individual work. Now, you have one new method to try. This method might not be 100% suitable for your work or needs. Feel free to adjust however you feel more comfortable. If you want to learn more about prioritization for senior and staff engineers, check out the [podcast episode](https://mediations.candost.blog/p/15-prioritization-for-senior-and-787) in that Dennis and I talked about prioritization.

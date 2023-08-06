@@ -71,8 +71,8 @@ We took a look at the fundamentals and essentials of the app lifecycle. I hope i
 ---
 
 Further:
-- [View Lifecycle in iOS](/view-lifecycle-in-ios)
-- [Concurrency in iOS](/concurrency-in-ios)
+- [View Lifecycle in iOS](/view-lifecycle-in-ios/)
+- [Concurrency in iOS](/concurrency-in-ios/)
 - [Graphical Representation of State Transitions](https://qph.fs.quoracdn.net/main-qimg-473264d5d9f0ec16d57b8dffcc9824d8)
 - [Background Execution Programming Guide](https://developer.apple.com/library/archive/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html#//apple_ref/doc/uid/TP40007072-CH4-SW1)
 - [Concurrency Programming Guide](https://developer.apple.com/library/archive/documentation/General/Conceptual/ConcurrencyProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008091)

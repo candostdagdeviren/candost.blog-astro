@@ -297,3 +297,4 @@ Until now, we have covered database setup, the logic of the app, routing, middle
 - If you want to use Docker and deploy wherever you want you can check [this post](https://medium.com/@LarsJK/easy-server-side-swift-with-docker-4c297feeeeb5) out for setting up Docker for your server-side Swift app.
 - If you want to use DigitalOcean and MySQL, check [this post](https://medium.com/@pumplerod/server-side-swift-vapor-mysql-and-nginx-with-ssl-cert-running-on-ubuntu-instance-from-e59f50f450e2) out to learn all about setting up the process.
 - Also, Amazon has a Quick Start Reference for setting up Swift Web applications on the AWS cloud which you can access from [here](https://aws.amazon.com/about-aws/whats-new/2016/11/swift-web-applications-on-the-aws-cloud-quick-start-reference-deployment/).
+-

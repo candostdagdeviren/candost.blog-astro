@@ -8,7 +8,7 @@ updateDate: 2018-11-27
 external: false
 ---
 
-After focusing on the [Application Lifecycle](/ios-application-lifecycle) and [View Lifecycle](/view-lifecycle-in-ios) in iOS, our next topic will be Networking. But before getting into details in networking, we should know one more thing.
+After focusing on the [Application Lifecycle](/ios-application-lifecycle/) and [View Lifecycle](/view-lifecycle-in-ios/) in iOS, our next topic will be Networking. But before getting into details in networking, we should know one more thing.
 
 And this crucial thing is **concurrency**. We face handling more than one operation at the same time in today’s world. We want to shorten users’ waiting time even though it’s not necessary. Displaying the loading for a long time or freezing the UI moves the user’s focus away and decreases the app usage from time to time. At the same time, keeping attention on the app became really hard. Therefore, instead of executing operations synchronously, one after another, we have to run them in parallel to have a better user experience.
 

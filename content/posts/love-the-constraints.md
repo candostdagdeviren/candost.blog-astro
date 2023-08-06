@@ -8,7 +8,7 @@ updateDate: 2023-05-16
 external: false
 ---
 
-When I look back at the topics I covered in Mektup, I wrote about energy and time management, habits, multitasking, mentoring, remote work, process thinking, and many more. If I take one step back, a challenge becomes visible: I'm in the middle of all, trying to navigate, mediate and negotiate within some constraints to find my way. That's why I renamed this blog to *Mediations* (not *Medi**t**ations*). Today, I will talk about how to understand and work with constraints in our work life.
+When I look back at the topics I covered in Mektup, I wrote about energy and time management, habits, multitasking, mentoring, remote work, process thinking, and many more. If I take one step back, a challenge becomes visible: I'm in the middle of all, trying to navigate, mediate and negotiate within some constraints to find my way. That's why I renamed this blog to _Mediations_ (not _Medi**t**ations_). Today, I will talk about how to understand and work with constraints in our work life.
 
 If we look at constraints from a higher perspective, time, people, and money are the biggest ones. Whatever we want to do, we are dependent on time and other people. We all have working hours (constrained by how much money we earn, less money = less time) to achieve a goal. How much a team achieves in these hours decides the team's success. Moreover, anyone in the team is also constrained by others to deliver their work in collaboration. Thus, we must find ways to understand these constraints and find an optimal solution, just like we do in software engineering.
 
