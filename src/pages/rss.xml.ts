@@ -2,6 +2,7 @@ import rss from "@astrojs/rss";
 import { blog, books, newsletters, podcast } from "../lib/markdoc/frontmatter.schema";
 import { readAll } from "../lib/markdoc/read";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../config";
+import Markdoc from "@markdoc/markdoc";
 
 export const get = async () => {
   const posts = await readAll({
@@ -31,15 +32,18 @@ export const get = async () => {
 
   const rssPosts = posts
   .filter((p) => p.frontmatter.draft !== true)
-  .map(({ frontmatter, slug }) => {
+  .map(({ frontmatter, slug, content }) => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
       const link = frontmatter.url;
+      const description = "";
 
       return {
         title,
         pubDate,
+        description,
+        content,
         link,
       };
     }
@@ -53,21 +57,25 @@ export const get = async () => {
       title,
       pubDate,
       description,
+      content,
       link,
     };
   });
 
   const rssPodcastEpisodes = podcastEpisodes
   .filter((p) => p.frontmatter.draft !== true)
-  .map(({ frontmatter, slug }) => {
+  .map(({ frontmatter, slug, content }) => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
       const link = frontmatter.url;
+      const description = "";
 
       return {
         title,
         pubDate,
+        description,
+        content,
         link,
       };
     }
@@ -81,21 +89,25 @@ export const get = async () => {
       title,
       pubDate,
       description,
+      content,
       link,
     };
   });
 
   const rssLetters = letters
   .filter((p) => p.frontmatter.draft !== true)
-  .map(({ frontmatter, slug }) => {
+  .map(({ frontmatter, slug, content }) => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
       const link = frontmatter.url;
+      const description = "";
 
       return {
         title,
         pubDate,
+        description,
+        content,
         link,
       };
     }
@@ -109,21 +121,25 @@ export const get = async () => {
       title,
       pubDate,
       description,
+      content,
       link,
     };
   });
 
   const rssBookNotes = bookNotes
   .filter((p) => p.frontmatter.draft !== true)
-  .map(({ frontmatter, slug }) => {
+  .map(({ frontmatter, slug, content }) => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
       const link = frontmatter.url;
+      const description = "";
 
       return {
         title,
         pubDate,
+        description,
+        content,
         link,
       };
     }
@@ -137,6 +153,7 @@ export const get = async () => {
       title,
       pubDate,
       description,
+      content,
       link,
     };
   });
@@ -155,6 +172,11 @@ export const get = async () => {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     site: baseUrl,
-    items: rssItems,
+    items: rssItems.map((item) => {
+      return {
+        ...item,
+        content: Markdoc.renderers.html(item.content)
+      }
+    }),
   });
 };
