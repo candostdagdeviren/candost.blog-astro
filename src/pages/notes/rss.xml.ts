@@ -2,6 +2,7 @@ import rss from "@astrojs/rss";
 import { notes } from "../../lib/markdoc/frontmatter.schema";
 import { readAll } from "../../lib/markdoc/read";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../../config";
+import Markdoc from "@markdoc/markdoc";
 
 export const get = async () => {
   const shortNotes = await readAll({
@@ -17,22 +18,24 @@ export const get = async () => {
 
   const rssNewsletters = shortNotes
   .filter((p) => p.frontmatter.draft !== true)
-  .map(({ frontmatter, slug }) => {
+  .map(({ frontmatter, slug, content }) => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
       const link = frontmatter.url;
-
+      const description = "";
       return {
         title,
         pubDate,
+        description,
         link,
+        content
       };
     }
 
     const title = frontmatter.title;
     const pubDate = frontmatter.date;
-    const description = frontmatter.description;
+    const description = frontmatter.description ? frontmatter.description : "";
     const link = `${baseUrl}/notes/${slug}`;
 
     return {
@@ -40,6 +43,7 @@ export const get = async () => {
       pubDate,
       description,
       link,
+      content
     };
   });
 
@@ -54,6 +58,11 @@ export const get = async () => {
     title: "Notes | " + SITE_TITLE,
     description: SITE_DESCRIPTION,
     site: baseUrl + "/notes",
-    items: rssItems,
+    items: rssItems.map( (post) => {
+      return {
+        ...post,
+        content: Markdoc.renderers.html(post.content)
+      }
+    }),
   });
 };
