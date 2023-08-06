@@ -58,7 +58,25 @@ const sortedBookNotes = bookNotes
 <p>I always feel like I'm mediating (or maybe negotiating) between multiple aspects and constraints of the complicated life and searching for the balance between leadership, software engineering, personal life, and the world.</p>
 <p class="mt-5">I share my thoughts on my newsletter. You can subscribe below. I send posts and book notes as email via the same newsletter too.</p>
 
-<iframe class="mt-10" src="https://mediations.candost.blog/embed" width="100%" height="160"></iframe>
+<form name="newsletter-subscription-home"  class="mt-10" netlify>
+  <p>
+    <p class="mb-5">You can subscribe by giving me your email. I can add you to my list.</p>
+
+    <label>Email:
+      <input
+        type="email"
+        name="email"
+        placeholder="contact@candost.blog"
+        class="font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 border focus:outline-none dark:focus:ring-primary-blue">
+    </label>
+
+    <button
+      type="submit"
+      class="text-black bg-primary-yellow hover:bg-primary-blue focus:ring-4 focus:ring-primary-blue font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-primary-yellow dark:hover:bg-primary-green focus:outline-none dark:focus:ring-primary-blue">
+      Subscribe
+    </button>
+  </p>
+</form>
 
 <p class="mb-20 mt-5">You can also get everything on this blog via <a href={`${SITE_URL}/rss.xml`}>RSS</a>.</p>
 
