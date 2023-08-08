@@ -2,7 +2,6 @@
 title: "Love the Constraints"
 description: "Constraints are everywhere. We live and work with them. There is no other way than to love them. Otherwise, they will chase us and pull us down."
 tags:
-slug: love-the-constraints
 date: 2023-05-16
 updateDate: 2023-05-16
 external: false

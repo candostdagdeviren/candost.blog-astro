@@ -5,7 +5,6 @@ tags:
   - blog-post
   - philosophy
   - personal-growth
-slug: on-the-purpose-of-life
 date: 2023-06-27
 updateDate: 2023-06-27
 external: false
