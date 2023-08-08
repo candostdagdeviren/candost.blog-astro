@@ -68,6 +68,6 @@ _"Can you deploy on Friday after lunch without being afraid of doing overtime on
 
 > ["Why can't this be done sooner?"](/why-cant-this-be-done-sooner/) - Larry Page
 
-It's never too late to start improving. Don't forget; **[minor improvements accumulate](/newsletter/mektup-3) and create a significant impact.** You don't need to start a big project to achieve optimum release and deployments. [Focus on a tiny improvement in each product development cycle.](/bias-towards-action/)
+It's never too late to start improving. Don't forget; **[minor improvements accumulate](/newsletter/mektup-3/) and create a significant impact.** You don't need to start a big project to achieve optimum release and deployments. [Focus on a tiny improvement in each product development cycle.](/bias-towards-action/)
 
 — Candost

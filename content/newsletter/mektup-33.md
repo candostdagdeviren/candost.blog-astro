@@ -1,7 +1,6 @@
 ---
 title: "Mektup #33: One milestone and five articles"
 tags:
-URL: "/newsletter/mektup-33"
 date: 2022-06-14
 updateDate: 2022-06-14
 external: false
@@ -9,7 +8,7 @@ external: false
 
 Hey friend,
 
-In [the last Mektup](/newsletter/mektup-32), I talked about product thinking. That **[struck a chord on HackerNews](https://news.ycombinator.com/item?id=31595285)**, and thousands of people read and commented on it. I haven’t read the comments yet. I always have mixed feelings about comments (stress/curiosity/doubt) on HN; that’s why I’m waiting a bit.
+In [the last Mektup](/newsletter/mektup-32/), I talked about product thinking. That **[struck a chord on HackerNews](https://news.ycombinator.com/item?id=31595285)**, and thousands of people read and commented on it. I haven’t read the comments yet. I always have mixed feelings about comments (stress/curiosity/doubt) on HN; that’s why I’m waiting a bit.
 
 With that, **this month my blog has passed a big milestone of 100,000 page views from whopping 94,000 visitors like you!** I started this blog in December 2020. Although I was mainly writing on my previous blogs, starting fresh and building up was a big challenge; it still is. However, I enjoy writing down my thoughts and learnings and will keep doing it for the foreseeable future.
 
