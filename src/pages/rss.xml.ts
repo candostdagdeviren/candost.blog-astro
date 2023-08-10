@@ -15,8 +15,13 @@ export const get = async () => {
     frontmatterSchema: books,
   });
 
-  const letters = await readAll({
-    directory: "newsletter",
+  const mektups = await readAll({
+    directory: "newsletter/mektup",
+    frontmatterSchema: newsletters,
+  });
+
+  const mediations = await readAll({
+    directory: "newsletter/mediations",
     frontmatterSchema: newsletters,
   });
 
@@ -94,7 +99,39 @@ export const get = async () => {
     };
   });
 
-  const rssLetters = letters
+  const rssMediations = mediations
+  .filter((p) => p.frontmatter.draft !== true)
+  .map(({ frontmatter, slug, content }) => {
+    if (frontmatter.external) {
+      const title = frontmatter.title;
+      const pubDate = frontmatter.date;
+      const link = frontmatter.url;
+      const description = "";
+
+      return {
+        title,
+        pubDate,
+        description,
+        content,
+        link,
+      };
+    }
+
+    const title = frontmatter.title;
+    const pubDate = frontmatter.date;
+    const description = frontmatter.description;
+    const link = `${baseUrl}/newsletter/${slug}`;
+
+    return {
+      title,
+      pubDate,
+      description,
+      content,
+      link,
+    };
+  });
+
+  const rssMektups = mektups
   .filter((p) => p.frontmatter.draft !== true)
   .map(({ frontmatter, slug, content }) => {
     if (frontmatter.external) {
@@ -159,7 +196,8 @@ export const get = async () => {
   });
 
   const rssItems = rssPosts
-  .concat(rssLetters)
+  .concat(rssMediations)
+  .concat(rssMektups)
   .concat(rssPodcastEpisodes)
   .concat(rssBookNotes)
   .sort(

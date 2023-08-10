@@ -5,8 +5,13 @@ import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../../config";
 import Markdoc from "@markdoc/markdoc";
 
 export const get = async () => {
-  const newsletterPosts = await readAll({
-    directory: "newsletter",
+  const mektups = await readAll({
+    directory: "newsletter/mektup",
+    frontmatterSchema: newsletters,
+  });
+
+  const mediations = await readAll({
+    directory: "newsletter/mediations",
     frontmatterSchema: newsletters,
   });
 
@@ -16,7 +21,8 @@ export const get = async () => {
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
 
-  const rssNewsletters = newsletterPosts
+  const rssNewsletters = mediations
+  .concat(mektups)
   .filter((p) => p.frontmatter.draft !== true)
   .map(({ frontmatter, slug, content }) => {
     if (frontmatter.external) {
