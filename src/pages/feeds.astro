@@ -1,0 +1,24 @@
+---
+import { readOne } from "../lib/markdoc/read";
+import { regularPage } from "../lib/markdoc/frontmatter.schema";
+import Renderer from "../components/Renderer.astro";
+import BlogPostMeta from "src/components/BlogPostMeta.astro";
+import ContentLayout from "src/layouts/ContentLayout.astro";
+
+const { content, frontmatter } = await readOne({
+  directory: "pages",
+  slug: "feeds",
+  frontmatterSchema: regularPage,
+});
+---
+
+<ContentLayout title={frontmatter.title} date={frontmatter.date} updateDate={frontmatter.updateDate} slug="feeds/">
+  <BlogPostMeta
+    title={frontmatter.title}
+    publishDate={frontmatter.date.toISOString()}
+    updateDate={frontmatter.updateDate.toISOString()}
+    pagePath={`/feeds`}
+    slot="meta"
+  />
+  <Renderer content={content} slot="content" />
+</ContentLayout>
