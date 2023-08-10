@@ -1,5 +1,6 @@
 ---
-title: "Mediations #1"
+title: "Mediations #1: Seeking Inconvenience"
+description: "Relationships and New Beginnings"
 tags:
  -
 date: 2023-08-10
