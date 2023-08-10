@@ -5,12 +5,25 @@ import PageLayout from "../layouts/PageLayout.astro";
 import PageMeta from "../components/PageMeta.astro";
 import { SITE_TITLE, SITE_URL } from "../config";
 
-const letters = await readAll({
-  directory: "newsletter",
+const mektups = await readAll({
+  directory: "newsletter/mektup",
   frontmatterSchema: newsletters,
 });
 
-const sortedLetters = letters
+const sortedMektups = mektups
+  .filter((p) => p.frontmatter.draft !== true)
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
+  );
+
+const mediations = await readAll({
+  directory: "newsletter/mediations",
+  frontmatterSchema: newsletters,
+});
+
+const sortedMediations = mediations
   .filter((p) => p.frontmatter.draft !== true)
   .sort(
     (a, b) =>
@@ -47,22 +60,21 @@ const sortedLetters = letters
       </p>
     </form>
 
-    <p class="mt-5 mb-10">Or you can <a href="https://mediations.candost.blog/welcome/">head to Substack and subscribe there.</a></p>
+    <p class="mt-5 mb-10">Or you can <a href="https://mediations.candost.blog/welcome/">head to Substack and subscribe there</a> if you have a Substack account.</p>
 
-    <hr class="solid">
-    <p class="mb-10 mt-10">I used to write another newsletter called Mektup. They were casual letters reflecting my learnings and thoughts about software engineering leadership and life and was arriving every second Tuesday. I stopped Mektup and embedded into this blog.</p>
-    <p class="mb-5"><u>You can see the archive of Mektup here:</u></p>
+    <h2 class="text-2xl/8">Archive</h2>
+
     <ul>
       {
-        sortedLetters.map((letter) => {
+        sortedMediations.map((mediation) => {
           const formattedDate = new Date(
-            letter.frontmatter.date
+          mediation.frontmatter.date
           ).toISOString().slice(0,10);
           return (
             <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
               <div class="title">
                   <a
-                    href={`/newsletter/${letter.slug}`}
+                    href={`/newsletter/${mediation.slug}`}
                     class="unset
                         transition-[background-size] duration-300
                         bg-gradient-to-r bg-left-bottom bg-no-repeat
@@ -70,11 +82,46 @@ const sortedLetters = letters
                         from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
                       "
                   >
-                    {letter.frontmatter.title}
+                    {mediation.frontmatter.title}
                   </a>
               </div>
               <div class="text-text-muted text-sm italic pt-1">
-                <time datetime={letter.frontmatter.date.toISOString()}>
+                <time datetime={mediation.frontmatter.date.toISOString()}>
+                  {formattedDate}
+                </time>
+              </div>
+            </li>
+          );
+        })
+      }
+    </ul>
+
+    <hr class="solid">
+    <p class="mb-10 mt-10">I used to write another newsletter called Mektup. They were casual letters reflecting my learnings and thoughts about software engineering leadership and life and was arriving every second Tuesday. I stopped Mektup and embedded into this blog.</p>
+    <p class="text-lg mb-5">You can see the archive of Mektup here:</p>
+    <ul>
+      {
+        sortedMektups.map((mektup) => {
+          const formattedDate = new Date(
+          mektup.frontmatter.date
+          ).toISOString().slice(0,10);
+          return (
+            <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
+              <div class="title">
+                  <a
+                    href={`/newsletter/${mektup.slug}`}
+                    class="unset
+                        transition-[background-size] duration-300
+                        bg-gradient-to-r bg-left-bottom bg-no-repeat
+                        bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
+                        from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
+                      "
+                  >
+                    {mektup.frontmatter.title}
+                  </a>
+              </div>
+              <div class="text-text-muted text-sm italic pt-1">
+                <time datetime={mektup.frontmatter.date.toISOString()}>
                   {formattedDate}
                 </time>
               </div>

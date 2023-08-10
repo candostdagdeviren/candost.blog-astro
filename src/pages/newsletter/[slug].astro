@@ -7,16 +7,22 @@ import ContentLayout from "../../layouts/ContentLayout.astro";
 import { SITE_URL } from "../../config";
 
 export async function getStaticPaths() {
-  const posts = await readAll({
-    directory: "newsletter",
+  const mektups = await readAll({
+    directory: "newsletter/mektup",
+    frontmatterSchema: newsletters,
+  });
+
+  const mediations = await readAll({
+    directory: "newsletter/mediations",
     frontmatterSchema: newsletters,
   });
 
   // we don't want to generate pages for posts that link to external websites
-  const filteredPosts = posts
+  const filteredNewsletters = mektups
+    .concat(mediations)
     .filter((p) => p.frontmatter.draft !== true)
 
-  return filteredPosts.map((post) => {
+  return filteredNewsletters.map((post) => {
     return { params: { slug: post.slug } };
   });
 }
@@ -26,11 +32,22 @@ if (typeof slug !== "string") {
   throw Error(`slug should be string. Received: ${slug}`);
 }
 
-const { content, frontmatter } = await readOne({
-  directory: "newsletter",
+var post;
+if (slug.startsWith("mektup")) {
+  post = await readOne({
+  directory: "newsletter/mektup",
   slug,
   frontmatterSchema: newsletters,
 });
+} else {
+  post = await readOne({
+  directory: "newsletter/mediations",
+  slug,
+  frontmatterSchema: newsletters,
+});
+}
+
+const { content, frontmatter } = post;
 
 const ogImageAbsoluteUrl =
   frontmatter.external !== true && frontmatter.ogImagePath
