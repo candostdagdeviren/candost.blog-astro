@@ -12,6 +12,6 @@ Here is a list of RSS feeds on this blog you can follow and get all the new thin
 - [Posts RSS](/posts/rss.xml): Includes only posts, essays, and articles I share. See all of them [here](/posts/).
 - [Book Notes RSS](/books/rss.xml): Includes only book notes. See all of them [here](/books/).
 - [Notes RSS](/notes/rss.xml): Includes only notes on my Zettelkasten. See all of them [here](/notes/).
-- [Podcast RSS](/podcast/rss.xml): Includes only podcast episodes. See all of them [here](/podcast/).
+- [Podcast RSS](https://api.substack.com/feed/podcast/470204/s/59110.rss): Includes only podcast episodes. See all of them [here](/podcast/).
 
 And last but not least, [**the main RSS feed**](https://candost.blog/rss.xml) that includes all of the above.

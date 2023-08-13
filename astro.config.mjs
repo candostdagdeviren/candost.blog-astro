@@ -42,7 +42,7 @@ export default defineConfig({
   adapter: netlify(),
   redirects: {
     "/rss": "/rss.xml",
-    "/podcast/rss": "/podcast/rss.xml",
+    "/podcast/rss": "https://api.substack.com/feed/podcast/470204/s/59110.rss",
     "/newsletter/rss": "/newsletter/rss.xml",
     "/books/rss": "/books/rss.xml",
     "/notes/rss": "/notes/rss.xml",
