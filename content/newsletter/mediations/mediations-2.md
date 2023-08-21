@@ -3,6 +3,7 @@ title: "Mediations #2: Taking Better Notes"
 description: "Short Intro to How I Take Notes"
 tags:
  - note-taking
+ogImageAbsoluteUrl: "/images/banners/newsletters/mediations/mediations-2.jpg"
 date: 2023-08-21
 updateDate: 2023-08-21
 external: false
