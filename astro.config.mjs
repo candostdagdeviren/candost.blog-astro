@@ -43,9 +43,12 @@ export default defineConfig({
   redirects: {
     "/rss": "/rss.xml",
     "/podcast/rss": "https://api.substack.com/feed/podcast/470204/s/59110.rss",
+    "/software-world-with-candost/": "/podcast/",
     "/newsletter/rss": "/newsletter/rss.xml",
     "/books/rss": "/books/rss.xml",
     "/notes/rss": "/notes/rss.xml",
+    "/essays/rss.xml": "/posts/rss.xml",
+    "/articles/" : "/posts/",
     "/mektup": "/newsletter/",
     "/microservices-and-their-benefits": "/books/microservices-and-their-benefits",
     "/why-should-you-deploy-your-code-in-smaller-chunks-and-release-software-often": "/newsletter/mektup-6/",
