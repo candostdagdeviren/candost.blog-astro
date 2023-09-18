@@ -42,10 +42,11 @@ const canonicalURL =
   ? new URL(frontmatter.canonicalUrl, SITE_URL).toString()
   : undefined;
 
+const contentTitle = frontmatter.zettelID + ": " + frontmatter.title;
 ---
 
 <ContentLayout
-  title={frontmatter.title}
+  title={contentTitle}
   date={frontmatter.date}
   updateDate={frontmatter.updateDate}
   slug={`notes/${slug}`}
