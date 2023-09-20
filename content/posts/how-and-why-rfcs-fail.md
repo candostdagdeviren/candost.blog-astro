@@ -14,7 +14,7 @@ Even though I [love the RFC process and have even introduced it to an organizati
 
 ## No Business Need, No RFC
 
-If we ask a group of four software engineers what changes are needed in a system, we will get at least twenty ideas. We introduced RFCs as one way to allow engineers to propose an idea to the business. It was a complete failure. Although we introduced RFCs as a way to promote ideas and create a feedback culture, engineers who tried persuading others felt lost on how to gain support for an idea. Ideas popped up, but they couldn't gain support because there was not a strong business need.
+We introduced RFCs as one way to allow engineers to propose an idea to the business. It was a complete failure. Although we introduced RFCs as a way to promote ideas and create a feedback culture, engineers who tried persuading others felt lost on how to gain support for an idea. Ideas popped up, but they couldn't gain support because there was not a strong business need.
 
 If there is no strong business need for an idea, there shouldn't be an RFC. When I say business, I count both product and technical problems and features. When an RFC is written, there has to be direct support from all directions in the business to solve a certain problem. I say all directions because the need has to be prioritized.
 
@@ -50,7 +50,7 @@ Of course, it depends on the RFC. If an RFC is circulating in one team, it's oka
 
 If you publish an RFC and announce it only once, you practically fail.
 
-If there is one thing I learned in organizational leadership, it's this: [if you want something, you have to repeat it](/communicating-decisions-in-the-organizations/). If you want to collect feedback for an RFC, you have to remind people constantly that you're looking for feedback.
+If there is one thing I learned in organizational leadership, it's this: [if you want something to stick, you have to repeat what you want](/communicating-decisions-in-the-organizations/). If you want to collect feedback for an RFC, you have to remind people constantly that you're looking for feedback.
 
 Give people signs regularly on when you'll close it for feedback. Be proactive. To be honest, be annoying if needed. When you close an RFC for feedback, you should feel comfortable that you got enough feedback. Nobody should be able to complain about the solution when the time comes for implementation. And if they still complain, you should be able to say, "Well, we collected feedback and announced it everywhere, pinged many times. Sorry, we're following the decided strategy."
 
