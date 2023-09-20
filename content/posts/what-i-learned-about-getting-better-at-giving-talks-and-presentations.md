@@ -104,6 +104,6 @@ Now, it's understandable that there is so much you can do. You might feel overwh
 
 ## One Step At A Time
 
-Like every skill, improving public speaking [takes time and a lot of practice](/newsletter/mektup-50/). Your first preparation will take longer, but the next preparation will take less time once you learn the fundamentals. [You will have many bad presentations but don't give up](/notes/faucets-and-bad-ideas/) and focus on [one and only one improvement each time](/newsletter/mektup-41/). After a few talks, you'll already be much better than the majority.
+Like every skill, improving public speaking [takes time and a lot of practice](/newsletter/mektup-50/). Your first preparation will take longer, but the next preparation will take less time once you learn the fundamentals. [You will have many bad presentations but don't give up](/faucets-and-bad-ideas/) and focus on [one and only one improvement each time](/newsletter/mektup-41/). After a few talks, you'll already be much better than the majority.
 
 Don't forget; if you make [one improvement](/bias-towards-action/), you're already taking one step further than most of the population. And your first step should be deciding on the key message of your talk. The next steps are easier to follow.
