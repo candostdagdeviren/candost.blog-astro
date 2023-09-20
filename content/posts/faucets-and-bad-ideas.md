@@ -1,6 +1,5 @@
 ---
 title: "Faucets and Bad Ideas"
-zettelID: "X"
 description: "Ed Sheeran uses the pipe with one faucet analogy. If you're using the pipe for the first time, the first water that comes out is always dirty. You have to push out all the dirt to reach clean water."
 tags:
 date: 2023-01-02

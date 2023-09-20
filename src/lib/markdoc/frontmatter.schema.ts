@@ -53,7 +53,7 @@ export const notes = z.discriminatedUnion("external", [
   baseSchema.extend({
     external: z.literal(false),
     description: z.optional(z.string()),
-    zettelID: z.string(),
+    zettelId: z.string(),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
   }),
