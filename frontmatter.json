@@ -43,22 +43,22 @@
           "type": "categories"
         },
         {
-          "title": "updateDate",
+          "title": "Updating Date",
           "name": "updateDate",
           "type": "datetime"
         },
         {
-          "title": "external",
+          "title": "Is external link",
           "name": "external",
           "type": "datetime"
         },
         {
-          "title": "externalUrl",
+          "title": "External URL",
           "name": "externalUrl",
           "type": "string"
         },
         {
-          "title": "zettelId",
+          "title": "Zettelkasten ID",
           "name": "zettelId",
           "type": "string"
         }
