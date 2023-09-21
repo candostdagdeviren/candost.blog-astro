@@ -48,25 +48,13 @@ export const blog = z.discriminatedUnion("external", [
   }),
 ]);
 
-export const notes = z.discriminatedUnion("external", [
-  // markdown
+export const notes =
   baseSchema.extend({
-    external: z.literal(false),
     description: z.optional(z.string()),
     zettelId: z.string(),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
-  }),
-  // external link
-  baseSchema.extend({
-    external: z.literal(true),
-    externalUrl: z.string({
-      required_error:
-        "external is true but url is missing. url must be set for posts marked as external.",
-      invalid_type_error: "external should be string.",
-    }),
-  }),
-]);
+  });
 
   export const newsletters = z.discriminatedUnion("external", [
     // markdown

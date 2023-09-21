@@ -33,12 +33,12 @@ const { content, frontmatter } = await readOne({
 });
 
 const ogImageAbsoluteUrl =
-  frontmatter.external !== true && frontmatter.ogImagePath
+  frontmatter.ogImagePath
     ? new URL(frontmatter.ogImagePath, SITE_URL).toString()
     : undefined;
 
 const canonicalURL =
-  frontmatter.external !== true && frontmatter.canonicalUrl
+  frontmatter.canonicalUrl
   ? new URL(frontmatter.canonicalUrl, SITE_URL).toString()
   : undefined;
 
@@ -50,8 +50,6 @@ const contentTitle = frontmatter.zettelId + ": " + frontmatter.title;
   date={frontmatter.date}
   updateDate={frontmatter.updateDate}
   slug={`notes/${slug}`}
-  external={frontmatter.external}
-  externalUrl={frontmatter.external ? frontmatter.externalUrl : ""}
   >
   <BlogPostMeta
     title={frontmatter.title}
