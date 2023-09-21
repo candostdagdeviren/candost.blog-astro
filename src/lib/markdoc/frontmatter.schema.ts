@@ -109,14 +109,10 @@ export const books = z.discriminatedUnion("external", [
 export const podcast = z.discriminatedUnion("external", [
   // markdown
   baseSchema.extend({
-    external: z.literal(false),
+    external: z.literal(true),
     description: z.optional(z.string()),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
-  }),
-  // external link
-  baseSchema.extend({
-    external: z.literal(true),
     externalUrl: z.string({
       required_error:
         "external is true but url is missing. url must be set for posts marked as external.",

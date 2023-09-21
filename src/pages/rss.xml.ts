@@ -46,7 +46,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
 
       return {
@@ -78,8 +78,8 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
-      const description = "";
+      const link = frontmatter.externalUrl;
+      const description = "Link to my podcast episodes that are hosted outside of my blog";
 
       return {
         title,
@@ -110,7 +110,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
 
       return {
@@ -142,7 +142,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
 
       return {
@@ -174,7 +174,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
 
       return {
@@ -206,7 +206,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
 
       return {

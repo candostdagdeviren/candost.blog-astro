@@ -22,7 +22,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "A link to an external url";
       return {
         title,

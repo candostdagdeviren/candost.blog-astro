@@ -22,7 +22,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
 
       return {
@@ -57,7 +57,7 @@ export const get = async () => {
 
   return rss({
     title: "Posts | " + SITE_TITLE,
-    description: SITE_DESCRIPTION,
+    description: "Posts, Essays, Articles that I write in a longer form combining my notes, journal entries, book notes, and my comments, thoughts, etc.",
     site: baseUrl + "/posts",
     items: rssItems.map((item) => {
       return {

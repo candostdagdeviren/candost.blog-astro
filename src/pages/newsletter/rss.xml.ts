@@ -28,7 +28,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
 
       return {
@@ -63,7 +63,7 @@ export const get = async () => {
 
   return rss({
     title: "Mediations | " + SITE_TITLE,
-    description: SITE_DESCRIPTION,
+    description: "I always feel like I'm mediating (or maybe negotiating) between multiple aspects and constraints of the complicated life and searching for the balance between leadership, software engineering, personal life, and the world. This is the feed of emails I send.",
     site: baseUrl + "/newsletter",
     items: rssItems.map((item) => {
       return {
