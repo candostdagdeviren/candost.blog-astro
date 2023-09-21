@@ -1,0 +1,70 @@
+---
+import { readAll } from "../lib/markdoc/read";
+import { journal } from "../lib/markdoc/frontmatter.schema";
+import PageLayout from "../layouts/PageLayout.astro";
+import PageMeta from "../components/PageMeta.astro";
+import { SITE_TITLE } from "../config";
+import Renderer from "../components/Renderer.astro";
+
+const journalEntries = await readAll({
+  directory: "journal",
+  frontmatterSchema: journal,
+});
+
+const sortedJournalEntries = journalEntries
+  .filter((p) => p.frontmatter.draft !== true)
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
+  );
+
+  ---
+
+<PageLayout>
+  <PageMeta title={`Journal | ${SITE_TITLE}`} slot="meta" />
+  <section slot="main">
+
+    <h1 class="fa-stack-1x fa-2x mb-5 mt-10">Journal</h1>
+    <p class="mb-5">These are entries to my journal such as link to a post, a short comment, life update, etc.</p>
+
+    <p class="mb-10">You can get all entries <a href="/journal/rss.xml">via dedicated RSS feed</a> to your favorite RSS reader.</p>
+
+      {
+        sortedJournalEntries.map((entry) => {
+          const formattedDate = new Date(
+          entry.frontmatter.date
+          ).toISOString().slice(0,10);
+          return (
+
+            <hr class="solid mt-20 mb-20">
+            <div class="title grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2">
+              <h1 class="m-0 mb-[0.25em] fa-xl">
+                <span class="
+                    pl-6 relative block leading-[150%]
+                    after:absolute after:content-[''] after:w-2 after:h-full after:top-0 after:left-0 after:bg-primary-green
+                  ">
+                  <a href={entry.frontmatter.external ? entry.frontmatter.externalUrl : `/journal/${entry.slug}`}>
+                    {entry.frontmatter.title}
+                    {entry.frontmatter.external ? <span>
+                          <i class="ml-1 mr-1 text-[20px] pb-2 fa-solid fa-up-right-from-square" />
+                        </span> : ""}
+                    </a>
+                  </span>
+                </h1>
+
+              <div class="text-text-muted text-sm italic pt-1">
+                <time datetime={entry.frontmatter.date.toISOString()}>
+                  {formattedDate}
+                </time>
+              </div>
+            </div>
+            <div class="blog-post prose max-w-none prose-bubblegum">
+              <Renderer content={entry.content} slot="content" />
+
+            </div>
+          );
+        })
+      }
+  </section>
+</PageLayout>

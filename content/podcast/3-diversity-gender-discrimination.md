@@ -1,6 +1,6 @@
 ---
 external: true
-url: "https://mediations.candost.blog/p/3-diversity-gender-discrimination"
+externalUrl: "https://mediations.candost.blog/p/3-diversity-gender-discrimination"
 title: "#3: Diversity, Gender Discrimination, Women in Tech with Yasemin Alpay"
 tags:
   - podcast

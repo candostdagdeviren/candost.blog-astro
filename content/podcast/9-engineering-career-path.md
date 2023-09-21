@@ -1,6 +1,6 @@
 ---
 external: true
-url: "https://mediations.candost.blog/p/9-engineering-career-path"
+externalUrl: "https://mediations.candost.blog/p/9-engineering-career-path"
 title: "#9: Engineering Career Path - Tobias Bales"
 tags:
   - podcast

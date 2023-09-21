@@ -22,7 +22,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
       return {
         title,
@@ -56,7 +56,7 @@ export const get = async () => {
 
   return rss({
     title: "Notes | " + SITE_TITLE,
-    description: SITE_DESCRIPTION,
+    description: "These are my short notes I like to keep to myself. Yet, I want to make them publicly available. These notes are part of my Slip-Box. I currently have hundreds of notes on my Zettelkasten and I will continue to open them up to public as much as I can.",
     site: baseUrl + "/notes",
     items: rssItems.map( (post) => {
       return {

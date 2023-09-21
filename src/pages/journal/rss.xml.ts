@@ -1,18 +1,13 @@
 import rss from "@astrojs/rss";
-import { newsletters } from "../../lib/markdoc/frontmatter.schema";
+import { blog } from "../../lib/markdoc/frontmatter.schema";
 import { readAll } from "../../lib/markdoc/read";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../../config";
 import Markdoc from "@markdoc/markdoc";
 
 export const get = async () => {
-  const mektups = await readAll({
-    directory: "newsletter/mektup",
-    frontmatterSchema: newsletters,
-  });
-
-  const mediations = await readAll({
-    directory: "newsletter/mediations",
-    frontmatterSchema: newsletters,
+  const journalEntries = await readAll({
+    directory: "journal",
+    frontmatterSchema: blog,
   });
 
   let baseUrl = SITE_URL;
@@ -21,36 +16,34 @@ export const get = async () => {
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
 
-  const rssNewsletters = mediations
-  .concat(mektups)
+  const rssNewsletters = journalEntries
   .filter((p) => p.frontmatter.draft !== true)
   .map(({ frontmatter, slug, content }) => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
       const link = frontmatter.externalUrl;
-      const description = "";
-
+      const description = "A link to an external url";
       return {
         title,
         pubDate,
         description,
-        content,
         link,
+        content
       };
     }
 
     const title = frontmatter.title;
     const pubDate = frontmatter.date;
-    const description = frontmatter.description;
-    const link = `${baseUrl}/newsletter/${slug}`;
+    const description = frontmatter.description ? frontmatter.description : "";
+    const link = `${baseUrl}/journal/${slug}`;
 
     return {
       title,
       pubDate,
       description,
-      content,
       link,
+      content
     };
   });
 
@@ -62,13 +55,13 @@ export const get = async () => {
   );
 
   return rss({
-    title: "Mediations | " + SITE_TITLE,
-    description: "I always feel like I'm mediating (or maybe negotiating) between multiple aspects and constraints of the complicated life and searching for the balance between leadership, software engineering, personal life, and the world. This is the feed of emails I send.",
-    site: baseUrl + "/newsletter",
-    items: rssItems.map((item) => {
+    title: "Journal | " + SITE_TITLE,
+    description: "These are entries to my journal such as link to a post, a short comment, life update, etc. that I want to save",
+    site: baseUrl + "/journal",
+    items: rssItems.map( (post) => {
       return {
-        ...item,
-        content: Markdoc.renderers.html(item.content)
+        ...post,
+        content: Markdoc.renderers.html(post.content)
       }
     }),
   });

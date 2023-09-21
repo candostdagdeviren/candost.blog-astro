@@ -1,6 +1,6 @@
 ---
 external: true
-url: "https://mediations.candost.blog/p/6-software-development-in-startups"
+externalUrl: "https://mediations.candost.blog/p/6-software-development-in-startups"
 title: "#6: Software Development in Startups with Fatih Acet"
 tags:
   - podcast

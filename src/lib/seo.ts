@@ -125,6 +125,8 @@ export function getBlogPostMeta({
   ogImageHeight,
   siteOwnerTwitterHandle,
   contentAuthorTwitterHandle,
+  external,
+  externalUrl,
   updateDate,
 }: {
   title: string;
@@ -139,6 +141,8 @@ export function getBlogPostMeta({
   ogImageHeight?: number;
   siteOwnerTwitterHandle?: string;
   contentAuthorTwitterHandle?: string;
+  external?: boolean,
+  externalUrl?: string,
   updateDate: string;
 }): { meta: PageMeta; og: BlogPostOgMeta; twitter: BlogPostTwitterMeta } {
   if (!pageTitle) {

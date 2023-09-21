@@ -19,10 +19,12 @@ export interface Props {
   title: string;
   date: Date;
   updateDate: Date;
-  slug: string
+  slug: string;
+  external?: boolean;
+  externalUrl?: string;
 }
 
-const { title, date, updateDate, slug } = Astro.props;
+const { title, date, updateDate, slug, external, externalUrl } = Astro.props;
 const formattedDate = new Date(date).toISOString().slice(0,10);
 const formattedUpdateDate = new Date(updateDate).toISOString().slice(0,10);
 ---
@@ -52,7 +54,15 @@ const formattedUpdateDate = new Date(updateDate).toISOString().slice(0,10);
               pl-6 relative block leading-[150%]
               after:absolute after:content-[''] after:w-2 after:h-full after:top-0 after:left-0 after:bg-primary-green
             ">
-            {title}
+            {(external == true) ?
+            <a href={externalUrl}>{title}
+              <span>
+                <i class="ml-1 mr-1 text-[20px] pb-2 fa-solid fa-up-right-from-square" />
+              </span>
+            </a>
+            :
+            <span>{title}</span>
+            }
           </span>
         </h1>
         <slot name="content" />

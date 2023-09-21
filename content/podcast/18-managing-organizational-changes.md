@@ -1,6 +1,6 @@
 ---
 external: true
-url: "https://mediations.candost.blog/p/18-managing-organizational-changes"
+externalUrl: "https://mediations.candost.blog/p/18-managing-organizational-changes"
 title: "#18: Managing Organizational Changes with Jim Allen"
 tags:
   - podcast

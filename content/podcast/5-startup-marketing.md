@@ -1,6 +1,6 @@
 ---
 external: true
-url: "https://mediations.candost.blog/p/5-startup-marketing"
+externalUrl: "https://mediations.candost.blog/p/5-startup-marketing"
 title: "#5: Startup Marketing with Peri"
 tags:
   - podcast

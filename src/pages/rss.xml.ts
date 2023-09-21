@@ -30,6 +30,11 @@ export const get = async () => {
     frontmatterSchema: podcast,
   });
 
+  const journal = await readAll({
+    directory: "journal",
+    frontmatterSchema: blog,
+  });
+
   let baseUrl = SITE_URL;
   // removing trailing slash if found
   // https://example.com/ => https://example.com
@@ -41,7 +46,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
 
       return {
@@ -73,8 +78,8 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
-      const description = "";
+      const link = frontmatter.externalUrl;
+      const description = "Link to my podcast episodes that are hosted outside of my blog";
 
       return {
         title,
@@ -105,7 +110,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
 
       return {
@@ -137,7 +142,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
 
       return {
@@ -169,7 +174,7 @@ export const get = async () => {
     if (frontmatter.external) {
       const title = frontmatter.title;
       const pubDate = frontmatter.date;
-      const link = frontmatter.url;
+      const link = frontmatter.externalUrl;
       const description = "";
 
       return {
@@ -195,11 +200,44 @@ export const get = async () => {
     };
   });
 
+  const rssJournalEntries = journal
+  .filter((p) => p.frontmatter.draft !== true)
+  .map(({ frontmatter, slug, content }) => {
+    if (frontmatter.external) {
+      const title = frontmatter.title;
+      const pubDate = frontmatter.date;
+      const link = frontmatter.externalUrl;
+      const description = "";
+
+      return {
+        title,
+        pubDate,
+        description,
+        content,
+        link,
+      };
+    }
+
+    const title = frontmatter.title;
+    const pubDate = frontmatter.date;
+    const description = frontmatter.description;
+    const link = `${baseUrl}/${slug}`;
+
+    return {
+      title,
+      pubDate,
+      description,
+      content,
+      link,
+    };
+  });
+
   const rssItems = rssPosts
   .concat(rssMediations)
   .concat(rssMektups)
   .concat(rssPodcastEpisodes)
   .concat(rssBookNotes)
+  .concat(rssJournalEntries)
   .sort(
     (a, b) =>
       new Date(b.pubDate).valueOf() -
