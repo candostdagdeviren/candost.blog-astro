@@ -39,7 +39,7 @@ export const blog = z.discriminatedUnion("external", [
   // external link
   baseSchema.extend({
     external: z.literal(true),
-    url: z.string({
+    externalUrl: z.string({
       required_error:
         "external is true but url is missing. url must be set for posts marked as external.",
       invalid_type_error: "external should be string.",
@@ -60,7 +60,7 @@ export const notes = z.discriminatedUnion("external", [
   // external link
   baseSchema.extend({
     external: z.literal(true),
-    url: z.string({
+    externalUrl: z.string({
       required_error:
         "external is true but url is missing. url must be set for posts marked as external.",
       invalid_type_error: "external should be string.",
@@ -79,7 +79,7 @@ export const notes = z.discriminatedUnion("external", [
     // external link
     baseSchema.extend({
       external: z.literal(true),
-      url: z.string({
+      externalUrl: z.string({
         required_error:
           "external is true but url is missing. url must be set for posts marked as external.",
         invalid_type_error: "external should be string.",
@@ -98,7 +98,7 @@ export const books = z.discriminatedUnion("external", [
   // external link
   baseSchema.extend({
     external: z.literal(true),
-    url: z.string({
+    externalUrl: z.string({
       required_error:
         "external is true but url is missing. url must be set for posts marked as external.",
       invalid_type_error: "external should be string.",
@@ -117,11 +117,33 @@ export const podcast = z.discriminatedUnion("external", [
   // external link
   baseSchema.extend({
     external: z.literal(true),
-    url: z.string({
+    externalUrl: z.string({
       required_error:
         "external is true but url is missing. url must be set for posts marked as external.",
       invalid_type_error: "external should be string.",
     }),
+  }),
+]);
+
+export const journal = z.discriminatedUnion("external", [
+  // markdown
+  baseSchema.extend({
+    external: z.literal(false),
+    description: z.optional(z.string()),
+    ogImagePath: z.optional(z.string()),
+    canonicalUrl: z.optional(z.string()),
+  }),
+  // external link
+  baseSchema.extend({
+    external: z.literal(true),
+    externalUrl: z.string({
+      required_error:
+        "external is true but url is missing. url must be set for posts marked as external.",
+      invalid_type_error: "external should be string.",
+    }),
+    description: z.optional(z.string()),
+    ogImagePath: z.optional(z.string()),
+    canonicalUrl: z.optional(z.string()),
   }),
 ]);
 

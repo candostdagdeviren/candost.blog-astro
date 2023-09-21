@@ -1,6 +1,6 @@
 ---
 external: true
-url: "https://mediations.candost.blog/p/23-accessibility-and-inclusive-design"
+externalUrl: "https://mediations.candost.blog/p/23-accessibility-and-inclusive-design"
 title: "#23: Accessibility and Inclusive Design with Eric Bailey"
 tags:
   - podcast

@@ -1,6 +1,6 @@
 ---
 external: true
-url: "https://mediations.candost.blog/p/1-tech-interviews"
+externalUrl: "https://mediations.candost.blog/p/1-tech-interviews"
 title: "#1: Tech Interviews with Sabrican Ozan"
 description: "srite"
 tags:

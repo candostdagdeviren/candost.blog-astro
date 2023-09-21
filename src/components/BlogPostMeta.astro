@@ -18,6 +18,8 @@ export interface Props {
   ogImageAltText?: string;
   ogImageWidth?: number;
   ogImageHeight?: number;
+  external?: boolean;
+  externalUrl?: string;
   updateDate: string;
 }
 
@@ -31,6 +33,8 @@ const {
   ogImageAltText,
   ogImageWidth,
   ogImageHeight,
+  external,
+  externalUrl,
   updateDate,
 } = Astro.props;
 
@@ -47,6 +51,8 @@ const { meta, og, twitter } = getBlogPostMeta({
   ogImageHeight,
   siteOwnerTwitterHandle: TWITTER_HANDLE,
   contentAuthorTwitterHandle: TWITTER_HANDLE,
+  external,
+  externalUrl,
   updateDate,
 });
 ---

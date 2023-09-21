@@ -49,6 +49,8 @@ const canonicalURL =
   date={frontmatter.date}
   updateDate={frontmatter.updateDate}
   slug={`books/${slug}`}
+  external={frontmatter.external}
+  externalUrl={frontmatter.external ? frontmatter.externalUrl : ""}
   >
   <BlogPostMeta
     title={frontmatter.title}

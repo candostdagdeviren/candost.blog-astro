@@ -1,6 +1,6 @@
 ---
 external: true
-url: "https://mediations.candost.blog/p/8-cross-cultural-communication"
+externalUrl: "https://mediations.candost.blog/p/8-cross-cultural-communication"
 title: "#8: Cross-Cultural Communication in Engineering Teams with Felipe Furlan da Silva"
 tags:
   - podcast

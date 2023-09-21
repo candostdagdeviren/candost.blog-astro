@@ -51,6 +51,16 @@
           "title": "external",
           "name": "external",
           "type": "datetime"
+        },
+        {
+          "title": "externalUrl",
+          "name": "externalUrl",
+          "type": "string"
+        },
+        {
+          "title": "zettelId",
+          "name": "zettelId",
+          "type": "string"
         }
       ]
     }

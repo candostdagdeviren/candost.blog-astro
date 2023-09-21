@@ -1,19 +1,19 @@
 ---
 import { readOne, readAll } from "../../lib/markdoc/read";
-import { blog } from "../../lib/markdoc/frontmatter.schema";
+import { journal } from "../../lib/markdoc/frontmatter.schema";
 import Renderer from "../../components/Renderer.astro";
 import BlogPostMeta from "../../components/BlogPostMeta.astro";
 import ContentLayout from "../../layouts/ContentLayout.astro";
 import { SITE_URL } from "../../config";
 
 export async function getStaticPaths() {
-  const journal = await readAll({
+  const journals = await readAll({
     directory: "journal",
-    frontmatterSchema: blog,
+    frontmatterSchema: journal,
   });
 
   // we don't want to generate pages for posts that link to external websites
-  const journalEntries = journal
+  const journalEntries = journals
     .filter((p) => p.frontmatter.draft !== true);
 
   return journalEntries.map((j) => {
@@ -29,7 +29,7 @@ if (typeof slug !== "string") {
 const { content, frontmatter } = await readOne({
   directory: "journal",
   slug,
-  frontmatterSchema: blog,
+  frontmatterSchema: journal,
 });
 
 const ogImageAbsoluteUrl =
@@ -49,6 +49,8 @@ const canonicalURL =
   date={frontmatter.date}
   updateDate={frontmatter.updateDate}
   slug={`journal/${slug}`}
+  external={frontmatter.external}
+  externalUrl={frontmatter.external ? frontmatter.externalUrl : ""}
   >
   <BlogPostMeta
     title={frontmatter.title}
