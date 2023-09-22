@@ -9,7 +9,7 @@ external: false
 
 Hey! How are you doing?
 
-In [the previous Mektup](/newsletter/mektup-7), I talked about the role of a software architect and promised to explain the technical breadth, mentality, and knowledge styles that architects should seek. Now let's talk a bit about it.
+In [the previous Mektup](/newsletter/mektup-7/), I talked about the role of a software architect and promised to explain the technical breadth, mentality, and knowledge styles that architects should seek. Now let's talk a bit about it.
 
 Mark Richards and Neil Ford use the knowledge pyramid to explain the difference.
 

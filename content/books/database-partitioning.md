@@ -25,7 +25,7 @@ This article is part of my notes from Chapter 6 on [Designing Data-Intensive Ap
 
 ---
 
-We talked about [data replication](/books/data-replication-in-distributed-systems) in the last chapter. Database partitioning and replication techniques are often combined. While the replication is for fault tolerance, the goal of partitioning is scaling systems. Partition means part of nodes that can be replicated to other nodes. Each node can contain multi­ple partitions, and each partition can be either a leader or a follower if replicated.
+We talked about [data replication](/books/data-replication-in-distributed-systems/) in the last chapter. Database partitioning and replication techniques are often combined. While the replication is for fault tolerance, the goal of partitioning is scaling systems. Partition means part of nodes that can be replicated to other nodes. Each node can contain multi­ple partitions, and each partition can be either a leader or a follower if replicated.
 
 Although replication and partitioning are related, strategies and how they impact each other are not necessarily entangled. So, there is no need to discuss them together.
 

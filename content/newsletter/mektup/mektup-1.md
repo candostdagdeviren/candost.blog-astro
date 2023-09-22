@@ -71,7 +71,7 @@ Watch it on [YouTube](https://www.youtube.com/watch?v=zWZaLvvr33s), or listen o
 
 ## 📝 Blog
 
-**[Diversity in Tech is a First World Problem](/diversity-in-tech-is-a-first-world-problem)**
+**[Diversity in Tech is a First World Problem](/diversity-in-tech-is-a-first-world-problem/)**
 
 We had [a talk with Yasemin](https://mediations.candost.blog/p/3-diversity-gender-discrimination#details) about diversity, gender discrimination, and women in tech before. Some people might deny the problem and don't care about it at all. At the same time, many people are aware of the problem, and they try to be inclusive as much as they can. Yet, some of them find themselves in their comfort zone, and they stop pushing about diversity. This loosening happens more often in first-world countries because the third-world countries haven't set up the foundations yet. I [wrote a piece](/diversity-in-tech-is-a-first-world-problem) about the need to leave my comfort zone. We should increase the diversity, but not forget that other communities need help to solve more significant problems. If we can create more opportunities for more people, eventually, we can increase diversity anywhere.
 
@@ -83,7 +83,7 @@ I [shared](/how-to-stop-endless-discussions/) why writing is a great way to pr
 
 ## 📚 BOOKS
 
-I finished reading the **Building Microservices** book and liked it. Microservices architecture style is not a silver bullet. The book is aligned with this statement and gives an excellent in-depth explanation of the advantages and disadvantages. With this book, I started sharing my book notes. I published the [first](/books/microservices-and-their-benefits/), [second](/books/the-evolutionary-architect), and [third](/books/how-to-model-microservices) chapters and will continue to add more. This is the initial attempt at sharing my book notes. Please [let me know](https://twitter.com/candosten) what you think.
+I finished reading the **Building Microservices** book and liked it. Microservices architecture style is not a silver bullet. The book is aligned with this statement and gives an excellent in-depth explanation of the advantages and disadvantages. With this book, I started sharing my book notes. I published the [first](/books/microservices-and-their-benefits/), [second](/books/the-evolutionary-architect/), and [third](/books/how-to-model-microservices/) chapters and will continue to add more. This is the initial attempt at sharing my book notes. Please [let me know](https://twitter.com/candosten) what you think.
 
 Challenges of mobile application development are distinct at scale, as we [talked with Fırat](https://mediations.candost.blog/p/7-mobile-apps-at-scale). I’ve read the draft of **33 Mobile Challenges at Scale** from Gergely Orosz the last month. I will share my notes after Gergely finishes writing the whole book. I’m currently waiting for the next chapters to come out.
 

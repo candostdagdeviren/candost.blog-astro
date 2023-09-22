@@ -36,7 +36,7 @@ When we share the database, we allow multiple services (and possible external pa
 
 At the same time, we tie the consumers to a specific technology stack, our database of choice.
 
-The shared database doesn't fit our guidelines. It doesn't hide internal implementation details. If we use shared databases, we need to change every consumer. In the end, it causes [tight coupling and weak cohesion](/books/how-to-model-microservices).
+The shared database doesn't fit our guidelines. It doesn't hide internal implementation details. If we use shared databases, we need to change every consumer. In the end, it causes [tight coupling and weak cohesion](/books/how-to-model-microservices/).
 
 ## Synchronous vs. Asynchronous
 

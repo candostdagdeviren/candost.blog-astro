@@ -107,7 +107,7 @@ The first action is disconnecting performance review feedback from compensation.
 
 As we ditch [yearly performance reviews](/newsletter/mektup-19/), we need [consistent positive and negative](/importance-of-the-feedback/), [timely, specific, and clear feedback](/three-types-of-feedback/). It should be 360: between manager and direct report, between peers, and between cross-collaborations.
 
-The last missing part is recognition; we need to recognize smaller achievements—[shout-outs of simple things](/have-the-first-win-to-build-team-spirit)—so that people get pride in their work. It contributes to team performance as a positive reinforcement. The recognition shouldn't always come from the manager but also peer-to-peer. There can be stories in recognition, too; they provide authenticity and relatedness. Recognition should be frequent, authentic, and tied to company goals and strategies.
+The last missing part is recognition; we need to recognize smaller achievements—[shout-outs of simple things](/have-the-first-win-to-build-team-spirit/)—so that people get pride in their work. It contributes to team performance as a positive reinforcement. The recognition shouldn't always come from the manager but also peer-to-peer. There can be stories in recognition, too; they provide authenticity and relatedness. Recognition should be frequent, authentic, and tied to company goals and strategies.
 
 ### Culture
 

@@ -27,7 +27,7 @@ _(This is [a now page](https://nownownow.com/about?ref=candost.blog), and if yo
 - I’m currently reading Designing Data-Intensive Applications—the last three chapters are left! I also [share my chapter notes on this blog](/books).
 - I finished [How to Read A Book](https://oku.club/book/how-to-read-a-book-by-mortimer-j-adler-VtA3z?ref=candost.blog) for the third time. When I first read it, it gave me some ideas that I started applying. In the second reading, I learned much more and many other things I couldn’t learn in the first reading. In the third one, I took many notes and will share them here once I finish editing them.
 - I also finished [Thinking in Systems](https://oku.club/book/thinking-in-systems-by-donella-meadows-IEhaq?ref=candost.blog). A good book that taught me how everything actually is a system. It helped me change my perspective and understand contributing factors to any problem, challenge, or system.
-- I also finished Measure What Matters and [shared my notes here](/books/measure-what-matters-by-john-doerr-summary-review-and-book-notes).
+- I also finished Measure What Matters and [shared my notes here](/books/measure-what-matters-by-john-doerr-summary-review-and-book-notes/).
 - I also finished [Extreme Ownership](https://oku.club/book/extreme-ownership-by-leif-babin-eSuxl). I’m currently extracting my notes and will share them here once I’m done.
 
 ## Work

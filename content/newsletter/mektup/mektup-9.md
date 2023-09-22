@@ -25,7 +25,7 @@ When Steve Jobs returned to Apple in 1997, he laid off all high-level managers a
 
 Moving away from personal ego was one of the many reasons behind Apple's success, and Apple still keeps the same structure. Whenever I talked with Apple engineers at conferences, they were proud of the whole company and being part of the team, even though they didn't work in every aspect of the product.
 
-Building a team ego is not an easy task; it has many aspects. But usually, there are small but impactful movements. First and foremost, **[have a clear team purpose](/have-the-first-win-to-build-team-spirit)**. What is the mission of the team? Why are you together? What are you trying to achieve? Find your clear purpose and write it down in a memorable way.
+Building a team ego is not an easy task; it has many aspects. But usually, there are small but impactful movements. First and foremost, **[have a clear team purpose](/have-the-first-win-to-build-team-spirit/)**. What is the mission of the team? Why are you together? What are you trying to achieve? Find your clear purpose and write it down in a memorable way.
 
 **Celebrate**. Pride starts with celebrating everything you achieve, whether big or small.
 

@@ -23,9 +23,9 @@ Now, onto The Mektup.
 
 When I started my professional career, I didn't have regular 1:1 meetings with my manager. I discussed many topics with my peers instead. Most of the time, they went nowhere. In my latest job, I started having 1:1s, and I was already feeling better. However, it was unstructured and needed improvements. So I decided to take ownership of my personal 1:1 meetings with my manager and start facilitating them. I saw that I could solve my problems and get better answers which satisfied me. This mindset resulted in having a better relationship with my manager—check the post to learn how you can do it.
 
-**🛠 Building Microservices Book Notes - Continued (Chapter 4 [Part 1](/books/integrating-microservices-part-1), [Part 2](/books/integrating-microservices-part-2))**
+**🛠 Building Microservices Book Notes - Continued (Chapter 4 [Part 1](/books/integrating-microservices-part-1/), [Part 2](/books/integrating-microservices-part-2/))**
 
-On the other hand, I continued publishing my notes from Building Microservices Book by Sam Newman. The fourth chapter, Integration, was a bit longer than the others. So, I posted it in two parts. [The first part](/books/integrating-microservices-part-1) focuses on Synchronous vs. Asynchronous, Remote Procedure Calls, REST, and events. [The second part](/books/integrating-microservices-part-2) is about code reuse, versioning, and user interfaces.
+On the other hand, I continued publishing my notes from Building Microservices Book by Sam Newman. The fourth chapter, Integration, was a bit longer than the others. So, I posted it in two parts. [The first part](/books/integrating-microservices-part-1/) focuses on Synchronous vs. Asynchronous, Remote Procedure Calls, REST, and events. [The second part](/books/integrating-microservices-part-2/) is about code reuse, versioning, and user interfaces.
 
 ![](/images/content/newsletter/mektup-section-header-software-world.png)
 

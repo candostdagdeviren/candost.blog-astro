@@ -124,7 +124,7 @@ Organizations should treat the platform as a live production system with downtim
 
 ### Team-First Boundaries
 
-How we shape our teams is important when talking about monolithic applications. There are multiple hidden monoliths that define the organizational structure ([I wrote about hidden monoliths here](/hidden-monoliths-affect-the-software-design)). These monoliths are not only software but also physical offices, deployment pipelines, tech standardization, build and release strategies, and software development strategies such as monolithic databases or applications.
+How we shape our teams is important when talking about monolithic applications. There are multiple hidden monoliths that define the organizational structure ([I wrote about hidden monoliths here](/hidden-monoliths-affect-the-software-design/)). These monoliths are not only software but also physical offices, deployment pipelines, tech standardization, build and release strategies, and software development strategies such as monolithic databases or applications.
 
 ### Team Interaction Modes
 

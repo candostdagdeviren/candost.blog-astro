@@ -100,7 +100,7 @@ Use the same while preparing for your talk. Start small—practice sub-sections 
 
 In stage performances, people do a dress rehearsal: an all-in rehearsal with their stage dressings and all decor right before the show starts. Often while the audience is waiting at the door—do the same. Right before your show, do a dress rehearsal.
 
-Now, it's understandable that there is so much you can do. You might feel overwhelmed, but you don't have to do it all at once. Actually, [you shouldn't make all improvements at once](/newsletter/mektup-52).
+Now, it's understandable that there is so much you can do. You might feel overwhelmed, but you don't have to do it all at once. Actually, [you shouldn't make all improvements at once](/newsletter/mektup-52/).
 
 ## One Step At A Time
 

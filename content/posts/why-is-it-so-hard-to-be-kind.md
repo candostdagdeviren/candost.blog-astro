@@ -32,7 +32,7 @@ All these feelings and consequences are there, and it's good that I can see them
 
 _How to be kind to strangers, especially when they are not kind to us?_
 
-Not being kind has a rolling effect; the more unkind we are, the more stress and anger we accumulate. Lately, I have been building up stress and tension, and being kind has become more challenging. I moved to a new city and [got a new job](/joining-sumup). Everything is new, and it is stressful to improve on every front while trying to adapt to them. To prevent kindness from falling over, I changed a few things.
+Not being kind has a rolling effect; the more unkind we are, the more stress and anger we accumulate. Lately, I have been building up stress and tension, and being kind has become more challenging. I moved to a new city and [got a new job](/joining-sumup/). Everything is new, and it is stressful to improve on every front while trying to adapt to them. To prevent kindness from falling over, I changed a few things.
 
 While training my body in the gym, I'm training my mind more heavily these days with meditation. The core of mindfulness meditation is noticing. Maybe, we can recognize how we are being treated and notice feelings accumulating inside us. We can notice and acknowledge our harmful emotions instead of preventing them from suddenly unleashing as unkindness. And maybe, _maybe_, we can let them go. It is not easy, especially in the middle of heated-up arguments, but worth a try. Noticing requires consistent practice, but even noticing once helps to advance.
 

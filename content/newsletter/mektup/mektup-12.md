@@ -37,7 +37,7 @@ When you are offered a role, you need to think and decide if it's for you or not
 
 ## You asked for it but didn't get anything. What now?
 
-When you don't get a promotion because people think that you are not ready yet, [be humble](/books/the-subtle-art-of-not-giving-a-fuck-book-note-you-are-not-special). Promotions are rarely given to the people who only want to go to the next level; they are usually given to those already operating there. Look for opportunities to learn and gain experience first. Find opportunities that you can learn from and ask your manager to help you get a chance.
+When you don't get a promotion because people think that you are not ready yet, [be humble](/books/the-subtle-art-of-not-giving-a-fuck-book-note-you-are-not-special/). Promotions are rarely given to the people who only want to go to the next level; they are usually given to those already operating there. Look for opportunities to learn and gain experience first. Find opportunities that you can learn from and ask your manager to help you get a chance.
 
 Meanwhile, of course, you will have competitors. When someone else gets the promotion instead of you, you'll be angry and frustrated. However, there has to be a reason why the other person is promoted, not you. Businesses don't give promotions as a favor; look for what you lack. Don't compare yourself with the other person; compare yourself with yourself.
 
