@@ -1,7 +1,7 @@
 import rss from "@astrojs/rss";
 import { notes } from "../../lib/markdoc/frontmatter.schema";
 import { readAll } from "../../lib/markdoc/read";
-import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../../config";
+import { SITE_TITLE, SITE_URL } from "../../config";
 import Markdoc from "@markdoc/markdoc";
 
 export const get = async () => {
@@ -19,24 +19,10 @@ export const get = async () => {
   const rssNewsletters = shortNotes
   .filter((p) => p.frontmatter.draft !== true)
   .map(({ frontmatter, slug, content }) => {
-    if (frontmatter.external) {
-      const title = frontmatter.title;
-      const pubDate = frontmatter.date;
-      const link = frontmatter.externalUrl;
-      const description = "";
-      return {
-        title,
-        pubDate,
-        description,
-        link,
-        content
-      };
-    }
-
-    const title = frontmatter.title;
+    const title = frontmatter.zettelId + ": " + frontmatter.title;
     const pubDate = frontmatter.date;
     const description = frontmatter.description ? frontmatter.description : "";
-    const link = `${baseUrl}/notes/${slug}`;
+    const link = `${baseUrl}/notes/${slug}/`;
 
     return {
       title,
