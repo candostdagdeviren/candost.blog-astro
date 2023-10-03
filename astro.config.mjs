@@ -13,6 +13,7 @@ import tailwind from "@astrojs/tailwind";
   and leave it empty or use localhost URL. It won't break anything.
 */
 import netlify from "@astrojs/netlify/functions";
+import robotsTxt from "astro-robots-txt";
 const SERVER_PORT = 3000;
 // the url to access your blog during local development
 const LOCALHOST_URL = `http://localhost:${SERVER_PORT}`;
@@ -27,17 +28,49 @@ if (isBuild) {
   BASE_URL = LIVE_URL;
 }
 
+
 // https://astro.build/config
 export default defineConfig({
   server: {
     port: SERVER_PORT
   },
   site: BASE_URL,
-  integrations: [sitemap(), tailwind({
-    config: {
-      applyBaseStyles: false
-    }
-  })],
+  integrations: [
+    sitemap(),
+    tailwind({
+      config: {
+        applyBaseStyles: false
+      }
+    }),
+    robotsTxt({
+      policy: [
+        {
+          userAgent: 'CCBot',
+          disallow: '/',
+        },
+        {
+          userAgent: 'ChatGPT-User',
+          disallow: '/',
+        },
+        {
+          userAgent: 'GPTBot',
+          disallow: '/',
+        },
+        {
+          userAgent: 'Google-Extended',
+          disallow: '/',
+        },
+        {
+          userAgent: 'Omgilibot',
+          disallow: '/',
+        },
+        {
+          userAgent: 'FacebookBot',
+          disallow: '/',
+        },
+      ]
+    })
+],
   output: "hybrid",
   adapter: netlify(),
   redirects: {
@@ -50,7 +83,7 @@ export default defineConfig({
     "/notes/rss": "/notes/rss.xml",
     "/essays/rss.xml": "/posts/rss.xml",
     "/articles/rss/": "/posts/rss.xml",
-    "/articles/" : "/posts/",
+    "/articles/": "/posts/",
     "/essays/": "/posts/",
     "/mektup": "/newsletter/",
     "/microblog-2022-12/": "/",
@@ -125,6 +158,6 @@ export default defineConfig({
     "/mektup/mektup-49": "/newsletter/mektup-49/",
     "/mektup/mektup-50": "/newsletter/mektup-50/",
     "/mektup/mektup-51": "/newsletter/mektup-51/",
-    "/mektup/mektup-52": "/newsletter/mektup-52/",
+    "/mektup/mektup-52": "/newsletter/mektup-52/"
   }
 });
