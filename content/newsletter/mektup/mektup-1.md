@@ -17,7 +17,7 @@ Before going into the details, I would like to thank you for being here. All eff
 
 Alright, on to the Mektup.
 
-![](/images/content/newsletter/good-job%20(1).png)
+![Good Job](/images/content/newsletter/good-job%20(1).png)
 
 ## Interesting Things I Have Been Reading and Thinking About
 
@@ -37,7 +37,7 @@ I’ve seen many times teams full of senior engineers fail. Not on the tech side
 
 Meanwhile, we had [a talk with Oksana](https://mediations.candost.blog/p/4-how-to-be-a-working-student) about how companies approach juniors. [She mentioned](https://youtu.be/zWZaLvvr33s?t=2142) that allowing juniors to try different things and grow within the company is a game-changer to increase their loyalty. And their primary helpers are their mentors, a.k.a. senior engineers.
 
-![](/images/content/newsletter/networking.png)
+![Software World Section](/images/content/newsletter/networking.png)
 
 ## 🎬 Software World
 
@@ -67,7 +67,7 @@ Nobody cares about students in companies, yet they are the future and fundamenta
 
 Watch it on [YouTube](https://www.youtube.com/watch?v=zWZaLvvr33s), or listen on [Spotify](https://open.spotify.com/episode/3DFEfSkZQw7kxxPhGQqQi8?si=Z9f12N5_TDqdCZiBn8GcAQ), [Apple Podcasts](https://podcasts.apple.com/de/podcast/software-world-with-candost/id1548135276?l=en&i=1000505106116), or on [other platforms](https://anchor.fm/candost/episodes/4-How-to-Be-A-Working-Student---Oksana-Shcherban-eorava/a-a4atfqb).
 
-![](/images/content/newsletter/blogging.png)
+![Blogging Section](/images/content/newsletter/blogging.png)
 
 ## 📝 Blog
 
@@ -79,7 +79,7 @@ We had [a talk with Yasemin](https://mediations.candost.blog/p/3-diversity-gend
 
 I [shared](/how-to-stop-endless-discussions/) why writing is a great way to prevent meaningless and long discussions. The RFC (Request for Comments) is a great tool that we can use in our companies. Many people [discussed](https://news.ycombinator.com/item?id=25622149) the article a lot [on HackerNews](https://news.ycombinator.com/item?id=25622149). Also, it is [widely shared](https://softwareleadweekly.com/issues/424). I also joined [one podcast](https://twitter.com/devkahvesi/status/1348382780057673734) (it’s in Turkish 🇹🇷) where we talked about the article. I’m thrilled with the feedback I got.
 
-![](/images/content/newsletter/personal-growth.png)
+![Personal Growth](/images/content/newsletter/personal-growth.png)
 
 ## 📚 BOOKS
 
@@ -89,7 +89,7 @@ Challenges of mobile application development are distinct at scale, as we [talk
 
 Something that warms my heart:
 
-{% tweet url="https://twitter.com/candosten/status/1353441448159563777" /%}
+{% tweet url="<https://twitter.com/candosten/status/1353441448159563777>" /%}
 
 ---
 
@@ -97,7 +97,7 @@ I’m currently reading [Fundamentals of Software Architecture](https://www.ore
 
 In Software World with Candost, I have already organized all the Superpeer talks for February. It is full of surprises! Hold on and follow the announcements [on Twitter](https://twitter.com/candosten).
 
-![](/images/content/newsletter/abstract-coffee-break.png)
+![Closing Section](/images/content/newsletter/abstract-coffee-break.png)
 
 Until next time, see you around, my friend!
 

@@ -17,7 +17,7 @@ On the personal side, I decided to change the format of my Tuesday Livestream ta
 
 Now, onto The Mektup.
 
-![](/images/content/newsletter/mektup-section-header-blog.png)
+![Mektup Section](/images/content/newsletter/mektup-section-header-blog.png)
 
 **👥 [Effective 1:1s - Own Your One-on-One Meeting](/effective-1-on-1-meetings-own-your-one-on-one-meeting/)**
 
@@ -27,7 +27,7 @@ When I started my professional career, I didn't have regular 1:1 meetings with m
 
 On the other hand, I continued publishing my notes from Building Microservices Book by Sam Newman. The fourth chapter, Integration, was a bit longer than the others. So, I posted it in two parts. [The first part](/books/integrating-microservices-part-1/) focuses on Synchronous vs. Asynchronous, Remote Procedure Calls, REST, and events. [The second part](/books/integrating-microservices-part-2/) is about code reuse, versioning, and user interfaces.
 
-![](/images/content/newsletter/mektup-section-header-software-world.png)
+![Software World Section](/images/content/newsletter/mektup-section-header-software-world.png)
 
 **⭐️ [The Life Of a Generalist Software Engineer](https://mediations.candost.blog/p/12-the-life-of-a-generalist-software-engineer)**
 
@@ -37,11 +37,10 @@ Ricardo is one of the most generalist engineers I know. He did a variety of thin
 
 One of the most popular and demanding career paths is DevOps Engineering, although DevOps is a discipline, not a title. I had a lot of confusion in understanding DevOps and Site Reliability Engineering's (SRE) differences before our talk with Rene, one of the area's experts. Rene humbly explained the differences and even laid out great recommendations and tips about starting a DevOps and SRE career and growing it. [Check out the full talk, either as a video or a podcast.](https://mediations.candost.blog/p/13-devops-and-site-reliability-engineering#details)​
 
-**❗️ Update about Software World with Candost**
-
+**❗️ Update about Software World with Candost:**
 I decided to stop live streaming. I am currently writing a post about the reasoning. However, the main decisive factor is seeing the higher benefits of creating other types of content than the live version. That means, instead of having live sessions, I will now continue as a _**podcast**_. Every Tuesday at the same time (19:00 CET, 11:00 PT), there will be a new episode starting in April. And you will also sometimes hear me speaking alone. I am very excited about the new format. If you want to join me in one of the sessions, reply to this email.
 
-![](/images/content/newsletter/mektup-section-header-interesting-things.png)
+![Interesting Things Section](/images/content/newsletter/mektup-section-header-interesting-things.png)
 
 **☝️ [Know Your One Job and Do It First](https://charity.wtf/2021/03/07/know-your-one-job-and-do-it-first/)**
 
@@ -55,7 +54,7 @@ Will Larson was writing a lot of articles and guided around being a Staff Engine
 
 BICEPS framework focuses on morale and points out where precisely it's getting worse. The spreadsheet attached to the article uses coloring to point out the problematic cases. Usually, managers should initiate implementing the framework; however, everyone can do it by themselves. I did it alone and found out that I had red alerts in five points. Now, at least that I know the specific problem, I'm looking at ways to improve them.
 
-![](/images/content/newsletter/mektup-section-header-books.png)
+![Books Section](/images/content/newsletter/mektup-section-header-books.png)
 
 Last month, after reading How to Take Smart Notes, I finally saw ever-growing and very well-connected notes in my Notion. I am delighted that I gave a shot to the Zettelkasten Method. I recommend it to anyone who is not happy with their note-taking system.
 
@@ -65,7 +64,7 @@ Last month, after reading How to Take Smart Notes, I finally saw ever-growing an
 
 🚢 I finished reading [Turn the Ship Around](/books/turn-the-ship-around-summary-book-chapter-notes/) by [David Marquette](https://davidmarquet.com/), a retired submarine captain. The army and navy are well known for being hierarchical and having top-down decision-making processes. Marquette explains how he created bottom-up processes in the book, as he calls intent-based leadership. Everyone makes decisions but only informs the boss about their intent. Although I liked the book very much, I find it hard to implement the ideas laid down there. To execute some ideas from the book, you still need to be at the top of the organization. If you're at the bottom or near the bottom, it is hard to apply similar strategies. If you read this book, let me know what you think.
 
-![](/images/content/newsletter/mektup-section-header-closing-thoughts.png)
+![Closing Thoughts Section](/images/content/newsletter/mektup-section-header-closing-thoughts.png)
 
 🤙 Many overwhelming things are happening around us. It's been a year since the first lockdown started here in Europe. It's visible that some people don't care about anything while others fight [lockdown fatigue](https://www.vogue.com/article/lockdown-fatigue-meaning-symptoms). If you feel alone and stressed and want to talk to someone, go to [superpeer.com/candost](https://superpeer.com/candost) and book a call with me using the "3MEKTUP100" discount code (limited to the first ten people). The code will give you a 100% discount so that anything you book is free.
 

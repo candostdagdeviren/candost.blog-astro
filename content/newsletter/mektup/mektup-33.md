@@ -41,6 +41,7 @@ I always thought that we needed to learn all of the fundamentals of a topic befo
 Consensus decision-making means everyone explicitly agreeing to the proposed idea. The leader needs explicit agreement from everyone and shouldn't assume consensus in the absence of objection. Many people assume there is a consensus when they don't and are faced with silence. This pattern became more common in virtual meetings. In this post, I shared why we have these silences and how it impacts the decision.
 
 ## The Decision-Making Pendulum
+
 **​[Article](/the-decision-making-pendulum/)​**
 
 The most critical problem I've seen is having struggles in the decision-making process. The inflexibility in decision-making is at the root of various issues. Many leaders either use a lot of authority or seek consensus. I wrote this post about The Decision-Making Pendulum. The leaders must learn the skills to move in the pendulum from side to side.
