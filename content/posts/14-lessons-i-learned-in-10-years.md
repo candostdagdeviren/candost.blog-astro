@@ -1,7 +1,7 @@
 ---
 title: "14 Lessons I learned in 10 Years"
 description: "Technical skills are easy, yet soft ones are harder. I learned a lot of lessons from my failures, experiences, and successes. Here is my shortlist."
-ogImageAbsoluteUrl: "/images/banners/posts/14-lessons-I-learned-in-10-years.jpg"
+ogImagePath: "/images/banners/posts/14-lessons-I-learned-in-10-years.jpg"
 tags:
   -
 date: 2020-02-15

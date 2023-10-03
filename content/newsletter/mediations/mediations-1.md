@@ -2,7 +2,7 @@
 title: "Mediations #1: Seeking Inconvenience"
 description: "Relationships and New Beginnings"
 tags:
-ogImageAbsoluteUrl: "/images/banners/newsletters/mediations/mediations-1.jpg"
+ogImagePath: "/images/banners/newsletters/mediations/mediations-1.jpg"
 date: 2023-08-11
 updateDate: 2023-08-11
 external: false
