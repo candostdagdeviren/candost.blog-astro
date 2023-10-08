@@ -89,7 +89,7 @@ Challenges of mobile application development are distinct at scale, as we [talk
 
 Something that warms my heart:
 
-{% tweet url="<https://twitter.com/candosten/status/1353441448159563777>" /%}
+{% tweet url="https://twitter.com/candosten/status/1353441448159563777" /%}
 
 ---
 
