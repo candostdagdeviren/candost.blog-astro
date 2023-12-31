@@ -12,7 +12,7 @@ import tailwind from "@astrojs/tailwind";
   If you don't know your website URL yet, don't worry about this
   and leave it empty or use localhost URL. It won't break anything.
 */
-import netlify from "@astrojs/netlify/functions";
+import netlify from "@astrojs/netlify";
 import robotsTxt from "astro-robots-txt";
 const SERVER_PORT = 3000;
 // the url to access your blog during local development
@@ -35,6 +35,10 @@ export default defineConfig({
     port: SERVER_PORT
   },
   site: BASE_URL,
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+  },
   integrations: [
     sitemap(),
     tailwind({
