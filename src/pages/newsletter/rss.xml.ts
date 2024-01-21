@@ -4,7 +4,7 @@ import { readAll } from "../../lib/markdoc/read";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../../config";
 import Markdoc from "@markdoc/markdoc";
 
-export const get = async () => {
+export async function GET(context) {
   const mektups = await readAll({
     directory: "newsletter/mektup",
     frontmatterSchema: newsletters,
@@ -65,6 +65,7 @@ export const get = async () => {
     title: "Mediations | " + SITE_TITLE,
     description: "I always feel like I'm mediating (or maybe negotiating) between multiple aspects and constraints of the complicated life and searching for the balance between leadership, software engineering, personal life, and the world. This is the feed of emails I send.",
     site: baseUrl + "/newsletter",
+    stylesheet: '/rss/pretty-feed.xsl',
     items: rssItems.map((item) => {
       return {
         ...item,
