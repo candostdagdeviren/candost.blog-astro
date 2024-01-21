@@ -6,6 +6,7 @@ tags:
 date: 2022-10-07
 updateDate: 2022-10-07
 external: false
+featured: true
 ---
 
 This article is part of my notes from Chapter 4 on [Designing Data-Intensive Applications by Martin Kleppmann](https://dataintensive.net/). You can read other chapter notes as well.
@@ -13,7 +14,7 @@ This article is part of my notes from Chapter 4 on [Designing Data-Intensive Ap
 - [Chapter 1: Reliability, Scalability, and Maintainability in Distributed Applications](/books/reliability-maintainability-and-scalability-in-applications/)
 - [Chapter 2: Data Models and Query Languages](/books/data-models-and-query-languages/)
 - [Chapter 3: Data Storage and Retrieval](/books/data-storage-and-retrieval/)
-- [Chapter 4: Encoding, Decoding, Schemas, and Data Evolution](/books/encoding-decoding-schemas-and-data-evolution/)
+- [Chapter 4: Encoding, Decoding, Schemas, and Data Evolution](/books/ddia-encoding-decoding-schemas-and-data-evolution/)
 - [Chapter 5: Data Replication](/books/data-replication-in-distributed-systems/)
 - [Chapter 6: Database Partitioning](/books/database-partitioning/)
 - [Chapter 7: Transactions](/books/understanding-how-database-transactions-work/)
@@ -22,7 +23,6 @@ This article is part of my notes from Chapter 4 on [Designing Data-Intensive Ap
 - Chapter 10: Batch Processing
 - Chapter 11: Stream Processing
 - Chapter 12: The Future of Data Systems
-
 
 ---
 
@@ -77,7 +77,7 @@ Both use field tags and encode data using data types and lengths. Each encoding 
 
 The same example in Thrift:
 
-```thrift
+```
 struct Request {
   1: required string id
   2: optional string key
@@ -88,7 +88,7 @@ struct Request {
 
 In ProtoBuf (similar to Thrift but indexes are at the end):
 
-```proto
+```protobuf
 message Request {
   required string id = 1;
   optional string key = 2;
@@ -105,7 +105,7 @@ Schemas eventually change. Using field tags correctly enables us to support forw
 
 Thrift with introducing and removing new fields (same example):
 
-```thrift
+```
 struct Request {
   1: required string id
   2: optional string key
