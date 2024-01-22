@@ -4,7 +4,7 @@ import { readAll } from "../../lib/markdoc/read";
 import { SITE_TITLE, SITE_URL } from "../../config";
 import Markdoc from "@markdoc/markdoc";
 
-export async function GET(context) {
+export async function GET() {
   const shortNotes = await readAll({
     directory: "notes",
     frontmatterSchema: notes,
