@@ -1,6 +1,6 @@
 ---
-title: "ADRs and RFCs, Their Differences, When to Use Which"
-description: ""
+title: "ADRs and RFCs: Their Differences and Templates"
+description: "Discover the differences between ADRs and RFCs in software development. Learn when and how to use each with practical guidance and templates. Essential for efficient architectural decision-making."
 tags:
   -
 date: 2024-01-22
