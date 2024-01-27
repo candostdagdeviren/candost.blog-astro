@@ -17,6 +17,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown" }
   - name: "journal"
     label: "Journal"
@@ -30,6 +31,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown" }
   - name: "notes"
     label: "Notes"
@@ -43,6 +45,7 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown" }
   - name: "posts"
     label: "Posts"
@@ -57,6 +60,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown" }
   - name: "mediations"
     label: "Mediations"
@@ -72,4 +76,5 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown" }
