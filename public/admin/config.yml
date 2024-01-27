@@ -17,6 +17,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - { label: "body", name: "body", widget: "markdown" }
   - name: "journal"
     label: "Journal"
     folder: "content/journal"
@@ -29,6 +30,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - { label: "body", name: "body", widget: "markdown" }
   - name: "notes"
     label: "Notes"
     folder: "content/notes"
@@ -41,6 +43,7 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - { label: "body", name: "body", widget: "markdown" }
   - name: "posts"
     label: "Posts"
     folder: "content/posts"
@@ -54,6 +57,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - { label: "body", name: "body", widget: "markdown" }
   - name: "mediations"
     label: "Mediations"
     folder: "content/newsletter/mediations"
@@ -68,3 +72,4 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - { label: "body", name: "body", widget: "markdown" }
