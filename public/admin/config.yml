@@ -1,0 +1,52 @@
+backend:
+  name: github
+  repo: candostdagdeviren/candost.blog-astro
+  branch: main
+media_folder: "images/"
+collections:
+  - name: "books"
+    label: "Books Notes"
+    folder: "content/books"
+    media_folder: "public/images/content/books"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is External?", name: "external", widget: "boolean", default: false}
+  - name: "journal"
+    label: "Journal"
+    folder: "content/journal"
+    media_folder: "public/images/content/journal"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is External?", name: "external", widget: "boolean", default: false}
+  - name: "notes"
+    label: "Notes"
+    folder: "content/notes"
+    create: true
+    media_folder: "public/images/content/notes"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Zettel ID", name: "zettelId", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    media_folder: "public/images/content/posts"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is External?", name: "external", widget: "boolean", default: false}
