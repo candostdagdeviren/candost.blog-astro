@@ -4,6 +4,21 @@ backend:
   branch: main
 media_folder: "images/"
 collections:
+  - name: "journal"
+    label: "Journal"
+    folder: "content/journal"
+    media_folder: "public/images/content/journal"
+    public_folder: "images/content/journal"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - { label: "External URL", name: "externalUrl", widget: "string"}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
+      - { label: "body", name: "body", widget: "markdown" }
   - name: "books"
     label: "Books Notes"
     folder: "content/books"
@@ -13,21 +28,6 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Update Date", name: "updateDate", widget: "datetime"}
-      - {label: "Is External?", name: "external", widget: "boolean", default: false}
-      - { label: "External URL", name: "externalUrl", widget: "string"}
-      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
-      - { label: "body", name: "body", widget: "markdown" }
-  - name: "journal"
-    label: "Journal"
-    folder: "content/journal"
-    media_folder: "public/images/content/journal"
-    public_folder: "images/content/journal"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
