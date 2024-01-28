@@ -1,5 +1,5 @@
 ---
-title: Reading QR Code without Phone or Scanner
+title: Reading a QR Code without a Phone or a Scanner
 date: 2024-01-28T14:43:28.897Z
 updateDate: 2024-01-28T14:43:27.934Z
 external: true
