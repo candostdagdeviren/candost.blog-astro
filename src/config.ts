@@ -3,7 +3,7 @@
 
 export const SITE_TITLE = "Candost's Blog";
 export const SITE_DESCRIPTION =
-  "Candost is a software engineering leader with diverse interest and writes about tech industry and multiple aspects and constraints of the complicated life.";
+  "The personal website of Candost Dagdeviren";
 export const TWITTER_HANDLE = "@candosten";
 export const MY_NAME = "Candost Dagdeviren";
 
