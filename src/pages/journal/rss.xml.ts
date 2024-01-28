@@ -55,7 +55,7 @@ export async function GET() {
   );
 
   return rss({
-    title: "Journal | " + SITE_TITLE,
+    title: "Candost's Journal",
     description: "These are entries to my journal such as link to a post, a short comment, life update, etc. that I want to save",
     site: baseUrl + "/journal",
     stylesheet: '/rss/pretty-feed.xsl',

@@ -41,7 +41,7 @@ export async function GET() {
   );
 
   return rss({
-    title: "Notes | " + SITE_TITLE,
+    title: "Notes on " + SITE_TITLE,
     description: "These are my short notes I like to keep to myself. Yet, I want to make them publicly available. These notes are part of my Slip-Box. I currently have hundreds of notes on my Zettelkasten and I will continue to open them up to public as much as I can.",
     site: baseUrl + "/notes",
     stylesheet: '/rss/pretty-feed.xsl',

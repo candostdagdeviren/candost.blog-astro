@@ -62,7 +62,7 @@ export async function GET() {
   );
 
   return rss({
-    title: "Mediations | " + SITE_TITLE,
+    title: "Mediations of Candost",
     description: "I always feel like I'm mediating (or maybe negotiating) between multiple aspects and constraints of the complicated life and searching for the balance between leadership, software engineering, personal life, and the world. This is the feed of emails I send.",
     site: baseUrl + "/newsletter",
     stylesheet: '/rss/pretty-feed.xsl',

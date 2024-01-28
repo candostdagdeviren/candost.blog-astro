@@ -56,7 +56,7 @@ export async function GET() {
   );
 
   return rss({
-    title: "Posts | " + SITE_TITLE,
+    title: "Posts, Essays, and Articles on " + SITE_TITLE,
     description: "Posts, Essays, Articles that I write in a longer form combining my notes, journal entries, book notes, and my comments, thoughts, etc.",
     site: baseUrl + "/posts",
     stylesheet: '/rss/pretty-feed.xsl',

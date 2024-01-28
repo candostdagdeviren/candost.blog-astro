@@ -56,7 +56,7 @@ export async function GET() {
   );
 
   return rss({
-    title: "Books | " + SITE_TITLE,
+    title: "Book Notes on " + SITE_TITLE,
     description: "I share either a full book review or a single-chapter note from the books I read.",
     site: baseUrl + "/books",
     stylesheet: '/rss/pretty-feed.xsl',
