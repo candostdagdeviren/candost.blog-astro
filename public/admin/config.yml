@@ -2,7 +2,8 @@ backend:
   name: github
   repo: candostdagdeviren/candost.blog-astro
   branch: main
-media_folder: "images/"
+media_folder: "public/images"
+public_folder: "images/"
 collections:
   - name: "journal"
     label: "Journal"
