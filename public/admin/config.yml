@@ -19,6 +19,7 @@ collections:
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown" }
+      - { label: "External URL", name: "externalUrl", widget: "string"}
   - name: "journal"
     label: "Journal"
     folder: "content/journal"
@@ -33,6 +34,7 @@ collections:
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown" }
+      - { label: "External URL", name: "externalUrl", widget: "string"}
   - name: "notes"
     label: "Notes"
     folder: "content/notes"
@@ -47,6 +49,7 @@ collections:
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown" }
+      - { label: "External URL", name: "externalUrl", widget: "string"}
   - name: "posts"
     label: "Posts"
     folder: "content/posts"
@@ -62,6 +65,7 @@ collections:
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown" }
+      - { label: "External URL", name: "externalUrl", widget: "string"}
   - name: "mediations"
     label: "Mediations"
     folder: "content/newsletter/mediations"
@@ -78,3 +82,4 @@ collections:
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown" }
+      - { label: "External URL", name: "externalUrl", widget: "string"}
