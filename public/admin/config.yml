@@ -83,4 +83,17 @@ collections:
       - { label: "External URL", name: "externalUrl", widget: "string"}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown" }
-
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages"
+    create: false
+    media_folder: "public/images/content/"
+    public_folder: "images/content/"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Banner", name: "ogImagePath", widget: "image"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
+      - { label: "body", name: "body", widget: "markdown" }
