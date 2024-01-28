@@ -131,69 +131,6 @@ const sortedNotes = zettels
 
 <p class="mt-10 fa-xs">You can get all posts via <a href="/posts/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
 
-<h2 class="fa-xl mb-5 mt-20">Mediations Newsletter</h2>
-<p>I share what I feel about multiple aspects and constraints of the complicated life and my search for the balance between leadership, software engineering, personal life, and the world.</p>
-
-<p class="fa-m mt-5">
-  <b>Latest Issue:</b>
-  <ul>
-    {
-      sortedMediations.map((mediation) => {
-        const formattedDate = new Date(
-          mediation.frontmatter.date
-        ).toISOString().slice(0,10);
-
-
-        return (
-          <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
-            <div class="title">
-              <a
-                href={`/newsletter/${mediation.slug}`}
-                class="unset
-                    transition-[background-size] duration-300
-                    bg-gradient-to-r bg-left-bottom bg-no-repeat
-                    bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
-                    from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
-                  "
-              >
-                {mediation.frontmatter.title}
-              </a>
-            </div>
-            <div class="text-text-muted text-sm italic pt-1">
-              <time datetime={mediation.frontmatter.date.toISOString()}>
-                {formattedDate}
-              </time>
-            </div>
-          </li>
-        );
-      })
-    }
-  </ul>
-</p>
-
-<form name="newsletter-subscription-home"  class="mt-5" netlify-honeypot="bot-field" netlify>
-  <p>
-    <p class="mb-5">You can subscribe by giving me your email. I can add you to my list.</p>
-
-    <label>Email:
-      <input
-        type="email"
-        name="email"
-        placeholder="contact@candost.blog"
-        class="font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 border focus:outline-none dark:focus:ring-primary-blue"
-        style="color:black">
-    </label>
-
-    <button
-      type="submit"
-      class="text-black bg-primary-yellow hover:bg-primary-blue focus:ring-4 focus:ring-primary-blue font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-primary-yellow dark:hover:bg-primary-green focus:outline-none dark:focus:ring-primary-blue">
-      Subscribe
-    </button>
-  </p>
-</form>
-
-<p class="mb-20 mt-5 fa-xs">You can also get the newsletter via <a href={`${SITE_URL}/newsletter/rss.xml`}>RSS</a>.</p>
-
 <h2 class="fa-xl mt-20 mb-5">Journal <small><a href="/journal/">SEE ALL</a></small></h2>
 <ul>
   {
@@ -324,6 +261,69 @@ const sortedNotes = zettels
 </ul>
 
 <p class="mt-10 fa-xs">You can get all book notes via <a href="/books/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
+
+<h2 class="fa-xl mb-5 mt-20">Mediations Newsletter</h2>
+<p>I share what I feel about multiple aspects and constraints of the complicated life and my search for the balance between leadership, software engineering, personal life, and the world.</p>
+
+<p class="fa-m mt-5">
+  <b>Latest Issue:</b>
+  <ul>
+    {
+      sortedMediations.map((mediation) => {
+        const formattedDate = new Date(
+          mediation.frontmatter.date
+        ).toISOString().slice(0,10);
+
+
+        return (
+          <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
+            <div class="title">
+              <a
+                href={`/newsletter/${mediation.slug}`}
+                class="unset
+                    transition-[background-size] duration-300
+                    bg-gradient-to-r bg-left-bottom bg-no-repeat
+                    bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
+                    from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
+                  "
+              >
+                {mediation.frontmatter.title}
+              </a>
+            </div>
+            <div class="text-text-muted text-sm italic pt-1">
+              <time datetime={mediation.frontmatter.date.toISOString()}>
+                {formattedDate}
+              </time>
+            </div>
+          </li>
+        );
+      })
+    }
+  </ul>
+</p>
+
+<form name="newsletter-subscription-home"  class="mt-5" netlify-honeypot="bot-field" netlify>
+  <p>
+    <p class="mb-5">You can subscribe by giving me your email. I can add you to my list.</p>
+
+    <label>Email:
+      <input
+        type="email"
+        name="email"
+        placeholder="contact@candost.blog"
+        class="font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 border focus:outline-none dark:focus:ring-primary-blue"
+        style="color:black">
+    </label>
+
+    <button
+      type="submit"
+      class="text-black bg-primary-yellow hover:bg-primary-blue focus:ring-4 focus:ring-primary-blue font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-primary-yellow dark:hover:bg-primary-green focus:outline-none dark:focus:ring-primary-blue">
+      Subscribe
+    </button>
+  </p>
+</form>
+
+<p class="mb-20 mt-5 fa-xs">You can also get the newsletter via <a href={`${SITE_URL}/newsletter/rss.xml`}>RSS</a>.</p>
 
 <h2 class="fa-xl mt-20 mb-5">Podcast <small><a href="/podcast/">SEE ALL</a></small></h2>
   <em><p>Software World Podcast uncovers journeys of people and software systems. I sometimes interview the uncelebrated (or famous) experts or sometimes talk alone about a topic I'm researching or thinking about.</p></em>
