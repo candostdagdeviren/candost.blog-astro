@@ -1,1 +1,25 @@
-{"public":{"images":{"banners":{"newsletters":{"mediations":{"mediations-1.jpg":{},"mediations-2.jpg":{},"mediations-3.jpg":{}}}}}}}
+{
+    "public": {
+        "images": {
+            "banners": {
+                "newsletters": {
+                    "mediations": {
+                        "mediations-1.jpg": {},
+                        "mediations-2.jpg": {},
+                        "mediations-3.jpg": {}
+                    }
+                }
+            },
+            "content": {
+                "journal": {},
+                "books": {
+                  "designing-data-intensive-applications": {},
+                  "the-culture-map": {}
+                },
+                "newsletter": {},
+                "notes": {},
+                "posts": {}
+            }
+        }
+    }
+}
