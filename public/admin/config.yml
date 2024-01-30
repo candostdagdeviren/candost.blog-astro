@@ -8,8 +8,8 @@ collections:
   - name: "journal"
     label: "Journal"
     folder: "content/journal"
-    media_folder: "public/images/content/journal"
-    public_folder: "images/content/journal"
+    media_folder: "/public/images/content/journal"
+    public_folder: "/images/content/journal"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -23,8 +23,8 @@ collections:
   - name: "books"
     label: "Books Notes"
     folder: "content/books"
-    media_folder: "public/images/content/books"
-    public_folder: "images/content/books"
+    media_folder: "/public/images/content/books"
+    public_folder: "/images/content/books"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -40,8 +40,8 @@ collections:
     label: "Notes"
     folder: "content/notes"
     create: true
-    media_folder: "public/images/content/notes"
-    public_folder: "images/content/notes"
+    media_folder: "/public/images/content/notes"
+    public_folder: "/images/content/notes"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Zettel ID", name: "zettelId", widget: "string"}
@@ -54,8 +54,8 @@ collections:
     label: "Posts"
     folder: "content/posts"
     create: true
-    media_folder: "public/images/content/posts"
-    public_folder: "images/content/posts"
+    media_folder: "/public/images/content/posts"
+    public_folder: "/images/content/posts"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
@@ -70,8 +70,8 @@ collections:
     label: "Mediations"
     folder: "content/newsletter/mediations"
     create: true
-    media_folder: "public/images/content/newsletter"
-    public_folder: "images/content/newsletter"
+    media_folder: "/public/images/content/newsletter"
+    public_folder: "/images/content/newsletter"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
@@ -87,8 +87,8 @@ collections:
     label: "Pages"
     folder: "content/pages"
     create: false
-    media_folder: "public/images/content/"
-    public_folder: "images/content/"
+    media_folder: "/public/images/content/"
+    public_folder: "/images/content/"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Banner", name: "ogImagePath", widget: "image", required: false}
