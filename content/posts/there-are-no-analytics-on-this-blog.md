@@ -27,4 +27,4 @@ Analytics of any kind are not helpful in my journey. It's harmful because it imp
 
 What matters is [the journey](/on-the-purpose-of-life/) full of [high-quality ideas](/speaking-writing-and-high-quality-ideas/) [shared with people](/passing-down-the-experience/) [who are kind enough](/why-is-it-so-hard-to-be-kind/) to follow this blog and let me know when they have comments/thoughts on what I wrote.
 
-P.S. This decision goes into [my list of decisions that remove hundreds of decisions](/decisions-that-remove-other-decisions/).
+*P.S. This decision goes into [my list of decisions that remove hundreds of decisions](/decisions-that-remove-other-decisions/).*
