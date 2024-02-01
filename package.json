@@ -19,6 +19,7 @@
     "@markdoc/markdoc": "^0.3.0",
     "@tailwindcss/typography": "^0.5.9",
     "astro": "^4.0.8",
+    "astro-font": "^0.0.77",
     "astro-markdoc-renderer": "^0.0.1-alpha.1",
     "astro-robots-txt": "^1.0.0",
     "globby": "^13.2.2",
