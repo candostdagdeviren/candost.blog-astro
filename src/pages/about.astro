@@ -19,6 +19,7 @@ const { content, frontmatter } = await readOne({
     updateDate={frontmatter.updateDate.toISOString()}
     pagePath={`/about`}
     slot="meta"
+    description="About Candost"
   />
   <Renderer content={content} slot="content" />
 </ContentLayout>

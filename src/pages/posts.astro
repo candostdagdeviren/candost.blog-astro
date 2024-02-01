@@ -20,10 +20,10 @@ const sortedPosts = posts
 ---
 
 <PageLayout>
-  <PageMeta title={`Posts | ${SITE_TITLE}`} slot="meta" />
+  <PageMeta title={`Posts on ${SITE_TITLE}`} slot="meta" description="Posts, Essays, and Articles from Candost" />
   <section slot="main">
     <h1 class="fa-stack-1x fa-2x mb-5 mt-10">Posts, Essays, Articles</h1>
-    <p class="mt-5 mb-10">You can get all these posts via <a href="/posts/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
+    <p class="mt-5 mb-10">You can get new posts in your favorite RSS reader via <a href="/posts/rss.xml">the dedicated RSS feed</a>.</p>
     <ul>
       {
         sortedPosts.map((post) => {

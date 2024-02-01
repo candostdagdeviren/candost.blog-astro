@@ -1,10 +1,10 @@
 import rss from "@astrojs/rss";
 import { blog } from "../../lib/markdoc/frontmatter.schema";
 import { readAll } from "../../lib/markdoc/read";
-import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../../config";
+import { SITE_TITLE, SITE_URL } from "../../config";
 import Markdoc from "@markdoc/markdoc";
 
-export const get = async () => {
+export async function GET() {
   const journalEntries = await readAll({
     directory: "journal",
     frontmatterSchema: blog,
@@ -55,9 +55,10 @@ export const get = async () => {
   );
 
   return rss({
-    title: "Journal | " + SITE_TITLE,
+    title: "Candost's Journal",
     description: "These are entries to my journal such as link to a post, a short comment, life update, etc. that I want to save",
     site: baseUrl + "/journal",
+    stylesheet: '/rss/pretty-feed.xsl',
     items: rssItems.map( (post) => {
       return {
         ...post,

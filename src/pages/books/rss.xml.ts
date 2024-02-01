@@ -1,10 +1,10 @@
 import rss from "@astrojs/rss";
 import { books } from "../../lib/markdoc/frontmatter.schema";
 import { readAll } from "../../lib/markdoc/read";
-import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../../config";
+import { SITE_TITLE, SITE_URL } from "../../config";
 import Markdoc from "@markdoc/markdoc";
 
-export const get = async () => {
+export async function GET() {
   const bookNotes = await readAll({
     directory: "books",
     frontmatterSchema: books,
@@ -56,9 +56,10 @@ export const get = async () => {
   );
 
   return rss({
-    title: "Books | " + SITE_TITLE,
-    description: SITE_DESCRIPTION,
+    title: "Book Notes on " + SITE_TITLE,
+    description: "I share either a full book review or a single-chapter note from the books I read.",
     site: baseUrl + "/books",
+    stylesheet: '/rss/pretty-feed.xsl',
     items: rssItems.map((item) => {
       return {
         ...item,

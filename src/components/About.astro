@@ -129,7 +129,138 @@ const sortedNotes = zettels
   }
 </ul>
 
-<p class="mt-10 fa-xs">You can get all posts via <a href="/posts/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
+<p class="mt-10 fa-xs" style="line-height: normal;">You can get all posts via <a href="/posts/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
+
+<h2 class="fa-xl mt-20 mb-5">Journal <small><a href="/journal/">SEE ALL</a></small></h2>
+<ul>
+  {
+    sortedJournalEntries.map((journalEntry) => {
+      const formattedDate = new Date(
+      journalEntry.frontmatter.date
+      ).toISOString().slice(0,10);
+
+
+      return (
+        <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
+          <div class="title">
+            {journalEntry.frontmatter.external ? (
+              <a
+                href={`/journal/${journalEntry.slug}`}
+                target="_blank"
+                class="unset
+                    transition-[background-size] duration-300
+                    bg-gradient-to-r bg-left-bottom bg-no-repeat
+                    bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
+                    from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
+                  "
+              >
+                <span>{journalEntry.frontmatter.title}</span>
+                <span>
+                  <i class="ml-1 mr-1 text-[12px] pb-2 fa-solid fa-up-right-from-square" />
+                </span>
+              </a>
+            ) : (
+              <a
+                href={`/journal/${journalEntry.slug}`}
+                class="unset
+                    transition-[background-size] duration-300
+                    bg-gradient-to-r bg-left-bottom bg-no-repeat
+                    bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
+                    from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
+                  "
+              >
+                {journalEntry.frontmatter.title}
+              </a>
+            )}
+          </div>
+          <div class="text-text-muted text-sm italic pt-1">
+            <time datetime={journalEntry.frontmatter.date.toISOString()}>
+              {formattedDate}
+            </time>
+          </div>
+        </li>
+      );
+    })
+  }
+</ul>
+
+<p class="mt-10 fa-xs" style="line-height: normal;">You can get all journal entries via <a href="/journal/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
+
+<h2 class="fa-xl mb-5 mt-20">Notes <small><a href="/notes/">SEE ALL</a></small></h2>
+<p>These notes are in my Slip-Box in my Zettelkasten. We can call them as Digital Garden as well but I prefer calling the whole system Zettelkasten.</p>
+<ul>
+  {
+    sortedNotes.map((zettel) => {
+      const formattedDate = new Date(
+        zettel.frontmatter.date
+      ).toISOString().slice(0,10);
+
+
+      return (
+        <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
+          <div class="title">
+            <a
+              href={`/notes/${zettel.slug}`}
+              class="unset
+                  transition-[background-size] duration-300
+                  bg-gradient-to-r bg-left-bottom bg-no-repeat
+                  bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
+                  from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
+                "
+            >
+              {zettel.frontmatter.zettelId}: {zettel.frontmatter.title}
+            </a>
+          </div>
+          <div class="text-text-muted text-sm italic pt-1">
+            <time datetime={zettel.frontmatter.date.toISOString()}>
+              {formattedDate}
+            </time>
+          </div>
+        </li>
+      );
+    })
+  }
+</ul>
+
+<p class="fa-xs mt-10" style="line-height: normal;">You can get all notes via <a href="/notes/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
+
+<h2 class="fa-xl mt-20 mb-5">Book Notes <small><a href="/books/">SEE ALL</a></small></h2>
+<p>I share either a full book review or a single-chapter note from the books I read.</p>
+<ul>
+  {
+    sortedBookNotes.map((note) => {
+      const formattedDate = new Date(
+      note.frontmatter.date
+      ).toISOString().slice(0,10);
+
+
+      return (
+        <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
+          <div class="title">
+            <a
+              href={`/books/${note.slug}`}
+              class="unset
+                  transition-[background-size] duration-300
+                  bg-gradient-to-r bg-left-bottom bg-no-repeat
+                  bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
+                  from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
+                "
+            >
+              {note.frontmatter.title}
+            </a>
+          </div>
+          <div class="text-text-muted text-sm italic pt-1">
+            <time datetime={note.frontmatter.date.toISOString()}>
+              {formattedDate}
+            </time>
+          </div>
+        </li>
+      );
+    })
+  }
+</ul>
+
+<p class="mt-10 fa-xs" style="line-height: normal;">You can get all book notes via <a href="/books/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
 
 <h2 class="fa-xl mb-5 mt-20">Mediations Newsletter</h2>
 <p>I share what I feel about multiple aspects and constraints of the complicated life and my search for the balance between leadership, software engineering, personal life, and the world.</p>
@@ -193,182 +324,3 @@ const sortedNotes = zettels
 </form>
 
 <p class="mb-20 mt-5 fa-xs">You can also get the newsletter via <a href={`${SITE_URL}/newsletter/rss.xml`}>RSS</a>.</p>
-
-<h2 class="fa-xl mt-20 mb-5">Journal <small><a href="/journal/">SEE ALL</a></small></h2>
-<ul>
-  {
-    sortedJournalEntries.map((journalEntry) => {
-      const formattedDate = new Date(
-      journalEntry.frontmatter.date
-      ).toISOString().slice(0,10);
-
-
-      return (
-        <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
-          <div class="title">
-            {journalEntry.frontmatter.external ? (
-              <a
-                href={`/journal/${journalEntry.slug}`}
-                target="_blank"
-                class="unset
-                    transition-[background-size] duration-300
-                    bg-gradient-to-r bg-left-bottom bg-no-repeat
-                    bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
-                    from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
-                  "
-              >
-                <span>{journalEntry.frontmatter.title}</span>
-                <span>
-                  <i class="ml-1 mr-1 text-[12px] pb-2 fa-solid fa-up-right-from-square" />
-                </span>
-              </a>
-            ) : (
-              <a
-                href={`/journal/${journalEntry.slug}`}
-                class="unset
-                    transition-[background-size] duration-300
-                    bg-gradient-to-r bg-left-bottom bg-no-repeat
-                    bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
-                    from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
-                  "
-              >
-                {journalEntry.frontmatter.title}
-              </a>
-            )}
-          </div>
-          <div class="text-text-muted text-sm italic pt-1">
-            <time datetime={journalEntry.frontmatter.date.toISOString()}>
-              {formattedDate}
-            </time>
-          </div>
-        </li>
-      );
-    })
-  }
-</ul>
-
-<p class="mt-10 fa-xs">You can get all journal entries via <a href="/journal/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
-
-<h2 class="fa-xl mb-5 mt-20">Notes <small><a href="/notes/">SEE ALL</a></small></h2>
-<p>These notes are in my Slip-Box in my Zettelkasten. We can call them as Digital Garden as well but I prefer calling the whole system Zettelkasten.</p>
-<ul>
-  {
-    sortedNotes.map((zettel) => {
-      const formattedDate = new Date(
-        zettel.frontmatter.date
-      ).toISOString().slice(0,10);
-
-
-      return (
-        <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
-          <div class="title">
-            <a
-              href={`/notes/${zettel.slug}`}
-              class="unset
-                  transition-[background-size] duration-300
-                  bg-gradient-to-r bg-left-bottom bg-no-repeat
-                  bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
-                  from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
-                "
-            >
-              {zettel.frontmatter.zettelId}: {zettel.frontmatter.title}
-            </a>
-          </div>
-          <div class="text-text-muted text-sm italic pt-1">
-            <time datetime={zettel.frontmatter.date.toISOString()}>
-              {formattedDate}
-            </time>
-          </div>
-        </li>
-      );
-    })
-  }
-</ul>
-
-<p class="fa-xs mt-10">You can get all notes via <a href="/notes/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
-
-<h2 class="fa-xl mt-20 mb-5">Book Notes <small><a href="/books/">SEE ALL</a></small></h2>
-<p>I share either a full book review or a single-chapter note from the books I read.</p>
-<ul>
-  {
-    sortedBookNotes.map((note) => {
-      const formattedDate = new Date(
-      note.frontmatter.date
-      ).toISOString().slice(0,10);
-
-
-      return (
-        <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
-          <div class="title">
-            <a
-              href={`/books/${note.slug}`}
-              class="unset
-                  transition-[background-size] duration-300
-                  bg-gradient-to-r bg-left-bottom bg-no-repeat
-                  bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
-                  from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
-                "
-            >
-              {note.frontmatter.title}
-            </a>
-          </div>
-          <div class="text-text-muted text-sm italic pt-1">
-            <time datetime={note.frontmatter.date.toISOString()}>
-              {formattedDate}
-            </time>
-          </div>
-        </li>
-      );
-    })
-  }
-</ul>
-
-<p class="mt-10 fa-xs">You can get all book notes via <a href="/books/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
-
-<h2 class="fa-xl mt-20 mb-5">Podcast <small><a href="/podcast/">SEE ALL</a></small></h2>
-  <em><p>Software World Podcast uncovers journeys of people and software systems. I sometimes interview the uncelebrated (or famous) experts or sometimes talk alone about a topic I'm researching or thinking about.</p></em>
-
-<p class="fa-m mt-5">
-  <b>Latest Episode:</b>
-  <ul>
-    {
-      sortedEpisodes.map((episode) => {
-        const formattedDate = new Date(
-          episode.frontmatter.date
-        ).toISOString().slice(0,10);
-
-        return (
-          <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
-            <div class="title">
-              <a
-                href={episode.frontmatter.externalUrl}
-                class="unset
-                    transition-[background-size] duration-300
-                    bg-gradient-to-r bg-left-bottom bg-no-repeat
-                    bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
-                    from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
-                  "
-              >
-                {episode.frontmatter.title}
-              </a>
-            </div>
-            <div class="text-text-muted text-sm italic pt-1">
-              <time datetime={episode.frontmatter.date.toISOString()}>
-                {formattedDate}
-              </time>
-            </div>
-          </li>
-        );
-      })
-    }
-  </ul>
-</p>
-
-<p>Subscribe at
-    <a href="https://podcasts.apple.com/podcast/software-world-with-candost/id1548135276" target="_blank">Apple</a>,
-    <a href="https://open.spotify.com/show/2IoILbfQYu4dLiQpjEBKXk" target="_blank">Spotify</a>,
-    <a href="https://overcast.fm/itunes1548135276/software-world-with-candost">Overcast</a>,
-    <a href="https://mediations.candost.blog/s/podcast">Substack</a>,
-    <a href="https://api.substack.com/feed/podcast/470204/s/59110.rss">copy the master RSS</a> to paste into your favorite player, or
-    <a href="/podcast">listen on other platforms</a>.
-</p>

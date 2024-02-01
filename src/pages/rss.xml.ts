@@ -4,7 +4,7 @@ import { readAll } from "../lib/markdoc/read";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../config";
 import Markdoc from "@markdoc/markdoc";
 
-export const get = async () => {
+export async function GET() {
   const posts = await readAll({
     directory: "posts",
     frontmatterSchema: blog,
@@ -248,6 +248,7 @@ export const get = async () => {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     site: baseUrl,
+    stylesheet: '/rss/pretty-feed.xsl',
     items: rssItems.map((item) => {
       return {
         ...item,

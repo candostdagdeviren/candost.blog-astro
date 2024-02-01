@@ -4,7 +4,7 @@ import { readAll } from "../../lib/markdoc/read";
 import { SITE_TITLE, SITE_URL } from "../../config";
 import Markdoc from "@markdoc/markdoc";
 
-export const get = async () => {
+export async function GET() {
   const shortNotes = await readAll({
     directory: "notes",
     frontmatterSchema: notes,
@@ -41,10 +41,11 @@ export const get = async () => {
   );
 
   return rss({
-    title: "Notes | " + SITE_TITLE,
+    title: "Notes on " + SITE_TITLE,
     description: "These are my short notes I like to keep to myself. Yet, I want to make them publicly available. These notes are part of my Slip-Box. I currently have hundreds of notes on my Zettelkasten and I will continue to open them up to public as much as I can.",
     site: baseUrl + "/notes",
-    items: rssItems.map( (post) => {
+    stylesheet: '/rss/pretty-feed.xsl',
+    items: rssItems.map((post) => {
       return {
         ...post,
         content: Markdoc.renderers.html(post.content)

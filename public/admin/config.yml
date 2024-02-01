@@ -1,0 +1,99 @@
+backend:
+  name: github
+  repo: candostdagdeviren/candost.blog-astro
+  branch: main
+media_folder: "public/images"
+public_folder: "images/"
+collections:
+  - name: "journal"
+    label: "Journal"
+    folder: "content/journal"
+    media_folder: "/public/images/content/journal"
+    public_folder: "/images/content/journal"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - { label: "External URL", name: "externalUrl", widget: "string", required: false}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
+      - { label: "body", name: "body", widget: "markdown", required: false}
+  - name: "books"
+    label: "Books Notes"
+    folder: "content/books"
+    media_folder: "/public/images/content/books"
+    public_folder: "/images/content/books"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - { label: "External URL", name: "externalUrl", widget: "string", required: false}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
+      - { label: "body", name: "body", widget: "markdown" }
+  - name: "notes"
+    label: "Notes"
+    folder: "content/notes"
+    create: true
+    media_folder: "/public/images/content/notes"
+    public_folder: "/images/content/notes"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Zettel ID", name: "zettelId", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true, required: false}
+      - { label: "body", name: "body", widget: "markdown" }
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    media_folder: "/public/images/content/posts"
+    public_folder: "/images/content/posts"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - { label: "External URL", name: "externalUrl", widget: "string", required: false}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true, required: false}
+      - { label: "body", name: "body", widget: "markdown" }
+  - name: "mediations"
+    label: "Mediations"
+    folder: "content/newsletter/mediations"
+    create: true
+    media_folder: "/public/images/content/newsletter"
+    public_folder: "/images/content/newsletter"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Banner", name: "ogImagePath", widget: "image", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - { label: "External URL", name: "externalUrl", widget: "string", required: false}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true, required: false}
+      - { label: "body", name: "body", widget: "markdown" }
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages"
+    create: false
+    media_folder: "/public/images/content/"
+    public_folder: "/images/content/"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Banner", name: "ogImagePath", widget: "image", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true, required: false}
+      - { label: "body", name: "body", widget: "markdown" }
