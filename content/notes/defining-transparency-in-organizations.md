@@ -8,7 +8,7 @@ updateDate: 2024-03-23T16:26:36.337Z
 draft: false
 ---
 
-> [!quote] [Structural and Content-level transparency](https://koolaidfactory.com/structural-transparency-vs-content-level-transparency/)
+> [!quote] Structural and Content-level transparency
 > What most people are talking about when they talk about ‘transparency’ is what I would call _**structural transparency.**_ This refers to what information is shared freely and openly across the organization and with whom.
 > But, another critical part of transparency norms comes down to what I would call _**content-level transparency,**_ insight into the raw work as it’s happening.
 
