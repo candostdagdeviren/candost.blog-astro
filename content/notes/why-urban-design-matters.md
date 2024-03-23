@@ -5,7 +5,7 @@ tags:
   - urban-architecture
 date: 2024-03-23T16:23:33.014Z
 updateDate: 2024-03-23T16:23:33.014Z
-draft: true
+draft: false
 ---
 ## Parks and Recreation
 I've been reading Monocle since last summer, and I always love how different perspectives can find their place in the magazine. In [March's issue (#171)](https://monocle.com/magazine/issues/171/), [Des Fitzgerald](https://research.ucc.ie/profiles/A024/DesFitzgerald@ucc.ie) wrote [a commentary](https://monocle.com/magazine/issues/171/the-agenda-comment/) about why parks and recreation areas are developed in the first place. He says:
