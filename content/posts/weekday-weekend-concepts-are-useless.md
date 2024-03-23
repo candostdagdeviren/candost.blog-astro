@@ -4,7 +4,7 @@ description: Focusing on continuation rather than chunking the time.
 date: 2024-03-23T12:46:56.554Z
 updateDate: 2024-03-23T12:46:56.554Z
 external: false
-draft: true
+draft: false
 ---
 Every morning, I wake up around 5-5:30, even on weekends and holidays. Till 9:00, I don't have any routine differentiating working days or weekends. That means I don't have weekdays or weekend concepts in my mornings. When people hear me saying, "I don't see any day differently from the other. Days are in a continuation. Why would I treat any day differently?" they find it weird and difficult to understand. Here, I want to explain why.
 
