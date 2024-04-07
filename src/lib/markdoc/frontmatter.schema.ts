@@ -131,5 +131,28 @@ export const journal = z.discriminatedUnion("external", [
   }),
 ]);
 
+export const deutsch = z.discriminatedUnion("external", [
+  // markdown
+  baseSchema.extend({
+    external: z.literal(false),
+    description: z.optional(z.string()),
+    ogImagePath: z.optional(z.string()),
+    canonicalUrl: z.optional(z.string()),
+  }),
+  // external link
+  baseSchema.extend({
+    external: z.literal(true),
+    externalUrl: z.string({
+      required_error:
+        "external is true but url is missing. url must be set for posts marked as external.",
+      invalid_type_error: "external should be string.",
+    }),
+    description: z.optional(z.string()),
+    ogImagePath: z.optional(z.string()),
+    canonicalUrl: z.optional(z.string()),
+  }),
+]);
+
+
 
 export const regularPage = baseSchema;

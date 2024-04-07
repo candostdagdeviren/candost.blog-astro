@@ -1,0 +1,69 @@
+---
+import { readAll } from "../lib/markdoc/read";
+import { deutsch } from "../lib/markdoc/frontmatter.schema";
+import PageLayout from "../layouts/PageLayout.astro";
+import PageMeta from "../components/PageMeta.astro";
+import Renderer from "../components/Renderer.astro";
+
+const deutschEntries = await readAll({
+  directory: "de",
+  frontmatterSchema: deutsch,
+});
+
+const sortedDeutschEntries = deutschEntries
+  .filter((p) => p.frontmatter.draft !== true)
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
+  );
+
+  ---
+
+<PageLayout>
+  <PageMeta title={`Candosts Deutscheartikeln`} slot="meta" description="Meine Blogartikeln in Deutsch." />
+  <section slot="main">
+
+    <h1 class="fa-stack-1x fa-2x mb-5 mt-10">Journal</h1>
+    <p class="mb-5">Diese sind meine Blogartikeln in Deutsch.</p>
+
+    <p class="mb-10">Du kannst neue Artikeln mit RSS-reader lesen. <a href="/de/rss.xml">Hier ist die RSS feed.</a>.</p>
+
+      {
+        sortedDeutschEntries.map((entry) => {
+          const formattedDate = new Date(
+          entry.frontmatter.date
+          ).toISOString().slice(0,10);
+          return (
+
+            <hr class="solid mt-20 mb-20">
+            <div class="title grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2">
+              <h2 class="m-0 mb-[0.25em] fa-xl">
+                <span class="
+                    pl-6 relative block leading-[150%]
+                    after:absolute after:content-[''] after:w-2 after:h-full after:top-0 after:left-0 after:bg-primary-green
+                  ">
+                  <a href={entry.frontmatter.external ? entry.frontmatter.externalUrl : `/de/${entry.slug}`}>
+                    {entry.frontmatter.title}
+                    {entry.frontmatter.external ? <span>
+                          <i class="ml-1 mr-1 text-[20px] pb-2 fa-solid fa-up-right-from-square" />
+                        </span> : ""}
+                    </a>
+                  </span>
+                </h2>
+
+              <div class="text-text-muted text-sm italic pt-1">
+                <time datetime={entry.frontmatter.date.toISOString()}>
+                  {formattedDate}
+                </time>
+              </div>
+            </div>
+            <div class="blog-post prose max-w-none prose-bubblegum">
+              <Renderer content={entry.content} slot="content" />
+
+            </div>
+          );
+        })
+      }
+  </section>
+</PageLayout>
