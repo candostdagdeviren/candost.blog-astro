@@ -4,7 +4,7 @@
 export const SITE_TITLE = "Candost's Blog";
 export const SITE_DESCRIPTION =
   "The personal website of Candost Dagdeviren";
-export const TWITTER_HANDLE = "@candosten";
+export const TWITTER_HANDLE = undefined;
 export const MY_NAME = "Candost Dagdeviren";
 
 // setup in astro.config.mjs

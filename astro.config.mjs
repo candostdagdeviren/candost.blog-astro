@@ -91,6 +91,7 @@ export default defineConfig({
     "/essays/": "/posts/",
     "/mektup": "/newsletter/",
     "/microblog-2022-12/": "/",
+    "/high-productivity-and-clear-communication-in-different-cultures/": "/books/high-productivity-and-clear-communication-in-different-cultures/",
     "/microservices-and-their-benefits": "/books/microservices-and-their-benefits",
     "/understanding-how-database-transactions-work/": "/books/understanding-how-database-transactions-work/",
     "/how-to-reset-first-commit-in-git/)": "/how-to-reset-first-commit-in-git/",
