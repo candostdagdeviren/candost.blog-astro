@@ -4,6 +4,7 @@ import { journal } from "../lib/markdoc/frontmatter.schema";
 import PageLayout from "../layouts/PageLayout.astro";
 import PageMeta from "../components/PageMeta.astro";
 import Renderer from "../components/Renderer.astro";
+import { SITE_URL } from "src/config";
 
 const journalEntries = await readAll({
   directory: "journal",
@@ -25,7 +26,7 @@ const sortedJournalEntries = journalEntries
   <section slot="main">
 
     <h1 class="fa-stack-1x fa-2x mb-5 mt-10">Journal</h1>
-    <p class="mb-5">These are entries to my journal such as link to a post, a short comment, life update, etc.</p>
+    <p class="mb-5">These are entries to my journal. Instead of posting (only) on social media, I decided to post them here. Entries include link to a post, a short comment about something, life update, etc.</p>
 
     <p class="mb-10">You can get new entries in your favorite RSS reader via <a href="/journal/rss.xml">the dedicated RSS feed</a>.</p>
 
@@ -62,6 +63,8 @@ const sortedJournalEntries = journalEntries
               <Renderer content={entry.content} slot="content" />
 
             </div>
+
+            <p class="text-text-muted">Reply via <a href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${SITE_URL}/${entry.slug}` target=”_blank”>email</a>.</p>
           );
         })
       }
