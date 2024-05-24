@@ -17,7 +17,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
-      - { label: "External URL", name: "externalUrl", widget: "string", required: false}
+      - {label: "External URL", name: "externalUrl", widget: "string", required: false}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
       - { label: "body", name: "body", widget: "markdown", required: false}
   - name: "books"
@@ -33,9 +33,9 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
-      - { label: "External URL", name: "externalUrl", widget: "string", required: false}
+      - {label: "External URL", name: "externalUrl", widget: "string", required: false}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
-      - { label: "body", name: "body", widget: "markdown" }
+      - {label: "body", name: "body", widget: "markdown"}
   - name: "notes"
     label: "Notes"
     folder: "content/notes"
@@ -49,7 +49,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true, required: false}
-      - { label: "body", name: "body", widget: "markdown" }
+      - {label: "body", name: "body", widget: "markdown"}
   - name: "posts"
     label: "Posts"
     folder: "content/posts"
@@ -80,9 +80,9 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
-      - { label: "External URL", name: "externalUrl", widget: "string", required: false}
+      - {label: "External URL", name: "externalUrl", widget: "string", required: false}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true, required: false}
-      - { label: "body", name: "body", widget: "markdown" }
+      - {label: "body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     folder: "content/pages"
@@ -96,4 +96,4 @@ collections:
       - {label: "Update Date", name: "updateDate", widget: "datetime"}
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true, required: false}
-      - { label: "body", name: "body", widget: "markdown" }
+      - {label: "body", name: "body", widget: "markdown"}
