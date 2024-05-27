@@ -97,3 +97,18 @@ collections:
       - {label: "Is External?", name: "external", widget: "boolean", default: false}
       - {label: "Is Draft?", name: "draft", widget: "boolean", default: true, required: false}
       - {label: "body", name: "body", widget: "markdown"}
+  - name: "german"
+    label: "German"
+    folder: "content/de"
+    media_folder: "/public/images/content/de"
+    public_folder: "/images/content/de"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Update Date", name: "updateDate", widget: "datetime"}
+      - {label: "Is External?", name: "external", widget: "boolean", default: false}
+      - {label: "External URL", name: "externalUrl", widget: "string", required: false}
+      - {label: "Is Draft?", name: "draft", widget: "boolean", default: true}
+      - { label: "body", name: "body", widget: "markdown", required: false}
