@@ -8,9 +8,9 @@ updateDate: 2021-08-17
 external: false
 ---
 
-[If you prefer listening, I have a podcast episode where I talk all about this article.](https://mediations.candost.blog/p/20-software-architecture-design-systems-903)
+[If you prefer listening, I have a podcast episode where I talk all about this article.](https://candost.substack.com/p/20-software-architecture-design-systems-903)
 
-I [talked and wrote](https://mediations.candost.blog/p/19-software-architect-role-and-archicture) about the software architect role before. The architect's job is eventually a combination of tech lead, software engineer, R&D engineer, and strategist. But how do these responsibilities come together? Working on architecture is a combination of a comprehensive set of skills. This article will discuss what an architect thinks and how an architect approaches the problem before starting with the design.
+I [talked and wrote](https://candost.substack.com/p/19-software-architect-role-and-archicture) about the software architect role before. The architect's job is eventually a combination of tech lead, software engineer, R&D engineer, and strategist. But how do these responsibilities come together? Working on architecture is a combination of a comprehensive set of skills. This article will discuss what an architect thinks and how an architect approaches the problem before starting with the design.
 
 We need to understand what type of architecture we are talking about before we dive.
 

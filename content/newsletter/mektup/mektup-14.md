@@ -26,7 +26,7 @@ Learning these differences and how to talk in each side's language gave me a lot
 
 Changes in roles and projects prevented me from becoming an expert in one discipline. iOS is still my strongest suit, as I worked on it for years, but my skills are already rusty. I haven't worked hands-on on an iOS project for more than a year, and everything changes so fast (thank you, Apple!). At the same time, I cannot call myself a good backend engineer because I didn't have the entire experience.
 
-Although not being an expert in one discipline might not be your choice, it is okay for me. We talked about being a specialist vs. a generalist with Ricardo in one of my live streams. [You can watch or listen to it if you are curious about my complete perspective](https://mediations.candost.blog/p/12-the-life-of-a-generalist-software-engineer).
+Although not being an expert in one discipline might not be your choice, it is okay for me. We talked about being a specialist vs. a generalist with Ricardo in one of my live streams. [You can watch or listen to it if you are curious about my complete perspective](https://candost.substack.com/p/12-the-life-of-a-generalist-software-engineer).
 
 Many people get afraid when they are out of their comfort zone, which is fair. They either want to stay in their comfort zone or hone their expertise. While the latter is perfectly natural (and required for society), I couldn't accept the former. Over the years, I always pushed myself from my comfort zone. I switched roles to learn, and I took on stretch projects to enhance my skills.
 

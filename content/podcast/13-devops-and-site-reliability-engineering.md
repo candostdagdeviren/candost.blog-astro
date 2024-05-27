@@ -1,6 +1,6 @@
 ---
 external: true
-externalUrl: "https://mediations.candost.blog/p/13-devops-and-site-reliability-engineering"
+externalUrl: "https://candost.substack.com/p/13-devops-and-site-reliability-engineering"
 title: "#13: DevOps and Site Reliability Engineering as a Career - Rene Hernandez"
 tags:
   - podcast

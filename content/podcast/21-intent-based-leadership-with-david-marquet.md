@@ -1,6 +1,6 @@
 ---
 external: true
-externalUrl: "https://mediations.candost.blog/p/sw-21-intent-based-leadership-with-david-marquet"
+externalUrl: "https://candost.substack.com/p/sw-21-intent-based-leadership-with-david-marquet"
 title: "#21: Intent-Based Leadership with L. David Marquet"
 tags:
   - podcast

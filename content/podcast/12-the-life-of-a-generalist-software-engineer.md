@@ -1,6 +1,6 @@
 ---
 external: true
-externalUrl: "https://mediations.candost.blog/p/12-the-life-of-a-generalist-software-engineer"
+externalUrl: "https://candost.substack.com/p/12-the-life-of-a-generalist-software-engineer"
 title: "#12: The Life of a Generalist Software Engineer - Ricardo Smania"
 tags:
   - podcast

@@ -32,19 +32,19 @@ This post is not only for managers. It's also for the people who would like to u
 
 In February, I had amazing guests in my live streams. If you want to join one of these sessions and ask your questions to my guests, [subscribe to my streams on Superpeer](https://superpeer.com/candost).
 
-**🌈 [Cross-Cultural Communication in Engineering Teams](https://mediations.candost.blog/p/8-cross-cultural-communication#details)​**
+**🌈 [Cross-Cultural Communication in Engineering Teams](https://candost.substack.com/p/8-cross-cultural-communication#details)​**
 
 Living abroad or working with people from around the globe has many challenges. People carry their cultures with them. Erin Meyer maps them to eight scales in the book The Culture Map. I'm a fan of that book and [wrote about it before](/books/high-productivity-and-clear-communication-in-different-cultures/). We created our team's culture map at work. And what we realized is that we can understand why people behave in a certain way. Right now, our team's map guides us in our communication. Felipe and I talked about our experiences with these eight scales and working as an ex-pat.
 
-**👩‍💻 [Engineering Career Path](https://mediations.candost.blog/p/9-engineering-career-path#details)​**
+**👩‍💻 [Engineering Career Path](https://candost.substack.com/p/9-engineering-career-path#details)​**
 
 The engineering career is often not a straight line. When people switch from software engineering roles to management roles, they change professions. Although knowing engineering might help in management, and we act like it as a promotion, it's not. Also, people who miss the hands-on work think that going back to the technical side is a demotion. This is false. Management and engineering are two different jobs. And I would argue that knowing the management side can help them to become a better engineer. It's useful for growing the career faster (if they didn't stay too long in management). Tobias went to management and came back to engineering. He shared his experiences with me and we talked about how engineers can grow in their careers.
 
-**🚨 [Building Healthy On-call Culture](https://mediations.candost.blog/p/10-building-healthy-on-call-culture)​**
+**🚨 [Building Healthy On-call Culture](https://candost.substack.com/p/10-building-healthy-on-call-culture)​**
 
 One thing I didn't know about on-call is how DevOps had a significant impact on it. The culture and the strategies changed with DevOps. Building a healthy on-call culture is difficult. However, there are specific processes that helpful for the on-call engineer. Creating the on-call system and using best practices mitigate system failures and the health of the engineer. Serhat and I talked about adjusting systems for avoiding alert fatigue and engineering burnout. He shared the best practices of healthy on-call environments and building a great culture around on-call.
 
-**📣 [Learning and Growing in Front-end Development](https://mediations.candost.blog/p/11-learning-and-growing-in-front-end-development)​**
+**📣 [Learning and Growing in Front-end Development](https://candost.substack.com/p/11-learning-and-growing-in-front-end-development)​**
 
 In the ever-growing and -changing front-end world, people struggle to find their way around. Learning has different paths, and the strategies are distinct for everyone. The most important is motivation. If you're motivated to start learning front-end, then you're already on a good start.
 

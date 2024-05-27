@@ -8,7 +8,7 @@ updateDate: 2023-07-23
 external: false
 ---
 
-_I also interviewed L. David Marquet, the author of the book; you can [listen to the interview here.](https://mediations.candost.blog/p/sw-21-intent-based-leadership-with-david-marquet)_
+_I also interviewed L. David Marquet, the author of the book; you can [listen to the interview here.](https://candost.substack.com/p/sw-21-intent-based-leadership-with-david-marquet)_
 
 > **How Strongly I Recommend It:** 8/10.
 >
@@ -127,7 +127,7 @@ Approach training as a way to increase decision-making authority. It makes peopl
 
 #### Continually and Consistently Repeat The Message
 
-People forget. If you want people to [change their minds](https://mediations.candost.blog/p/18-managing-organizational-changes) or apply a new method, there is no other way than continually and consistently repeating the message. They will eventually learn. The problem is not their competence. When you want to give a message that they should follow, what alternative do you have? Changing the message halfway will only create confusion and a lack of direction.
+People forget. If you want people to [change their minds](https://candost.substack.com/p/18-managing-organizational-changes) or apply a new method, there is no other way than continually and consistently repeating the message. They will eventually learn. The problem is not their competence. When you want to give a message that they should follow, what alternative do you have? Changing the message halfway will only create confusion and a lack of direction.
 
 #### Specify Goals, Not Methods
 

@@ -44,7 +44,7 @@ Creating engaging live streams is a local event. While local communities are the
 
 While live streaming is focused on talking with viewers, podcasting is talking alone or with guests. The format I chose, interviewing, is the most common and suitable approach to podcasting. I also know that standing out in podcasting is difficult. The podcasts with 10-15 episodes fill the podcast graveyard. When the entry barrier is low to anything, it gets very competitive.
 
-[Podcasting](https://mediations.candost.blog/s/podcast) is evolving every day. I believe that we're still in the early days of podcasting, and I expect to see many different podcasting formats. Even though I'm only doing interviews right now, I am also looking for new ways to create a podcast. I'm willing to try other styles and learn from them.
+[Podcasting](https://candost.substack.com/s/podcast) is evolving every day. I believe that we're still in the early days of podcasting, and I expect to see many different podcasting formats. Even though I'm only doing interviews right now, I am also looking for new ways to create a podcast. I'm willing to try other styles and learn from them.
 
 While the competition is fierce, my focus is on satisfying my curiosity. I believe that I will shape the format in time. Finding your style always takes time. The key is to keep the production going.
 

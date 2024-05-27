@@ -60,4 +60,4 @@ Until next time,
 
 Candost
 
-_**P.S.** [In case your mentee (or you) needs some strategies for problem-solving](https://mediations.candost.blog/p/27-problem-solving-skills-and-a-strategy-065)._
+_**P.S.** [In case your mentee (or you) needs some strategies for problem-solving](https://candost.substack.com/p/27-problem-solving-skills-and-a-strategy-065)._

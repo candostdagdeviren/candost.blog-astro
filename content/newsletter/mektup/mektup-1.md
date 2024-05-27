@@ -35,7 +35,7 @@ Salaries are often aligned with the impact on the business. “Higher autonomy -
 
 I’ve seen many times teams full of senior engineers fail. Not on the tech side, but the communication. Being inclusive is harder. Cultural and knowledge differences play a significant role. Hiring junior developers force senior engineers to improve their communication. Mixed teams have to invest in training regularly to onboard juniors. The onboarding process gets more satisfying with each junior, and the team becomes resilient.
 
-Meanwhile, we had [a talk with Oksana](https://mediations.candost.blog/p/4-how-to-be-a-working-student) about how companies approach juniors. [She mentioned](https://youtu.be/zWZaLvvr33s?t=2142) that allowing juniors to try different things and grow within the company is a game-changer to increase their loyalty. And their primary helpers are their mentors, a.k.a. senior engineers.
+Meanwhile, we had [a talk with Oksana](https://candost.substack.com/p/4-how-to-be-a-working-student) about how companies approach juniors. [She mentioned](https://youtu.be/zWZaLvvr33s?t=2142) that allowing juniors to try different things and grow within the company is a game-changer to increase their loyalty. And their primary helpers are their mentors, a.k.a. senior engineers.
 
 ![Software World Section](/images/content/newsletter/networking.png)
 
@@ -43,25 +43,25 @@ Meanwhile, we had [a talk with Oksana](https://mediations.candost.blog/p/4-how-
 
 In January, we had four great talks on Superpeer.
 
-**[Mobile Apps at Scale](https://mediations.candost.blog/p/7-mobile-apps-at-scale)**
+**[Mobile Apps at Scale](https://candost.substack.com/p/7-mobile-apps-at-scale)**
 
 When you scale the company, you scale the problems as well. Solutions to these problems differ in every company. Each one has its own processes and style, such as SoundCloud that has 40+ engineers in their mobile teams. They use three-way teams: feature-teams, platform-teams, and tooling-teams and evolve their architecture around these. Tooling teams focus on increasing the developer effectiveness of the feature teams. Fırat joined me, and we talked about challenges around architecture, tests, releases, tooling, and how teams make their technical decisions.
 
 Watch it on [YouTube](https://youtu.be/Kg6W-ymbej4), or listen on [Spotify](https://open.spotify.com/episode/1XHgvXT5xKDaM3cOyEORvz?si=TiqHpf9sSCymmS8EqHEQ0Q), [Apple Podcasts](https://podcasts.apple.com/de/podcast/software-world-with-candost/id1548135276?l=en#episodeGuid=713b4718-ab46-453f-9c70-4b777573a262), or on [other platforms](https://anchor.fm/candost/episodes/7-Mobile-Apps-at-Scale---Frat-Karata-epgqu2).
 
-**[Software Development in Startups](https://mediations.candost.blog/p/6-software-development-in-startups)**
+**[Software Development in Startups](https://candost.substack.com/p/6-software-development-in-startups)**
 
 The challenges of startups are different from mature companies. Software development practices are sometimes ignored in regards to faster release. But we don’t need to sacrifice high product quality over the pace. Fatih and I talked about these kinds of challenges and how he approaches them.
 
 Watch it on [YouTube](https://www.youtube.com/watch?v=5aXCNWpm7So), or listen on [Spotify](https://open.spotify.com/episode/4n0XKg8qVwWTJJYCYumJpj?si=EX-VulIrS5mMfZ5X2UjhFQ), [Apple Podcasts](https://anchor.fm/candost/episodes/6-Software-Development-in-Startups---Fatih-Acet-ep86ij/a-a4dc1al), or on [other platforms](https://anchor.fm/candost/episodes/6-Software-Development-in-Startups---Fatih-Acet-ep86ij/a-a4dc1al).
 
-**[Startup Marketing and Strategy](https://mediations.candost.blog/p/5-startup-marketing)**
+**[Startup Marketing and Strategy](https://candost.substack.com/p/5-startup-marketing)**
 
 All marketing campaigns have a big chance of failure if we don’t understand our users or who they are. Planning and creating a strategy around our brands and stories are compelling. Peri and I talked about marketing strategies.
 
 If you want to find out where to focus on marketing and create a better plan, watch it on [YouTube](https://www.youtube.com/watch?v=rYYaO_02bxk) or listen on [Spotify](https://open.spotify.com/episode/0FS7bhGltsUM3ZUrZroQTU?si=lin0qwY8RdKJFc4TLa_awg), [Apple Podcasts](https://podcasts.apple.com/de/podcast/software-world-with-candost/id1548135276?l=en&i=1000505240591), or on [other platforms](https://anchor.fm/candost/episodes/5-Startup-Marketing---Peri-Kadaster-eosq0a/a-a4b66gl).
 
-**[How to Be A Working Student in Tech](https://mediations.candost.blog/2-how-engineering-teams-work-with-product-teams)**
+**[How to Be A Working Student in Tech](https://candost.substack.com/2-how-engineering-teams-work-with-product-teams)**
 
 Nobody cares about students in companies, yet they are the future and fundamental part of our knowledge. Students face many problems, including low salary, learning, being disregarded. If these students are ex-pats, then many other challenges come into play, such as visa restrictions. Oksana and I talked about her journey from Ukraine to Germany and working while studying.
 
@@ -73,7 +73,7 @@ Watch it on [YouTube](https://www.youtube.com/watch?v=zWZaLvvr33s), or listen o
 
 **[Diversity in Tech is a First World Problem](/diversity-in-tech-is-a-first-world-problem/)**
 
-We had [a talk with Yasemin](https://mediations.candost.blog/p/3-diversity-gender-discrimination#details) about diversity, gender discrimination, and women in tech before. Some people might deny the problem and don't care about it at all. At the same time, many people are aware of the problem, and they try to be inclusive as much as they can. Yet, some of them find themselves in their comfort zone, and they stop pushing about diversity. This loosening happens more often in first-world countries because the third-world countries haven't set up the foundations yet. I [wrote a piece](/diversity-in-tech-is-a-first-world-problem) about the need to leave my comfort zone. We should increase the diversity, but not forget that other communities need help to solve more significant problems. If we can create more opportunities for more people, eventually, we can increase diversity anywhere.
+We had [a talk with Yasemin](https://candost.substack.com/p/3-diversity-gender-discrimination#details) about diversity, gender discrimination, and women in tech before. Some people might deny the problem and don't care about it at all. At the same time, many people are aware of the problem, and they try to be inclusive as much as they can. Yet, some of them find themselves in their comfort zone, and they stop pushing about diversity. This loosening happens more often in first-world countries because the third-world countries haven't set up the foundations yet. I [wrote a piece](/diversity-in-tech-is-a-first-world-problem) about the need to leave my comfort zone. We should increase the diversity, but not forget that other communities need help to solve more significant problems. If we can create more opportunities for more people, eventually, we can increase diversity anywhere.
 
 **[How to Stop Endless and Meaningless Discussions](/how-to-stop-endless-discussions/)**
 
@@ -85,7 +85,7 @@ I [shared](/how-to-stop-endless-discussions/) why writing is a great way to pr
 
 I finished reading the **Building Microservices** book and liked it. Microservices architecture style is not a silver bullet. The book is aligned with this statement and gives an excellent in-depth explanation of the advantages and disadvantages. With this book, I started sharing my book notes. I published the [first](/books/microservices-and-their-benefits/), [second](/books/the-evolutionary-architect/), and [third](/books/how-to-model-microservices/) chapters and will continue to add more. This is the initial attempt at sharing my book notes. Please [let me know](https://twitter.com/candosten) what you think.
 
-Challenges of mobile application development are distinct at scale, as we [talked with Fırat](https://mediations.candost.blog/p/7-mobile-apps-at-scale). I’ve read the draft of **33 Mobile Challenges at Scale** from Gergely Orosz the last month. I will share my notes after Gergely finishes writing the whole book. I’m currently waiting for the next chapters to come out.
+Challenges of mobile application development are distinct at scale, as we [talked with Fırat](https://candost.substack.com/p/7-mobile-apps-at-scale). I’ve read the draft of **33 Mobile Challenges at Scale** from Gergely Orosz the last month. I will share my notes after Gergely finishes writing the whole book. I’m currently waiting for the next chapters to come out.
 
 Something that warms my heart:
 

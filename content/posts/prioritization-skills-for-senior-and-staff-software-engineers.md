@@ -59,4 +59,4 @@ As a result, you learn how to plan and structure your day. You learn how to crea
 
 > 🎯 Say "No" to good things to be able to say "YES" to great things!
 
-If you would like to know more about prioritization, you can listen to the Software World episode where Dennis and I talked about **[Prioritization for Senior and Staff Software Engineers](https://mediations.candost.blog/p/15-prioritization-for-senior-and-787)**.
+If you would like to know more about prioritization, you can listen to the Software World episode where Dennis and I talked about **[Prioritization for Senior and Staff Software Engineers](https://candost.substack.com/p/15-prioritization-for-senior-and-787)**.

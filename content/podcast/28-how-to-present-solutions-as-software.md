@@ -1,6 +1,6 @@
 ---
 external: true
-externalUrl: "https://mediations.candost.blog/p/28-how-to-present-solutions-as-software"
+externalUrl: "https://candost.substack.com/p/28-how-to-present-solutions-as-software"
 title: "#28: How to Present Solutions as Software Engineers"
 tags:
   - podcast

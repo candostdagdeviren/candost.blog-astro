@@ -73,7 +73,7 @@ In our conversation on the season finale episode, Jesper talks about the differe
 ​
 We talk about how businesses should approach data as the processes and methodologies are completely different from software engineering.
 
-🎙 **PODCAST: [#26: Machine Learning and Data Science with Jesper Dramsch](https://mediations.candost.blog/p/26-machine-learning-and-data-science)​**
+🎙 **PODCAST: [#26: Machine Learning and Data Science with Jesper Dramsch](https://candost.substack.com/p/26-machine-learning-and-data-science)​**
 
 ## One Topic from Others
 

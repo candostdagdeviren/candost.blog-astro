@@ -1,6 +1,6 @@
 ---
 external: true
-externalUrl: "https://mediations.candost.blog/p/2-how-engineering-teams-work-with-product-teams"
+externalUrl: "https://candost.substack.com/p/2-how-engineering-teams-work-with-product-teams"
 title: "#2: How Engineering Teams Work with Product Teams with Göksel Köksal"
 tags:
   - podcast

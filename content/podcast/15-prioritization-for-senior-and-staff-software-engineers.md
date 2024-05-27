@@ -1,6 +1,6 @@
 ---
 external: true
-externalUrl: "https://mediations.candost.blog/p/15-prioritization-for-senior-and-787"
+externalUrl: "https://candost.substack.com/p/15-prioritization-for-senior-and-787"
 title: "#15: Prioritization for Senior and Staff Software Engineers with Dennis Benkert"
 tags:
   - podcast

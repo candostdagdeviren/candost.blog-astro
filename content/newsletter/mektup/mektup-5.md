@@ -17,7 +17,7 @@ When you, a software engineer, become seasoned (senior and staff engineers) at w
 
 ☝️ The major problem is that when many projects run in parallel, they all tend to go slower; you cannot focus on them simultaneously, and neglecting to set aside time to prioritize them causes stress and burnout. Although your freedom and impact on the company increase immensely, the absence of small rewards leads to dissatisfaction.
 
-👀 Taking a closer look at the problem reveals the lack of prioritization. When we [talked about prioritization for senior and staff software engineers in the Software World podcast](https://mediations.candost.blog/p/15-prioritization-for-senior-and-787), one thing became crystal clear: engineers often forget to sit down and prioritize their work. The engineering mind is so tangled with details: we prioritize every single task in one project over and over again. But think about it: when was the last time did you go over all your work and chose which project was more vital for you and the company than the other? Omitting to have a prioritization session is one of the mistakes that seasoned engineers often make.
+👀 Taking a closer look at the problem reveals the lack of prioritization. When we [talked about prioritization for senior and staff software engineers in the Software World podcast](https://candost.substack.com/p/15-prioritization-for-senior-and-787), one thing became crystal clear: engineers often forget to sit down and prioritize their work. The engineering mind is so tangled with details: we prioritize every single task in one project over and over again. But think about it: when was the last time did you go over all your work and chose which project was more vital for you and the company than the other? Omitting to have a prioritization session is one of the mistakes that seasoned engineers often make.
 
 # How to find out what is more critical than the other?
 
@@ -48,7 +48,7 @@ Create sections for each category. Place your post-its in these categories.
 
 🎯 Overall, your goal with this approach is to say "No" to _good things_ to be able to say "YES" to _great things!_
 
-💁 If you want to learn more about prioritization for senior and staff software engineers, [listen to the 15th episode of the Software World Podcast](https://mediations.candost.blog/p/15-prioritization-for-senior-and-787) and [read my blog post to learn more in-depth and visual approaches](/prioritization-skills-for-senior-and-staff-software-engineers/).
+💁 If you want to learn more about prioritization for senior and staff software engineers, [listen to the 15th episode of the Software World Podcast](https://candost.substack.com/p/15-prioritization-for-senior-and-787) and [read my blog post to learn more in-depth and visual approaches](/prioritization-skills-for-senior-and-staff-software-engineers/).
 
 If you want to jump into the decision step, [read my blog post about deciding what you should focus on next](/deciding-on-what-you-should-focus-on-next/).
 

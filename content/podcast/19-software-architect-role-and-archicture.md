@@ -1,6 +1,6 @@
 ---
 external: true
-externalUrl: "https://mediations.candost.blog/p/19-software-architect-role-and-archicture"
+externalUrl: "https://candost.substack.com/p/19-software-architect-role-and-archicture"
 title: "#19: The Software Architect Role | Systems and Architectural Thinking Part 1"
 tags:
   - podcast

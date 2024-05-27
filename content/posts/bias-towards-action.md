@@ -42,7 +42,7 @@ Learning something new while doing it is one of the best strategies in modern so
 
 You can also see this strategy in companies: the best onboarding processes focus on getting a person to deliver the first piece of work. People begin to learn about the project by fixing bugs or adding small features, not purely by reading the code.
 
-For a while, I was confusing "bias to action" with "think twice, code once" understanding. The confusion was between having the highest quality of architecture and the code and delivering the software. After [learning](/how-to-approach-software-architecture-design/) that the [perfect architecture](https://mediations.candost.blog/p/20-software-architecture-design-systems-903) [cannot be reached](https://mediations.candost.blog/p/19-software-architect-role-and-archicture#details), I started separating these.
+For a while, I was confusing "bias to action" with "think twice, code once" understanding. The confusion was between having the highest quality of architecture and the code and delivering the software. After [learning](/how-to-approach-software-architecture-design/) that the [perfect architecture](https://candost.substack.com/p/20-software-architecture-design-systems-903) [cannot be reached](https://candost.substack.com/p/19-software-architect-role-and-archicture#details), I started separating these.
 
 You can think twice and create good architecture and still have a bias towards action. Just change [how you approach delivering software](/why-cant-this-be-done-sooner/). Deliver fast over and over and over again.
 
@@ -62,7 +62,7 @@ One of the keys is **[rethinking the chosen path for software delivery during p
 
 When you keep the iterations and actions smaller, you also make the errors smaller, and smaller iterations make the errors made in previous iterations visible. That's why the Kanban and Scrum Sprints are focused on delivering the smallest piece and have retrospective meetings. The idea is to celebrate the win and learn from the mistakes. **[Find the quickest way you will learn your mistakes from users](/newsletter/mektup-6/).**
 
-**[Create a pendulum between applications-first and principles-first approaches.](https://mediations.candost.blog/p/8-cross-cultural-communication)** Go down the rabbit hole when necessary but take a step back and focus on producing a result over perfection. Don't sacrifice quality for taking action. The balance is the key. If you are designing an architecture, design the architecture to deliver software in multiple iterations, not in a big bang.
+**[Create a pendulum between applications-first and principles-first approaches.](https://candost.substack.com/p/8-cross-cultural-communication)** Go down the rabbit hole when necessary but take a step back and focus on producing a result over perfection. Don't sacrifice quality for taking action. The balance is the key. If you are designing an architecture, design the architecture to deliver software in multiple iterations, not in a big bang.
 
 **Define whose responsibility is what.** Who is accountable? When there is a sense of ownership, people take everything seriously. But when there is a loosely defined responsibility, it creates confusion and conflicts. Every action should have [a directly responsible individual](https://about.gitlab.com/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual).
 

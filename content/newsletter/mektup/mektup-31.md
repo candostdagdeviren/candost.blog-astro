@@ -32,4 +32,4 @@ Until next time, take care!
 
 Candost
 
-_**P.S.**_ _[Understand how distributed systems work if you're working with one](https://mediations.candost.blog/p/24-understanding-distributed-systems)._
+_**P.S.**_ _[Understand how distributed systems work if you're working with one](https://candost.substack.com/p/24-understanding-distributed-systems)._

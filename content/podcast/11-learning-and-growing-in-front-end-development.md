@@ -1,6 +1,6 @@
 ---
 external: true
-externalUrl: "https://mediations.candost.blog/p/11-learning-and-growing-in-front-end-development"
+externalUrl: "https://candost.substack.com/p/11-learning-and-growing-in-front-end-development"
 title: "#11: Learning and Growing in Front-end Development - Ali Spittel"
 tags:
   - podcast

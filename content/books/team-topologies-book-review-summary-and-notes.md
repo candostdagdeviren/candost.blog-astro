@@ -166,7 +166,7 @@ We can also use team interaction modes to determine the problems between teams a
 
 Knowing team interaction modes and different team types allows us to design the organization and systems together. Learning about team interaction modes helps us use [Inverse Conway Maneuver](https://www.thoughtworks.com/en-de/radar/techniques/inverse-conway-maneuver) and shape teams as we create systems design.
 
-During the initial organization design, there will be friction between teams and systems. We cannot expect software design to emerge just by designing the teams. That's where temporary roles like [software architect](https://mediations.candost.blog/p/19-software-architect-role-and-archicture) can be influential. Architects are expected to be technical and have social, product, strategy, and people management skills to drive these organizational changes.
+During the initial organization design, there will be friction between teams and systems. We cannot expect software design to emerge just by designing the teams. That's where temporary roles like [software architect](https://candost.substack.com/p/19-software-architect-role-and-archicture) can be influential. Architects are expected to be technical and have social, product, strategy, and people management skills to drive these organizational changes.
 
 ### Evolve Team Structures with Organizational Sensing
 

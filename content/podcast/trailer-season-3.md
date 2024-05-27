@@ -1,6 +1,6 @@
 ---
 external: true
-externalUrl: "https://mediations.candost.blog/p/trailer-season-3"
+externalUrl: "https://candost.substack.com/p/trailer-season-3"
 title: "Trailer: Season #3"
 tags:
   - podcast

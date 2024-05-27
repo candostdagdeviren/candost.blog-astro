@@ -1,6 +1,6 @@
 ---
 external: true
-externalUrl: "https://mediations.candost.blog/p/14-protective-leadership-and-leadership-style"
+externalUrl: "https://candost.substack.com/p/14-protective-leadership-and-leadership-style"
 title: "#14: Protective Leadership & Finding Your Leadership Style - Suzan Bond"
 tags:
   - podcast

@@ -40,7 +40,7 @@ When you switch tech stacks, it's not like you lose all your knowledge in one da
 
 When you change your tech stack, you broaden your horizon. Working on one stack keeps you on track for tech lead-like roles where your expertise in one topic is needed the most and the enormous impact you can have.
 
-When you have worked on multiple stacks, you prog­ress towards architect-like roles where your technical breadth is more appreciated and expected. I [wrote on a previous Mektup](/newsletter/mektup-7/) and [talked on my podcast](https://mediations.candost.blog/p/19-software-architect-role-and-archicture) about expecta­tions from software architects; check them out for more details.
+When you have worked on multiple stacks, you prog­ress towards architect-like roles where your technical breadth is more appreciated and expected. I [wrote on a previous Mektup](/newsletter/mektup-7/) and [talked on my podcast](https://candost.substack.com/p/19-software-architect-role-and-archicture) about expecta­tions from software architects; check them out for more details.
 
 When we think about managerial roles, it's up to the company's expectations. There are companies where managers are experts in one topic, and also there are companies where managers are expected to have more technical breadth than depth. So, both tracks can end up in management roles.
 
@@ -60,7 +60,7 @@ In my first attempt to switch to a new tech stack, I worked on the backend after
 
 So, returning is the option you will _always_ have, and people will perceive you as a better engineer when you return. In case you have a chance to work on a different tech stack, I highly recommend giving it a try.
 
-We had a live stream about generalist engineering where we talked about switching tech stacks often in detail. You can [watch the recording here](https://superpeer.com/candost/event/12-the-life-of-a-generalist-engineer?ref=candost.blog) or [listen to it in any podcast app here](https://mediations.candost.blog/p/12-the-life-of-a-generalist-software-engineer).
+We had a live stream about generalist engineering where we talked about switching tech stacks often in detail. You can [watch the recording here](https://superpeer.com/candost/event/12-the-life-of-a-generalist-engineer?ref=candost.blog) or [listen to it in any podcast app here](https://candost.substack.com/p/12-the-life-of-a-generalist-software-engineer).
 
 — Candost
 

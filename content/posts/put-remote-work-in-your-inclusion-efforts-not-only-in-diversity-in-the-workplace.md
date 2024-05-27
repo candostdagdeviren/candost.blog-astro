@@ -30,7 +30,7 @@ Many people with cognitive or intellectual disabilities and disorders can be mor
 
 If we enable remote work only for people with disabilities and disorders, we won't be that inclusive because our processes won't be aligned for them to work efficiently and grow in their careers. If we [fall back to the office practices](/why-are-hybrid-meetings-terrible-remote-vs-on-site-meetings/), regardless of disabilities or disorders, any remote employee feels alone or privileged.
 
-Including a diverse group in the workforce starts being inclusive in job listings, continues with the inclusive hiring and [interviewing](https://mediations.candost.blog/p/1-tech-interviews) process, and later on, adopting or adjusting the perks and benefits according to the person's needs. But it doesn't stop there.
+Including a diverse group in the workforce starts being inclusive in job listings, continues with the inclusive hiring and [interviewing](https://candost.substack.com/p/1-tech-interviews) process, and later on, adopting or adjusting the perks and benefits according to the person's needs. But it doesn't stop there.
 
 Creating a safe environment and culture is a complex but crucial task. Don't focus on making everyone [happy](/what-hades-the-game-had-taught-me/); that is impossible. However, having a culture where everyone feels safe and feel neither forced nor expected to share their situation should be your focus.
 

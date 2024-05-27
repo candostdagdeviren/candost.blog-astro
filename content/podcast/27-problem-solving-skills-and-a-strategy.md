@@ -1,6 +1,6 @@
 ---
 external: true
-externalUrl: "https://mediations.candost.blog/p/27-problem-solving-skills-and-a-strategy"
+externalUrl: "https://candost.substack.com/p/27-problem-solving-skills-and-a-strategy"
 title: "#27: Problem-Solving Skills & A Strategy for Software Engineers"
 tags:
   - podcast

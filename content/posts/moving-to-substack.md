@@ -28,7 +28,7 @@ I’m sorry, but Substack doesn’t allow me to subscribe you to the right newsl
 
 There are four email lists to which I will distribute:
 
-1. [Mediations with Candost](https://mediations.candost.blog/)
+1. [Mediations with Candost](https://candost.substack.com/)
     This section includes all posts I write (excluding Mektup and book notes).
 2. [Mektup](/newsletter/)
     This is the bi-weekly newsletter that I send as casual letters reflecting my learnings and thoughts about software engineering leadership and life, arriving every second Tuesday.
