@@ -4,6 +4,7 @@ import { deutsch } from "../lib/markdoc/frontmatter.schema";
 import PageLayout from "../layouts/PageLayout.astro";
 import PageMeta from "../components/PageMeta.astro";
 import Renderer from "../components/Renderer.astro";
+import { SITE_URL } from "src/config";
 
 const deutschEntries = await readAll({
   directory: "de",
@@ -21,11 +22,11 @@ const sortedDeutschEntries = deutschEntries
   ---
 
 <PageLayout>
-  <PageMeta title={`Candosts Deutscheartikeln`} slot="meta" description="Meine Blogartikeln in Deutsch." />
+  <PageMeta title={`Candosts deutscher Blogeinträge`} slot="meta" description="Meine Blogeintrag auf Deutsch." />
   <section slot="main">
 
-    <h1 class="fa-stack-1x fa-2x mb-5 mt-10">Journal</h1>
-    <p class="mb-5">Diese sind meine Blogartikeln in Deutsch.</p>
+    <h1 class="fa-stack-1x fa-2x mb-5 mt-10">Zeitschrift auf Deutsch</h1>
+    <p class="mb-5">Ich lerne Deutch und möchte üben. Deshalb habe ich mich entschlossen, in meinem Blog eine Abteilung zum Thema Deutch einzurichten.</p>
 
     <p class="mb-10">Du kannst neue Artikeln mit RSS-reader lesen. <a href="/de/rss.xml">Hier ist die RSS feed.</a>.</p>
 
@@ -62,6 +63,8 @@ const sortedDeutschEntries = deutschEntries
               <Renderer content={entry.content} slot="content" />
 
             </div>
+
+            <p class="text-text-muted">Antwort per <a href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${SITE_URL}/${entry.slug}` target=”_blank”>email</a>.</p>
           );
         })
       }

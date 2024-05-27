@@ -6,7 +6,7 @@ import Markdoc from "@markdoc/markdoc";
 
 export async function GET() {
   const deutschEntries = await readAll({
-    directory: "deutsch",
+    directory: "de",
     frontmatterSchema: deutsch,
   });
 
@@ -55,8 +55,8 @@ export async function GET() {
   );
 
   return rss({
-    title: "Candost's Journal",
-    description: "Diese Blogartikeln sind meine blog in Deutsch.",
+    title: "Candosts deutscher Blogeinträge",
+    description: "Ich lerne Deutch und möchte üben. Deshalb habe ich mich entschlossen, in meinem Blog eine Abteilung zum Thema Deutch einzurichten.",
     site: baseUrl + "/de",
     stylesheet: '/rss/pretty-feed.xsl',
     items: rssItems.map( (post) => {
