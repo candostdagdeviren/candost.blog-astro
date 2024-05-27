@@ -1,7 +1,6 @@
 ---
 import { readAll } from "../lib/markdoc/read";
-import { blog, podcast, books, journal, notes, newsletters } from "../lib/markdoc/frontmatter.schema";
-import { SITE_URL } from "src/config";
+import { blog, books, journal, notes, newsletters } from "../lib/markdoc/frontmatter.schema";
 
 const posts = await readAll({
   directory: "posts",
@@ -15,21 +14,7 @@ const sortedPosts = posts
       new Date(b.frontmatter.date).valueOf() -
       new Date(a.frontmatter.date).valueOf()
   )
-  .slice(0,5);
-
-const episodes = await readAll({
-  directory: "podcast",
-  frontmatterSchema: podcast,
-});
-
-const sortedEpisodes = episodes
-  .filter((e) => e.frontmatter.draft !== true)
-  .sort(
-    (a, b) =>
-      new Date(b.frontmatter.date).valueOf() -
-      new Date(a.frontmatter.date).valueOf()
-  )
-  .slice(0,1);
+  .slice(0,3);
 
 const bookNotes = await readAll({
   directory: "books",
@@ -42,7 +27,7 @@ const sortedBookNotes = bookNotes
     (a, b) =>
       new Date(b.frontmatter.date).valueOf() -
       new Date(a.frontmatter.date).valueOf()
-  ).slice(0, 5);
+  ).slice(0, 3);
 
 const mediations = await readAll({
   directory: "newsletter/mediations",
@@ -69,7 +54,7 @@ const sortedJournalEntries = journalEntries
     (a, b) =>
       new Date(b.frontmatter.date).valueOf() -
       new Date(a.frontmatter.date).valueOf()
-  ).slice(0, 5);
+  ).slice(0, 3);
 
   const zettels = await readAll({
   directory: "notes",
@@ -82,7 +67,7 @@ const sortedNotes = zettels
     (a, b) =>
       new Date(b.frontmatter.date).valueOf() -
       new Date(a.frontmatter.date).valueOf()
-  ).slice(0, 5);
+  ).slice(0, 3);
 
 ---
 
@@ -128,8 +113,6 @@ const sortedNotes = zettels
     })
   }
 </ul>
-
-<p class="mt-10 fa-xs" style="line-height: normal;">You can get all posts via <a href="/posts/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
 
 <h2 class="fa-xl mt-20 mb-5">Journal <small><a href="/journal/">SEE ALL</a></small></h2>
 <ul>
@@ -184,8 +167,6 @@ const sortedNotes = zettels
   }
 </ul>
 
-<p class="mt-10 fa-xs" style="line-height: normal;">You can get all journal entries via <a href="/journal/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
-
 <h2 class="fa-xl mb-5 mt-20">Notes <small><a href="/notes/">SEE ALL</a></small></h2>
 <p>These notes are in my Slip-Box in my Zettelkasten. We can call them as Digital Garden as well but I prefer calling the whole system Zettelkasten.</p>
 <ul>
@@ -222,8 +203,6 @@ const sortedNotes = zettels
   }
 </ul>
 
-<p class="fa-xs mt-10" style="line-height: normal;">You can get all notes via <a href="/notes/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
-
 <h2 class="fa-xl mt-20 mb-5">Book Notes <small><a href="/books/">SEE ALL</a></small></h2>
 <p>I share either a full book review or a single-chapter note from the books I read.</p>
 <ul>
@@ -259,8 +238,6 @@ const sortedNotes = zettels
     })
   }
 </ul>
-
-<p class="mt-10 fa-xs" style="line-height: normal;">You can get all book notes via <a href="/books/rss.xml">a dedicated RSS feed</a> to your favorite RSS reader.</p>
 
 <h2 class="fa-xl mb-5 mt-20">Mediations Newsletter</h2>
 <p>I share what I feel about multiple aspects and constraints of the complicated life and my search for the balance between leadership, software engineering, personal life, and the world.</p>
@@ -322,5 +299,3 @@ const sortedNotes = zettels
     </button>
   </p>
 </form>
-
-<p class="mb-20 mt-5 fa-xs">You can also get the newsletter via <a href={`${SITE_URL}/newsletter/rss.xml`}>RSS</a>.</p>
