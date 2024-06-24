@@ -69,7 +69,7 @@ const formattedUpdateDate = new Date(updateDate).toISOString().slice(0,10);
 
         {(slug !== "about/") ? <p class="fa-pull-right mb-[2em] text-text-muted" style="font-size: 0.7em;">Published at {formattedDate} | Last Updated at {formattedUpdateDate}</p> : <p></p> }
 
-        {(slug == "about/" || slug == "now/") ? <p></p> : <p class="pt-[5em] text-text-muted text-[0.75em]">Don't hesitate to share your thoughts via <a href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${SITE_URL}/${slug}` target=”_blank”>email.</a> If our positions reversed, you would ask for the same.</p>}
+        {(slug == "about/" || slug == "now/") ? <p></p> : <p class="pt-[5em] text-text-muted text-[0.75em]">Share your thoughts with me <a href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${SITE_URL}/${slug}` target=”_blank”>via email.</a></p>}
 
       </section>
     </main>
