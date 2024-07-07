@@ -32,11 +32,11 @@ Let's dive into the advantages and disadvantages.
 
 [I wrote about the difference in a previous Mektup](/newsletter/mektup-8/), and I'm not going to go into details here. When switching tech stack, technical depth (expertise in one area) loses its strength. The moment you stop working in one tech stack, the knowledge gap starts to build. On the other hand, when you switch to another stack, you can still follow trends and novel features in your previous tech stack. Switching tech stack helps to build technical breadth (broad area of knowledge). While gaining new skills, you can stay up-to-date with your previous ones.
 
-### **New and transferred skills**
+### New and transferred skills
 
 When you switch tech stacks, it's not like you lose all your knowledge in one day. You may stop using specific knowledge daily but transfer most of what you have learned. The fundamentals of software enginee­ring and business are transferrable. Although how you work in a team might differ, soft skills and work processes are also often similar—or at least adaptable.
 
-### **Career progression**
+### Career progression
 
 When you change your tech stack, you broaden your horizon. Working on one stack keeps you on track for tech lead-like roles where your expertise in one topic is needed the most and the enormous impact you can have.
 

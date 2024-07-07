@@ -18,7 +18,7 @@ A while ago, I [gave a talk](https://www.youtube.com/watch?v=K-RHkk67eCQ) about 
 - Why do we become defensive when faced with negative feedback, and how can we lower our walls?
 - How do we understand the feedback we get? And what to do with it?
 
-## **Why is receiving feedback more important than giving feedback?**
+## Why is receiving feedback more important than giving feedback?
 
 I have never met a person who wants to stay as it is. Everyone wants to change a thing or two and knows [there is no better way than to get constructive feedback](/importance-of-the-feedback/). However, what constructive means changes from person to person. Also, focusing on how to get feedback well is not everyone's trait, as it's uncomfortable: **_we prefer telling people what they should do instead of hearing what we should be doing._**
 
@@ -32,17 +32,17 @@ As it's promoted in many ways in the business books and behavioral psychology, f
 
 Even though we need feedback, seek it, and ask for it, we go behind the fence when faced with a harsh one. We can learn how to grow only when we lower our walls and break down fences. Only then can we understand what we lack or do wrong. But why do we put up walls or build fences around ourselves in any criticism we hear?
 
-## **Why do we become defensive when facing negative feedback?**
+## Why do we become defensive when facing negative feedback?
 
 Because we have an inner voice that never stays silent. Whenever we hear negative feedback, it lights up and starts firing back. Something triggers these blocks and prevents feedback from going through. According to Douglas and Sheila, three triggers erect these walls and block feedback: truth, relationship, and identity.
 
-### **Truth**
+### Truth
 
 We build walls when the other side is—simply put—wrong. For example, we get feedback that says we didn't take responsibility when there was a failure. In fact, we took responsibility and did a great amount of work to recover from failure, yet, they didn't see. So, the other side is wrong; there actually is no feedback. But still, the other person thinks that they give us feedback. So, what's happening there?
 
 To uncover the case, we need to understand three different kinds of feedback:
 
-#### **Three Kinds of Feedback**
+#### Three Kinds of Feedback
 
 [I wrote about these three kinds of feedback before](/three-types-of-feedback/). In short:
 
@@ -62,7 +62,7 @@ To uncover the case, we need to understand three different kinds of feedback:
 
 We need all three of them. But **_we feel disappointed or become defensive when we expect one but receive the other_**. In the example above, we got evaluation feedback that indicates we didn't meet the expectations while we were waiting for the appreciation feedback.
 
-#### **How to Understand The Differences**
+#### How to Understand The Differences
 
 As we expect something and get something else, there is a mismatch. It's often caused by differences in behavior and intention.
 
@@ -74,7 +74,7 @@ A very unintuitive thing to talk about when the truth triggers are working is ta
 
 This was about the truth that blocks feedback from reaching its destination. We also have two more triggers that prevent us from growing. Let's look at the relationships.
 
-### **Relationship**
+### Relationship
 
 Sometimes, feedback doesn't reach us because our relationship gets in the way, even though what the other person says is true (most of the time, it's true). When we hear negative feedback from someone we care about (or someone we're frustrated with), we get defensive. We react to who they are, not what they say. What we think about the person and how they treat us causes us to build defense walls.
 
@@ -84,13 +84,13 @@ At work, when one of our peers we're frustrated with tells us, "Your code is not
 
 While the feedback is about the code not working, we move the discussion to the relationship and push the responsibility to the other side. We switch the track we're on.
 
-#### **Don't Switch The Track You're On**
+#### Don't Switch The Track You're On
 
 When our moms tell us that we never tidy up our room, it's about our room. When our colleague tells us our code is not working, it's about our code. But our response is about how our mom always interferes with our lives and how our colleagues cannot run the code. We change the track we're on. Our colleague wanted to discuss code, but we moved the discussion to their incapability. When we change the track, we immediately create conflict because that's not what our colleague meant. They then have to explain themselves with frustration or get into defensive mode.
 
 Getting out of this cycle requires us to take three steps back and figure out the relationship system we are in.
 
-#### **Understand The Relationship System**
+#### Understand The Relationship System
 
 There are three elements in every relationship: two people and the relationship itself. We often forget the last one. To lower our defense walls for feedback to pass through, we need to take three steps back to uncover three elements of the relationship.
 
@@ -104,7 +104,7 @@ The third step is looking with a bird-eye view: the big picture in the organizat
 
 The first two triggers (truth and relationship) were focused on both sides of the feedback. There is a third, and the most fundamental one, that not only causes us to take a stance against feedback but also pushes us to go offensive—identity.
 
-### **Identity**
+### Identity
 
 Imagine getting feedback that says, "You are always late to the meetings." If punctuality is part of our identity, this feedback will be threatening. As a result, we will feel it in our bones and create walls to mitigate the pain. Or we accept it and dodge the feedback with an answer, "Yes, that's who I am."
 
@@ -114,7 +114,7 @@ While even the best of us makes mistakes and do things that don't match how we d
 
 We start with learning ourselves and our story.
 
-#### **Know Yourself and Find Feedback Footprint**
+#### Know Yourself and Find Feedback Footprint
 
 Learning ourselves is a tricky process. But without it, we cannot comprehend the feedback we receive. We must understand our thoughts and feelings and don't hang up on stories we built for ourselves. Instead of living in the past or focusing on the future, we can take feedback at that moment.
 
@@ -126,7 +126,7 @@ Instead, we need to take the feedback at that exact moment. To do that, we must 
 
 Our reactions to feedback define how the feedback giver perceives our feedback-receiving skills. When we surprisingly react with anger or cry in facing harsh feedback, it creates a picture of how we cannot handle the feedback. These various behaviors are the feedback footprints that are unique to the individual. Many people are unaware of their _feedback footprint_ and are not ready to face harsh feedback. Asking ourselves, "How do I typically behave when I receive feedback?" is a good strategy to help us learn our unintentional behaviors. If the answer is crying, then explaining this to the other side can help with the whole situation and the perception we leave on others. After learning our reactions, it will be easier to prepare for any kind of feedback, easily handle difficult situations, and embrace a growth mindset.
 
-#### **Embrace A Growth Mindset**
+#### Embrace A Growth Mindset
 
 Whenever we build a growth mindset, we see negative feedback as less threatening and more of an opportunity. The growth mindset means looking for cues to learn, finding opportunities to improve, and being open to change. For example, instead of saying, "I am a procrastinator," we can embrace more complexity in our lives by saying, "I try not to procrastinate if I can," and be open to changing our identities.
 
@@ -134,7 +134,7 @@ When we build this growth mindset, we begin taking the extra mile and start look
 
 So far, we talked about learning how to receive feedback instead of building walls and acting on it to grow. We haven't talked about the other side of the medallion yet, and it's as crucial as accepting feedback.
 
-## **Drawing Boundaries to Block Feedback Intentionally**
+## Drawing Boundaries to Block Feedback Intentionally
 
 Sometimes, we get too much feedback than we can handle. Or we get the feedback at the wrong time. It doesn't mean we should push ourselves to improve on many fronts, which can have a detrimental effect. If we cannot take feedback anymore, it's also okay to draw boundaries and acknowledge feedback and gently deny it. Not every feedback is correct or on time. If we understand the feedback but have no time or energy to take action, we must be clear with the other person, explain why it's not the right time, and thank them for the feedback and the time they spent on it.
 
