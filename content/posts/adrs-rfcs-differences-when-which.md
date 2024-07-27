@@ -1,11 +1,14 @@
 ---
 title: "ADRs and RFCs: Their Differences and Templates"
-description: "Discover the differences between ADRs and RFCs in software development. Learn when and how to use each with practical guidance and templates. Essential for efficient architectural decision-making."
+description: Differences between ADRs and RFCs in software development. When and how to use each with practical guidance and templates for better decision-making.
 tags:
-  -
+  - architecture
 date: 2024-01-22
-updateDate: 2024-01-22
+updateDate: 2024-07-27T09:30:00.000Z
 external: false
+keywords:
+  - adr
+  - rfc
 ---
 
 When I wrote about [Request for Comments (RFC)](/how-to-stop-endless-discussions/) documents a few years back, I hadn't tried Architecture Decision Records (ADRs) yet. Although both concepts have existed for years, their popularity has increased in recent years. I finally had a chance to try working with ADRs. When I did, I realized that many people struggle to decide which one to use and when. Although there is [some guidance](https://adr.github.io) on the Internet, I don't see any consensus on how to approach them. I want to share how I separate both and the small nuances that make the two very different.
