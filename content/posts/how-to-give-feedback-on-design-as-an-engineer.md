@@ -4,11 +4,11 @@ description: "Engineers should focus on two fundamentals when giving feedback on
 tags:
   - giving-feedback
 date: 2024-07-27T09:20:00.000Z
-updateDate: 2024-07-27T09:20:00.000Z
+updateDate: 2024-07-29T14:03:00.000Z
 external: false
 ---
 
-We had a conversation with one of my designer friends a while ago. We talked about the usefulness of engineers' feedback on designs and how to make it helpful. I pondered the topic after our discussion.
+We had a conversation with one of my designer friends, [Maria](https://www.linkedin.com/in/maria-duddy-8934b567), a while ago. We talked about the usefulness of engineers' feedback on designs and how to make it helpful. I pondered the topic after our discussion.
 
 My friend was doing user research and experimenting with different flows to design a new feature with the best user experience. After a few ideas were shaped and passed the usability testing, they prepared some wireframes for different flows to talk to software engineers and get some early feedback. They walked through the ideas and were ready to take notes. The feedback they received varied, ranging from "I like it" to challenging users' behavior. That’s where we started our conversation and realized that many engineers approach design-walkthroughs incorrectly.
 
@@ -26,3 +26,7 @@ Once engineers understand users’ needs, the focus shouldn’t be on “liking 
 Designers get early engineering feedback to measure feasibility without wasting too much time on small details. While considering implementation details, engineers should be able to offer solutions like, “Implementing this design is complex and will require a lot of time to get it right; how about we do this section a bit differently?” or “How about adjusting the flow in ‘X’ way and that can help us to resolve a few complex bugs too?” These comments have great value for both designers and engineers and focus on finding the best possible solution.
 
 After that, giving overall feedback on designs is still useful and helpful. Any feedback can give insights and spark new ideas for designs. However, the main focus should always be understanding the user and then giving feedback on feasibility.
+
+----
+
+***P.S.** I didn't focus why design teams hold these feedback sessions on this post but Maria later pointed out that they use the sessions to invite everyone to ideation and ensure the team is up to date throughout the intire process. I think it's a great addition to collecting feedback; aligning and involving everyone is always a good way to foster culture of innovation.*
