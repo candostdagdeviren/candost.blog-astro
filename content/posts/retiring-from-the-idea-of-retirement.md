@@ -16,7 +16,6 @@ People tend to think, at least in Germany and Türkiye, that they will suddenly 
 
 The problem with this mentality is that people rely on it too much. They postpone their lives *today* and restrict themselves from doing what they want. Take me as an example. My retirement day is practically at least thirty years ahead. Until recently, I have been acting like my job was a disease that will go away in the future. I believed if I put in the effort, I could retire earlier. It was like a drug addiction.
 
-(REWRITE THE PARAGRAPH)
 However, I was addicted to being in my comfort zone. I was afraid of discovering what I wanted to do every day. I also knew I would work to make it happen if I could chase that. But, as I avoided that daunting task, I let myself slide into the comfort of being a hard follower of the system. I researched retirement mechanisms. The solutions I found were focused on making my retirement better or earlier.
 
 The system is built well in Germany, where I live. All employees and employers *have to* pay a mandatory pension contribution. There are also government incentives to invest more—to increase my retirement salary. Yet, all of these force me to stay in the system. They don't even want me to look outside. The system is all I need, and as long as I stay inside, I’m “covered.” But actually, I’m not.
