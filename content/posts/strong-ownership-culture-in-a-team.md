@@ -37,7 +37,7 @@ I get help from individual team members to manage the technical side. I provide 
 
 A while ago, I [wrote about how I hold 1:1s with my team](/effective-1-on-1-meetings-own-your-one-on-one-meeting/) and what I expect from each team member. I won’t repeat it here, but I focus mostly on how to lead people through 1:1s.
 
-As an engineering manager, I put a lot of work and energy into 1:1s instead of day-to-day hands-on software development (unless/until it’s needed). 1:1s are the best way to build trust and rapport, exchange feedback, and create alignment.
+As an engineering manager, I put a lot of work and energy into 1:1s instead of day-to-day hands-on software development (unless/until it’s needed). 1:1s are the best way to build trust and rapport, [exchange feedback](/maximizing-personal-growth-by-understanding/), and create alignment.
 
 After a certain amount of regular 1:1s (my sweet spot is between 2-3 months), people start bringing up problems and sharing information without me asking anything. We discuss those problems and exchange opinions. Once I understand the person’s background, skills, and capabilities, these discussions evolve into a different shape as I nudge them to bring recommendations along with the problem.
 
