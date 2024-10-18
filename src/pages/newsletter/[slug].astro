@@ -1,82 +1,78 @@
 ---
-import { readOne, readAll } from "../../lib/markdoc/read";
-import { newsletters } from "../../lib/markdoc/frontmatter.schema";
-import Renderer from "../../components/Renderer.astro";
 import BlogPostMeta from "../../components/BlogPostMeta.astro";
 import ContentLayout from "../../layouts/ContentLayout.astro";
 import { SITE_URL } from "../../config";
+import { getCollection, getEntry } from "astro:content";
+import Renderer from "src/components/Renderer.astro";
 
 export async function getStaticPaths() {
-  const mektups = await readAll({
-    directory: "newsletter/mektup",
-    frontmatterSchema: newsletters,
+
+  const mektups = await getCollection('newsletter', ({ data }) =>  {
+    if(!data.tags) {
+      return false;
+    }
+    return data.tags.includes('mektup');
   });
 
-  const mediations = await readAll({
-    directory: "newsletter/mediations",
-    frontmatterSchema: newsletters,
+  const mediations = await getCollection('newsletter', ({ data }) =>  {
+    if(!data.tags) {
+      return false;
+    }
+    return data.tags.includes('mediations');
   });
 
   // we don't want to generate pages for posts that link to external websites
   const filteredNewsletters = mektups
-    .concat(mediations)
-    .filter((p) => p.frontmatter.draft !== true)
+    .filter((p) => p.data.draft !== true)
 
   return filteredNewsletters.map((post) => {
-    return { params: { slug: post.slug } };
+    return { params: { slug: post.slug }, props: { post } };
   });
 }
 
 const { slug } = Astro.params;
+console.log("SLUG", slug);
+
 if (typeof slug !== "string") {
   throw Error(`slug should be string. Received: ${slug}`);
 }
 
-var post;
-if (slug.startsWith("mektup")) {
-  post = await readOne({
-  directory: "newsletter/mektup",
-  slug,
-  frontmatterSchema: newsletters,
-});
-} else {
-  post = await readOne({
-  directory: "newsletter/mediations",
-  slug,
-  frontmatterSchema: newsletters,
-});
+const post = await getEntry('newsletter', slug);
+
+if (post === undefined) {
+  return Astro.redirect("/404");
 }
 
-const { content, frontmatter } = post;
+const { Content } = await post.render();
 
 const ogImageAbsoluteUrl =
-  frontmatter.external !== true && frontmatter.ogImagePath
-    ? new URL(frontmatter.ogImagePath, SITE_URL).toString()
+  post.data.external !== true && post.data.ogImagePath
+    ? new URL(post.data.ogImagePath, SITE_URL).toString()
     : undefined;
 
 const canonicalURL =
-  frontmatter.external !== true && frontmatter.canonicalUrl
-  ? new URL(frontmatter.canonicalUrl, SITE_URL).toString()
+post.data.external !== true && post.data.canonicalUrl
+  ? new URL(post.data.canonicalUrl, SITE_URL).toString()
   : undefined;
 ---
 
 <ContentLayout
-  title={frontmatter.title}
-  date={frontmatter.date}
-  updateDate={frontmatter.updateDate}
-  slug={`newsletter/${slug}`}
-  external={frontmatter.external}
-  externalUrl={frontmatter.external ? frontmatter.externalUrl : ""}
+  title={post.data.title}
+  date={post.data.date}
+  updateDate={post.data.updateDate}
+  slug={`${slug}`}
+  external={post.data.external}
+  externalUrl={post.data.external ? post.data.externalUrl : ""}
   >
   <BlogPostMeta
-    title={frontmatter.title}
-    description={frontmatter.external ? undefined : frontmatter.description}
-    publishDate={frontmatter.date.toISOString()}
-    updateDate={frontmatter.updateDate.toISOString()}
-    pagePath={`/newsletter/${slug}`}
+    title={post.data.title}
+    description={post.data.external ? undefined : post.data.description}
+    publishDate={post.data.date.toISOString()}
+    updateDate={post.data.updateDate.toISOString()}
+    pagePath={`${slug}`}
     ogImageAbsoluteUrl={ogImageAbsoluteUrl}
     canonicalUrl={canonicalURL}
     slot="meta"
   />
-  <Renderer content={content} slot="content" />
+  <Renderer content={ Content } slot="content" />
 </ContentLayout>

@@ -1,34 +1,39 @@
 ---
-import { readAll } from "../lib/markdoc/read";
-import { newsletters } from "../lib/markdoc/frontmatter.schema";
 import PageLayout from "../layouts/PageLayout.astro";
 import PageMeta from "../components/PageMeta.astro";
 import { SITE_TITLE } from "../config";
+import { getCollection } from "astro:content";
 
-const mektups = await readAll({
-  directory: "newsletter/mektup",
-  frontmatterSchema: newsletters,
+const mektups = await getCollection('newsletter', ({ data }) =>  {
+  if(!data.tags) {
+    return false;
+  }
+  return data.tags.includes('mektup');
 });
 
 const sortedMektups = mektups
-  .filter((p) => p.frontmatter.draft !== true)
+  .filter((p) => p.data.draft !== true)
   .sort(
     (a, b) =>
-      new Date(b.frontmatter.date).valueOf() -
-      new Date(a.frontmatter.date).valueOf()
+      new Date(b.data.date).valueOf() -
+      new Date(a.data.date).valueOf()
   );
 
-const mediations = await readAll({
-  directory: "newsletter/mediations",
-  frontmatterSchema: newsletters,
+
+const allMediationsPosts = await getCollection('posts', ({ data }) =>  {
+  if(!data.tags) {
+    return false;
+  }
+  return data.tags.includes('mediations');
 });
 
-const sortedMediations = mediations
-  .filter((p) => p.frontmatter.draft !== true)
+
+const sortedMediations = allMediationsPosts
+  .filter((p) => p.data.draft !== true)
   .sort(
     (a, b) =>
-      new Date(b.frontmatter.date).valueOf() -
-      new Date(a.frontmatter.date).valueOf()
+      new Date(b.data.date).valueOf() -
+      new Date(a.data.date).valueOf()
   );
 ---
 
@@ -66,13 +71,13 @@ const sortedMediations = mediations
       {
         sortedMediations.map((mediation) => {
           const formattedDate = new Date(
-          mediation.frontmatter.date
+          mediation.data.date
           ).toISOString().slice(0,10);
           return (
             <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
               <div class="title">
                   <a
-                    href={`/newsletter/${mediation.slug}`}
+                    href={`${mediation.slug}`}
                     class="unset
                         transition-[background-size] duration-300
                         bg-gradient-to-r bg-left-bottom bg-no-repeat
@@ -80,11 +85,11 @@ const sortedMediations = mediations
                         from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
                       "
                   >
-                    {mediation.frontmatter.title}
+                    {mediation.data.title}
                   </a>
               </div>
               <div class="text-text-muted text-sm italic pt-1">
-                <time datetime={mediation.frontmatter.date.toISOString()}>
+                <time datetime={mediation.data.date.toISOString()}>
                   {formattedDate}
                 </time>
               </div>
@@ -101,13 +106,13 @@ const sortedMediations = mediations
       {
         sortedMektups.map((mektup) => {
           const formattedDate = new Date(
-          mektup.frontmatter.date
+          mektup.data.date
           ).toISOString().slice(0,10);
           return (
             <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
               <div class="title">
                   <a
-                    href={`/newsletter/${mektup.slug}`}
+                    href={`${mektup.slug}`}
                     class="unset
                         transition-[background-size] duration-300
                         bg-gradient-to-r bg-left-bottom bg-no-repeat
@@ -115,11 +120,11 @@ const sortedMediations = mediations
                         from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
                       "
                   >
-                    {mektup.frontmatter.title}
+                    {mektup.data.title}
                   </a>
               </div>
               <div class="text-text-muted text-sm italic pt-1">
-                <time datetime={mektup.frontmatter.date.toISOString()}>
+                <time datetime={mektup.data.date.toISOString()}>
                   {formattedDate}
                 </time>
               </div>

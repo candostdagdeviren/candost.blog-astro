@@ -210,9 +210,9 @@ declare module 'astro:content' {
   collection: "books";
   data: InferEntrySchema<"books">
 } & { render(): Render[".md"] };
-"encoding-decoding-schemas-and-data-evolution.md": {
-	id: "encoding-decoding-schemas-and-data-evolution.md";
-  slug: "encoding-decoding-schemas-and-data-evolution";
+"ddia-encoding-decoding-schemas-and-data-evolution.md": {
+	id: "ddia-encoding-decoding-schemas-and-data-evolution.md";
+  slug: "ddia-encoding-decoding-schemas-and-data-evolution";
   body: string;
   collection: "books";
   data: InferEntrySchema<"books">
@@ -234,6 +234,13 @@ declare module 'astro:content' {
 "how-to-model-microservices.md": {
 	id: "how-to-model-microservices.md";
   slug: "how-to-model-microservices";
+  body: string;
+  collection: "books";
+  data: InferEntrySchema<"books">
+} & { render(): Render[".md"] };
+"how-to-read-a-book-review-summary-and-notes.md": {
+	id: "how-to-read-a-book-review-summary-and-notes.md";
+  slug: "how-to-read-a-book-review-summary-and-notes";
   body: string;
   collection: "books";
   data: InferEntrySchema<"books">
@@ -351,7 +358,37 @@ declare module 'astro:content' {
   data: InferEntrySchema<"books">
 } & { render(): Render[".md"] };
 };
+"de": {
+"vier-schritte-fuer-einen-neustart.md": {
+	id: "vier-schritte-fuer-einen-neustart.md";
+  slug: "vier-schritte-fuer-einen-neustart";
+  body: string;
+  collection: "de";
+  data: any
+} & { render(): Render[".md"] };
+};
 "journal": {
+"added-decap-cms-finally.md": {
+	id: "added-decap-cms-finally.md";
+  slug: "added-decap-cms-finally";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
+"an-article-about-bidens-debate-on-tv-and-retirement.md": {
+	id: "an-article-about-bidens-debate-on-tv-and-retirement.md";
+  slug: "an-article-about-bidens-debate-on-tv-and-retirement";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
+"consuming-news-weekly.md": {
+	id: "consuming-news-weekly.md";
+  slug: "consuming-news-weekly";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
 "crawlers-and-robots-txt.md": {
 	id: "crawlers-and-robots-txt.md";
   slug: "crawlers-and-robots-txt";
@@ -359,9 +396,58 @@ declare module 'astro:content' {
   collection: "journal";
   data: InferEntrySchema<"journal">
 } & { render(): Render[".md"] };
+"ctos-expected-to-do-more-in-2024.md": {
+	id: "ctos-expected-to-do-more-in-2024.md";
+  slug: "ctos-expected-to-do-more-in-2024";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
+"employer-market-will-change.md": {
+	id: "employer-market-will-change.md";
+  slug: "employer-market-will-change";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
+"explain-how-to-manage-your-team.md": {
+	id: "explain-how-to-manage-your-team.md";
+  slug: "explain-how-to-manage-your-team";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
+"learn-how-to-work-with-average-talent.md": {
+	id: "learn-how-to-work-with-average-talent.md";
+  slug: "learn-how-to-work-with-average-talent";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
+"nature-heals.md": {
+	id: "nature-heals.md";
+  slug: "nature-heals";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
+"new-books-for-systems-thinking-and-software-architecture-and-strategy.md": {
+	id: "new-books-for-systems-thinking-and-software-architecture-and-strategy.md";
+  slug: "new-books-for-systems-thinking-and-software-architecture-and-strategy";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
 "public-zettelkasten.md": {
 	id: "public-zettelkasten.md";
   slug: "public-zettelkasten";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
+"reading-qr-code-without-phone-or-scanner.md": {
+	id: "reading-qr-code-without-phone-or-scanner.md";
+  slug: "reading-qr-code-without-phone-or-scanner";
   body: string;
   collection: "journal";
   data: InferEntrySchema<"journal">
@@ -380,9 +466,30 @@ declare module 'astro:content' {
   collection: "journal";
   data: InferEntrySchema<"journal">
 } & { render(): Render[".md"] };
+"saying-something-once-is-not-enough.md": {
+	id: "saying-something-once-is-not-enough.md";
+  slug: "saying-something-once-is-not-enough";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
+"short-definition-of-good-engineer.md": {
+	id: "short-definition-of-good-engineer.md";
+  slug: "short-definition-of-good-engineer";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
 "the-world-in-2050.md": {
 	id: "the-world-in-2050.md";
   slug: "the-world-in-2050";
+  body: string;
+  collection: "journal";
+  data: InferEntrySchema<"journal">
+} & { render(): Render[".md"] };
+"your-job-title-depends-on-the-organization.md": {
+	id: "your-job-title-depends-on-the-organization.md";
+  slug: "your-job-title-depends-on-the-organization";
   body: string;
   collection: "journal";
   data: InferEntrySchema<"journal">
@@ -394,399 +501,420 @@ declare module 'astro:content' {
   slug: "mediations/mediations-1";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
 "mediations/mediations-2.md": {
 	id: "mediations/mediations-2.md";
   slug: "mediations/mediations-2";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
 "mediations/mediations-3.md": {
 	id: "mediations/mediations-3.md";
   slug: "mediations/mediations-3";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
 "mediations/mediations-4.md": {
 	id: "mediations/mediations-4.md";
   slug: "mediations/mediations-4";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-1.md": {
-	id: "mektup/mektup-1.md";
-  slug: "mektup/mektup-1";
+"mediations/mediations-5.md": {
+	id: "mediations/mediations-5.md";
+  slug: "mediations/mediations-5";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-10.md": {
-	id: "mektup/mektup-10.md";
-  slug: "mektup/mektup-10";
+"mediations/mediations-6.md": {
+	id: "mediations/mediations-6.md";
+  slug: "mediations/mediations-6";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-11.md": {
-	id: "mektup/mektup-11.md";
-  slug: "mektup/mektup-11";
+"mediations/mediations-7.md": {
+	id: "mediations/mediations-7.md";
+  slug: "mediations/mediations-7";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-12.md": {
-	id: "mektup/mektup-12.md";
-  slug: "mektup/mektup-12";
+"mektup-1.md": {
+	id: "mektup-1.md";
+  slug: "mektup-1";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-13.md": {
-	id: "mektup/mektup-13.md";
-  slug: "mektup/mektup-13";
+"mektup-10.md": {
+	id: "mektup-10.md";
+  slug: "mektup-10";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-14.md": {
-	id: "mektup/mektup-14.md";
-  slug: "mektup/mektup-14";
+"mektup-11.md": {
+	id: "mektup-11.md";
+  slug: "mektup-11";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-15.md": {
-	id: "mektup/mektup-15.md";
-  slug: "mektup/mektup-15";
+"mektup-12.md": {
+	id: "mektup-12.md";
+  slug: "mektup-12";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-16.md": {
-	id: "mektup/mektup-16.md";
-  slug: "mektup/mektup-16";
+"mektup-13.md": {
+	id: "mektup-13.md";
+  slug: "mektup-13";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-17.md": {
-	id: "mektup/mektup-17.md";
-  slug: "mektup/mektup-17";
+"mektup-14.md": {
+	id: "mektup-14.md";
+  slug: "mektup-14";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-18.md": {
-	id: "mektup/mektup-18.md";
-  slug: "mektup/mektup-18";
+"mektup-15.md": {
+	id: "mektup-15.md";
+  slug: "mektup-15";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-19.md": {
-	id: "mektup/mektup-19.md";
-  slug: "mektup/mektup-19";
+"mektup-16.md": {
+	id: "mektup-16.md";
+  slug: "mektup-16";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-2.md": {
-	id: "mektup/mektup-2.md";
-  slug: "mektup/mektup-2";
+"mektup-17.md": {
+	id: "mektup-17.md";
+  slug: "mektup-17";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-20.md": {
-	id: "mektup/mektup-20.md";
-  slug: "mektup/mektup-20";
+"mektup-18.md": {
+	id: "mektup-18.md";
+  slug: "mektup-18";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-21.md": {
-	id: "mektup/mektup-21.md";
-  slug: "mektup/mektup-21";
+"mektup-19.md": {
+	id: "mektup-19.md";
+  slug: "mektup-19";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-22.md": {
-	id: "mektup/mektup-22.md";
-  slug: "mektup/mektup-22";
+"mektup-2.md": {
+	id: "mektup-2.md";
+  slug: "mektup-2";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-23.md": {
-	id: "mektup/mektup-23.md";
-  slug: "mektup/mektup-23";
+"mektup-20.md": {
+	id: "mektup-20.md";
+  slug: "mektup-20";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-24.md": {
-	id: "mektup/mektup-24.md";
-  slug: "mektup/mektup-24";
+"mektup-21.md": {
+	id: "mektup-21.md";
+  slug: "mektup-21";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-25.md": {
-	id: "mektup/mektup-25.md";
-  slug: "mektup/mektup-25";
+"mektup-22.md": {
+	id: "mektup-22.md";
+  slug: "mektup-22";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-26.md": {
-	id: "mektup/mektup-26.md";
-  slug: "mektup/mektup-26";
+"mektup-23.md": {
+	id: "mektup-23.md";
+  slug: "mektup-23";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-27.md": {
-	id: "mektup/mektup-27.md";
-  slug: "mektup/mektup-27";
+"mektup-24.md": {
+	id: "mektup-24.md";
+  slug: "mektup-24";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-28.md": {
-	id: "mektup/mektup-28.md";
-  slug: "mektup/mektup-28";
+"mektup-25.md": {
+	id: "mektup-25.md";
+  slug: "mektup-25";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-29.md": {
-	id: "mektup/mektup-29.md";
-  slug: "mektup/mektup-29";
+"mektup-26.md": {
+	id: "mektup-26.md";
+  slug: "mektup-26";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-3.md": {
-	id: "mektup/mektup-3.md";
-  slug: "mektup/mektup-3";
+"mektup-27.md": {
+	id: "mektup-27.md";
+  slug: "mektup-27";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-30.md": {
-	id: "mektup/mektup-30.md";
-  slug: "mektup/mektup-30";
+"mektup-28.md": {
+	id: "mektup-28.md";
+  slug: "mektup-28";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-31.md": {
-	id: "mektup/mektup-31.md";
-  slug: "mektup/mektup-31";
+"mektup-29.md": {
+	id: "mektup-29.md";
+  slug: "mektup-29";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-32.md": {
-	id: "mektup/mektup-32.md";
-  slug: "mektup/mektup-32";
+"mektup-3.md": {
+	id: "mektup-3.md";
+  slug: "mektup-3";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-33.md": {
-	id: "mektup/mektup-33.md";
-  slug: "mektup/mektup-33";
+"mektup-30.md": {
+	id: "mektup-30.md";
+  slug: "mektup-30";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-34.md": {
-	id: "mektup/mektup-34.md";
-  slug: "mektup/mektup-34";
+"mektup-31.md": {
+	id: "mektup-31.md";
+  slug: "mektup-31";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-35.md": {
-	id: "mektup/mektup-35.md";
-  slug: "mektup/mektup-35";
+"mektup-32.md": {
+	id: "mektup-32.md";
+  slug: "mektup-32";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-36.md": {
-	id: "mektup/mektup-36.md";
-  slug: "mektup/mektup-36";
+"mektup-33.md": {
+	id: "mektup-33.md";
+  slug: "mektup-33";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-37.md": {
-	id: "mektup/mektup-37.md";
-  slug: "mektup/mektup-37";
+"mektup-34.md": {
+	id: "mektup-34.md";
+  slug: "mektup-34";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-38.md": {
-	id: "mektup/mektup-38.md";
-  slug: "mektup/mektup-38";
+"mektup-35.md": {
+	id: "mektup-35.md";
+  slug: "mektup-35";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-39.md": {
-	id: "mektup/mektup-39.md";
-  slug: "mektup/mektup-39";
+"mektup-36.md": {
+	id: "mektup-36.md";
+  slug: "mektup-36";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-4.md": {
-	id: "mektup/mektup-4.md";
-  slug: "mektup/mektup-4";
+"mektup-37.md": {
+	id: "mektup-37.md";
+  slug: "mektup-37";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-40.md": {
-	id: "mektup/mektup-40.md";
-  slug: "mektup/mektup-40";
+"mektup-38.md": {
+	id: "mektup-38.md";
+  slug: "mektup-38";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-41.md": {
-	id: "mektup/mektup-41.md";
-  slug: "mektup/mektup-41";
+"mektup-39.md": {
+	id: "mektup-39.md";
+  slug: "mektup-39";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-42.md": {
-	id: "mektup/mektup-42.md";
-  slug: "mektup/mektup-42";
+"mektup-4.md": {
+	id: "mektup-4.md";
+  slug: "mektup-4";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-43.md": {
-	id: "mektup/mektup-43.md";
-  slug: "mektup/mektup-43";
+"mektup-40.md": {
+	id: "mektup-40.md";
+  slug: "mektup-40";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-44.md": {
-	id: "mektup/mektup-44.md";
-  slug: "mektup/mektup-44";
+"mektup-41.md": {
+	id: "mektup-41.md";
+  slug: "mektup-41";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-45.md": {
-	id: "mektup/mektup-45.md";
-  slug: "mektup/mektup-45";
+"mektup-42.md": {
+	id: "mektup-42.md";
+  slug: "mektup-42";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-46.md": {
-	id: "mektup/mektup-46.md";
-  slug: "mektup/mektup-46";
+"mektup-43.md": {
+	id: "mektup-43.md";
+  slug: "mektup-43";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-47.md": {
-	id: "mektup/mektup-47.md";
-  slug: "mektup/mektup-47";
+"mektup-44.md": {
+	id: "mektup-44.md";
+  slug: "mektup-44";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-48.md": {
-	id: "mektup/mektup-48.md";
-  slug: "mektup/mektup-48";
+"mektup-45.md": {
+	id: "mektup-45.md";
+  slug: "mektup-45";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-49.md": {
-	id: "mektup/mektup-49.md";
-  slug: "mektup/mektup-49";
+"mektup-46.md": {
+	id: "mektup-46.md";
+  slug: "mektup-46";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-5.md": {
-	id: "mektup/mektup-5.md";
-  slug: "mektup/mektup-5";
+"mektup-47.md": {
+	id: "mektup-47.md";
+  slug: "mektup-47";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-50.md": {
-	id: "mektup/mektup-50.md";
-  slug: "mektup/mektup-50";
+"mektup-48.md": {
+	id: "mektup-48.md";
+  slug: "mektup-48";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-51.md": {
-	id: "mektup/mektup-51.md";
-  slug: "mektup/mektup-51";
+"mektup-49.md": {
+	id: "mektup-49.md";
+  slug: "mektup-49";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-52.md": {
-	id: "mektup/mektup-52.md";
-  slug: "mektup/mektup-52";
+"mektup-5.md": {
+	id: "mektup-5.md";
+  slug: "mektup-5";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-53.md": {
-	id: "mektup/mektup-53.md";
-  slug: "mektup/mektup-53";
+"mektup-50.md": {
+	id: "mektup-50.md";
+  slug: "mektup-50";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-6.md": {
-	id: "mektup/mektup-6.md";
-  slug: "mektup/mektup-6";
+"mektup-51.md": {
+	id: "mektup-51.md";
+  slug: "mektup-51";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-7.md": {
-	id: "mektup/mektup-7.md";
-  slug: "mektup/mektup-7";
+"mektup-52.md": {
+	id: "mektup-52.md";
+  slug: "mektup-52";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-8.md": {
-	id: "mektup/mektup-8.md";
-  slug: "mektup/mektup-8";
+"mektup-53.md": {
+	id: "mektup-53.md";
+  slug: "mektup-53";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
-"mektup/mektup-9.md": {
-	id: "mektup/mektup-9.md";
-  slug: "mektup/mektup-9";
+"mektup-6.md": {
+	id: "mektup-6.md";
+  slug: "mektup-6";
   body: string;
   collection: "newsletter";
-  data: any
+  data: InferEntrySchema<"newsletter">
+} & { render(): Render[".md"] };
+"mektup-7.md": {
+	id: "mektup-7.md";
+  slug: "mektup-7";
+  body: string;
+  collection: "newsletter";
+  data: InferEntrySchema<"newsletter">
+} & { render(): Render[".md"] };
+"mektup-8.md": {
+	id: "mektup-8.md";
+  slug: "mektup-8";
+  body: string;
+  collection: "newsletter";
+  data: InferEntrySchema<"newsletter">
+} & { render(): Render[".md"] };
+"mektup-9.md": {
+	id: "mektup-9.md";
+  slug: "mektup-9";
+  body: string;
+  collection: "newsletter";
+  data: InferEntrySchema<"newsletter">
 } & { render(): Render[".md"] };
 };
 "notes": {
@@ -1133,6 +1261,20 @@ declare module 'astro:content' {
   collection: "notes";
   data: InferEntrySchema<"notes">
 } & { render(): Render[".md"] };
+"20d.md": {
+	id: "20d.md";
+  slug: "20d";
+  body: string;
+  collection: "notes";
+  data: InferEntrySchema<"notes">
+} & { render(): Render[".md"] };
+"20e.md": {
+	id: "20e.md";
+  slug: "20e";
+  body: string;
+  collection: "notes";
+  data: InferEntrySchema<"notes">
+} & { render(): Render[".md"] };
 "21.md": {
 	id: "21.md";
   slug: "21";
@@ -1234,6 +1376,13 @@ declare module 'astro:content' {
 "23g.md": {
 	id: "23g.md";
   slug: "23g";
+  body: string;
+  collection: "notes";
+  data: InferEntrySchema<"notes">
+} & { render(): Render[".md"] };
+"23h.md": {
+	id: "23h.md";
+  slug: "23h";
   body: string;
   collection: "notes";
   data: InferEntrySchema<"notes">
@@ -1542,6 +1691,13 @@ declare module 'astro:content' {
 "30d.md": {
 	id: "30d.md";
   slug: "30d";
+  body: string;
+  collection: "notes";
+  data: InferEntrySchema<"notes">
+} & { render(): Render[".md"] };
+"30d1.md": {
+	id: "30d1.md";
+  slug: "30d1";
   body: string;
   collection: "notes";
   data: InferEntrySchema<"notes">
@@ -2204,6 +2360,20 @@ declare module 'astro:content' {
   collection: "notes";
   data: InferEntrySchema<"notes">
 } & { render(): Render[".md"] };
+"4c.md": {
+	id: "4c.md";
+  slug: "4c";
+  body: string;
+  collection: "notes";
+  data: InferEntrySchema<"notes">
+} & { render(): Render[".md"] };
+"4d.md": {
+	id: "4d.md";
+  slug: "4d";
+  body: string;
+  collection: "notes";
+  data: InferEntrySchema<"notes">
+} & { render(): Render[".md"] };
 "5.md": {
 	id: "5.md";
   slug: "5";
@@ -2785,6 +2955,41 @@ declare module 'astro:content' {
   collection: "notes";
   data: InferEntrySchema<"notes">
 } & { render(): Render[".md"] };
+"70.md": {
+	id: "70.md";
+  slug: "70";
+  body: string;
+  collection: "notes";
+  data: InferEntrySchema<"notes">
+} & { render(): Render[".md"] };
+"71.md": {
+	id: "71.md";
+  slug: "71";
+  body: string;
+  collection: "notes";
+  data: InferEntrySchema<"notes">
+} & { render(): Render[".md"] };
+"71a.md": {
+	id: "71a.md";
+  slug: "71a";
+  body: string;
+  collection: "notes";
+  data: InferEntrySchema<"notes">
+} & { render(): Render[".md"] };
+"72.md": {
+	id: "72.md";
+  slug: "72";
+  body: string;
+  collection: "notes";
+  data: InferEntrySchema<"notes">
+} & { render(): Render[".md"] };
+"73.md": {
+	id: "73.md";
+  slug: "73";
+  body: string;
+  collection: "notes";
+  data: InferEntrySchema<"notes">
+} & { render(): Render[".md"] };
 "8.md": {
 	id: "8.md";
   slug: "8";
@@ -3134,6 +3339,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"adrs-rfcs-differences-when-which.md": {
+	id: "adrs-rfcs-differences-when-which.md";
+  slug: "adrs-rfcs-differences-when-which";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "being-morally-good-in-the-war-of-life.md": {
 	id: "being-morally-good-in-the-war-of-life.md";
   slug: "being-morally-good-in-the-war-of-life";
@@ -3246,6 +3458,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"embracing-the-joy-of-missing-out.md": {
+	id: "embracing-the-joy-of-missing-out.md";
+  slug: "embracing-the-joy-of-missing-out";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "explicit-disagreement-is-better-than-implicit-misunderstanding.md": {
 	id: "explicit-disagreement-is-better-than-implicit-misunderstanding.md";
   slug: "explicit-disagreement-is-better-than-implicit-misunderstanding";
@@ -3330,6 +3549,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"how-to-give-feedback-on-design-as-an-engineer.md": {
+	id: "how-to-give-feedback-on-design-as-an-engineer.md";
+  slug: "how-to-give-feedback-on-design-as-an-engineer";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "how-to-handle-and-overcome-objections-to-your-proposal-at-work.md": {
 	id: "how-to-handle-and-overcome-objections-to-your-proposal-at-work.md";
   slug: "how-to-handle-and-overcome-objections-to-your-proposal-at-work";
@@ -3396,6 +3622,13 @@ declare module 'astro:content' {
 "joining-sumup.md": {
 	id: "joining-sumup.md";
   slug: "joining-sumup";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"krishnamurti-and-seneca-on-freeing-the-mind.md": {
+	id: "krishnamurti-and-seneca-on-freeing-the-mind.md";
+  slug: "krishnamurti-and-seneca-on-freeing-the-mind";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -3484,6 +3717,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"no-more-debate-with-latest-or-daily-news.md": {
+	id: "no-more-debate-with-latest-or-daily-news.md";
+  slug: "no-more-debate-with-latest-or-daily-news";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "no-you-dont-need-to-learn-another-programming-language-every-three-months.md": {
 	id: "no-you-dont-need-to-learn-another-programming-language-every-three-months.md";
   slug: "no-you-dont-need-to-learn-another-programming-language-every-three-months";
@@ -3494,6 +3734,20 @@ declare module 'astro:content' {
 "on-drugs-and-great-people.md": {
 	id: "on-drugs-and-great-people.md";
   slug: "on-drugs-and-great-people";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"on-good-software-engineers.md": {
+	id: "on-good-software-engineers.md";
+  slug: "on-good-software-engineers";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"on-listening-to-audiobooks.md": {
+	id: "on-listening-to-audiobooks.md";
+  slug: "on-listening-to-audiobooks";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -3547,6 +3801,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"retiring-from-the-idea-of-retirement.md": {
+	id: "retiring-from-the-idea-of-retirement.md";
+  slug: "retiring-from-the-idea-of-retirement";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "separation-of-concerns-at-work.md": {
 	id: "separation-of-concerns-at-work.md";
   slug: "separation-of-concerns-at-work";
@@ -3578,6 +3839,13 @@ declare module 'astro:content' {
 "speaking-writing-and-high-quality-ideas.md": {
 	id: "speaking-writing-and-high-quality-ideas.md";
   slug: "speaking-writing-and-high-quality-ideas";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"strong-ownership-culture-in-a-team.md": {
+	id: "strong-ownership-culture-in-a-team.md";
+  slug: "strong-ownership-culture-in-a-team";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -3652,6 +3920,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"there-are-no-analytics-on-this-blog.md": {
+	id: "there-are-no-analytics-on-this-blog.md";
+  slug: "there-are-no-analytics-on-this-blog";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "these-annoying-tenure-engineers.md": {
 	id: "these-annoying-tenure-engineers.md";
   slug: "these-annoying-tenure-engineers";
@@ -3711,6 +3986,13 @@ declare module 'astro:content' {
 "view-lifecycle-in-ios.md": {
 	id: "view-lifecycle-in-ios.md";
   slug: "view-lifecycle-in-ios";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"weekday-weekend-concepts-are-useless.md": {
+	id: "weekday-weekend-concepts-are-useless.md";
+  slug: "weekday-weekend-concepts-are-useless";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -3790,10 +4072,10 @@ declare module 'astro:content' {
 	};
 
 	type DataEntryMap = {
-
+		
 	};
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../content/config");
+	type ContentConfig = typeof import("../src/content/config");
 }
