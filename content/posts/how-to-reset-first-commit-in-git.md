@@ -1,8 +1,6 @@
 ---
 title: "How to reset the first commit in Git"
 description: "We cannot use interactive rebasing and resetting. Both of them have security mechanisms to prevent this action. Instead, we have to use other approaches."
-tags:
-  -
 date: 2020-12-22
 updateDate: 2021-12-22
 external: false

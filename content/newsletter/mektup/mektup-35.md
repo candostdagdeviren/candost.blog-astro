@@ -1,7 +1,5 @@
 ---
 title: "Mektup #35: Don't call people resources"
-tags:
- -
 date: 2022-07-13
 updateDate: 2022-07-13
 external: false

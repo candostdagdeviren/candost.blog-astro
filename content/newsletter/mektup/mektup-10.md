@@ -1,7 +1,5 @@
 ---
 title: "Mektup #10: The Career Frameworks"
-tags:
- -
 date: 2021-07-22
 updateDate: 2021-07-22
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "What is Blue-Green Deployment"
 description: "The Blue-Green Deployment is an application deployment technique used in continuous delivery. The new service is deployed and put into production gradually."
-tags:
-  -
 date: 2021-01-30
 updateDate: 2021-01-30
 external: false

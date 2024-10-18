@@ -1,8 +1,6 @@
 ---
 title: "High Productivity and Clear Communication in Different Cultures"
 description: "Review about the book The Culture Map by Erin Meyer"
-tags:
-  -
 date: 2020-05-28
 updateDate: 2020-05-28
 external: false

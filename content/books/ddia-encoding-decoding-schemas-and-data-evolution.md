@@ -1,8 +1,6 @@
 ---
 title: "DDIA: Encoding, Decoding, Schemas, and Data Evolution in Databases"
 description: "The underlying approach to encoding and decoding decides how we approach data evolution and how we use schemas."
-tags:
-  -
 date: 2022-10-07
 updateDate: 2022-10-07
 external: false

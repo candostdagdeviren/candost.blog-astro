@@ -1,8 +1,6 @@
 ---
 title: "The Good, The Bad, and The Ugly of Career Ladders"
 description: "Software engineering career ladders and frameworks are helpful tools for software engineers to grow. Here are the advantages and disadvantages of career frameworks and ladders."
-tags:
-  -
 date: 2021-08-12
 updateDate: 2021-08-12
 external: false

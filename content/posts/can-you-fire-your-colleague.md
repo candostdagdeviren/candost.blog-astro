@@ -1,8 +1,6 @@
 ---
 title: "Can You Fire Your Colleague?"
 description: "I have faced this question recently, and I went silent. I knew that laying off people or firing someone specific are unpleasant moments of management."
-tags:
-  -
 date: 2021-06-03
 updateDate: 2021-06-03
 external: false

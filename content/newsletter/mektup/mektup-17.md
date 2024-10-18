@@ -1,7 +1,5 @@
 ---
 title: "Mektup #17: Pair programming is not only for you."
-tags:
-  -
 date: 2021-11-02
 updateDate: 2021-11-02
 external: false

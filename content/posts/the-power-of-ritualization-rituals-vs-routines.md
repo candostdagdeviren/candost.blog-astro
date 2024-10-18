@@ -1,8 +1,6 @@
 ---
 title: "The Power of Ritualization: Rituals vs. Routines"
 description: "We all have daily routines: some of them are tedious, and some of them are delightful. But we're not destined to live ordinary and miserable. Ritualizing gives a sense of satisfaction to the most tedious and regular activities."
-tags:
-  -
 date: 2022-12-15
 updateDate: 2022-12-15
 external: false

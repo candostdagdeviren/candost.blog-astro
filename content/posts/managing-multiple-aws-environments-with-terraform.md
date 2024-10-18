@@ -1,8 +1,6 @@
 ---
 title: "Managing Multiple AWS Environments with Terraform"
 description: "Multiple environments like staging and production are standard and when we use it with AWS, we face the problem of managing access to them."
-tags:
-  -
 date: 2019-03-25
 updateDate: 2019-03-05
 external: false

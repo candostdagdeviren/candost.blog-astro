@@ -1,6 +1,5 @@
 ---
 title: "Mektup #39: How I got a promotion offer from another company"
-tags:
 date: 2022-09-06
 updateDate: 2022-09-06
 external: false

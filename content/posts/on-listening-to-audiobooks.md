@@ -1,8 +1,6 @@
 ---
 title: "On Listening to Audiobooks"
 description: "How can I learn from audiobooks while taking walks with my dog?"
-tags:
-  -
 date: 2024-04-21
 updateDate: 2024-04-21
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "iOS Application Lifecycle"
 description: "Every iOS developer needs to understand the possible states and lifecycle of an iOS application. Knowing when the state enables us to work behind the scenes."
-tags:
-  -
 date: 2018-11-11
 updateDate: 2018-11-11
 external: false

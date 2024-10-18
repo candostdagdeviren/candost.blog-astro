@@ -1,8 +1,6 @@
 ---
 title: "Why Can't This Be Done Sooner"
 description: "The question, 'Why can't this be done sooner?' makes you deeply understand the approach you're taking, question it, find the gaps in your knowledge, and analyze the risks better so that you make an informative decision while moving faster."
-tags:
-  -
 date: 2021-07-19
 updateDate: 2021-07-28
 external: false

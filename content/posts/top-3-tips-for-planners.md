@@ -1,8 +1,6 @@
 ---
 title: "Top 3 Tips for Planners"
 description: "If you are planning your days and still failing to stick to them, these tips can help you. Instead of feeling bad, you can start feeling great."
-tags:
-  -
 date: 2020-12-20
 updateDate: 2020-12-20
 external: false

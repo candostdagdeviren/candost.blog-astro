@@ -1,7 +1,5 @@
 ---
 title: "Mektup #20: The Rule of Three to Avoid Bias"
-tags:
-  -
 date: 2021-12-14
 updateDate: 2021-12-14
 external: false

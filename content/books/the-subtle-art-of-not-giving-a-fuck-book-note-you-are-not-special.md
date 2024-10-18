@@ -1,8 +1,6 @@
 ---
 title: "You are not special"
 description: "Most things in life are either average or suck. The media blurs this reality. It also creates a fake one by saying that everyone can achieve everything."
-tags:
-  -
 date: 2021-07-23
 updateDate: 2021-07-23
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "Machine Learning Introduction"
 description: "The fundamentals of machine learning require some knowledge of linear algebra and calculus. This barrier frightens people and keeps them away from machine learning with curiosity."
-tags:
-  -
 date: 2017-11-09
 updateDate: 2017-11-09
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "Speaking, Writing, and High-Quality Ideas"
 description: "Your success in life will be determined largely by your ability to speak, your ability to write, and the quality of your ideas. In that order. — Patrick Winston"
-tags:
-  -
 date: 2022-08-26
 updateDate: 2022-10-31
 external: false

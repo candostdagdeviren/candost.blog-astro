@@ -1,8 +1,6 @@
 ---
 title: "Building Microservices: The Evolutionary Architect"
 description: "Comparing software architects with actual architects is inaccurate. Physical-world constrains architect, and software evolves with user requirements."
-tags:
-  -
 date: 2021-01-20
 updateDate: 2021-01-20
 external: false

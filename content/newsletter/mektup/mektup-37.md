@@ -1,7 +1,5 @@
 ---
 title: "Mektup #37: Mentoring vs. Coaching vs. Teaching"
-tags:
- -
 date: 2022-08-09
 updateDate: 2022-08-09
 external: false

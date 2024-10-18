@@ -4,6 +4,9 @@ description: "I set out to find a simple definition that would help managers fra
 tags:
   - blog-post
   - software-engineering
+  - mediations
+newsletterName: "Mediations"
+issueNumber: "8"
 date: 2024-10-15T09:45:00.000Z
 updateDate: 2024-10-15T09:45:00.000Z
 external: false

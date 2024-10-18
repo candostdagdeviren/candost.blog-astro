@@ -1,8 +1,6 @@
 ---
 title: "Building Microservices: Integration of Microservices - Part 1"
 description: "The most important aspect of technology correlated with microservices is integration. When we get it right, microservices are autonomous and independent. If we get it wrong, the risk of catastrophe increases."
-tags:
-  -
 date: 2021-03-04
 updateDate: 2021-03-04
 external: false

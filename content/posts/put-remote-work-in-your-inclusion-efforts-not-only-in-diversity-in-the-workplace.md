@@ -1,8 +1,6 @@
 ---
 title: "Put Remote Work in Your Inclusion Efforts, not only in Diversity"
 description: "Remote work is more inclusive than on-site work. It provides opportunities to people with disabilities, disorders, and deficiencies."
-tags:
-  -
 date: 2021-08-08
 updateDate: 2021-08-08
 external: false

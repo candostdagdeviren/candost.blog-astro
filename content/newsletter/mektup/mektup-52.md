@@ -1,7 +1,6 @@
 ---
 title: "Mektup #52: Multitasking hides design flaws and lowers the quality"
 description: "When I wrote you the last time about the myth of multitasking, I talked about our attention limit having a value of only one cognitive task. Today, I want to double-click on that attention-demanding creative task and connect it to the quality of results."
-tags:
 date: 2023-03-07
 updateDate: 2023-03-07
 external: false

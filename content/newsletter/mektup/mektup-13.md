@@ -1,7 +1,5 @@
 ---
 title: "Mektup #13: How do you contribute to the problem?"
-tags:
-  -
 date: 2021-09-07
 updateDate: 2021-09-07
 external: false

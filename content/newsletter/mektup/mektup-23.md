@@ -1,7 +1,5 @@
 ---
 title: "Mektup #23: The closest you can get to a leading role: hosting a workshop"
-tags:
-  -
 date: 2022-01-25
 updateDate: 2022-01-25
 external: false

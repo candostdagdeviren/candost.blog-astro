@@ -1,8 +1,6 @@
 ---
 title: "Ending My Debate with Latest or Daily News"
 description: "Escaping the News Cycle for Intentional Living"
-tags:
-  -
 date: 2024-05-01
 updateDate: 2024-05-01
 external: false

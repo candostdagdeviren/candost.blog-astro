@@ -1,8 +1,6 @@
 ---
 title: "Think Again Book Review, Summary, and Notes"
 description: "Think Again is the book by The New York Times Bestselling Author Adam Grant. I've read it with a book club and written my summary, notes, and review."
-tags:
-  -
 date: 2022-04-28
 updateDate: 2022-04-28
 external: false

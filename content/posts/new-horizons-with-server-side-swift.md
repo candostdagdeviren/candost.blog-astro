@@ -1,8 +1,6 @@
 ---
 title: "New Horizons with Server-Side Swift"
 description: "After hearing a lot about the great performance of Swift in the backend, I decided to give it a try. And here comes my first experiences step by step."
-tags:
-  -
 date: 2017-02-05
 updateDate: 2017-02-05
 external: false

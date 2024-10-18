@@ -1,6 +1,5 @@
 ---
 title: "Mektup #33: One milestone and five articles"
-tags:
 date: 2022-06-14
 updateDate: 2022-06-14
 external: false

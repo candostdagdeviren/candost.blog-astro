@@ -1,7 +1,6 @@
 ---
 title: "Mektup #50: How to Build Habits That Last"
 description: "This is the 50th issue, and I thought it would be good to talk about habits and how I kept my writing habit to bring Mektup to you every second week."
-tags:
 date: 2023-02-07
 updateDate: 2023-02-07
 external: false

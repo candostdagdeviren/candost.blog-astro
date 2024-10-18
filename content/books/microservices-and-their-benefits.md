@@ -1,8 +1,6 @@
 ---
 title: "Building Microservices: Microservices and Benefits"
 description: "Microservices emerged from continuous delivery, domain-driven design, automation, and small and independent teams. They reflect the real world in the software. But what are microservices?"
-tags:
-  -
 date: 2021-01-10
 updateDate: 2021-01-10
 external: false

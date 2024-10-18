@@ -1,8 +1,6 @@
 ---
 title: "Effective 1:1 Meetings—Own Your 1-on-1"
 description: "When I changed my perspective and worked on improving my 1:1 meetings, the results were terrific. Now, I have better communication with my manager, and I feel that I'm learning and growing way faster than usual."
-tags:
-  -
 date: 2021-03-17
 updateDate: 2021-03-17
 external: false

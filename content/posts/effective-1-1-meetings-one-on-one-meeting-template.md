@@ -1,8 +1,6 @@
 ---
 title: "Effective 1:1 Meetings—1-on-1 Meeting Template"
 description: "Most of the one-on-one templates I found online did not suit me and were not effective. I picked the best parts adjusted them according to the software engineer's perspective."
-tags:
-  -
 date: 2021-03-25
 updateDate: 2021-03-25
 external: false

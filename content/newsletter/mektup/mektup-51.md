@@ -1,7 +1,6 @@
 ---
 title: "Mektup #51: There is still hope; there will always be hope"
 description: "Two earthquakes took the lives of thousands of people (40k+) and impacted millions in Turkey. And I want to talk about how it feels being here in Germany, far away from all of the impacts."
-tags:
 date: 2023-02-21
 updateDate: 2023-02-21
 external: false

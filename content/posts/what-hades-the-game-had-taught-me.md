@@ -1,8 +1,6 @@
 ---
 title: "What Hades (The Game) Had Taught Me"
 description: "Hades taught me to be beaten up by trying to do something every day but never give up. In every attempt, I am stronger than before."
-tags:
-  -
 date: 2021-07-06
 updateDate: 2021-07-06
 external: false

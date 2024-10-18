@@ -1,8 +1,6 @@
 ---
 title: "Mektup #47: Techniques and Tools for Energy Management"
 description: "Do you feel overwhelmed by the distractions at work that don't let you do your job? How many times did your 'focus time blockers' get interrupted? When was the last time did you think about your energy, not only your time?"
-tags:
- -
 date: 2022-12-27
 updateDate: 2022-12-27
 external: false

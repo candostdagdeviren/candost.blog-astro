@@ -1,6 +1,5 @@
 ---
 title: "Today I published all my notes in my Zettelkasten"
-tags:
 date: 2023-09-22
 updateDate: 2023-09-22
 external: false

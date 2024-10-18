@@ -1,8 +1,6 @@
 ---
 title: "Growth with Systematic Bliss"
 description: "Growth with big goals is an illusion. Growth without goals is too. We need the middle ground, and this is how I approach it."
-tags:
-  -
 date: 2020-10-10
 updateDate: 2020-10-10
 external: false

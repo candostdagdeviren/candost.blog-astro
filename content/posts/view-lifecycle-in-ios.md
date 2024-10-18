@@ -1,8 +1,6 @@
 ---
 title: "View Lifecycle in iOS"
 description: "Truly understanding when the view is created, loaded, appeared, or destroyed helps us to understand our approach deeply while developing an iOS App."
-tags:
-  -
 date: 2018-11-18
 updateDate: 2018-11-18
 external: false

@@ -1,6 +1,5 @@
 ---
 title: "Mektup #30: The Exceptional Books, Articles, Videos, and Communities That Made Me a Better Engineering Leader"
-tags:
 date: 2022-05-03
 updateDate: 2022-05-03
 external: false

@@ -1,7 +1,6 @@
 ---
 title: "Chesterton's Fence"
 description: "Chesterton invites us to think about the rationale behind an earlier decision and take action only after we understand why there was a decision in the first place."
-tags:
 date: 2023-03-10
 updateDate: 2023-03-10
 external: false

@@ -2,6 +2,9 @@
 title: "Mediations #5: Life Priorities and I'm Back"
 description: "My goal is to ensure this is the most helpful email you get in your inbox."
 tags:
+  - mediations
+newsletterName: "Mediations"
+issueNumber: "5"
 date: 2024-05-28
 updateDate: 2024-05-28
 external: false

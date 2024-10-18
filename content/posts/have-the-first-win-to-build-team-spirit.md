@@ -1,8 +1,6 @@
 ---
 title: "Have The First Win to Build Team Spirit"
 description: "Solely encouraging people to create team spirit never works, especially for new teams. The manager has to give the team a goal and celebrate achievements."
-tags:
-  -
 date: 2021-12-08
 updateDate: 2021-12-08
 external: false

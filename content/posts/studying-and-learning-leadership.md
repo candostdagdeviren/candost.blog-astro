@@ -1,8 +1,6 @@
 ---
 title: "Studying and Learning Leadership"
 description: "Leadership is not something you're born with it; it is something you learn. When you study leadership, you learn the fundamentals."
-tags:
-  -
 date: 2021-09-30
 updateDate: 2021-09-30
 external: false

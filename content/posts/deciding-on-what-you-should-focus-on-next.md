@@ -1,8 +1,6 @@
 ---
 title: "Deciding on What You Should Focus on Next"
 description: "Through a software engineer career, deciding factors change, and we forget how to decide and focus on one thing. What you need to do is sit and prioritize."
-tags:
-  -
 date: 2021-05-11
 updateDate: 2021-05-11
 external: false

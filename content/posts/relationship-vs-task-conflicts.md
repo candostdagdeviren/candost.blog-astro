@@ -1,8 +1,6 @@
 ---
 title: "Relationship vs. Task Conflicts"
 description: "Some people avoid conflicts thinking that they brake harmony and create problems. Some people create relationship conflicts because relationships are more important than work. And some people create task conflicts while thinking it will also improve their relationships."
-tags:
-  -
 date: 2022-04-15
 updateDate: 2022-04-15
 external: false

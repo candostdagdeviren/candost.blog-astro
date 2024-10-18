@@ -1,8 +1,6 @@
 ---
 title: "Measure What Matters Book Review, Summary, and Notes"
 description: "John Doerr explains OKRs (Objective and Key Results) with many examples from Gates Foundation to Bono and how OKRs help organizations succeed."
-tags:
-  -
 date: 2023-03-30
 updateDate: 2023-03-30
 external: false

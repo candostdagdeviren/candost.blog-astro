@@ -2,8 +2,6 @@
 title: "Generics in Swift"
 description: "As one of the most powerful features in Swift, Generics can be tricky. A lot of people have trouble understanding and using them, especially application developers."
 ogImagePath: "/images/banners/posts/Generics-in-Swift-1.jpg"
-tags:
-  -
 date: 2017-10-23
 updateDate: 2017-10-23
 external: false

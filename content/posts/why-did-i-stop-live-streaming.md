@@ -1,8 +1,6 @@
 ---
 title: "Why I Stopped Live Streams"
 description: "I live streamed for fourteen weeks, every Tuesday at 19:00 CET. I had thirteen amazing guests. We talked about many different things in the software industry, ranging from DevOps to marketing. I learned a lot from my guests and enjoyed all the talks. "
-tags:
-  -
 date: 2021-04-12
 updateDate: 2021-04-12
 external: false

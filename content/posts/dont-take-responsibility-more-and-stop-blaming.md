@@ -1,8 +1,6 @@
 ---
 title: "I'm Sorry. The Project is Delayed and It's All My Fault"
 description: "In one of my previous delayed projects, I told my manager, 'It's all my fault. I made many mistakes, and I take full responsibility for them.' I blamed myself, which contributed to a burnout that I had a year later."
-tags:
-  -
 date: 2021-12-02
 updateDate: 2021-12-02
 external: false

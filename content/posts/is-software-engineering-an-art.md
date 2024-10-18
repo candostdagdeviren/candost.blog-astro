@@ -1,8 +1,6 @@
 ---
 title: "Is Software Engineering an Art?"
 description: "Why is software engineering hard? Do we confuse the profession? Is software engineering really engineering? Or is it art? How does innovation play a role?"
-tags:
-  -
 URL:
 date: 2022-01-06
 updateDate: 2022-01-06

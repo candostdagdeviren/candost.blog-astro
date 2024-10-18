@@ -1,8 +1,6 @@
 ---
 title: "Supplying Books to My Father"
 description: "Recently, I became the book supplier for my father. Choosing books for someone else is a powerful position, and I take it seriously and feel responsible."
-tags:
-  -
 date: 2021-10-28
 updateDate: 2021-10-28
 external: false

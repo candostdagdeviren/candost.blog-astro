@@ -2,6 +2,9 @@
 title: "Mediations #6: Know where you spend your money on"
 description: "Learning how to keep a budget."
 tags:
+  - mediations
+newsletterName: "Mediations"
+issueNumber: "6"
 date: 2024-06-12
 updateDate: 2024-06-12
 external: false

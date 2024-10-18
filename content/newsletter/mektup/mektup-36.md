@@ -1,7 +1,5 @@
 ---
 title: "Mektup #36: How to Become A Great Mentor"
-tags:
- -
 date: 2022-07-26
 updateDate: 2022-07-26
 external: false

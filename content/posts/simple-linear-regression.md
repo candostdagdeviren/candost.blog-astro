@@ -1,8 +1,6 @@
 ---
 title: "Simple Linear Regression in Machine Learning"
 description: "Linear Regression is a basic statistical method that applies a linear function to data and predicts a scalar value. But why do we use it?"
-tags:
-  -
 date: 2018-10-06
 updateDate: 2018-10-06
 external: false

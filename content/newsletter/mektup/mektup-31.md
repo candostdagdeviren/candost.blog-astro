@@ -1,6 +1,5 @@
 ---
 title: "Mektup #31: Non-Engineers Leading Engineering Teams"
-tags:
 date: 2022-05-17
 updateDate: 2022-05-17
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "Mektup #46: Energy or Time—Which One to Manage?"
 description: "Everybody talks about managing time to get more things done. Yet, I rarely found conversations around managing energy to get the right thing done."
-tags:
- -
 date: 2022-12-13
 updateDate: 2022-12-13
 external: false

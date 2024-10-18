@@ -1,8 +1,6 @@
 ---
 title: "Make Time Book Review, Summary, and Notes"
 description: "Make Time is written by the bestselling authors Jake Knapp and John Zeratsky, the authors of Sprint: Solve Big Problems and Test New Ideas in Just Five Days."
-tags:
-  -
 date: 2021-12-20
 updateDate: 2023-07-23
 external: false

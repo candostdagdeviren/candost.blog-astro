@@ -1,7 +1,5 @@
 ---
 title: "Mektup #24: One of the best superpowers you can get as an engineering leader"
-tags:
-  -
 date: 2022-02-08
 updateDate: 2022-02-08
 external: false

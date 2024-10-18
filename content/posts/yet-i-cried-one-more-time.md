@@ -1,8 +1,6 @@
 ---
 title: "Yet I Cried; One More Time"
 description: "I cried over the last week. I cried with different feelings. The wars create many different feelings in us. It creates conflicts within us. I cried a lot over the last week. This time, I know why I cried."
-tags:
-  -
 URL:
 date: 2022-03-03
 updateDate: 2022-03-03

@@ -1,7 +1,5 @@
 ---
 title: "Mektup #19: How to Prepare for Your Annual Review"
-tags:
-  -
 date: 2021-11-30
 updateDate: 2021-11-30
 external: false

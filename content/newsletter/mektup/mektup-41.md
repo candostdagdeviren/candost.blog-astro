@@ -1,8 +1,6 @@
 ---
 title: "Mektup #41: One Thing At A Time: Multitasking for Software Engineers"
 description: ""
-tags:
- -
 date: 2022-10-04
 updateDate: 2022-10-04
 external: false

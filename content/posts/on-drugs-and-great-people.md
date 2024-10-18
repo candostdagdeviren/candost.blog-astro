@@ -1,8 +1,6 @@
 ---
 title: "On Drugs and Great People"
 description: "When you use any drugs, have you thought about the background of it, about people dying and suffering?"
-tags:
-  -
 date: 2022-06-27
 updateDate: 2022-06-27
 external: false

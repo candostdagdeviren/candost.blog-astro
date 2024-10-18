@@ -1,7 +1,6 @@
 ---
 title: "Mektup #44: Returning to Office and Remote Work"
 description: "I started going to the office again, even though it was not mandatory. And that reminded me of a few things about remote work and office work."
-tags:
 date: 2022-11-15
 updateDate: 2022-11-15
 external: false

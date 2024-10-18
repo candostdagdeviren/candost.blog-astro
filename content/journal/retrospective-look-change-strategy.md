@@ -1,6 +1,5 @@
 ---
 title: "Retrospectively look at what you do and change your strategy"
-tags:
 date: 2023-08-13
 updateDate: 2023-08-13
 external: true

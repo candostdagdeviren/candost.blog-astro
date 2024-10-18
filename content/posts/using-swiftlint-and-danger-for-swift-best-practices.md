@@ -1,8 +1,6 @@
 ---
 title: "Using SwiftLint and Danger for Swift Best Practices"
 description: "Swift is a very flexible language, therefore, easy to misuse. Applying best practices in Swift lint is important."
-tags:
-  -
 date: 2017-04-30
 updateDate: 2017-04-30
 external: false

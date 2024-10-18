@@ -1,8 +1,6 @@
 ---
 title: "Unit Tests in Server-Side Swift API"
 description: "Why do we need to reshape our module to make it testable?"
-tags:
-  -
 date: 2017-03-21
 updateDate: 2017-03-21
 external: false

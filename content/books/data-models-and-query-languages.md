@@ -1,8 +1,6 @@
 ---
 title: "DDIA: Data Models and Query Languages"
 description: "The relational, document-based, and graph-based data models are the fundamentals of understanding data-intensive applications along with query languages."
-tags:
-  -
 date: 2022-09-04
 updateDate: 2022-09-04
 external: false

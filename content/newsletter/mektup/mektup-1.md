@@ -1,7 +1,5 @@
 ---
 title: "Mektup #1"
-tags:
- -
 date: 2021-01-28
 updateDate: 2021-01-28
 external: false

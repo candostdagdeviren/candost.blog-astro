@@ -1,7 +1,5 @@
 ---
 title: "Mektup #22: What should you expect from your manager?"
-tags:
-  -
 date: 2022-01-11
 updateDate: 2022-01-11
 external: false

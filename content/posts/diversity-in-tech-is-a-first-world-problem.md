@@ -1,8 +1,6 @@
 ---
 title: "Diversity in Tech Is A First World Problem"
 description: "Thinking diversity only in our immediate environment is a shortcoming. Instead of blinding ourselves, we need to broaden our horizon and think of other sides of the world to have a bigger impact."
-tags:
-  -
 date: 2021-01-13
 updateDate: 2021-01-13
 external: false

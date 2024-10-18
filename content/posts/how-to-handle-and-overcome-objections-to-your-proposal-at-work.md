@@ -1,8 +1,6 @@
 ---
 title: "How to Handle and Overcome Objections to Your Proposal"
 description: "In organizations, we draft proposals to make decisions. Handling and overcoming objections to a proposal helps to make the decision process sustainable."
-tags:
-  -
 date: 2021-05-16
 updateDate: 2021-05-16
 external: false

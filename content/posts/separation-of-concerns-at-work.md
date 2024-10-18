@@ -1,8 +1,6 @@
 ---
 title: "Separation of Concerns"
 description: "We often don’t even realize that we’re mixing things at work. There are a couple of reasons and strategies we can follow."
-tags:
-  -
 date: 2020-11-26
 updateDate: 2020-11-26
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "No, You Don't Need to Learn Another Programming Language Every Three Months."
 description: "There is no easiest, hardest, useful, or best programming language; they are all similar. Learn data structures and algorithms to master in all languages."
-tags:
-  -
 date: 2021-05-19
 updateDate: 2021-05-19
 external: false

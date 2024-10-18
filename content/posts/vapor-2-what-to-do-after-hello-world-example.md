@@ -1,8 +1,6 @@
 ---
 title: "Vapor 2 - What to do after 'Hello World' Example"
 description: "When Apple announced Server APIs and working group, it made me think to switch to Swift for server-side development."
-tags:
-  -
 date: 2017-07-09
 updateDate: 2017-07-09
 external: false

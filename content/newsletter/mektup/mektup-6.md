@@ -1,7 +1,5 @@
 ---
 title: "Mektup #6: Why should you deploy your code in smaller chunks and release software often?"
-tags:
- -
 date: 2021-05-27
 updateDate: 2021-05-27
 external: false

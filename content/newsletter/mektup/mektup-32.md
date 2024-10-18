@@ -1,6 +1,5 @@
 ---
 title: "Mektup #32: Product Shouldn't Be Left to Product Managers"
-tags:
 date: 2022-05-31
 updateDate: 2022-05-31
 external: false

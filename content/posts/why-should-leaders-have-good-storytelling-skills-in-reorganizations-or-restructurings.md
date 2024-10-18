@@ -1,8 +1,6 @@
 ---
 title: "Why Should Leaders Have Good Storytelling Skills in Reorganizations or Restructurings?"
 description: "Reorganizations and restructurings demand a clear understanding of the reasons and require good storytelling skills to convince people."
-tags:
-  -
 date: 2022-03-07
 updateDate: 2022-03-07
 external: false

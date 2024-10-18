@@ -1,7 +1,5 @@
 ---
 title: "Mektup #26: How to Create a Definition of Done in Your Team"
-tags:
- -
 date: 2022-03-08
 updateDate: 2022-03-08
 external: false

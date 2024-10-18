@@ -1,8 +1,6 @@
 ---
 title: "Mektup #45: How to Explain Things Clearly"
 description: "Two strategies to help explain technical things to non-technical people."
-tags:
- -
 date: 2022-11-29
 updateDate: 2022-11-29
 external: false

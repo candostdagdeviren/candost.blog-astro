@@ -1,8 +1,6 @@
 ---
 title: "Communicating Decisions In The Organizations"
 description: "The communication of the decisions is sometimes more important than the decision itself. The leaders often make horrible announcements of significant decisions. How can they do it better?"
-tags:
-  -
 date: 2021-04-15
 updateDate: 2021-04-15
 external: false

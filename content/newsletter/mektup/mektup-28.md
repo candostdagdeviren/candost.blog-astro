@@ -1,6 +1,5 @@
 ---
 title: "Mektup #28: Changing jobs to seek happiness won't bring you what you want"
-tags:
 date: 2022-04-05
 updateDate: 2022-04-05
 external: false

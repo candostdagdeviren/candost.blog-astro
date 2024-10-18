@@ -1,8 +1,6 @@
 ---
 title: "Team Topologies Book Review, Summary, and Notes"
 description: "Team Topologies book is driven by Conway's Law and Inverse Conway Maneuver to help us understand how teams collaborate and communicate."
-tags:
-  -
 date: 2022-12-22
 updateDate: 2022-12-22
 external: false

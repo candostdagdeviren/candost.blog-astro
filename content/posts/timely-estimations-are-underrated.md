@@ -1,8 +1,6 @@
 ---
 title: "Timely Estimations are Underrated!"
 description: "I have seen the good, the bad, and the ugly parts of different estimation techniques. I think timely estimations are better when they are done right."
-tags:
-  -
 date: 2021-04-01
 updateDate: 2021-04-01
 external: false

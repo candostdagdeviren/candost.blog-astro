@@ -1,8 +1,6 @@
 ---
 title: "How to organize your engineering team's documents?"
 description: "Every engineering team has some sort of documentation of their team's work. Most often, these documents get disorganized reasonably quickly. People have a hard time finding their way around. There are some tricks to solve the problem."
-tags:
-  -
 date: 2021-04-13
 updateDate: 2021-04-13
 external: false

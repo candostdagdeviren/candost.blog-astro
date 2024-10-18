@@ -1,8 +1,6 @@
 ---
 title: "Do Not Change Jobs"
 description: "If you ask me my advice would be to mid-level software engineers these days, it would be to stay where you are if you don’t have a stressful problem and if you’re learning."
-tags:
-  -
 URL:
 date: 2022-02-18
 updateDate: 2022-02-18

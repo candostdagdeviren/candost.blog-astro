@@ -1,7 +1,5 @@
 ---
 title: "Mektup #15: You don't need a title to be a leader!"
-tags:
-  -
 date: 2021-10-05
 updateDate: 2021-10-05
 external: false

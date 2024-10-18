@@ -1,8 +1,6 @@
 ---
 title: "Building Microservices: How to Model Microservices"
 description: "The goal of modeling microservices is to have loose coupling and high cohesion. Don't directly go with microservices. Start monolithic and evolve to microservice."
-tags:
-  -
 date: 2021-01-23
 updateDate: 2021-01-23
 external: false

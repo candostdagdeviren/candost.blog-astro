@@ -1,8 +1,6 @@
 ---
 title: "How to Stop Endless Discussions"
 description: "When we find ourselves in endless debates where everyone defends their idea, we don't know how to handle the situation. We eventually find a way out, but what we need is an excellent system."
-tags:
-  -
 date: 2020-12-31
 updateDate: 2020-12-31
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "A Life Without Problems - The Happiness"
 description: "In a blink of an eye, we're happy. We may be achieved a goal or finalize a project. This happiness usually lasts for one blink, maybe two."
-tags:
-  -
 date: 2021-07-14
 updateDate: 2022-07-14
 external: false

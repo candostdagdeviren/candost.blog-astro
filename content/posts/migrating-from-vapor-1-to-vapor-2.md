@@ -1,8 +1,6 @@
 ---
 title: "Migration from Vapor 1 to Vapor 2"
 description: "Migration Guide from Vapor 1 to Vapor 2"
-tags:
-  -
 date: 2017-05-21
 updateDate: 2017-05-21
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "Mektup #42: How to Answer Hiring Manager Interview Questions"
 description: "What are the hiring managers looking for in behavioral interviews? How to better answer their questions?"
-tags:
- -
 date: 2022-10-18
 updateDate: 2022-10-18
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "Goals and Existence"
 description: "How do we know that we're on the right track? How can we ensure that we're progressing in the right direction?"
-tags:
-  -
 date: 2022-10-17
 updateDate: 2022-10-17
 external: false

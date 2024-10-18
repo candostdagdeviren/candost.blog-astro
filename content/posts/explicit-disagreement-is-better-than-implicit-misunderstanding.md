@@ -1,8 +1,6 @@
 ---
 title: "Explicit Disagreement is Better Than Implicit Misunderstanding"
 description: "Expressing disagreements is not always pleasant, but they might be better than misunderstandings. In some cultures, it causes miscommunication; in some of them doesn't."
-tags:
-  -
 date: 2021-06-30
 updateDate: 2021-06-30
 external: false

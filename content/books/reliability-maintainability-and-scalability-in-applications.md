@@ -1,8 +1,6 @@
 ---
 title: "DDIA: Reliability, Scalability, and Maintainability in Distributed Applications"
 description: "Understanding how they work is fundamental to developing data-intensive applications. This knowledge impacts our design choices, and the basics of these features demand an understanding of reliability, scalability, and maintainability."
-tags:
-  -
 date: 2022-08-26
 updateDate: 2022-08-26
 external: false

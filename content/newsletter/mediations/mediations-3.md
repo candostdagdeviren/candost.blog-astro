@@ -2,7 +2,10 @@
 title: "Mediations #3: Real-life vs. Online Relationships"
 description: "The importance of close relationships and the impact of social media on relationships"
 tags:
- - relationships
+  - relationships
+  - mediations
+newsletterName: "Mediations"
+issueNumber: "3"
 ogImagePath: "/images/banners/newsletters/mediations/mediations-3.jpg"
 date: 2023-10-03
 updateDate: 2023-10-03

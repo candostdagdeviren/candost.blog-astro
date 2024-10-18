@@ -1,8 +1,6 @@
 ---
 title: "Prioritization Skills for Senior and Staff Software Engineers"
 description: "When you grow into more senior roles, your responsibilities evolve. Prioritization changes for software engineers. Communication and analysis skills become more important."
-tags:
-  -
 date: 2021-05-06
 updateDate: 2021-05-06
 external: false

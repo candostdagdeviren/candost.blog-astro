@@ -1,8 +1,6 @@
 ---
 title: "Mektup #53: Was Tuckman Wrong?"
 description: "My previous teams performed because of the ownership, autonomy, inclusive environment, people-first and full-of-feedback culture, and no over-time and no over-commitment policies we had."
-tags:
-  -
 date: 2023-04-04
 updateDate: 2023-04-04
 external: false

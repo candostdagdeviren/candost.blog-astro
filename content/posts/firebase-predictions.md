@@ -1,8 +1,6 @@
 ---
 title: "Firebase Predictions"
 description: "Google announced Firebase Predictions in Firebase Dev Summit in Amsterdam this year."
-tags:
-  -
 date: 2017-12-10
 updateDate: 2017-12-10
 external: false

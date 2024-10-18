@@ -35,6 +35,7 @@ export const blog = z.discriminatedUnion("external", [
     description: z.optional(z.string()),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
+    tags: z.optional(z.array(z.optional(z.string())))
   }),
   // external link
   baseSchema.extend({
@@ -44,7 +45,8 @@ export const blog = z.discriminatedUnion("external", [
         "external is true but url is missing. url must be set for posts marked as external.",
       invalid_type_error: "external should be string.",
     }),
-    links: z.optional(z.array(z.string()))
+    links: z.optional(z.array(z.string())),
+    tags: z.optional(z.array(z.optional(z.string())))
   }),
 ]);
 
@@ -54,6 +56,7 @@ export const notes =
     zettelId: z.string(),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
+    tags: z.optional(z.array(z.optional(z.string())))
   });
 
   export const newsletters = z.discriminatedUnion("external", [
@@ -63,6 +66,7 @@ export const notes =
       description: z.optional(z.string()),
       ogImagePath: z.optional(z.string()),
       canonicalUrl: z.optional(z.string()),
+      tags: z.optional(z.array(z.optional(z.string())))
     }),
     // external link
     baseSchema.extend({
@@ -72,6 +76,7 @@ export const notes =
           "external is true but url is missing. url must be set for posts marked as external.",
         invalid_type_error: "external should be string.",
       }),
+      tags: z.optional(z.array(z.optional(z.string())))
     }),
   ]);
 
@@ -82,6 +87,7 @@ export const books = z.discriminatedUnion("external", [
     description: z.optional(z.string()),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
+    tags: z.optional(z.array(z.optional(z.string())))
   }),
   // external link
   baseSchema.extend({
@@ -91,6 +97,7 @@ export const books = z.discriminatedUnion("external", [
         "external is true but url is missing. url must be set for posts marked as external.",
       invalid_type_error: "external should be string.",
     }),
+    tags: z.optional(z.array(z.optional(z.string())))
   }),
 ]);
 
@@ -106,6 +113,7 @@ export const podcast = z.discriminatedUnion("external", [
         "external is true but url is missing. url must be set for posts marked as external.",
       invalid_type_error: "external should be string.",
     }),
+    tags: z.optional(z.array(z.optional(z.string())))
   }),
 ]);
 
@@ -116,6 +124,7 @@ export const journal = z.discriminatedUnion("external", [
     description: z.optional(z.string()),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
+    tags: z.optional(z.array(z.optional(z.string())))
   }),
   // external link
   baseSchema.extend({
@@ -128,6 +137,7 @@ export const journal = z.discriminatedUnion("external", [
     description: z.optional(z.string()),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
+    tags: z.optional(z.array(z.optional(z.string())))
   }),
 ]);
 
@@ -138,6 +148,7 @@ export const deutsch = z.discriminatedUnion("external", [
     description: z.optional(z.string()),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
+    tags: z.optional(z.array(z.optional(z.string())))
   }),
   // external link
   baseSchema.extend({
@@ -150,9 +161,8 @@ export const deutsch = z.discriminatedUnion("external", [
     description: z.optional(z.string()),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
+    tags: z.optional(z.array(z.optional(z.string())))
   }),
 ]);
-
-
 
 export const regularPage = baseSchema;

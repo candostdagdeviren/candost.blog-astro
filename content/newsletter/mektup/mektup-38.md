@@ -1,7 +1,5 @@
 ---
 title: "Mektup #38: Can you get a promotion by changing jobs?"
-tags:
- -
 date: 2022-08-23
 updateDate: 2022-08-23
 external: false

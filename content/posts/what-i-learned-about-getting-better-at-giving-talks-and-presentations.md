@@ -1,8 +1,6 @@
 ---
 title: "What I Learned About Getting Better at Giving Talks and Presentations"
 description: "After years of reading about, learning, and trying public speaking in different forms, here is what I have found."
-tags:
-  -
 date: 2023-07-19
 updateDate: 2023-07-19
 external: false

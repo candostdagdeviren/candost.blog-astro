@@ -2,6 +2,9 @@
 title: "Mediations #7: Two words to change mind"
 description: "Learning mental models"
 tags:
+  - mediations
+newsletterName: "Mediations"
+issueNumber: "7"
 date: 2024-07-16
 updateDate: 2024-06-16
 external: false

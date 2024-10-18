@@ -1,7 +1,5 @@
 ---
 title: "Mektup #12: Stairway to the Promotion"
-tags:
-  -
 date: 2021-08-24
 updateDate: 2021-08-24
 external: false

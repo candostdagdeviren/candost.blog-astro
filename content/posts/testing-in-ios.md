@@ -1,8 +1,6 @@
 ---
 title: "Testability in iOS"
 description: "Most of the developers have a hard time understanding the testing. Tests are often underrated and despised. What are the benefits of tests?"
-tags:
-  -
 date: 2018-12-04
 updateDate: 2018-12-04
 external: false

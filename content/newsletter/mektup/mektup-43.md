@@ -1,7 +1,6 @@
 ---
 title: "Mektup #43: Mektup is changing—Failures and Reflections"
 description: "Today, I want to reflect on the past ~2 years of Mektup and share some news with you. It's a bit longer than usual but keep reading till the end."
-tags:
 date: 2022-11-01
 updateDate: 2022-11-01
 external: false

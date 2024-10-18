@@ -1,7 +1,6 @@
 ---
 title: "My Experience Living Without Social Media"
 description: "How I stopped using Twitter, LinkedIn, Mastodon for 2+ months."
-tags:
 date: 2023-04-13
 updateDate: 2024-07-07
 external: false

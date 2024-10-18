@@ -1,8 +1,6 @@
 ---
 title: "Why is it so hard to be kind?"
 description: "The only thing we, you and I, can do to impact how we change is to choose a direction. We can decide in which way we want to evolve. And that way has to be kindness."
-tags:
-  -
 date: 2022-11-23
 updateDate: 2022-11-23
 external: false

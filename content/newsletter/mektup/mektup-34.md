@@ -1,7 +1,5 @@
 ---
 title: "Mektup #34: Process Thinking"
-tags:
- -
 date: 2022-06-28
 updateDate: 2022-06-28
 external: false

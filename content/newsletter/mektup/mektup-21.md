@@ -1,7 +1,5 @@
 ---
 title: "Mektup #21: Which skills should you learn in 2022? and How?"
-tags:
-  -
 date: 2021-12-28
 updateDate: 2021-12-28
 external: false

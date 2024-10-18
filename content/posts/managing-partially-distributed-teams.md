@@ -1,8 +1,6 @@
 ---
 title: "Tips for Managing Partially Distributed Teams"
 description: "Either managing or being part of a partially distributed team is difficult. It requires a mixture of sync and async processes to prevent low performance, conflicts, and burnout."
-tags:
-  -
 date: 2021-06-28
 updateDate: 2021-06-28
 external: false

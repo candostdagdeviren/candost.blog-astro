@@ -1,8 +1,6 @@
 ---
 title: "Joining SumUp"
 description: "I'm starting as an Engineering Manager at SumUp! Today is my first day, and I'm excited to join this fantastic team."
-tags:
-  -
 date: 2022-11-01
 updateDate: 2022-11-01
 external: false

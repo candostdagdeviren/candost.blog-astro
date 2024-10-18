@@ -1,7 +1,5 @@
 ---
 title: "Mektup #9: Personal Ego vs. Team Ego"
-tags:
- -
 date: 2021-07-08
 updateDate: 2021-07-08
 external: false

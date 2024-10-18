@@ -1,6 +1,5 @@
 ---
 title: "Mektup #2"
-tags:
 date: 2021-02-25
 updateDate: 2021-02-05
 external: false

@@ -1,7 +1,6 @@
 ---
 title: "Mektup #48: Lagom, Clutters in Life, and The Habit of The Rich"
 description: "New year's resolutions, new habits, happiness, and thinking about balanced living."
-tags:
 date: 2023-01-10
 updateDate: 2023-01-10
 external: false

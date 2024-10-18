@@ -2,8 +2,6 @@
 title: "Bias For Action"
 description: "Having a bias to action is more helpful than discussing and researching everything prior. Quantity beats quality in learning. Action beats perfection."
 ogImagePath: "/images/banners/posts/Bias-for-Action.jpg"
-tags:
-  -
 date: 2021-09-08
 updateDate: 2021-09-08
 external: false

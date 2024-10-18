@@ -2,8 +2,11 @@
 title: "Mediations #4: Building A Personal Library"
 description: "The importance of building a personal library full of unread books."
 tags:
- - reading
- - library
+  - reading
+  - library
+  - mediations
+newsletterName: "Mediations"
+issueNumber: "4"
 ogImagePath: "/images/banners/newsletters/mediations/mediations-4.jpg"
 date: 2023-10-28
 updateDate: 2023-10-28

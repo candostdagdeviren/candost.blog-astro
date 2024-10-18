@@ -1,8 +1,6 @@
 ---
 title: "Navigating The Writing Challenge Every Day"
 description: "Every day, I either write one to three pages or rewrite what I wrote the day before. It's a challenge. I fail sometimes."
-tags:
-  -
 date: 2021-09-17
 updateDate: 2021-09-17
 external: false

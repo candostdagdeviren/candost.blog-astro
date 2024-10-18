@@ -1,8 +1,6 @@
 ---
 title: "The Subtle Art of Not Giving A Fuck by Mark Manson Book Notes"
 description: "'Our desire is no longer material; it's existential.' The book is about understanding life a little bit better by accepting the pain and giving up trying."
-tags:
-  -
 date: 2021-10-07
 updateDate: 2021-10-07
 external: false

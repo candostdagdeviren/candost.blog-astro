@@ -1,7 +1,5 @@
 ---
 title: "Mektup #5: How to choose what you should focus on next? The case of prioritization and decisions..."
-tags:
- -
 date: 2021-05-13
 updateDate: 2021-05-13
 external: false

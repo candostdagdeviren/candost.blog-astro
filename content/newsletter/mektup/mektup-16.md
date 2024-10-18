@@ -1,7 +1,5 @@
 ---
 title: "Mektup #16: Why do you hide your goals and ambitions?"
-tags:
-  -
 date: 2021-10-19
 updateDate: 2021-10-19
 external: false

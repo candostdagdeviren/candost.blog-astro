@@ -1,8 +1,6 @@
 ---
 title: "Why Listening with Empathy is an Important Skill for Every Leader?"
 description: "Empathetic leadership improves leaders' emotional intelligence, which is a fundamental skill for leadership development and better mental health."
-tags:
-  -
 date: 2022-01-13
 updateDate: 2022-01-13
 external: false

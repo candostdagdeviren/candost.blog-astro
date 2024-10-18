@@ -1,8 +1,6 @@
 ---
 title: "Worth Doing Wrong Book Review, Summary, and Notes"
 description: "Arnie Malham talks about what they did specifically to change the culture in cj Advertising. They changed the culture with many small steps, not with one big jump. Making it wrong with small steps to make it right is the message of the book."
-tags:
-  -
 date: 2021-11-18
 updateDate: 2021-11-18
 external: false

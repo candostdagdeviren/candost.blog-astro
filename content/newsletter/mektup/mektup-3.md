@@ -1,7 +1,5 @@
 ---
 title: "Mektup #3: Effective 1:1s, DevOps, Atomic Habits, Staff Engineer & more"
-tags:
- -
 date: 2021-03-25
 updateDate: 2021-03-25
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "DDIA: Understanding How Database Transactions Work"
 description: "Database transactions are a way to simplify the programming model, and they offer certain safety guarantees for specific errors and fault scenarios."
-tags:
-  -
 date: 2022-12-25
 updateDate: 2022-12-25
 external: false

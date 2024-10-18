@@ -1,8 +1,6 @@
 ---
 title: "The Decision-Making Pendulum"
 description: "The inflexibility in decision-making is at the root of various problems. Many leaders either use a lot of authority or seek consensus. What they need is a pendulum."
-tags:
-  -
 date: 2021-09-16
 updateDate: 2021-09-16
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "A Systematic Approach to Give Feedback to Blame Absorbers"
 description: "At first glance, blame absorbers look good because it shows that the person owns their work and has a sense of responsibility. However, we often don’t notice that they harm the team more than bring an advantage."
-tags:
-  -
 date: 2022-03-18
 updateDate: 2022-03-18
 external: false

@@ -1,7 +1,5 @@
 ---
 title: "Mektup #25: You Need A Definition of Done in Your Team"
-tags:
- -
 date: 2022-02-22
 updateDate: 2022-02-22
 external: false

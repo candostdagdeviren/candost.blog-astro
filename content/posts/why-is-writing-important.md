@@ -1,8 +1,6 @@
 ---
 title: "Why Is Writing Important?"
 description: "Many software engineers are poor at writing, or they avoid it because they think it takes a lot of time. Yes, it takes time. But it is crucial and cannot be ignored at work."
-tags:
-  -
 date: 2021-04-07
 updateDate: 2021-04-07
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "Don't Assume Consensus In The Absence of Objection"
 description: "Consensus decision-making means everyone explicitly agreeing to the proposed idea. The leader needs explicit agreement from everyone and shouldn't assume consensus in the absence of objection."
-tags:
-  -
 date: 2021-09-24
 updateDate: 2021-09-24
 external: false

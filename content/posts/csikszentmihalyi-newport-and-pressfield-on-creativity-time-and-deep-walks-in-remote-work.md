@@ -1,8 +1,6 @@
 ---
 title: "Csikszentmihalyi, Newport, and Pressfield on Creativity, Time and Deep Walks in Remote Work"
 description: "Choose one topic and grab a pen and paper (not a phone), and take a walk, preferably in nature, a park, or a calm area where you won't have distractions."
-tags:
-  -
 date: 2021-11-11
 updateDate: 2021-11-11
 external: false

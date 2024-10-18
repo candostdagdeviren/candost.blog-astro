@@ -1,8 +1,6 @@
 ---
 title: "iOS Developer Productivity Kit"
 description: "We use some tools and also some do customizations on them to increase our productivity. Every tech stack has different needs, thus, a different set of tools."
-tags:
-  -
 date: 2017-12-10
 updateDate: 2017-12-10
 external: false

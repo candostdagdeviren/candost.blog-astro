@@ -1,7 +1,5 @@
 ---
 title: "Mektup #27: Unstuck yourself from the ideas that go nowhere"
-tags:
-  -
 date: 2022-03-22
 updateDate: 2022-03-22
 external: false

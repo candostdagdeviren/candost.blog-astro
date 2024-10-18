@@ -1,8 +1,6 @@
 ---
 title: "Using Firebase Cloud Messaging for Remote Notifications in iOS"
 description: "Firebase gives you the tools and infrastructure you need to build better apps and grow successful businesses. It provides several features divided into three groups develop, grow and earn."
-tags:
-  -
 date: 2016-11-05
 updateDate: 2016-11-05
 external: false

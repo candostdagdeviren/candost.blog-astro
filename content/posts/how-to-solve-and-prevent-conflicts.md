@@ -1,8 +1,6 @@
 ---
 title: "How to Solve and Prevent Conflicts"
 description: "Miscommunication and lack of empathy lay beneath the conflicts. The expectation of a magic wand resolving everything can put high pressure on managers' shoulders. However, there are initial steps managers can take."
-tags:
-  -
 date: 2021-04-20
 updateDate: 2021-04-20
 external: false

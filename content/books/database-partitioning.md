@@ -1,8 +1,6 @@
 ---
 title: "DDIA: How to Partition a Database"
 description: "Partitioning with primary or secondary keys, rebalancing partitions & trade-offs and how to solve them and the pros and cons of each approach."
-tags:
-  -
 date: 2022-11-13
 updateDate: 2022-11-13
 external: false

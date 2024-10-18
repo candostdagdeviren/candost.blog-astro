@@ -1,8 +1,6 @@
 ---
 title: "Importance of Feedback"
 description: "Feedback is defined as a reaction after a behavior or statement. But what does it really mean for us?"
-tags:
-  -
 date: 2018-08-24
 updateDate: 2018-08-24
 external: false

@@ -1,7 +1,5 @@
 ---
 title: "Mektup #8: Architectural Thinking"
-tags:
- -
 date: 2021-06-24
 updateDate: 2021-06-24
 external: false

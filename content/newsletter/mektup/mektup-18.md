@@ -1,7 +1,5 @@
 ---
 title: "Mektup #18: What did you learn during the last month?"
-tags:
-  -
 date: 2021-11-16
 updateDate: 2021-11-16
 external: false

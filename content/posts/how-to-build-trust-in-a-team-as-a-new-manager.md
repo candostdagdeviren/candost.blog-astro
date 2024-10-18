@@ -1,8 +1,6 @@
 ---
 title: "How to Build Trust in a Team as a New Manager"
 description: "Building trust in teams is complex. Trust in the workplace is crucial to becoming a successful software engineering manager."
-tags:
-  -
 date: 2021-02-14
 updateDate: 2021-02-14
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "Building Microservices: Splitting the Monolith"
 description: "Don't split the monolith for the sake of having microservices. Use incremental approach."
-tags:
-  -
 date: 2021-05-28
 updateDate: 2021-05-28
 external: false

@@ -1,7 +1,5 @@
 ---
 title: "Mektup #4: Deep Work, 1:1s, Estimations, Conflicts, Documentation, Protective Leadership"
-tags:
- -
 date: 2021-04-29
 updateDate: 2021-04-29
 external: false

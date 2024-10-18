@@ -1,8 +1,6 @@
 ---
 title: "Concurrency in iOS"
 description: "We face handling more than one operation at the same time. We want to shorten the waiting time even though it is not always necessary with the concurrency."
-tags:
-  -
 date: 2018-11-27
 updateDate: 2018-11-27
 external: false

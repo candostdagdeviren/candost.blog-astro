@@ -1,8 +1,6 @@
 ---
 title: "The Real Difficulty of Engineering Leadership is Not What They Say"
 description: "The biggest leadership development happens with solving internal challenges, not external challenges. If we want to create a healthy work environment and keep the team motivated, we have to develop effective leadership skills."
-tags:
-  -
 date: 2022-09-12
 updateDate: 2022-09-12
 external: false

@@ -1,7 +1,5 @@
 ---
 title: "Mektup #40: Pros and Cons of Changing Tech Stacks"
-tags:
- -
 date: 2022-09-21
 updateDate: 2022-09-21
 external: false

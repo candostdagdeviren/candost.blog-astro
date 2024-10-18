@@ -1,7 +1,5 @@
 ---
 title: "Mektup #14: How often do you go out of your comfort zone?"
-tags:
-  -
 date: 2021-09-21
 updateDate: 2021-09-21
 external: false

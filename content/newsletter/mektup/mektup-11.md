@@ -1,7 +1,5 @@
 ---
 title: "Mektup #11: Do you know what's coming next?"
-tags:
- -
 date: 2021-08-05
 updateDate: 2021-08-05
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "DDIA: The Trouble with Distributed Systems"
 description: "The most common and known problems and challenges of Distributed Systems."
-tags:
-  -
 date: 2023-01-20
 updateDate: 2023-01-20
 external: false

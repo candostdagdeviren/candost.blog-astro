@@ -1,8 +1,6 @@
 ---
 title: "Being Morally Good in The War of Life"
 description: "Do we know how to live? Are we expecting to have a great life because we're morally good? Do we know how to fight? Learning how to fight separates the good people from the winning people."
-tags:
-  -
 URL:
 date: 2022-02-04
 updateDate: 2022-02-04

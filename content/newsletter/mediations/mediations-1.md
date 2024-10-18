@@ -2,6 +2,9 @@
 title: "Mediations #1: Seeking Inconvenience"
 description: "Relationships and New Beginnings"
 tags:
+  - mediations
+newsletterName: "Mediations"
+issueNumber: "1"
 ogImagePath: "/images/banners/newsletters/mediations/mediations-1.jpg"
 date: 2023-08-11
 updateDate: 2023-08-11

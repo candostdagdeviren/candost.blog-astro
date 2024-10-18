@@ -1,7 +1,5 @@
 ---
 title: "Mektup #7: The Role of A Software Architect"
-tags:
- -
 date: 2021-06-10
 updateDate: 2021-06-10
 external: false

@@ -1,8 +1,6 @@
 ---
 title: "Why are Hybrid Meetings Terrible? Remote vs. On-site Meetings"
 description: "Have your team meetings as either remote meetings or on-site meetings. Don't have hybrid meetings. If you do, people in the meetings will have a bad experience."
-tags:
-  -
 date: 2021-06-15
 updateDate: 2021-06-15
 external: false
