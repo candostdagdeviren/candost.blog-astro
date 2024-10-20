@@ -1,0 +1,34 @@
+---
+---
+<button type="button" id="menu-icon" class="header-btn" title="Menu">
+  <i class="ri-menu-fill"/>
+</button>
+<button type="button" id="menu-icon-close" class="header-btn hidden" title="Menu">
+  <i class="ri-close-fill"></i>
+</button>
+
+
+<script>
+  let menuIcon = document.getElementById("menu-icon");
+  let menuCloseIcon = document.getElementById("menu-icon-close");
+  let menu = document.getElementById("mobile-menu");
+  let showAsideBtn = document.getElementById("aside-btn");
+  let closeAsideBtn = document.getElementById("aside-close-btn");
+  let personalInfo = document.getElementById("personal-info");
+  menuIcon.addEventListener("click", () => {
+    if(showAsideBtn && showAsideBtn.classList.contains('hidden')){
+      showAsideBtn.classList.toggle("hidden");
+      closeAsideBtn.classList.toggle("hidden");
+      personalInfo.classList.toggle("hidden");
+    }
+    menuIcon.classList.toggle("hidden");
+    menuCloseIcon.classList.toggle("hidden");
+    menu.classList.toggle("hidden");
+    // 给背景添加蒙版
+  });
+  menuCloseIcon.addEventListener("click", () => {
+    menuCloseIcon.classList.toggle("hidden");
+    menu.classList.toggle("hidden");
+    menuIcon.classList.toggle("hidden");
+  });
+</script>

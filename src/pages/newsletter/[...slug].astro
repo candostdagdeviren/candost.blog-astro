@@ -1,0 +1,40 @@
+---
+import BlogPost from '../../layouts/BlogPost.astro'
+import PostTitle from "../../components/PostTitle.astro";
+import BlogFooter from '../../components/BlogFooter.astro'
+import Donate from '../../components/Donate.astro'
+import {donate} from "../../consts";
+import { getAllContent } from '../../utils/getAllContent';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const blogEntries = (await getAllContent())
+  return blogEntries.map(entry => {
+    return {
+      params: {slug: entry.slug}, props: {entry,},
+    }});
+  }
+
+  const {entry} = Astro.props;
+  const {Content, remarkPluginFrontmatter} = await entry.render();
+
+  const lastModified = remarkPluginFrontmatter.lastModified
+
+  ---
+  <BlogPost frontmatter={entry.data}>
+    <div>
+      <PostTitle slug={`/newsletter/${entry.slug}`} {...entry.data} lastModified={lastModified}></PostTitle>
+      <div class="divider-horizontal"></div>
+      <article class="markdown-body">
+        <Content/>
+      </article>
+      <div class="divider-horizontal"></div>
+      <BlogFooter title={entry.data.title} url={entry.collection == 'posts' ? "/" + entry.slug : entry.collection + '/' + entry.slug} date={entry.data.date}></BlogFooter>
+      {
+        donate.enable && entry.data.donate &&
+        <Donate></Donate>
+      }
+    </div>
+
+  </BlogPost>
