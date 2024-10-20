@@ -1,0 +1,18 @@
+---
+import IndexPage from "../layouts/IndexPage.astro";
+import {site} from "../consts";
+const currentPath = Astro.url.pathname;
+---
+
+<IndexPage>
+  <div>404</div>
+  <div>Oops,This Page Could Not Be Found!</div>
+  <div>
+    <a
+      class="inline-block truncate m-1 p-1 text-sm rounded header-link-active hover:text-skin-active"
+      href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${site.url}${currentPath}`
+      target=”_blank”>
+      Let me know via email
+    </a>
+  </div>
+</IndexPage>

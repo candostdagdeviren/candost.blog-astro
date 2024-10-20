@@ -1,69 +1,34 @@
 import rss from "@astrojs/rss";
-import { deutsch } from "../../lib/markdoc/frontmatter.schema";
-import { readAll } from "../../lib/markdoc/read";
-import { SITE_URL } from "../../config";
-import Markdoc from "@markdoc/markdoc";
+import {site} from "../../consts";
+import { getCollectionByName } from "src/utils/getCollectionByName";
+import sanitizeHtml from 'sanitize-html';
+import MarkdownIt from 'markdown-it';
+import { sortPostsByDate } from '../../utils/sortPostsByDate';
+const parser = new MarkdownIt();
 
 export async function GET() {
-  const deutschEntries = await readAll({
-    directory: "de",
-    frontmatterSchema: deutsch,
-  });
+  const notes = await getCollectionByName("de");
 
-  let baseUrl = SITE_URL;
+  let baseUrl = site.url;
   // removing trailing slash if found
   // https://example.com/ => https://example.com
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
-
-  const rssNewsletters = deutschEntries
-  .filter((p) => p.frontmatter.draft !== true)
-  .map(({ frontmatter, slug, content }) => {
-    if (frontmatter.external) {
-      const title = frontmatter.title;
-      const pubDate = frontmatter.date;
-      const link = frontmatter.externalUrl;
-      const description = "A link to an external url";
-      return {
-        title,
-        pubDate,
-        description,
-        link,
-        content
-      };
-    }
-
-    const title = frontmatter.title;
-    const pubDate = frontmatter.date;
-    const description = frontmatter.description ? frontmatter.description : "";
-    const link = `${baseUrl}/de/${slug}`;
-
-    return {
-      title,
-      pubDate,
-      description,
-      link,
-      content
-    };
-  });
-
-  const rssItems = rssNewsletters
-  .sort(
-    (a, b) =>
-      new Date(b.pubDate).valueOf() -
-      new Date(a.pubDate).valueOf()
-  );
+  const rssNewsletters = sortPostsByDate(notes);
 
   return rss({
     title: "Candosts deutscher Blogeinträge",
     description: "Ich lerne Deutch und möchte üben. Deshalb habe ich mich entschlossen, in meinem Blog eine Abteilung zum Thema Deutch einzurichten.",
     site: baseUrl + "/de",
     stylesheet: '/rss/pretty-feed.xsl',
-    items: rssItems.map( (post) => {
-      return {
-        ...post,
-        content: Markdoc.renderers.html(post.content)
-      }
-    }),
+    items: rssNewsletters.map((entry) => ({
+      title: entry.data.title,
+      pubDate: entry.data.date,
+      description: entry.data.description ? entry.data.description : "",
+      link:`${baseUrl}/de/${entry.slug}/`,
+      content: sanitizeHtml(parser.render(entry.body), {
+        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
+      }),
+    })),
   });
 };

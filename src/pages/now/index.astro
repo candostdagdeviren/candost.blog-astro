@@ -1,0 +1,24 @@
+---
+import IndexPage from "../../layouts/IndexPage.astro";
+import { formatDate } from "../../utils/formatDate";
+let posts = await Astro.glob("./now.md");
+let {Content, frontmatter} = posts[0];
+---
+
+<IndexPage frontmatter={frontmatter}>
+  <article class="markdown-body">
+    {
+      (
+        <div class="flex items-center mb-2">
+          Last Updated:&nbsp;
+          {frontmatter.updateDate &&
+            <div class="flex items-center">
+              <i class="ri-calendar-2-fill mr-1"/>
+              <div class="tag">{formatDate(frontmatter.updateDate)}</div>
+            </div>}
+        </div>
+      )
+    }
+    <Content/>
+  </article>
+</IndexPage>
