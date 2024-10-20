@@ -4,6 +4,7 @@ description: "When we find ourselves in endless debates where everyone defends t
 date: 2020-12-31
 updateDate: 2020-12-31
 external: false
+favorite: true
 ---
 
 I often see people believe in their solution and think theirs are better than the others. They defend their cases without having an exact reason. These situations often create long and meaningless discussions that go nowhere. Often they result in conflicts and people being offended by others' behavior.

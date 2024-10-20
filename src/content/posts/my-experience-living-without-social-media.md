@@ -4,6 +4,7 @@ description: "How I stopped using Twitter, LinkedIn, Mastodon for 2+ months."
 date: 2023-04-13
 updateDate: 2024-07-07
 external: false
+favorite: true
 ---
 
 On January 23rd, 2023, I started an experiment and stopped all my social media usage. I didn’t read anything on Twitter, Mastodon, and LinkedIn. I occasionally checked my automated article sharing to see if they had been posted correctly, and during that checks, I read LinkedIn and Twitter messages from people I knew in real life.

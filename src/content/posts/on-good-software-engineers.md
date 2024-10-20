@@ -10,6 +10,7 @@ issueNumber: "8"
 date: 2024-10-15T09:45:00.000Z
 updateDate: 2024-10-15T09:45:00.000Z
 external: false
+favorite: true
 ---
 
 Setting expectations for software engineers is tricky for all managers. Every company has different needs and a different structure, tech stack, and culture. Whenever someone joins a team, one of the manager’s challenges is aligning the organization’s expectations with those of the new joiner. As there’s no universal guidance on this subject, I set out to find a simple definition that would help managers frame the fundamental things they expect from software engineers.

@@ -8,6 +8,7 @@ tags:
 date: 2024-09-14T16:30:00.000Z
 updateDate: 2024-09-14T16:30:00.000Z
 external: false
+favorite: true
 ---
 
 I'm not here to tell you that you should be working for a monthly salary for the rest of your life. Also, it’s not about passive income or financial independence and definitely not a promoter of a hustle culture. That's not the main idea. The main idea is this: accept that you should do things that bring you joy AND align your financial investment **for them**, and do this **till your last breath** without stopping and relying on a monthly retirement salary. Now that is out, let’s go into why.

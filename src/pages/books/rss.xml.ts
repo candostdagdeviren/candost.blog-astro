@@ -1,70 +1,34 @@
 import rss from "@astrojs/rss";
-import { books } from "../../lib/markdoc/frontmatter.schema";
-import { readAll } from "../../lib/markdoc/read";
-import { SITE_TITLE, SITE_URL } from "../../config";
-import Markdoc from "@markdoc/markdoc";
+import {site} from "../../consts";
+import { getCollectionByName } from "src/utils/getCollectionByName";
+import sanitizeHtml from 'sanitize-html';
+import MarkdownIt from 'markdown-it';
+import { sortPostsByDate } from '../../utils/sortPostsByDate';
+const parser = new MarkdownIt();
 
 export async function GET() {
-  const bookNotes = await readAll({
-    directory: "books",
-    frontmatterSchema: books,
-  });
+  const notes = await getCollectionByName("books");
 
-  let baseUrl = SITE_URL;
+  let baseUrl = site.url;
   // removing trailing slash if found
   // https://example.com/ => https://example.com
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
-
-  const rssBookNotes = bookNotes
-  .filter((p) => p.frontmatter.draft !== true)
-  .map(({ frontmatter, slug, content }) => {
-    if (frontmatter.external) {
-      const title = frontmatter.title;
-      const pubDate = frontmatter.date;
-      const link = frontmatter.url;
-      const description = "";
-
-      return {
-        title,
-        pubDate,
-        description,
-        content,
-        link,
-      };
-    }
-
-    const title = frontmatter.title;
-    const pubDate = frontmatter.date;
-    const description = frontmatter.description;
-    const link = `${baseUrl}/books/${slug}`;
-
-    return {
-      title,
-      pubDate,
-      description,
-      content,
-      link,
-    };
-  });
-
-  const rssItems = rssBookNotes
-  .sort(
-    (a, b) =>
-      new Date(b.pubDate).valueOf() -
-      new Date(a.pubDate).valueOf()
-  );
+  const rssNewsletters = sortPostsByDate(notes);
 
   return rss({
-    title: "Book Notes on " + SITE_TITLE,
+    title: "Candost's Book Notes",
     description: "I share either a full book review or a single-chapter note from the books I read.",
     site: baseUrl + "/books",
     stylesheet: '/rss/pretty-feed.xsl',
-    items: rssItems.map((item) => {
-      return {
-        ...item,
-        content: Markdoc.renderers.html(item.content)
-      }
-    }),
+    items: rssNewsletters.map((entry) => ({
+      title: entry.data.title,
+      pubDate: entry.data.date,
+      description: entry.data.description ? entry.data.description : "",
+      link:`${baseUrl}/books/${entry.slug}/`,
+      content: sanitizeHtml(parser.render(entry.body), {
+        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
+      }),
+    })),
   });
 };

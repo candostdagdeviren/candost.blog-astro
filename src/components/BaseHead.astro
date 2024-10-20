@@ -1,0 +1,74 @@
+---
+import '../styles/index.css'
+import {site, config} from "../consts";
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const {mathjax = false, mermaid = false} = Astro.props
+---
+<head>
+  <!-- Global Metadata -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="icon" type="image/svg+xml" href={site.favicon}/>
+  <meta name="generator" content={Astro.generator}/>
+  <!-- Canonical URL -->
+  <link rel="canonical" href={canonicalURL}/>
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content={site.title}/>
+  <meta name="description" content={site.description}/>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content={Astro.url}/>
+  <meta property="og:title" content={site.title}/>
+  <meta property="og:description" content={site.description}/>
+  <meta property="og:image" content={new URL(site.avatar, Astro.site?.href).href}/>
+  <meta property="og:image:alt" content={site.description}/>
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image"/>
+  <meta property="twitter:url" content={Astro.url}/>
+  <meta property="twitter:title" content={site.title}/>
+  <meta property="twitter:description" content={site.description}/>
+  <meta property="twitter:image" content={new URL(site.avatar, Astro.site?.href).href}/>
+
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="msapplication-TileColor" content="#da532c"/>
+  <meta name="msapplication-config" content="/browserconfig.xml"/>
+  <meta name="theme-color" content="#ffffff"/>
+
+  <link rel="sitemap" href="/sitemap-0.xml"/>
+  <title>{site.title}</title>
+  <script is:inline src="/toggle-theme.js"></script>
+  {
+    mathjax && <script async type="text/javascript" src="/load-mathjax.js"></script>
+  }
+
+  {
+    mermaid &&
+    <script async type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/mermaid/10.9.0/mermaid.min.js"></script>
+
+  }
+  {
+    config.busuanzi && <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  }
+  <!-- Google tag (gtag.js) -->
+  {
+    config.ga &&
+    <>
+      <script src={"https://www.googletagmanager.com/gtag/js?id=" +　config.ga}></script>
+      <script define:vars={{ga: config.ga}}>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', ga);
+      </script>
+    </>
+  }
+</head>

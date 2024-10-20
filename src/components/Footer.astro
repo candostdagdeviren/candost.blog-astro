@@ -1,72 +1,52 @@
 ---
+import {site, config} from "../consts";
+import {t} from '../i18n/utils'
 ---
 
+<div class="footer container p-4">
+  {
+    config.busuanzi && (
+    <div class="flex items-center justify-center text-skin-base">
+      <span id="busuanzi_container_site_pv">
+        {t('footer.busuanziSitePV')}<span id="busuanzi_value_site_pv"></span>{t('footer.busuanziSitePVUnit')}
+      </span>
+      <div class="divider-vertical"></div>
+      <span id="busuanzi_container_site_uv">
+        {t('footer.busuanziSiteUV')}<span id="busuanzi_value_site_uv"></span>{t('footer.busuanziSiteUVUnit')}
+      </span>
+    </div>
+    )
+  }
+  <div class="flex items-center flex-wrap justify-center mb-4 text-skin-base">
+    <div>
+      <div class="mb-5">
+        All content on this website is licensed under
+        <a
+        class="truncate cursor-pointr mt-1 hover:text-skin-active"
+        href={"https://creativecommons.org/licenses/by-nc-sa/4.0/"}
+        target="_blank"
+        >
+        CCA-NCSA 4.0</a> International License.
+      </div>
 
+    </div>
+    {
+      site.beian && (
+      <div class="divider-vertical"/>
+      <a rel="nofollow" target="_blank" href="https://beian.miit.gov.cn/">
+        {site.beian}
+      </a>
+      )
+    }
 
-
-<footer class="text-sm leading-[1.75] mt-10">
-  <div class="mb-5">
-    <a
-      class="unset ml-4 rounded-sm transition-[background-size] duration-150 ease-in-out bg-left-bottom bg-[length:0%_55%] hover:bg-[length:100%_55%] bg-no-repeat bg-gradient-to-r from-primary-yellow to-primary-yellow dark:bg-none dark:hover:text-primary-yellow"
-      href="/feeds/"
-    >
-      <span><i class="fa fa-rss" aria-hidden="true"></i> RSS</span>
-    </a>
-    <a
-      class="unset ml-4 rounded-sm transition-[background-size] duration-150 ease-in-out bg-left-bottom bg-[length:0%_55%] hover:bg-[length:100%_55%] bg-no-repeat bg-gradient-to-r from-primary-yellow to-primary-yellow dark:bg-none dark:hover:text-primary-yellow"
-      href="https://github.com/candostdagdeviren"
-    >GitHub</a>
-    <a
-      class="unset ml-4 rounded-sm transition-[background-size] duration-150 bg-left-bottom bg-[length:0%_55%] hover:bg-[length:100%_55%] bg-no-repeat bg-gradient-to-r from-primary-blue to-primary-blue dark:bg-none dark:hover:text-primary-blue"
-      href="https://linkedin.com/in/candost/"
-    >Linkedin</a>
-    <a
-      class="unset ml-4 rounded-sm transition-[background-size] duration-150 ease-in-out bg-left-bottom bg-[length:0%_55%] hover:bg-[length:100%_55%] bg-no-repeat bg-gradient-to-r from-primary-yellow to-primary-yellow dark:bg-none dark:hover:text-primary-yellow"
-      href="mailto:contact@candostdagdeviren.com"
-    >Email</a>
   </div>
-  <div class="mb-5">
-    All content on this website is licensed under
-    <a
-      class="unset gradient-link tracking-wider font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#f57111] to-[#f79605] hover:after:bg-gradient-to-r hover:after:from-[#f57111] hover:after:to-[#f79605]"
-      href={"https://creativecommons.org/licenses/by-nc-sa/4.0/"}
-      target="_blank"
-    >
-    CCA-NCSA 4.0</a> International License.
-  </div>
-
-</footer>
-
-
+</div>
 
 <style>
-  footer {
-    grid-area: footer;
-    text-align: center;
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-  }
-
-  .gradient-link {
-    position: relative;
-    box-decoration-break: clone;
-    text-decoration: none;
-  }
-
-  .gradient-link:hover:after {
-    transform: translateZ(0) scale(1);
-  }
-
-  .gradient-link:after {
-    left: 0;
-    right: 0;
-    bottom: -2px;
-    content: "";
-    height: 2px;
+  .footer {
+    height: 80px;
     position: absolute;
-    transform: translateZ(0) scaleX(0);
-    transform-origin: left center;
-    transition: all 0.15s ease-in-out;
+    bottom: 0;
+    left: 0;
   }
 </style>

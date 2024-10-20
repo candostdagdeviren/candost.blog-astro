@@ -7,6 +7,7 @@ tags:
 date: 2022-09-30
 updateDate: 2022-09-30
 external: false
+sticky: 500
 ---
 
 These two words—questioning and asking—have different meanings, although both often refer to the same meaning.

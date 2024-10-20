@@ -4,6 +4,7 @@ description: "The biggest leadership development happens with solving internal c
 date: 2022-09-12
 updateDate: 2022-09-12
 external: false
+favorite: true
 ---
 
 For a while, I've been thinking about what makes leadership difficult and why it challenges me—and others—that much. Before becoming a manager, I had a few discussions with some leaders to figure out the difficulties. I asked them what was their biggest challenge after they became a manager. The answers varied: context switching, stakeholder management, lack of focus time, prioritization, leading people to get things done, and a few others. Although I faced these common leadership challenges after becoming a manager, I realized that all of them had one greater difficulty behind: ***learning to let go***.

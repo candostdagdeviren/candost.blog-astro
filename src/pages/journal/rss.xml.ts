@@ -1,69 +1,34 @@
 import rss from "@astrojs/rss";
-import { blog } from "../../lib/markdoc/frontmatter.schema";
-import { readAll } from "../../lib/markdoc/read";
-import { SITE_URL } from "../../config";
-import Markdoc from "@markdoc/markdoc";
+import {site} from "../../consts";
+import { getCollectionByName } from "src/utils/getCollectionByName";
+import sanitizeHtml from 'sanitize-html';
+import MarkdownIt from 'markdown-it';
+import { sortPostsByDate } from '../../utils/sortPostsByDate';
+const parser = new MarkdownIt();
 
 export async function GET() {
-  const journalEntries = await readAll({
-    directory: "journal",
-    frontmatterSchema: blog,
-  });
+  const notes = await getCollectionByName("journal");
 
-  let baseUrl = SITE_URL;
+  let baseUrl = site.url;
   // removing trailing slash if found
   // https://example.com/ => https://example.com
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
-
-  const rssNewsletters = journalEntries
-  .filter((p) => p.frontmatter.draft !== true)
-  .map(({ frontmatter, slug, content }) => {
-    if (frontmatter.external) {
-      const title = frontmatter.title;
-      const pubDate = frontmatter.date;
-      const link = frontmatter.externalUrl;
-      const description = "A link to an external url";
-      return {
-        title,
-        pubDate,
-        description,
-        link,
-        content
-      };
-    }
-
-    const title = frontmatter.title;
-    const pubDate = frontmatter.date;
-    const description = frontmatter.description ? frontmatter.description : "";
-    const link = `${baseUrl}/journal/${slug}`;
-
-    return {
-      title,
-      pubDate,
-      description,
-      link,
-      content
-    };
-  });
-
-  const rssItems = rssNewsletters
-  .sort(
-    (a, b) =>
-      new Date(b.pubDate).valueOf() -
-      new Date(a.pubDate).valueOf()
-  );
+  const rssNewsletters = sortPostsByDate(notes);
 
   return rss({
     title: "Candost's Journal",
     description: "These are entries to my journal such as link to a post, a short comment, life update, etc. that I want to save",
     site: baseUrl + "/journal",
     stylesheet: '/rss/pretty-feed.xsl',
-    items: rssItems.map( (post) => {
-      return {
-        ...post,
-        content: Markdoc.renderers.html(post.content)
-      }
-    }),
+    items: rssNewsletters.map((entry) => ({
+      title: entry.data.title,
+      pubDate: entry.data.date,
+      description: entry.data.description ? entry.data.description : "",
+      link:`${baseUrl}/journal/${entry.slug}/`,
+      content: sanitizeHtml(parser.render(entry.body), {
+        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
+      }),
+    })),
   });
 };
