@@ -46,13 +46,13 @@ There is a lot of _ambiguity_. Although the explanation gives _some_ idea abo
 
 Let's try answering by using the STAR method.
 
-**{% mark %}Situation:{% /mark %}** When I mentored a junior engineer in my ex-company, they needed to develop debugging skills. The engineer struggled to find cues for bugs and didn't know how to use tools correctly.
+**Situation:** When I mentored a junior engineer in my ex-company, they needed to develop debugging skills. The engineer struggled to find cues for bugs and didn't know how to use tools correctly.
 
-**{% mark %}Task:{% /mark %}** My goal was to guide them when they struggled and purposely improve the challenges they worked on to step up in debugging.
+**Task:** My goal was to guide them when they struggled and purposely improve the challenges they worked on to step up in debugging.
 
-**{% mark %}Actions:{% /mark %}** To achieve this, I asked a few questions and watched them while debugging to understand how much they knew the tools and where they got stuck the most. After figuring it out, we created a step-by-step plan and a weekly 1:1 appointment. In each 1:1 meeting, we looked at where they faced problems, solved them together, and looked at the following week's task. During these meetings, I also give some recommendations.
+**Actions:** To achieve this, I asked a few questions and watched them while debugging to understand how much they knew the tools and where they got stuck the most. After figuring it out, we created a step-by-step plan and a weekly 1:1 appointment. In each 1:1 meeting, we looked at where they faced problems, solved them together, and looked at the following week's task. During these meetings, I also give some recommendations.
 
-**{% mark %}Result:{% /mark %}** In three months, the mentee found out most issues without anyone's help and started helping others who struggled to debug our distributed systems. My mentee later gave a talk on a meetup about the debugging best practices of distributed systems and hosted a workshop in our company about improving the debug-ability of our services.
+**Result:** In three months, the mentee found out most issues without anyone's help and started helping others who struggled to debug our distributed systems. My mentee later gave a talk on a meetup about the debugging best practices of distributed systems and hosted a workshop in our company about improving the debug-ability of our services.
 
 The ambiguity is _gone_. When you answer like this, it also sounds like you know what you're talking about. That's the beauty of using methods, frameworks, and mental models. They put your experience in a shape that is visible to others. The STAR method is no different. When you use it in behavioral interviews, it brings clarity _**and**_ visibility.
 
@@ -64,7 +64,7 @@ Until next time, keep your authenticity alive and prepare for interviews!
 
 Candost
 
-***P.S.** [Do reverse interviews.](https://blog.pragmaticengineer.com/reverse-interviewing/)*
+_**P.S.** [Do reverse interviews.](https://blog.pragmaticengineer.com/reverse-interviewing/)_
 
 ---
 

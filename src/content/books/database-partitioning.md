@@ -31,7 +31,9 @@ We'll talk about partitioning key-value data (as it is the primary index), parti
 
 ## Partitioning of Key-Value Data
 
-{% mark %} 💡 Partitioning aims to spread the data and load across multiple nodes evenly.  {% /mark %}
+::: note
+💡 Partitioning aims to spread the data and load across multiple nodes evenly.
+:::
 
 In theory, if we partition one node into fifteen nodes, the system should be able to handle fifteen times the load it handles with one node. In practice, it doesn't work like that. Depending on how we partition, some partitions take more load than others and become bottlenecks.
 

@@ -18,12 +18,10 @@ Employers can call everyone back to the office (hello, Amazon), expecting people
 
 Employers have the upper hand because not everyone wants to change their jobs during these difficult times.
 
-However, employers have to keep in mind one thing. Employer branding is like an insurance. You have to make your contribution first before you need it. When the market returns to an employee market{%sup%}1{% /sup%}, it will be too late for you to change and adjust your plans in the game.
+However, employers have to keep in mind one thing. Employer branding is like an insurance. You have to make your contribution first before you need it. When the market returns to an employee market[^1], it will be too late for you to change and adjust your plans in the game.
 
 So, if you're holding interviews or planning to hire, think about your long-term plans. Hiring really good employees is still a big problem for everyone. If you're looking for a person who can do three roles simultaneously, maybe you should re-evaluate your strategy.
 
 Whoever is interviewing for a job these days, good luck!! Don't forget that if you fail an interview, the problem is not fully on you, especially now.
 
----
-
-{% sup %}1{% /sup %} This expectation is a privilege. It doesn't apply to all markets; I can talk only about the tech market.
+[^1]: This expectation is a privilege. It doesn't apply to all markets; I can talk only about the tech market.

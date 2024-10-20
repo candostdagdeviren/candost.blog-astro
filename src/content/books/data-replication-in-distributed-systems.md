@@ -31,7 +31,9 @@ Replication is keeping the copies of data between multiple machines that are con
 
 We replicate data to either serve users from the closest data center to _reduce latency_, allow the system to continue working if one part fails (to _increase availability and fault tolerance_), or scale the machines to serve more read requests to _increase read throughput_.
 
-{% mark %}🧶 _All the difficulties in replication are related to handling changes in replicated data._{% /mark %}
+::: note
+🧶 _All the difficulties in replication are related to handling changes in replicated data._
+:::
 
 In this chapter, we'll see leaders, followers, multiple-leader and leaderless systems, synchronous and asynchronous replications, problems in all these strategies, how to solve them, and the pros and cons of each system. We'll start with understanding the leader and follower, synchronous and asynchronous replication, and dive into three different strategies to replicate data using the leader-follower structure.
 

@@ -82,7 +82,9 @@ Some services are elastic; they can add or remove resources depending on the nee
 
 What kind of scaling to use will always depend on the system. The system that scales well will be built around assumptions of defined load parameters (predicted common and rare operations).
 
-{% mark %}💫 In start-ups and non-proven products, it's more important to iterate on the product instead of building the system for a hypothetical future load. {% /mark %}
+::: note
+💫 In start-ups and non-proven products, it's more important to iterate on the product instead of building the system for a hypothetical future load.
+:::
 
 ## Maintainability
 
