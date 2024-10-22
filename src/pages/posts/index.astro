@@ -22,7 +22,7 @@ let resultPosts = getPostsByYear(sortedPosts);
           <div class="text-2xl font-extrabold my-4">{year}</div>
           <ul>
             {resultPosts[year].map((post) => (
-              <li style="list-style-type: disc;" class="ml-4 my-2">
+              <li style="list-style-type: square;" class="ml-4 my-2">
               <div>
                 <span class="mr-4 text-l" style="float: left;">
                   {formatDate(post.data.date)}
