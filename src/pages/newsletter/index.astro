@@ -46,14 +46,10 @@ let sortedMektups = await sortPostsByDate(mektups);
       sortedMediations
       .map((post) => (
       <li style="list-style-type: disc;" class="ml-4 my-2">
-        <div>
-          <span class="mr-4 text-l" style="float: left;">
-            {formatDate(post.data.date)}
-          </span>
-          <a class="flex text-l underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={post.collection == 'posts' ? '/' + post.slug : '/' + post.collection + '/' + post.slug}>
-            <strong>{post.data.newsletterName} #{post.data.issueNumber}:&nbsp;</strong>{post.data.title}
-          </a>
-        </div>
+        <a class="flex text-l" href={post.collection == 'posts' ? '/' + post.slug : '/' + post.collection + '/' + post.slug}>
+          <span class="mr-5 text-l hover:none hover:none">{formatDate(post.data.date)} </span>
+          <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"><strong>{post.data.newsletterName} #{post.data.issueNumber}:&nbsp;</strong>{post.data.title}</span>
+        </a>
       </li>
       )
       )}
@@ -68,14 +64,10 @@ let sortedMektups = await sortPostsByDate(mektups);
       sortedMektups
       .map((post) => (
       <li style="list-style-type: disc;" class="ml-4 my-2">
-        <div>
-          <span class="mr-4 text-l" style="float: left;">
-            {formatDate(post.data.date)}
-          </span>
-          <a class="flex text-l underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/newsletter/' + post.slug}>
-            <strong>{post.data.title}</strong>
-          </a>
-        </div>
+        <a class="flex text-l" href={'/newsletter/' + post.slug}>
+          <span class="mr-5 text-l hover:none hover:none">{formatDate(post.data.date)} </span>
+          <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">{post.data.title}</span>
+        </a>
       </li>
       )
       )}
