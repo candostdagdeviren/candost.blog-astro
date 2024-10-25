@@ -77,16 +77,15 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
 
 
     <div id="newsletter" class="mr-5 ml-5 mb-10">
-      <div class="aside-widget mt-10 flex-col">
+      <div class="aside-widget mt-10 flex-col text-xl">
         <div><i class="ri-newspaper-line menu-icon"></i>Mediations Newsletter</div>
       </div>
       <div class="flex flex-col">
         <form name="newsletter-subscription-home" netlify-honeypot="bot-field" netlify>
           <p class="flex">
-            <p  class="mb-2" style="white-space:pre-wrap; word-break:break-word;">Timeless insights into humans, software, and leadership.</p>
-            <p class="mb-2" style="white-space:pre-wrap; word-break:break-word;">Only newsletter you'll need to feel accomplished, live fully, and get your job done.</p>
-            <p class="mb-2" style="white-space:pre-wrap; word-break:break-word;">Every second week. For FREE. That's all you need.</p>
-
+            <p  class="mb-2" style="white-space:pre-wrap; word-break:break-word;"><em>Timeless insights into humans, software, and leadership.</em></p>
+            <p class="mb-2" style="white-space:pre-wrap; word-break:break-word;">The most genuine newsletter helping hundreds of people live fully, feel accomplished, and get their job done.</p>
+            <p class="mb-2" style="white-space:pre-wrap; word-break:break-word;">Every second week for FREE.</p>
 
             <input
             type="email"
@@ -94,7 +93,6 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
             placeholder="contact@candost.blog"
             class="font-medium rounded-lg text-sm px-5 py-3 mb-2 border focus:outline-none dark:focus:ring-primary-blue"
             style="color:black; width: 100%">
-
 
             <button
             type="submit"
@@ -105,85 +103,85 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
         </p>
       </form>
     </div>
-    </div>
-
-    <div id="best-posts" class="mr-5 ml-5 mb-10">
-      <div class="aside-widget text-center flex-col text-xl">
-        <div><i class="ri-sparkling-line"></i>&nbsp;My Best Posts</div>
-      </div>
-      <div class="flex flex-col">
-        {
-          resultPosts.map((post) => (
-          <a
-            href={"/" + post.slug}
-            class="truncate cursor-pointr mt-1 hover:text-skin-active"
-            title={post.data.title}
-            >
-            {post.data.title}
-          </a>
-          ))
-        }
-      </div>
   </div>
-    <div id="more" class="mr-5 ml-5">
-      <div class="aside-widget flex flex-col text-xl">
-        <div><i class="ri-user-search-line"></i>&nbsp;More About Candost</div>
-      </div>
-      <div class="flex flex-col">
-          <a
-          href="/now/"
-          class="truncate cursor-pointr mt-1 hover:text-skin-active"
-          title=Now
-          >Now
-        </a>
+
+  <div id="best-posts" class="mr-5 ml-5 mb-10">
+    <div class="aside-widget text-center flex-col text-xl">
+      <div><i class="ri-sparkling-line"></i>&nbsp;My Best Posts</div>
+    </div>
+    <div class="flex flex-col">
+      {
+        resultPosts.map((post) => (
         <a
-        href="/about/"
+        href={"/" + post.slug}
         class="truncate cursor-pointr mt-1 hover:text-skin-active"
-        title=Now
-        >About
+        title={post.data.title}
+        >
+        {post.data.title}
       </a>
-      <a
-        href="/friends"
-        class="truncate cursor-pointr mt-1 hover:text-skin-active"
-        title=Now
-        >Follows
-      </a>
-      </div>
-    </div>
-      <!-- {
-        Object.keys(categoryCount).length > 0 && (
-        <div>
-          <i class="ri-folder-line menu-icon"/>{t('sidebar.categories')}
-        </div>
-        )
-      }
-      {
-        Object.keys(categoryCount).map((category) => (
-        <div class="my-2 break-all truncate">
-          <a class="hover:text-skin-active" title={category + " (" + categoryCount[category] + ")"} href={"/category/" + category}>
-            {category + " (" + categoryCount[category] + ")"}
-          </a>
-        </div>
-
-        ))
-      }
-      {
-        tagArr.length > 0 && (
-        <div class="divider-horizontal-mini"></div>
-        <div class="text-center">
-          <i class="ri-price-tag-3-line menu-icon"/>
-          {t('sidebar.tags')}
-        </div>
-        )
-      }
-      {
-        tagArr &&
-        tagArr.map((tag) => (
-        <div class="my-2 break-all truncate">
-          <a class="hover:text-skin-active my-2" title={tag} href={"/tags/" + tag}>{tag + " (" + tagCount[tag] + ")"}</a>
-        </div>
-        ))
-      } -->
-
+      ))
+    }
   </div>
+</div>
+<div id="more" class="mr-5 ml-5">
+  <div class="aside-widget flex flex-col text-xl">
+    <div><i class="ri-user-search-line"></i>&nbsp;More About Candost</div>
+  </div>
+  <div class="flex flex-col">
+    <a
+    href="/now/"
+    class="truncate cursor-pointr mt-1 hover:text-skin-active"
+    title=Now
+    >Now
+  </a>
+  <a
+  href="/about/"
+  class="truncate cursor-pointr mt-1 hover:text-skin-active"
+  title=Now
+  >About
+</a>
+<a
+href="/follows"
+class="truncate cursor-pointr mt-1 hover:text-skin-active"
+title=Now
+>Follows
+</a>
+</div>
+</div>
+<!-- {
+Object.keys(categoryCount).length > 0 && (
+<div>
+<i class="ri-folder-line menu-icon"/>{t('sidebar.categories')}
+</div>
+)
+}
+{
+Object.keys(categoryCount).map((category) => (
+<div class="my-2 break-all truncate">
+<a class="hover:text-skin-active" title={category + " (" + categoryCount[category] + ")"} href={"/category/" + category}>
+{category + " (" + categoryCount[category] + ")"}
+</a>
+</div>
+
+))
+}
+{
+tagArr.length > 0 && (
+<div class="divider-horizontal-mini"></div>
+<div class="text-center">
+<i class="ri-price-tag-3-line menu-icon"/>
+{t('sidebar.tags')}
+</div>
+)
+}
+{
+tagArr &&
+tagArr.map((tag) => (
+<div class="my-2 break-all truncate">
+<a class="hover:text-skin-active my-2" title={tag} href={"/tags/" + tag}>{tag + " (" + tagCount[tag] + ")"}</a>
+</div>
+))
+} -->
+
+</div>
 </header>
