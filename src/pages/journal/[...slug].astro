@@ -36,7 +36,7 @@ if (sortPosts[currentPostIndex + 1]) {
 }
 ---
 
-<BlogPost frontmatter={post.data}>
+<BlogPost frontmatter={{comment:true, ...post.data}}>
   {
     (
     <PostTitle slug={`/journal/${post.slug}`} {...post.data} lastModified={postUpdateDate}></PostTitle>

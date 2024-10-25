@@ -198,16 +198,16 @@ export const followsList =
 * walineConfig.whiteList {string[]} set some pages not to display reaction
 */
 export const comment = {
-  enable: false,
-  type: 'giscus', // waline | giscus,
+  enable: true,
+  type: 'waline', // waline | giscus,
   walineConfig:{
-    serverUrl: "",
+    serverUrl: "https://candostblog-comments.vercel.app",
     lang: 'en',
     pageSize: 20,
     wordLimit: '',
     count: 5,
     pageview: true,
-    reaction: true,
+    reaction: false,
     requiredMeta: ["nick", "mail"],
     whiteList: ['/now/', '/follows/', '/about/'],
   },
