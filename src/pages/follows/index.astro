@@ -1,0 +1,15 @@
+---
+import IndexPage from "../..//layouts/IndexPage.astro";
+
+import Follows from "../../components/Follows.astro";
+import  {followsList} from "../../consts";
+---
+
+<IndexPage frontmatter={{ comment: true }}>
+  <h1 class="text-3xl fa-2x mb-5 mt-10">Following</h1>
+  <p class="mb-5">I follow these people, blogs, or newsletters very closely, mostly via RSS or email lists.</p>
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+    {followsList ? followsList.map((follow) => <Follows {...follow} />) : ""}
+  </div>
+</IndexPage>

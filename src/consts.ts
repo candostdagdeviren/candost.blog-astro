@@ -105,7 +105,7 @@ export const categories = [
       {
         name: 'Follows',
         iconClass: 'ri-user-5-line',
-        href: '/friends',
+        href: '/follows',
         target: '_self',
       },
     ]
@@ -155,13 +155,13 @@ export const donate = {
 }
 
 /**
-* Friendship Links Page
+* Follows Links Page
 * name {string}
 * url {string}
 * avatar {string}
 * description {string}
 */
-export const friendshipLinks =
+export const followsList =
 [
   {
     name: "Tim Ferriss's Blog",
@@ -209,7 +209,7 @@ export const comment = {
     pageview: true,
     reaction: true,
     requiredMeta: ["nick", "mail"],
-    whiteList: ['/now/', '/friends/', '/about/'],
+    whiteList: ['/now/', '/follows/', '/about/'],
   },
 
   // giscus config
