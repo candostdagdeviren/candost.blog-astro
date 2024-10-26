@@ -60,5 +60,3 @@ Social dynamics are the bones of every promotion—the people who will give you 
 Until next time, take care.
 
 — Candost
-
-**P.S.** [Totally unrelated news, I got officially promoted for the first time in my life.](https://twitter.com/candosten/status/1427165497720807426)

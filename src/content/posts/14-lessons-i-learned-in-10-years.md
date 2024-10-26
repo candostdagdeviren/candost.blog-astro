@@ -51,7 +51,7 @@ People are different. They come from different backgrounds, [cultures](/books/h
 
 ## 11. Always go with the truth even if you’re alone and the road is full of pain and fear
 
-While developing software, we also fall into the trap of doing workarounds. We try to cheat from time to time to find the quickest way. Especially laws and licenses are easy to cheat. And we think that no one can find out. I can assure you that [someone will eventually find out](https://twitter.com/candosten/status/1227589731224997888?s=20). It will cost you more than the effort you spend now. So, follow the laws and ethics first; you won’t need to apologize or pay a huge cost.
+While developing software, we also fall into the trap of doing workarounds. We try to cheat from time to time to find the quickest way. Especially laws and licenses are easy to cheat. And we think that no one can find out. I can assure you that someone will eventually find out. It will cost you more than the effort you spend now. So, follow the laws and ethics first; you won’t need to apologize or pay a huge cost.
 
 ## 12. Balance your work
 

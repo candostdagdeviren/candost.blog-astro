@@ -45,7 +45,7 @@ The additional question helps me discover the situations where I make many bad c
 With a similar approach, here are a few decisions I made:
 
 - I won't watch any TV series that algorithms offer me on any platform.
-- [I limited my following count on Twitter to 100](https://twitter.com/candosten/status/1568228493502160896). (The same will apply to Mastodon)
+- I limited my following count on Twitter to 100. (The same will apply to Mastodon)
 - If any blog, podcast, or newsletter has an RSS feed, I will only subscribe to the RSS feed.
 - I only read blog posts that I send to my Remarkable; I won't read any blog posts whenever I see any on social media. My blog post reading day is only on Sundays.
 - I won't buy books that have been published in the last year.

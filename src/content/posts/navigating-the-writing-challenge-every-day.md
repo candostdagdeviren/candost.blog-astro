@@ -20,7 +20,7 @@ It is also visible in basketball players. Every shot a basketball player makes h
 
 Extraordinary things don't require exceptional techniques but doing the same ordinary things over and over and over again until you perfect it. The misperception of [exceptionalism](https://en.wikipedia.org/wiki/Exceptionalism) causes a lot of stress, even still on my empty brain. Although I know showing up every single day makes the most significant difference, my brain and soul have an embedded systematic issue that I can't get rid of.
 
-My embedded issue is that I want to be great, perfect at many things. I was good at what I did for a long time: software engineering. Of course, I wasn't [a 10x engineer](https://knowyourmeme.com/memes/10x-engineer); I was barely a 2x engineer. But I felt sufficient enough, adequate, and at the same time, average. I pushed myself to learn to be good at it. Now, [that has fallen off](https://twitter.com/candosten/status/1427165497720807426).
+My embedded issue is that I want to be great, perfect at many things. I was good at what I did for a long time: software engineering. Of course, I wasn't [a 10x engineer](https://knowyourmeme.com/memes/10x-engineer); I was barely a 2x engineer. But I felt sufficient enough, adequate, and at the same time, average. I pushed myself to learn to be good at it. Now, that has fallen off.
 
 I'm still an average software engineer who doesn't write code anymore but [writes about code and software engineering](https://candost.blog/). The challenge of writing about tech and leadership is that, like everyone else, I feel that I need to be good at them to write about them.
 

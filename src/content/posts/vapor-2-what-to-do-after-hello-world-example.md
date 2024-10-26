@@ -184,7 +184,7 @@ let users = UserController()
 drop.resource("users", users)
 ```
 
-You can find more details [here](https://vapor.github.io/documentation/guide/controllers.html#resources).
+You can find more details [here](https://docs.vapor.codes/basics/controllers/?h=controller).
 
 ## Routing with collections
 

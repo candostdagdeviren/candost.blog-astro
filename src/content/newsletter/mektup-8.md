@@ -25,7 +25,7 @@ The transition in knowledge acquirement is where most developers struggle while 
 
 The technical breadth vs. technical depth is only one small part of the architectural thinking and software architect's job. I'm preparing more detailed stuff for architectural thinking (either a podcast episode or a blog post). Before letting you wait for that, I want to share a sneak peek with you. [Here you can find out the](https://github.com/candostdagdeviren/liebling/raw/1de55e2669baf0c5b832dc6558f03cfc68a79e5c/assets/images/Mind%20Map%20-%20System%20and%20architectural%20thinking.jpg) _[work-in-progress](https://github.com/candostdagdeviren/liebling/raw/1de55e2669baf0c5b832dc6558f03cfc68a79e5c/assets/images/Mind%20Map%20-%20System%20and%20architectural%20thinking.jpg)_ [mind map I am using for the preparation of Architectural Thinking](https://github.com/candostdagdeviren/liebling/raw/1de55e2669baf0c5b832dc6558f03cfc68a79e5c/assets/images/Mind%20Map%20-%20System%20and%20architectural%20thinking.jpg). You will see that technical breadth is only one part of it.
 
-That's it. If you think I missed something in the mind map or would love to share your thoughts, you know how to reach me: just hit the reply button below ([Twitter works too](https://twitter.com/candosten)).
+That's it. If you think I missed something in the mind map or would love to share your thoughts, you know how to reach me: just hit the reply button below.
 
 — Candost
 

@@ -318,7 +318,7 @@ Adoption to the latest versions with breaking changes is generally hard. But whe
 ---
 
 Further:
-- [Vapor 2 New Documentation](https://docs.vapor.codes/2.0/)
+- [Vapor 2 New Documentation](https://legacy.docs.vapor.codes/2.0/)
 - [Steampress.io Vapor 2 Migration](https://www.steampress.io/blog/posts/migrating-to-vapor-2/)
 - [Vapor Release Notes](https://github.com/vapor/vapor/releases/tag/2.0.0)
 - [Vapor Changelog](https://github.com/vapor/migrator/blob/master/notes/vapor-diff.md)
