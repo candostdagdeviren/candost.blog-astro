@@ -57,7 +57,7 @@ It might look scary at first because openly talking about ambitions and desires 
 
 For example, I framed my intentions with "learning." When I told people that I was willing to learn more about leadership because I think I can do a good job, and if not, I can come back to software engineering, they understood that I was not competing with others; my competition is only with myself.
 
-::: note
+:::note
 Clarity = Transparency = Trust
 :::
 

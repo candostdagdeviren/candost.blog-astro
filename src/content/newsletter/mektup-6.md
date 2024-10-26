@@ -64,7 +64,7 @@ _"Can you deploy on Friday after lunch without being afraid of doing overtime on
 
 **If you can't give a confident yes to this question, look for what lowers your confidence.** What would you change if you had a magic wand? I was a firm believer in no deployment on Fridays. After seeing the costs, risks, and available tools, I'm convinced--thanks to the world of CI/CD and DevOps practices. Before we go, one more thing.
 
-::: caution
+:::caution
 Release != Deployment
 :::
 

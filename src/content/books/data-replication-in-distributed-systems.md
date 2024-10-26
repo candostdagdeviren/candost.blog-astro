@@ -31,7 +31,7 @@ Replication is keeping the copies of data between multiple machines that are con
 
 We replicate data to either serve users from the closest data center to _reduce latency_, allow the system to continue working if one part fails (to _increase availability and fault tolerance_), or scale the machines to serve more read requests to _increase read throughput_.
 
-::: note
+:::note
 🧶 _All the difficulties in replication are related to handling changes in replicated data._
 :::
 

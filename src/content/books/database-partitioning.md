@@ -31,7 +31,7 @@ We'll talk about partitioning key-value data (as it is the primary index), parti
 
 ## Partitioning of Key-Value Data
 
-::: note
+:::note
 💡 Partitioning aims to spread the data and load across multiple nodes evenly.
 :::
 
