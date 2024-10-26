@@ -5,17 +5,20 @@ import BlogFooter from '../../components/BlogFooter.astro'
 import Donate from '../../components/Donate.astro'
 import {donate} from "../../consts";
 import { getAllContent } from '../../utils/getAllContent';
+import getPostsByTag from '../../utils/getPostsByTag';
 
 export const prerender = true;
 
 export async function getStaticPaths() {
   const blogEntries = (await getAllContent())
-  return blogEntries.map(entry => {
+  let mediations = getPostsByTag(blogEntries, "mediations");
+  let mektups = getPostsByTag(blogEntries, "mektup");
+  let entries = mediations.concat(mektups);
+  return entries.map(entry => {
     return {
       params: {slug: entry.slug}, props: {entry,},
     }});
   }
-
   const {entry} = Astro.props;
   const {Content, remarkPluginFrontmatter} = await entry.render();
 
