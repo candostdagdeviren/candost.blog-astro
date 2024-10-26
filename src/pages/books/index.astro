@@ -1,9 +1,7 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
-import getPostsByYear from "../../utils/getPostsByYear";
 import {sortPostsByDate} from "../../utils/sortPostsByDate";
 import {getCollectionByName} from "../../utils/getCollectionByName";
-import { formatDate } from "../../utils/formatDate";
 
 let posts = await getCollectionByName("books");
 
@@ -11,7 +9,7 @@ let sortedPosts = sortPostsByDate(posts);
 
 ---
 
-<IndexPage>
+<IndexPage frontmatter={{ comment: false }}>
   <h1 class="text-3xl fa-2x mb-5 mt-10">Book Notes</h1>
   <p class="mb-5">I share either a full book review or a single-chapter note from the books I read.</p>
 

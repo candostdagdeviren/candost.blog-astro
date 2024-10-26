@@ -8,7 +8,7 @@ const posts = await getAllContent();
 let tags = getUniqueTags(posts);
 
 ---
-<IndexPage>
+<IndexPage frontmatter={{ comment: false }}>
   <h1 class="text-3xl fa-2x mb-5 mt-10">Tags</h1>
   <div>
     {

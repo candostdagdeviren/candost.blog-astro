@@ -4,6 +4,7 @@ description: "The goal of modeling microservices is to have loose coupling and h
 date: 2021-01-23
 updateDate: 2021-01-23
 external: false
+toc: true
 ---
 
 This post is Chapter 3 of my notes from the book [Building Microservices: Designing Fine-Grained Systems](https://samnewman.io/books/building_microservices/).
