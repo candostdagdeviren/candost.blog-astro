@@ -1,0 +1,22 @@
+---
+
+import IndexPage from '../../layouts/IndexPage.astro'
+import { sortPostsByDate } from "../../utils/sortPostsByDate";
+import { getCollectionByName } from "../../utils/getCollectionByName";
+import FeedPreview from "../../components/FeedPreview.astro";
+
+let posts = await getCollectionByName("journal");
+posts = sortPostsByDate(posts);
+
+---
+
+<IndexPage frontmatter={{ comment: false }}>
+  <h1 class="text-3xl fa-2x mb-5 mt-10">Journal</h1>
+
+  <p class="mb-5">These are entries to my journal. Instead of posting (only) on social media, I decided to post them here. Entries include link to a post, a short comment about something, life update, etc.</p>
+
+  <p class="mb-10">You can get new entries in your favorite RSS reader via <a class="truncate cursor-pointr mt-1 header-link-active hover:text-skin-active" href="/journal/rss.xml">the dedicated RSS feed</a>.</p>
+  <div class="divider-horizontal"/>
+
+  {posts.map((post, index) => <FeedPreview post={post} index={index} />)}
+</IndexPage>

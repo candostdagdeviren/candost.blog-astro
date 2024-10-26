@@ -1,0 +1,30 @@
+---
+import {site} from "../consts";
+const currentPath = Astro.url.pathname;
+---
+
+  <a
+    class="inline-block truncate m-1 p-1 text-sm rounded header-link-active hover:text-skin-active"
+    href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${site.url}${currentPath}`
+    target=”_blank”>
+    Share your thoughts with me via email or comment below.
+  </a>
+
+<!-- <div class="border-l-4 my-4 p-4 border-l-skin-base bg-skin-card break-all">
+  {title ?
+    <div>{t('footer.articleTitle')}：{title}</div> : ''}
+  {
+    site.author ?
+      <div>{t('footer.articleAuthor')}：{site.author}</div> : ''
+  }
+
+  {
+    date ?
+      <div>{t('footer.releaseTime')}：{formatDate(date)}</div> : ''
+  }
+  {
+    site.url?   <div>
+      {t('footer.originalLink')}：<a href={site.url + '/' + url} class="hover:text-skin-active">{site.url + '/' + url}</a>
+    </div>: ''
+  }
+</div> -->

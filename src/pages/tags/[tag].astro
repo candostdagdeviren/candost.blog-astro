@@ -1,0 +1,43 @@
+---
+import IndexPage from "../../layouts/IndexPage.astro";
+import getUniqueTags from "../../utils/getUniqueTags";
+import getPostsByTag from "../../utils/getPostsByTag";
+import SearchTitle from "../../components/SearchTitle.astro";
+import {formatDate} from "../../utils/formatDate";
+import {sortPostsByDate} from "../../utils/sortPostsByDate";
+import { getAllContent } from "../../utils/getAllContent";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const posts = await getAllContent();
+  const tags = getUniqueTags(posts).filter((tag) => tag);
+  return tags.map((tag) => {
+    return {params: {tag,}, props: {tag,},};
+  });
+}
+const {tag} = Astro.props;
+let posts = await getAllContent();
+const tagPosts = getPostsByTag(posts, tag);
+const resultPosts = sortPostsByDate(tagPosts);
+---
+
+<IndexPage>
+  <SearchTitle label={tag}/>
+  <ul class="text-skin-base">
+    {
+      resultPosts.map((post) => (
+      <li style="list-style-type: disc;" class="ml-4 my-2">
+        <a href={post.collection == 'posts' ? "/" + post.slug : '/' + post.collection + '/' + post.slug}>
+          <span class="mr-4">
+            {formatDate(post.data.date)}
+          </span>
+          <span class="hover:text-skin-active">
+            {post.data.title}
+          </span>
+        </a>
+      </li>
+      ))
+    }
+  </ul>
+</IndexPage>

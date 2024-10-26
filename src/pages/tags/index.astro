@@ -1,0 +1,31 @@
+---
+import IndexPage from "../../layouts/IndexPage.astro";
+import getUniqueTags from "../../utils/getUniqueTags";
+import { getAllContent } from "../../utils/getAllContent";
+import { t } from "../../i18n/utils";
+
+const posts = await getAllContent();
+let tags = getUniqueTags(posts);
+
+---
+<IndexPage frontmatter={{ comment: false }}>
+  <h1 class="text-3xl fa-2x mb-5 mt-10">Tags</h1>
+  <div>
+    {
+      tags.length > 0 && (
+      <div class="aside-widget mt-10">
+        <i class="ri-price-tag-3-line menu-icon"/>
+        {t('sidebar.tags')}
+      </div>
+      )
+    }
+    <div class="flex flex-wrap">
+      {
+        tags &&
+        tags.map((tag) =>
+        <a class="inline-block truncate m-1 border p-1 text-sm rounded hover:text-skin-active" title={tag} href={"/tags/" + tag}>{tag}</a>
+        )
+      }
+    </div>
+  </div>
+</IndexPage>

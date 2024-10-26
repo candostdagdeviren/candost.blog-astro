@@ -1,0 +1,74 @@
+---
+import IndexPage from "../../layouts/IndexPage.astro";
+import { formatDate } from "../../utils/formatDate";
+import { sortPostsByDate } from "../../utils/sortPostsByDate";
+import getPostsByTag from "../../utils/getPostsByTag";
+import { getAllContent } from "../../utils/getAllContent";
+
+let allPosts = await getAllContent();
+let mediations = getPostsByTag(allPosts, "mediations");
+let mektups = getPostsByTag(allPosts, "mektup");
+let sortedMediations = await sortPostsByDate(mediations);
+let sortedMektups = await sortPostsByDate(mektups);
+
+---
+
+<IndexPage frontmatter={{ comment: false }}>
+  <h1 class="text-3xl mb-5 mt-10">Mediations Newsletter</h1>
+  <p>I always feel like I'm mediating (or maybe negotiating) between multiple aspects and constraints of the complicated life and searching for the balance between leadership, software engineering, personal life, and the world.</p>
+  <p class="mt-5">I share my thoughts on my newsletter. I send posts, essays, articles, book notes, and podcast episodes as email via the same newsletter too. You can also get new letters to your favorite RSS reader via <a class="truncate cursor-pointr mt-1 header-link-active hover:text-skin-active" href="/newsletter/rss.xml">the dedicated RSS feed</a>.</p>
+
+  <form name="newsletter-subscription"  class="mt-10" netlify-honeypot="bot-field" netlify>
+    <p>
+      <p class="mb-5">You can give me your email and I can add you to my list.</p>
+
+      <input
+      type="email"
+      name="email"
+      placeholder="contact@candost.blog"
+      class="font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 border focus:outline-none dark:focus:ring-primary-blue"
+      style="color:black">
+
+      <button
+      type="submit"
+      class="bg-primary-yellow hover:bg-primary-blue focus:ring-4 focus:ring-primary-blue font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-primary-yellow dark:hover:bg-primary-green focus:outline-none dark:focus:ring-primary-blue"
+      style="color: rgb(62, 51, 85, 1);">
+      Add me to the list
+    </button>
+  </p>
+</form>
+<div>
+  <ul>
+
+    {
+      sortedMediations
+      .map((post) => (
+      <li style="list-style-type: disc;" class="ml-4 my-2">
+        <a class="flex text-l" href={post.collection == 'posts' ? '/' + post.slug : '/' + post.collection + '/' + post.slug}>
+          <span class="mr-5 text-l hover:none hover:none">{formatDate(post.data.date)} </span>
+          <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"><strong>{post.data.newsletterName} #{post.data.issueNumber}:&nbsp;</strong>{post.data.title}</span>
+        </a>
+      </li>
+      )
+      )}
+    </ul>
+  </div>
+  <div>
+    <div class="divider-horizontal"/>
+    <p class="mb-10 mt-10">I used to write another newsletter called Mektup. They were casual letters reflecting my learnings and thoughts about software engineering leadership and life and was arriving every second Tuesday. I stopped Mektup and embedded into this blog.</p>
+    <p class="text-lg mb-5">You can see the archive of Mektup here:</p>
+
+    <ul>{
+      sortedMektups
+      .map((post) => (
+      <li style="list-style-type: disc;" class="ml-4 my-2">
+        <a class="flex text-l" href={'/newsletter/' + post.slug}>
+          <span class="mr-5 text-l hover:none hover:none">{formatDate(post.data.date)} </span>
+          <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">{post.data.title}</span>
+        </a>
+      </li>
+      )
+      )}
+    </ul>
+  </div>
+</IndexPage>

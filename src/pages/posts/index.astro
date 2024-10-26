@@ -1,0 +1,37 @@
+---
+import IndexPage from "../../layouts/IndexPage.astro";
+import getPostsByYear from "../../utils/getPostsByYear";
+import {sortPostsByDate} from "../../utils/sortPostsByDate";
+import {getCollectionByName} from "../../utils/getCollectionByName";
+import { formatDate } from "../../utils/formatDate";
+
+let posts = await getCollectionByName("posts");
+
+let sortedPosts = sortPostsByDate(posts);
+let resultPosts = getPostsByYear(sortedPosts);
+---
+
+<IndexPage frontmatter={{ comment: false }}>
+  <h1 class="text-3xl fa-2x mb-5 mt-10">Posts</h1>
+  You can get new posts in your favorite RSS reader via <a class="truncate cursor-pointr mt-1 header-link-active hover:text-skin-active" href="/posts/rss.xml">the dedicated RSS feed.</a>
+  {
+    Object.keys(resultPosts)
+      .sort((a, b) => Number(b) - Number(a))
+      .map((year) => (
+        <div>
+          <div class="text-2xl font-extrabold my-4">{year}</div>
+          <ul>
+            {resultPosts[year].map((post) => (
+              <li style="list-style-type: disc;" class="ml-4 my-2">
+                <a class="flex text-l" href={'/' + post.slug}>
+                  <span class="mr-5 text-l hover:none hover:none">{formatDate(post.data.date)} </span>
+                  <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">{post.data.title}</span>
+                </a>
+            </li>
+            ))}
+          </ul>
+        </div>
+      ))
+  }
+
+</IndexPage>

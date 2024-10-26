@@ -1,70 +1,34 @@
 import rss from "@astrojs/rss";
-import { blog } from "../../lib/markdoc/frontmatter.schema";
-import { readAll } from "../../lib/markdoc/read";
-import { SITE_TITLE, SITE_URL } from "../../config";
-import Markdoc from "@markdoc/markdoc";
+import {site} from "../../consts";
+import { getCollectionByName } from "src/utils/getCollectionByName";
+import sanitizeHtml from 'sanitize-html';
+import MarkdownIt from 'markdown-it';
+import { sortPostsByDate } from '../../utils/sortPostsByDate';
+const parser = new MarkdownIt();
 
 export async function GET() {
-  const posts = await readAll({
-    directory: "posts",
-    frontmatterSchema: blog,
-  });
+  const notes = await getCollectionByName("posts");
 
-  let baseUrl = SITE_URL;
+  let baseUrl = site.url;
   // removing trailing slash if found
   // https://example.com/ => https://example.com
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
-
-  const rssPosts = posts
-  .filter((p) => p.frontmatter.draft !== true)
-  .map(({ frontmatter, slug, content }) => {
-    if (frontmatter.external) {
-      const title = frontmatter.title;
-      const pubDate = frontmatter.date;
-      const link = frontmatter.externalUrl;
-      const description = "";
-
-      return {
-        title,
-        pubDate,
-        description,
-        content,
-        link,
-      };
-    }
-
-    const title = frontmatter.title;
-    const pubDate = frontmatter.date;
-    const description = frontmatter.description;
-    const link = `${baseUrl}/${slug}`;
-
-    return {
-      title,
-      pubDate,
-      description,
-      content,
-      link,
-    };
-  });
-
-  const rssItems = rssPosts
-  .sort(
-    (a, b) =>
-      new Date(b.pubDate).valueOf() -
-      new Date(a.pubDate).valueOf()
-  );
+  const rssNewsletters = sortPostsByDate(notes);
 
   return rss({
-    title: "Posts, Essays, and Articles on " + SITE_TITLE,
+    title: "Posts, Essays, and Articles on " + site.title,
     description: "Posts, Essays, Articles that I write in a longer form combining my notes, journal entries, book notes, and my comments, thoughts, etc.",
     site: baseUrl + "/posts",
     stylesheet: '/rss/pretty-feed.xsl',
-    items: rssItems.map((item) => {
-      return {
-        ...item,
-        content: Markdoc.renderers.html(item.content)
-      }
-    }),
+    items: rssNewsletters.map((entry) => ({
+      title: entry.data.title,
+      pubDate: entry.data.date,
+      description: entry.data.description ? entry.data.description : "",
+      link:`${baseUrl}/${entry.slug}/`,
+      content: sanitizeHtml(parser.render(entry.body), {
+        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
+      }),
+    })),
   });
 };

@@ -1,20 +1,24 @@
-/* eslint-disable turbo/no-undeclared-env-vars */
-import { defineConfig } from "astro/config";
-import sitemap from "@astrojs/sitemap";
-import tailwind from "@astrojs/tailwind";
-
-/*
-  We are doing some URL mumbo jumbo here to tell Astro what the URL of your website will be.
-  In local development, your SEO meta tags will have localhost URL.
-  In built production websites, your SEO meta tags should have your website URL.
-  So we give our website URL here and the template will know what URL to use
-  for meta tags during build.
-  If you don't know your website URL yet, don't worry about this
-  and leave it empty or use localhost URL. It won't break anything.
-*/
-import netlify from "@astrojs/netlify";
+import {defineConfig} from 'astro/config';
+import mdx from '@astrojs/mdx';
+import sitemap from '@astrojs/sitemap';
+import tailwind from '@astrojs/tailwind';
+import solid from '@astrojs/solid-js';
 import robotsTxt from "astro-robots-txt";
-const SERVER_PORT = 3000;
+import {remarkModifiedTime} from "./src/remarkPlugin/remark-modified-time.mjs";
+import {resetRemark} from "./src/remarkPlugin/reset-remark.js";
+import remarkDirective from "remark-directive";
+import {remarkAsides} from  './src/remarkPlugin/remark-asides.js'
+import {remarkCollapse} from "./src/remarkPlugin/remark-collapse.js";
+
+import expressiveCode from "astro-expressive-code";
+import {pluginLineNumbers} from '@expressive-code/plugin-line-numbers'
+
+import {visit} from 'unist-util-visit'
+import {pluginCollapsibleSections} from '@expressive-code/plugin-collapsible-sections'
+
+import netlify from '@astrojs/netlify';
+
+const SERVER_PORT = 4321;
 // the url to access your blog during local development
 const LOCALHOST_URL = `http://localhost:${SERVER_PORT}`;
 // the url to access your blog after deploying it somewhere (Eg. Netlify)
@@ -28,24 +32,38 @@ if (isBuild) {
   BASE_URL = LIVE_URL;
 }
 
+function customRehypeLazyLoadImage() {
+  return function (tree) {
+    visit(tree, function (node) {
+      if (node.tagName === 'img') {
+        node.properties['data-src'] = node.properties.src
+        node.properties.src = '/spinner.gif'
+        node.properties['data-alt'] = node.properties.alt
+        node.properties.alt = 'default'
+      }
+    })
+  }
+}
 
-// https://astro.build/config
 export default defineConfig({
+  site: BASE_URL,
   server: {
     port: SERVER_PORT
   },
-  site: BASE_URL,
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
-  },
   integrations: [
     sitemap(),
-    tailwind({
-      config: {
-        applyBaseStyles: false
-      }
+    tailwind(),
+    solid(),
+    expressiveCode({
+      plugins: [pluginLineNumbers(), pluginCollapsibleSections()],
+      themes: ["github-dark", "github-light"],
+      styleOverrides: {
+        codeFontFamily: "jetbrains-mono",
+        uiFontFamily: "jetbrains-mono",
+      },
+      themeCssSelector: (theme) => `[data-theme="${theme.type}"]`
     }),
+    mdx(),
     robotsTxt({
       policy: [
         {
@@ -74,8 +92,18 @@ export default defineConfig({
         },
       ]
     })
-],
-  output: "hybrid",
+  ],
+
+  markdown: {
+    remarkPlugins: [remarkModifiedTime, resetRemark, remarkDirective, remarkAsides({}),remarkCollapse({})],
+    rehypePlugins: [customRehypeLazyLoadImage],
+  },
+  vite: {
+    ssr: {
+      noExternal: ['nanoid']
+    }
+  },
+  output: 'server',
   adapter: netlify(),
   redirects: {
     "/favicon.png": "/favicon.ico",

@@ -1,0 +1,18 @@
+---
+import { Image } from "astro:assets";
+import {site, infoLinks} from "../consts";
+---
+
+<div class="shadow-lg rounded-lg h-64 w-auto flex flex-col items-center justify-center bg-skin-card p-2">
+  <Image width={64} height={64} class="avatar mb-4" src={site.avatar} alt="avatar" loading="lazy"/>
+  <div class="mb-2 text-center">{site.motto}</div>
+  <div class="flex items-center justify-center flex-wrap">
+    {
+      infoLinks.map((infoItem) => (
+      <a title={infoItem.name} href={infoItem.outlink} target="_blank" aria-label={infoItem.name}>
+        <i class={infoItem.icon + " text-2xl mr-2 cursor-pointer"}/>
+      </a>
+      ))
+    }
+  </div>
+</div>

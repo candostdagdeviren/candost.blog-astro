@@ -1,0 +1,11 @@
+---
+import IndexPage from "../../layouts/IndexPage.astro";
+let posts = await Astro.glob("./about.md");
+let {Content, frontmatter} = posts[0];
+---
+
+<IndexPage frontmatter={frontmatter}>
+  <article class="markdown-body">
+    <Content/>
+  </article>
+</IndexPage>
