@@ -41,7 +41,13 @@ if (sortPosts[currentPostIndex + 1]) {
 ---
 <BlogPost frontmatter={entry.data}>
   <div>
-    <PostTitle slug={`/notes/${entry.slug}`} {...entry.data} lastModified={formatDate(entry.data.updateDate)} readingTime={readingTime}></PostTitle>
+    <PostTitle
+      {...entry.data}
+      title={`${entry.data.zettelId}: ${entry.data.title}`}
+      slug={`/notes/${entry.slug}`}
+      lastModified={formatDate(entry.data.updateDate)}
+      readingTime={readingTime}
+      ></PostTitle>
     <div class="divider-horizontal"></div>
     <article class="markdown-body">
       <Content/>
