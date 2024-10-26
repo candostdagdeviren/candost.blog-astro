@@ -10,7 +10,7 @@ I was using Javascript and wasn’t happy with the language. Even if it has a lo
 
 Javascript is a big world, and there are millions of ways to do [one thing](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f). So, I decided to give Swift a shot for server-side development. I tried Kitura [at first](/new-horizons-with-server-side-swift/). Because naming was similar to Express.js and Koa.js. After some time, I realized naming is not the issue at that moment. While all frameworks getting better, Kitura has a lot of missing features even now. But I learned a lot of things while working with Kitura, though. Then, I decided to go with Vapor. It’s more complete and it looks like it’s ready for production.
 
-In this article, I speak about creating a backend API for a small and beautiful iOS game called [Kaucuk](https://appsto.re/de/48TAhb.i). As an iOS developer with a small amount of backend experience, I’ll try to focus on getting things ready for production. I won’t focus on the web frontend side and also the basics of Vapor. You can check out the [documentation](https://docs.vapor.codes/2.0/) for basics.
+In this article, I speak about creating a backend API for a small and beautiful iOS game called [Kaucuk](https://appsto.re/de/48TAhb.i). As an iOS developer with a small amount of backend experience, I’ll try to focus on getting things ready for production. I won’t focus on the web frontend side and also the basics of Vapor. You can check out the [documentation](https://legacy.docs.vapor.codes/2.0/) for basics.
 
 ## Here we go
 
