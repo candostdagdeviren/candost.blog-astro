@@ -4,17 +4,13 @@ import PostTitle from "../../components/PostTitle.astro";
 import BlogFooter from '../../components/BlogFooter.astro'
 import Donate from '../../components/Donate.astro'
 import {donate} from "../../consts";
-import { getAllContent } from '../../utils/getAllContent';
-import getPostsByTag from '../../utils/getPostsByTag';
+import { getCollectionByName } from '../../utils/getCollectionByName';
 
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const blogEntries = (await getAllContent())
-  let mediations = getPostsByTag(blogEntries, "mediations");
-  let mektups = getPostsByTag(blogEntries, "mektup");
-  let entries = mediations.concat(mektups);
-  return entries.map(entry => {
+  let blogEntries = await getCollectionByName("newsletter");
+  return blogEntries.map(entry => {
     return {
       params: {slug: entry.slug}, props: {entry,},
     }});

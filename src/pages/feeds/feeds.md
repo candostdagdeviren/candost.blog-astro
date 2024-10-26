@@ -5,7 +5,7 @@ date: 2023-08-10
 updateDate: 2023-08-10
 ---
 
-
+# RSS Feeds
 Here is a list of RSS feeds on this blog you can follow and get all the new things I share on your favorite RSS feed application:
 
 - [Newsletter RSS](/newsletter/rss.xml): Includes only Mediations newsletter (and archive of Mektup newsletter). See all of them [here](/newsletter/).
