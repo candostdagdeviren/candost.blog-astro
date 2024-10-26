@@ -29,7 +29,7 @@ const categoryPosts = getPostsByCategory(posts, category);
 const resultPosts = sortPostsByDate(categoryPosts);
 ---
 
-<IndexPage frontmatter={{ comment: false }}>
+<IndexPage frontmatter={{ comment: false, title: category }}>
   <SearchTitle label={category}/>
   <ul class="text-skin-base">
     {

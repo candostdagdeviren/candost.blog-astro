@@ -46,7 +46,7 @@ In Xcode 12, here are the default Refactor shortcuts:
 
 ### Debugger
 
-I won’t get into details of LLDB debugger commands. I just want to suggest [a good tutorial](https://www.objc.io/issues/19-debugging/lldb-debugging/) on how to use the commands and [one great cheat sheet for LLDB commands](https://www.nesono.com/sites/default/files/lldb%20cheat%20sheet.pdf). One thing I want to mention is that if you get the following error while trying to access frame or similar things
+I won’t get into details of LLDB debugger commands. I just want to suggest [a good tutorial](https://www.objc.io/issues/19-debugging/lldb-debugging/) on how to use the commands and [one great cheat sheet for LLDB commands](https://www.nesono.com/blog/lldb-cheat-sheet/). One thing I want to mention is that if you get the following error while trying to access frame or similar things
 
 > error: property ‘frame not found on object of type ‘UIView *’ error: 1 errors parsing the expression
 

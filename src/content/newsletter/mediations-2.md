@@ -35,7 +35,7 @@ Maybe P.A.R.A. and Zettelkasten methods are something you've been looking for fo
 - [Subscribe Wherever You Get Your Content](https://blog.jim-nielsen.com/2023/subscribe-wherever-you-get-your-content/) - I thought about this post lately. That was one of the reasons I moved back to my blog because now, I have various RSS feeds that allow anyone to subscribe to my blog wherever they get their content.
 - [Honest Guide](https://www.youtube.com/@HONESTGUIDE) - Last week, we went to Prague. I remembered a few tricks I learned from this YouTube channel, and it has proved its usefulness again!
 - [The Monocle Companion: Fifty Essays For A Brighter Future](https://monocle.com/shop/product/2253737/the-monocle-companion-2/) - I bought this book recently, and I really enjoy reading essays in a book, like reading blog posts offline (so far, my favorite is "Have a Repertoire" by Rubert Bound).
-- [Dot-on Calendar](https://dot-on.de/products/neu-jahresplaner-classic-2023-mit-klebepunkten-querformat-100x69-cm) - The calendar I use to track my most important habits (writing, exercising, and practicing bass guitar) every day.
+- [Dot-on Calendar](https://dot-on.de/) - The calendar I use to track my most important habits (writing, exercising, and practicing bass guitar) every day.
 - [Modern Wisdom #662 - Gurwinder Bhogal — 18 Shocking Psychology Lessons to Understand Yourself](https://share.snipd.com/episode/c452bdba-5976-4e89-9dc4-4d14befb8fd6) — This podcast episode gave me a lot of things to think about. Will definitely listen to it again.
 
 ## Recently I thought about

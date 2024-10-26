@@ -9,7 +9,7 @@ let posts = await getCollectionByName("podcast");
 let sortedPosts = sortPostsByDate(posts);
 ---
 
-<IndexPage frontmatter={{ comment: false }}>
+<IndexPage frontmatter={{ comment: false, title: "Software World with Candost Podcast" }}>
   <h1 class="text-2xl fa-2x mb-5 mt-10">Software World with Candost Podcast</h1>
   <p class="mt-5">These are my short notes keep to myself. Yet, I want to make them publicly available.</p>
   <p class="mt-3">These notes are in my Slip-Box in my Zettelkasten.</p>
