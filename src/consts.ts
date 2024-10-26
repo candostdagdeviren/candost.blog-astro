@@ -201,7 +201,7 @@ export const comment = {
   enable: true,
   type: 'waline', // waline | giscus,
   walineConfig:{
-    serverUrl: "https://candostblog-comments.vercel.app",
+    serverUrl: "https://comments.candost.blog",
     lang: 'en',
     pageSize: 20,
     wordLimit: '',
