@@ -13,7 +13,7 @@ const {frontmatter = {comment: true, donate: false, toc: false, mathjax: false, 
 ---
 
 <html lang="en">
-<BaseHead mathjax={frontmatter.mathjax} mermaid={frontmatter.mermaid} />
+<BaseHead mathjax={frontmatter.mathjax} mermaid={frontmatter.mermaid} title = {frontmatter.title} description = {frontmatter.description}/>
 
 <body class="bg-skin-secondary">
   <Header/>
