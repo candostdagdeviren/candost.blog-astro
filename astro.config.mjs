@@ -117,7 +117,6 @@ export default defineConfig({
     "/articles/rss/": "/posts/rss.xml",
     "/articles/": "/posts/",
     "/essays/": "/posts/",
-    "/mektup": "/newsletter/",
     "/microblog-2022-12/": "/",
     "/short/": "/posts/",
     "/medium/": "/posts/",

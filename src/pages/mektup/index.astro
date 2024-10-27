@@ -1,0 +1,34 @@
+---
+import IndexPage from "../../layouts/IndexPage.astro";
+import { formatDate } from "../../utils/formatDate";
+import { sortPostsByDate } from "../../utils/sortPostsByDate";
+import getPostsByTag from "../../utils/getPostsByTag";
+import { getAllContent } from "../../utils/getAllContent";
+
+let allPosts = await getAllContent();
+let mektups = getPostsByTag(allPosts, "mektup");
+let sortedMektups = await sortPostsByDate(mektups);
+
+---
+
+<IndexPage frontmatter={{ comment: false, title: "Mektup Newsletter Newsletter" }}>
+  <h1 class="text-3xl mb-5 mt-10">Mektup Newsletter</h1>
+  <div>
+    <div class="divider-horizontal"/>
+    <p class="mb-10 mt-10">I used to write another newsletter called Mektup. They were casual letters reflecting my learnings and thoughts about software engineering leadership and life and was arriving every second Tuesday. I stopped Mektup and embedded into this blog.</p>
+    <p class="text-lg mb-5">You can see the archive of Mektup here:</p>
+
+    <ul>{
+      sortedMektups
+      .map((post) => (
+      <li style="list-style-type: disc;" class="ml-4 my-2">
+        <a class="flex text-l" href={'/newsletter/' + post.slug}>
+          <span class="mr-5 text-l hover:none hover:none">{formatDate(post.data.date)} </span>
+          <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">{post.data.title}</span>
+        </a>
+      </li>
+      )
+      )}
+    </ul>
+  </div>
+</IndexPage>
