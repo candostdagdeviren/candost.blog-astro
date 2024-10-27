@@ -6,6 +6,7 @@ import getCountByCategory from "../utils/getCountByCategory";
 import {sortPostsByDate} from "../utils/sortPostsByDate";
 import {site} from '../consts'
 import {t} from '../i18n/utils'
+import NewsletterForm from "./NewsletterForm.astro";
 const posts = await getCollectionByName('posts')
 let categoryCount = getCountByCategory(posts);
 let sortPosts = await sortPostsByDate(posts);
@@ -18,28 +19,11 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
     <i class="ri-newspaper-line menu-icon"></i>Mediations Newsletter
   </div>
   <div class="flex flex-col">
-    <form name="newsletter-subscription-home" netlify-honeypot="bot-field" netlify>
-      <p>
-        <p  class="mt-5" style="white-space:pre-wrap; word-break:break-word;"><em>Timeless insights into humans, software, and leadership.</em></p>
-        <p class="mt-5" style="white-space:pre-wrap; word-break:break-word;">Join hundreds of subscribers and learn how to live fully, feel accomplished and get your job done.</p>
-        <p class="mt-5 mb-5" style="white-space:pre-wrap; word-break:break-word;">Every second Tuesday. For free.</p>
-
-        <input
-        type="email"
-        name="email"
-        placeholder="contact@candost.blog"
-        class="font-medium rounded-lg text-sm px-5 py-3 mr-2 mb-2 border focus:outline-none dark:focus:ring-primary-blue"
-        style="color:black; width: 100%">
-
-        <button
-        type="submit"
-        class="bg-primary-yellow hover:bg-primary-blue focus:ring-4 focus:ring-primary-blue font-medium rounded-lg text-sm px-5 py-3 mr-2 mb-2 dark:bg-primary-yellow dark:hover:bg-primary-green focus:outline-none dark:focus:ring-primary-blue"
-        style="color: rgb(62, 51, 85, 1); width: 100%">
-        Try it
-      </button>
-    </p>
-  </form>
-</div>
+    <p  class="mt-5" style="white-space:pre-wrap; word-break:break-word;"><em>Timeless insights into humans, software, and leadership.</em></p>
+    <p class="mt-5" style="white-space:pre-wrap; word-break:break-word;">Join hundreds of subscribers and learn how to live fully, feel accomplished and get your job done.</p>
+    <p class="mt-5 mb-5" style="white-space:pre-wrap; word-break:break-word;">Every second Tuesday. For free.</p>
+    <NewsletterForm/>
+  </div>
 </div>
 <div>
   <div class="aside-widget mt-10 text-xl">

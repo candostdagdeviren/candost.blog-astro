@@ -6,6 +6,7 @@ import MenuIcon from './MenuIcon.astro'
 import {site, categories, infoLinks} from '../consts';
 import AsideIcon from "./SidebarIcon.astro";
 import { sortPostsByDate } from "../utils/sortPostsByDate";
+import NewsletterForm from "./NewsletterForm.astro";
 const posts = await getCollectionByName('posts');
 let sortPosts = await sortPostsByDate(posts);
 let favorites = sortPosts.filter(post => post.data.favorite);
@@ -81,70 +82,53 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
         <div><i class="ri-newspaper-line menu-icon"></i>Mediations Newsletter</div>
       </div>
       <div class="flex flex-col">
-        <form name="newsletter-subscription-home" netlify-honeypot="bot-field" netlify>
-          <p class="flex">
-            <p  class="mb-2" style="white-space:pre-wrap; word-break:break-word;"><em>Timeless insights into humans, software, and leadership.</em></p>
-            <p class="mb-2" style="white-space:pre-wrap; word-break:break-word;">Join hundreds of subscribers and learn how to live fully, feel accomplished and get your job done.</p>
-            <p class="mb-2" style="white-space:pre-wrap; word-break:break-word;">Every second Tuesday. For free.</p>
+        <p  class="mb-2" style="white-space:pre-wrap; word-break:break-word;"><em>Timeless insights into humans, software, and leadership.</em></p>
+        <p class="mb-2" style="white-space:pre-wrap; word-break:break-word;">Join hundreds of subscribers and learn how to live fully, feel accomplished and get your job done.</p>
+        <p class="mb-2" style="white-space:pre-wrap; word-break:break-word;">Every second Tuesday. For free.</p>
+        <NewsletterForm/>
+      </div>
+    </div>
 
-            <input
-            type="email"
-            name="email"
-            placeholder="contact@candost.blog"
-            class="font-medium rounded-lg text-sm px-5 py-3 mb-2 border focus:outline-none dark:focus:ring-primary-blue"
-            style="color:black; width: 100%">
-
-            <button
-            type="submit"
-            class="bg-primary-yellow hover:bg-primary-blue focus:ring-4 focus:ring-primary-blue font-medium rounded-lg text-xl mb-2 dark:bg-primary-yellow dark:hover:bg-primary-green dark:focus:ring-primary-blue"
-            style="color: rgb(62, 51, 85, 1); width: 100%; height: 50px;">
-            Try it
-          </button>
-        </p>
-      </form>
+    <div id="best-posts" class="mr-5 ml-5 mb-10">
+      <div class="aside-widget text-center flex-col text-xl">
+        <div><i class="ri-sparkling-line"></i>&nbsp;My Best Posts</div>
+      </div>
+      <div class="flex flex-col">
+        {
+          resultPosts.map((post) => (
+          <a
+          href={"/" + post.slug}
+          class="truncate cursor-pointr mt-1 hover:text-skin-active"
+          title={post.data.title}
+          >
+          {post.data.title}
+        </a>
+        ))
+      }
     </div>
   </div>
-
-  <div id="best-posts" class="mr-5 ml-5 mb-10">
-    <div class="aside-widget text-center flex-col text-xl">
-      <div><i class="ri-sparkling-line"></i>&nbsp;My Best Posts</div>
+  <div id="more" class="mr-5 ml-5">
+    <div class="aside-widget flex flex-col text-xl">
+      <div><i class="ri-user-search-line"></i>&nbsp;More About Candost</div>
     </div>
     <div class="flex flex-col">
-      {
-        resultPosts.map((post) => (
-        <a
-        href={"/" + post.slug}
-        class="truncate cursor-pointr mt-1 hover:text-skin-active"
-        title={post.data.title}
-        >
-        {post.data.title}
-      </a>
-      ))
-    }
-  </div>
-</div>
-<div id="more" class="mr-5 ml-5">
-  <div class="aside-widget flex flex-col text-xl">
-    <div><i class="ri-user-search-line"></i>&nbsp;More About Candost</div>
-  </div>
-  <div class="flex flex-col">
+      <a
+      href="/now/"
+      class="truncate cursor-pointr mt-1 hover:text-skin-active"
+      title=Now
+      >Now
+    </a>
     <a
-    href="/now/"
+    href="/about/"
     class="truncate cursor-pointr mt-1 hover:text-skin-active"
-    title=Now
-    >Now
+    title=About
+    >About
   </a>
   <a
-  href="/about/"
+  href="/blogroll"
   class="truncate cursor-pointr mt-1 hover:text-skin-active"
-  title=About
-  >About
-</a>
-<a
-href="/blogroll"
-class="truncate cursor-pointr mt-1 hover:text-skin-active"
-title=Blogroll
->Blogroll
+  title=Blogroll
+  >Blogroll
 </a>
 </div>
 </div>

@@ -4,6 +4,7 @@ import { formatDate } from "../../utils/formatDate";
 import { sortPostsByDate } from "../../utils/sortPostsByDate";
 import getPostsByTag from "../../utils/getPostsByTag";
 import { getAllContent } from "../../utils/getAllContent";
+import NewsletterForm from "../../components/NewsletterForm.astro";
 
 let allPosts = await getAllContent();
 let mediations = getPostsByTag(allPosts, "mediations");
@@ -15,26 +16,8 @@ let sortedMediations = await sortPostsByDate(mediations);
   <h1 class="text-3xl mb-5 mt-10">Mediations Newsletter</h1>
   <p>Timeless insights into humans, software, and leadership.</p>
   <p class="mt-5">Join hundreds of subscribers and learn how to live fully, feel accomplished and get your job done.</p>
-
-  <form name="newsletter-subscription"  class="mt-10" netlify-honeypot="bot-field" netlify>
-    <p>
-      <p class="mb-5">Every second Tuesday. For free.</p>
-
-      <input
-      type="email"
-      name="email"
-      placeholder="contact@candost.blog"
-      class="font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 border focus:outline-none dark:focus:ring-primary-blue"
-      style="color:black">
-
-      <button
-      type="submit"
-      class="bg-primary-yellow hover:bg-primary-blue focus:ring-4 focus:ring-primary-blue font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-primary-yellow dark:hover:bg-primary-green focus:outline-none dark:focus:ring-primary-blue"
-      style="color: rgb(62, 51, 85, 1);">
-      Try it
-    </button>
-  </p>
-</form>
+  <p>Every second Tuesday. For free.</p>
+  <NewsletterForm/>
 <div>
   <ul>
 
