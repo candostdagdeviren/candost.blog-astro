@@ -155,7 +155,7 @@ declare module 'astro:content' {
   slug: string;
   body: string;
   collection: "blog";
-  data: InferEntrySchema<"blog">;
+  data: any;
   render(): Render[".md"];
 }>;
 "books": {
@@ -356,7 +356,7 @@ declare module 'astro:content' {
   slug: string;
   body: string;
   collection: "feed";
-  data: InferEntrySchema<"feed">;
+  data: any;
   render(): Render[".md"];
 }>;
 "journal": {
@@ -1806,6 +1806,13 @@ declare module 'astro:content' {
   collection: "notes";
   data: any
 } & { render(): Render[".md"] };
+"37a.md": {
+	id: "37a.md";
+  slug: "37a";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
 "38.md": {
 	id: "38.md";
   slug: "38";
@@ -2982,6 +2989,69 @@ declare module 'astro:content' {
   collection: "notes";
   data: any
 } & { render(): Render[".md"] };
+"74.md": {
+	id: "74.md";
+  slug: "74";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"75.md": {
+	id: "75.md";
+  slug: "75";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"76.md": {
+	id: "76.md";
+  slug: "76";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"77.md": {
+	id: "77.md";
+  slug: "77";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"77a.md": {
+	id: "77a.md";
+  slug: "77a";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"77b.md": {
+	id: "77b.md";
+  slug: "77b";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"78.md": {
+	id: "78.md";
+  slug: "78";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"78a.md": {
+	id: "78a.md";
+  slug: "78a";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"79.md": {
+	id: "79.md";
+  slug: "79";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
 "8.md": {
 	id: "8.md";
   slug: "8";
@@ -4046,5 +4116,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../../src/content/config.js");
+	export type ContentConfig = never;
 }
