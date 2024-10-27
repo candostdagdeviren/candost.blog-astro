@@ -25,5 +25,3 @@ Think about a leader who speaks well. If they are extraordinary speakers, we mig
 Whoever succeeds in these three fronts succeeds in life. Growing in only one is already difficult, yet how can one become the best?
 
 I leave [here Patrick Winston’s lecture](https://www.youtube.com/watch?v=Unzc731iCUY). I highly recommend watching it.
-
-{% youtube url="https://www.youtube.com/embed/Unzc731iCUY" label="How to Speak" /%}
