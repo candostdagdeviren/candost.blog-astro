@@ -3,19 +3,19 @@ const { name, description, url } = Astro.props;
 ---
 
 <a
-  class="flex items-center h-24 shadow rounded-lg hover:cursor-pointer bg-skin-card w-auto p-2"
+  class="flex items-center h-30 shadow rounded-lg hover:cursor-pointer bg-skin-card w-auto p-2"
   href={url}
   target="_blank"
 >
 
   <div
-    style="height:80%"
-    class="flex flex-col justify-around"
+    style="height:90%; width:100%;"
+    class="flex flex-col justify-around w-fit hover:text-skin-active"
   >
-    <div title={name} class="font-bold">
+    <div title={name} class="font-bold w-fit">
       {name}
     </div>
-    <div title={description} class="text-sm">
+    <div title={description} class="text-sm text-balance text-pretty w-fit">
       {description}
     </div>
   </div>

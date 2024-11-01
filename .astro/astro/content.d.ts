@@ -155,7 +155,7 @@ declare module 'astro:content' {
   slug: string;
   body: string;
   collection: "blog";
-  data: any;
+  data: InferEntrySchema<"blog">;
   render(): Render[".md"];
 }>;
 "books": {
@@ -356,7 +356,7 @@ declare module 'astro:content' {
   slug: string;
   body: string;
   collection: "feed";
-  data: any;
+  data: InferEntrySchema<"feed">;
   render(): Render[".md"];
 }>;
 "journal": {
@@ -412,6 +412,13 @@ declare module 'astro:content' {
 "learn-how-to-work-with-average-talent.md": {
 	id: "learn-how-to-work-with-average-talent.md";
   slug: "learn-how-to-work-with-average-talent";
+  body: string;
+  collection: "journal";
+  data: any
+} & { render(): Render[".md"] };
+"missing-product-engineering-partnership.md": {
+	id: "missing-product-engineering-partnership.md";
+  slug: "missing-product-engineering-partnership";
   body: string;
   collection: "journal";
   data: any
@@ -4116,5 +4123,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("../../src/content/config.js");
 }

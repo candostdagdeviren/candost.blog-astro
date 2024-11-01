@@ -6,7 +6,7 @@ import  {blogrollList} from "../../consts";
 
 <IndexPage frontmatter={{ comment: false, title: "Blogroll" }}>
   <h1 class="text-3xl fa-2x mb-5 mt-10">Blogroll</h1>
-  <p class="mb-5">I follow these people, blogs, or newsletters very closely, mostly via RSS or email lists.</p>
+  <p class="mb-5">I follow these people, blogs, or newsletters very closely, mostly via RSS where available (or email lists).</p>
 
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
     {blogrollList ? blogrollList.map((blog) => <Blogroll {...blog} />) : ""}
