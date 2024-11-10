@@ -80,7 +80,8 @@ const {frontmatter = {comment: true, donate: false, toc: false, mathjax: false, 
     for (var i = 0; i < links.length; i++) {
       // 给每个链接标签添加 target 属性
       let names = links[i].getAttributeNames()
-      if (!names.includes('data-footnote-backref') && !names.includes('data-footnote-ref')) {
+      let url = links[i].getAttribute("href");
+      if (!names.includes('data-footnote-backref') && !names.includes('data-footnote-ref') && !url?.startsWith('/')) {
         links[i].setAttribute("target", "_blank");
         links[i].setAttribute("rel", "nofollow noreferrer");
       }
