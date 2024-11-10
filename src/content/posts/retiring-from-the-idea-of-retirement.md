@@ -3,8 +3,11 @@ title: "Retiring from The Idea of Retirement"
 description: "I changed my mind and will not wait for retirement. Instead, I will focus on aligning financial investments with activities I enjoy till my last breath."
 tags:
   - blog-post
+  - mediations
   - philosophy
   - personal-growth
+newsletterName: "Mediations"
+issueNumber: "9"
 date: 2024-09-14T16:30:00.000Z
 updateDate: 2024-09-14T16:30:00.000Z
 external: false
