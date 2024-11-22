@@ -7,7 +7,7 @@ tags:
   - mediations
 newsletterName: "Mediations"
 issueNumber: "9"
-date: 2024-11-22T06:10:00.000Z
+date: 2024-11-19T06:10:00.000Z
 updateDate: 2024-11-22T06:10:00.000Z
 external: false
 favorite: true
