@@ -3721,6 +3721,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"learn-the-rules-of-promotions.md": {
+	id: "learn-the-rules-of-promotions.md";
+  slug: "learn-the-rules-of-promotions";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "learning-cone-and-blame-spiral-the-case-of-blame-absorbers.md": {
 	id: "learning-cone-and-blame-spiral-the-case-of-blame-absorbers.md";
   slug: "learning-cone-and-blame-spiral-the-case-of-blame-absorbers";
