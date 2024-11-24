@@ -10,7 +10,7 @@ issueNumber: "9"
 date: 2024-11-19T06:10:00.000Z
 updateDate: 2024-11-22T06:10:00.000Z
 external: false
-favorite: true
+favorite: false
 ---
 
 Once in a while, I see someone struggling to get a promotion at work. They are frustrated and can’t figure out why they haven’t got the promotion. Questions like, “Why does it take too long? Why are they not promoting me even though I’m doing the job already?” fly in their heads. I was in that same situation before. Then, I moved to the side of “helping people get promotions” and learned a few things that helped me guide others and focus on the right things for my promotion.
