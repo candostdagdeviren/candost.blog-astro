@@ -95,7 +95,7 @@ If the case is rejected because you don’t have the skills or experience, it’
 
 When you look for career opportunities, don’t only focus on titles or promotions. **Look for what you can learn and what problems you can solve, even if that means you jump on something you have no idea about.**
 
-[Get used to being a junior and senior again and again](/journal/your-job-title-depends-on-the-organization/) **Being a junior is excellent.** Constantly seek out being the least knowledgeable person in the group. You will learn something you didn’t know every day.
+[Get used to being a junior and senior again and again.](/journal/your-job-title-depends-on-the-organization/) **Being a junior is excellent.** Constantly seek out being the least knowledgeable person in the group. You will learn something you didn’t know every day.
 
 **When you start applying what you have learned to solve the problems organizations face, promotion will come eventually.** Of course, always ask for it, but [don’t get too attached to it](/goals-and-existence/) when you can’t get it.
 
