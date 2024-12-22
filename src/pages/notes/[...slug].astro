@@ -2,12 +2,12 @@
 import {getCollection} from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro'
 import PostTitle from "../../components/PostTitle.astro";
-import BlogFooter from '../../components/BlogFooter.astro'
 import {getCollectionByName} from "../../utils/getCollectionByName";
 import Donate from '../../components/Donate.astro'
 import {donate} from "../../consts";
 import { formatDate } from '../../utils/formatDate';
 import { sortNotesByZettelId } from '../../utils/sortNotesByZettelId';
+import BlogFooterNote from '../../components/BlogFooterNote.astro';
 
 export const prerender = true;
 
@@ -87,7 +87,7 @@ if (sortPosts[currentPostIndex + 1]) {
       )
     }
   </div>
-  <BlogFooter title={entry.data.title} url={entry.collection == 'posts' ? entry.slug : entry.collection + '/' + entry.slug} date={entry.data.date}></BlogFooter>
+  <BlogFooterNote title={entry.data.title} url={entry.collection == 'posts' ? entry.slug : entry.collection + '/' + entry.slug} date={entry.data.date}></BlogFooterNote>
   {
     donate.enable && entry.data.donate &&
     <Donate></Donate>

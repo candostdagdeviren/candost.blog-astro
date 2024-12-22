@@ -1,0 +1,12 @@
+---
+import {site} from "../consts";
+const currentPath = Astro.url.pathname;
+---
+
+  <a
+    class="inline-block truncate m-1 p-1 text-sm rounded header-link-active hover:text-skin-active"
+    href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${site.url}${currentPath}`
+    target=”_blank”>
+    Share your thoughts with me via email.
+  </a>
+
