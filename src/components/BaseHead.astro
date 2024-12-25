@@ -5,6 +5,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const {mathjax = false, mermaid = false, title, description } = Astro.props
 let desc = description || site.description;
+let ogImage = '';
+if (title === site.title) {
+  ogImage = new URL(site.avatar, Astro.site?.href).href;
+}
 ---
 <head>
   <!-- Global Metadata -->
@@ -24,7 +28,7 @@ let desc = description || site.description;
   <meta property="og:url" content={Astro.url}/>
   <meta property="og:title" content={title}/>
   <meta property="og:description" content={desc}/>
-  <meta property="og:image" content={new URL(site.avatar, Astro.site?.href).href}/>
+  <meta property="og:image" content={ogImage}/>
   <meta property="og:image:alt" content={desc}/>
 
   <!-- Twitter -->
@@ -32,7 +36,7 @@ let desc = description || site.description;
   <meta property="twitter:url" content={Astro.url}/>
   <meta property="twitter:title" content={title}/>
   <meta property="twitter:description" content={desc}/>
-  <meta property="twitter:image" content={new URL(site.avatar, Astro.site?.href).href}/>
+  <meta property="twitter:image" content={ogImage}/>
 
   <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="msapplication-TileColor" content="#da532c"/>

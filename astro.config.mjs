@@ -16,8 +16,6 @@ import {pluginLineNumbers} from '@expressive-code/plugin-line-numbers'
 import {visit} from 'unist-util-visit'
 import {pluginCollapsibleSections} from '@expressive-code/plugin-collapsible-sections'
 
-import netlify from '@astrojs/netlify';
-
 const SERVER_PORT = 4321;
 // the url to access your blog during local development
 const LOCALHOST_URL = `http://localhost:${SERVER_PORT}`;
@@ -103,8 +101,7 @@ export default defineConfig({
       noExternal: ['nanoid']
     }
   },
-  output: 'server',
-  adapter: netlify(),
+  output: 'static',
   redirects: {
     "/favicon.png": "/favicon.ico",
     "/rss": "/rss.xml",
