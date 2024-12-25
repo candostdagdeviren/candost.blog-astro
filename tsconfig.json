@@ -6,7 +6,7 @@
       "es2020"
     ],
     "target": "es2019",
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": true,
     "isolatedModules": false,
     "resolveJsonModule": true,
     "sourceMap": true,
