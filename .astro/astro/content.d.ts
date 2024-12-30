@@ -4,6 +4,7 @@ declare module 'astro:content' {
 			Content: import('astro').MarkdownInstance<{}>['Content'];
 			headings: import('astro').MarkdownHeading[];
 			remarkPluginFrontmatter: Record<string, any>;
+			components: import('astro').MDXInstance<{}>['components'];
 		}>;
 	}
 }
@@ -260,6 +261,13 @@ declare module 'astro:content' {
 "microservices-and-their-benefits.md": {
 	id: "microservices-and-their-benefits.md";
   slug: "microservices-and-their-benefits";
+  body: string;
+  collection: "books";
+  data: any
+} & { render(): Render[".md"] };
+"psychology-of-money.md": {
+	id: "psychology-of-money.md";
+  slug: "psychology-of-money";
   body: string;
   collection: "books";
   data: any
