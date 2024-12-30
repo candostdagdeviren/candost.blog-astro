@@ -494,6 +494,13 @@ declare module 'astro:content' {
   collection: "journal";
   data: any
 } & { render(): Render[".md"] };
+"transparency-is-not-sharing-everything.md": {
+	id: "transparency-is-not-sharing-everything.md";
+  slug: "transparency-is-not-sharing-everything";
+  body: string;
+  collection: "journal";
+  data: any
+} & { render(): Render[".md"] };
 "your-job-title-depends-on-the-organization.md": {
 	id: "your-job-title-depends-on-the-organization.md";
   slug: "your-job-title-depends-on-the-organization";
@@ -1418,6 +1425,13 @@ declare module 'astro:content' {
 "23h.md": {
 	id: "23h.md";
   slug: "23h";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"23i.md": {
+	id: "23i.md";
+  slug: "23i";
   body: string;
   collection: "notes";
   data: any
@@ -2997,6 +3011,13 @@ declare module 'astro:content' {
   collection: "notes";
   data: any
 } & { render(): Render[".md"] };
+"69a.md": {
+	id: "69a.md";
+  slug: "69a";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
 "7.md": {
 	id: "7.md";
   slug: "7";
@@ -3035,6 +3056,13 @@ declare module 'astro:content' {
 "73.md": {
 	id: "73.md";
   slug: "73";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"73a.md": {
+	id: "73a.md";
+  slug: "73a";
   body: string;
   collection: "notes";
   data: any
@@ -3112,6 +3140,13 @@ declare module 'astro:content' {
 "80.md": {
 	id: "80.md";
   slug: "80";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"81.md": {
+	id: "81.md";
+  slug: "81";
   body: string;
   collection: "notes";
   data: any
