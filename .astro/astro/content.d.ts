@@ -1429,6 +1429,13 @@ declare module 'astro:content' {
   collection: "notes";
   data: any
 } & { render(): Render[".md"] };
+"23i.md": {
+	id: "23i.md";
+  slug: "23i";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
 "24.md": {
 	id: "24.md";
   slug: "24";
@@ -3004,6 +3011,13 @@ declare module 'astro:content' {
   collection: "notes";
   data: any
 } & { render(): Render[".md"] };
+"69a.md": {
+	id: "69a.md";
+  slug: "69a";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
 "7.md": {
 	id: "7.md";
   slug: "7";
@@ -3042,6 +3056,13 @@ declare module 'astro:content' {
 "73.md": {
 	id: "73.md";
   slug: "73";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"73a.md": {
+	id: "73a.md";
+  slug: "73a";
   body: string;
   collection: "notes";
   data: any
@@ -3119,6 +3140,13 @@ declare module 'astro:content' {
 "80.md": {
 	id: "80.md";
   slug: "80";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"81.md": {
+	id: "81.md";
+  slug: "81";
   body: string;
   collection: "notes";
   data: any
