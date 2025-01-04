@@ -494,6 +494,13 @@ declare module 'astro:content' {
   collection: "journal";
   data: any
 } & { render(): Render[".md"] };
+"transparency-is-not-sharing-everything.md": {
+	id: "transparency-is-not-sharing-everything.md";
+  slug: "transparency-is-not-sharing-everything";
+  body: string;
+  collection: "journal";
+  data: any
+} & { render(): Render[".md"] };
 "your-job-title-depends-on-the-organization.md": {
 	id: "your-job-title-depends-on-the-organization.md";
   slug: "your-job-title-depends-on-the-organization";
@@ -4054,6 +4061,13 @@ declare module 'astro:content' {
 "top-3-tips-for-planners.md": {
 	id: "top-3-tips-for-planners.md";
   slug: "top-3-tips-for-planners";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
+"transparency-over-context.md": {
+	id: "transparency-over-context.md";
+  slug: "transparency-over-context";
   body: string;
   collection: "posts";
   data: any
