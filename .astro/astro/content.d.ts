@@ -3946,6 +3946,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: any
 } & { render(): Render[".md"] };
+"seek-goals-that-will-change-how-you-live.md": {
+	id: "seek-goals-that-will-change-how-you-live.md";
+  slug: "seek-goals-that-will-change-how-you-live";
+  body: string;
+  collection: "posts";
+  data: any
+} & { render(): Render[".md"] };
 "separation-of-concerns-at-work.md": {
 	id: "separation-of-concerns-at-work.md";
   slug: "separation-of-concerns-at-work";
