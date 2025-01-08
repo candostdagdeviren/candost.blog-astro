@@ -1961,6 +1961,13 @@ declare module 'astro:content' {
   collection: "notes";
   data: any
 } & { render(): Render[".md"] };
+"3b7.md": {
+	id: "3b7.md";
+  slug: "3b7";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
 "3c.md": {
 	id: "3c.md";
   slug: "3c";
@@ -2321,6 +2328,13 @@ declare module 'astro:content' {
 "46f.md": {
 	id: "46f.md";
   slug: "46f";
+  body: string;
+  collection: "notes";
+  data: any
+} & { render(): Render[".md"] };
+"46g.md": {
+	id: "46g.md";
+  slug: "46g";
   body: string;
   collection: "notes";
   data: any
