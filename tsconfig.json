@@ -35,9 +35,10 @@
     "src/**/*.d.ts",
     "src/**/*.js",
     "src/**/*.ts",
+    ".astro/types.d.ts",
   ],
   "exclude": [
-    "src/**/.astro"
-
+    "src/**/.astro",
+    "dist",
   ]
 }
