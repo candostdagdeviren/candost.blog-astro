@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 const {entry} = Astro.props;
 const {Content, remarkPluginFrontmatter} = await entry.render();
 
-const lastModified = remarkPluginFrontmatter.lastModified
+const lastModified = entry.data.updateDate ?? remarkPluginFrontmatter.lastModified
 const readingTime = remarkPluginFrontmatter.readingTime
 
 const posts = await getCollectionByName("posts");

@@ -51,7 +51,7 @@ const {title, date, category, tags, lastModified = '', draft = false, readingTim
       lastModified && (
         <div class="divider-vertical"/>
         <i class="ri-calendar-check-fill"></i>
-        <div class="tag">{t('post.lastUpdated')} {lastModified}</div>
+        <div class="tag">{t('post.lastUpdated')} {formatDate(lastModified)}</div>
       )
     }
   </div>
