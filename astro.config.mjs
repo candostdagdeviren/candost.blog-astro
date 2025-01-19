@@ -135,7 +135,6 @@ export default defineConfig({
     "/how-to-reset-first-commit-in-git/)": "/how-to-reset-first-commit-in-git/",
     "/podcast/sw-19-the-software-architect-role-systems-and-architectural-thinking-1/": "https://candost.substack.com/p/19-software-architect-role-and-archicture",
     "/sw-19-the-software-architect-role-systems-and-architectural-thinking-1/": "https://candost.substack.com/p/19-software-architect-role-and-archicture",
-    "/sw-19-the-software-architect-role-systems-and-architectural-thinking-1": "https://candost.substack.com/p/19-software-architect-role-and-archicture",
     "/sw-25-live-pair-programming-open-source-and-building-communities-with-nick-taylor/": "https://candost.substack.com/p/25-live-pair-programming-open-source",
     "/podcast/sw-25-live-pair-programming-open-source-and-building-communities-with-nick-taylor/": "https://candost.substack.com/p/25-live-pair-programming-open-source",
     "/podcast/26-machine-learning-and-data-science-with-jesper-dramsch/": "https://candost.substack.com/p/26-machine-learning-and-data-science",

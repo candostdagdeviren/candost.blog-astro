@@ -6,7 +6,9 @@ export const getAllContent = async () => {
   let newsletter = await getCollectionByName('newsletter');
   let notes = await getCollectionByName('notes');
   let books = await getCollectionByName('books');
-  const all = [...posts, ...journal, ...newsletter, ...notes, ...books];
+  let de = await getCollectionByName('de');
+  let podcast = await getCollectionByName('podcast');
+  const all = [...posts, ...journal, ...newsletter, ...notes, ...books, ...de, ...podcast];
   if (all && all.length > 0 ) {
     return all.filter(({data}) => {
       return import.meta.env.PROD ? !data.draft : true

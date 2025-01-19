@@ -157,79 +157,73 @@ declare module 'astro:content' {
 	};
 
 	type DataEntryMap = {
-		"blog": Record<string, {
+		"books": Record<string, {
   id: string;
   render(): Render[".md"];
   slug: string;
   body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">;
-  rendered?: RenderedContent;
-  filePath?: string;
-}>;
-"books": Record<string, {
-  id: string;
-  body?: string;
   collection: "books";
-  data: any;
+  data: InferEntrySchema<"books">;
   rendered?: RenderedContent;
   filePath?: string;
 }>;
 "de": Record<string, {
   id: string;
-  body?: string;
-  collection: "de";
-  data: any;
-  rendered?: RenderedContent;
-  filePath?: string;
-}>;
-"feed": Record<string, {
-  id: string;
   render(): Render[".md"];
   slug: string;
   body: string;
-  collection: "feed";
-  data: InferEntrySchema<"feed">;
+  collection: "de";
+  data: InferEntrySchema<"de">;
   rendered?: RenderedContent;
   filePath?: string;
 }>;
 "journal": Record<string, {
   id: string;
-  body?: string;
+  render(): Render[".md"];
+  slug: string;
+  body: string;
   collection: "journal";
-  data: any;
+  data: InferEntrySchema<"journal">;
   rendered?: RenderedContent;
   filePath?: string;
 }>;
 "newsletter": Record<string, {
   id: string;
-  body?: string;
+  render(): Render[".md"];
+  slug: string;
+  body: string;
   collection: "newsletter";
-  data: any;
+  data: InferEntrySchema<"newsletter">;
   rendered?: RenderedContent;
   filePath?: string;
 }>;
 "notes": Record<string, {
   id: string;
-  body?: string;
+  render(): Render[".md"];
+  slug: string;
+  body: string;
   collection: "notes";
-  data: any;
+  data: InferEntrySchema<"notes">;
   rendered?: RenderedContent;
   filePath?: string;
 }>;
 "podcast": Record<string, {
   id: string;
-  body?: string;
+  render(): Render[".md"];
+  slug: string;
+  body: string;
   collection: "podcast";
-  data: any;
+  data: InferEntrySchema<"podcast">;
   rendered?: RenderedContent;
   filePath?: string;
 }>;
 "posts": Record<string, {
   id: string;
-  body?: string;
+  render(): Render[".md"];
+  slug: string;
+  body: string;
   collection: "posts";
-  data: any;
+  data: InferEntrySchema<"posts">;
   rendered?: RenderedContent;
   filePath?: string;
 }>;

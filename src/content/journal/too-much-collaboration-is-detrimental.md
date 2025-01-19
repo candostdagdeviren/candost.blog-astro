@@ -4,8 +4,6 @@ tags:
   - organizational-leadership
 date: 2025-01-17
 updateDate: 2025-01-17
-external: false
-draft: false
 ---
 
 Too much collaboration is detrimental.

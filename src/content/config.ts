@@ -1,29 +1,124 @@
 import {defineCollection, z} from 'astro:content';
 
-const blog = defineCollection({
+const books = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
     date: z.date(),
     tags: z.array(z.string()).or(z.string()).optional().nullable(),
-    category: z.array(z.string()).or(z.string()).default('uncategorized').nullable(),
     sticky: z.number().default(0).nullable(),
     mathjax: z.boolean().default(false).nullable(),
     mermaid: z.boolean().default(false).nullable(),
     draft: z.boolean().default(false).nullable(),
-    toc: z.boolean().default(true).nullable(),
-    donate: z.boolean().default(true).nullable(),
+    toc: z.boolean().default(false).nullable(),
+    donate: z.boolean().default(false).nullable(),
     comment: z.boolean().default(true).nullable(),
   }),
 });
 
-const feed = defineCollection({
+const journal = defineCollection({
+  type: 'content',
   schema: z.object({
-    date: z.date().or(z.string()).optional().nullable(),
-    donate: z.boolean().default(true),
-    comment: z.boolean().default(true),
-  })
-})
+    title: z.string(),
+    description: z.string().optional().nullable(),
+    date: z.date(),
+    tags: z.array(z.string()).or(z.string()).optional().nullable(),
+    sticky: z.number().default(0).nullable(),
+    mathjax: z.boolean().default(false).nullable(),
+    mermaid: z.boolean().default(false).nullable(),
+    draft: z.boolean().default(false).nullable(),
+    toc: z.boolean().default(false).nullable(),
+    donate: z.boolean().default(false).nullable(),
+    comment: z.boolean().default(true).nullable(),
+  }),
+});
 
-export const collections = {blog, feed};
+const newsletter = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional().nullable(),
+    date: z.date(),
+    tags: z.array(z.string()).or(z.string()).optional().nullable(),
+    sticky: z.number().default(0).nullable(),
+    mathjax: z.boolean().default(false).nullable(),
+    mermaid: z.boolean().default(false).nullable(),
+    draft: z.boolean().default(false).nullable(),
+    toc: z.boolean().default(false).nullable(),
+    donate: z.boolean().default(false).nullable(),
+    comment: z.boolean().default(true).nullable(),
+  }),
+});
+
+const notes = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    zettelId: z.string(),
+    description: z.string().optional().nullable(),
+    date: z.date(),
+    tags: z.array(z.string()).or(z.string()).optional().nullable(),
+    sticky: z.number().default(0).nullable(),
+    mathjax: z.boolean().default(false).nullable(),
+    mermaid: z.boolean().default(false).nullable(),
+    draft: z.boolean().default(false).nullable(),
+    toc: z.boolean().default(false).nullable(),
+    donate: z.boolean().default(false).nullable(),
+    comment: z.boolean().default(false).nullable(),
+  }),
+});
+
+const podcast = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional().nullable(),
+    date: z.date(),
+    tags: z.array(z.string()).or(z.string()).optional().nullable(),
+    sticky: z.number().default(0).nullable(),
+    mathjax: z.boolean().default(false).nullable(),
+    mermaid: z.boolean().default(false).nullable(),
+    draft: z.boolean().default(false).nullable(),
+    toc: z.boolean().default(false).nullable(),
+    donate: z.boolean().default(false).nullable(),
+    comment: z.boolean().default(true).nullable(),
+  }),
+});
+
+const posts = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional().nullable(),
+    date: z.date(),
+    tags: z.array(z.string()).or(z.string()).optional().nullable(),
+    sticky: z.number().default(0).nullable(),
+    mathjax: z.boolean().default(false).nullable(),
+    mermaid: z.boolean().default(false).nullable(),
+    draft: z.boolean().default(false).nullable(),
+    toc: z.boolean().default(false).nullable(),
+    favorite: z.boolean().default(false).nullable(),
+    donate: z.boolean().default(false).nullable(),
+    comment: z.boolean().default(true).nullable(),
+  }),
+});
+
+const de = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional().nullable(),
+    date: z.date(),
+    tags: z.array(z.string()).or(z.string()).optional().nullable(),
+    sticky: z.number().default(0).nullable(),
+    mathjax: z.boolean().default(false).nullable(),
+    mermaid: z.boolean().default(false).nullable(),
+    draft: z.boolean().default(false).nullable(),
+    toc: z.boolean().default(false).nullable(),
+    donate: z.boolean().default(false).nullable(),
+    comment: z.boolean().default(true).nullable(),
+  }),
+});
+
+export const collections = {books, journal, newsletter, notes, podcast, posts, de};
