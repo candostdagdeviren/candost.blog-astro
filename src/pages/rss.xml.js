@@ -14,7 +14,7 @@ export async function GET(context) {
     items: sortedBlog.map((post) => ({
       title: post.data.title,
       pubDate: post.data.date,
-      description: post.data.description? post.data.description : post.body.substring(0, 140).replace(/#/gi, "") + "...",
+      description: post.data.description? post.data.description : "",
       // Compute RSS link from post `slug`
       // This example assumes all posts are rendered as `/posts/[slug]` routes
       link: post.collection == 'posts' ? `/${post.slug}/` : `/${post.collection}/${post.slug}/`,
