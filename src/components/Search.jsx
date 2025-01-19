@@ -15,6 +15,7 @@ export function Search(props) {
       let filterBlogs = props.posts.filter(post =>
         _.toString(post.data.title).toLowerCase().includes(inputVal().toLowerCase())
         || _.toString(post.data.description).toLowerCase().includes(inputVal().toLowerCase())
+        || post.data.zettelId ? _.toString(post.data.zettelId).toLowerCase().includes(inputVal().toLowerCase()) : false
       )
       let cloneBlogs = _.cloneDeep(filterBlogs)
       const reg = new RegExp(e.target.value, 'gi')
@@ -59,7 +60,7 @@ export function Search(props) {
           <>
             <a
               class="text-xl underline-offset-4 decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 font-bold"
-              href={post.collection == 'posts' ? "" : '/' + post.collection + '/' + post.slug} innerHTML={post.data.title}>
+              href={post.collection == 'posts' ? post.slug : '/' + post.collection + '/' + post.slug} innerHTML={post.data.title}>
             </a>
             <div class="flex items-center">
               {post.data.date ?
