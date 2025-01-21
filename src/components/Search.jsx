@@ -15,7 +15,6 @@ export function Search(props) {
       let filterBlogs = props.posts.filter(post =>
         _.toString(post.data.title).toLowerCase().includes(inputVal().toLowerCase())
         || _.toString(post.data.description).toLowerCase().includes(inputVal().toLowerCase())
-        || post.data.zettelId ? _.toString(post.data.zettelId).toLowerCase().includes(inputVal().toLowerCase()) : false
       )
       let cloneBlogs = _.cloneDeep(filterBlogs)
       const reg = new RegExp(e.target.value, 'gi')
