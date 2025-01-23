@@ -18,7 +18,7 @@
 export const site = {
   title: 'Candost\'s Blog', // required
   favicon: '/favicon.png', // required
-  description: 'The personal website of Candost Dagdeviren', // required
+  description: 'Hunting timeless insights into humans and software and helping others on the way.', // required
   author: "Candost", // required
   avatar: '/avatar.jpg', // required
   url: 'https://candost.blog', // required
