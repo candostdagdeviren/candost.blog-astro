@@ -28,7 +28,7 @@ Many people think only of structural transparency, but what they need is content
 
 Although content-level transparency is a great approach, many organizations fail in this area. They manage information flow within hierarchical lines or social dynamics, which causes stress. People who cannot progress efficiently in their jobs also suffer from stress. Leaders (and managers) become bottlenecks of progress and cannot effectively delegate to their teams.
 
-However, delegation is the main enabler of growth in a leadership career. The more effectively a leader can delegate a job, the easier their lives will be. Successful delegation demands full transparency, so leaders must share all relevant information.
+However, delegation is the main enabler of growth in a leadership career. pThe more effectively a leader can delegate a job](/how-to-delegate-anything-successfully/), the easier their lives will be. Successful delegation demands full transparency, so leaders must share all relevant information.
 
 Contextual transparency is one of the main enablers of successful leadership. Any leader who wants to empower their teams and grow their impact must make context accessible so they can answer questions before they arise while allowing people to ask more.
 
