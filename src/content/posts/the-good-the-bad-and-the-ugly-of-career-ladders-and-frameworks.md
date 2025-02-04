@@ -58,7 +58,7 @@ The company strategy, size, and growth define how many staff+ engineers will be 
 
 Creating the career framework brings the responsibility to level people correctly. When there isn't any career ladder defined, people don't expect to be leveled correctly. But the mechanism itself creates the expectation. When this expectation is not managed correctly, it will cause a lot of headaches.
 
-The expectations will also be present about the opportunities. When engineers wish to climb the engineering career ladder, they will expect to get opportunities from the above level to learn and operate on the next level. Managers need to seek out, find and delegate these opportunities to engineers. However, these opportunities are rare. The more an engineer climbs the ladder, the fewer chances they will get.
+The expectations will also be present about the opportunities. When engineers wish to climb the engineering career ladder, they will expect to get opportunities from the above level to learn and operate on the next level. Managers need to seek out, find and [delegate](/how-to-delegate-anything-successfully/) these opportunities to engineers. However, these opportunities are rare. The more an engineer climbs the ladder, the fewer chances they will get.
 
 ## Difficulty: The Team Impacts The Promotion
 

@@ -29,7 +29,7 @@ The best leaders I've observed aim to create a culture where people
 - bring themselves to work as they are, and
 - help others deliver work effectively and efficiently.
 
-If the team is immature or full of inexperienced people, creating this culture takes immense time and energy from the leader. Leaders have to [let go of many responsibilities](/the-real-difficulty-of-engineering-leadership/), one by one, to succeed. Without having experienced engineers helping, they won’t be able to delegate anything. However, they have to find a way to let things go to increase their impact on the organization.
+If the team is immature or full of inexperienced people, creating this culture takes immense time and energy from the leader. Leaders have to [let go of many responsibilities](/the-real-difficulty-of-engineering-leadership/), one by one, to succeed. Without having experienced engineers helping, they won’t be able to delegate anything. However, [they have to find a way to let things go to increase their impact on the organization](/how-to-delegate-anything-successfully/).
 
 I get help from individual team members to manage the technical side. I provide them with context, bring clarity to the work, and make prioritization clear. Then, I coach them to find their way around. It's not as easy as it sounds, and I’m still trying to find the balance here. However, it all starts with holding regular 1:1s.
 
@@ -93,7 +93,7 @@ While we invest in people’s expertise through mentorships, workshops, and more
 
 ## Delegation for Career Growth
 
-Once people started building expertise and stepping up to lead initiatives, the next logical step was creating opportunities (especially for individual goals) through delegation. Delegation also has a side effect: investing in our own growth as managers.
+Once people started building expertise and stepping up to lead initiatives, the next logical step was creating opportunities (especially for individual goals) [through delegation](/how-to-delegate-anything-successfully/). Delegation also has a side effect: investing in our own growth as managers.
 
 As leaders, we often deliberately focus on things we do well. We take real care of our responsibilities, but these do not always necessarily contribute to our career growth.
 

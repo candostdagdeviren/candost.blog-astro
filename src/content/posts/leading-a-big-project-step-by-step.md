@@ -63,7 +63,7 @@ An EM needs to delegate system design to engineers, implementation to teams, and
 
 However, [​it’s common for EMs to manage everything themselves, try to be everywhere and have a say in every tiny decision, as their name is on the project’s success.​](/the-real-difficulty-of-engineering-leadership/) This approach is a recipe for disaster. If every decision needs to involve them, they become a bottleneck.
 
-I want to leave the topic of how and what to delegate for another post, but I want to mention a few essential things. **While delegating, EMs should ensure that the expectations are clear and that the other side understands what needs to be done and the timeframe.** [​EMs must answer every question when they delegate.​](/transparency-over-context/) Also, they must set enough guardrails; others must drive the work, but it’s okay to have a certain level of protection from possible mistakes.
+I want to leave the topic of how and what to delegate for another post (edit: [the post is here](/how-to-delegate-anything-successfully/)), but I want to mention a few essential things. **While delegating, EMs should ensure that the expectations are clear and that the other side understands what needs to be done and the timeframe.** [​EMs must answer every question when they delegate.​](/transparency-over-context/) Also, they must set enough guardrails; others must drive the work, but it’s okay to have a certain level of protection from possible mistakes.
 
 After delegating work to the teams and other individuals, the work evolves into full coordination and managing communication as the project progresses.
 
