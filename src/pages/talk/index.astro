@@ -1,0 +1,27 @@
+---
+import IndexPage from "../../layouts/IndexPage.astro";
+import NewsletterForm from "../../components/NewsletterForm.astro";
+
+
+---
+
+<IndexPage frontmatter={{ comment: false, title: "Thanks for listening!" }}>
+  <h1 class="text-3xl mb-5 mt-10">Thanks for listening!</h1>
+  <p>It's great to see that you would like to follow me or contact me.</p>
+
+  <h2 class="mt-10">How can you follow me?</h2>
+  <p class="mt-5">The best way to follow me is to join hundreds of subscribers and learn how to live fully, feel accomplished and get your job done.</p>
+  <p>Every second Tuesday. For free.</p>
+  <NewsletterForm/>
+
+  <p class="mt-5">If you use RSS reader, you can add <a class="truncate cursor-pointr mt-1 header-link-active hover:text-skin-active" href="/feeds">my RSS feed</a> to your RSS reader app.</p>
+  <div>
+
+  <p class="mt-5">If you like, you can also follow me <a class="truncate cursor-pointr mt-1 header-link-active hover:text-skin-active" href="https://linkedin.com/in/candost">on LinkedIn</a>.</p>
+
+  <h3 class="mt-10">How can you get in touch with me?</h3>
+  <p class="italic text-sm">I would love to receive your feedback about my talk. You can send me an email via contact [at]candostdagdeviren[dot]com. If you don't share any feedback in your email, I may not answer your email. :)</p>
+
+  <p>No sales pitches, no marketing emails please. I won't answer them.</p>
+  </div>
+</IndexPage>
