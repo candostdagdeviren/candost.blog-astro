@@ -15,7 +15,7 @@ export async function getStaticPaths() {
     return import.meta.env.PROD ? !data.draft : true
   });
   return blogEntries.map(entry => ({
-    params: {slug: entry.slug}, props: {entry,},
+    params: {slug: entry.slug}, props: {entry},
   }));
 }
 

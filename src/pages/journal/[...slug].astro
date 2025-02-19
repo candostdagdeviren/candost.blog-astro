@@ -3,7 +3,6 @@ import {sortPostsByDate} from "../..//utils/sortPostsByDate";
 import {getCollectionByName} from "../../utils/getCollectionByName";
 import BlogPost from '../../layouts/BlogPost.astro'
 import {comment} from "../../consts";
-import {formatDate} from '../../utils/formatDate'
 import PostTitle from "../../components/PostTitle.astro";
 import BlogFooter from "../../components/BlogFooter.astro";
 
@@ -22,11 +21,12 @@ const {Content} = await post.render();
 const posts = await getCollectionByName("journal");
 const sortPosts = sortPostsByDate(posts);
 
-let postUpdateDate = post.data.updateDate ? formatDate(post.data.updateDate) : '';
+let postUpdateDate = post.data.updateDate ?? remarkPluginFrontmatter.lastModified
 
 const currentPostIndex = sortPosts.findIndex(
-(postItem) => postItem.data.date === post.data.date
+(postItem) => postItem.data.title === post.data.title
 );
+
 let prevPost: any, nextPost: any;
 if (sortPosts[currentPostIndex - 1]) {
   prevPost = sortPosts[currentPostIndex - 1];

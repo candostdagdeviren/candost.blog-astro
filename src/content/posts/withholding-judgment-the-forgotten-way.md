@@ -6,8 +6,8 @@ tags:
   - decision-making
 newsletterName: "Mediations"
 issueNumber: "14"
-date: 2025-02-20T08:05:00.000Z
-updateDate: 2025-02-20T08:05:00.000Z
+date: 2025-02-20T05:05:00.000Z
+updateDate: 2025-02-20T05:05:00.000Z
 ---
 
 In recent years, I feel like we’ve been constantly forced to choose—agree or disagree, take a side, make a decision. [Silence is often interpreted as agreement](/dont-assume-consensus-in-the-absence-of-objection/). But what about when we simply can’t decide? What about the time we deliberately step back and choose the third way, the forgotten one—*withholding judgment?*

@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 const {entry} = Astro.props;
 const {Content, remarkPluginFrontmatter} = await entry.render();
 
-const readingTime = remarkPluginFrontmatter.readingTime
+const lastModified = entry.data.updateDate ?? remarkPluginFrontmatter.lastModified
 
 const posts = await getCollectionByName("notes");
 const sortPosts = sortNotesByZettelId(posts);
@@ -45,8 +45,8 @@ if (sortPosts[currentPostIndex + 1]) {
       {...entry.data}
       title={`${entry.data.zettelId}: ${entry.data.title}`}
       slug={`/notes/${entry.slug}`}
-      lastModified={formatDate(entry.data.updateDate)}
-      readingTime={readingTime}
+      lastModified={lastModified}
+      readingTime={remarkPluginFrontmatter.readingTime}
       ></PostTitle>
     <div class="divider-horizontal"></div>
     <article class="markdown-body">
