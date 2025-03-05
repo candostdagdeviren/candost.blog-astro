@@ -2,11 +2,12 @@
 import IndexPage from "../../layouts/IndexPage.astro";
 import {sortNotesByZettelId} from "../../utils/sortNotesByZettelId";
 import {getCollectionByName} from "../../utils/getCollectionByName";
-import { formatDate } from "../../utils/formatDate";
 
-let posts = await getCollectionByName("notes");
+let zettels = await getCollectionByName("notes");
+let slipBox = await Astro.glob("./slip-box-index.md");
+let {Content, frontmatter} = slipBox[0];
+let sortedPosts = sortNotesByZettelId(zettels);
 
-let sortedPosts = sortNotesByZettelId(posts);
 ---
 
 <IndexPage frontmatter={{ comment: false, title: "Zettelkasten Notes" }}>
@@ -17,11 +18,20 @@ let sortedPosts = sortNotesByZettelId(posts);
   <p class="mt-3">If you dive into notes, you'll see all notes are connected to each other but not all notes have sources linked to it. Many notes have references in my non-public Zettelkasten; I didn't want to open up those exact references because there is no value for anyone as they are not well-organized or well-written. Here, I only share the name of the resource instead of the exact reference (e.g., page number in a book).</p>
   <p class="mt-3">All notes have published and update dates. Published dates represent the time I added the note to my Zettelkasten. Yet, many notes has the exact same creation date because I moved my notes between different softwares (from Notion to Obsidian) and lost the creation dates during migration. 🤷</p>
 
-  <p class="mb-10 mt-10">You can get new notes in your favorite RSS reader via <a class="truncate cursor-pointr mt-1 header-link-active hover:text-skin-active" href="/notes/rss.xml">the dedicated RSS feed</a>.</p>
+  <p class="mb-10 mt-10">If you want, you can get new notes in your favorite RSS reader via <a class="truncate cursor-pointr mt-1 header-link-active hover:text-skin-active" href="/notes/rss.xml">the dedicated RSS feed</a>.</p>
 
   <div class="divider-horizontal"/>
-  <p class="fa-m mb-10 mt-10"><em>The notes are ordered squentially by their Zettel numbers, not chronologically.</em></p>
 
+  <h2 class="text-2xl fa-2x mb-5 mt-10">Slip Box Index</h2>
+  <div>
+    <article class="markdown-body">
+      <Content/>
+    </article>
+  </div>
+  <div class="divider-horizontal"/>
+
+  <h2 class="text-2xl fa-2x mb-5 mt-10">All Notes</h2>
+  <p class="fa-m mb-10 mt-10"><em>Here are all notes are ordered squentially by their Zettel numbers, not chronologically.</em></p>
   <div>
     <ul>
       {
