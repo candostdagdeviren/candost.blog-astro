@@ -70,7 +70,7 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
   - how-to-manage-conversations: [44l](/notes/44l/); [46f](/notes/46f/); [66](/notes/66/);
   - how-to-manage-yourself: [74](/notes/74/); [16e](/notes/16e/);
   - how-to-prioritize: [66a](/notes/66a/); [72](/notes/72/); [72](/notes/72/);
-  - influencing-others: [20](/notes/20/); [3c](/notes/3c/); [32a](/notes/32a/); [44f](/notes/44f/); [44k](/notes/44k/); [20d](/notes/20d/); [20f](/notes/20f/); [20h](/notes/20h/); [20i](/notes/20i/); [19g](/notes/19g/);
+  - influencing-others: [20](/notes/20/); [3c](/notes/3c/); [32a](/notes/32a/); [44f](/notes/44f/); [44k](/notes/44k/); [20d](/notes/20d/); [20f](/notes/20f/); [20h](/notes/20h/); [20i](/notes/20i/); [19g](/notes/19g/); [77c](/notes/77c/);
   - listening: [53d](/notes/53d/);
   - learn-the-feedback-you-receive: [44l](/notes/44l/);
   - mentoring: [53](/notes/53/);
@@ -80,7 +80,7 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
   - psychological-safety: [54c](/notes/54c/); [20j](/notes/20j/);
   - relationship-management: [22a](/notes/22a/); [35](/notes/35/); [40a](/notes/40a/); [40b](/notes/40b/); [24a1](/notes/24a1/);
   - responsibility: [31c](/notes/31c/);
-  - stakeholder-management: [20f](/notes/20f/);
+  - stakeholder-management: [20f](/notes/20f/); [77c](/notes/77c/);
   - team-communication-strategies: [3e](/notes/3e/);
   - team-management: [6](/notes/6/); [7](/notes/7/); [24](/notes/24/); [4b](/notes/4b/); [19c](/notes/19c/); [53a1](/notes/53a1/); [53b](/notes/53b/); [3b7](/notes/3b7/);
 - #negotiation-of-a-job-offer: [90](/notes/90/);
