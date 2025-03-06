@@ -70,7 +70,6 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
   - how-to-manage-conversations: [44l](/notes/44l/); [46f](/notes/46f/); [66](/notes/66/);
   - how-to-manage-yourself: [74](/notes/74/); [16e](/notes/16e/);
   - how-to-prioritize: [66a](/notes/66a/); [72](/notes/72/); [72](/notes/72/);
-  - how-to-write-well: [2g](Mektup-/notes/49/);
   - influencing-others: [20](/notes/20/); [3c](/notes/3c/); [32a](/notes/32a/); [44f](/notes/44f/); [44k](/notes/44k/); [20d](/notes/20d/); [20f](/notes/20f/); [20h](/notes/20h/); [20i](/notes/20i/); [19g](/notes/19g/);
   - listening: [53d](/notes/53d/);
   - learn-the-feedback-you-receive: [44l](/notes/44l/);
@@ -129,5 +128,5 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
 - #why-mental-models-matter: [19f](/notes/19f/); [7b](/notes/7b/);
 - #why-recharging-matters: [62a](/notes/62a/);
 - #why-vulnerability-is-important: [33b](/notes/33b/);
-- #writing-handbook: [1](/notes/1/); [2](/notes/2/); [25](/notes/25/); [2g](Mektup-/notes/49/);
+- #writing-handbook: [1](/notes/1/); [2](/notes/2/); [25](/notes/25/);
 - #zettelkasten: [1a](/notes/1a/); [1d](/notes/1d/); [1e](/notes/1e/);
