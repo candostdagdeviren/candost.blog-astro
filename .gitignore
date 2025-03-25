@@ -5,3 +5,6 @@ node_modules
 dist/
 .netlify/
 .vscode/
+
+.cursor
+.cursorrules
