@@ -17,7 +17,7 @@ Some will leave. You’ll want to convince them to stay, follow you and help you
 
 When you offer them a better deal for them to stay, you think you’re doing best for the team and organization because you’ll struggle when the person is not there and thing will fall apart. Then, you’ll remember a phrase you’ve heard before and ask yourself many questions.
 
-As a leader, your job is not to retain people but to create an environment where they will want to stay.
+> As a leader, your job is not to retain people but to create an environment where they will want to stay.
 
 You’ll pause. Will gain another perspective. Suddenly you’ll realize that offering more was a mistake. Then, you’ll be fine with the person leaving. You’ll realize the person wasn’t fit for the environment and the culture you want to form in your changing organization. Either way, you’ll be better off without them going forward. No hard feelings. Then, you’ll realize the impact of the person in the organization. You’ll see the mistake you’ve made way earlier.
 
@@ -37,7 +37,7 @@ Now, you have a second chance. You’ll start looking for ways to build a strong
 
 It will be challenging, but one way or another, you’ll work on changing the culture by keeping in mind the phrase you remembered a while ago:
 
-As a leader, your job is not to retain people but to create an environment where they will want to stay.
+> As a leader, your job is not to retain people but to create an environment where they will want to stay.
 
 You’ll work tirelessly, thinking that you’ll reach that environment. However, that culture will only be half-working until the external environment changes again or until you make your next mistake. Once it happens, you’ll start all over again.
 
