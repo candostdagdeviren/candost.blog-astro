@@ -1,11 +1,8 @@
 ---
-import { Image } from "astro:assets";
-import {site, infoLinks} from "../consts";
+import {infoLinks} from "../consts";
 ---
 
-<div class="shadow-lg rounded-lg h-64 w-auto flex flex-col items-center justify-center bg-skin-card p-2">
-  <Image width={64} height={64} class="avatar mb-4" src={site.avatar} alt="avatar" loading="lazy"/>
-  <div class="mb-2 text-center">{site.motto}</div>
+<div class=" mt-10 h-auto-flex w-auto flex flex-col items-center justify-center p-2">
   <div class="flex items-center justify-center flex-wrap">
     {
       infoLinks.map((infoItem) => (

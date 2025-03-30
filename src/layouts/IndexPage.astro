@@ -24,8 +24,9 @@ const { frontmatter = { comment: false, donate: false } } = Astro.props;
         {comment.enable && frontmatter.comment && <Comment />}
       </div>
       <div class="hidden xl:block space-y-6">
-        <Profile />
         <BlogAside />
+        <Profile />
+
       </div>
     </div>
     <Footer />

@@ -24,8 +24,9 @@ const { frontmatter = { comment: true, donate: false, toc: false, mathjax: false
         {frontmatter.comment && comment.enable && <Comment />}
       </div>
       <div class="hidden xl:block col-span-1 relative">
-        <Profile />
         <BlogAside />
+        <Profile />
+
         {frontmatter.toc && <Toc />}
       </div>
       <ScrollToTop />

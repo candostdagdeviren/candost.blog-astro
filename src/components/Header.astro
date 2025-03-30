@@ -64,20 +64,7 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
     }
   </div>
   <div id="personal-info" class="hidden break-all overflow-y-auto pb-8" style="height: calc(100vh - 64px)">
-    <img class="avatar my-4 mx-auto" src={site.avatar} alt="avatar"/>
-    <div class="mb-2 ml-5 mr-5 text-center" style="white-space:pre-wrap; word-break:break-word;">{site.motto}</div>
-    <div class="flex items-center justify-center flex-wrap">
-      {
-        infoLinks.map((infoItem) => (
-        <a title={infoItem.name} href={infoItem.outlink} target="_blank">
-          <i class={infoItem.icon + " text-2xl mr-2 cursor-pointer"}/>
-        </a>
-        ))
-      }
-    </div>
-
-
-    <div id="newsletter" class="mr-5 ml-5 mb-10">
+      <div id="newsletter" class="mr-5 ml-5 mb-10">
       <div class="aside-widget mt-10 flex-col text-xl">
         <div><i class="ri-newspaper-line menu-icon"></i>Mediations Newsletter</div>
       </div>
@@ -131,6 +118,15 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
   >Blogroll
 </a>
 </div>
+</div>
+<div class="flex items-center justify-center flex-wrap mt-10">
+  {
+    infoLinks.map((infoItem) => (
+    <a title={infoItem.name} href={infoItem.outlink} target="_blank">
+      <i class={infoItem.icon + " text-2xl mr-2 cursor-pointer"}/>
+    </a>
+    ))
+  }
 </div>
 <!-- {
 Object.keys(categoryCount).length > 0 && (
