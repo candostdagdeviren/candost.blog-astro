@@ -4,10 +4,13 @@ import getPostsByYear from "../../utils/getPostsByYear";
 import {sortPostsByDate} from "../../utils/sortPostsByDate";
 import {getCollectionByName} from "../../utils/getCollectionByName";
 import { formatDate } from "../../utils/formatDate";
+import getPostsByTag from "../../utils/getPostsByTag";
 
 let posts = await getCollectionByName("posts");
+let newsletter = await getCollectionByName("newsletter");
+let mektups = getPostsByTag(newsletter, "mektup");
 
-let sortedPosts = sortPostsByDate(posts);
+let sortedPosts = sortPostsByDate(posts.concat(mektups));
 let resultPosts = getPostsByYear(sortedPosts);
 ---
 
