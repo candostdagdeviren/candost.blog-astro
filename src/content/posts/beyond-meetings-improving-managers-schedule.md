@@ -3,8 +3,11 @@ title: "Beyond Meetings—Improving My Schedule as a Manager"
 description: How I balance meetings, solo work, and reflection time. While meetings dominate, uninterrupted time for planning and spontaneous chats is crucial for managers.
 tags:
   - time-management
+  - mediations
 date: 2025-04-01T08:30:00.000Z
 updateDate: 2025-04-01T08:30:00.000Z
+newsletterName: "Mediations"
+issueNumber: "17"
 ---
 
 
