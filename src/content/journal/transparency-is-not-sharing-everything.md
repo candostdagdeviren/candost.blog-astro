@@ -8,7 +8,9 @@ external: false
 ---
 
 Transparency ≠ Saying everything
+
 Transparency = Sharing the full context
+
 Why do many leaders struggle with being transparent?
 
 They fall short of their egos. They want to make decisions. That's why they became leaders, right?
