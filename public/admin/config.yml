@@ -7,7 +7,7 @@ public_folder: "images/"
 collections:
   - name: "journal"
     label: "Journal"
-    folder: "content/journal"
+    folder: "src/content/journal"
     media_folder: "/public/images/content/journal"
     public_folder: "/images/content/journal"
     create: true
@@ -22,7 +22,7 @@ collections:
       - { label: "body", name: "body", widget: "markdown", required: false}
   - name: "books"
     label: "Books Notes"
-    folder: "content/books"
+    folder: "src/content/books"
     media_folder: "/public/images/content/books"
     public_folder: "/images/content/books"
     create: true
@@ -38,7 +38,7 @@ collections:
       - {label: "body", name: "body", widget: "markdown"}
   - name: "notes"
     label: "Notes"
-    folder: "content/notes"
+    folder: "src/content/notes"
     create: true
     media_folder: "/public/images/content/notes"
     public_folder: "/images/content/notes"
@@ -52,7 +52,7 @@ collections:
       - {label: "body", name: "body", widget: "markdown"}
   - name: "posts"
     label: "Posts"
-    folder: "content/posts"
+    folder: "src/content/posts"
     create: true
     media_folder: "/public/images/content/posts"
     public_folder: "/images/content/posts"
@@ -68,7 +68,7 @@ collections:
       - { label: "body", name: "body", widget: "markdown" }
   - name: "mediations"
     label: "Mediations"
-    folder: "content/newsletter/mediations"
+    folder: "src/content/newsletter"
     create: true
     media_folder: "/public/images/content/newsletter"
     public_folder: "/images/content/newsletter"
@@ -85,7 +85,7 @@ collections:
       - {label: "body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
-    folder: "content/pages"
+    folder: "src/pages"
     create: false
     media_folder: "/public/images/content/"
     public_folder: "/images/content/"
@@ -99,7 +99,7 @@ collections:
       - {label: "body", name: "body", widget: "markdown"}
   - name: "german"
     label: "German"
-    folder: "content/de"
+    folder: "src/content/de"
     media_folder: "/public/images/content/de"
     public_folder: "/images/content/de"
     create: true
