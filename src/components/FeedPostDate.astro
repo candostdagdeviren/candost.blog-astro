@@ -18,12 +18,11 @@ const { date, index } = Astro.props;
   class FeedPostDate extends HTMLElement {
     constructor() {
       super();
-      // 从 data（数据）属性中读取消息。
       const date = this.dataset.date;
       const index = this.dataset.index;
 
       let timeSpan = document.getElementsByClassName("postTimeEle");
-      let postDateFromNow = date ? dayjs(date).fromNow() : dayjs().format("YYYY-MM-DD");
+      let postDateFromNow = date ? dayjs(date).format("YYYY-MM-DD") : dayjs().format("YYYY-MM-DD");
       timeSpan[index].innerHTML = `${t('feed.publishedIn')} on ${postDateFromNow}`;
     }
   }

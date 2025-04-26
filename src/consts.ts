@@ -103,6 +103,12 @@ export const categories = [
         href: "/now/",
       },
       {
+        name: "Guestbook",
+        iconClass: "ri-contacts-book-2-line",
+        href: "/guestbook/",
+        target: '_self',
+      },
+      {
         name: 'Blogroll',
         iconClass: 'ri-user-5-line',
         href: '/blogroll',
