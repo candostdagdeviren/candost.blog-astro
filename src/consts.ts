@@ -176,7 +176,7 @@ export const comment = {
     lang: 'en',
     pageSize: 20,
     wordLimit: '',
-    count: 5,
+    count: 10,
     pageview: true,
     reaction: false,
     requiredMeta: ["nick", "mail"],

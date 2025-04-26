@@ -71,7 +71,7 @@ const notes = defineCollection({
     draft: z.boolean().default(false).nullable(),
     toc: z.boolean().default(false).nullable(),
     donate: z.boolean().default(false).nullable(),
-    comment: z.boolean().default(false).nullable(),
+    comment: z.boolean().default(true).nullable(),
   }),
 });
 

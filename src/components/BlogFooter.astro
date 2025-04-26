@@ -3,17 +3,18 @@ import {site} from "../consts";
 const currentPath = Astro.url.pathname;
 ---
 
-<div class="text-center my-3">
+<div class="my-3">
   <a
-    class="inline-block w-2/3 mx-auto text-center m-1 p-5 text-l rounded-lg shadow-md font-medium hover:opacity-90 transition-opacity"
+    class="inline-block w-2/5 mx-auto text-center m-1 p-3 text-l rounded-lg shadow-md font-medium hover:opacity-90 transition-opacity"
     style="background-color: rgb(var(--color-primary-yellow)); color: black;"
     href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${site.url}${currentPath}`
     target="_blank">
-    Reply via email.
+    Reply via email
   </a>
 
-  <p>or comment below.</p>
+  <p class="mt-3">or comment below.</p>
 </div>
+
 
 <!-- <div class="border-l-4 my-4 p-4 border-l-skin-base bg-skin-card break-all">
   {title ?

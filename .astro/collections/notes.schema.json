@@ -156,7 +156,7 @@
           "anyOf": [
             {
               "type": "boolean",
-              "default": false
+              "default": true
             },
             {
               "type": "null"
