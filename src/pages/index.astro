@@ -63,6 +63,7 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
   <div class="divider-horizontal"/>
 
   <a class="text-xl mb-5 mt-20 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/journal/">Journal</a>
+  <p>These posts are my casual entries that are not full blog posts. They include ideas, life updates, a link to a post, a short comment about something, and more.</p>
   <ul>
     {
       sortedJournals.map((journalEntry) => {
