@@ -17,7 +17,7 @@
 */
 export const site = {
   title: 'Candost\'s Blog', // required
-  favicon: '/favicon.png', // required
+  favicon: '/favicon.ico', // required
   description: 'Hunting timeless insights into humans and software and helping others on the way.', // required
   author: "Candost", // required
   avatar: '/avatar.jpg', // required
