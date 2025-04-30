@@ -2,7 +2,7 @@
 title: "My Experience Living Without Social Media"
 description: "How I stopped using Twitter, LinkedIn, Mastodon for 2+ months."
 date: 2023-04-13
-updateDate: 2024-07-07
+updateDate: 2025-04-30
 external: false
 favorite: true
 toc: true
@@ -68,11 +68,11 @@ I was still curious to hear from people I follow and didn’t want to miss out. 
 
 ## Results and Discussion
 
-Since I lifted the restriction, I have been logging in to either Twitter or LinkedIn not more than once a day. Checking them doesn’t come to my mind. And whenever I do, it usually takes me 1-3 minutes to scroll my Twitter feed as I only follow a handful of people, and the majority of them don’t even send a single tweet in months. Therefore, I can safely say that I broke the social media habit.
+Since I lifted the restriction, I have been logging in to either Twitter or LinkedIn not more than once a day. Checking them doesn’t come to my mind. And whenever I do, it usually takes me 1-3 minutes to scroll my Twitter feed as I only follow a handful of people, and the majority of them don’t even send a single tweet in months. Therefore, I can safely say that I broke the social media habit. (Edit: Later I realized, [it also impaired my learning](/social-media-impaired-my-learning/))
 
 After the experiment, I thought about deleting my Twitter account. I’m still thinking about it because from now on, I will probably rarely tweet something other than automated tweets of my articles. And Twitter never likes links and doesn’t promote these tweets to anyone. Yet, when I look at the statistics of my articles, I see a few people are reaching out to articles from Twitter. Hence, I’m intended to keep the account and only share links to my articles and occasionally check my inbox for new messages without consuming my feed. (Edit: I deleted my Twitter account in December 2023)
 
-Meanwhile, LinkedIn is a nightmare. There is no control mechanism on it at all. I tried to unfollow people on LinkedIn, and, oh boy, LinkedIn literally doesn’t want you to unfollow people without notifying them. I can see my connection list, but it doesn’t give me an option in that list to unfollow people while staying connected. I don’t want to remove connections with people; I want to unfollow them so I don’t see them in my feed (I don’t care about the posts they liked or found insightful). I can only unfollow them if I go into their profiles and LinkedIn sends the notification “Candost viewed your profile” when I do that. It looks like it will be a constant effort on LinkedIn to unfollow people whenever I see anything from them. Considering I have above 1000 connections, it will take time. I accepted my defeat on this front, but I won’t close my LinkedIn account as I use it for “professional” reasons.
+Meanwhile, LinkedIn is a nightmare. There is no control mechanism on it at all. I tried to unfollow people on LinkedIn, and, oh boy, LinkedIn literally doesn’t want you to unfollow people without notifying them. I can see my connection list, but it doesn’t give me an option in that list to unfollow people while staying connected. I don’t want to remove connections with people; I want to unfollow them so I don’t see them in my feed (I don’t care about the posts they liked or found insightful). I can only unfollow them if I go into their profiles and LinkedIn sends the notification “Candost viewed your profile” when I do that. It looks like it will be a constant effort on LinkedIn to unfollow people whenever I see anything from them. Considering I have above 1000 connections, it will take time. I accepted my defeat on this front, but I won’t close my LinkedIn account as I use it for “professional” reasons. (Edit: [I found a way to work with Linkedin](/living-without-algorithms/))
 
 Up to Mastodon. As I was still [new on Mastodon](https://hachyderm.io/@candost), I don’t think I will build a habit of posting regularly on Mastodon or consuming anything there. I follow a handful of people who are only on Mastodon, and my feed is not that dynamic. Also, I have control over my feed—unlike Twitter and LinkedIn—and it gives me confidence that I can manage easily and not become addicted to it. That’s why I decided to keep Mastodon as my main social media platform.
 
