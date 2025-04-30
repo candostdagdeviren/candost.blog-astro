@@ -54,63 +54,51 @@ export const config = {
 export const categories = [
   {
     name: "Home",
-    iconClass: "ri-draft-line",
     href: "/",
   },
   {
     name: "Posts",
-    iconClass: "ri-booklet-line",
     href: "/posts/",
   },
   {
     name: "Newsletter",
-    iconClass: "ri-newspaper-line",
     href: "/newsletter/",
   },
   {
     name: "Books",
-    iconClass: "ri-book-line",
     href: "/books/",
   },
   {
     name: "Notes",
-    iconClass: "ri-sticky-note-line",
     href: "/notes/",
   },
   {
     name: "Journal",
-    iconClass: "ri-pen-nib-fill",
     href: "/journal/",
   },
   {
     name: "More",
-    iconClass: "ri-more-fill",
     href: "javascript:void(0);",
     children: [
       {
         name: "Search",
-        iconClass: "ri-search-line",
         href: "/search",
       },
       {
         name: 'About',
-        iconClass: 'ri-user-smile-line',
         href: '/about',
       },
       {
         name: "Now",
-        iconClass: "ri-timer-flash-line",
         href: "/now/",
       },
       {
         name: "Guestbook",
-        iconClass: "ri-contacts-book-2-line",
         href: "/guestbook/",
         target: '_self',
       },
       {
         name: 'Blogroll',
-        iconClass: 'ri-user-5-line',
         href: '/blogroll',
         target: '_self',
       },

@@ -2,11 +2,9 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import Profile from '../components/Profile.astro';
 import BlogAside from '../components/BlogAside.astro';
 import Comment from '../components/Comment.astro';
-import Donate from '../components/Donate.astro';
-import { donate, comment } from "../consts";
+import { comment } from "../consts";
 
 const { frontmatter = { comment: false, donate: false } } = Astro.props;
 ---
@@ -20,12 +18,10 @@ const { frontmatter = { comment: false, donate: false } } = Astro.props;
     <div class="grid grid-cols-4 gap-8">
       <div class="col-span-4 xl:col-span-3 space-y-6">
         <slot />
-        {donate.enable && frontmatter.donate && <Donate />}
-        {comment.enable && frontmatter.comment && <Comment />}
+        {(frontmatter.comment && comment.enable) ? <Comment /> : null}
       </div>
       <div class="hidden xl:block space-y-6">
         <BlogAside />
-        <Profile />
 
       </div>
     </div>

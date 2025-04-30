@@ -37,15 +37,6 @@ const {title, date, category, lastModified = '', draft = false } = Astro.props
       ))
     }
 
-    <!-- tag -->
-    <!-- {
-      tags && dealLabel(tags).map((tagName) => (
-        <div class="divider-vertical"/>
-        <i class="ri-price-tag-3-line"/>
-        <a href={"/tags/" + tagName} class="text-wrap break-all hover:text-skin-active cursor-pointer">{tagName}</a>
-      ))
-    } -->
-
     <!-- update -->
     {
       lastModified && (

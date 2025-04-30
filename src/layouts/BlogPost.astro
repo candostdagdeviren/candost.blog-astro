@@ -2,11 +2,9 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import Profile from '../components/Profile.astro';
 import Comment from '../components/Comment.astro';
 import Toc from '../components/Toc.astro';
 import { comment } from "../consts";
-import ScrollToTop from '../components/ScrollToTop.astro';
 import BlogAside from '../components/BlogAside.astro';
 
 const { frontmatter = { comment: true, donate: false, toc: false, mathjax: false, mermaid: false } } = Astro.props;
@@ -21,15 +19,13 @@ const { frontmatter = { comment: true, donate: false, toc: false, mathjax: false
     <div class="grid grid-cols-4 gap-8">
       <div class="col-span-4 xl:col-span-3 space-y-4">
         <slot />
-        {frontmatter.comment && comment.enable && <Comment />}
+        {(frontmatter.comment && comment.enable) ? <Comment /> : null}
       </div>
       <div class="hidden xl:block col-span-1 relative">
         <BlogAside />
-        <Profile />
 
         {frontmatter.toc && <Toc />}
       </div>
-      <ScrollToTop />
     </div>
     <Footer />
   </main>

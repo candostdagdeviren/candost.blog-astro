@@ -1,22 +1,8 @@
 ---
 import {site, config} from "../consts";
-import {t} from '../i18n/utils'
 ---
 
 <div class="footer container p-4">
-  {
-    config.busuanzi && (
-    <div class="flex items-center justify-center text-skin-base">
-      <span id="busuanzi_container_site_pv">
-        {t('footer.busuanziSitePV')}<span id="busuanzi_value_site_pv"></span>{t('footer.busuanziSitePVUnit')}
-      </span>
-      <div class="divider-vertical"></div>
-      <span id="busuanzi_container_site_uv">
-        {t('footer.busuanziSiteUV')}<span id="busuanzi_value_site_uv"></span>{t('footer.busuanziSiteUVUnit')}
-      </span>
-    </div>
-    )
-  }
   <div class="flex items-center flex-wrap justify-center mb-4 text-skin-base">
     <div>
       <div class="mb-5">
