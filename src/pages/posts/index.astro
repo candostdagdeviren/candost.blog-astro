@@ -25,8 +25,8 @@ let resultPosts = getPostsByYear(sortedPosts);
             {resultPosts[year].map((post) => (
               <li style="list-style-type: disc;" class="ml-4 my-2">
                 <a class="flex text-l" href= {`/${post.collection === 'posts' ? post.slug : `${post.collection}/${post.slug}`}`}>
-                  <span class="mr-5 text-l hover:none hover:none">{formatDate(post.data.date)} </span>
-                  <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">{post.data.title}</span>
+                  <p class="mr-5 pr-5 text-l hover:none hover:none">{formatDate(post.data.date)} </p>
+                  <p class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">{post.data.title}</p>
                 </a>
             </li>
             ))}
