@@ -1,6 +1,6 @@
 ---
 title: "Social Media Impaired My Learning"
-description: "Transform complaints into action by asking, 'What do you expect from me?' Foster trust and focus on outcomes in your team."
+description: "Learning from social media was my excuse to keep consuming while lying down on my couch."
 tags:
   - mediations
   - social-media
