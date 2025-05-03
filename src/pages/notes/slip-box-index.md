@@ -25,7 +25,7 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
 - #how-to-build-friendship: [20m](/notes/20m/); [20n](/notes/20n/);
 - #how-to-build-resilience: [62a](/notes/62a/); [3b6a](/notes/3b6a/); [46h](/notes/46h/); [7a](/notes/7a/); [62b](/notes/62b/);
 - #how-to-convince-others: [20e](/notes/20e/); [44g1](/notes/44g1/); [9d](/notes/9d/);
-- #how-to-deal-with-ambiguity: [29b](/notes/29b/);
+- #how-to-deal-with-ambiguity: [29b](/notes/29b/); [7c](/notes/7c/);
 - #how-to-deal-with-people: [46g](/notes/46g/); [41b2](/notes/41b2/);
 - #how-to-delegate: [3c3a](/notes/3c3a/);
 - #how-to-form-a-community: [20l](/notes/20l/);
@@ -68,7 +68,7 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
   - how-to-guide-your-team: [53e](/notes/53e/); [4d](/notes/4d/); [44g1](/notes/44g1/); [87a](/notes/87a/);
   - how-to-hire: [90](/notes/90/);
   - how-to-manage-conversations: [44l](/notes/44l/); [46f](/notes/46f/); [66](/notes/66/);
-  - how-to-manage-yourself: [74](/notes/74/); [16e](/notes/16e/);
+  - how-to-manage-yourself: [74](/notes/74/); [16e](/notes/16e/); [7c](/notes/7c/);
   - how-to-prioritize: [66a](/notes/66a/); [72](/notes/72/); [72](/notes/72/);
   - influencing-others: [20](/notes/20/); [3c](/notes/3c/); [32a](/notes/32a/); [44f](/notes/44f/); [44k](/notes/44k/); [20d](/notes/20d/); [20f](/notes/20f/); [20h](/notes/20h/); [20i](/notes/20i/); [19g](/notes/19g/); [77c](/notes/77c/);
   - listening: [53d](/notes/53d/);
@@ -89,9 +89,10 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
   - #software-performance: [50](/notes/50/);
 - #note-taking: [1a](/notes/1a/);
 - #organizational-leadership: [84](/notes/84/);
-- #personal-growth: [29](/notes/29/); [30](/notes/30/); [27f1](/notes/27f1/); [41b](/notes/41b/); [46d](/notes/46d/); [46e](/notes/46e/); [30b1](/notes/30b1/); [30e](/notes/30e/); [52](/notes/52/); [65](/notes/65/); [29a](/notes/29a/);
+- #personal-growth: [29](/notes/29/); [30](/notes/30/); [41b](/notes/41b/); [46d](/notes/46d/); [46e](/notes/46e/); [30b1](/notes/30b1/); [30e](/notes/30e/); [52](/notes/52/); [29a](/notes/29a/);
   - breaking-habits: [38b](/notes/38b/);
   - experiences: [46d](/notes/46d/);
+  - learning: [7c](/notes/7c/); [27f1](/notes/27f1/); [65](/notes/65/);
   - values: [52](/notes/52/); [52b](/notes/52b/);
 - #professional-life: [13](/notes/13/);
   - #career-transition: [3b](/notes/3b/); [8a](/notes/8a/); [11](/notes/11/); [76](/notes/76/);

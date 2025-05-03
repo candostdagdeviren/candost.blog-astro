@@ -1,8 +1,9 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
 import { formatDate } from "../../utils/formatDate";
-let posts = await Astro.glob("./now.md");
-let {Content, frontmatter} = posts[0];
+import * as now from './now.md';
+
+let {Content, frontmatter} = now;
 ---
 
 <IndexPage frontmatter={frontmatter}>

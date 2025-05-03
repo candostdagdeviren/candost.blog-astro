@@ -2,10 +2,10 @@
 import IndexPage from "../../layouts/IndexPage.astro";
 import {sortNotesByZettelId} from "../../utils/sortNotesByZettelId";
 import {getCollectionByName} from "../../utils/getCollectionByName";
+import * as slipBox from './slip-box-index.md';
 
 let zettels = await getCollectionByName("notes");
-let slipBox = await Astro.glob("./slip-box-index.md");
-let {Content, frontmatter} = slipBox[0];
+let { Content } = slipBox;
 let sortedPosts = sortNotesByZettelId(zettels);
 
 ---
