@@ -17,7 +17,6 @@ export async function GET() {
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
   const rssNewsletters = sortPostsByDate(newsletters)
-  console.log(rssNewsletters);
   return rss({
     title: "Mediations",
     description: "I always feel like I'm mediating (or maybe negotiating) between multiple aspects and constraints of the complicated life and searching for the balance between leadership, software engineering, personal life, and the world. This is the feed of emails I send.",

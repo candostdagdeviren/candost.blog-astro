@@ -15,7 +15,6 @@ export async function GET() {
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
   const rssNewsletters = sortPostsByDate(notes)
-  console.log(rssNewsletters);
   return rss({
     title: "Candost's Zettelkasten Notes",
     description: "These are my short notes I like to keep to myself. Yet, I want to make them publicly available. These notes are part of my Slip-Box. I currently have hundreds of notes on my Zettelkasten and I will continue to open them up to public as much as I can.",
