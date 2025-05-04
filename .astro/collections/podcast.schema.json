@@ -24,6 +24,23 @@
             }
           ]
         },
+        "externalUrl": {
+          "anyOf": [
+            {
+              "anyOf": [
+                {
+                  "not": {}
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "date": {
           "anyOf": [
             {

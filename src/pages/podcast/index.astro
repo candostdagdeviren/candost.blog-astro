@@ -32,7 +32,7 @@ let sortedPosts = sortPostsByDate(posts);
             <span class="mr-4 text-l" style="float: left;">
               {formatDate(post.data.date)}
             </span>
-            <a class="flex text-l underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={post.data.externalUrl}>
+            <a class="flex text-l underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" target="_blank" href={post.data.externalUrl}>
               {post.data.title}
             </a>
           </div>

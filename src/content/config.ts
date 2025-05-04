@@ -80,6 +80,7 @@ const podcast = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
+    externalUrl: z.string().optional().nullable(),
     date: z.date(),
     updateDate: z.date().optional(),
     tags: z.array(z.string()).or(z.string()).optional().nullable(),

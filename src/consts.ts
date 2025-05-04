@@ -93,6 +93,11 @@ export const categories = [
         href: "/now/",
       },
       {
+        name: "Podcast",
+        href: "/Podcast/",
+        target: '_self',
+      },
+      {
         name: "Guestbook",
         href: "/guestbook/",
         target: '_self',
