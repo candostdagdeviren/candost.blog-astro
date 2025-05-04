@@ -7,8 +7,8 @@ There are Index Notes. These notes are a collection of other notes under one top
 
 Slip Box Index doesn't contain any link to other published articles; its mere focus is connecting ideas within the Slip Box.
 
-- #automatic-human-behavior: [20d](/notes/20d/); [30d1](/notes/30d1/); [20](/notes/20/)
-- #barriers-to-learning: [9b](/notes/9b/); [65](/notes/65/); [69a](/notes/69a/);
+- #automatic-human-behavior: [20d](/notes/20d/); [30d1](/notes/30d1/); [20](/notes/20/); [46j](/notes/46j/);
+- #barriers-to-learning: [9b](/notes/9b/); [65](/notes/65/); [69a](/notes/69a/); [46j](/notes/46j/);
 - #bias: [30b3](/notes/30b3/); [20h](/notes/20h/);
 - #decision-making: [3a](/notes/3a/); [19](/notes/19/); [30](/notes/30/); [32](/notes/32/); [30d](/notes/30d/); [30e](/notes/30e/); [52a](/notes/52a/); [19f](/notes/19f/); [68](/notes/68/); [20e](/notes/20e/); [68a](/notes/68a/); [3b6](/notes/3b6/);
 - #feedback-handbook: [6](/notes/6/); [7](/notes/7/);
@@ -17,7 +17,7 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
   - mechanisms: [31d](/notes/31d/); [36](/notes/36/);
   - receiving: [40](/notes/40/); [40a](/notes/40a/); [40c](/notes/40c/); [40d](/notes/40d/); [44b](/notes/44b/);
 - #investment/decision-making: [80](/notes/80/);
-- #goals: [24](/notes/24/); [30e](/notes/30e/); [30c](/notes/30c/); [68](/notes/68/); [46g](/notes/46g/);
+- #goals: [24](/notes/24/); [30e](/notes/30e/); [30c](/notes/30c/); [68](/notes/68/); [46g](/notes/46g/); [30c1](/notes/30c1/);
 - #habit-forming: [25](/notes/25/); [27](/notes/27/); [38a](/notes/38a/); [38a1](/notes/38a1/);
 - #habits-that-dont-die: [52c](/notes/52c/);
 - #how-best-performers-become-the-best: [62a](/notes/62a/); [62b](/notes/62b/); [54d](/notes/54d/); [81](/notes/81/);
@@ -25,15 +25,15 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
 - #how-to-build-friendship: [20m](/notes/20m/); [20n](/notes/20n/);
 - #how-to-build-resilience: [62a](/notes/62a/); [3b6a](/notes/3b6a/); [46h](/notes/46h/); [7a](/notes/7a/); [62b](/notes/62b/);
 - #how-to-convince-others: [20e](/notes/20e/); [44g1](/notes/44g1/); [9d](/notes/9d/);
-- #how-to-deal-with-ambiguity: [29b](/notes/29b/); [7c](/notes/7c/);
+- #how-to-deal-with-ambiguity: [29b](/notes/29b/); [7c](/notes/7c/); [46j](/notes/46j/);
 - #how-to-deal-with-people: [46g](/notes/46g/); [41b2](/notes/41b2/);
 - #how-to-delegate: [3c3a](/notes/3c3a/);
-- #how-to-form-a-community: [20l](/notes/20l/);
+- #how-to-form-a-community: [20l](/notes/20l/); [52a3](/notes/52a3/);
 - #how-to-get-buy-in: [20c](/notes/20c/); [44g2](/notes/44g2/);
 - #how-to-learn: [65](/notes/65/); [73a](/notes/73a/);
 - #how-to-rebuild: [42e](/notes/42e/);
 - #how-to-think-clearly: [30b3](/notes/30b3/); [20h](/notes/20h/); [7](/notes/7/); [29b](/notes/29b/);
-- #importance-of-friendship: [52d](/notes/52d/); [44g1](/notes/44g1/); [20l](/notes/20l/);
+- #importance-of-friendship: [52d](/notes/52d/); [44g1](/notes/44g1/); [20l](/notes/20l/); [52a3](/notes/52a3/);
 - #index-note:
   - [47-Software Architecture Styles Index](/notes/47/);
   - [48-System Design Index](/notes/48/);
@@ -44,7 +44,7 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
 - #learning-financial-world: [88](/notes/88/); [89](/notes/89/);
 - #life:
   - being-expat: [75](/notes/75/);
-  - change-your-perspective: [46](/notes/46/); [46h](/notes/46h/); [46i](/notes/46i/);
+  - change-your-perspective: [46](/notes/46/); [46h](/notes/46h/); [46i](/notes/46i/); [30c1](/notes/30c1/);
   - how-to-eliminate-prejudice: [46i](/notes/46i/);
 - #mental-health: [28](/notes/28/); [2b](/notes/2b/); [41b](/notes/41b/); [46b](/notes/46b/); [62a](/notes/62a/); [46f](/notes/46f/);
 - #management-handbook: [3](/notes/3/); [4](/notes/4/); [5](/notes/5/); [7](/notes/7/); [16](/notes/16/); [19](/notes/19/); [20](/notes/20/);
@@ -89,7 +89,7 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
   - #software-performance: [50](/notes/50/);
 - #note-taking: [1a](/notes/1a/);
 - #organizational-leadership: [84](/notes/84/);
-- #personal-growth: [29](/notes/29/); [30](/notes/30/); [41b](/notes/41b/); [46d](/notes/46d/); [46e](/notes/46e/); [30b1](/notes/30b1/); [30e](/notes/30e/); [52](/notes/52/); [29a](/notes/29a/);
+- #personal-growth: [29](/notes/29/); [30](/notes/30/); [41b](/notes/41b/); [46d](/notes/46d/); [46e](/notes/46e/); [30b1](/notes/30b1/); [30e](/notes/30e/); [52](/notes/52/); [29a](/notes/29a/);  [52a4](/notes/52a4/);
   - breaking-habits: [38b](/notes/38b/);
   - experiences: [46d](/notes/46d/);
   - learning: [7c](/notes/7c/); [27f1](/notes/27f1/); [65](/notes/65/);
@@ -100,7 +100,7 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
 - #promotions: [5](/notes/5/); [24e](/notes/24e/);
 - #psychological-phenomenon: [4c](/notes/4c/); [30d1](/notes/30d1/); [44g2](/notes/44g2/);
 - #public-speaking: [17](/notes/17/); [18](/notes/18/); [17a](/notes/17a/); [2c](/notes/2c/); [17e](/notes/17e/);
-- #seeking-inconvenience: [1b](/notes/1b/); [1i](/notes/1i/); [67](/notes/67/);
+- #seeking-inconvenience: [1b](/notes/1b/); [1i](/notes/1i/); [67](/notes/67/); [1i1](/notes/1i1/); [46e1](/notes/46e1/);
 - #simplifying-ideas: [9c](/notes/9c/); [69a](/notes/69a/);
 - #software-engineering-handbook: [19a](/notes/19a/);
   - code-review: [21](/notes/21/);
@@ -118,16 +118,19 @@ Slip Box Index doesn't contain any link to other published articles; its mere fo
   - software-deployment: [26](/notes/26/);
   - quality-engineering: [39](/notes/39/); [50](/notes/50/);
 - #solving-complicated-problems: [9c](/notes/9c/);
-- #time-management: [16a](/notes/16a/); [16d](/notes/16d/); [16e](/notes/16e/); [72a](/notes/72a/); [72a](/notes/72a/);
+- #the-impact-of-technology: [91](/notes/91/);
 - #thinking-model: [42b](/notes/42b/);
+- #time-management: [16a](/notes/16a/); [16d](/notes/16d/); [16e](/notes/16e/); [72a](/notes/72a/); [72a](/notes/72a/); [91](/notes/91/);
 - #understanding-changes-in-growth: [12a](/notes/12a/);
 - #understanding-growth: [9b](/notes/9b/);
 - #urban-architecture: [70](/notes/70/);
-- #what-consistency-means: [52c](/notes/52c/); [38a1](/notes/38a1/);
+- #what-consistency-means: [52c](/notes/52c/); [38a1](/notes/38a1/); [46e1](/notes/46e1/);
+- #what-prevents-us-from-becoming-better:[52a2](/notes/52a2/);
 - #what-to-be-careful-about-while-building-a-product: [29a](/notes/29a/); [39b](/notes/39b/);
 - #why-keep-decision-records: [42e](/notes/42e/);
 - #why-mental-models-matter: [19f](/notes/19f/); [7b](/notes/7b/);
 - #why-recharging-matters: [62a](/notes/62a/);
 - #why-vulnerability-is-important: [33b](/notes/33b/);
+- #why-we-exist: [1i1](/notes/1i1/);
 - #writing-handbook: [1](/notes/1/); [2](/notes/2/); [25](/notes/25/);
 - #zettelkasten: [1a](/notes/1a/); [1d](/notes/1d/); [1e](/notes/1e/);
