@@ -6,7 +6,7 @@ updateDate: 2023-05-16
 external: false
 ---
 
-When I look back at the topics I covered in Mektup, I wrote about energy and time management, habits, multitasking, mentoring, remote work, process thinking, and many more. If I take one step back, a challenge becomes visible: I'm in the middle of all, trying to navigate, mediate and negotiate within some constraints to find my way. That's why I renamed this blog to _Mediations_ (not _Medi**t**ations_). Today, I will talk about how to understand and work with constraints in our work life.
+When I look back at the topics I covered in [Mektup](/mektup/), I wrote about energy and time management, habits, multitasking, mentoring, remote work, process thinking, and many more. If I take one step back, a challenge becomes visible: I'm in the middle of all, trying to navigate, mediate and negotiate within some constraints to find my way. That's why I renamed my newsletter to [_Mediations_](/newsletter/) (not _Medi**t**ations_), and on this post, I want to talk about how to understand and work with constraints in our work life.
 
 If we look at constraints from a higher perspective, time, people, and money are the biggest ones. Whatever we want to do, we are dependent on time and other people. We all have working hours (constrained by how much money we earn, less money = less time) to achieve a goal. How much a team achieves in these hours decides the team's success. Moreover, anyone in the team is also constrained by others to deliver their work in collaboration. Thus, we must find ways to understand these constraints and find an optimal solution, just like we do in software engineering.
 
@@ -22,7 +22,7 @@ We were taught the economy of scale: the more, the merrier. Especially industry 
 
 We can think about everything we do as a system that operates independently. The global economy is a system in the same way a country's economy or a company is a system. Each system is part of a bigger system, has its subsystems, and, at the same time, works semi-independently of other systems.
 
-A software engineering team is also a system. It has its own processes, projects, working style, resources, [people](/newsletter/mektup-35/), rhythm, and limitations. The output of this system is what the team delivers. Adding one more engineer to an already-full team will increase only one parameter—the number of engineers. However, it *may* or *may not* increase delivery capacity due to increased complexity in processes, communication, and team rituals.
+A software engineering team is also a system. It has its own processes, projects, working style, resources, [people](/newsletter/mektup-35/), rhythm, and limitations. The output of this system is what the team delivers. Adding one more engineer to an already-full team will increase only one parameter—the number of engineers. However, it _may_ or _may not_ increase delivery capacity due to increased complexity in processes, communication, and team rituals.
 
 Many organizations assume they will operate well if they hire more people. I believe this thinking is flawed. If a team has enough engineers, the constraints are somewhere else. If the team is staffed, they will still have many other challenges in delivery.
 
@@ -36,9 +36,9 @@ In the post's title, I said, "Love the constraints" because these constraints dr
 
 There is no other way than to love all these changing constraints if we want to lead people to success in turbulent times. Any leader (or aspiring leader) must spend time finding out the constraints (albeit they won't find all, some black boxes need to stay as black boxes). Once the constraints are visible, creating a strategy and driving the team to success is much easier. Knowing them is like seeing the path and obstacles clearly in a hurdle. We might not become the winner and get a gold medal in every race, but we can definitely complete the race without falling.
 
-***P.S.** I recommend reading Thinking in Systems by Donella Meadows to learn more about how systems work and how to understand them and not be victims.*
+_**P.S.** I recommend reading Thinking in Systems by Donella Meadows to learn more about how systems work and how to understand them and not be victims._
 
-***P.P.S.** After two and a half years and 53 issues, [Mektup](/newsletter/) says goodbye to its readers. Mediations will be the only newsletter from now on (including occasional book notes). The archive of Mektup is always available.*
+_**P.P.S.** After two and a half years and 53 issues, [Mektup](/newsletter/) says goodbye to its readers. Mediations will be the only newsletter from now on (including occasional book notes). The archive of Mektup is always available._
 
 > _There_ are _no separate systems_. The _world_ is a _continuum_. Where to _draw_ a _boundary around_ a _system depends_ on the _purpose_ of the _discussion_.
 > — Donella Meadows.
