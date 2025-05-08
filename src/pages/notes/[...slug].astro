@@ -19,12 +19,13 @@ export async function getStaticPaths() {
 }
 
 const {entry} = Astro.props;
+const slug = entry.slug;
 const {Content, remarkPluginFrontmatter} = await entry.render();
 
 const lastModified = entry.data.updateDate ?? remarkPluginFrontmatter.lastModified
 
-const posts = await getCollectionByName("notes");
-const sortPosts = sortNotesByZettelId(posts);
+const allNotes = await getCollectionByName("notes");
+const sortPosts = sortNotesByZettelId(allNotes);
 
 const currentPostIndex = sortPosts.findIndex(
 (postItem) => postItem.data.title === entry.data.title
@@ -36,6 +37,33 @@ if (sortPosts[currentPostIndex - 1]) {
 if (sortPosts[currentPostIndex + 1]) {
   nextPost = sortPosts[currentPostIndex + 1];
 }
+
+// Build backlinks
+const allLinks = {};
+const linkRegex = /\[.*?\]\((.*?)\)/g;
+
+allNotes.forEach((note) => {
+  const links = [...note.body.matchAll(linkRegex)];
+  if (links) {
+    links.forEach((link) => {
+      const linkUrl = link[1];
+
+      if (linkUrl) {
+        if (!allLinks[linkUrl]) {
+          allLinks[linkUrl] = [];
+        }
+        allLinks[linkUrl].push({
+          frontmatter: note.data,
+          url: `/notes/${note.slug}`
+        });
+      }
+    });
+  }
+});
+
+const pathname = `/notes/${slug}/`;
+const backlinks = allLinks[pathname] || [];
+
 ---
 <BlogPost frontmatter={entry.data}>
   <div>
@@ -49,6 +77,11 @@ if (sortPosts[currentPostIndex + 1]) {
     <div class="divider-horizontal"></div>
     <article class="markdown-body">
       <Content/>
+      <!-- Backlinks are part of the article -->
+      {backlinks.length > 0 && (<h4>This note is mentioned in: </h4>)}
+      {backlinks.length > 0 && backlinks.map((backlink) => (
+        <span><a href={backlink.url} class="cursor-pointer mt-1 hover:text-skin-active">{backlink.frontmatter.zettelId};</a> </span>
+      ))}
     </article>
     <div class="divider-horizontal"></div>
 
@@ -86,8 +119,4 @@ if (sortPosts[currentPostIndex + 1]) {
     }
   </div>
   <BlogFooter title={entry.data.title} url={entry.slug} date={entry.data.date}></BlogFooter>
-  <!-- {
-    donate.enable && entry.data.donate &&
-    <Donate></Donate>
-  } -->
 </BlogPost>
