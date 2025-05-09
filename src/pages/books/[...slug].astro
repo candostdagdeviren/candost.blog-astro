@@ -5,8 +5,6 @@ import PostTitle from "../../components/PostTitle.astro";
 import BlogFooter from '../../components/BlogFooter.astro'
 import {getCollectionByName} from "../../utils/getCollectionByName";
 import {sortPostsByDate} from "../../utils/sortPostsByDate";
-import Donate from '../../components/Donate.astro'
-import {donate} from "../../consts";
 
 export const prerender = true;
 
@@ -81,10 +79,6 @@ if (sortPosts[currentPostIndex + 1]) {
     }
   </div>
   <BlogFooter title={entry.data.title} url={entry.collection == 'posts' ? entry.slug : entry.collection + '/' + entry.slug} date={entry.data.date}></BlogFooter>
-  {
-    donate.enable && entry.data.donate &&
-    <Donate></Donate>
-  }
 </div>
 
 </BlogPost>

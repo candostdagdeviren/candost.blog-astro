@@ -1,11 +1,11 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
-import {sortPostsByDate} from "../../utils/sortPostsByDate";
-import {getCollectionByName} from "../../utils/getCollectionByName";
+import { sortPostsAlphabetically } from "../../utils/sortPostsAlphabetically";
+import { getCollectionByName } from "../../utils/getCollectionByName";
 
 let posts = await getCollectionByName("books");
 
-let sortedPosts = sortPostsByDate(posts);
+let sortedPosts = sortPostsAlphabetically(posts);
 
 ---
 

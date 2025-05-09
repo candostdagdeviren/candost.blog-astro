@@ -1,6 +1,7 @@
 ---
 import IndexPage from "../..//layouts/IndexPage.astro";
 import Blogroll from "../../components/Blogroll.astro";
+
 import  {blogrollList} from "../../consts";
 ---
 
@@ -9,6 +10,10 @@ import  {blogrollList} from "../../consts";
   <p class="mb-5">I follow these people, blogs, or newsletters very closely, mostly via RSS where available (or email lists).</p>
 
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
-    {blogrollList ? blogrollList.map((blog) => <Blogroll {...blog} />) : ""}
+    {blogrollList ? blogrollList.sort(
+        (a, b) => {
+          return a.name.localeCompare(b.name, 'en-US', { numeric: true });
+        })
+      .map((blog) => <Blogroll {...blog} />) : ""}
   </div>
 </IndexPage>

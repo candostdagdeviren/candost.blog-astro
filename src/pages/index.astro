@@ -4,7 +4,6 @@ import BlogPost from '../layouts/BlogPost.astro'
 import {getCollectionByName} from "../utils/getCollectionByName";
 import _ from 'lodash'
 import { sortPostsByDate } from '../utils/sortPostsByDate';
-import { formatDate } from '../utils/formatDate';
 
 let posts = await getCollectionByName("posts");
 let sortedPosts = await sortPostsByDate(posts).slice(0, site.homePageShowcaseSize);
@@ -41,6 +40,7 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
   <div class="divider-horizontal"/>
 
   <a class="text-xl mb-5 mt-20 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/posts/">Newest Posts</a>
+  <p>Here are the latest added posts:</p>
   <ul>
     {
       sortedPosts.map((post) => {
@@ -49,11 +49,6 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
           <a class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/' + post.slug}>
             <strong>{post.data.title}</strong>
           </a>
-          <div class="text-text-muted text-sm italic pt-1">
-            <time datetime={post.data.date.toISOString()}>
-              {formatDate(post.data.date)}
-            </time>
-          </div>
         </li>
         );
       })
@@ -63,7 +58,7 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
   <div class="divider-horizontal"/>
 
   <a class="text-xl mb-5 mt-20 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/journal/">Journal</a>
-  <p>These posts are my casual entries that are not full blog posts. They include ideas, life updates, a link to a post, a short comment about something, and more.</p>
+  <p>These posts are my casual entries that are not full blog posts. They include ideas, life updates, a link to a post, a short comment about something, and more. Here are the latest added entries:</p>
   <ul>
     {
       sortedJournals.map((journalEntry) => {
@@ -72,11 +67,6 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
           <a class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/journal/' + journalEntry.slug}>
             <strong>{journalEntry.data.title}</strong>
           </a>
-          <div class="text-text-muted text-sm italic pt-1">
-            <time datetime={journalEntry.data.date.toISOString()}>
-              {formatDate(journalEntry.data.date)}
-            </time>
-          </div>
         </li>
         );
       })
@@ -95,11 +85,6 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
           <a class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/notes/' + zettel.slug}>
             <strong>{zettel.data.zettelId}: {zettel.data.title}</strong>
           </a>
-          <div class="text-text-muted text-sm italic pt-1">
-            <time datetime={zettel.data.date.toISOString()}>
-              {formatDate(zettel.data.date)}
-            </time>
-          </div>
         </li>
         );
       })
@@ -109,7 +94,7 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
   <div class="divider-horizontal"/>
 
   <a class="text-xl mb-5 mt-20 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/books/">Book Notes </a>
-  <p>I share either a full book review or a single-chapter note from the books I read.</p>
+  <p>I share either a full book review or a single-chapter note from the books I read. Here are the latest added book notes:</p>
   <ul>
     {
       sortedBooks.map((note) => {
@@ -118,11 +103,6 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
           <a class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/books/' + note.slug}>
             <strong>{note.data.title}</strong>
           </a>
-          <div class="text-text-muted text-sm italic pt-1">
-            <time datetime={note.data.date.toISOString()}>
-              {formatDate(note.data.date)}
-            </time>
-          </div>
         </li>
         );
       })

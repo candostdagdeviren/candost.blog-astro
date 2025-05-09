@@ -1,0 +1,19 @@
+---
+import {dealLabel} from "../utils/dealLabel";
+const {title, tags } = Astro.props
+---
+
+<div class="border-b-1">
+  <!-- title -->
+  <h1 class="break-all text-xl font-bold" style="white-space:pre-wrap; word-break:break-word;">{title}</h1>
+
+  <div class="flex flex-wrap items-center my-2 space-x-2">
+     <!-- tag -->
+    {
+      tags && dealLabel(tags).map((tagName) => (
+        <i class="ri-price-tag-3-line"/>
+        <a href={"/tags/" + tagName} class="text-wrap break-all hover:text-skin-active">{tagName}</a>
+      ))
+    }
+  </div>
+</div>

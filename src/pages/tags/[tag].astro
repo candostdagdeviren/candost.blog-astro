@@ -3,7 +3,6 @@ import IndexPage from "../../layouts/IndexPage.astro";
 import getUniqueTags from "../../utils/getUniqueTags";
 import getPostsByTag from "../../utils/getPostsByTag";
 import SearchTitle from "../../components/SearchTitle.astro";
-import {formatDate} from "../../utils/formatDate";
 import {sortPostsByDate} from "../../utils/sortPostsByDate";
 import { getAllContent } from "../../utils/getAllContent";
 
@@ -23,16 +22,13 @@ const resultPosts = sortPostsByDate(tagPosts);
 ---
 
 <IndexPage frontmatter={{title: tag}}}>
-  <h1 class="text-xl">Tag: {tag}</h1>
+  <h1 class="text-xl">Index: {tag}</h1>
   <SearchTitle label={tag}/>
   <ul class="text-skin-base">
     {
       resultPosts.map((post) => (
       <li style="list-style-type: disc;" class="ml-4 my-2">
         <a href={post.collection == 'posts' ? "/" + post.slug : '/' + post.collection + '/' + post.slug}>
-          <span class="mr-4">
-            {formatDate(post.data.date)}
-          </span>
           <span class="hover:text-skin-active">
             {post.data.title}
           </span>

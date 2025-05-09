@@ -23,7 +23,6 @@ export async function GET() {
     stylesheet: '/rss/pretty-feed.xsl',
     items: rssNewsletters.map((entry) => ({
       title: entry.data.title,
-      pubDate: entry.data.date,
       description: entry.data.description ? entry.data.description : "",
       link:`${baseUrl}/de/${entry.slug}/`,
       content: sanitizeHtml(parser.render(entry.body), {

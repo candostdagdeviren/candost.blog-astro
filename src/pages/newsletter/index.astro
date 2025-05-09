@@ -1,6 +1,5 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
-import { formatDate } from "../../utils/formatDate";
 import { sortPostsByIssueNumberDec } from "../../utils/sortByIssueNumber";
 import getPostsByTag from "../../utils/getPostsByTag";
 import { getAllContent } from "../../utils/getAllContent";
@@ -27,7 +26,6 @@ let sortedMediations = await sortPostsByIssueNumberDec(mediations);
       .map((post) => (
       <li style="list-style-type: disc;" class="ml-4 my-2">
         <a class="flex text-l" href={post.collection == 'posts' ? '/' + post.slug : '/' + post.collection + '/' + post.slug}>
-          <span class="mr-5 text-l hover:none hover:none">{formatDate(post.data.date)} </span>
           <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"><strong>{post.data.newsletterName} #{post.data.issueNumber}:&nbsp;</strong>{post.data.title}</span>
         </a>
       </li>

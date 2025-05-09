@@ -112,6 +112,7 @@ const posts = defineCollection({
     favorite: z.boolean().default(false).nullable(),
     donate: z.boolean().default(false).nullable(),
     comment: z.boolean().default(true).nullable(),
+    category: z.array(z.string()).or(z.string()).optional().nullable(),
   }),
 });
 

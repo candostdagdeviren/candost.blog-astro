@@ -1,7 +1,6 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
 import {getCollectionByName} from "../../utils/getCollectionByName";
-import { formatDate } from "../../utils/formatDate";
 import { sortPostsByDate } from "../../utils/sortPostsByDate";
 
 let posts = await getCollectionByName("podcast");
@@ -29,9 +28,6 @@ let sortedPosts = sortPostsByDate(posts);
         .map((post) => (
         <li style="list-style-type: disc;" class="ml-4 my-2">
           <div>
-            <span class="mr-4 text-l" style="float: left;">
-              {formatDate(post.data.date)}
-            </span>
             <a class="flex text-l underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" target="_blank" href={post.data.externalUrl}>
               {post.data.title}
             </a>
