@@ -1,6 +1,6 @@
 ---
 title: "The One with The Wrong Problem"
-description: "Reflection on how ego and stubbornness led to focusing on the wrong problem, and jhe journey of finding the right one."
+description: "Reflection on how ego and stubbornness led to focusing on the wrong problem, and the journey of finding the right one."
 tags:
   - leadership
   - personal-growth
