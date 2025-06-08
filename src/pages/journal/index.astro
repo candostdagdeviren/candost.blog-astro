@@ -15,7 +15,7 @@ posts = sortPostsByDate(posts);
 
   <p class="mb-5">One thing I miss about social media is posting short ideas or sharing links with others. So, I decided to bring them here. These are not full-fledged posts. Instead, it can be a draft idea, a link to a post, a short comment about something, a life update, etc.</p>
 
-  <p class="mb-10">You can get new entries in your favorite RSS reader via <a class="truncate cursor-pointr mt-1 header-link-active hover:text-skin-active" href="/journal/rss.xml">the dedicated RSS feed</a>.</p>
+  <p class="mb-10">You can get new entries in your favorite RSS reader via <a class="truncate cursor-pointer mt-1 header-link-active hover:text-skin-active" href="/journal/rss.xml">the dedicated RSS feed</a>.</p>
   <div class="divider-horizontal"/>
 
   {posts.map((post, index) => <FeedPreview post={post} index={index} />)}

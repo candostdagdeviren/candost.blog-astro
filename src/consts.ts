@@ -94,7 +94,7 @@ export const categories = [
       },
       {
         name: "Podcast",
-        href: "/Podcast/",
+        href: "/podcast/",
         target: '_self',
       },
       {
