@@ -91,7 +91,7 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
           resultPosts.map((post) => (
             <a
               href={"/" + post.slug}
-              class="truncate cursor-pointr mt-1 hover:text-skin-active"
+              class="truncate cursor-pointer mt-1 hover:text-skin-active"
               title={post.data.title}
             >
               {post.data.title}
@@ -107,35 +107,35 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
       <div class="flex flex-col">
         <a
           href="/now/"
-          class="truncate cursor-pointr mt-1 hover:text-skin-active"
+          class="truncate cursor-pointer mt-1 hover:text-skin-active"
           title="Now"
         >
           Now
         </a>
         <a
           href="/about/"
-          class="truncate cursor-pointr mt-1 hover:text-skin-active"
+          class="truncate cursor-pointer mt-1 hover:text-skin-active"
           title="About"
         >
           About
         </a>
         <a
           href="/podcast/"
-          class="truncate cursor-pointr mt-1 hover:text-skin-active"
+          class="truncate cursor-pointer mt-1 hover:text-skin-active"
           title="Podcast"
         >
           Podcast
         </a>
         <a
           href="/blogroll/"
-          class="truncate cursor-pointr mt-1 hover:text-skin-active"
+          class="truncate cursor-pointer mt-1 hover:text-skin-active"
           title="Blogroll"
         >
           Blogroll
         </a>
         <a
         href="/guestbook/"
-        class="truncate cursor-pointr mt-1 hover:text-skin-active"
+        class="truncate cursor-pointer mt-1 hover:text-skin-active"
         title="Guestbook"
       >
         Guestbook
@@ -143,7 +143,7 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
       <a
       href="https://linkedin.com/in/candost"
       target="_blank"
-      class="truncate cursor-pointr mt-1 hover:text-skin-active"
+      class="truncate cursor-pointer mt-1 hover:text-skin-active"
       title="Linkedin"
     >
       LinkedIn
