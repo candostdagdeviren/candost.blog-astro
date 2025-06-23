@@ -19,7 +19,7 @@
     "@expressive-code/plugin-line-numbers": "^0.41.2",
     "@fancyapps/ui": "^5.0.36",
     "@waline/client": "^3.5.7",
-    "astro": "^5.9.1",
+    "astro": "^5.10.0",
     "astro-expressive-code": "^0.41.2",
     "astro-robots-txt": "^1.0.0",
     "child_process": "^1.0.2",
