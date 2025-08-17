@@ -5,9 +5,10 @@ const ui = {
   en,
 }
 
-export function useTranslations(lang: keyof typeof ui) {
+export function useTranslations(lang: string) {
+  const safeLang: keyof typeof ui = (lang in ui ? (lang as keyof typeof ui) : 'en')
   return function t(key: string) {
-    return ui[lang][key] || ui[config.lang][key];
+    return ui[safeLang][key] || ui['en'][key];
   }
 }
 
