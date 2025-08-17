@@ -8,7 +8,7 @@ date: 2025-08-17T05:11:00.000Z
 updateDate: 2025-08-17T11:00:00.000Z
 ---
 
-When I wrote about how much I abstract myself from daily news ([1](/no-more-debate-with-latest-or-daily-news/), [2](my-experience-living-without-social-media), [3](/social-media-impaired-my-learning)), many people asked me how I can stop worrying about a gazillion things happening in the world. I pondered whether I had become numb. I found out, over time, that I developed a high level of attention to certain things and serenity to worry less about many, many others.
+When I wrote about how much I abstract myself from daily news ([1](/no-more-debate-with-latest-or-daily-news/), [2](/my-experience-living-without-social-media/), [3](/social-media-impaired-my-learning/)), many people asked me how I can stop worrying about a gazillion things happening in the world. I pondered whether I had become numb. I found out, over time, that I developed a high level of attention to certain things and serenity to worry less about many, many others.
 
 My attention became laser-focused on what’s in my immediate surroundings or what’s influencing them. Instead of worrying about what’s going on thousands of kilometers away, I narrowed down my worry to one to two thousand kilometers. I still care about what’s going on in far lands. Yet, I choose ignorance; I prefer not to hear them. When I say this aloud, it sounds wrong, doesn’t it?
 
