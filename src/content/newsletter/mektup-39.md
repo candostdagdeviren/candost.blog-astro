@@ -35,7 +35,7 @@ At that point, I realized that I like helping others do their jobs in the best w
 💫 Talk with your manager and work with them to grow your career in the direction you want. Even though you might not get a promotion, they will help you to learn a lot of stuff that you will need later.
 :::
 
-**I started [having 1:1s](https://candost.substack.com/p/22-effective-11-meetings-for-software) with my peers** and tried solving some of their problems.
+**I started [having one-on-ones](https://candost.substack.com/p/22-effective-11-meetings-for-software) with my peers** and tried solving some of their problems.
 
 Later on, I changed teams because my team was dissolved 🤷. _It was a setback._
 

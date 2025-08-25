@@ -45,7 +45,7 @@ While staying silent is unintuitive and challenging, learning when to shut up is
 > Oysters open completely when the moon is full; and when the crab sees one it throws a piece of stone or twig into it and the oyster cannot close again so that it serves the crab for meat. Such is the fate of him who opens his mouth too much and thereby puts himself at the mercy of the listener.
 > —Leonardo da Vinci, 1452–1519
 
-Learning when to talk is a long experiment, and I’m still progressing because it also changes from situation to situation and person to person. Especially in our 1:1s with people who report to me, I feel more comfortable with awkward silences because [I’m not facilitating the 1:1 meetings; the ownership is on the other side](/effective-1-on-1-meetings-own-your-one-on-one-meeting/). So, if there is an awkward silence, they usually bring up the next topic, and I often talk last.
+Learning when to talk is a long experiment, and I’m still progressing because it also changes from situation to situation and person to person. Especially in our one-on-ones with people who report to me, I feel more comfortable with awkward silences because [I’m not facilitating the 1:1 meetings; the ownership is on the other side](/effective-1-on-1-meetings-own-your-one-on-one-meeting/). So, if there is an awkward silence, they usually bring up the next topic, and I often talk last.
 
 In group meetings that I’m facilitating, it’s also not really challenging because I’m in that [facilitator’s seat](/newsletter/mektup-24/), and the responsibility of the moderator is moderating the meeting. The biggest challenge is when we discuss a problem or brainstorm solutions with a group.
 
@@ -69,7 +69,7 @@ As we don’t—and shouldn’t—have the authority of the French King Louis XI
 
 > Ministers and nobles would spend days debating on the state’s issues and finally arrive at a moment to present two different sides to Louis XIV. They were also spending a lot of time on how to best present, wordsmithing every sentence and deciding on what time of the day to approach Louis. Once they present, Louis would only say, “I shall see,” and walk away. Nobody would hear anything about the issue from him for days, sometimes weeks, and they would only see the results when he came to a decision to act.
 
-Acting like Louis is not an option for me and, I strongly believe, for other leaders in software companies. Silence is a balance to find, and it’s challenging. However, after you have the relationship built in and [have trust](/how-to-build-trust-in-a-team-as-a-new-manager/), leveraging the silence and creating room for others both in team meetings and in 1:1s get easier.
+Acting like Louis is not an option for me and, I strongly believe, for other leaders in software companies. Silence is a balance to find, and it’s challenging. However, after you have the relationship built in and [have trust](/how-to-build-trust-in-a-team-as-a-new-manager/), leveraging the silence and creating room for others both in team meetings and in one-on-ones get easier.
 
 Lastly, whenever you talk, choose your words wisely. Because their impact is almost always invisible to you.
 

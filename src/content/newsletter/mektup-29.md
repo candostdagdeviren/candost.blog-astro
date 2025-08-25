@@ -55,9 +55,9 @@ Understanding different circles and creating these relationships take time and e
 - If you have a topic you are passionate about, let everyone know. Your name should be attached to the topic. But don’t get stuck on one topic; regularly add new ones to your repertoire.
 - Increase your visibility by joining cross-team initiatives.
 - Become a host or moderator in a few meetings outside of your team.
-- Have random 1:1s with people in the next level.
-- Have regular but less frequent 1:1s with your skip-level managers.
-- Have sync 1:1s with your peers.
+- Have random one-on-ones with people in the next level.
+- Have regular but less frequent one-on-ones with your skip-level managers.
+- Have sync one-on-ones with your peers.
 
 The more touchpoints you have with the outer circle, the easier it will be for you to grow. **When you’re a leader, your goal is not to learn everything in the organization; it is to know who to go to when you have a question.** These people will eventually elevate you in the long run because you will solve problems faster and learn better. It will be a win for everyone.
 

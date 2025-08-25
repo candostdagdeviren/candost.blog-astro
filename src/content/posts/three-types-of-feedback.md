@@ -10,7 +10,7 @@ updateDate: 2023-02-01
 external: false
 ---
 
-We're at the end of the first month of the new year. I thought about sharing something about feedback that helped me a lot in my conversations, especially in 1:1s with my team members.
+We're at the end of the first month of the new year. I thought about sharing something about feedback that helped me a lot in my conversations, especially in one-on-ones with my team members.
 
 There are three types of feedback: Appreciation, Evaluation, and Coaching (that I learned from [the Thanks for the Feedback book](https://www.stoneandheen.com/thanks-feedback)).
 

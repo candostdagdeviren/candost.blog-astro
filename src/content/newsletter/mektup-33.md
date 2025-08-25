@@ -23,7 +23,7 @@ Give them a read if you haven't yet!
 
 **​[Article](/effective-1-on-1-meetings-own-your-one-on-one-meeting/)​**
 
-There are many 1:1 guides for managers but near to nothing for engineers. The meeting is for engineers; it’s their meeting. Therefore, engineers should own the meeting and make it effective. If your manager doesn’t care about 1:1s, you can nudge them. This is what I did. When I changed my perspective and worked on improving my 1:1 meetings, the results were terrific. I increased my communication with my manager, and I felt I was learning and growing faster than usual. This led me to become an engineering manager.
+There are many 1:1 guides for managers but near to nothing for engineers. The meeting is for engineers; it’s their meeting. Therefore, engineers should own the meeting and make it effective. If your manager doesn’t care about one-on-ones, you can nudge them. This is what I did. When I changed my perspective and worked on improving my 1:1 meetings, the results were terrific. I increased my communication with my manager, and I felt I was learning and growing faster than usual. This led me to become an engineering manager.
 
 ## How to Stop Endless Discussions
 

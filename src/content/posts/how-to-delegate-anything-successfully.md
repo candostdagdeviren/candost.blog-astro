@@ -103,7 +103,7 @@ Once they know the [​constraints​](/love-the-constraints/) and context, disc
 
 **Write all of these down.** Verbal communication often has cultural misunderstandings. However, once agreements are written, people come to a shared understanding. A few months later, you can look at what you’ve written and evaluate the progress clearly.
 
-**Set recurring check-ins.** If you already have 1:1s, reserve the last five minutes for them. Taking from the previous example, don’t talk about the project itself during these five minutes but more about [​the experience of leading it​](/leading-a-big-project-step-by-step/). Look back at what changed from the last check-in, how the person has improved, and whether there is anything they can do better, need extra support, or need changes in expectations.
+**Set recurring check-ins.** If you already have one-on-ones, reserve the last five minutes for them. Taking from the previous example, don’t talk about the project itself during these five minutes but more about [​the experience of leading it​](/leading-a-big-project-step-by-step/). Look back at what changed from the last check-in, how the person has improved, and whether there is anything they can do better, need extra support, or need changes in expectations.
 
 ## Conclusion
 

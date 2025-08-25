@@ -6,15 +6,15 @@ updateDate: 2021-03-17
 external: false
 ---
 
-For the last seven years as a software engineer, I have had managers who don't care about 1:1s and managers who do 1:1s but not effectively. Managers (or leaders, whatever we call) who are doing adequate 1:1s are rare. That's why we can't leave it to chance; we have to step up here. When I changed my perspective and worked on improving the meeting, the results were terrific. Now, I have better communication with my manager, and I feel that I'm learning and growing way faster than usual.
+For the last seven years as a software engineer, I have had managers who don't care about one-on-ones and managers who do one-on-ones but not effectively. Managers (or leaders, whatever we call) who are doing adequate one-on-ones are rare. That's why we can't leave it to chance; we have to step up here. When I changed my perspective and worked on improving the meeting, the results were terrific. Now, I have better communication with my manager, and I feel that I'm learning and growing way faster than usual.
 
 **This article summarizes how I changed my perspective and owned my meetings, along with a small tip for preparation.**
 
-## Why do 1:1s Matter? Change the perspective
+## Why do One-on-Ones Matter? Change the perspective
 
 We often find ourselves giving status reports about our work in 1:1 meetings with our managers. When a manager asks, "How is it going?" we default to discuss projects and the current status. Some good managers intentionally ask more specified questions about our [personal growth](/growth-with-systematic-bliss/). At these times, we often can't find a concrete action to talk about, or we can't pinpoint a topic that's bothering us.
 
-**When nobody cares to improve the quality of time, 1:1s start becoming another meeting-that-could-have-been-an-email (or Slack message).** Managers excuse themselves by saying, "It's your meeting, your chance to talk." They often don't act on improving these meetings. They also usually ask, "What do you want to talk about today?" or "Do you have something to talk about?". When we face these questions, doesn't it say that we should own the meeting and make it better? The questions point out that the focus is on the engineer, not the manager, and not the project.
+**When nobody cares to improve the quality of time, one-on-ones start becoming another meeting-that-could-have-been-an-email (or Slack message).** Managers excuse themselves by saying, "It's your meeting, your chance to talk." They often don't act on improving these meetings. They also usually ask, "What do you want to talk about today?" or "Do you have something to talk about?". When we face these questions, doesn't it say that we should own the meeting and make it better? The questions point out that the focus is on the engineer, not the manager, and not the project.
 
 **It's the engineer's meeting.** If we are not happy with something, it's time for us to complain. If we like everything, it's a place to share our happiness. If we have a question or doubt about our career, now it's our turn to talk!
 

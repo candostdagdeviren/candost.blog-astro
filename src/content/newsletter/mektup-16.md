@@ -17,11 +17,11 @@ After thinking about and receiving a lot of good feedback, I decided to become a
 
 It took two years for me to become a manager. In the first couple of months, I hid my decision and ambition from everyone else. I thought that if I shared, they would consider me hungry for power. My approach created a few problems for me.
 
-While studying, I began to take extra responsibilities in the team, such as shadowing manager interviews, leading projects, [doing 1:1s](/effective-1-1-meetings-one-on-one-meeting-template/) with the team, and more. With these responsibilities and my secret ambition, conflicts started to emerge.
+While studying, I began to take extra responsibilities in the team, such as shadowing manager interviews, leading projects, [doing one-on-ones](/effective-1-1-meetings-one-on-one-meeting-template/) with the team, and more. With these responsibilities and my secret ambition, conflicts started to emerge.
 
 When I joined the hiring process for an Android developer while I was an iOS engineer, people questioned me about being in an interview without any Android knowledge and experience. We had experienced Android engineers to conduct the interview. What was I doing there?
 
-During my 1:1s with the people, I never mentioned that I wanted to become an Engineering Manager, not once. Soon enough, I learned that that was a mistake.
+During my one-on-ones with the people, I never mentioned that I wanted to become an Engineering Manager, not once. Soon enough, I learned that that was a mistake.
 
 ## Compete with Yourself, Not Others
 

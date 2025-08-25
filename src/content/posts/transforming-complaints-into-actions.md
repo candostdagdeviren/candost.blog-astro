@@ -11,7 +11,7 @@ updateDate: 2025-03-18T06:05:00.000Z
 ---
 
 
-During 1:1s or team meetings, people sometimes complain endlessly. Managers struggle to understand how to respond to their direct reports’ complaints. They become people’s venting sponges, having no idea how to react or take action on most complaints.
+During one-on-ones or team meetings, people sometimes complain endlessly. Managers struggle to understand how to respond to their direct reports’ complaints. They become people’s venting sponges, having no idea how to react or take action on most complaints.
 
 I’ve been in that place, and I know I’m not alone. I’ve also complained a lot to my managers. Some of them also had no idea what to do. I know it because I remember their faces. They looked calm. They tried to hide their frustration. They tried to listen to me and took my heat off about a topic that didn’t matter a week later.
 

@@ -11,7 +11,7 @@ issueNumber: "17"
 ---
 
 
-One of my previous managers told me, “The manager’s work happens in meetings,” while I was complaining about the lack of uninterrupted time. Now, I can say that my manager was only half right. Considering [1:1s](/effective-1-on-1-meetings-own-your-one-on-one-meeting/), alignment, check-in, [decision-making](/the-decision-making-pendulum/) and many other meetings, it’s true that most of the work *happens* during meetings. However, a significant chunk of work—arguably the most crucial—is outside scheduled meetings: spontaneous chats, reflection time and solo work. Without them, no manager can succeed.
+One of my previous managers told me, “The manager’s work happens in meetings,” while I was complaining about the lack of uninterrupted time. Now, I can say that my manager was only half right. Considering [one-on-ones](/effective-1-on-1-meetings-own-your-one-on-one-meeting/), alignment, check-in, [decision-making](/the-decision-making-pendulum/) and many other meetings, it’s true that most of the work *happens* during meetings. However, a significant chunk of work—arguably the most crucial—is outside scheduled meetings: spontaneous chats, reflection time and solo work. Without them, no manager can succeed.
 
 When I look at my calendar, 60-70% of my time, on average, is occupied by meetings. Regular and one-off meetings take most of my time. **Realizing that I don’t have the luxury of having a half day without interruption and working with, as [Paul Graham put](https://paulgraham.com/makersschedule.html), maker’s time after becoming a manager was an eye-opener.** It’s also what my manager was pointing to.
 
