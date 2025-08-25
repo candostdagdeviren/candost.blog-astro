@@ -45,7 +45,7 @@ There is one more time category managers have, which often causes overtime work.
 
 I fall into a trap a lot. My mind wonders when I cook, walk my dog, run, or exercise, and I reflect on my work. I know I’m not alone.
 
-Management is a lot about reflecting on yesterday and planning today and the future. It’s not only about meetings, writing a document, or sending a message in a team chat. **It’s thinking about all of these *before* doing it, learning from past interactions, and reflecting on the last spontaneous chat or recent outcomes to prepare for the difficult feedback conversation in the next 1:1.**
+Management is a lot about reflecting on yesterday and planning today and the future. It’s not only about meetings, writing a document, or sending a message in a team chat. **It’s thinking about all of these *before* doing it, learning from past interactions, and reflecting on the last spontaneous chat or recent outcomes to prepare for the difficult feedback conversation in the next one-one-one.**
 
 This reflection time is the most neglected one, but in my experience, the most crucial one. When I neglect, I catch myself doing it outside of my working hours [while walking](/csikszentmihalyi-newport-and-pressfield-on-creativity-time-and-deep-walks-in-remote-work/) my dog. It happens whether I like or want it or not. So, it’s better to make it intentionally part of the working hours. Work should stay at work anyway.
 

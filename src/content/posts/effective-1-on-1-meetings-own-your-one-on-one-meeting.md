@@ -1,6 +1,6 @@
 ---
 title: "Effective 1:1 Meetings—Own Your 1-on-1"
-description: "When I changed my perspective and worked on improving my 1:1 meetings, the results were terrific. Now, I have better communication with my manager, and I feel that I'm learning and growing way faster than usual."
+description: "When I changed my perspective and worked on improving my one-one-one meetings, the results were terrific. Now, I have better communication with my manager, and I feel that I'm learning and growing way faster than usual."
 date: 2021-03-17
 updateDate: 2021-03-17
 external: false
@@ -12,7 +12,7 @@ For the last seven years as a software engineer, I have had managers who don't c
 
 ## Why do One-on-Ones Matter? Change the perspective
 
-We often find ourselves giving status reports about our work in 1:1 meetings with our managers. When a manager asks, "How is it going?" we default to discuss projects and the current status. Some good managers intentionally ask more specified questions about our [personal growth](/growth-with-systematic-bliss/). At these times, we often can't find a concrete action to talk about, or we can't pinpoint a topic that's bothering us.
+We often find ourselves giving status reports about our work in one-one-one meetings with our managers. When a manager asks, "How is it going?" we default to discuss projects and the current status. Some good managers intentionally ask more specified questions about our [personal growth](/growth-with-systematic-bliss/). At these times, we often can't find a concrete action to talk about, or we can't pinpoint a topic that's bothering us.
 
 **When nobody cares to improve the quality of time, one-on-ones start becoming another meeting-that-could-have-been-an-email (or Slack message).** Managers excuse themselves by saying, "It's your meeting, your chance to talk." They often don't act on improving these meetings. They also usually ask, "What do you want to talk about today?" or "Do you have something to talk about?". When we face these questions, doesn't it say that we should own the meeting and make it better? The questions point out that the focus is on the engineer, not the manager, and not the project.
 
@@ -28,11 +28,11 @@ When I realized this, I talked with my manager and said that I didn't want this 
 
 On the other hand, owning doesn't mean that you should talk all the time. **The meeting is bidirectional.** Although you are the subject, it is the time to collect [feedback](/importance-of-the-feedback/), ask for opinions, and share perspectives. [Good communication](/books/high-productivity-and-clear-communication-in-different-cultures/) happens when two sides exchange thoughts and feelings constantly. And everyone knows that expressing emotions and talking about challenges are already complicated. That's why you need to come prepared.
 
-## Prepare for Your 1:1
+## Prepare for Your One-on-One
 
-The 1:1 meetings are the most critical recurring meetings about your career growth. **Performance review meetings (yearly or 6-monthly) are the result of one-on-ones.** So, you cannot go there without preparation. And most of the time, all you need is ten to fifteen minutes. There are two ways for it: preparation right before the meeting or taking small notes time-to-time over the week. I recommend the latter.
+The one-one-one meetings are the most critical recurring meetings about your career growth. **Performance review meetings (yearly or 6-monthly) are the result of one-on-ones.** So, you cannot go there without preparation. And most of the time, all you need is ten to fifteen minutes. There are two ways for it: preparation right before the meeting or taking small notes time-to-time over the week. I recommend the latter.
 
-## How to Prepare Your Next 1:1
+## How to Prepare Your Next One-on-One
 
 Whenever something happens that challenges you and you want to talk with your manager, **[write it down](/why-is-writing-important/)**. It can be a small post-it or a long text; it's up to you. Take note with an eye towards the meeting. [Use a one-on-one meeting template to shape your thoughts better](/effective-1-1-meetings-one-on-one-meeting-template/).
 

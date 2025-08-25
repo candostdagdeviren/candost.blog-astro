@@ -23,7 +23,7 @@ Now, onto The Mektup.
 
 **👥 [Effective One-on-Ones - Own Your One-on-One Meeting](/effective-1-on-1-meetings-own-your-one-on-one-meeting/)**
 
-When I started my professional career, I didn't have regular 1:1 meetings with my manager. I discussed many topics with my peers instead. Most of the time, they went nowhere. In my latest job, I started having One-on-Ones, and I was already feeling better. However, it was unstructured and needed improvements. So I decided to take ownership of my personal 1:1 meetings with my manager and start facilitating them. I saw that I could solve my problems and get better answers which satisfied me. This mindset resulted in having a better relationship with my manager—check the post to learn how you can do it.
+When I started my professional career, I didn't have regular one-one-one meetings with my manager. I discussed many topics with my peers instead. Most of the time, they went nowhere. In my latest job, I started having One-on-Ones, and I was already feeling better. However, it was unstructured and needed improvements. So I decided to take ownership of my personal one-one-one meetings with my manager and start facilitating them. I saw that I could solve my problems and get better answers which satisfied me. This mindset resulted in having a better relationship with my manager—check the post to learn how you can do it.
 
 **🛠 Building Microservices Book Notes - Continued (Chapter 4 [Part 1](/books/integrating-microservices-part-1/), [Part 2](/books/integrating-microservices-part-2/))**
 

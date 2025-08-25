@@ -97,7 +97,7 @@ To find your core values as a leader of the company, think about them and ask yo
 
 When hiring new people, first look at the cultural fit, then the competencies. When doing cultural fit interviews, group candidates together with 6-8 people. Put them in a room and ask questions, starting from simple icebreaker questions to more detailed questions related to the role.
 
-Candost's Comment: Now, this made me think about why we hire in 1:1 interviews where team communication skills are one of the most significant points for hiring a person or not. In tech, we do all interviews in a 1:1 fashion or 1:many fashion. How about many:many? As people will work in teams, they should be interviewed in teams.
+Candost's Comment: Now, this made me think about why we hire in one-one-one interviews where team communication skills are one of the most significant points for hiring a person or not. In tech, we do all interviews in a one-one-one fashion or 1:many fashion. How about many:many? As people will work in teams, they should be interviewed in teams.
 
 ### Do It Wrong, Make It Better, Get It Right, Never Give Up
 

@@ -54,7 +54,7 @@ Leadership and building trust might come naturally to some, but adding new tools
 
 Here is the complete list I leverage to build trust (with people directly reporting to me):
 
-- [​Weekly, at least 30 minutes of one-on-ones](/effective-1-1-meetings-one-on-one-meeting-template/): No manager monologue. 1:1 are for the direct report, not for the manager. Listen carefully and act on what you promise.
+- [​Weekly, at least 30 minutes of one-on-ones](/effective-1-1-meetings-one-on-one-meeting-template/): No manager monologue. one-one-one are for the direct report, not for the manager. Listen carefully and act on what you promise.
 - [​Show empathy](/the-must-have-skill-for-every-leader-listening-with-empathy/) / Self-awareness: Be genuinely interested and put yourself in their shoes.
 - [​Share Different Types of Feedback](/three-types-of-feedback/): Start with appreciation, then move to evaluation and/or coaching. Be aware of what kind of feedback the other side expects at a particular time. The goal: say the hard thing, hear the hard thing.
 - [​Transparency over context](/transparency-over-context/): The manager’s job is to manage information flow. Sharing context allows people to do their job effectively while reducing secrecy, which helps build trust.
@@ -62,6 +62,6 @@ Here is the complete list I leverage to build trust (with people directly report
 - (for more relationship-based people) Lunch / Dinners / Social Events: Don’t underestimate the value of a shared meal. Food brings people together.
 ​
 
-**When I work with my peers or my managers, I still leverage most of these tools, but the shape changes.** With my peers, I rarely do weekly 1:1 but instead have irregular one-on-ones about a specific topic. I increase the level of transparency with them, including more personal details about my team, and I show them even more vulnerability. With my manager, I go all in on transparency and feedback, while delegation plays almost no role.
+**When I work with my peers or my managers, I still leverage most of these tools, but the shape changes.** With my peers, I rarely do weekly one-one-onebut instead have irregular one-on-ones about a specific topic. I increase the level of transparency with them, including more personal details about my team, and I show them even more vulnerability. With my manager, I go all in on transparency and feedback, while delegation plays almost no role.
 
 Although there is still so much to learn, these fundamentals and essential tools already give a good framework to approach building trust systematically. I’ve been using them with many people, and they simply work. If you haven’t done it already, give it a try.

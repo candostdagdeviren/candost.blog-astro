@@ -45,7 +45,7 @@ While staying silent is unintuitive and challenging, learning when to shut up is
 > Oysters open completely when the moon is full; and when the crab sees one it throws a piece of stone or twig into it and the oyster cannot close again so that it serves the crab for meat. Such is the fate of him who opens his mouth too much and thereby puts himself at the mercy of the listener.
 > —Leonardo da Vinci, 1452–1519
 
-Learning when to talk is a long experiment, and I’m still progressing because it also changes from situation to situation and person to person. Especially in our one-on-ones with people who report to me, I feel more comfortable with awkward silences because [I’m not facilitating the 1:1 meetings; the ownership is on the other side](/effective-1-on-1-meetings-own-your-one-on-one-meeting/). So, if there is an awkward silence, they usually bring up the next topic, and I often talk last.
+Learning when to talk is a long experiment, and I’m still progressing because it also changes from situation to situation and person to person. Especially in our one-on-ones with people who report to me, I feel more comfortable with awkward silences because [I’m not facilitating the one-one-one meetings; the ownership is on the other side](/effective-1-on-1-meetings-own-your-one-on-one-meeting/). So, if there is an awkward silence, they usually bring up the next topic, and I often talk last.
 
 In group meetings that I’m facilitating, it’s also not really challenging because I’m in that [facilitator’s seat](/newsletter/mektup-24/), and the responsibility of the moderator is moderating the meeting. The biggest challenge is when we discuss a problem or brainstorm solutions with a group.
 

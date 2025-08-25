@@ -6,7 +6,7 @@ updateDate: 2021-03-25
 external: false
 ---
 
-When [I took ownership](/effective-1-on-1-meetings-own-your-one-on-one-meeting/) of my one-on-ones with my manager, I searched for a 1:1 template, and most of the things I found did not suit me. As a software engineer, I found most of the templates were focused on the manager's perspective. However, since _I was the facilitator_ of the meeting, I picked the best parts from multiple templates and adjusted them according to the software engineer's perspective.
+When [I took ownership](/effective-1-on-1-meetings-own-your-one-on-one-meeting/) of my one-on-ones with my manager, I searched for a one-one-one template, and most of the things I found did not suit me. As a software engineer, I found most of the templates were focused on the manager's perspective. However, since _I was the facilitator_ of the meeting, I picked the best parts from multiple templates and adjusted them according to the software engineer's perspective.
 
 After using a new template for months, I can say that **it was a game-changer**. Now, I join my one-on-ones in full-ready mode. My manager and I understand each other better, and no topic can slip away from our minds (and from the agenda).
 
@@ -20,9 +20,9 @@ We use [Confluence](https://www.atlassian.com/software/confluence/) from Atlas
 
 We created a shared document where **both sides can contribute**. The template forces both sides to focus on the engineer's issues and [growth](/growth-with-systematic-bliss/), _not the projects' status_. Keeping the history in one file helps track previous topics, action items, and learnings, which will become advantageous in the yearly performance review. Having one document will also help to follow up on action items and priorities.
 
-> **DO THIS:** Right after the 1:1 meeting, create a new table on top of the shared document. You can copy-paste the table template from the previous week (don't forget to clean the content).
+> **DO THIS:** Right after the one-one-one meeting, create a new table on top of the shared document. You can copy-paste the table template from the previous week (don't forget to clean the content).
 
-## Template for Remote and On-site 1:1—Content
+## Template for Remote and On-site One-one-One—Content
 
 **[Here is the template you can clone.](https://docs.google.com/document/d/14VBkEvAiaolkW4coqanY6i5NtFSimxNY5EBXtgH4trY/)**
 

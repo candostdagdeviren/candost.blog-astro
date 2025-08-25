@@ -50,7 +50,7 @@ Let's try answering by using the STAR method.
 
 **Task:** My goal was to guide them when they struggled and purposely improve the challenges they worked on to step up in debugging.
 
-**Actions:** To achieve this, I asked a few questions and watched them while debugging to understand how much they knew the tools and where they got stuck the most. After figuring it out, we created a step-by-step plan and a weekly 1:1 appointment. In each 1:1 meeting, we looked at where they faced problems, solved them together, and looked at the following week's task. During these meetings, I also give some recommendations.
+**Actions:** To achieve this, I asked a few questions and watched them while debugging to understand how much they knew the tools and where they got stuck the most. After figuring it out, we created a step-by-step plan and a weekly one-one-one appointment. In each one-one-one meeting, we looked at where they faced problems, solved them together, and looked at the following week's task. During these meetings, I also give some recommendations.
 
 **Result:** In three months, the mentee found out most issues without anyone's help and started helping others who struggled to debug our distributed systems. My mentee later gave a talk on a meetup about the debugging best practices of distributed systems and hosted a workshop in our company about improving the debug-ability of our services.
 
