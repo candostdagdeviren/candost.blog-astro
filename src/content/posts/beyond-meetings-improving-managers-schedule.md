@@ -1,5 +1,5 @@
 ---
-title: "Beyond Meetings—Improving My Schedule as a Manager"
+title: "Improving My Schedule as a Manager"
 description: How I balance meetings, solo work, and reflection time. While meetings dominate, uninterrupted time for planning and spontaneous chats is crucial for managers.
 tags:
   - time-management

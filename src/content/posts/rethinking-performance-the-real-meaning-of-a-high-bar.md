@@ -1,5 +1,5 @@
 ---
-title: "Rethinking Performance: The Real Meaning of a High Bar"
+title: "The Real Meaning of a High Bar"
 description: "Discover the meaning of a high bar: ownership, growth, and sustainable excellence. Learn how leaders inspire teams to unlock potential and redefine standards."
 tags:
   - management-handbook_performance-management

@@ -1,5 +1,5 @@
 ---
-title: "From Whine to Win: Transforming Complaints into Actions"
+title: "Transforming Complaints into Actions"
 description: "Transform complaints into action by asking, 'What do you expect from me?' Foster trust and focus on outcomes in your team."
 tags:
   - mediations
