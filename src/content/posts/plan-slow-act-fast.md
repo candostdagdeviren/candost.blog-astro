@@ -1,6 +1,6 @@
 ---
 title: "Plan Slow, Act Fast"
-description: "asdkfljasdlkfj"
+description: "Plan thoroughly upfront to execute projects faster later."
 tags:
   - mediations
 newsletterName: "Mediations"
