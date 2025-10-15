@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/mdx": "^4.3.5",
+    "@astrojs/mdx": "^4.3.7",
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.6.0",
     "@astrojs/solid-js": "^5.1.1",
@@ -20,7 +20,7 @@
     "@expressive-code/plugin-line-numbers": "^0.41.2",
     "@fancyapps/ui": "^5.0.36",
     "@waline/client": "^3.5.7",
-    "astro": "^5.13.8",
+    "astro": "^5.14.5",
     "astro-expressive-code": "^0.41.2",
     "astro-robots-txt": "^1.0.0",
     "child_process": "^1.0.2",
