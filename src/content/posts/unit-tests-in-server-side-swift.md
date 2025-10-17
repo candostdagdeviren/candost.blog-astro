@@ -152,7 +152,6 @@ I’ll not explain how to set up Docker. There are great guides that explain eve
 
 ```
 FROM ibmcom/swift-ubuntu:latest
-MAINTAINER Candost Dagdeviren <candostdagdeviren@gmail.com>
 ADD . /app
 WORKDIR /app
 EXPOSE 8090

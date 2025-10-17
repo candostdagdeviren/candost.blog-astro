@@ -8,9 +8,9 @@ external: false
 draft: false
 ---
 
-People are masters of complaint. Yet their feet keep walking the same path. They don’t surrender, retreat or abolish whatever they are not happy about. They are on a crusade with perennial whine.
+People are masters of complaint. Yet their feet keep walking the same path. They don’t surrender, retreat or abolish whatever they are not happy about. They are on a crusade with perennial whining.
 
-I, too, do the same. I complain about my job and my responsibilities. I hate doing certain things again and again. I complain about many things I’ve committed to in life and now it feels like I have no time to do them all.
+I, too, do the same. I complain about my job and my responsibilities. I hate doing certain things again and again. I complain about many things I’ve committed to in life, and now it feels like I have no time to do them all.
 
 But.
 
@@ -20,6 +20,4 @@ I love that I’m failing to do them all. I love that I find it too stressful an
 
 If I had a second chance, I would do it again without regret.
 
-Now, your turn. Admit that you like it because if you didn’t like it, you would look for ways to avoid it.
-
-And a last small hint: everything becomes easier when you admit it.
+And you know what, everything becomes easier when you admit it.
