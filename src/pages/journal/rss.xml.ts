@@ -24,7 +24,7 @@ export async function GET() {
     items: rssNewsletters.map((entry) => ({
       title: entry.data.title,
       pubDate: entry.data.date,
-      description: entry.data.description ? entry.data.description : "",
+      description: entry.data.description ? entry.data.description : "A short entry to my journal",
       link:`${baseUrl}/journal/${entry.slug}/`,
       content: sanitizeHtml(parser.render(entry.body), {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])

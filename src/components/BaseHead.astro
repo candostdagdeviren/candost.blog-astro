@@ -38,13 +38,17 @@ if (title === site.title) {
   <meta property="twitter:description" content={desc}/>
   <meta property="twitter:image" content={ogImage}/>
 
-  <!-- Mastodon -->
-  <meta name="fediverse:creator" content="@candost@hachyderm.io">
-
   <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="msapplication-TileColor" content="#da532c"/>
   <meta name="msapplication-config" content="/browserconfig.xml"/>
   <meta name="theme-color" content="#ffffff"/>
+
+  <!-- Mastodon -->
+  <meta name="fediverse:creator" content="@candost@hachyderm.io">
+
+  <!-- IndieAuth -->
+  <link href="https://github.com/candostdagdeviren" rel="me">
+  <link href="https://linkedin.com/in/candost" rel="me">
 
   <link rel="sitemap" href="/sitemap-0.xml"/>
   <title>{title} | {site.title}</title>
