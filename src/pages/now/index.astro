@@ -10,6 +10,9 @@ let {Content, frontmatter} = now;
   <article class="markdown-body">
     {
       (
+        <h1>
+          {frontmatter.title}
+        </h1>
         <div class="flex items-center mb-2">
           Last Updated:&nbsp;
           {frontmatter.updateDate &&
