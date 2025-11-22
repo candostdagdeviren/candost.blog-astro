@@ -143,17 +143,6 @@
             }
           ]
         },
-        "donate": {
-          "anyOf": [
-            {
-              "type": "boolean",
-              "default": true
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
         "comment": {
           "anyOf": [
             {

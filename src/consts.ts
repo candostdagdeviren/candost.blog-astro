@@ -137,21 +137,6 @@ export const infoLinks = [
   }
 ]
 
-/**
-* donate
-* enable {boolean}
-* tip {string}
-* wechatQRCode: Image addresses should be placed in the public directory.
-* alipayQRCode: Image addresses should be placed in the public directory.
-* paypalUrl {string}
-*/
-export const donate = {
-  enable: false,
-  tip: "Thanks for the coffee !!!☕",
-  wechatQRCode: "/WeChatQR.png",
-  alipayQRCode: "/AliPayQR.png",
-  paypalUrl: "https://paypal.me/candostdagdeviren",
-}
 
 /**
 * Comment Feature

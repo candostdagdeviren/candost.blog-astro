@@ -1,5 +1,6 @@
 ---
 import IndexPage from '../../layouts/IndexPage.astro'
+import Support from '../../components/Support.astro'
 ---
 
 <IndexPage frontmatter={{ comment: true, title: "Guestbook" }}>
@@ -12,4 +13,6 @@ import IndexPage from '../../layouts/IndexPage.astro'
   <p class="mb-10">Some of you may not want to write a comment on any page here or don't want to send me an email like everyone else. However, you may still want to say a few words. Here is a way to do so.</p>
 
   <p class="mb-5 text-xs"><em>(P.S. I use the same commenting infrastructure as the other pages, not to invent a wheel from scratch.)</em></p>
+
+  <Support />
 </IndexPage>

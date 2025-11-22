@@ -13,7 +13,6 @@ const books = defineCollection({
     mermaid: z.boolean().default(false).nullable(),
     draft: z.boolean().default(false).nullable(),
     toc: z.boolean().default(false).nullable(),
-    donate: z.boolean().default(false).nullable(),
     comment: z.boolean().default(true).nullable(),
   }),
 });
@@ -31,7 +30,6 @@ const journal = defineCollection({
     mermaid: z.boolean().default(false).nullable(),
     draft: z.boolean().default(false).nullable(),
     toc: z.boolean().default(false).nullable(),
-    donate: z.boolean().default(false).nullable(),
     comment: z.boolean().default(true).nullable(),
   }),
 });
@@ -51,7 +49,6 @@ const newsletter = defineCollection({
     mermaid: z.boolean().default(false).nullable(),
     draft: z.boolean().default(false).nullable(),
     toc: z.boolean().default(false).nullable(),
-    donate: z.boolean().default(false).nullable(),
     comment: z.boolean().default(true).nullable(),
   }),
 });
@@ -70,7 +67,6 @@ const notes = defineCollection({
     mermaid: z.boolean().default(false).nullable(),
     draft: z.boolean().default(false).nullable(),
     toc: z.boolean().default(false).nullable(),
-    donate: z.boolean().default(false).nullable(),
     comment: z.boolean().default(true).nullable(),
   }),
 });
@@ -89,7 +85,6 @@ const podcast = defineCollection({
     mermaid: z.boolean().default(false).nullable(),
     draft: z.boolean().default(false).nullable(),
     toc: z.boolean().default(false).nullable(),
-    donate: z.boolean().default(false).nullable(),
     comment: z.boolean().default(true).nullable(),
   }),
 });
@@ -110,7 +105,6 @@ const posts = defineCollection({
     draft: z.boolean().default(false).nullable(),
     toc: z.boolean().default(false).nullable(),
     favorite: z.boolean().default(false).nullable(),
-    donate: z.boolean().default(false).nullable(),
     comment: z.boolean().default(true).nullable(),
   }),
 });
@@ -128,7 +122,6 @@ const de = defineCollection({
     mermaid: z.boolean().default(false).nullable(),
     draft: z.boolean().default(false).nullable(),
     toc: z.boolean().default(false).nullable(),
-    donate: z.boolean().default(false).nullable(),
     comment: z.boolean().default(true).nullable(),
   }),
 });

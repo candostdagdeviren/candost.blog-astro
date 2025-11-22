@@ -155,17 +155,6 @@
             }
           ]
         },
-        "donate": {
-          "anyOf": [
-            {
-              "type": "boolean",
-              "default": false
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
         "comment": {
           "anyOf": [
             {

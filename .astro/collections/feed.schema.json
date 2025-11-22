@@ -41,10 +41,6 @@
             }
           ]
         },
-        "donate": {
-          "type": "boolean",
-          "default": true
-        },
         "comment": {
           "type": "boolean",
           "default": true

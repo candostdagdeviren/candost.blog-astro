@@ -2,8 +2,6 @@
 import BlogPost from '../../layouts/BlogPost.astro'
 import PostTitle from "../../components/PostTitle.astro";
 import BlogFooter from '../../components/BlogFooter.astro'
-import Donate from '../../components/Donate.astro'
-import {donate} from "../../consts";
 import { getCollectionByName } from '../../utils/getCollectionByName';
 
 export const prerender = true;
@@ -30,10 +28,6 @@ export async function getStaticPaths() {
       </article>
       <div class="divider-horizontal"></div>
       <BlogFooter title={entry.data.title} url={entry.collection == 'posts' ? "/" + entry.slug : entry.collection + '/' + entry.slug} date={entry.data.date}></BlogFooter>
-      {
-        donate.enable && entry.data.donate &&
-        <Donate></Donate>
-      }
     </div>
 
   </BlogPost>
