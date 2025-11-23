@@ -7,3 +7,5 @@ tags:
 date: 2021-02-09
 updateDate: 2021-02-09
 ---
+
+9: Engineering Career Path - Tobias Bales

@@ -7,3 +7,5 @@ tags:
 date: 2021-03-03
 updateDate: 2021-03-03
 ---
+
+12: The Life of a Generalist Software Engineer - Ricardo Smania

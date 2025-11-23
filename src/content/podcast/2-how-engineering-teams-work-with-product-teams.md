@@ -7,3 +7,5 @@ tags:
 date: 2020-12-29
 updateDate: 2020-12-29
 ---
+
+2: How Engineering Teams Work with Product Teams with Göksel Köksal

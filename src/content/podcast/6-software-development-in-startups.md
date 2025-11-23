@@ -7,3 +7,5 @@ tags:
 date: 2021-01-20
 updateDate: 2021-01-20
 ---
+
+6: Software Development in Startups with Fatih Acet

@@ -7,3 +7,5 @@ tags:
 date: 2021-11-09
 updateDate: 2021-11-09
 ---
+
+25: Live Pair Programming, Open Source, and Building Communities with Nick Taylor

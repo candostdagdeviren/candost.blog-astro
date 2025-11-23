@@ -7,3 +7,5 @@ tags:
 date: 2021-01-05
 updateDate: 2021-01-05
 ---
+
+3: Diversity, Gender Discrimination, Women in Tech with Yasemin Alpay

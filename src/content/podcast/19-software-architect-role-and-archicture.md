@@ -7,3 +7,5 @@ tags:
 date: 2021-07-20
 updateDate: 2021-07-20
 ---
+
+19: The Software Architect Role | Systems and Architectural Thinking Part 1

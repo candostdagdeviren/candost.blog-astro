@@ -7,3 +7,5 @@ tags:
 date: 2021-03-03
 updateDate: 2021-03-03
 ---
+
+11: Learning and Growing in Front-end Development - Ali Spittel

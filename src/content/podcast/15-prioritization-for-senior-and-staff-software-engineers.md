@@ -7,3 +7,5 @@ tags:
 date: 2021-05-04
 updateDate: 2021-05-04
 ---
+
+15: Prioritization for Senior and Staff Software Engineers with Dennis Benkert

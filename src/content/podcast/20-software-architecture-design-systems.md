@@ -7,3 +7,5 @@ tags:
 date: 2021-08-17
 updateDate: 2021-08-17
 ---
+
+20: Software Architecture Design | Systems and Architectural Thinking Part 2

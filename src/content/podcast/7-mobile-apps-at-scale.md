@@ -7,3 +7,5 @@ tags:
 date: 2021-01-26
 updateDate: 2021-01-26
 ---
+
+7: Mobile Apps at Scale - Fırat Karataş

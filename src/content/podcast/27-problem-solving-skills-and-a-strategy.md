@@ -7,3 +7,5 @@ tags:
 date: 2022-04-12
 updateDate: 2022-04-12
 ---
+
+27: Problem-Solving Skills & A Strategy for Software Engineers

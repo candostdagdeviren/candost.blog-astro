@@ -7,3 +7,5 @@ tags:
 date: 2021-08-31
 updateDate: 2021-08-31
 ---
+
+21: Intent-Based Leadership with L. David Marquet

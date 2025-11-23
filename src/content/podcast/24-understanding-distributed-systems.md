@@ -7,3 +7,5 @@ tags:
 date: 2021-10-26
 updateDate: 2021-10-26
 ---
+
+24: Understanding Distributed Systems with Roberto Vitillo
