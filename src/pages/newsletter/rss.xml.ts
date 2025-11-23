@@ -25,7 +25,7 @@ export async function GET() {
     stylesheet: '/rss/pretty-feed.xsl',
     items: rssNewsletters.map((letter) => {
       let url= letter.collection == 'posts' ? `${baseUrl}/${letter.slug}/` : `${baseUrl}/${letter.collection}/${letter.slug}/`;
-      let reply = `\n\n---\n[Reply via email](mailto:candost@candostdagdeviren.com?subject=Re:%20${url})`;
+      let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline) | [Buy me a coffee](https://www.ko-fi.com/candost)`;
       let newContent = letter.body + `${reply}`;
       let body = parser.render(newContent);
 
