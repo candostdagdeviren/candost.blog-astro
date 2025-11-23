@@ -7,28 +7,37 @@ import { sortPostsByDate } from '../../utils/sortPostsByDate';
 const parser = new MarkdownIt();
 
 export async function GET() {
-  const notes = await getCollectionByName("posts");
+  const collection = await getCollectionByName("posts");
 
   let baseUrl = site.url;
   // removing trailing slash if found
   // https://example.com/ => https://example.com
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
-  const rssNewsletters = sortPostsByDate(notes);
+  const posts = sortPostsByDate(collection);
 
   return rss({
     title: "Posts, Essays, and Articles on " + site.title,
     description: "Posts, Essays, Articles that I write in a longer form combining my notes, journal entries, book notes, and my comments, thoughts, etc.",
-    site: baseUrl + "/posts",
+    site: baseUrl + "/posts/",
     stylesheet: '/rss/pretty-feed.xsl',
-    items: rssNewsletters.map((entry) => ({
-      title: entry.data.title,
-      pubDate: entry.data.date,
-      description: entry.data.description ? entry.data.description : "",
-      link:`${baseUrl}/${entry.slug}/`,
-      content: sanitizeHtml(parser.render(entry.body), {
+    items: posts.map((post) => {
+      let url= post.collection == 'posts' ? `${baseUrl}/${post.slug}/` : `${baseUrl}/${post.collection}/${post.slug}/`;
+      let reply = `\n\n---\nReply via [email](mailto:candost@candostdagdeviren.com?subject=Re:%20${url})`;
+      let newContent = post.body + `${reply}`;
+      let body = parser.render(newContent);
+
+      let content = sanitizeHtml(body, {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
-      }),
-    })),
+      })
+
+      return {
+        title: post.data.title,
+        pubDate: post.data.date,
+        description: post.data.description ? post.data.description : "",
+        link: url,
+        content: content,
+      }
+    }),
   });
 };

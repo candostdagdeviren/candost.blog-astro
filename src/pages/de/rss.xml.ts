@@ -7,28 +7,37 @@ import { sortPostsByDate } from '../../utils/sortPostsByDate';
 const parser = new MarkdownIt();
 
 export async function GET() {
-  const notes = await getCollectionByName("de");
+  const collection = await getCollectionByName("de");
 
   let baseUrl = site.url;
   // removing trailing slash if found
   // https://example.com/ => https://example.com
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
-  const rssNewsletters = sortPostsByDate(notes);
+  const germanPosts = sortPostsByDate(collection);
 
   return rss({
     title: "Candosts deutscher Blogeinträge",
     description: "Ich lerne Deutch und möchte üben. Deshalb habe ich mich entschlossen, in meinem Blog eine Abteilung zum Thema Deutch einzurichten.",
-    site: baseUrl + "/de",
+    site: baseUrl + "/de/",
     stylesheet: '/rss/pretty-feed.xsl',
-    items: rssNewsletters.map((entry) => ({
-      title: entry.data.title,
-      pubDate: entry.data.date,
-      description: entry.data.description ? entry.data.description : "",
-      link:`${baseUrl}/de/${entry.slug}/`,
-      content: sanitizeHtml(parser.render(entry.body), {
+    items: germanPosts.map((artikel) => {
+      let url= artikel.collection == 'posts' ? `${baseUrl}/${artikel.slug}/` : `${baseUrl}/${artikel.collection}/${artikel.slug}/`;
+      let reply = `\n\n---\n[per E-Mail antworten](mailto:candost@candostdagdeviren.com?subject=Re:%20${url})`;
+      let newContent = artikel.body + `${reply}`;
+      let body = parser.render(newContent);
+
+      let content = sanitizeHtml(body, {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
-      }),
-    })),
+      })
+
+      return {
+        title: artikel.data.title,
+        pubDate: artikel.data.date,
+        description: artikel.data.description ? artikel.data.description : "",
+        link: url,
+        content: content,
+      }
+    }),
   });
 };

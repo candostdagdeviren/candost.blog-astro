@@ -17,19 +17,29 @@ export async function GET() {
   baseUrl = baseUrl.replace(/\/+$/g, "");
 
   const rssNewsletters = sortPostsByDate(newsletters)
+
   return rss({
     title: "Mediations",
-    description: "I always feel like I'm mediating (or maybe negotiating) between multiple aspects and constraints of the complicated life and searching for the balance between leadership, software engineering, personal life, and the world. This is the feed of emails I send.",
-    site: baseUrl + "/newsletter",
+    description: "Timeless insights into humans, software, and leadership.",
+    site: baseUrl + "/newsletter/",
     stylesheet: '/rss/pretty-feed.xsl',
-    items: rssNewsletters.map((letter) => ({
-      title: `${letter.data.newsletterName} #${letter.data.issueNumber}: ${letter.data.title}`,
-      pubDate: letter.data.date,
-      description: letter.data.description ? letter.data.description : "",
-      link: letter.collection == 'posts' ? `${baseUrl}/${letter.slug}` : `${baseUrl}/${letter.collection}/${letter.slug}`,
-      content: sanitizeHtml(parser.render(letter.body), {
+    items: rssNewsletters.map((letter) => {
+      let url= letter.collection == 'posts' ? `${baseUrl}/${letter.slug}/` : `${baseUrl}/${letter.collection}/${letter.slug}/`;
+      let reply = `\n\n---\n[Reply via email](mailto:candost@candostdagdeviren.com?subject=Re:%20${url})`;
+      let newContent = letter.body + `${reply}`;
+      let body = parser.render(newContent);
+
+      let content = sanitizeHtml(body, {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
-      }),
-    })),
+      })
+
+      return {
+        title: `${letter.data.newsletterName} #${letter.data.issueNumber}: ${letter.data.title}`,
+        pubDate: letter.data.date,
+        description: letter.data.description ? letter.data.description : "",
+        link: url,
+        content: content,
+      }
+    }),
   });
 };

@@ -21,14 +21,23 @@ export async function GET() {
     description: site.description,
     site: site.url,
     stylesheet: '/rss/pretty-feed.xsl',
-    items: sortedBlog.map((post) => ({
-      title: post.data.title,
-      pubDate: post.data.date,
-      description: post.data.description? post.data.description : "",
-      link: post.collection == 'posts' ? `${baseUrl}/${post.slug}/` : `${baseUrl}/${post.collection}/${post.slug}/`,
-      content: sanitizeHtml(parser.render(post.body), {
+    items: sortedBlog.map((post) => {
+      let url= post.collection == 'posts' ? `${baseUrl}/${post.slug}/` : `${baseUrl}/${post.collection}/${post.slug}/`;
+      let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url})`;
+      let newContent = post.body + `${reply}`;
+      let body = parser.render(newContent);
+
+      let content = sanitizeHtml(body, {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
-      }),
-    })),
+      })
+
+      return {
+        title: post.data.title,
+        pubDate: post.data.date,
+        description: post.data.description ? post.data.description : "",
+        link: url,
+        content: content,
+      }
+    }),
   });
 }
