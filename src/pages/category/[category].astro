@@ -11,8 +11,8 @@ export const prerender = true;
 
 export async function getStaticPaths() {
   const posts = await getCollectionByName("posts");
-  const category = getUniqueCategory(posts);
-  return category.map((category) => {
+  const categories = getUniqueCategory(posts);
+  return categories.map((category) => {
     return {
       params: {
         category,
