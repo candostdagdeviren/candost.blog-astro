@@ -1,140 +1,85 @@
 
-In Slip Box Index, notes are organized by tags. Tags are focused on improving the discoverability of a note, rather than categorizing the note.
+In Slip Box Index, notes are organized by tags. Tags are focused on improving the discoverability of a note, rather than categorizing the note. That's the reason tags are unconventional here. They are often consists of multiple words defining a case or scenario or idea so I can connect a new note (zettel) with previous ones easily.
 
-Indentation means it's further organization within that tag. Fox example, *#feedback-handbook* is a tag and underneath, there is "*giving*," which means the tag should be interpreted as *#feedback-handbook/giving*.
+Indentation in the list means it's further organization within that tag. Fox example, *#feedback-handbook* is a tag and underneath, there is "*giving-feedback*," which means the tag should be interpreted as *#feedback-handbook > giving-feedback*. Once the sub-organization reaches certain size, I split them into a separate index note.
 
-There are Index Notes. These notes are a collection of other notes under one topic. A good example is "[Organizational (Executive) Leadership Index](/notes/84/)."
+There are Index Notes. These notes are a collection of other notes under one topic. All index notes are here:
 
-Slip Box Index doesn't contain any link to other published articles; its mere focus is connecting ideas within the Slip Box.
+### [Index Notes](/tags/index-note/)
 
-- #automatic-human-behavior: [20d](/notes/20d/); [30d1](/notes/30d1/); [20](/notes/20/); [46j](/notes/46j/);
-- #barriers-to-learning: [9b](/notes/9b/); [65](/notes/65/); [69a](/notes/69a/); [46j](/notes/46j/);
-- #bias: [30b3](/notes/30b3/); [20h](/notes/20h/);
-- #decision-making: [3a](/notes/3a/); [19](/notes/19/); [30](/notes/30/); [32](/notes/32/); [30d](/notes/30d/); [30e](/notes/30e/); [52a](/notes/52a/); [19f](/notes/19f/); [68](/notes/68/); [20e](/notes/20e/); [68a](/notes/68a/); [3b6](/notes/3b6/);
-- #discovering-happiness: [93](/notes/93/); [94](/notes/94/);
-- #economics: [92](/notes/92/);
-- #feedback-handbook: [6](/notes/6/); [7](/notes/7/);
-  - #giving: [23](/notes/23/); [44b](/notes/44b/); [44j](/notes/44j/); [46a](/notes/46a/); [23i](/notes/23i/);
-  - #how-to-apply-feedback: [40d1](/notes/40d1/);
-  - #mechanisms: [31d](/notes/31d/); [36](/notes/36/);
-  - #receiving: [40](/notes/40/); [40a](/notes/40a/); [40c](/notes/40c/); [40d](/notes/40d/); [44b](/notes/44b/);
-- #investment/decision-making: [80](/notes/80/);
-- #goals: [24](/notes/24/); [30e](/notes/30e/); [30c](/notes/30c/); [68](/notes/68/); [46g](/notes/46g/); [30c1](/notes/30c1/);
-- #habit-forming: [25](/notes/25/); [27](/notes/27/); [38a](/notes/38a/); [38a1](/notes/38a1/);
-- #habits-that-dont-die: [52c](/notes/52c/);
-- #how-best-performers-become-the-best: [62a](/notes/62a/); [62b](/notes/62b/); [54d](/notes/54d/); [81](/notes/81/); [1i1](/notes/1i1/);
-- #how-to-build-mindfulness: [41d](/notes/41d/); [46d2](/notes/46d2/); [7b](/notes/7b/); [41b2](/notes/41b2/); [44g3](/notes/44g3/); [95](/notes/95/);
-- #how-to-build-friendship: [20m](/notes/20m/); [20n](/notes/20n/); [44g3](/notes/44g3/); [94](/notes/94/);
-- #how-to-build-resilience: [62a](/notes/62a/); [3b6a](/notes/3b6a/); [46h](/notes/46h/); [7a](/notes/7a/); [62b](/notes/62b/);
-- #how-to-convince-others: [20e](/notes/20e/); [44g1](/notes/44g1/); [9d](/notes/9d/);
-- #how-to-deal-with-ambiguity: [29b](/notes/29b/); [7c](/notes/7c/); [46j](/notes/46j/);
-- #how-to-deal-with-people: [46g](/notes/46g/); [41b2](/notes/41b2/); [93](/notes/93/); [94](/notes/94/);
-- #how-to-delegate: [3c3a](/notes/3c3a/);
-- #how-to-form-a-community: [20l](/notes/20l/); [52a3](/notes/52a3/); [44g3](/notes/44g3/);
-- #how-to-get-buy-in: [20c](/notes/20c/); [44g2](/notes/44g2/);
-- #how-to-assess-inputs-correctly: [9c1](/notes/9c1/);
-- #how-to-learn: [65](/notes/65/); [73a](/notes/73a/);
-- #how-to-rebuild: [42e](/notes/42e/);
-- #how-to-think-clearly: [30b3](/notes/30b3/); [20h](/notes/20h/); [7](/notes/7/); [29b](/notes/29b/);
-- #importance-of-friendship: [52d](/notes/52d/); [44g1](/notes/44g1/); [20l](/notes/20l/); [52a3](/notes/52a3/);
-- #index-note:
-  - [47-Software Architecture Styles Index](/notes/47/);
-  - [48-System Design Index](/notes/48/);
-  - [84-Executive (Organizational) Leadership Index](/notes/84/);
-  - [85-Organizational Design Index](/notes/85/);
-  - [86-Organizational Communication Index](/notes/86/);
-- #leadership-style: [87](/notes/87/); [9d](/notes/9d/); [87a](/notes/87a/);
-- #learning-financial-world: [88](/notes/88/); [89](/notes/89/); [92b](/notes/92b/);
-- #life/being-expat: [75](/notes/75/);
-- #life/change-your-perspective: [46](/notes/46/); [46h](/notes/46h/); [46i](/notes/46i/); [30c1](/notes/30c1/); [92](/notes/92/); [95](/notes/95/);
-- #life/how-to-eliminate-prejudice: [46i](/notes/46i/);
-- #mental-health: [28](/notes/28/); [2b](/notes/2b/); [41b](/notes/41b/); [46b](/notes/46b/); [62a](/notes/62a/); [46f](/notes/46f/);
-- #management-handbook: [3](/notes/3/); [4](/notes/4/); [5](/notes/5/); [7](/notes/7/); [16](/notes/16/); [19](/notes/19/); [20](/notes/20/);
-  - #accountability: [31](/notes/31/); [31b](/notes/31b/); [35](/notes/35/); [36](/notes/36/); [31a](/notes/31a/);
-  - #building-a-product: [39b](/notes/39b/);
-  - #building-relationships: [44d](/notes/44d/);
-  - #building-trust: [3b1](/notes/3b1/); [54c](/notes/54c/); [3b1a](/notes/3b1a/); [3b2](/notes/3b2/); [33b](/notes/33b/);
-  - #change-management: [30a](/notes/30a/); [30b2](/notes/30b2/); [30b2a](/notes/30b2a/);
-  - #coaching-others: [3c4](/notes/3c4/); [27f1](/notes/27f1/); [40c](/notes/40c/); [44j](/notes/44j/); [46b](/notes/46b/); [46e](/notes/46e/); [53](/notes/53/); [53c](/notes/53c/); [4d](/notes/4d/); [83](/notes/83/);
-  - #conflicts-on-software-development: [40e](/notes/40e/);
-  - #clarity: [40b](/notes/40b/);
-  - #culture: [44c](/notes/44c/); [54](/notes/54/); [22](/notes/22/); [31](/notes/31/); [44k](/notes/44k/);
-  - #conflict-management: [44a](/notes/44a/); [44d](/notes/44d/); [20j](/notes/20j/);
-  - #confrontation: [44a](/notes/44a/);
-  - #delegation: [15](/notes/15/); [3c](/notes/3c/); [3b1a](/notes/3b1a/); [3c3](/notes/3c3/); [3c3a](/notes/3c3a/); [61](/notes/61/); [61a](/notes/61a/);
-  - #facilitation: [31d](/notes/31d/); [19e](/notes/19e/); [77](/notes/77/); [77a](/notes/77a/); [77b](/notes/77b/); [44](/notes/44/);
-  - #growing-others: [33a](/notes/33a/); [40a](/notes/40a/); [53b](/notes/53b/); [4c](/notes/4c/); [53b1](/notes/53b1/);
-  - #how-to-build-one-team: [24a1](/notes/24a1/); [20m](/notes/20m/); [56m;](/notes/56m/)
-  - #how-to-build-ownership: [3c1](/notes/3c1/); [31](/notes/31/); [31a](/notes/31a/); [3c2](/notes/3c2/); [3c3](/notes/3c3/); [3d](/notes/3d/); [66](/notes/66/);
-  - #how-to-give-feedback: [23i](/notes/23i/);
-  - #how-to-guide-your-team: [53e](/notes/53e/); [4d](/notes/4d/); [44g1](/notes/44g1/); [87a](/notes/87a/);
-  - #how-to-hire: [90](/notes/90/);
-  - #how-to-manage-conversations: [44l](/notes/44l/); [46f](/notes/46f/); [66](/notes/66/);
-  - #how-to-manage-yourself: [74](/notes/74/); [16e](/notes/16e/); [7c](/notes/7c/);
-  - #how-to-prioritize: [66a](/notes/66a/); [72](/notes/72/);
-  - #increasing-team-performance: [92a](/notes/92a/);
-  - #influencing-others: [20](/notes/20/); [3c](/notes/3c/); [32a](/notes/32a/); [44f](/notes/44f/); [44k](/notes/44k/); [20d](/notes/20d/); [20f](/notes/20f/); [20h](/notes/20h/); [20i](/notes/20i/); [19g](/notes/19g/); [77c](/notes/77c/);
-  - #listening: [53d](/notes/53d/);
-  - #learn-the-feedback-you-receive: [44l](/notes/44l/);
-  - #mentoring: [53](/notes/53/);
-  - #performance-management: [54c](/notes/54c/); [4c](/notes/4c/); [4d](/notes/4d/); [53b1](/notes/53b1/);
-  - #project-management: [19d](/notes/19d/);
-  - #process-management: [39](/notes/39/); [39a](/notes/39a/);
-  - #psychological-safety: [54c](/notes/54c/); [20j](/notes/20j/);
-  - #relationship-management: [22a](/notes/22a/); [35](/notes/35/); [40a](/notes/40a/); [40b](/notes/40b/); [24a1](/notes/24a1/);
-  - #responsibility: [31c](/notes/31c/);
-  - #stakeholder-management: [20f](/notes/20f/); [77c](/notes/77c/);
-  - #team-communication-strategies: [3e](/notes/3e/);
-  - #team-management: [6](/notes/6/); [7](/notes/7/); [24](/notes/24/); [4b](/notes/4b/); [19c](/notes/19c/); [53a1](/notes/53a1/); [53b](/notes/53b/); [3b7](/notes/3b7/);
-- #negotiation-of-a-job-offer: [90](/notes/90/);
-- #non-functional-software-requirements: [19a](/notes/19a/); [58](/notes/58/);
-  - #bandwidth: [48b](/notes/48b/);
-  - #software-performance: [50](/notes/50/);
-- #note-taking: [1a](/notes/1a/);
-- #organizational-leadership: [84](/notes/84/) );
-- #personal-growth: [29](/notes/29/); [41b](/notes/41b/); [46d](/notes/46d/); [46e](/notes/46e/); [30b1](/notes/30b1/); [30e](/notes/30e/); [52](/notes/52/); [29a](/notes/29a/); [52a4](/notes/52a4/); [46e2](/notes/46e2/);
-  - #personal-growth/breaking-habits: [38b](/notes/38b/);
-  - #personal-growth/experiences: [46d](/notes/46d/);
-  - #personal-growth/learning: [7c](/notes/7c/); [65](/notes/65/); [27f1](/notes/27f1/);
-  - #personal-growth/values: [52](/notes/52/); [52b](/notes/52b/);
-- #professional-life: [13](/notes/13/);
-  - #career-transition: [3b](/notes/3b/); [8a](/notes/8a/); [11](/notes/11/); [76](/notes/76/);
-  - #professional-growth: [5](/notes/5/); [8](/notes/8/); [9](/notes/9/); [10](/notes/10/); [14](/notes/14/); [4a](/notes/4a/); [8j](/notes/8j/); [76](/notes/76/);
-- #promotions: [5](/notes/5/); [24e](/notes/24e/);
-- #psychological-phenomenon: [4c](/notes/4c/); [30d1](/notes/30d1/); [44g2](/notes/44g2/);
-- #public-speaking: [17](/notes/17/); [18](/notes/18/); [17a](/notes/17a/); [2c](/notes/2c/); [17e](/notes/17e/);
-- #seeking-inconvenience: [1b](/notes/1b/); [1i](/notes/1i/); [67](/notes/67/); [46e1](/notes/46e1/); [1i1](/notes/1i1/); [46e2](/notes/46e2/);
-- #simplifying-ideas: [9c](/notes/9c/); [69a](/notes/69a/); [9c1](/notes/9c1/);
-- #software-engineering-handbook: [19a](/notes/19a/);
-  - #code-review: [21](/notes/21/);
-  - #databases: [51](/notes/51/); [51a](/notes/51a/); [55](/notes/55/);
-  - #distributed-systems: [42d](/notes/42d/); [51](/notes/51/); [51b](/notes/51b/); [55](/notes/55/);
-  - #how-to-build-evolving-architecture: [68](/notes/68/);
-  - #career: [9a](/notes/9a/);
-  - #meta: [12](/notes/12/);
-  - #soft-skills: [15](/notes/15/); [39a](/notes/39a/);
-  - #system-design: [42](/notes/42/); [42a](/notes/42a/); [47](/notes/47/); [45a](/notes/45a/); [56a](/notes/56a/);
-    - #domain-driven-design: [42a](/notes/42a/); [42d](/notes/42d/);
-    - #anti-patterns: [45](/notes/45/);
-    - #separation-of-concerns: [47a1](/notes/47a1/);
-    - #system-boundary: [56b](/notes/56b/); [39b](/notes/39b/);
-  - #software-deployment: [26](/notes/26/);
-  - #quality-engineering: [39](/notes/39/); [50](/notes/50/);
-- #solitude-but-not-alone: [93](/notes/93/);
-- #solving-complicated-problems: [9c](/notes/9c/);
-- #the-impact-of-technology: [91](/notes/91/); [92b](/notes/92b/)
-- #thinking-model: [42b](/notes/42b/);
-- #time-management: [16a](/notes/16a/); [16d](/notes/16d/); [16e](/notes/16e/); [72a](/notes/72a/); [91](/notes/91/);
-- #understanding-changes-in-growth: [12a](/notes/12a/);
-- #understanding-growth: [9b](/notes/9b/);
-- #urban-architecture: [70](/notes/70/);
-- #what-consistency-means: [52c](/notes/52c/); [38a1](/notes/38a1/); [46e1](/notes/46e1/);
-- #what-prevents-us-becoming-better: [52a2](/notes/52a2/);
-- #what-to-be-careful-about-while-building-a-product: [29a](/notes/29a/); [39b](/notes/39b/);
-- #why-keep-decision-records: [42e](/notes/42e/);
-- #why-mental-models-matter: [19f](/notes/19f/); [7b](/notes/7b/);
-- #why-recharging-matters: [62a](/notes/62a/);
-- #why-vulnerability-is-important: [33b](/notes/33b/);
-- #why-we-exist: [1i1](/notes/1i1/);
-- #writing-handbook: [1](/notes/1/); [2](/notes/2/); [25](/notes/25/);
-- #zettelkasten: [1a](/notes/1a/); [1d](/notes/1d/); [1e](/notes/1e/);
+- [48-System Design Index](/notes/48/);
+- [84-Executive (Organizational) Leadership Index](/notes/84/);
+- [85-Organizational Design Index](/notes/85/);
+- [86-Organizational Communication Index](/notes/86/);
+- [98-Personal Life Experiences Index](/notes/98/);
+- [99-Management Handbook Index](/notes/99/);
+- [100-Software Engineering Handbook Index](/notes/100/);
+- [101-Personal Growth Index](/notes/101/):
+
+### All Zettelkasten Tags
+
+- [#automatic-human-behavior](/tags/automatic-human-behavior/)
+- [#barriers-to-learning](/tags/barriers-to-learning/)
+- [#bias](/tags/bias/)
+- [#decision-making](/tags/decision-making/)
+- [#discovering-happiness](/tags/discovering-happiness/)
+- [#economics](/tags/economics/)
+- [#feedback-handbook](/tags/feedback-handbook/)
+  - [#giving-feedback](/tags/feedback-handbook_giving-feedback/)
+  - [#how-to-apply-feedback](/tags/feedback-handbook_how-to-apply-feedback/)
+  - [#mechanisms](/tags/feedback-handbook_mechanisms/)
+  - [#receiving-feedback](/tags/feedback-handbook_receiving-feedback/)
+- [#goals](/tags/goals/)
+- [#habit-forming](/tags/habit-forming/)
+- [#habits-that-dont-die](/tags/habits-that-dont-die/)
+- [#how-best-performers-become-the-best](/tags/how-best-performers-become-the-best/)
+- [#how-to-build-mindfulness](/tags/how-to-build-mindfulness/)
+- [#how-to-build-friendship](/tags/how-to-build-friendship/)
+- [#how-to-build-resilience](/tags/how-to-build-resilience/)
+- [#how-to-convince-others](/tags/how-to-convince-others/)
+- [#how-to-deal-with-ambiguity](/tags/how-to-deal-with-ambiguity/)
+- [#how-to-deal-with-people](/tags/how-to-deal-with-people/)
+- [#how-to-delegate](/tags/how-to-delegate/)
+- [#how-to-form-a-community](/tags/how-to-form-a-community/)
+- [#how-to-get-buy-in](/tags/how-to-get-buy-in/)
+- [#how-to-assess-inputs-correctly](/tags/how-to-assess-inputs-correctly/)
+- [#how-to-learn](/tags/how-to-learn/)
+- [#how-to-rebuild](/tags/how-to-rebuild/)
+- [#how-to-think-clearly](/tags/how-to-think-clearly/)
+- [#importance-of-friendship](/tags/importance-of-friendship/)
+- [#investment-decision-making](/tags/investment-decision-making/)
+- [#investment-fundamentals](/tags/investment-fundamentals)
+- [#leadership-style](/tags/leadership-style/)
+- [#learning-financial-world](/tags/learning-financial-world/)
+- [#mental-health](/tags/mental-health/)
+- [#management-handbook](/tags/management-handbook/)
+- [#negotiation-of-a-job-offer](/tags/negotiation-of-a-job-offer/)
+- [#note-taking](/tags/note-taking/)
+- [#organizational-leadership](/tags/organizational-leadership/)
+- [#personal-life-experiences](/tags/personal-life-experiences/)
+- [#professional-life](/tags/professional-life/)
+  - [#career-transition](/tags/professional-life_career-transition/)
+  - [#professional-growth](/tags/professional-life_professional-growth/)
+- [#promotions](/tags/promotions/)
+- [#psychological-phenomenon](/tags/psychological-phenomenon/)
+- [#public-speaking](/tags/public-speaking/)
+- [#seeking-inconvenience](/tags/seeking-inconvenience/)
+- [#simplifying-ideas](/tags/simplifying-ideas/)
+- [#solitude-but-not-alone](/tags/solitude-but-not-alone/)
+- [#solving-complicated-problems](/tags/solving-complicated-problems/)
+- [#the-impact-of-technology](/tags/the-impact-of-technology/)
+- [#thinking-model](/tags/thinking-model/)
+- [#time-management](/tags/time-management/)
+- [#understanding-changes-in-growth](/tags/understanding-changes-in-growth/)
+- [#understanding-growth](/tags/understanding-growth/)
+- [#urban-architecture](/tags/urban-architecture/)
+- [#what-consistency-means](/tags/what-consistency-means/)
+- [#what-prevents-us-from-becoming-better](/tags/what-prevents-us-from-becoming-better/)
+- [#what-to-be-careful-about-while-building-a-product](/tags/what-to-be-careful-about-while-building-a-product/)
+- [#why-keep-decision-records](/tags/why-keep-decision-records/)
+- [#why-mental-models-matter](/tags/why-mental-models-matter/)
+- [#why-recharging-matters](/tags/why-recharging-matters/)
+- [#why-vulnerability-is-important](/tags/why-vulnerability-is-important/)
+- [#why-we-exist](/tags/why-we-exist/)
+- [#writing-handbook](/tags/writing-handbook/)
+- [#zettelkasten](/tags/zettelkasten/)

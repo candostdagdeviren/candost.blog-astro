@@ -80,7 +80,7 @@ const backlinks = allLinks[pathname] || [];
       <!-- Backlinks are part of the article -->
       {backlinks.length > 0 && (<h4>This note is mentioned in: </h4>)}
       {backlinks.length > 0 && backlinks.map((backlink) => (
-        <span><a href={backlink.url} class="cursor-pointer mt-1 hover:text-skin-active">{backlink.frontmatter.zettelId};</a> </span>
+        <span><a href={backlink.url} class="cursor-pointer mt-1 hover:text-skin-active">{backlink.frontmatter.zettelId}.</a> </span>
       ))}
     </article>
     <div class="divider-horizontal"></div>
