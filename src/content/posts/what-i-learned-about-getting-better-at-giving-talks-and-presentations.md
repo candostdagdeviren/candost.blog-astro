@@ -4,7 +4,6 @@ description: "After years of reading about, learning, and trying public speaking
 date: 2023-07-19
 updateDate: 2023-07-19
 external: false
-toc: true
 ---
 
 Many organizations have knowledge-sharing sessions where people present what they have learned or found interesting. Software engineers are sometimes expected to be on the stage to level up in their careers, as this is one of the most tangible ways to showcase they're trying to grow others. However, engineers are not professional speakers. They rarely spend time getting better at speaking to an audience. For many, explaining how something works is less exciting than learning how that thing works. For me, I was always fascinated by both.

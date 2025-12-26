@@ -7,7 +7,6 @@ tags:
 date: 2023-03-11
 updateDate: 2023-03-11
 external: false
-toc: true
 ---
 
 Reading books is an attractive concept that nobody teaches, but everybody somehow knows how to do it. I started reading books at the university around 2010. It's been more than ten years. During this whole time, I read whatever people or online algorithms and bookstores recommended. After getting into the habit and embedding reading into my life, I always struggled to drop the book if I didn't like it.

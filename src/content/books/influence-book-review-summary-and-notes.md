@@ -5,7 +5,6 @@ tags:
   - psychology
 date: 2025-01-28T06:00:00.000Z
 updateDate: 2025-01-28T06:00:00.000Z
-toc: true
 ---
 
 ## The Review
