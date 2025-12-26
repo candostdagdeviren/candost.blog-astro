@@ -83,7 +83,7 @@ const backlinks = allLinks[pathname] || [];
       {
         prevPost ? (
         <a
-        class="truncate  w-auto max-w-[40%] float-left hover:text-skin-active"
+        class="colored-link truncate w-auto max-w-[40%] float-left hover:text-skin-active"
         href={prevPost.collection == 'posts'
         ? '/' + prevPost.slug + '/'
         : '/' + prevPost.collection + '/' + prevPost.slug + '/'}
@@ -98,8 +98,8 @@ const backlinks = allLinks[pathname] || [];
     }
     {
       nextPost ? (
-      <div class="flex item-center float-right w-auto max-w-[40%] text-right hover:text-skin-active">
-      <a class="truncate " href={nextPost.collection == 'posts'
+      <div class="flex item-center float-right w-auto max-w-[40%] text-right">
+      <a class="colored-link truncate " href={nextPost.collection == 'posts'
       ? '/' + nextPost.slug + '/'
       : '/' + nextPost.collection + '/' + nextPost.slug + '/'}
       title={nextPost.data.zettelId + ": " + nextPost.data.title}>
@@ -115,7 +115,7 @@ const backlinks = allLinks[pathname] || [];
   <!-- Backlinks are part of the article -->
   {backlinks.length > 0 && (<h4 class="mt-5 font-bold">This note is mentioned in: </h4>)}
   {backlinks.length > 0 && backlinks.map((backlink) => (
-    <span><a href={backlink.url} class="italic cursor-pointer mt-1 hover:text-skin-active">{backlink.frontmatter.zettelId}.</a> </span>
+    <span><a href={backlink.url} class="colored-link italic cursor-pointer mt-1 hover:text-skin-active">{backlink.frontmatter.zettelId}.</a> </span>
   ))}
   <NotesFooter title={entry.data.title} url={entry.slug} date={entry.data.date}></NotesFooter>
 </BlogPost>

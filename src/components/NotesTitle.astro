@@ -6,7 +6,7 @@ const {title, tags } = Astro.props
 <div class="border-b-1">
   <div class="space-x-2 pb-5 text-sm">
     <i class="ri-corner-left-up-fill"/>
-    <a href="/notes/#index-notes" class="word-wrap break-all hover:text-skin-active">Go to main index</a>
+    <a href="/notes/#index-notes" class="colored-link word-wrap break-all hover:text-skin-active">Go to main index</a>
   </div>
   <!-- title -->
   <h1 class="break-all text-xl font-bold my-2" style="white-space:pre-wrap; word-break:break-word;">{title}</h1>
@@ -16,7 +16,7 @@ const {title, tags } = Astro.props
       tags && dealLabel(tags).map((tagName) => (
         <div class="w-full italic">
           <i class="ri-hashtag"/>
-          <a href={"/tags/" + tagName} class="word-wrap break-all hover:text-skin-active">{tagName.includes("_") ? tagName.split("_").join(" > ").split("-").join(" ") : tagName.split("-").join(" ")}</a>
+          <a href={"/tags/" + tagName} class="colored-link word-wrap break-all hover:text-skin-active">{tagName.includes("_") ? tagName.split("_").join(" > ").split("-").join(" ") : tagName.split("-").join(" ")}</a>
         </div>
       ))
     }
