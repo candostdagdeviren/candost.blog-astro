@@ -23,16 +23,17 @@ const resultPosts = sortPostsByDate(tagPosts);
 <IndexPage frontmatter={{title: "The Index of" + tag}}}>
   <h1 class="text-xl">Index of "<span class="header-link-active">{tag.includes("_") ? tag.split("_").join(" > ").split("-").join(" ") : tag.split("-").join(" ")}</span>"</h1>
 
+  <p class="text-sm italic mb-1">Click a post title below to jump to that post.</p>
   <ul class="text-skin-base">
     {
       resultPosts.map((post) => (
       <li style="list-style-type: disc;" class="ml-4 my-2">
         <a href={post.collection == 'posts' ? "/" + post.slug : '/' + post.collection + '/' + post.slug}>
           <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">
-            {post.data.title}
+            "{post.data.title}"
           </span>
         </a>
-        in <a class = "hover:text-skin-active" href=`/${post.collection}/`><b>{post.collection}</b></a>
+        in <a class = "hover:text-skin-active" href={`/${post.collection}/`}><b>{post.collection}</b></a>
         <em>{post.collection == 'notes' ? " with zettel ID: " + post.data.zettelId : ""}</em>
       </li>
       ))

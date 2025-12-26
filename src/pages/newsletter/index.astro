@@ -12,7 +12,7 @@ let sortedMediations = await sortPostsByIssueNumberDec(mediations);
 ---
 
 <IndexPage frontmatter={{ comment: false, title: "Mediations Newsletter" }}>
-  <h1 class="text-3xl mb-5 mt-10">Mediations Newsletter</h1>
+  <h1 class="text-3xl mb-5 font-bold">Mediations Newsletter.</h1>
   <div style="width: 100%;"><NewsletterForm /></div>
 
   <div>
@@ -21,8 +21,9 @@ let sortedMediations = await sortPostsByIssueNumberDec(mediations);
       {
         sortedMediations.slice(0, 1)
         .map((post) => (
-        <li style="list-style-type: disc;" class="ml-4 my-2">
-          <a class="flex text-l" href={post.collection == 'posts' ? '/' + post.slug : '/' + post.collection + '/' + post.slug}>
+        <li class="mb-3 content-item" data-collection={post.collection} style="display: list-item;">
+          <i class="ri-mail-check-line mr-2 mt-2 text-xl" />
+          <a class="text-l" href={post.collection == 'posts' ? '/' + post.slug : '/' + post.collection + '/' + post.slug}>
             <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"><strong>{post.data.newsletterName} #{post.data.issueNumber}:&nbsp;</strong>{post.data.title}</span>
           </a>
         </li>
@@ -36,11 +37,16 @@ let sortedMediations = await sortPostsByIssueNumberDec(mediations);
     {
       sortedMediations.slice(1, sortedMediations.length)
       .map((post) => (
-      <li style="list-style-type: disc;" class="ml-4 my-2">
-        <a class="flex text-l" href={post.collection == 'posts' ? '/' + post.slug : '/' + post.collection + '/' + post.slug}>
-          <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"><strong>{post.data.newsletterName} #{post.data.issueNumber}:&nbsp;</strong>{post.data.title}</span>
-        </a>
-      </li>
+        <li class="mb-3 content-item" data-collection={post.collection} style="display: list-item;">
+        <i class="ri-mail-check-line mr-2 mt-2 text-xl" />
+        <a
+          class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+          href={post.collection === "posts" ? `/${post.slug}/` : `/${post.collection}/${post.slug}/`}
+        >
+              <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"><strong>{post.data.newsletterName} #{post.data.issueNumber}:&nbsp;</strong>{post.data.title}</span>
+            </a>
+          </div>
+        </li>
       )
       )}
     </ul>

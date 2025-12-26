@@ -1,6 +1,5 @@
 import {createSignal} from "solid-js";
 import _ from 'lodash'
-import {formatDate} from "../utils/formatDate.ts";
 import {t} from '../i18n/utils.ts'
 
 export function Search(props) {
@@ -34,7 +33,7 @@ export function Search(props) {
     <div>
       <label class="relative block">
         <span class="absolute inset-y-0 flex items-center pl-2 opacity-75">
-          <i class="ri-search-line text-skin-active ml-1"></i>
+          <i class="ri-search-line ml-1 text-xl"></i>
         </span>
         <input
           id="search-input"
@@ -44,7 +43,6 @@ export function Search(props) {
           name="search"
           value={inputVal()}
           onInput={handleChange}
-          autofocus
         />
       </label>
 
@@ -61,17 +59,9 @@ export function Search(props) {
           <>
             <a
               class="text-xl underline-offset-4 decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 font-bold"
-              href={`/${post.collection === 'posts' ? post.slug : `${post.collection}/${post.slug}`}`}
+              href={`/${post.collection === 'posts' ? post.slug : `${post.collection}/${post.slug}/`}`}
               innerHTML={post.data.title}
             />
-            <div class="flex items-center">
-              {post.data.date && (
-                <div class="flex items-center cursor-pointer">
-                  <i class="ri-calendar-2-fill mr-1"/>
-                  <div class="tag">{formatDate(post.data.date)}</div>
-                </div>
-              )}
-            </div>
             <p class="break-all mb-4" innerHTML={post.data.description}></p>
           </>
         ))}
