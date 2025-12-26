@@ -19,6 +19,7 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
 ---
 
 <BlogPost frontmatter={{ comment: false, title: "Home" }}>
+  <h1 class="text-3xl mb-5 mt-10">Candost</h1>
   <section class="mb-8">
     <p class="mb-5">
       I'm a writer and software engineering leader. I'm interested in many things like reading good books, philosophy, psychology, software architecture & design, urban & industrial design, exercising, and eating healthy.
@@ -30,15 +31,15 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
 
   <p class="mb-10">That's why this blog exists. You'll find all my notes, how I evolved, and my reflections on the complicated life and how I navigate my life with things I mentioned above.</p>
 
-  <p class="mb-5 mt-20 flex ">Want the longer story?<a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/about/">See my about page.</a></p>
+  <p class="mb-5 flex ">Want the longer story?<a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/about/">See my about page.</a></p>
 
-  <p class="mb-5 mt-20 flex ">What am I doing now?<a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/now/">See my "now" page.</a></p>
+  <p class="mb-5 flex ">What am I doing now?<a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/now/">See my "now" page.</a></p>
 
-  <p class="mb-5 mt-20 flex ">Want to follow me? <a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/newsletter/">Subscribe via email</a> or <a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/rss.xml"> follow via RSS.</a></p>
+  <p class="mb-5 flex ">Want to follow me? <a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/newsletter/">Subscribe via email</a> or <a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/rss.xml"> follow via RSS.</a></p>
 
   <div class="divider-horizontal"/>
 
-  <a class="text-xl mb-5 mt-20 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/posts/">Newest Posts</a>
+  <a class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/posts/">Newest Posts</a>
   <p>Here are the latest added posts:</p>
   <ul>
     {
@@ -56,7 +57,7 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
 
   <div class="divider-horizontal"/>
 
-  <a class="text-xl mb-5 mt-20 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/journal/">Journal</a>
+  <a class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/journal/">Journal</a>
   <p>These posts are my casual entries that are not full blog posts. They include ideas, life updates, a link to a post, a short comment about something, and more. Here are the latest added entries:</p>
   <ul>
     {
@@ -74,7 +75,7 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
 
   <div class="divider-horizontal"/>
 
-  <a class="text-xl mb-5 mt-20 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/notes/">Notes</a>
+  <a class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/notes/">Notes</a>
   <p>These notes are in my Slip-Box in my Zettelkasten. We can call them as Digital Garden as well but I prefer calling the whole system Zettelkasten. Here are the latest added notes:</p>
   <ul>
     {
@@ -92,7 +93,7 @@ let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSiz
 
   <div class="divider-horizontal"/>
 
-  <a class="text-xl mb-5 mt-20 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/books/">Book Notes </a>
+  <a class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/books/">Book Notes </a>
   <p>I share either a full book review or a single-chapter note from the books I read. Here are the latest added book notes:</p>
   <ul>
     {
