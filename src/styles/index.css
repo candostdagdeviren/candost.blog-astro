@@ -113,6 +113,11 @@ menu {
     @apply text-end mb-1 break-words hover:text-skin-active;
   }
 
+  .highlighted-count {
+    background-color: rgb(var(--color-border));
+    color: #000;
+  }
+
   a {
     @apply cursor-pointer;
   }

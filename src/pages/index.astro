@@ -1,112 +1,197 @@
 ---
-import { site } from '../consts';
-import BlogPost from '../layouts/BlogPost.astro'
-import {getCollectionByName} from "../utils/getCollectionByName";
-import { sortPostsByDate } from '../utils/sortPostsByDate';
+import { site } from "../consts";
+import BlogPost from "../layouts/BlogPost.astro";
+import NewsletterForm from "../components/NewsletterForm.astro";
+import { sortPostsByDate } from "../utils/sortPostsByDate";
+import { getAllContent } from "../utils/getAllContent";
+import { getCollectionByName } from "../utils/getCollectionByName";
 
-let posts = await getCollectionByName("posts");
-let sortedPosts = await sortPostsByDate(posts).slice(0, site.homePageShowcaseSize);
-
-let books = await getCollectionByName("books");
-let sortedBooks = await sortPostsByDate(books).slice(0, site.homePageShowcaseSize);
-
-let journals = await getCollectionByName("journal");
-let sortedJournals = await sortPostsByDate(journals).slice(0, site.homePageShowcaseSize);
-
-let notes = await getCollectionByName("notes");
-let sortedNotes = await sortPostsByDate(notes).slice(0, site.homePageShowcaseSize);
-
+let all = await getAllContent();
+let sortedContent = await sortPostsByDate(all).slice(0, site.homePageShowcaseSize);
+const posts = await getCollectionByName('posts')
+let sortPosts = await sortPostsByDate(posts);
+let favorites = sortPosts.filter(post => post.data.favorite);
+let resultPosts = favorites.splice(0, site.recentPostsSize);
 ---
 
 <BlogPost frontmatter={{ comment: false, title: "Home" }}>
   <section class="mb-8">
-    <p class="mb-5">
-      I'm a writer and software engineering leader. I'm interested in many things like reading good books, philosophy, psychology, software architecture & design, urban & industrial design, exercising, and eating healthy.
+    <div class="pt-4 pb-4">
+      <p class="text-4xl">Candost Dagdeviren</p>
+      <p class="text-sm italic">Writer, Software Engineering Leader, Problem Solver</p>
+    </div>
+    <p class="mb-2">
+      I work towards creating great, high-performing systems and technology organizations by identifying <em>the real problems</em>.
+      <p class="mb-5">On this website, I'm hunting timeless insights into humans, software, and leadership, bringing solutions along the way.</p>
     </p>
 
+    <a
+      href="/about/">
+      <i class="ri-arrow-right-line"></i>
+      <text class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">More on About page</text>
+    </a>
   </section>
 
-  <p class="mb-5">I used to think reading would help me learn. One day, ten pages before finishing a book, I realized I had read that book before. At that point, I decided to change a few things.</p>
+  <div style="width: 100%;"><NewsletterForm /></div>
 
-  <p class="mb-10">That's why this blog exists. You'll find all my notes, how I evolved, and my reflections on the complicated life and how I navigate my life with things I mentioned above.</p>
-
-  <p class="mb-5 flex ">Want the longer story?<a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/about/">See my about page.</a></p>
-
-  <p class="mb-5 flex ">What am I doing now?<a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/now/">See my "now" page.</a></p>
-
-  <p class="mb-5 flex ">Want to follow me? <a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/newsletter/">Subscribe via email</a> or <a class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/rss.xml"> follow via RSS.</a></p>
-
-  <div class="divider-horizontal"/>
-
-  <a class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/posts/">Newest Posts</a>
-  <p>Here are the latest added posts:</p>
+  <h2 class="text-3xl mb-5 mt-10 font-bold"
+  >Recent.</h2
+  >
   <ul>
     {
-      sortedPosts.map((post) => {
+      sortedContent.map((post) => {
         return (
-        <li class="mb-3">
-          <a class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/' + post.slug}>
-            <strong>{post.data.title}</strong>
-          </a>
-        </li>
+          <li class="mb-3 content-item" data-collection={post.collection} style="display: list-item;">
+            {post.collection === "posts" ? (
+              <i class="ri-pen-nib-line mr-2 mt-2 text-xl" />
+            ) : post.collection === "books" ? (
+              <i class="ri-book-line mr-2 mt-2 text-xl" />
+            ) : post.collection === "journal" ? (
+              <i class="ri-chat-thread-line mr-2 mt-2 text-xl" />
+            ) : post.collection === "notes" ? (
+              <i class="ri-brain-line mr-2 mt-2 text-xl" />
+            ) : post.collection === "newsletter" ? (
+              <i class="ri-mail-check-line mr-2 mt-2 text-xl" />
+            ) : post.collection === "podcast" ? (
+              <i class="ri-mic-line mr-2 mt-2 text-xl" />
+            ) : (
+              <i class="ri-arrow-right-s-line mr-2 mt-2 text-xl" />
+            )}
+            <a
+              class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+              href={post.collection === "posts" ? `/${post.slug}/` : `/${post.collection}/${post.slug}/`}
+            >
+              <strong class="text-lg">{post.data.title}</strong>
+            </a>
+          </li>
         );
       })
     }
   </ul>
 
-  <div class="divider-horizontal"/>
+  <h2 class="text-3xl mb-5 mt-10 font-bold"
+    >Most popular.</h2
+  >
+  <ul>
+    {
+      resultPosts.map((post) => {
+        return (
+          <li class="mb-3 content-item" data-collection={post.collection} style="display: list-item;">
+            {post.collection === "posts" ? (
+              <i class="ri-pen-nib-line mr-2 mt-2 text-xl" />
+            ) : post.collection === "books" ? (
+              <i class="ri-book-line mr-2 mt-2 text-xl" />
+            ) : post.collection === "journal" ? (
+              <i class="ri-chat-thread-line mr-2 mt-2 text-xl" />
+            ) : post.collection === "notes" ? (
+              <i class="ri-brain-line mr-2 mt-2 text-xl" />
+            ) : post.collection === "newsletter" ? (
+              <i class="ri-mail-check-line mr-2 mt-2 text-xl" />
+            ) : post.collection === "podcast" ? (
+              <i class="ri-mic-line mr-2 mt-2 text-xl" />
+            ) : (
+              <i class="ri-arrow-right-s-line mr-2 mt-2 text-xl" />
+            )}
+            <a
+              class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+              href={post.collection === "posts" ? `/${post.slug}/` : `/${post.collection}/${post.slug}/`}
+            >
+              <strong class="text-lg">{post.data.title}</strong>
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+  <div class="pt-10">
+  <a
+      href="/blog/" class="text-2xl font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active">
+      <i class="ri-arrow-right-line"></i>
+      <text class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">All Posts</text>
+    </a>
+    </div>
+<!--
+  <div class="divider-horizontal"></div>
 
-  <a class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/journal/">Journal</a>
-  <p>These posts are my casual entries that are not full blog posts. They include ideas, life updates, a link to a post, a short comment about something, and more. Here are the latest added entries:</p>
+  <a
+    class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active"
+    href="/journal/">Journal</a
+  >
+  <p>
+    These posts are my casual entries that are not full blog posts. They include ideas, life updates, a link to a post,
+    a short comment about something, and more. Here are the latest added entries:
+  </p>
   <ul>
     {
       sortedJournals.map((journalEntry) => {
         return (
-        <li class="mb-3">
-          <a class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/journal/' + journalEntry.slug}>
-            <strong>{journalEntry.data.title}</strong>
-          </a>
-        </li>
+          <li class="mb-3">
+            <a
+              class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+              href={"/journal/" + journalEntry.slug}
+            >
+              <strong>{journalEntry.data.title}</strong>
+            </a>
+          </li>
         );
       })
     }
   </ul>
 
-  <div class="divider-horizontal"/>
+  <div class="divider-horizontal"></div>
 
-  <a class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/notes/">Notes</a>
-  <p>These notes are in my Slip-Box in my Zettelkasten. We can call them as Digital Garden as well but I prefer calling the whole system Zettelkasten. Here are the latest added notes:</p>
+  <a
+    class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active"
+    href="/notes/">Notes</a
+  >
+  <p>
+    These notes are in my Slip-Box in my Zettelkasten. We can call them as Digital Garden as well but I prefer calling
+    the whole system Zettelkasten. Here are the latest added notes:
+  </p>
   <ul>
     {
       sortedNotes.map((zettel) => {
         return (
-        <li class="mb-3">
-          <a class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/notes/' + zettel.slug}>
-            <strong>{zettel.data.zettelId}: {zettel.data.title}</strong>
-          </a>
-        </li>
+          <li class="mb-3">
+            <a
+              class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+              href={"/notes/" + zettel.slug}
+            >
+              <strong>
+                {zettel.data.zettelId}: {zettel.data.title}
+              </strong>
+            </a>
+          </li>
         );
       })
     }
   </ul>
 
-  <div class="divider-horizontal"/>
+  <div class="divider-horizontal"></div>
 
-  <a class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active" href="/books/">Book Notes </a>
-  <p>I share either a full book review or a single-chapter note from the books I read. Here are the latest added book notes:</p>
+  <a
+    class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active"
+    href="/books/"
+    >Book Notes
+  </a>
+  <p>
+    I share either a full book review or a single-chapter note from the books I read. Here are the latest added book
+    notes:
+  </p>
   <ul>
     {
       sortedBooks.map((note) => {
         return (
-        <li class="mb-3">
-          <a class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/books/' + note.slug}>
-            <strong>{note.data.title}</strong>
-          </a>
-        </li>
+          <li class="mb-3">
+            <a
+              class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+              href={"/books/" + note.slug}
+            >
+              <strong>{note.data.title}</strong>
+            </a>
+          </li>
         );
       })
     }
-  </ul>
-
+  </ul> -->
 </BlogPost>
-
