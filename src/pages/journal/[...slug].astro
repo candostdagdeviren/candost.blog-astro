@@ -39,7 +39,7 @@ if (sortPosts[currentPostIndex + 1]) {
 <BlogPost frontmatter={{comment:true, ...post.data}}>
   {
     (
-    <PostTitle slug={`/journal/${post.slug}`} {...post.data} lastModified={postUpdateDate}></PostTitle>
+    <PostTitle slug={`/journal/${post.slug}/`} {...post.data} lastModified={postUpdateDate}></PostTitle>
     <div class="flex items-center mb-2">
       {comment.enable && comment.type === "waline" && comment.pageview && (
       <div class="divider-vertical"/>
