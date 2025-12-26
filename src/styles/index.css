@@ -117,6 +117,16 @@ menu {
     @apply cursor-pointer;
   }
 
+  .colored-link {
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(var(--color-primary-blue))
+  }
+ .colored-link:active,
+ .colored-link:hover {
+    color: rgb(var(--color-primary-yellow));
+ }
+
   .menu-icon {
     @apply text-xl mr-2
   }
