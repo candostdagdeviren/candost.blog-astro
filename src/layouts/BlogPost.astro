@@ -5,7 +5,6 @@ import Footer from '../components/Footer.astro';
 import Comment from '../components/Comment.astro';
 import Toc from '../components/Toc.astro';
 import { comment } from "../consts";
-import BlogAside from '../components/BlogAside.astro';
 
 const { frontmatter = { comment: true,  toc: false, mathjax: false, mermaid: false } } = Astro.props;
 ---
@@ -15,18 +14,27 @@ const { frontmatter = { comment: true,  toc: false, mathjax: false, mermaid: fal
 
 <body class="bg-skin-secondary">
   <Header />
-  <main class="container p-4 pt-20 text-skin-base min-h-full pb-32 relative" id="app">
+  <main class="container pt-20 text-skin-base min-h-full pb-32 relative" id="app">
+
+    {frontmatter.toc ?
     <div class="grid grid-cols-4 gap-8">
       <div class="col-span-4 xl:col-span-3 space-y-4">
         <slot />
         {(frontmatter.comment && comment.enable) ? <Comment /> : null}
+        </div>
+        <div class="hidden xl:block col-span-1 relative">
+          <Toc />
+        </div>
       </div>
-      <div class="hidden xl:block col-span-1 relative">
-        <BlogAside />
-
-        {frontmatter.toc && <Toc />}
+    :
+    <div class="grid grid-cols-4 gap-8">
+      <div class="col-span-4">
+        <slot />
+        {(frontmatter.comment && comment.enable) ? <Comment /> : null}
       </div>
     </div>
+    }
+
     <Footer />
   </main>
 </body>
