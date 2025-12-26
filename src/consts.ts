@@ -19,7 +19,7 @@ export const site = {
   title: 'Candost\'s Blog', // required
   favicon: '/favicon.ico', // required
   description: 'Hunting timeless insights into humans and software and helping others on the way.', // required
-  author: "Candost", // required
+  author: "candost", // required
   avatar: '/avatar.jpg', // required
   url: 'https://candost.blog', // required
   motto: 'Hunting timeless insights into humans and software and helping others on the way.',
@@ -27,7 +27,7 @@ export const site = {
   archivePageSize: 25,
   postPageSize: 10,
   feedPageSize: 20,
-  homePageShowcaseSize: 3,
+  homePageShowcaseSize: 10,
   beian: '',
 }
 
