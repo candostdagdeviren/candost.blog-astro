@@ -3,10 +3,8 @@ import {getCollectionByName} from "../utils/getCollectionByName";
 import HeaderLink from './HeaderLink.astro';
 import ThemeIcon from './ThemeIcon.astro';
 import MenuIcon from './MenuIcon.astro';
-import AsideIcon from './SidebarIcon.astro';
 import {site, categories } from '../consts';
 import { sortPostsByDate } from "../utils/sortPostsByDate";
-import NewsletterForm from "./NewsletterForm.astro";
 
 const posts = await getCollectionByName('posts');
 let sortPosts = await sortPostsByDate(posts);
@@ -14,22 +12,23 @@ let favorites = sortPosts.filter(post => post.data.favorite);
 let resultPosts = favorites.splice(0, site.recentPostsSize);
 ---
 
-<header class="fixed top-0 w-full bg-skin-fill text-skin-base z-10">
-  <div class="flex items-center justify-between container">
-    <div class="block xl:hidden">
-      <MenuIcon />
+<header class="fixed w-full bg-skin-fill text-skin-base z-10">
+  <div class="flex items-center container mx-auto justify-between">
+    <div class="flex items-center pt-4 pb-4">
+      <div class="block xl:hidden flex items-center pt-4 pb-4">
+        <MenuIcon />
+      </div>
     </div>
-    <a class="text-2xl p-4" href="/">{site.title}</a>
-    <div class="flex items-center">
+
+    <div class="flex-1 flex justify-center pt-4 pb-4">
       <div class="hidden xl:block">
-        <div class="flex items-center space-x-5 pr-4">
+        <div class="flex items-center space-x-5">
           {
-            categories.map(category => (
+            categories.slice(0,categories.length-1).map(category => (
               <HeaderLink
                 href={category.href}
                 icon={category.iconClass}
                 target={category.target ? category.target : '_self'}
-                children={category.children ? category.children : []}
               >
                 {category.name}
               </HeaderLink>
@@ -37,11 +36,9 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
           }
         </div>
       </div>
-      <ThemeIcon />
-      <div class="block xl:hidden">
-        <AsideIcon />
-      </div>
     </div>
+<ThemeIcon />
+
   </div>
   <div id="mobile-menu" class="hidden text-center overflow-y-auto pb-8" style="height: calc(100vh - 64px)">
     {
@@ -68,87 +65,5 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
         </div>
       ))
     }
-  </div>
-  <div id="personal-info" class="hidden break-all overflow-y-auto pb-8" style="height: calc(100vh - 64px)">
-    <div id="newsletter" class="mr-5 ml-5 mb-10">
-      <div class="aside-widget mt-10 flex-col text-xl">
-        <div>Mediations Newsletter</div>
-      </div>
-      <div class="flex flex-col">
-        <p class="mb-2" style="white-space:pre-wrap; word-break:break-word;"><em>Timeless insights into humans, software, and leadership.</em></p>
-        <p class="mb-2" style="white-space:pre-wrap; word-break:break-word;">Join hundreds of subscribers and learn how to live fully, feel accomplished and get your job done.</p>
-        <p class="mb-2" style="white-space:pre-wrap; word-break:break-word;">Every second Tuesday. For free.</p>
-        <div style="width: 100%; height=500px"><NewsletterForm /></div>
-      </div>
-    </div>
-
-    <div id="best-posts" class="mr-5 ml-5 mb-10">
-      <div class="aside-widget text-center flex-col text-xl">
-        <div>Most Popular Posts</div>
-      </div>
-      <div class="flex flex-col">
-        {
-          resultPosts.map((post) => (
-            <a
-              href={"/" + post.slug}
-              class="truncate cursor-pointer mt-1 hover:text-skin-active"
-              title={post.data.title}
-            >
-              {post.data.title}
-            </a>
-          ))
-        }
-      </div>
-    </div>
-    <div id="more" class="mr-5 ml-5">
-      <div class="aside-widget flex flex-col text-xl">
-        <div>More About Candost</div>
-      </div>
-      <div class="flex flex-col">
-        <a
-          href="/now/"
-          class="truncate cursor-pointer mt-1 hover:text-skin-active"
-          title="Now"
-        >
-          Now
-        </a>
-        <a
-          href="/about/"
-          class="truncate cursor-pointer mt-1 hover:text-skin-active"
-          title="About"
-        >
-          About
-        </a>
-        <a
-          href="/podcast/"
-          class="truncate cursor-pointer mt-1 hover:text-skin-active"
-          title="Podcast"
-        >
-          Podcast
-        </a>
-        <a
-          href="/blogroll/"
-          class="truncate cursor-pointer mt-1 hover:text-skin-active"
-          title="Blogroll"
-        >
-          Blogroll
-        </a>
-        <a
-        href="/guestbook/"
-        class="truncate cursor-pointer mt-1 hover:text-skin-active"
-        title="Guestbook"
-      >
-        Guestbook
-      </a>
-      <a
-      href="https://linkedin.com/in/candost"
-      target="_blank"
-      class="truncate cursor-pointer mt-1 hover:text-skin-active"
-      title="Linkedin"
-    >
-      LinkedIn
-    </a>
-      </div>
-    </div>
   </div>
 </header>

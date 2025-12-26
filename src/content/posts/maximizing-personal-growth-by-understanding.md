@@ -8,7 +8,6 @@ tags:
 date: 2023-06-08
 updateDate: 2023-06-08
 external: false
-toc: true
 ---
 
 In 2014, Douglas Stone & Sheila Heen, from the Harvard Negotiation Project and the authors of Difficult Conversations, came together and published a book called Thanks for The Feedback. In 309 pages, they talked about how to receive feedback well. They didn't focus on software engineers or any specific profession. But they doubled down on receiving aspect of feedback.
