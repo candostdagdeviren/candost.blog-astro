@@ -57,6 +57,65 @@ export const categories = [
     href: "/",
   },
   {
+    name: "Blog",
+    href: "/blog/",
+  },
+  {
+    name: "Newsletter",
+    href: "/newsletter/",
+  },
+  {
+    name: "About",
+    href: "/about/",
+  },
+  {
+    name: "More",
+    href: "javascript:void(0);",
+    children: [
+      {
+        name: "Search",
+        href: "/search",
+      },
+      {
+        name: 'About',
+        href: '/about',
+      },
+      {
+        name: "Now",
+        href: "/now/",
+      },
+      {
+        name: "Podcast",
+        href: "/podcast/",
+        target: '_self',
+      },
+      {
+        name: "Guestbook",
+        href: "/guestbook/",
+        target: '_self',
+      },
+      {
+        name: 'Blogroll',
+        href: '/blogroll',
+        target: '_self',
+      },
+    ]
+  }
+]
+
+/**
+* Footer Navigator
+* name {string}
+* iconClass {string} icon style
+* href {string}  link url
+* target {string} optional "_self|_blank" open in current window / open in new window
+*/
+export const footerLinks = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
     name: "Posts",
     href: "/posts/",
   },
@@ -65,7 +124,7 @@ export const categories = [
     href: "/newsletter/",
   },
   {
-    name: "Books",
+    name: "Book Notes",
     href: "/books/",
   },
   {
