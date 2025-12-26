@@ -13,7 +13,7 @@
 }
 
 /**
-覆写tailwindcss 默认样式
+tailwindcss
  */
 
 html {
@@ -83,13 +83,12 @@ menu {
   }
 
   .text-black {
-    color: black));
+    color: black;
   }
 }
 
 @layer components {
 
-  /* 导航栏的按钮样式 */
   .header-link-active {
     @apply underline underline-offset-4 decoration-wavy decoration-skin-active;
   }
@@ -102,12 +101,10 @@ menu {
     @apply cursor-pointer border rounded py-1 px-2 bg-skin-fill hover:text-skin-active mx-2 z-10
   }
 
-  /*侧边栏每个栏目共有样式*/
   .aside-widget {
     @apply flex items-center w-full border-b mb-2;
   }
 
-  /* 侧边最近评论列表样式 */
   .waline-comment-content {
     @apply p-1 overflow-auto max-h-72 break-words hover:text-skin-active;
   }
@@ -124,7 +121,7 @@ menu {
     @apply text-xl mr-2
   }
 
-  /* markdown内容图片样式 */
+  /* markdown */
   .image-cols-2 {
     @apply grid gap-4 grid-cols-2 my-2
   }
@@ -142,7 +139,6 @@ menu {
   scroll-behavior: smooth;
 }
 
-/* 分割线 */
 .divider-vertical {
   position: relative;
   top: -.06em;
@@ -175,7 +171,7 @@ menu {
   background-color: rgba(var(--color-text), .3);
 }
 
-/* 重写markdown样式 */
+/* markdown */
 .markdown-body {
   background-color: inherit;
 }
@@ -189,7 +185,7 @@ a {
   line-height: 26px;
 }
 
-/* 修改waline评论侧边栏样式 */
+/* waline */
 .waline-comment-content-author {
   text-align: end;
   margin-bottom: 6px;
@@ -200,14 +196,13 @@ a {
   display: inline-block;
 }
 
-/*  网站列表样式清空 */
 ul,
 ol,
 menu {
   list-style: none;
 }
 
-/* markdown 列表样式 */
+/* markdown  */
 .markdown-body menu,
 .markdown-body ul {
   list-style: disc;
@@ -218,11 +213,9 @@ menu {
 }
 
 .markdown-body img {
-  /* 修改图片居中 */
   /* margin: 0 auto; */
 }
 
-/* 修改滚动条样式 */
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -235,7 +228,6 @@ menu {
   border-radius: 4px;
 }
 
-/* 置顶文字样式 */
 .post-sticky {
   font-weight: 400;
   height: 20px;
@@ -251,8 +243,7 @@ menu {
   border-radius: 2px 6px;
 }
 
-/* 修复toc 样式问题*/
-/*  覆写toc选中的链接文字颜色 */
+/* ToC */
 .is-active-link {
   color: rgb(var(--color-text-active)) !important;
 }
@@ -261,7 +252,7 @@ menu {
   color: rgb(var(--color-text-active));
 }
 
-/* tocbot自带的border样式会穿透有问题，以被覆写 */
+/* tocbot */
 .toc-link::before {
   display: none !important;
 }
