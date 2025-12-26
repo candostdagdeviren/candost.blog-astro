@@ -1,8 +1,5 @@
 ---
-import FeedPostDate from "./FeedPostDate.astro";
 const {data, body, slug} = Astro.props.post;
-const {index} = Astro.props;
-
 ---
 
 <div>
@@ -21,10 +18,5 @@ const {index} = Astro.props;
             : body.replace(/^#+/gm, "")
                   .replace(/!?\[.*?\]\(.*?\)/g, "")
         }
-
-
-  </p>
-  <div class="flex items-center justify-between mt-2 text-sm">
-    <FeedPostDate date={data.date} index={index}/>
-  </div>
+ </p>
 </div>

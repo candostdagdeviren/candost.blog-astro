@@ -20,8 +20,8 @@ const tagPosts = getPostsByTag(posts, tag);
 const resultPosts = sortPostsByDate(tagPosts);
 ---
 
-<IndexPage frontmatter={{title: tag}}}>
-  <h1 class="text-xl">Articles related to "<span class="header-link-active">{tag.includes("_") ? tag.split("_").join(" > ").split("-").join(" ") : tag.split("-").join(" ")}</span>"</h1>
+<IndexPage frontmatter={{title: "The Index of" + tag}}}>
+  <h1 class="text-xl">Index of "<span class="header-link-active">{tag.includes("_") ? tag.split("_").join(" > ").split("-").join(" ") : tag.split("-").join(" ")}</span>"</h1>
 
   <ul class="text-skin-base">
     {

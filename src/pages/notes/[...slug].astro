@@ -1,10 +1,10 @@
 ---
 import {getCollection} from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro'
-import PostTitle from "../../components/PostTitle.astro";
+import NotesTitle from "../../components/NotesTitle.astro";
 import {getCollectionByName} from "../../utils/getCollectionByName";
 import { sortNotesByZettelId } from '../../utils/sortNotesByZettelId';
-import BlogFooter from '../../components/BlogFooter.astro';
+import NotesFooter from '../../components/NotesFooter.astro';
 
 
 export const prerender = true;
@@ -28,7 +28,7 @@ const allNotes = await getCollectionByName("notes");
 const sortPosts = sortNotesByZettelId(allNotes);
 
 const currentPostIndex = sortPosts.findIndex(
-(postItem) => postItem.data.title === entry.data.title
+  (notesItem) => notesItem.data.title === entry.data.title
 );
 let prevPost, nextPost
 if (sortPosts[currentPostIndex - 1]) {
@@ -67,29 +67,23 @@ const backlinks = allLinks[pathname] || [];
 ---
 <BlogPost frontmatter={entry.data}>
   <div>
-    <PostTitle
+    <NotesTitle
       {...entry.data}
       title={`${entry.data.zettelId}: ${entry.data.title}`}
       slug={`/notes/${entry.slug}`}
       lastModified={lastModified}
       readingTime={remarkPluginFrontmatter.readingTime}
-      ></PostTitle>
+      ></NotesTitle>
     <div class="divider-horizontal"></div>
     <article class="markdown-body">
       <Content/>
-      <!-- Backlinks are part of the article -->
-      {backlinks.length > 0 && (<h4>This note is mentioned in: </h4>)}
-      {backlinks.length > 0 && backlinks.map((backlink) => (
-        <span><a href={backlink.url} class="cursor-pointer mt-1 hover:text-skin-active">{backlink.frontmatter.zettelId}.</a> </span>
-      ))}
     </article>
-    <div class="divider-horizontal"></div>
 
-    <div class="h-8 text-skin-base">
+    <div class="mt-10 h-8 text-skin-base">
       {
         prevPost ? (
         <a
-        class="truncate  w-auto max-w-[40%] float-left"
+        class="truncate  w-auto max-w-[40%] float-left hover:text-skin-active"
         href={prevPost.collection == 'posts'
         ? '/' + prevPost.slug + '/'
         : '/' + prevPost.collection + '/' + prevPost.slug + '/'}
@@ -104,7 +98,7 @@ const backlinks = allLinks[pathname] || [];
     }
     {
       nextPost ? (
-      <div class="flex item-center float-right w-auto max-w-[40%] text-right">
+      <div class="flex item-center float-right w-auto max-w-[40%] text-right hover:text-skin-active">
       <a class="truncate " href={nextPost.collection == 'posts'
       ? '/' + nextPost.slug + '/'
       : '/' + nextPost.collection + '/' + nextPost.slug + '/'}
@@ -118,5 +112,10 @@ const backlinks = allLinks[pathname] || [];
       )
     }
   </div>
-  <BlogFooter title={entry.data.title} url={entry.slug} date={entry.data.date}></BlogFooter>
+  <!-- Backlinks are part of the article -->
+  {backlinks.length > 0 && (<h4 class="mt-5 font-bold">This note is mentioned in: </h4>)}
+  {backlinks.length > 0 && backlinks.map((backlink) => (
+    <span><a href={backlink.url} class="italic cursor-pointer mt-1 hover:text-skin-active">{backlink.frontmatter.zettelId}.</a> </span>
+  ))}
+  <NotesFooter title={entry.data.title} url={entry.slug} date={entry.data.date}></NotesFooter>
 </BlogPost>

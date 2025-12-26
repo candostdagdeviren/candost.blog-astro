@@ -1,0 +1,24 @@
+---
+import {site} from "../consts";
+import Support from "./Support.astro";
+const currentPath = Astro.url.pathname;
+
+---
+
+<div class="divider-horizontal"/>
+<div class="my-5 text-xs">
+  <p>If you're unfamiliar with Zettelkasten: These notes are atomic. The aim is to have one idea in a note. The connections between notes are as important as the notes themselves.</p>
+</div>
+<div class="my-3 flex items-center justify-between">
+  <div class="flex items-center gap-3">
+    <a
+      class="inline-block text-center p-3 text-l rounded-lg shadow-md font-medium hover:opacity-90 transition-opacity"
+      style="background-color: rgb(var(--color-primary-yellow)); color: black;"
+      href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${site.url}${currentPath}`
+      target="_blank">
+      Reply via email
+    </a>
+    <p class="m-0">or comment below.</p>
+  </div>
+  <Support />
+</div>

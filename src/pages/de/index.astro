@@ -14,7 +14,7 @@ let sortedPosts = sortPostsByDate(posts);
   <h1 class="text-3xl mb-5 mt-10">Zeitschrift auf Deutsch</h1>
   <p class="mb-5">Ich lerne Deutch und möchte üben. Deshalb habe ich mich entschlossen, in meinem Blog eine Abteilung zum Thema Deutch einzurichten.</p>
 
-  <p class="mb-10">Du kannst neue Artikeln mit RSS-reader lesen. <a class="truncate cursor-pointer mt-1 header-link-active hover:text-skin-active" href="/de/rss.xml">Hier ist die RSS feed.</a>.</p>
+  <p class="mb-10">Du kannst neue Artikeln mit RSS-reader lesen. <a class="truncate cursor-pointr mt-1 header-link-active hover:text-skin-active" href="/de/rss.xml">Hier ist die RSS feed.</a>.</p>
   <div class="divider-horizontal"/>
   <div>
     <ul>
@@ -23,9 +23,11 @@ let sortedPosts = sortPostsByDate(posts);
         <div>
           <li style="list-style-type: disc;" class="ml-4 my-2">
             <div>
-              <a class="flex text-l underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/de/' + post.slug}>
-                {post.data.title}
-              </a>
+              <strong>
+                <a class="flex text-l underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/de/' + post.slug}>
+                  {post.data.title}
+                </a>
+              </strong>
             </div>
           </li>
         </div>
