@@ -1,38 +1,28 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
-import getPostsByYear from "../../utils/getPostsByYear";
 import {sortPostsByDate} from "../../utils/sortPostsByDate";
 import {getCollectionByName} from "../../utils/getCollectionByName";
-import { formatDate } from "../../utils/formatDate";
 
 let posts = await getCollectionByName("posts");
 let newsletter = await getCollectionByName("newsletter");
 
 let sortedPosts = sortPostsByDate(posts.concat(newsletter));
-let resultPosts = getPostsByYear(sortedPosts);
 ---
 
 <IndexPage frontmatter={{ comment: false, title: "Posts" }}>
   <h1 class="text-3xl fa-2x mb-5 mt-10">Posts</h1>
-  You can get new posts in your favorite RSS reader via <a class="truncate cursor-pointer mt-1 header-link-active hover:text-skin-active" href="/posts/rss.xml">the dedicated RSS feed.</a>
+  You can get new posts in your favorite RSS reader via <a class="truncate cursor-pointr mt-1 header-link-active cursor-pointer decoration-skin-base hover:text-skin-active" href="/posts/rss.xml">the dedicated RSS feed.</a>
+  <div>
+    <ul>
   {
-    Object.keys(resultPosts)
-      .sort((a, b) => Number(b) - Number(a))
-      .map((year) => (
-        <div>
-          <div class="text-2xl font-extrabold my-4">{year}</div>
-          <ul>
-            {resultPosts[year].map((post) => (
-              <li style="list-style-type: disc;" class="ml-4 my-2">
-                <a class="flex text-l" href= {`/${post.collection === 'posts' ? post.slug : `${post.collection}/${post.slug}`}`}>
-                  <p class="mr-5 pr-5 text-l hover:none hover:none">{formatDate(post.data.date)} </p>
-                  <p class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">{post.data.title}</p>
-                </a>
-            </li>
-            ))}
-          </ul>
-        </div>
+    sortedPosts.map((post) => (
+      <li style="list-style-type: disc;" class="ml-4 my-2">
+          <a class="flex text-l" href= {`/${post.collection === 'posts' ? post.slug : `${post.collection}/${post.slug}`}`}>
+            <strong><p class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">{post.data.title}</p></strong>
+          </a>
+      </li>
       ))
   }
-
+</ul>
+</div>
 </IndexPage>

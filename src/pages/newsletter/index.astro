@@ -1,6 +1,5 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
-import { formatDate } from "../../utils/formatDate";
 import { sortPostsByIssueNumberDec } from "../../utils/sortByIssueNumber";
 import getPostsByTag from "../../utils/getPostsByTag";
 import { getAllContent } from "../../utils/getAllContent";
@@ -19,16 +18,29 @@ let sortedMediations = await sortPostsByIssueNumberDec(mediations);
   <p>Every second Tuesday. For free.</p>
   <div style="width: 100%;"><NewsletterForm /></div>
 
+  <div>
+    <h2 class="text-2xl">Latest:</h2>
+    <ul>
+      {
+        sortedMediations.slice(0, 1)
+        .map((post) => (
+        <li style="list-style-type: disc;" class="ml-4 my-2">
+          <a class="flex text-l" href={post.collection == 'posts' ? '/' + post.slug : '/' + post.collection + '/' + post.slug}>
+            <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"><strong>{post.data.newsletterName} #{post.data.issueNumber}:&nbsp;</strong>{post.data.title}</span>
+          </a>
+        </li>
+        ))}
+      </ul>
+  </div>
 <div>
   Archive:
   <ul>
 
     {
-      sortedMediations
+      sortedMediations.slice(1, sortedMediations.length)
       .map((post) => (
       <li style="list-style-type: disc;" class="ml-4 my-2">
         <a class="flex text-l" href={post.collection == 'posts' ? '/' + post.slug : '/' + post.collection + '/' + post.slug}>
-          <span class="mr-5 text-l hover:none hover:none">{formatDate(post.data.date)} </span>
           <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"><strong>{post.data.newsletterName} #{post.data.issueNumber}:&nbsp;</strong>{post.data.title}</span>
         </a>
       </li>
@@ -37,7 +49,7 @@ let sortedMediations = await sortPostsByIssueNumberDec(mediations);
     </ul>
   </div>
   <div>
-    <p class="italic text-sm">You can also get new letters to your favorite RSS reader via <a class="truncate cursor-pointer mt-1 header-link-active hover:text-skin-active" href="/newsletter/rss.xml">the dedicated RSS feed</a>.</p>
+    <p class="italic text-sm">You can also get new letters to your favorite RSS reader via <a class="truncate cursor-pointr mt-1 header-link-active cursor-pointer decoration-skin-base hover:text-skin-active" href="/newsletter/rss.xml">the dedicated RSS feed</a>.</p>
     <div class="divider-horizontal"/>
     <p class="mb-10 mt-10 text-sm">I used to write another newsletter called Mektup. If you want to find the archives,  <a class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href="/mektup/">click here.</a></p>
   </div>

@@ -1,8 +1,6 @@
 ---
-import {formatDate} from "../utils/formatDate";
 import {dealLabel} from "../utils/dealLabel";
-import {t} from '../i18n/utils'
-const {title, date, category, lastModified = '', draft = false } = Astro.props
+const {title, category } = Astro.props
 ---
 
 <div class="border-b-1">
@@ -10,40 +8,13 @@ const {title, date, category, lastModified = '', draft = false } = Astro.props
   <h1 class="break-all text-xl font-bold" style="white-space:pre-wrap; word-break:break-word;">{title}</h1>
 
   <div class="flex flex-wrap items-center my-2 space-x-2">
-    <!-- date -->
-    {
-      date && (
-        <i class="ri-calendar-2-fill"/>
-        <div class="tag">{formatDate(date)}</div>
-      )
-    }
-
-    <!-- draft -->
-    {
-      draft &&
-      <>
-        <div class="divider-vertical"/>
-        <i class="ri-git-pr-draft-line"/>
-        <div>{t('title.draft')}</div>
-      </>
-    }
 
     <!-- category -->
     {
       category && dealLabel(category).filter(item => item !== 'uncategorized').map((categoryName) => (
-        <div class="divider-vertical"/>
         <i class="ri-folder-3-line"/>
         <a href={"/category/" + categoryName} class="text-wrap break-all  hover:text-skin-active cursor-pointer">{categoryName}</a>
       ))
-    }
-
-    <!-- update -->
-    {
-      lastModified && (
-        <div class="divider-vertical"/>
-        <i class="ri-calendar-check-fill"></i>
-        <div class="tag">{t('post.lastUpdated')} {formatDate(lastModified)}</div>
-      )
     }
   </div>
 </div>
