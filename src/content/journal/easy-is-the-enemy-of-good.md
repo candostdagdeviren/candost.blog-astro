@@ -1,5 +1,5 @@
 ---
-title: Added Ko-fi to this blog
+title: "Easy is the enemy of good"
 tags:
   - life
 date: 2025-12-26T06:25:42.034Z

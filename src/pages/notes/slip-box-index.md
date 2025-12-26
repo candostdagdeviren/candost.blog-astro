@@ -7,14 +7,14 @@ There are Index Notes. These notes are a collection of other notes under one top
 
 ### [Index Notes](/tags/index-note/)
 
-- [48-System Design Index](/notes/48/);
-- [84-Executive (Organizational) Leadership Index](/notes/84/);
-- [85-Organizational Design Index](/notes/85/);
-- [86-Organizational Communication Index](/notes/86/);
-- [98-Personal Life Experiences Index](/notes/98/);
-- [99-Management Handbook Index](/notes/99/);
-- [100-Software Engineering Handbook Index](/notes/100/);
-- [101-Personal Growth Index](/notes/101/):
+- [48: System Design Index](/notes/48/);
+- [84: Executive (Organizational) Leadership Index](/notes/84/);
+- [85: Organizational Design Index](/notes/85/);
+- [86: Organizational Communication Index](/notes/86/);
+- [98: Personal Life Experiences Index](/notes/98/);
+- [99: Management Handbook Index](/notes/99/);
+- [100: Software Engineering Handbook Index](/notes/100/);
+- [101: Personal Growth Index](/notes/101/):
 
 ### All Zettelkasten Tags
 
