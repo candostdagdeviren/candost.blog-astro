@@ -88,6 +88,22 @@ export default defineConfig({
           userAgent: 'FacebookBot',
           disallow: '/',
         },
+        {
+          userAgent: 'LINGUEE_USER_AGENT = Linguee Bot (bot@linguee.com)',
+          disallow: '/',
+        },
+        {
+          userAgent: 'anthropic-ai',
+          allow: '/',
+        },
+        {
+          userAgent: 'openai',
+          allow: '/',
+        },
+        {
+          userAgent: 'openai.com',
+          allow: '/',
+        }
       ]
     })
   ],
