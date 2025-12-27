@@ -1,12 +1,19 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
 import * as about from './about.md';
+import * as now from '../now/now.md';
+import { formatDate } from "../../utils/formatDate";
 
 let {Content, frontmatter} = about;
+let {Content: NowContent, frontmatter: nowFrontmatter} = now;
 ---
 
 <IndexPage frontmatter={frontmatter}>
   <article class="markdown-body">
     <Content/>
+
+    <h1 class="text-3xl mb-5 font-bold">What I'm doing now.</h1>
+    <p class="text-sm italic">Last updated at: {formatDate(nowFrontmatter.updateDate)}</p>
+    <NowContent/>
   </article>
 </IndexPage>
