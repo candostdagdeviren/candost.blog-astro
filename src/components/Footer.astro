@@ -1,56 +1,59 @@
 ---
-import {site, config, footerLinks} from "../consts";
+import { site, config, footerLinks } from "../consts";
 ---
 
 <div class="footer container p-4">
-  <div class="divider-horizontal" />
+  <div class="divider-horizontal"></div>
   <div class="flex items-center flex-wrap justify-center mb-4 text-skin-base">
     <div class="text-center">
       <div class="grid grid-cols-2 gap-8 mb-8">
         <div>
           <ul class="space-y-2">
-            {footerLinks.filter(cat => cat.name !== "More").map(category => (
-              <li>
-                <a
-                  href={category.href}
-                  class="hover:text-skin-active"
-                >
-                  {category.name}
-                </a>
-              </li>
-            ))}
+            {
+              footerLinks
+                .filter((cat) => cat.name !== "More")
+                .map((category) => (
+                  <li>
+                    <a href={category.href} class="hover:text-skin-active">
+                      {category.name}
+                    </a>
+                  </li>
+                ))
+            }
           </ul>
         </div>
         <div>
           <ul class="space-y-2">
-            {footerLinks.find(cat => cat.name === "More")?.children?.map(child => (
-              <li>
-                <a
-                  href={child.href}
-                  class="hover:text-skin-active"
-                  target={child.target || "_self"}
-                >
-                  {child.name}
-                </a>
-              </li>
-            ))}
+            {
+              footerLinks
+                .find((cat) => cat.name === "More")
+                ?.children?.map((child) => (
+                  <li>
+                    <a href={child.href} class="hover:text-skin-active" target={child.target || "_self"}>
+                      {child.name}
+                    </a>
+                  </li>
+                ))
+            }
           </ul>
         </div>
       </div>
-      <div class="divider-horizontal" />
+      <div class="divider-horizontal"></div>
       <div class="mb-5">
         All content on this website is licensed under
         <a
-        class="truncate cursor-pointer mt-1 hover:text-skin-active"
-        href={"https://creativecommons.org/licenses/by-nc-sa/4.0/"}
-        target="_blank"
+          class="truncate cursor-pointer mt-1 hover:text-skin-active"
+          href={"https://creativecommons.org/licenses/by-nc-sa/4.0/"}
+          target="_blank"
         >
-        CCA-NCSA 4.0</a> International License.
+          CCA-NCSA 4.0</a
+        > International License.
       </div>
 
       <div class="mb-5 mt-15 py-10">
         <a href="https://xn--sr8hvo.ws/previous">←</a>
-        An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a> <span class="text-skin-base">🕸💍</span>
+        An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a>
+        <span class="text-skin-base">🕸💍</span>
         <a href="https://xn--sr8hvo.ws/next">→</a>
       </div>
     </div>

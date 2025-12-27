@@ -1,12 +1,13 @@
 ---
+
 ---
+
 <button type="button" id="menu-icon" class="header-btn" title="Menu">
-  <i class="ri-menu-fill"></i>
+  <i class="ri-menu-fill inline-block h-5 w-5"></i>
 </button>
 <button type="button" id="menu-icon-close" class="header-btn hidden" title="Menu">
-  <i class="ri-close-fill"></i>
+  <i class="ri-close-fill inline-block h-5 w-5"></i>
 </button>
-
 
 <script>
   let menuIcon = document.getElementById("menu-icon");
@@ -16,7 +17,7 @@
   let closeAsideBtn = document.getElementById("aside-close-btn");
   let personalInfo = document.getElementById("personal-info");
   menuIcon.addEventListener("click", () => {
-    if(showAsideBtn && showAsideBtn.classList.contains('hidden')){
+    if (showAsideBtn && showAsideBtn.classList.contains("hidden")) {
       showAsideBtn.classList.toggle("hidden");
       closeAsideBtn.classList.toggle("hidden");
       personalInfo.classList.toggle("hidden");

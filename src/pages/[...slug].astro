@@ -39,6 +39,7 @@ if (sortPosts[currentPostIndex + 1]) {
 ---
 <BlogPost frontmatter={{comment: true, ...entry.data}}>
   <div>
+    <p class="text-sm italic mb-3"><i class="ri-pen-nib-line mr-2 mt-2" />Essay</p>
     <PostTitle slug={`/${entry.slug}`} {...entry.data} lastModified={lastModified} readingTime={readingTime}></PostTitle>
     <div class="divider-horizontal"></div>
     <article class="markdown-body">

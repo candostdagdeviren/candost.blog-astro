@@ -5,8 +5,8 @@
 <div id="waline"></div>
 
 <script>
-  import {init} from "@waline/client";
-  import {comment} from "../consts";
+  import { init } from "@waline/client";
+  import { comment } from "../consts";
   import "@waline/client/style";
 
   let walineDoc = document.getElementById("waline");
@@ -19,9 +19,7 @@
       lang: comment.walineConfig.lang,
       pageSize: comment.walineConfig.pageSize,
       pageview: comment.walineConfig.pageview, // 浏览量统计
-      reaction: comment.walineConfig.whiteList.includes(location.pathname)
-        ? false
-        : comment.walineConfig.reaction, // 开启反应
+      reaction: comment.walineConfig.whiteList.includes(location.pathname) ? false : comment.walineConfig.reaction, // 开启反应
       requiredMeta: comment.walineConfig.requiredMeta,
       dark: 'html[data-theme="dark"]',
     });
