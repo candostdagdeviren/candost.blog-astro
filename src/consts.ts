@@ -77,17 +77,8 @@ export const navigationItems = [
         href: "/search",
       },
       {
-        name: 'About',
-        href: '/about',
-      },
-      {
         name: "Now",
         href: "/now/",
-      },
-      {
-        name: "Podcast",
-        href: "/podcast/",
-        target: '_self',
       },
       {
         name: "Guestbook",
