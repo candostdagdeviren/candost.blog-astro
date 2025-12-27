@@ -1,0 +1,144 @@
+---
+import { Search } from "../../components/Search";
+import { sortPostsByDate } from "../../utils/sortPostsByDate";
+import { getAllContent } from "../../utils/getAllContent";
+import IndexPage from "../../layouts/IndexPage.astro";
+
+let all = await getAllContent();
+let sortedContent = await sortPostsByDate(all);
+---
+
+<IndexPage frontmatter={{ comment: false, title: "Blog" }}>
+  <section class="mb-8">
+    <div>
+      <h1 class="text-3xl mb-5 font-bold">Written and Spoken Words.</h1>
+      <p class="mb-2">
+        I've used written or spoken words in over <mark class="highlighted-count px-1 rounded">{sortedContent.length}</mark> different pieces of content.
+      </p>
+      <p class="mb-10">Explore them below or use the search functionality to find specific topics.</p>
+      <p class="text-sm italic mb-1">Click a post title below to jump to that post.</p>
+      <Search client:only="solid-js" posts={sortedContent} />
+    </div>
+
+    <div class="mb-8 flex flex-wrap gap-3">
+      <button class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base" data-filter="posts">
+        <i class="ri-pen-nib-line mr-1"></i>Essays
+      </button>
+      <button class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base" data-filter="notes">
+        <i class="ri-brain-line mr-1"></i>Notes
+      </button>
+      <button class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base" data-filter="books">
+        <i class="ri-book-line mr-1"></i>Book Notes
+      </button>
+      <button class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base" data-filter="journal">
+        <i class="ri-chat-thread-line mr-1"></i>Journal
+      </button>
+      <button class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base" data-filter="newsletter">
+        <i class="ri-mail-check-line mr-1"></i>Newsletter
+      </button>
+      <button class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base" data-filter="podcast">
+        <i class="ri-mic-line mr-1"></i>Podcast
+      </button>
+    </div>
+
+    <ul id="content-list">
+      {
+        sortedContent.map((post) => {
+          if (post.collection) {
+            return (
+              <li class="mb-3 content-item" data-collection={post.collection} style="display: list-item;">
+                {post.collection === "posts" ? (
+                  <i class="ri-pen-nib-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "books" ? (
+                  <i class="ri-book-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "journal" ? (
+                  <i class="ri-chat-thread-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "notes" ? (
+                  <i class="ri-brain-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "newsletter" ? (
+                  <i class="ri-mail-check-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "podcast" ? (
+                  <i class="ri-mic-line mr-2 mt-2 text-xl" />
+                ) : (
+                  <i class="ri-arrow-right-s-line mr-2 mt-2 text-xl" />
+                )}
+                <a
+                  class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+                  href={post.collection === "posts" ? `/${post.slug}/` : `/${post.collection}/${post.slug}/`}
+                >
+                  <strong class="text-lg">{post.data.title}</strong>
+                </a>
+                <p>{post.data.description}</p>
+              </li>
+            );
+          }
+        })
+      }
+    </ul>
+
+    <!-- <h2 class="text-3xl mb-5 mt-20 font-bold"
+    >Explore more.</h2
+  >
+  <p class="text-xl mb-5">Recent content</p>
+  <ul>
+    {
+      sortedContent.map((post) => {
+        return (
+          <li class="mb-3">
+            <i class="ri-arrow-right-s-line mr-2 mt-2"/>
+            <a
+              class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+              href={"/" + post.slug}
+            >
+              <strong>{post.data.title}</strong>
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul> -->
+  </section>
+
+  <script>
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const contentItems = document.querySelectorAll(".content-item");
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        // Toggle the clicked button
+        button.classList.toggle("active");
+
+        // Get all active filters
+        const activeFilters = Array.from(filterButtons)
+          .filter((btn) => btn.classList.contains("active"))
+          .map((btn) => btn.getAttribute("data-filter"));
+
+        // Filter content
+        contentItems.forEach((item) => {
+          const collection = item.getAttribute("data-collection");
+
+          if (activeFilters.length === 0 || activeFilters.includes(collection)) {
+            item.style.display = "list-item";
+          } else {
+            item.style.display = "none";
+          }
+        });
+      });
+    });
+  </script>
+
+  <style>
+    .filter-btn {
+      background-color: transparent;
+      border-color: rgba(var(--color-text), 0.3);
+      opacity: 0.6;
+    }
+
+    .filter-btn.active {
+      background-color: rgb(var(--color-border));
+      border-color: rgb(var(--color-border));
+      opacity: 1;
+      color: #000;
+    }
+  </style></IndexPage
+>
