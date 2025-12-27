@@ -35,7 +35,7 @@ export  const en = {
   'search.placeholder': 'Enter title or abstract keywords',
   'search.search': 'Search',
   'search.searchLabelOne':'Found ',
-  'search.searchLabelTwo': ' article(s) in total',
+  'search.searchLabelTwo': ' piece(s) in total',
   'sidebar.categories': 'Categories',
   'sidebar.recentArticle': 'Recent Articles',
   'sidebar.recentComments': 'Recent Comments',
