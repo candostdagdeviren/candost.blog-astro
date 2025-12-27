@@ -13,16 +13,18 @@ let {Content, frontmatter} = now;
         <h1>
           {frontmatter.title}
         </h1>
-        <div class="flex items-center mb-2">
+        <p class="text-sm italic">(This is <a href="https://nownownow.com/about?ref=candost.blog">a now page</a>, and if you have your own site <a href="https://nownownow.com/about?ref=candost.blog">you should make one</a>, too.)</p>
+        <div class="flex items-center mb-5 italic text-md">
           Last Updated:&nbsp;
           {frontmatter.updateDate &&
             <div class="flex items-center">
-              <i class="ri-calendar-2-fill mr-1"/>
+              <i class="ri-calendar-2-line mr-1"/>
               <div class="tag">{formatDate(frontmatter.updateDate)}</div>
             </div>}
         </div>
       )
     }
+
     <Content/>
   </article>
 </IndexPage>

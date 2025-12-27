@@ -5,8 +5,6 @@ updateDate: 2025-10-22
 external: false
 ---
 
-_(This is [a now page](https://nownownow.com/about?ref=candost.blog), and if you have your own site, [you should make one](https://nownownow.com/about?ref=candost.blog), too.)_
-
 I've been sick for a while with seasonal flu. While slowly recovering still, I started a no-carbs diet that I will try for a few weeks to shed a bit of weight before I start a new exercise plan.
 
 I signed up for the Berlin Triathlon along with the Berlin Half Marathon in 2026. I like having these events as goals for myself and use them to have a structured training plan. I've run a half marathon before, but never tried a triathlon; a new experience awaits me.
