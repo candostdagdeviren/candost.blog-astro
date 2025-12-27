@@ -1,4 +1,6 @@
-export const sortNotesByZettelId = (posts) =>
+import type { CollectionEntry } from 'astro:content';
+
+export const sortNotesByZettelId = (posts: CollectionEntry<'notes'>[]) =>
     posts
         .filter(({data}) => {
             return import.meta.env.PROD ? !data.draft : true
