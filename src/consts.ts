@@ -51,7 +51,7 @@ export const config = {
 * href {string}  link url
 * target {string} optional "_self|_blank" open in current window / open in new window
 */
-export const categories = [
+export const navigationItems = [
   {
     name: "Home",
     href: "/",

@@ -1,25 +1,31 @@
 ---
-import {dealLabel} from "../utils/dealLabel";
-const {title, tags } = Astro.props
+import { dealLabel } from "../utils/dealLabel";
+const { title, tags } = Astro.props;
 ---
 
 <div class="border-b-1">
   <div class="space-x-2 pb-5 text-sm">
-    <i class="ri-corner-left-up-fill"/>
-    <a href="/notes/#index-notes" class="colored-link word-wrap break-all hover:text-skin-active">Go to main index</a>
+    <i class="ri-corner-left-up-fill"></i>
+    <a href="/notes/#index-notes" class="colored-link word-wrap break-all hover:text-skin-active"
+      >Go to main index <i class="ri-brain-line mr-2 mt-2"></i></a
+    >
   </div>
   <!-- title -->
   <h1 class="break-all text-xl font-bold my-2" style="white-space:pre-wrap; word-break:break-word;">{title}</h1>
 
   <div class="flex flex-wrap items-center my-2">
     {
-      tags && dealLabel(tags).map((tagName) => (
-        <div class="w-full italic">
-          <i class="ri-hashtag"/>
-          <a href={"/tags/" + tagName} class="colored-link word-wrap break-all hover:text-skin-active">{tagName.includes("_") ? tagName.split("_").join(" > ").split("-").join(" ") : tagName.split("-").join(" ")}</a>
-        </div>
-      ))
+      tags &&
+        dealLabel(tags).map((tagName) => (
+          <div class="w-full italic">
+            <a href={"/tags/" + tagName} class="colored-link word-wrap break-all hover:text-skin-active">
+              <i class="ri-hashtag" />
+              {tagName.includes("_")
+                ? tagName.split("_").join(" > ").split("-").join(" ")
+                : tagName.split("-").join(" ")}
+            </a>
+          </div>
+        ))
     }
-  </div>
   </div>
 </div>

@@ -1,34 +1,25 @@
 ---
-import {getCollectionByName} from "../utils/getCollectionByName";
-import HeaderLink from './HeaderLink.astro';
-import ThemeIcon from './ThemeIcon.astro';
-import MenuIcon from './MenuIcon.astro';
-import {site, categories } from '../consts';
-import { sortPostsByDate } from "../utils/sortPostsByDate";
-
-const posts = await getCollectionByName('posts');
-let sortPosts = await sortPostsByDate(posts);
-let favorites = sortPosts.filter(post => post.data.favorite);
-let resultPosts = favorites.splice(0, site.recentPostsSize);
+import HeaderLink from "./HeaderLink.astro";
+import ThemeIcon from "./ThemeIcon.astro";
+import MenuIcon from "./MenuIcon.astro";
+import { navigationItems } from "../consts";
 ---
 
 <header class="fixed w-full bg-skin-fill text-skin-base z-10">
   <div class="flex items-center container mx-auto justify-between">
-    <div class="flex items-center pt-4 pb-4">
-      <div class="block xl:hidden flex items-center pt-4 pb-4">
-        <MenuIcon />
-      </div>
+    <div id="header-menu-button" class="pt-4 pb-4 block xl:hidden">
+      <MenuIcon />
     </div>
 
-    <div class="flex-1 flex justify-center pt-4 pb-4">
+    <div id="desktop-menu" class="flex-1 flex justify-center pt-4 pb-4">
       <div class="hidden xl:block">
         <div class="flex items-center space-x-5">
           {
-            categories.slice(0,categories.length-1).map(category => (
+            navigationItems.slice(0, navigationItems.length - 1).map((category) => (
               <HeaderLink
                 href={category.href}
                 icon={category.iconClass}
-                target={category.target ? category.target : '_self'}
+                target={category.target ? category.target : "_self"}
               >
                 {category.name}
               </HeaderLink>
@@ -37,30 +28,27 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
         </div>
       </div>
     </div>
-<ThemeIcon />
-
+    <div class="flex items-center pt-4 pb-4">
+      <ThemeIcon />
+    </div>
   </div>
   <div id="mobile-menu" class="hidden text-center overflow-y-auto pb-8" style="height: calc(100vh - 64px)">
     {
-      categories.map((category) => (
+      navigationItems.map((category) => (
         <div class="py-2">
           <a class="hover:text-skin-active" href={category.href}>
             <i class={category.iconClass} />
             <span>{category.name}</span>
           </a>
-          {
-            category.children && category.children.length > 0 &&
-            <div class="divider-horizontal"></div>
-          }
+          {category.children && category.children.length > 0 && <div class="divider-horizontal" />}
           <div class="space-y-4 text-sm">
-            {
-              category.children && category.children.map(sub => (
+            {category.children &&
+              category.children.map((sub) => (
                 <a class="block hover:text-skin-active" href={sub.href}>
                   <i class={sub.iconClass} />
                   <span>{sub.name}</span>
                 </a>
-              ))
-            }
+              ))}
           </div>
         </div>
       ))
