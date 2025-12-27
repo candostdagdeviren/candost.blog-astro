@@ -89,7 +89,7 @@ export default defineConfig({
           disallow: '/',
         },
         {
-          userAgent: 'LINGUEE_USER_AGENT = Linguee Bot (bot@linguee.com)',
+          userAgent: 'Linguee Bot',
           disallow: '/',
         },
         {
