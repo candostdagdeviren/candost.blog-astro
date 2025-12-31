@@ -3,6 +3,7 @@
 @import "remixicon/fonts/remixicon.css";
 @import "tocbot/dist/tocbot.css";
 @import "remark-aside.css";
+@import "waline.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -45,9 +46,9 @@ menu {
     --color-border: 80, 216, 153;
     --color-border-active: 255, 223, 43;
     --color-modal: 0, 149, 160;
-    --color-primary-yellow: 255 223 43;
-    --color-primary-green: 80 216 153;
-    --color-primary-blue: 63 210 221;
+    --color-primary-yellow: 255, 223, 43;
+    --color-primary-green: 80, 216, 153;
+    --color-primary-blue: 63, 210, 221;
   }
 
   html[data-theme="dark"] {
@@ -59,9 +60,9 @@ menu {
     --color-border: 63, 210, 221;
     --color-border-active: 255, 223, 43;
     --color-modal: 251, 251, 251;
-    --color-primary-yellow: 255 223 43;
-    --color-primary-green: 63 210 221;
-    --color-primary-blue: 0 149 160;
+    --color-primary-yellow: 255, 223, 43;
+    --color-primary-green: 63, 210, 221;
+    --color-primary-blue: 0, 149, 160;
   }
 
   #sun-icon,
@@ -294,4 +295,33 @@ menu {
 
 .MathJax svg {
   display: inline;
+}
+
+/*** Works on common browsers ***/
+::selection {
+  background-color: rgb(var(--color-border));
+  color: rgb(var(--color-fill));
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+  background-color: rgb(var(--color-border));
+  color: rgb(var(--color-fill));
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+  background-color: rgb(var(--color-border));
+  color: rgb(var(--color-fill));
+}
+
+::-ms-selection {
+  background-color: rgb(var(--color-border));
+  color: rgb(var(--color-fill));
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+  background-color: rgb(var(--color-border));
+  color: rgb(var(--color-fill));
 }

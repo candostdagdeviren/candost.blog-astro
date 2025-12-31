@@ -1,0 +1,97 @@
+html[data-theme="light"]{
+/* Font Size */
+  --waline-font-size: 16px;
+
+  /* Regular color */
+  --waline-white: #fff;
+  --waline-light-grey: #999;
+  --waline-dark-grey: #666;
+
+  /* Theme Color */
+  --waline-theme-color: #27ae60;
+  --waline-active-color: #bd2020;
+
+  /* Layout Color */
+  --waline-color: rgb(var(--color-text));
+  --waline-bg-color: #fff;
+  --waline-bg-color-light: #f8f8f8;
+  --waline-bg-color-hover: #f0f0f0;
+  --waline-border-color: rgb(var(--color-border));
+  --waline-disable-bg-color: #f8f8f8;
+  --waline-disable-color: #bbb;
+  --waline-code-bg-color: #282c34;
+
+  /* Special Color */
+  --waline-bq-color: #f0f0f0;
+
+  /* Avatar */
+  --waline-avatar-size: 3.25rem;
+  --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
+
+  /* Badge */
+  --waline-badge-color: #3498db;
+  --waline-badge-font-size: 0.775em;
+
+  /* Information */
+  --waline-info-bg-color: #f8f8f8;
+  --waline-info-color: #999;
+  --waline-info-font-size: 0.625em;
+
+  /* Render choice */
+  --waline-border: 2px solid var(--waline-border-color);
+  --waline-avatar-radius: 50%;
+  --waline-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);;
+}
+
+html[data-theme="dark"]{
+/* Font Size */
+  --waline-font-size: 16px;
+
+  /* Regular color */
+  --waline-white: #fff;
+  --waline-light-grey: #999;
+  --waline-dark-grey: #666;
+
+  /* Theme Color */
+  --waline-theme-color: rgb(var(--color-primary-yellow));
+  --waline-active-color: rgb(var(--color-text-active));
+
+  /* Layout Color */
+  --waline-color: rgb(var(--color-text));
+  --waline-bg-color: #fff;
+  --waline-bg-color-light: #f8f8f8;
+  --waline-bg-color-hover: #f0f0f0;
+  --waline-border-color: rgb(var(--color-border));
+  --waline-disable-bg-color: #f8f8f8;
+  --waline-disable-color: #bbb;
+  --waline-code-bg-color: #282c34;
+
+  /* Special Color */
+  --waline-bq-color: #f0f0f0;
+
+  /* Avatar */
+  --waline-avatar-size: 3.25rem;
+  --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
+
+  /* Badge */
+  --waline-badge-color: #3498db;
+  --waline-badge-font-size: 0.775em;
+
+  /* Information */
+  --waline-info-bg-color: #f8f8f8;
+  --waline-info-color: #999;
+  --waline-info-font-size: 0.625em;
+
+  /* Render choice */
+  --waline-border: 2px solid var(--waline-border-color);
+  --waline-avatar-radius: 50%;
+  --waline-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);;
+}
+
+.wl-power, .wl-user, .wl-meta {
+  display: none;
+}
+
+.wl-head {
+  font-size: 1.2em;
+}

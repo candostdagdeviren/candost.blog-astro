@@ -18,7 +18,11 @@
       serverURL: comment.walineConfig.serverUrl,
       lang: comment.walineConfig.lang,
       pageSize: comment.walineConfig.pageSize,
-      pageview: comment.walineConfig.pageview, // 浏览量统计
+      pageview: comment.walineConfig.pageview,
+      highlighter: true,
+      imageUploader: false,
+      texRenderer: true,
+      search: false,
       reaction: comment.walineConfig.whiteList.includes(location.pathname) ? false : comment.walineConfig.reaction, // 开启反应
       requiredMeta: comment.walineConfig.requiredMeta,
       dark: 'html[data-theme="dark"]',

@@ -213,7 +213,7 @@ export const comment = {
     count: 10,
     pageview: true,
     reaction: false,
-    requiredMeta: ["nick", "mail"],
+    requiredMeta: ["nick"],
     whiteList: ['/now/', '/blogroll/', '/about/', '/posts/', '/books/', '/newsletter/', '/notes/', '/journal/'],
   },
 
