@@ -94,15 +94,15 @@ export default defineConfig({
         },
         {
           userAgent: 'anthropic-ai',
-          allow: '/',
+          disallow: '/',
         },
         {
           userAgent: 'openai',
-          allow: '/',
+          disallow: '/',
         },
         {
           userAgent: 'openai.com',
-          allow: '/',
+          disallow: '/',
         }
       ]
     })
