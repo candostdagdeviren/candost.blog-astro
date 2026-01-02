@@ -1,7 +1,6 @@
 ---
-import { site } from "../consts";
 import Support from "./Support.astro";
-const currentPath = Astro.url.pathname;
+const currentPath = Astro.url.href;
 ---
 
 <div class="my-3 flex items-center justify-between">
@@ -9,7 +8,7 @@ const currentPath = Astro.url.pathname;
     <a
       class="inline-block text-center p-3 text-l rounded-lg shadow-md font-medium hover:opacity-90 transition-opacity"
       style="background-color: rgb(var(--color-primary-yellow)); color: black;"
-      href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${site.url}${currentPath}`
+      href=`mailto:contact@candostdagdeviren.com?subject=Re:%20${currentPath}`
       target="_blank"
     >
       Reply via email
