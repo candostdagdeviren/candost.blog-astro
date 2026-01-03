@@ -71,28 +71,18 @@ export const navigationItems = [
     href: "/about/",
   },
   {
-    name: "More",
-    href: "javascript:void(0);",
-    children: [
-      {
-        name: "Search",
-        href: "/search",
-      },
-      {
-        name: "Now",
-        href: "/now/",
-      },
-      {
-        name: "Guestbook",
-        href: "/guestbook/",
-        target: "_self",
-      },
-      {
-        name: "Blogroll",
-        href: "/blogroll",
-        target: "_self",
-      },
-    ],
+    name: "Search",
+    href: "/search",
+  },
+  {
+    name: "Guestbook",
+    href: "/guestbook/",
+    target: "_self",
+  },
+  {
+    name: "Blogroll",
+    href: "/blogroll",
+    target: "_self",
   },
 ];
 
