@@ -36,7 +36,7 @@ Transactions are a way to simplify the programming model, and they offer certain
 
 ### Single-Object and Multi-Object Operations
 
-**Single-Object Writes:** Isolation and atomicity can be provided easily. Isolation is provided by using locks on the object, and atomicity is provided by using a log for crash recovery. There are also single-object operations like the INCREMENT function in a database that eliminates read-increase-write, but these are not transactions; they are *marketed* as ACID or lightweight transactions. Transactions are mostly understood as mechanisms for multi-object multiple operations grouped as one execution unit.
+**Single-Object Writes:** Isolation and atomicity can be provided easily. Isolation is provided by using locks on the object, and atomicity is provided by using a log for crash recovery. There are also single-object operations like the INCREMENT function in a database that eliminates read-increase-write, but these are not transactions; they are _marketed_ as ACID or lightweight transactions. Transactions are mostly understood as mechanisms for multi-object multiple operations grouped as one execution unit.
 
 **The need for multi-object transactions:** As much as we can try, there are scenarios where we need to work with multi-object updating foreign keys in multiple tables, updating data in multiple documents because the data is denormalized, and updating secondary indexes. These things can still be implemented without transactions, but error handling becomes tricky without atomicity and isolation.
 
@@ -70,15 +70,15 @@ No-dirty-reads is implemented a bit differently. Instead of locks, databases kee
 
 Transaction X reads data from A and B, and transaction Y writes data to A and B (A=2, B=2). After X reads A (A=1), Y updates A (A=2) and B (B=2); now, when X reads B, it will see a new value (B=2). But what it had read from A was an old value (A=1). If X rereads A and B, it will probably see updated values.
 
-This temporary problem is called *read skew*. To prevent read skews, we can use snapshot isolation: a transaction can only see data that has been *committed* before the transaction started. The database takes a snapshot of the data version right when the transaction begins and uses that snapshot throughout the transaction instead of using up-to-date data all the time.
+This temporary problem is called _read skew_. To prevent read skews, we can use snapshot isolation: a transaction can only see data that has been _committed_ before the transaction started. The database takes a snapshot of the data version right when the transaction begins and uses that snapshot throughout the transaction instead of using up-to-date data all the time.
 
 #### Implementing Snapshot Isolation
 
-While read-committed isolation maintains locks to prevent race conditions, snapshot isolation uses only *write locks*: locks resources only when writing. The golden rule of snapshot isolation is that *readers never block writers; writers never block readers*. When a transaction reads data, the database takes a snapshot at the beginning and uses that snapshot throughout the entire transaction.
+While read-committed isolation maintains locks to prevent race conditions, snapshot isolation uses only _write locks_: locks resources only when writing. The golden rule of snapshot isolation is that _readers never block writers; writers never block readers_. When a transaction reads data, the database takes a snapshot at the beginning and uses that snapshot throughout the entire transaction.
 
 As each read transaction uses snapshots, the database has to maintain all of them. For that, it uses Multi-Version Concurrency Control (MVCC). When a transaction starts, it creates a new snapshot version.
 
-If a row needs to be deleted, the database marks these rows with a *deleted-by* label and only deletes them (via garbage collection) when it can be sure that no other transaction uses the deleted row.
+If a row needs to be deleted, the database marks these rows with a _deleted-by_ label and only deletes them (via garbage collection) when it can be sure that no other transaction uses the deleted row.
 
 Any reading transaction can see edits (write/delete) from other transactions only if they are committed before the reading transaction has started.
 
@@ -108,11 +108,11 @@ A good example is a doctor on-call system. Think about a hospital on-call system
 
 Snapshot isolation and unsafe design make write skews possible. If we run these transactions sequentially, the second doctor won't be able to go off-call.
 
-If a write operation in a transaction changes the result of a search query in another transaction (going off-call impacts the search of the query of how many doctors are currently on-call), it is called a *phantom*.
+If a write operation in a transaction changes the result of a search query in another transaction (going off-call impacts the search of the query of how many doctors are currently on-call), it is called a _phantom_.
 
 To solve phantoms, we can put a lock on rows that the search query returns, so another transaction won't be able to read these rows. But it doesn't solve situations when the transaction checks for the absence of rows (if there is no doctor on-call) and takes action accordingly. We can't put a lock on non-existing rows.
 
-We can use an approach called *materializing conflicts*: creating rows for all possible scenarios in that a phantom occurs. One example is calendar events for meeting rooms. We can create 5-minute empty meeting slots for each room by default and lock them whenever someone searches them. However, this approach is error-prone, hard to figure out, and impacts the application data model. So, it should be the last resort.
+We can use an approach called _materializing conflicts_: creating rows for all possible scenarios in that a phantom occurs. One example is calendar events for meeting rooms. We can create 5-minute empty meeting slots for each room by default and lock them whenever someone searches them. However, this approach is error-prone, hard to figure out, and impacts the application data model. So, it should be the last resort.
 
 ## Serializability
 
@@ -139,7 +139,7 @@ With in-memory data and stored procedures, the throughput is quite fast on singl
 
 2PL is a more strict isolation level than no-dirty-writes. It uses locks but with a difference. The writer-locks block all other transactions. Contrary to writers not blocking readers in no dirty writes, 2PL blocks readers too.
 
-The 2PL mechanism has two locks: shared mode and exclusive mode. There can be only one exclusive lock on the object. Any write operation must acquire an exclusive lock on the object first. If there is any other lock on the object (shared or exclusive), the write operation must wait for other locking transactions to complete. Once the write operation acquires an exclusive lock on an object, this time, all other transactions must wait. If any transaction already has a shared lock,  it can upgrade its lock to exclusive. Upgrading has the same mechanism as acquiring a new lock.
+The 2PL mechanism has two locks: shared mode and exclusive mode. There can be only one exclusive lock on the object. Any write operation must acquire an exclusive lock on the object first. If there is any other lock on the object (shared or exclusive), the write operation must wait for other locking transactions to complete. Once the write operation acquires an exclusive lock on an object, this time, all other transactions must wait. If any transaction already has a shared lock, it can upgrade its lock to exclusive. Upgrading has the same mechanism as acquiring a new lock.
 
 As many locks are in place, deadlocks happen (transaction A waits for B to complete while B is waiting for A to complete). Databases automatically detect deadlocks and abort one of the transactions. The application must retry the aborted transaction.
 
@@ -161,5 +161,5 @@ Similar to snapshot isolation, SSI uses snapshot isolation for reading transacti
 
 Overall there are two cases to consider while detecting stale data:
 
-- **Uncommitted write occurred before read (stale MVCC object version):** Serializable Snapshot Isolation works with MVCC (Multi-version Concurrency Control) to track snapshots. We ignored uncommitted writes in previous isolation levels while executing a read transaction. Now, if a write operation is committed *before* a read transaction commits, the read transaction that uses the same data will be aborted. The database keeps track of ignored transactions when taking a snapshot. If any other transaction accesses or uses data used by one of the ignored transactions, it aborts all other transactions when the ignored transaction is committed.
+- **Uncommitted write occurred before read (stale MVCC object version):** Serializable Snapshot Isolation works with MVCC (Multi-version Concurrency Control) to track snapshots. We ignored uncommitted writes in previous isolation levels while executing a read transaction. Now, if a write operation is committed _before_ a read transaction commits, the read transaction that uses the same data will be aborted. The database keeps track of ignored transactions when taking a snapshot. If any other transaction accesses or uses data used by one of the ignored transactions, it aborts all other transactions when the ignored transaction is committed.
 - **Data is modified after it has been read:** The system temporarily keeps the information about who read the data until any transaction and all concurrent ones are complete. With this information, a transaction informs other concurrent transactions that the data they had read is not accurate anymore. If one of the concurrent transactions commits, all the others must abort to prevent losing data. As there are a lot of aborts and retries, this implementation has a performance drawback. Aborts and retries happen more if the transactions are long. Therefore, SSI requires transactions to be short. On the other hand, as SSI doesn't block transactions, it's better performant than 2PL. Also, SSI is not dependent on a single CPU, like serial execution. It can leverage multi-CPUs and multi-machines. One overhead, though, is keeping track of extra information about transactions' read and write. This info can be granular or in detail. The database implementations decide its granularity. More granular is faster but error-prone; more detailed is slower but more precise, resulting in fewer transactions being aborted.

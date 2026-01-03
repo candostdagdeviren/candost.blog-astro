@@ -19,7 +19,7 @@ I first found definitions of 10x engineers, superstars, or rockstar developers, 
 
 I also looked at different career progression frameworks or career matrices (which aim to give engineers perspective on how to map their professional development to roles) to see how tech- or product-driven organizations define good engineers. I found that all were incomplete (I wrote about the good, the bad and the ugly of these frameworks [here](/the-good-the-bad-and-the-ugly-of-career-ladders-and-frameworks/). In general, career frameworks are helpful in defining roles, but they don’t define a good engineer. After sharing my thoughts and findings with peers, well-respected engineers and [on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7243636598557347840/), I arrived at one definition of a good software engineer.
 
-*A good engineer is one whom I, as a manager or peer, can trust to progress a project, knowing that they will deliver a solution by working with the team and producing good quality, again and again.*
+_A good engineer is one whom I, as a manager or peer, can trust to progress a project, knowing that they will deliver a solution by working with the team and producing good quality, again and again._
 
 This definition applies to software engineers at all levels (from junior to staff+). We can’t expect a junior engineer to drive a big project; their scope will be limited. Yet, we can expect them to deliver small, unambiguous tasks with high quality again and again. We can expect good senior+ engineers to drive and deliver a feature or project. When it comes to staff+ engineers, this expectation will span over big and long-term projects with many unknowns.
 
@@ -41,7 +41,7 @@ It’s a super simple definition but has a lot of subtleties around how a good e
 
 **Good engineers are team players regardless of personality type.** They recognize a problem and offer a solution. They don’t throw the problem over the fence and ask others to fix it.
 
-I’ve covered good engineers in detail. But what makes a great engineer? **Great engineers do all of the above but *proactively*.** If they see a broken process, [they don’t walk past the problem](/strong-ownership-culture-in-a-team/) or wait for someone else’s permission. [They take action to fix it](/bias-towards-action/). If they can’t change the process themselves, they don’t complain without bringing solutions to the people who can change it.
+I’ve covered good engineers in detail. But what makes a great engineer? **Great engineers do all of the above but _proactively_.** If they see a broken process, [they don’t walk past the problem](/strong-ownership-culture-in-a-team/) or wait for someone else’s permission. [They take action to fix it](/bias-towards-action/). If they can’t change the process themselves, they don’t complain without bringing solutions to the people who can change it.
 
 These expectations will not be easy for inexperienced engineers, but their scope will be limited at first. They will gain experience in time. If they keep learning, stay reliable, and improve quality day-to-day, it’s safe to call them good engineers.
 

@@ -32,7 +32,7 @@ While not a great fiction reader, I struggle to find stories that he'll like. Wh
 
 There are many questions every time I ask myself when I go to the store. I know what kind of books he has liked until now, but that alone isn't enough.
 
-Buying books for him is entirely different than buying them for me. When I'm buying for myself, I _feel_ how I like the book, and I don't have that sense when I'm looking for books for my father.
+Buying books for him is entirely different than buying them for me. When I'm buying for myself, I *feel* how I like the book, and I don't have that sense when I'm looking for books for my father.
 
 The problem is that I recommend books that I haven't read, and that's why it's like an experiment. Every time he reads the book I bought, I ask him how it was and keep a record in my mind to have a reference for the next one. But still, I haven't detected the perfect style for him, nor has he.
 

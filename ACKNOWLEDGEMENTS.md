@@ -1,4 +1,3 @@
-
 # [Astro Yi by Cirry](https://github.com/cirry/astro-yi)
 
 MIT License

@@ -1,7 +1,7 @@
 ---
 title: "Mektup #23: The closest you can get to a leading role: hosting a workshop"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "23"
 date: 2022-01-25
@@ -13,7 +13,7 @@ Hey friend,
 
 When I looked around me, I realized that many growing engineers have a few things in common, but we rarely talk about them. Engineers who want to grow still focus on many technical skills, which is correct. As you get these letters, you probably know that you need other skills to grow into Staff+ Engineer or manager roles.
 
-Although people are more aware that they need to improve their human skills to level up after senior engineering, they still focus on _themselves_ more than they need. This focus can become problematic and frustrating because one of the responsibilities of staff+ software engineers or managers is growing people around them. While looking at the bigger picture and solving problems that require multi-team effort, they have to mentor and level up others (usually more than one) around them. Otherwise, they won’t get anything done.
+Although people are more aware that they need to improve their human skills to level up after senior engineering, they still focus on *themselves* more than they need. This focus can become problematic and frustrating because one of the responsibilities of staff+ software engineers or managers is growing people around them. While looking at the bigger picture and solving problems that require multi-team effort, they have to mentor and level up others (usually more than one) around them. Otherwise, they won’t get anything done.
 
 Now the question is, how did staff+ engineers move their focus from themselves and begin to grow other people’s skills? **One of the things many senior software engineers do is host events and workshops—one of the best ways of growing people around you.**
 
@@ -33,7 +33,7 @@ Workshops bring you unique sets of skills AND additional visibility. If you’re
 
 ## About what you can host a workshop?
 
-I must admit one thing: _technical workshops rarely work_. If you’re thinking of hosting one, be mindful, and don’t put yourself under a lot of pressure if you don’t get the expected outcome. What works is team building, problem-solving, brainstorming, strategic thinking, or any other workshop engaging all joiners.
+I must admit one thing: *technical workshops rarely work*. If you’re thinking of hosting one, be mindful, and don’t put yourself under a lot of pressure if you don’t get the expected outcome. What works is team building, problem-solving, brainstorming, strategic thinking, or any other workshop engaging all joiners.
 
 **You can use books, white papers, mental models, or anything else you’ve come across as a workshop topic.** You can convert many things into a workshop. For example, I’ve read a fascinating book, and I thought about doing an exercise about the book’s content. After some preparations, I started hosting a workshop at work. Later, it became one of the topics people knew my name in the company. I’ve been hosting these workshops for more than a year, and I can comfortably say that these sessions helped me a ton in my promotion.
 
@@ -43,15 +43,15 @@ You can also host a short workshop to solve a problem. One of my managers hosted
 
 ## A few tips on successfully running a workshop
 
-- _Run it with a passion: don’t do it for the sake of doing it._ It’s not a checklist item for promotion. When you’re not doing it with passion, participants get bored quickly, and the workshop becomes useless. If there are six people in an hour-long workshop, it means six hours will be lost, not one.
+- *Run it with a passion: don’t do it for the sake of doing it.* It’s not a checklist item for promotion. When you’re not doing it with passion, participants get bored quickly, and the workshop becomes useless. If there are six people in an hour-long workshop, it means six hours will be lost, not one.
 
-- _Choose a topic you enjoy first, then think about others._ To run it with passion, you have to choose a topic that interests you.
+- *Choose a topic you enjoy first, then think about others.* To run it with passion, you have to choose a topic that interests you.
 - _Rehearse_. Rehearse. Rehearse. Rehearse. Rehearse—a minimum of five times.
-- _Prepare for the worst case._ Think about possible failure scenarios and get ready for them. Prepare backups. Prepare backups for backups.
-- _Your first few workshops will not be great._ Accept it, and don’t worry about it. Keep going.
-- _Ask for feedback in the end._ Ask people to leave a note on a (virtual) post-it. If no one says anything, send a message to a few individuals you value their opinion and ask for feedback.
+- *Prepare for the worst case.* Think about possible failure scenarios and get ready for them. Prepare backups. Prepare backups for backups.
+- *Your first few workshops will not be great.* Accept it, and don’t worry about it. Keep going.
+- *Ask for feedback in the end.* Ask people to leave a note on a (virtual) post-it. If no one says anything, send a message to a few individuals you value their opinion and ask for feedback.
 - _Regularly ask participants during the workshop to see if anyone has any questions or if anything is unclear._
-- _Balance the speakers._ It is an art and difficult. There is one magical way to do this, and I will discuss it more in my next letters. Until then, give silent ones a nudge to talk and loud people a sign to shut up without saying “shut up.”
+- *Balance the speakers.* It is an art and difficult. There is one magical way to do this, and I will discuss it more in my next letters. Until then, give silent ones a nudge to talk and loud people a sign to shut up without saying “shut up.”
 
 I’ve run many workshops over the years, and I absolutely love them. Taking people on a journey and engaging them with the material is challenging, but these workshops honed my various skills. Thanks to them, I know how to give better presentations, lead people on a journey, and easily talk to people I haven’t met before. My friend, **please don’t underestimate the power of facilitating a workshop.** I know preparation looks difficult, and speaking in front of others is stressful, but it’s actually easy once you give it a try, and I hope you will.
 

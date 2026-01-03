@@ -43,7 +43,7 @@ Output:
 4
 ```
 
-----
+---
 
 Redirect the output of System.out to a file.
 
@@ -65,7 +65,7 @@ public class MainClass {
 }
 ```
 
-----
+---
 
 Loading Native Code
 

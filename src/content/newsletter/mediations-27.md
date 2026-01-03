@@ -11,7 +11,7 @@ updateDate: 2025-10-14T09:05:00.000Z
 
 One of my biggest concerns, and also [a challenge many people are facing](https://fortune.com/2025/08/08/ai-layoffs-jobs-market-shrinks-entry-level/), is the reduction in the number of entry-level jobs, primarily due to AI; everyone is now looking for an experienced employee. Especially in a sector such as tech, this should be alarming because of basic math: fewer junior engineers means fewer seniors in the future.
 
-Considering our future needs for skilled and experienced talent, without investing in hiring junior talent and developing them, no organization will be able to find the necessary personnel to build its products. There is a myth that AI will take over all these jobs. I say myth not because I don’t believe in it, but also because of what Sam Altman [says](https://www.youtube.com/watch?v=JfE1Wun9xkk): they want to build the AI that’s useful for humans (not the AI that _replaces_ humans).
+Considering our future needs for skilled and experienced talent, without investing in hiring junior talent and developing them, no organization will be able to find the necessary personnel to build its products. There is a myth that AI will take over all these jobs. I say myth not because I don’t believe in it, but also because of what Sam Altman [says](https://www.youtube.com/watch?v=JfE1Wun9xkk): they want to build the AI that’s useful for humans (not the AI that *replaces* humans).
 
 _Why do I believe organizations should continue to hire junior talent and invest in developing their skills? Isn’t it the responsibility of the person themselves?_
 
@@ -19,7 +19,7 @@ This is where things get tricky. If you recall the two previous Mediations (abou
 
 This is worrying because seniority in a profession doesn’t only mean the person has some information in their head, it means the person knows where to use that information and can decide based on facts and their experience. When we think about this concern, which is amplified by the fact that junior or graduate engineers are typically in their early 20s ([the time when the prefrontal cortex, responsible for judgment and decision-making, is still developing](https://pmc.ncbi.nlm.nih.gov/articles/PMC2892678/)), we will find ourselves surrounded by engineers making wrong decisions based on how AI guides them.
 
-There are a lot of resources and companies preaching to non-engineers to code with AI to build products or solve problems (and they _recommend_ their product for sure). While this is practically possible and will get even better over time, people still have to understand the underlying system. The product or a feature they build can be functional on the surface. However, when you dive deep, you find a product without a solid backbone holding it steady and ready for future iterations.
+There are a lot of resources and companies preaching to non-engineers to code with AI to build products or solve problems (and they *recommend* their product for sure). While this is practically possible and will get even better over time, people still have to understand the underlying system. The product or a feature they build can be functional on the surface. However, when you dive deep, you find a product without a solid backbone holding it steady and ready for future iterations.
 
 When companies like Anthropic say 90% of code will be written by AI, many interpret this as eliminating human engineers entirely. This misses the critical point: that the remaining 10% and the supervision of the 90% requires experienced judgment. This judgment ensures that the product being developed has a steady foundation, is maintainable and extensible, while not full of security vulnerabilities.
 
@@ -33,11 +33,11 @@ Don’t forget, all seniors started somewhere, and there were always one or two 
 
 ## Good to Great
 
-**_Good:_** “Voyager 2’s Computer Command System has not been turned off since it first booted up about 48 years ago, making it the longest continuously operating electronic computer.” [11 Oddball Technology Records You Probably Didn’t Know](https://spectrum.ieee.org/11-oddball-technology-records-you-probably-didnt-know)
+***Good:*** “Voyager 2’s Computer Command System has not been turned off since it first booted up about 48 years ago, making it the longest continuously operating electronic computer.” [11 Oddball Technology Records You Probably Didn’t Know](https://spectrum.ieee.org/11-oddball-technology-records-you-probably-didnt-know)
 
-**_Better:_** [We need to protect peasants](https://aeon.co/essays/the-planet-and-human-social-life-depend-on-peasant-farmers?utm_source=Aeon+Newsletter&utm_campaign=c86b21091d-EMAIL_CAMPAIGN_2025_09_26&utm_medium=email&utm_term=0_-19d630b572-838124504). They grow much of the world’s food, protect soil, water and biodiversity.
+***Better:*** [We need to protect peasants](https://aeon.co/essays/the-planet-and-human-social-life-depend-on-peasant-farmers?utm_source=Aeon+Newsletter&utm_campaign=c86b21091d-EMAIL_CAMPAIGN_2025_09_26&utm_medium=email&utm_term=0_-19d630b572-838124504). They grow much of the world’s food, protect soil, water and biodiversity.
 
-**_Great:_** [Always invite Anna.](https://sharif.io/anna-alexei)
+***Great:*** [Always invite Anna.](https://sharif.io/anna-alexei)
 
 Until next time,
 

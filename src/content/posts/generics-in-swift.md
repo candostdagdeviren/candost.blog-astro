@@ -44,7 +44,6 @@ protocol Company {
 }
 ```
 
-
 ```swift
 let penneArrabiata = swiftRestaurant.sell(product: PenneArrabiata.Self,
                                           for: Money(value:7.0, currency: .dollar))
@@ -82,7 +81,6 @@ struct PastaPackageList {
   }
 }
 ```
-
 
 ```swift
 struct InventoryList<T> {
@@ -155,7 +153,7 @@ We conformed to The Council’s `Storage` protocol. From now on, the associate
 
 ### Constraining an Associated Type with Type Annotation
 
-Like in real life, The Council always comes up with new rules and forces you to obey them. After a while, The Council modifies their `Storage` protocol. They announce that they won’t allow every item in the `Storage`. Every _Item_ **must conform** to _StorableItem_ protocol to be sure they are suitable for storage. In other words, they **constrained the associated type** `Item`.
+Like in real life, The Council always comes up with new rules and forces you to obey them. After a while, The Council modifies their `Storage` protocol. They announce that they won’t allow every item in the `Storage`. Every *Item* **must conform** to *StorableItem* protocol to be sure they are suitable for storage. In other words, they **constrained the associated type** `Item`.
 
 ```swift
 protocol Storage {

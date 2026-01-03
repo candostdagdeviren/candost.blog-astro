@@ -1,7 +1,7 @@
 ---
 title: "Mektup #39: How I got a promotion offer from another company"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "39"
 date: 2022-09-06
@@ -37,12 +37,12 @@ At that point, I realized that I like helping others do their jobs in the best w
 
 **I started [having one-on-ones](https://candost.substack.com/p/22-effective-11-meetings-for-software) with my peers** and tried solving some of their problems.
 
-Later on, I changed teams because my team was dissolved 🤷. _It was a setback._
+Later on, I changed teams because my team was dissolved 🤷. *It was a setback.*
 
-In my new team, I **talked with my new manager and started taking over organizational tasks and career development work for other team members.** I held workshops for building the team culture (where there were a _ton_ of problems in the team).
+In my new team, I **talked with my new manager and started taking over organizational tasks and career development work for other team members.** I held workshops for building the team culture (where there were a *ton* of problems in the team).
 
 :::note
-💫 Ask your manager to delegate some of their work to you. Learning _on_ the job is always better than studying and not practicing it.
+💫 Ask your manager to delegate some of their work to you. Learning *on* the job is always better than studying and not practicing it.
 :::
 
 Meanwhile, I was a backend engineer coding in a project. All the extra responsibilities I took were aligned with my career goals, team's, and business's needs. Also, **nobody wanted to tackle the problems I wanted to solve.** Every other engineer was focused on technical problems, which were a lot. Later, my efforts helped the team to become a high-performing team.
@@ -53,7 +53,7 @@ Meanwhile, I was a backend engineer coding in a project. All the extra responsib
 
 All of these initiatives and study on the side helped me solve complex team and staff problems and the career growth challenges of others. In the interviews for engineering manager (EM), I already have some experience that I could talk about.
 
-Of course, it was apparent that I didn't have much manager experience because my manager was accountable for all the things I did. Although I had a lot of freedom, being the accountable and responsible person for a piece of work is different than just doing the work from start to end. **It's not the authority that has the weight but the lack of _official responsibilities_** (e.g., having performance review feedback of engineers).
+Of course, it was apparent that I didn't have much manager experience because my manager was accountable for all the things I did. Although I had a lot of freedom, being the accountable and responsible person for a piece of work is different than just doing the work from start to end. **It's not the authority that has the weight but the lack of *official responsibilities*** (e.g., having performance review feedback of engineers).
 
 As it is apparent that I never had a direct reporting person at that point, I was still knowledgeable to answer many questions using [the STAR method](https://lethain.com/star-method/) during interviews: I talked with my real-life experience.
 

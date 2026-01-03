@@ -1,7 +1,7 @@
 ---
 title: "Mektup #26: How to Create a Definition of Done in Your Team"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "26"
 date: 2022-03-08
@@ -21,7 +21,7 @@ The next step is **identifying the shared expectations**. Group post-its that m
 
 Once you have listed all your· expectations, go over them and identify if all expectations are appli­cable to your projects. If any expectation is not suitable for all of your work, mark them either "optional" or "if applicable."
 
-While going over the list again, **think about if you can meet all the expectations** _**all the time**_. Don't try to come up with an exhaustive list. **The DoD should have only the bare minimum.** It shouldn't contain wishful thinking; it should include essential items in your work.
+While going over the list again, **think about if you can meet all the expectations** ***all the time***. Don't try to come up with an exhaustive list. **The DoD should have only the bare minimum.** It shouldn't contain wishful thinking; it should include essential items in your work.
 
 **Once you're done with the DoD, set a timeframe to try it**. I found six to eight weeks a reasonable time frame that people can adapt to a new process and realize the invalid or missing points in DoD. **During this testing period, try to enforce the DoD as much as possible.** For example, add it to your pull request templates if you use GitHub or integrate it in your flow as a checklist in Jira.
 

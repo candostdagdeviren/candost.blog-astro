@@ -158,10 +158,7 @@
           "type": "string"
         }
       },
-      "required": [
-        "title",
-        "date"
-      ],
+      "required": ["title", "date"],
       "additionalProperties": false
     }
   },

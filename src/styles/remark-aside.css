@@ -1,4 +1,4 @@
-html[data-theme="light"]{
+html[data-theme="light"] {
   --ra-color-note: #3d50f5;
   --ra-color-note-bg: #cfd4fc;
   --ra-color-tip: #bb3df5;
@@ -9,7 +9,7 @@ html[data-theme="light"]{
   --ra-color-danger: #f53d7d;
   --ra-color-danger-bg: #fad1df;
 }
-html[data-theme="dark"]{
+html[data-theme="dark"] {
   --ra-color-note: #3347ff;
   --ra-color-note-bg: #171d4f;
   --ra-color-tip: #bd53ee;

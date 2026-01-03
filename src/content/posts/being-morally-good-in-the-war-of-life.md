@@ -9,7 +9,7 @@ external: false
 
 Life is a war—a long war between happiness and others. In every battle of this war, we expect fairness—be happy as much as others and be treated as equals. From childhood, I was taught that people who are morally good and lawful will always win this war. That's who I wanted to be. All the movies, books, and religions taught me sticking the goodness will always result in happy endings. My parents, grandparents, friends, and relatives believed in this idea; we all believed in it together.
 
-All my life, I've been waiting for this war to end. It's been thirty years, and with this expectation, I cannot survive; we cannot survive. There is no end to this war. Being morally good doesn't help happiness to grow. It helps to become a better person in society, that's all. Being a better person doesn't guarantee winning the war; it doesn't make me the best person in _my_ war.
+All my life, I've been waiting for this war to end. It's been thirty years, and with this expectation, I cannot survive; we cannot survive. There is no end to this war. Being morally good doesn't help happiness to grow. It helps to become a better person in society, that's all. Being a better person doesn't guarantee winning the war; it doesn't make me the best person in *my* war.
 
 Ursula K. Le Guin was right when she separated a morally good man from the best man in a fight.
 
@@ -17,21 +17,21 @@ Ursula K. Le Guin was right when she separated a morally good man from the best 
 
 Learning the best man is not the good man takes a long time for us—as it took thirty years for me. We have to forget all movies we have watched, all the superheroes we've seen—all the misperceptions. The problem is not being morally good but expecting a good outcome solely from being good. The problem is the expectancy. Ursula saw our deficient comprehension and continued,
 
-> *This is justice. But it's the kind of justice that children can't bear. They rage against it. It's not fair! But if children never learn to bear it, they can't go on to learn that a victory or a defeat in battle, or in any competition other than a purely moral one (whatever that might be), has nothing to do with who is morally better.*
+> _This is justice. But it's the kind of justice that children can't bear. They rage against it. It's not fair! But if children never learn to bear it, they can't go on to learn that a victory or a defeat in battle, or in any competition other than a purely moral one (whatever that might be), has nothing to do with who is morally better._
 >
-> *Might does not make right—right?*
+> _Might does not make right—right?_
 >
-> *Therefore right does not make might. Right?*
+> _Therefore right does not make might. Right?_
 >
-> *But we want it to. "My strength is as the strength of ten because my heart is pure."*
+> _But we want it to. "My strength is as the strength of ten because my heart is pure."_
 >
-> *If we insist that in the real world the ultimate victor must be the good guy, we've sacrificed right to might. (That's what History does after most wars, when it applauds the victors for their superior virtue as well as their superior firepower.) If we falsify the terms of the competition, handicapping it, so that the good guys may lose the battle but always win the war, we've left the real world, we're in fantasy land—wishful thinking country.*
+> _If we insist that in the real world the ultimate victor must be the good guy, we've sacrificed right to might. (That's what History does after most wars, when it applauds the victors for their superior virtue as well as their superior firepower.) If we falsify the terms of the competition, handicapping it, so that the good guys may lose the battle but always win the war, we've left the real world, we're in fantasy land—wishful thinking country._
 
 This justice is the counterpoint to our beliefs, all the things we learned, and [our envisions for happiness](/a-life-without-problems-the-happiness/). Society taught us that a good soul would eventually win, but our beliefs are shaken from the core.
 
 When we abandon the rules in real life, we lose and become weak. Our goodness doesn't make us frail; believing we, the morally good ones, will be victorious does.
 
-In the fantasy land created around us, we don't realize that the good guys are _learning_ how to fight. They lose battles, but they win the war by choosing to fight. They practice, focus, and don't give up. However, folks behind movies and TV series still move our focus to only being morally good instead of the superheroes' mentality change. They still display how these heroes learn to fight, but that part never sticks with us.
+In the fantasy land created around us, we don't realize that the good guys are *learning* how to fight. They lose battles, but they win the war by choosing to fight. They practice, focus, and don't give up. However, folks behind movies and TV series still move our focus to only being morally good instead of the superheroes' mentality change. They still display how these heroes learn to fight, but that part never sticks with us.
 
 With all the influence on us, with knowing that real justice is different, how do we become both right and might?
 

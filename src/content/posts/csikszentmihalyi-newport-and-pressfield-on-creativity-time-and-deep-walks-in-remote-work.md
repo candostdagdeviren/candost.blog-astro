@@ -20,7 +20,7 @@ The problem is not the remote work, as it's been there for years; it is how we m
 
 ## Where are you, my focus time?
 
-For many people, the nature of the work translated from *some* meetings, working alone, and social connections to video calls for everything: meetings and social relationships. Once everything was converted to video calls, the work became shallow.
+For many people, the nature of the work translated from _some_ meetings, working alone, and social connections to video calls for everything: meetings and social relationships. Once everything was converted to video calls, the work became shallow.
 
 Having back-to-back meetings was always a problem. While working at home, we anticipated having, maybe unconsciously, more focus time because there are no people around us. Instead, what we got is shallow work, which is unsatisfying.
 
@@ -30,7 +30,7 @@ What is even worse is that each day without deep work, we lose our focus skills 
 
 Removing all distractions to give ourselves entirely to the work we do is not easy. If our mind is already in a shallow work mode, it requires deliberate training. It's tempting to constantly check messages, emails and jump from one task or meeting to another. We can suddenly stop all these activities, but we also have to fight with the Fear of Missing Out (FOMO).
 
-Once we confront FOMO and train our minds, we start to get more things *done*. Both Czsiksenmihaly and Newport are correct with their idea of entirely focusing on a single thing; they both also accept that it's difficult to achieve if the mind is constantly distracted. They have strategies to improve focus time and get into a deep workflow, but I found them challenging. However, I found one routine remarkable: having deep walks.
+Once we confront FOMO and train our minds, we start to get more things _done_. Both Czsiksenmihaly and Newport are correct with their idea of entirely focusing on a single thing; they both also accept that it's difficult to achieve if the mind is constantly distracted. They have strategies to improve focus time and get into a deep workflow, but I found them challenging. However, I found one routine remarkable: having deep walks.
 
 ## Let's Go to Deep Walks
 
@@ -59,7 +59,7 @@ On the other hand, boredom and loneliness are unavoidable, and accepting the ine
 > Only the person who doesn't constantly need a pleasant environment to enjoy the moment and rarely gets bored passed the test to become creative.
 > — Mihaly Csikszentmihalyi, on The Flow
 
-While turning off notifications, phones, and other distracting gadgets is *somehow* easy, we forget one of the most significant distractions: our mind.
+While turning off notifications, phones, and other distracting gadgets is _somehow_ easy, we forget one of the most significant distractions: our mind.
 
 ## Duel with The Mind
 

@@ -30,4 +30,4 @@ If the organizations are aware of their hidden monoliths and work deliberately t
 
 Many problems occur when organizations don't even sense that their hidden structures affect their software design. They create a goal themselves (e.g., use [microservices](/books/microservices-and-their-benefits/), use monolith, use domain-driven design, etc.) and follow their decision without the holistic picture.
 
-_The solution:_ we need to look around the (virtual) office, systems, and pipelines and analyze how they impact the software and team design. If we are destined to obey Conway's Law, how we design the environment in which our software will be developed and maintained will define our system design.
+*The solution:* we need to look around the (virtual) office, systems, and pipelines and analyze how they impact the software and team design. If we are destined to obey Conway's Law, how we design the environment in which our software will be developed and maintained will define our system design.

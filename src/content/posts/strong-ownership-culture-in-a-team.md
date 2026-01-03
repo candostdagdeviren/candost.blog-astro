@@ -23,7 +23,7 @@ It is time to talk about our path and the strategies I used and still use. Each 
 
 The best leaders I've observed aim to create a culture where people
 
-- take full ownership *proactively* (accountability + responsibility),
+- take full ownership _proactively_ (accountability + responsibility),
 - learn (growth mindset),
 - help each other (trust),
 - bring themselves to work as they are, and
@@ -65,7 +65,7 @@ Every time leaders talk about transparency, they struggle to understand what peo
 
 The most suitable answer I've found to **demystify transparency is about giving context and providing clarity**. If people don't know what's around and what’s coming next, they can't decide whether to take a vacation or not. **If they don't know the mission, strategy, and roadmap, they can't decide how to implement a feature or design a system.** If the person has enough context to make an informed decision, that is enough. If their decision is too risky without knowing certain things, I focus on bringing them context and clarifying every open question they have in their minds.
 
-I learned that giving a person every possible piece of information equips them to solve a problem (and *that's what matters*). Transparency is not about unhidden things; it's about sharing the proper context with people and equipping them to solve a problem or make a better decision.
+I learned that giving a person every possible piece of information equips them to solve a problem (and _that's what matters_). Transparency is not about unhidden things; it's about sharing the proper context with people and equipping them to solve a problem or make a better decision.
 
 Once they are equipped with information, the next intuitive step is setting clear goals and keeping people accountable.
 
@@ -101,14 +101,15 @@ Tasks such as meeting facilitation, backlog refinement, feature delivery plannin
 
 This delegation is not restricted to “soft skills.” For example, we delegated Observability improvements to one person who wanted to improve their knowledge around observability, monitoring, and alerting. That helped the person to develop, and the team closed their gaps. And now, when someone has a question or struggles with something in that area, this person jumps in and gives them help and mentors them.
 
-*(Side read: [The Real Difficulty of Engineering Leadership is Not What They Say](/the-real-difficulty-of-engineering-leadership/).)*
+_(Side read: [The Real Difficulty of Engineering Leadership is Not What They Say](/the-real-difficulty-of-engineering-leadership/).)_
 
 ## Conclusion
 
 All of these may sound like a lot of work. All I can tell you is yes, it is. It’s a long journey, and we put a lot of energy and time into working through all of these and more others that I didn’t mention here. We had many frustrating moments, failed remarkably in each section, learned a ton, and tried a few things differently. But isn’t this the work of engineering leadership? I think it is. You plan long-term, take a step, adjust it until it works, and take another step while keeping your head up and focused on the future. Once I put a holistic picture and long-term vision in my head, all of the small actions we took were aligned and aimed at the final picture.
 
 Needless to say, the whole process is not (and will never be) a set-once-and-forget-it. It’s a continuous process and adaptable to anyone. You need to be resilient, relentless, and focused.
-Moreover, you have to have the people who want to put the work **together** with you. If you have a team of missionaries who *just* implement the code and don’t care about the rest, then you won’t get any results. Also, you have to have the right organization—not every organization is the best candidate to implement the whole system. However, if your organization develops its own product, then you can probably apply a few things from here to your team, if not the whole system.
+Moreover, you have to have the people who want to put the work **together** with you. If you have a team of missionaries who _just_ implement the code and don’t care about the rest, then you won’t get any results. Also, you have to have the right organization—not every organization is the best candidate to implement the whole system. However, if your organization develops its own product, then you can probably apply a few things from here to your team, if not the whole system.
 
 I’ll finish with a quote I love and keeps me motivated to look and learn more things:
+
 > “If the only tool you have is a hammer, it is tempting to treat everything as if it were a nail.” — Abraham Maslow

@@ -44,7 +44,6 @@ People who want to create a learning environment, especially leaders.
 
 > "We won't have much luck changing other people's minds if we refuse to change ours."
 
-
 ## 📒 Think Again Chapter Summary + Notes
 
 ### A Preacher, a Prosecutor, a Politician, and a Scientist Walk into Your Mind
@@ -52,11 +51,11 @@ People who want to create a learning environment, especially leaders.
 - We see other people's behavior while seeing our intention. When someone misses the point or needs to rethink their approach, we swiftly recognize that. When it comes to our own ideas, we favor feeling right over being right. We often don't form second opinions while expecting them from others.
 - Adapting to a changing environment is not something companies do. It is something people do. Many people become experts in their fields and stay there without changing their stance or knowledge stack. The comfort zone makes them vulnerable to change. However, the bests adapt to changing environments with their everyday decisions.
 - Preacher-Prosecutor-Politician Mindsets:
-    - Preacher: When our beliefs are in jeopardy, we begin preaching to protect and promote our ideas.
-    - Prosecutor: When we recognize other people's flaws in their arguments, we prosecute them and try to prove them wrong.
-    - Politician: When we seek to win the audience, we lobby and campaign our beliefs and ideas for approval.
+  - Preacher: When our beliefs are in jeopardy, we begin preaching to protect and promote our ideas.
+  - Prosecutor: When we recognize other people's flaws in their arguments, we prosecute them and try to prove them wrong.
+  - Politician: When we seek to win the audience, we lobby and campaign our beliefs and ideas for approval.
 - Scientific Thinking:
-    - Thinking as a scientist (experimentation, skepticism, and reconsidering the approach) forces us to reconsider our stand all the time. Although scientists don't always apply scientific thinking in their lives, the method works. When we think we're smart, we change our minds less (confirmation and desirability bias). Scientific thinking is not only reconsidering; it is also being skeptical, searching for what might be wrong when everything is normal.
+  - Thinking as a scientist (experimentation, skepticism, and reconsidering the approach) forces us to reconsider our stand all the time. Although scientists don't always apply scientific thinking in their lives, the method works. When we think we're smart, we change our minds less (confirmation and desirability bias). Scientific thinking is not only reconsidering; it is also being skeptical, searching for what might be wrong when everything is normal.
 
 > "If knowledge is power, knowing what we don't know is wisdom."
 
@@ -66,9 +65,9 @@ People who want to create a learning environment, especially leaders.
 
 - The most successful leaders have both humility and confidence. They believe in their strengths; they are also aware of their weaknesses. They can change their minds when they are proven wrong.
 - Feeling like an imposter (imposter syndrome) has also its advantages:
-    1. Motivates us to work harder. (naturally)
-    2. Motivates us to work smarter. If we don't believe we're going to win, we have nothing to lose to rethink our approach.
-    3. It makes us better learners—the doubt of not knowing opens us to learning from others.
+  1. Motivates us to work harder. (naturally)
+  2. Motivates us to work smarter. If we don't believe we're going to win, we have nothing to lose to rethink our approach.
+  3. It makes us better learners—the doubt of not knowing opens us to learning from others.
 
 ### The Joy of Being Wrong: The Thrill of Not Believing Everything You Think
 
@@ -98,13 +97,13 @@ People who want to create a learning environment, especially leaders.
 > "We don't have to convince them that we're right. We just need them to open their minds to the possibility that they might be wrong. Their natural curiosity will do the rest."
 
 - To change other people's minds, we have to present humility, acknowledge their valid points (so we are reasonable), and ask questions to open their minds. The best negotiators ask many questions—more than average negotiators.
-- In any heated argument, we can stop and ask, _"What evidence would change your mind?"_
+- In any heated argument, we can stop and ask, *"What evidence would change your mind?"*
 - People are interested in hiring people who acknowledge their weaknesses rather than bragging about their strengths.
 - When we ask questions, we invite people to join our dance. When we assume things and think on their behalf, we never get them on the dance.
 
 ### Bad Blood on the Diamond: Diminishing Prejudice by Destabilizing Stereotypes
 
-- Convincing others to destroy their stereotypes demands _counterfactual thinking_. Like asking questions in debates, we should ask questions and put the other side in situations where they understand how they formed these stereotypes. We should ask questions that will let them put themselves in someone else's shoes. When people realize how easy it is to develop stereotypes, they change their perspectives. We need to ask questions that nudge them to explore the origins of their thoughts and beliefs, and we need to provoke them to reconsider their stance.
+- Convincing others to destroy their stereotypes demands *counterfactual thinking*. Like asking questions in debates, we should ask questions and put the other side in situations where they understand how they formed these stereotypes. We should ask questions that will let them put themselves in someone else's shoes. When people realize how easy it is to develop stereotypes, they change their perspectives. We need to ask questions that nudge them to explore the origins of their thoughts and beliefs, and we need to provoke them to reconsider their stance.
 
 > "Many of our beliefs are cultural truisms: widely shared, but rarely questioned."
 
@@ -138,9 +137,9 @@ People who want to create a learning environment, especially leaders.
 ### Rewriting the Textbook: Teaching Students to Question Knowledge
 
 - Thinking like a fact-checker requires three guidelines:
-    1. Interrogate the information instead of just consuming it.
-    2. Reject popularity as its reliability.
-    3. Recognize that the sender of the information may be different than its source.
+  1. Interrogate the information instead of just consuming it.
+  2. Reject popularity as its reliability.
+  3. Recognize that the sender of the information may be different than its source.
 - People learn more when they look at their solutions and try different approaches. Rethinking helps to master their craft.
 
 ### That's not the Way we've Always Done It: Building Cultures of Learning at Work
@@ -157,8 +156,8 @@ People who want to create a learning environment, especially leaders.
 
 - Asking kids about what they want to be when they grow up nudges them to place their identity in their work. They should actually think of the work as something they do rather than something they are. When they see it as something they do, they become more open to exploring their options and various responsibilities in their adult life.
 - Have regular career check-ups. Have the same for relationships. Overall goal: Expand repertoire of possible selves.
-    - For career: once or twice a year.
-        1. Find out people who inspire you. Observe what they do day-to-day.
-        2. Form a hypothesis about how their style/processes might align with your interests, skills, ways, and values.
-        3. Test out by running experiments. Do job interviewing, shadowing, and internships; the goal is to get a taste of work.
-    - For relationships: once in a while when facing difficulty.
+  - For career: once or twice a year.
+    1. Find out people who inspire you. Observe what they do day-to-day.
+    2. Form a hypothesis about how their style/processes might align with your interests, skills, ways, and values.
+    3. Test out by running experiments. Do job interviewing, shadowing, and internships; the goal is to get a taste of work.
+  - For relationships: once in a while when facing difficulty.

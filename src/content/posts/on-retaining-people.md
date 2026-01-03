@@ -9,7 +9,7 @@ updateDate: 2025-03-25T07:05:00.000Z
 
 The more I think about why organizational changes happen, the more I see that it’s merely an adjustment to the environment. The world is changing all the time. If you don’t adjust and evolve your organization with it, you’re practically falling behind and will eventually go out of business.
 
-You have to keep the momentum in the team and constantly reiterate yourself and your team. You always have to adapt your strategy to macro and micro changes. Sometimes, you even have to *be the change* that forces others to adapt.
+You have to keep the momentum in the team and constantly reiterate yourself and your team. You always have to adapt your strategy to macro and micro changes. Sometimes, you even have to _be the change_ that forces others to adapt.
 
 While doing so, not everyone will be on board with your direction. Some will yell at you to tell you that you’re going in the wrong direction. You’ll not listen to these screams and keep pushing in your direction because you’ve made your decision or are stubborn enough to think that “others are wrong.” In time, these screams won’t disappear but will be less annoying because most people will adapt to the new change and lower their voices. You’ll be surprised to see how people change and how flexible they are when you look back. But some…
 
@@ -27,7 +27,7 @@ You need to part ways with some people because they don’t help you build the c
 
 You can’t. Don’t worry. Things change around you, and you can’t predict and prepare for all of these scenarios. You’ll try your best to say a nice and grateful goodbye to the people you’re parting your ways with. However, circumstances might not allow you to have everything in the way you want. So, you might say a shitty goodbye. Everyone will blame you for it. Without knowing what you are going through, they will make you the villain. You’ll accept it. You have to. The mistake was yours; you have to own all criticism.
 
-Sometimes, you won’t make it shitty, but the people leaving will do it. They will make everyone suffer unnecessarily while leaving. You’ll never know why they do this because your communication bridges are already shattered. You’ll pray to finish this mess as soon as possible and go back to your *regular* life.
+Sometimes, you won’t make it shitty, but the people leaving will do it. They will make everyone suffer unnecessarily while leaving. You’ll never know why they do this because your communication bridges are already shattered. You’ll pray to finish this mess as soon as possible and go back to your _regular_ life.
 
 When you get over this, you will start new. You spent some trust credits on the way. You have to earn more. You’ll start looking for new people who are motivated by your culture. As people always think, they bring a fresh perspective. Yet, they rarely do. They don’t have a historical understanding of what happened. They fit your new culture better. That’s all.
 

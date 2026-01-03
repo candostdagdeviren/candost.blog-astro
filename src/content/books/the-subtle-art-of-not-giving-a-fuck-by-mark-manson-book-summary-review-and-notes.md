@@ -28,7 +28,7 @@ After reading the book, I re-evaluated my values, actions, and what I chose to d
 
 > "The mark of an unhealthy relationship is two people who try to solve each other's problems in order to feel good about themselves. Rather, a healthy relationship is when two people solve their own problems in order to feel good about each other."
 
-## 📣What is The Subtle Art Of Not Giving a F*ck Book by Mark Manson About?
+## 📣What is The Subtle Art Of Not Giving a F\*ck Book by Mark Manson About?
 
 This New York Times Bestseller book is about understanding life a little bit better. There is a positivist movement that pushes us to have positive experiences all the time. However, the reality is not like that. We're not exceptional but average. The book explains why this movement is harmful and why it is unreal.
 
@@ -42,7 +42,7 @@ The book's counterintuitive approach is a slap in the face, and you need to stop
 
 I will recommend and gift this book to people who are having an existential crisis.
 
-**Why not 10?** Because I cannot give 10 to any book while knowing there might be books that deserve a better rating than this. So, _it's not 10, but it should be_. The only reason is that I cannot reserve ten stars for the books that I just read. I might come back and change my rate after a couple of years when I see the impact on my life.
+**Why not 10?** Because I cannot give 10 to any book while knowing there might be books that deserve a better rating than this. So, *it's not 10, but it should be*. The only reason is that I cannot reserve ten stars for the books that I just read. I might come back and change my rate after a couple of years when I see the impact on my life.
 
 ## 📝 Summary, Notes, and Personal Thoughts
 
@@ -70,7 +70,7 @@ I will recommend and gift this book to people who are having an existential cris
 
 - Our lives are full of choices. We always have to choose if we will care about something or not. We decide to have a particular perspective on different things. Even when we don't choose anything, it's still a choice by its nature. The reality is that the choice is unavoidable, so we should focus on how and what we choose. If the reason we choose something is apparent and aligned with good values, we can grow happier. If we decide on something with our shitty values, then there is a high chance that we won't feel that much satisfied. That's why figuring out the values and making mindful decisions is crucial for happiness.
 - As we were born, the cards were already dealt with in our life. We may be lucky and get a good hand, or we're out of luck and have a terrible hand. The reality is that these cards are not our choices. However, having a bad hand doesn't mean that we will lose the game. Think poker; your strategy is your choice. Ultimately you're responsible for choosing how you will approach playing with that hand.
-    The same applies to life as well. If we are not in a good position from the beginning, we will have a good or bad life depending on how we want to live. If we choose shitty values, it's our responsibility. We can have a better life when we decide to move on after a bad thing that's not in our control. If we choose to blame ourselves for something that happened, although we didn't choose it and didn't impact it, we are responsible for having a miserable life. The choice is ours, and we're responsible for it. We need to choose good values and measurements over bad ones to stop ourselves from complaining all the time.
+  The same applies to life as well. If we are not in a good position from the beginning, we will have a good or bad life depending on how we want to live. If we choose shitty values, it's our responsibility. We can have a better life when we decide to move on after a bad thing that's not in our control. If we choose to blame ourselves for something that happened, although we didn't choose it and didn't impact it, we are responsible for having a miserable life. The choice is ours, and we're responsible for it. We need to choose good values and measurements over bad ones to stop ourselves from complaining all the time.
 
 ### You're Wrong About Everything
 
@@ -94,7 +94,7 @@ I will recommend and gift this book to people who are having an existential cris
 #### Rejection Makes Your Life Better
 
 - The focus is fundamental for achieving many things, and sticking to the values is one of them. Accepting a value requires saying no to the things that break the value. For example, if fidelity is one of our values, we need to say no to cheating.
-    Saying yes and sticking to a thing requires saying no to many other things. Society nudges us to say yes to many things by embracing being part of the community. People who say no or don't accept this culture are considered outlanders. However, the actual value comes from saying no. Accepting and being in sync with everyone is impossible, and even trying it is incredibly tiring.
+  Saying yes and sticking to a thing requires saying no to many other things. Society nudges us to say yes to many things by embracing being part of the community. People who say no or don't accept this culture are considered outlanders. However, the actual value comes from saying no. Accepting and being in sync with everyone is impossible, and even trying it is incredibly tiring.
 
 #### How to Build Trust
 

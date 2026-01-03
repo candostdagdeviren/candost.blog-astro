@@ -16,7 +16,8 @@ This post is Chapter 2 of my notes from the book [Building Microservices: Desig
 6. [Chapter 5: Splitting the Monolith](/books/splitting-the-monolith/)
 
 ---
-Comparing software architects with architects is inaccurate. Physical-world constraints architects while the software is designed to evolve with user requirements. Maybe the most harm caused by the word _architect_.
+
+Comparing software architects with architects is inaccurate. Physical-world constraints architects while the software is designed to evolve with user requirements. Maybe the most harm caused by the word *architect*.
 
 ## An Evolutionary Vision for the Architect
 
@@ -34,7 +35,7 @@ Software architects should worry more about what happens between services rather
 
 The architect must be sitting with the team and working on regular stories. It helps the architect to understand what everyday work looks like. This method is more effective than having a meeting or reviewing the code.
 
-> **The Coding Architect:** "Ideally, the architect should work on normal stories, to really understand what _normal_ work is like. I cannot emphasize how important it is for the architect to actually sit with the team! This is significantly more effective than having a call or just looking at the code."
+> **The Coding Architect:** "Ideally, the architect should work on normal stories, to really understand what *normal* work is like. I cannot emphasize how important it is for the architect to actually sit with the team! This is significantly more effective than having a call or just looking at the code."
 
 ## A Principled Approach
 

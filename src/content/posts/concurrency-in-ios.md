@@ -24,7 +24,7 @@ There are two types of queues in iOS, the main queue and the others. We have onl
 
 ![](/images/content/posts/ns-for-ios-devs/Queues-Network%20Operations.png)
 
-The most important thing here is having _only one main queue_. The main queue should be used wisely. Since every UI update has to be done in the main queue, if we use the main queue for every other operation, we can freeze the UI operations. For example, if we send a network request on the main queue and update the UI according to the response, we will see the UI is not responsive until we get back the data. The hint is that we should use background queues as much as we can and try to leave the main queue empty for non-UI operations.
+The most important thing here is having *only one main queue*. The main queue should be used wisely. Since every UI update has to be done in the main queue, if we use the main queue for every other operation, we can freeze the UI operations. For example, if we send a network request on the main queue and update the UI according to the response, we will see the UI is not responsive until we get back the data. The hint is that we should use background queues as much as we can and try to leave the main queue empty for non-UI operations.
 
 ## How do we use queues with a simple network request and GCD
 
@@ -174,7 +174,7 @@ class FetchRestaurantInventoryOperation: Operation {
 
 Instead of getting into too many details about `Operation` and `OperationQueue`, let’s take a look at the important things which we should know:
 
-- An operation object is a _single-shot object_. It’s **not** reusable. When we use the operation object, it’s basically done. If we want to repeat the same operation, we need to create another instance from our custom operation class.
+- An operation object is a *single-shot object*. It’s **not** reusable. When we use the operation object, it’s basically done. If we want to repeat the same operation, we need to create another instance from our custom operation class.
 - `Operation` is an abstract class that is associated with a single task. So, we cannot create new instances of `Operation`. Instead, we can subclass it like in the example or use the system-wide defined ones (e.g., `BlockOperation`). If an operation has a dependency, it is not considered ready until all of the dependencies are finished executing. When the last dependency is finished, the operation starts executing.
 - `Operation` is KVC and KVO compliant (we will talk about this later). So, we can watch the changes in operations by attaching observers. But we shouldn’t bind the operation to the UI elements. Because UI elements must execute on the main thread.
 - While it’s safe to call the methods in `Operation` from multiple threads, we should take care of the thread safety in overridden methods and custom implementation.
@@ -188,6 +188,7 @@ If we want to keep our apps responsive and run multiple processes in parallel ea
 ---
 
 Further Reading:
+
 - [Apple Dispatch Documentation](https://developer.apple.com/documentation/dispatch)
 - [Apple Operation Documentation](https://developer.apple.com/documentation/foundation/operation)
 - [Learn more about Concurrency, Asynchronous vs. Synchronous](https://www.raywenderlich.com/5370-grand-central-dispatch-tutorial-for-swift-4-part-1-2)

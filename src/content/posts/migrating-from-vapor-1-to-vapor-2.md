@@ -10,7 +10,7 @@ Vapor 2 is released 🚀🎉 This is a big breaking change, but a good one. We h
 
 Let’s start migrating! 💪🏽
 
-We started with the _Package.swift_ file. We were using Vapor 1.5.0 and VaporMongo 1.1.0
+We started with the *Package.swift* file. We were using Vapor 1.5.0 and VaporMongo 1.1.0
 
 ```swift
 dependencies: [
@@ -195,14 +195,7 @@ lastly, we added these middlewares to our `droplet.json` file. Vapor 2 puts th
   "log": "console",
   "hash": "crypto",
   "cipher": "crypto",
-  "middleware": [
-    "cors",
-    "abort",
-    "type-safe",
-    "date",
-    "dummy",
-    "some"
-  ]
+  "middleware": ["cors", "abort", "type-safe", "date", "dummy", "some"]
 }
 ```
 
@@ -318,6 +311,7 @@ Adoption to the latest versions with breaking changes is generally hard. But whe
 ---
 
 Further:
+
 - [Vapor 2 New Documentation](https://legacy.docs.vapor.codes/2.0/)
 - [Steampress.io Vapor 2 Migration](https://www.steampress.io/blog/posts/migrating-to-vapor-2/)
 - [Vapor Release Notes](https://github.com/vapor/vapor/releases/tag/2.0.0)

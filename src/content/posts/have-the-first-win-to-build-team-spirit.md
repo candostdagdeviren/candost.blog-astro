@@ -6,7 +6,7 @@ updateDate: 2021-12-08
 external: false
 ---
 
-When I became a manager, I asked my managers for advice about how to build the team spirit in a new team to have a great start. There were many answers, but one advice was common: give the team a goal and deliver something as soon as possible. *Deliver something*.
+When I became a manager, I asked my managers for advice about how to build the team spirit in a new team to have a great start. There were many answers, but one advice was common: give the team a goal and deliver something as soon as possible. _Deliver something_.
 
 While it sounds like a vague idea that doesn't specify what to deliver, we found a goal and committed to it, and it worked. With small nudges to keep the team focus on the goal, the team of five people delivered three achievements in the first six weeks.
 
@@ -22,9 +22,9 @@ Every team has unique sets of problems. Not everyone has a chance to form a new 
 
 ## Team spirit forms around a common goal
 
-Be it a new team or on existing one, when people have common understanding of the aim, they have a “reason to move the ship.” Instead of being in a floating ship, they focus on doing their part to move the ship in *the right* direction. They also figure out better ways to collaborate while doing it. Collaboration creates team spirit, team spirit creates success. Once everyone believes in that they can work together and succeed, there is nothing can stand in front of them.
+Be it a new team or on existing one, when people have common understanding of the aim, they have a “reason to move the ship.” Instead of being in a floating ship, they focus on doing their part to move the ship in _the right_ direction. They also figure out better ways to collaborate while doing it. Collaboration creates team spirit, team spirit creates success. Once everyone believes in that they can work together and succeed, there is nothing can stand in front of them.
 
-Creating a team spirit passes from having the common and achievable goal. I don't like S.M.A.R.T. goals for teams. When I talk about goals for new teams, I mean release X in Y weeks, I don't mean increase conversion rate by 3% in a month. First, let the team accomplish something together, anything. Give them a meaningful, and achievable goal which is so small that they cannot *not* achieve it.
+Creating a team spirit passes from having the common and achievable goal. I don't like S.M.A.R.T. goals for teams. When I talk about goals for new teams, I mean release X in Y weeks, I don't mean increase conversion rate by 3% in a month. First, let the team accomplish something together, anything. Give them a meaningful, and achievable goal which is so small that they cannot _not_ achieve it.
 
 When we set a big goal for the team right in the beginning, it becomes difficult to achieve and people fall on to sidetracks and create their own smaller goals. In the beginning, pick the goals smaller. Small goals will bring more moments of success and celebration. However, giving a sole goal doesn't work alone.
 

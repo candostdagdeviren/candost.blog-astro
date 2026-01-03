@@ -19,7 +19,7 @@ Engineers should approach the designs with two fundamentals in mind, in this ord
 
 When it comes to understanding users’ needs, there is no distinction between the two groups. Many engineers can argue that it’s the product designers’ job and they should build solutions to solve users’ problems. As engineers are responsible for building that solution, they also must understand the user before giving any feedback on feasibility.
 
-In my experience, engineers lack this part the most. It’s impossible to decide how to build a system correctly without knowing the user’s needs. Yes, it’s possible to *implement* a UI design without understanding the user. Yes, it’s also possible to give feasibility feedback. I have done both in my career. However, when it comes to making the feedback **useful**, it’s very difficult to offer an alternative solution to the design team.
+In my experience, engineers lack this part the most. It’s impossible to decide how to build a system correctly without knowing the user’s needs. Yes, it’s possible to _implement_ a UI design without understanding the user. Yes, it’s also possible to give feasibility feedback. I have done both in my career. However, when it comes to making the feedback **useful**, it’s very difficult to offer an alternative solution to the design team.
 
 Once engineers understand users’ needs, the focus shouldn’t be on “liking the design” or “finding it makes sense” (I heard these words from engineers many times) but rather on feasibility—**thinking about how difficult it is to implement the solution**. This is where the debate should be between design and engineering, bringing out the real value of collaboration.
 
@@ -27,6 +27,6 @@ Designers get early engineering feedback to measure feasibility without wasting 
 
 After that, giving overall feedback on designs is still useful and helpful. Any feedback can give insights and spark new ideas for designs. However, the main focus should always be understanding the user and then giving feedback on feasibility.
 
-----
+---
 
-***P.S.** I didn't focus why design teams hold these feedback sessions on this post but Maria later pointed out that they use the sessions to invite everyone to ideation and ensure the team is up to date throughout the intire process. I think it's a great addition to collecting feedback; aligning and involving everyone is always a good way to foster culture of innovation.*
+**\*P.S.** I didn't focus why design teams hold these feedback sessions on this post but Maria later pointed out that they use the sessions to invite everyone to ideation and ensure the team is up to date throughout the intire process. I think it's a great addition to collecting feedback; aligning and involving everyone is always a good way to foster culture of innovation.\*

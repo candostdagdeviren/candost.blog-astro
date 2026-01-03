@@ -1,7 +1,7 @@
 ---
 title: "Mektup #10: The Career Frameworks"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "10"
 date: 2021-07-22
@@ -11,13 +11,13 @@ external: false
 
 Hey friend!
 
-Welcome to the **10th issue** of the Mektup. Here is what I think about this newsletter: _sending a letter (Mektup means letter in Turkish) to you every two weeks and intending to hear back from you_. I'm still excited to send every letter like it's day one. Meanwhile, I'm still considering different formats for the newsletter. So, if you have a wish, hit reply and send it over!
+Welcome to the **10th issue** of the Mektup. Here is what I think about this newsletter: *sending a letter (Mektup means letter in Turkish) to you every two weeks and intending to hear back from you*. I'm still excited to send every letter like it's day one. Meanwhile, I'm still considering different formats for the newsletter. So, if you have a wish, hit reply and send it over!
 
 Now, onto the Mektup.
 
 ---
 
-For the last half-year, I've been working on _engineering career frameworks_ (clearly defined career ladders for software engineers) to describe what's expected from each engineering level. I've moderated many sessions in our team. Observing how everyone evaluates themselves and others brought many learnings.
+For the last half-year, I've been working on *engineering career frameworks* (clearly defined career ladders for software engineers) to describe what's expected from each engineering level. I've moderated many sessions in our team. Observing how everyone evaluates themselves and others brought many learnings.
 
 Career frameworks give opportunities to individual contributors. Although it introduces a hierarchy in which many people are disturbed, the engineer gets a seat at the leadership (decision) table. Otherwise, many decisions are accumulated on managers who, most of the time, are not experts on the engineering side.
 
@@ -39,4 +39,4 @@ Here are the frameworks I am already aware of:
 
 — Candost
 
-**P.S.:** _[You don't need to learn another programming language every three months](/no-you-dont-need-to-learn-another-programming-language-every-three-months/)._
+**P.S.:** *[You don't need to learn another programming language every three months](/no-you-dont-need-to-learn-another-programming-language-every-three-months/).*

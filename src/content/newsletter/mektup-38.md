@@ -1,7 +1,7 @@
 ---
 title: "Mektup #38: Can you get a promotion by changing jobs?"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "38"
 date: 2022-08-23

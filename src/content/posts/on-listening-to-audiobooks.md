@@ -16,16 +16,16 @@ Later, I changed the walking time to 8:00. As the city woke up and the noise fil
 
 To silence the city's outcry, I started listening to audiobooks.
 
-I managed to finish six books already. I can't say that I learned well what I listened to. I *think* I understood some ideas from the books, but I still need to figure out how I *learn* from them.
+I managed to finish six books already. I can't say that I learned well what I listened to. I _think_ I understood some ideas from the books, but I still need to figure out how I _learn_ from them.
 
 Without converting those ideas into writing, it's challenging to learn anything at all.
 
 > **Verba volant, scripta manent**
 >
-> *"Spoken words fly away, written ones remain"*
+> _"Spoken words fly away, written ones remain"_
 
 I, at least, need to try to explain what I have learned. Recording my thoughts using speech-to-text might help, but I rarely use speech-to-text and haven't given it a try during an audiobook session.
 
-That's why, if I liked an audiobook, I also bought the paper version and added it to my library. Then, I started *reading* the book. [Building a personal library](/newsletter/mediations-4/) is very important to me, and the books that pass my [inspectional reading](/how-to-get-to-the-end-of-a-pile-of-unread-books/#inspectional-reading) (listening to an audiobook at 1.7x speed is a kind of inspectional reading) will always have a place on my bookshelf.
+That's why, if I liked an audiobook, I also bought the paper version and added it to my library. Then, I started _reading_ the book. [Building a personal library](/newsletter/mediations-4/) is very important to me, and the books that pass my [inspectional reading](/how-to-get-to-the-end-of-a-pile-of-unread-books/#inspectional-reading) (listening to an audiobook at 1.7x speed is a kind of inspectional reading) will always have a place on my bookshelf.
 
 Anyway, audiobooks are now becoming part of my life, and I'm looking for a proper audiobook app other than Audible. It would be ideal if the authors and narrators get the most money I will pay for an audiobook. I still couldn't do a proper research. If you have any recommendations, just reply to this post.

@@ -1,7 +1,7 @@
 ---
 title: "Mektup #9: Personal Ego vs. Team Ego"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "9"
 date: 2021-07-08

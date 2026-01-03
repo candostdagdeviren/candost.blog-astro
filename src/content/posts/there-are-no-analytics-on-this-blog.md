@@ -9,6 +9,7 @@ updateDate: 2024-01-31T06:35:42.952Z
 external: false
 draft: false
 ---
+
 When I read [Rachel's post](https://rachsmith.com/i-turned-off-analytics/) about analytics, I realized that I wasn't alone in this journey.
 
 After starting to blog regularly on Medium in 2015, I became obsessed with analytics—how many people read my text, where they come from, and how many pages they have read. Then, I moved to my own website, which made things worse after I installed GA. I started playing with GA features to analyze whatever small traffic I had. It came to a point where I stopped writing, like [Keenan](https://gkeenan.co/avgb/im-turning-off-my-website-analytics-because-im-very-brave-and-i-promise-i-truly-do-not-care-about-the-numbers).
@@ -27,4 +28,4 @@ Analytics of any kind are not helpful in my journey. It's harmful because it imp
 
 What matters is [the journey](/on-the-purpose-of-life/) full of [high-quality ideas](/speaking-writing-and-high-quality-ideas/) [shared with people](/passing-down-the-experience/) [who are kind enough](/why-is-it-so-hard-to-be-kind/) to follow this blog and let me know when they have comments/thoughts on what I wrote.
 
-*P.S. This decision goes into [my list of decisions that remove hundreds of decisions](/decisions-that-remove-other-decisions/).*
+_P.S. This decision goes into [my list of decisions that remove hundreds of decisions](/decisions-that-remove-other-decisions/)._

@@ -8,5 +8,13 @@ export const getAllContent = async () => {
   let books = await getCollectionByName("books");
   let de = await getCollectionByName("de");
   let podcast = await getCollectionByName("podcast");
-  return [...posts, ...journal, ...newsletter, ...notes, ...books, ...de, ...podcast];
-}
+  return [
+    ...posts,
+    ...journal,
+    ...newsletter,
+    ...notes,
+    ...books,
+    ...de,
+    ...podcast,
+  ];
+};

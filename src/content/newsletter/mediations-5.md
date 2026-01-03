@@ -40,4 +40,4 @@ If you don’t want emails but want to subscribe via RSS, [here is what you’re
 - [On Listening to Audiobooks](/on-listening-to-audiobooks/)
 - [Weekday/Weekend Concepts are Useless](/weekday-weekend-concepts-are-useless/)
 
-*P.S. [What a simple but difficult question](https://www.youtube.com/watch?v=fqtA8nASKRs).*
+_P.S. [What a simple but difficult question](https://www.youtube.com/watch?v=fqtA8nASKRs)._

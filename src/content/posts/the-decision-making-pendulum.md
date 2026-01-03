@@ -22,12 +22,11 @@ There is no one way to make decisions; it's a pendulum. On one side, we have the
 
 ![The Decision-Making Pendulum](/images/content/posts/decision-making-pendulum.jpg)
 
-
 Organizations get stuck in convincing everyone or using authority in the wrong place. The problem is trying to use the same decision-making style in all situations. Why people stick to one style depends on the personality and background of the people.
 
 Each person's style is different. How they want to approach decisions is impacted by their cultural background and their previous work environments. If they have a consensual history, they want to have more consensus than authority. If they have a top-down background, they want to use the power in many decisions. Multicultural teams need to focus on these fundamental differences.
 
-When the team uses a decision style that a person is not accustomed to, the individual feels uncomfortable and usually gets annoyed by how the group approaches the work. If we ask why they respond that way, the answer probably will be, "We're going too fast." The response might be valid and indicate a correct observation. However, it's not them who cannot understand the approach. _It's the leader_ who makes a mistake. It's _the leader_ who fails in communication. It's _the leader_ who mixes up speed and correct action.
+When the team uses a decision style that a person is not accustomed to, the individual feels uncomfortable and usually gets annoyed by how the group approaches the work. If we ask why they respond that way, the answer probably will be, "We're going too fast." The response might be valid and indicate a correct observation. However, it's not them who cannot understand the approach. *It's the leader* who makes a mistake. It's *the leader* who fails in communication. It's *the leader* who mixes up speed and correct action.
 
 ## Speed vs. Action
 
@@ -39,7 +38,7 @@ The balance comes from choosing the right decision-making style in the correct p
 
 The key is identifying when to use which and communicating upfront. Using authority and giving commands won't be sustainable when people expect to make a decision together. Using consensus will make everything slower when people want to stop discussing and move to action.
 
-Choosing the most suitable method comes with _experience, empathy, reading the air,_ and _understanding the circumstances_. Once the leader identifies the style for that situation, the next step is having clarity.
+Choosing the most suitable method comes with *experience, empathy, reading the air,* and *understanding the circumstances*. Once the leader identifies the style for that situation, the next step is having clarity.
 
 ## The Clarity for The Win
 

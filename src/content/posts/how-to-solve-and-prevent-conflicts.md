@@ -6,7 +6,7 @@ updateDate: 2021-04-20
 external: false
 ---
 
-Often, there are situations where one of the engineers wants to develop a feature in a certain way, and another engineer finds the solution stupid. The engineer may _insist_ on the solution they suggested or push a significant change in the codebase. When other developer stands in their way, these kinds of situations result in resentment and conflict. Luckily, there are strategies to solve these conflicts.
+Often, there are situations where one of the engineers wants to develop a feature in a certain way, and another engineer finds the solution stupid. The engineer may *insist* on the solution they suggested or push a significant change in the codebase. When other developer stands in their way, these kinds of situations result in resentment and conflict. Luckily, there are strategies to solve these conflicts.
 
 When you have a problem with someone, the situation puts you under such stress that you spend sleepless nights. After you have a massive load of work, along with a conflict in the team, you might feel incompetent. You can avoid annoying people to solve the conflict, but it's not that possible at work.
 
@@ -14,7 +14,7 @@ When you have a problem with someone, the situation puts you under such stress t
 
 Finding a solution requires immense preparation. Both sides in the conflict should prepare a plan with all the possible solutions, **including the ones where they are entirely defeated**. Both sides should think through mainly two things: what they truly need and what the other side needs. They can't do this alone. Managers play a significant role here. People not only neglect to ask about what the other side needs but also don't answer the question themselves. With the help of a good manager, people can figure out the demands and wishes of both sides.
 
-Instead of [getting stuck in meaningless and bitter discussions](/how-to-stop-endless-discussions/), you need to work towards a complete plan. Creating a strategy for every possible situation sounds difficult at the beginning. However, this approach also forces you to **have a tangible goal and not begin the discussion without it**. The whole journey of finding out _the goal_ and _the needs_ requires self-awareness and self-analysis.
+Instead of [getting stuck in meaningless and bitter discussions](/how-to-stop-endless-discussions/), you need to work towards a complete plan. Creating a strategy for every possible situation sounds difficult at the beginning. However, this approach also forces you to **have a tangible goal and not begin the discussion without it**. The whole journey of finding out *the goal* and *the needs* requires self-awareness and self-analysis.
 
 Analyzing yourself involves a lot of effort and time, which might be why you avoid it in the first place. The analysis may (and most probably will) unveils different inner conflicts. Since [writing forms thoughts](/why-is-writing-important/), the plan helps a lot to detach these internal conflicts and surface them. **When your internal feelings see the light, you recognize what you need in the end.** Yet, you still have no idea about what other person needs.
 

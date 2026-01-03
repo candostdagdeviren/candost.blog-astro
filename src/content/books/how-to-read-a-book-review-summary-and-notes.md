@@ -8,7 +8,6 @@ updateDate: 2024-10-13
 external: false
 ---
 
-
 > **How Strongly I Recommend It:** 10/10
 >
 > **How Likely I Will Gift It:** 5/10
@@ -35,11 +34,11 @@ The book is more about getting the most out of any book in the shortest amount o
 
 Reading is rarely reading word by word, unlike what’s been taught at school. It’s a dynamic activity in which you have to change your reading style, speed, and mindset depending on the book and your knowledge about the topic. If you don’t know how to do these, you should read this book.
 
-----
+---
 
 ## The Activity and Art of Reading
 
-> *"...knowledge is not much a prerequisite to understanding as is commonly supposed. We do not have to know everything about something in order to understand it; too many facts are often as much of an obstacle to understanding as too few. There is a sense in which we moderns are inundated with facts to the detriment of understanding."*
+> _"...knowledge is not much a prerequisite to understanding as is commonly supposed. We do not have to know everything about something in order to understand it; too many facts are often as much of an obstacle to understanding as too few. There is a sense in which we moderns are inundated with facts to the detriment of understanding."_
 
 ### Reading for information vs. reading for understanding
 
@@ -217,16 +216,16 @@ The last "don't" is don't criticize the book for its truthiness, correctness, or
 
 General rules for reading imaginative literature:
 
-1) Structural (understand the structure)
-    1) classify the book in its category
-    2) Grasp the unity of the whole book. You should be able to explain the book's plot (even for poems) in one or two sentences.
-    3) Discover how the whole is constructed by parts. Find the individuals, characterization, incident, etc.
-2) Interpret the book
-    1) Know characters, live through the events, and understand their episodes, incidents, thoughts, and speeches.
-    2) Be part of the story, put yourself in, and understand how the background is connected to the story. Live in it, befriend characters, and understand the connections between characters, events, and the background they stay.
-    3) Follow characters through their story and adventure.
-    These rules help you understand the writer but don't press too hard. Experience and enjoy the story. These rules help you figure out what you like in a story and why you like it.
-3) Don't criticize the book until you fully appreciate what the author has tried to make you experience. Don't criticize the world the author created. Criticize what the author made with that world, what they make of it. We cannot agree or disagree with an imaginative author; we can only like it or not.
+1. Structural (understand the structure)
+   1. classify the book in its category
+   2. Grasp the unity of the whole book. You should be able to explain the book's plot (even for poems) in one or two sentences.
+   3. Discover how the whole is constructed by parts. Find the individuals, characterization, incident, etc.
+2. Interpret the book
+   1. Know characters, live through the events, and understand their episodes, incidents, thoughts, and speeches.
+   2. Be part of the story, put yourself in, and understand how the background is connected to the story. Live in it, befriend characters, and understand the connections between characters, events, and the background they stay.
+   3. Follow characters through their story and adventure.
+      These rules help you understand the writer but don't press too hard. Experience and enjoy the story. These rules help you figure out what you like in a story and why you like it.
+3. Don't criticize the book until you fully appreciate what the author has tried to make you experience. Don't criticize the world the author created. Criticize what the author made with that world, what they make of it. We cannot agree or disagree with an imaginative author; we can only like it or not.
 
 In summary, you make an honest appreciation of the book (live through the experience the author created), then you're competent to judge (explain what you like/dislike and why).
 
@@ -234,21 +233,21 @@ In summary, you make an honest appreciation of the book (live through the experi
 
 Reading imaginative literature has its own rules, and here, the four questions also apply to stories, poems, epics, and plays that we must answer, albeit a bit differently.
 
-1) What is the book about, as a whole?
-2) What's been said in detail, and how?
-3) Is it true or false, in whole or part?
+1. What is the book about, as a whole?
+2. What's been said in detail, and how?
+3. Is it true or false, in whole or part?
 
 These three questions are straightforward to answer, or at least similar to other literature we talked about before. The 4th is "What of it?" is trickier and often doesn't apply to poems and stories. There is no action to take (most of the time) after reading it. If any imaginative literature piece urges us or makes us react to a thing, we should do it with caution.
 
-*How to read stories:* Read quickly with total immersion. Let the characters get into your mind and heart. Live with them, be part of their lives to understand them. Don't judge them by their decisions until you're sure that you lived with them. Don't criticize a character until you're sure why that character does a certain thing, and if then, stay unjudged as long as possible. Sometimes, you won't get to know every character in a long novel, but it's okay. Imagine you moved to a new town, and you're learning things and the people around you. It's the same. And if a book says something to your heart and you can't put a name to why you liked the story, look for your deep feelings, like what satisfied you? Justice? Love? Sadism? Masochism?
+_How to read stories:_ Read quickly with total immersion. Let the characters get into your mind and heart. Live with them, be part of their lives to understand them. Don't judge them by their decisions until you're sure that you lived with them. Don't criticize a character until you're sure why that character does a certain thing, and if then, stay unjudged as long as possible. Sometimes, you won't get to know every character in a long novel, but it's okay. Imagine you moved to a new town, and you're learning things and the people around you. It's the same. And if a book says something to your heart and you can't put a name to why you liked the story, look for your deep feelings, like what satisfied you? Justice? Love? Sadism? Masochism?
 
 Epics are the most honored but least-read literature because it's very difficult for authors to end the story. Hence, it's challenging for readers to read as well. However, they are as great as other fiction pieces and need to be read as the same, and gains will be much better, if not amazing.
 
-*Reading plays:* Plays are a special kind. As most of the time, they don't include how to direct it (lift it to the director). It's up to the reader to direct the play. And have to. While reading, imagine you have a bunch of actors waiting for you, and you give them directions on how they should play. When possible, read out loud if the play is old (e.g., Shakespeare's) so you understand better, even if the words are old.
+_Reading plays:_ Plays are a special kind. As most of the time, they don't include how to direct it (lift it to the director). It's up to the reader to direct the play. And have to. While reading, imagine you have a bunch of actors waiting for you, and you give them directions on how they should play. When possible, read out loud if the play is old (e.g., Shakespeare's) so you understand better, even if the words are old.
 
 Most plays are not worth reading. They are written for acting and should be acted. Especially tragedies (Greek tragedies) play a special role. As we know almost nothing about how Greeks directed the plays, we cannot fully judge. However, there are two things to keep in mind. 1) The time is limited in these tragedies, and it's reflected in the characters' decisions and how they approach the situations. If they had enough time, they could have decided better, etc. 2) Greek tragedy actors wore buskins and masks, while the chorus didn't. Buskins elevated them and made them look like giants (elevating tragedy).
 
-When *reading poems*, we think that we won't understand them and that it's difficult to understand. Therefore, we often don't put effort into even finishing it. Most poetry doesn't demand that much.
+When _reading poems_, we think that we won't understand them and that it's difficult to understand. Therefore, we often don't put effort into even finishing it. Most poetry doesn't demand that much.
 
 The first rule is, like in other fiction, to read it through without stopping, even if you don't understand at all. Without seeing the whole, you cannot understand anything because a lyric poem is a whole, and parts alone don't give the picture, although they help build the message.
 
@@ -270,7 +269,7 @@ The questions we ask in history books are the same as in any expository work. Ye
 
 Biographies are stories of real persons. The definitive biography is a scholarly work about someone important. They can't be about living people. Definitive biographies are not easy readings. There is also authorized biography. But it's not unbiased; they are often commissioned by family and friends to show someone's life. As it has this characteristic, we have to be careful when reading. They are usually biased. The last group is ordinary biographies; we expect the person to know their work and responsibilities to tell the facts and do their research like other historical books.
 
-*How to read an autobiography:* Take autobiographies with a grain of salt. A person cannot write fully about themselves because they probably don't fully know themselves. We might still learn about the person from their book and, how they wrote the book, how they approached writing events that happened in their lives.
+_How to read an autobiography:_ Take autobiographies with a grain of salt. A person cannot write fully about themselves because they probably don't fully know themselves. We might still learn about the person from their book and, how they wrote the book, how they approached writing events that happened in their lives.
 
 If we want to learn about a person's life, we should read as many biographies as possible, including an autobiography (if there is one).
 
@@ -280,10 +279,10 @@ We should still ask the questions we ask in any book and don't criticize until w
 
 We still need to ask the first four questions about the events we read. In addition, we need to know the author when reading about current events. We need to ask a series of questions to understand any author writing about current events:
 
-1) What does the author want to prove?
-2) Whom do they want to convince?
-3) What special knowledge do they assume?
-4) Do they really know what they are talking about?
+1. What does the author want to prove?
+2. Whom do they want to convince?
+3. What special knowledge do they assume?
+4. Do they really know what they are talking about?
 
 The most important thing is: "Let the reader beware." The author can have an interest in you understanding things in a certain way. Be aware of it.
 
@@ -303,8 +302,8 @@ Philosophers ask about being and existence, change or becoming (why things chang
 
 We can group these into two:
 
-1) Questions about what *is* or *happens* in the world fall into theoretical philosophy.
-2) Questions about good and evil, right and wrong, and what ought to be done or sought fall into practical or normative philosophy.
+1. Questions about what _is_ or _happens_ in the world fall into theoretical philosophy.
+2. Questions about good and evil, right and wrong, and what ought to be done or sought fall into practical or normative philosophy.
 
 Of course, there are many sub-branches in these two divisions. What is right/wrong, good and evil, in the individual belongs to ethics. The same but for society and its relation to the individual belongs to politics or political philosophy. The knowledge questions (what's involved in our knowing anything, limits of knowledge, etc.) fall into epistemology. There are many more subbranches, but we have no space to explore all of them here.
 
@@ -312,11 +311,11 @@ Philosophy (up to 1930) was initially interested in first-order questions. These
 
 There are five philosophical styles a reader of philosophy should be aware of:
 
-1) **The Philosophical Dialogue:** The style Plato started, and probably there is no other greater than Plato. The work is read with a narrative and drama. Plato, or Socrates actually, discusses a matter with a group of people, and Socrates embarks on a series of questions—the fundamental ones—and tries to answer them and discover. Moreover, he tries to let readers discover themselves with narrative.
-2) **The Philosophical Treatise or Essay:** This style has similarities with dialogue but missing the drama. It has a philosophical beginning, middle, and end. They state the problem first, go through the subject matter thoroughly and treat special problems along the way or last.
-3) **The Meeting of Objections:** In this style, a question is asked first. Then the work goes over wrong answers one by one, and, at last, the philosopher gives their own answer. The objections are found to lead to truth. Or at least, that's the thought in this style. This style hasn't been used much.
-4) **The Systemization Of Philosophy:** Spinoza and Descartes tried to systemize philosophy using mathematical techniques but failed so. These works are very difficult to write and to read. Also, this style is questionable: is it possible to write philosophical work with math?
-5) **The Aphoristic Style:** This style leaves the impression on the reader that more is said than what is actually said; the reader does much of the thinking (e.g., Nietzsche, Thus Spoke Zarathustra). The author often touches on a subject, suggests a truth or insight, and jumps to another.
+1. **The Philosophical Dialogue:** The style Plato started, and probably there is no other greater than Plato. The work is read with a narrative and drama. Plato, or Socrates actually, discusses a matter with a group of people, and Socrates embarks on a series of questions—the fundamental ones—and tries to answer them and discover. Moreover, he tries to let readers discover themselves with narrative.
+2. **The Philosophical Treatise or Essay:** This style has similarities with dialogue but missing the drama. It has a philosophical beginning, middle, and end. They state the problem first, go through the subject matter thoroughly and treat special problems along the way or last.
+3. **The Meeting of Objections:** In this style, a question is asked first. Then the work goes over wrong answers one by one, and, at last, the philosopher gives their own answer. The objections are found to lead to truth. Or at least, that's the thought in this style. This style hasn't been used much.
+4. **The Systemization Of Philosophy:** Spinoza and Descartes tried to systemize philosophy using mathematical techniques but failed so. These works are very difficult to write and to read. Also, this style is questionable: is it possible to write philosophical work with math?
+5. **The Aphoristic Style:** This style leaves the impression on the reader that more is said than what is actually said; the reader does much of the thinking (e.g., Nietzsche, Thus Spoke Zarathustra). The author often touches on a subject, suggests a truth or insight, and jumps to another.
 
 **What should a reader do?**
 
@@ -346,16 +345,16 @@ When we gather the books we want to read on a topic, how are we going to approac
 
 **Five Steps in Syntopical Reading:**
 
-1) ***Find the Relevant Passages:*** In syntopical reading, your concerns come first. You are not reading the book to understand and learn the author's concerns and what they say; you are reading because you are trying to solve **your** problem. Therefore, after you identified the books, take another inspection and find relevant passages that fulfill your needs. Don't do this step together with identifying the books because your understanding of the problem is often quite vague while identifying the books. Furthermore, the passages you find can be totally unrelated to what the author wrote that passage for. The author's intentions can be different, but they are not the people in front here; you are the master of the topic, and you make the call. It's about how you understand and interpret.
-2) ***Bring the authors to terms:*** While reading syntopically and facing various authors, we see that each uses different terminology. They may use different words for the same thing or the same words for different things. That's why we must force authors to use our language instead of using their language. This is very challenging as, so far, we have always tried to understand the author and put our thoughts and prejudices, and words aside. But we have to refuse to pick any author's terminology and take even one more step and also refuse that no terminology will be useful for us (author's terminology). That's why we must translate authors' language to our language and bring every author into our terms.
-3) ***Getting the Questions Clear:*** After we face the challenge of getting authors to use the same terms and propositions, we still have a difficult job. The best way to ask them questions is to ask them in order. The questions must be framed in a way that helps us solve our problems, and simultaneously, all authors should be able to (imaginably) answer them. Most probably, authors have no answers in their books, but we have to think and assume as if they answer the questions, how would it be? What would they say?
+1. **_Find the Relevant Passages:_** In syntopical reading, your concerns come first. You are not reading the book to understand and learn the author's concerns and what they say; you are reading because you are trying to solve **your** problem. Therefore, after you identified the books, take another inspection and find relevant passages that fulfill your needs. Don't do this step together with identifying the books because your understanding of the problem is often quite vague while identifying the books. Furthermore, the passages you find can be totally unrelated to what the author wrote that passage for. The author's intentions can be different, but they are not the people in front here; you are the master of the topic, and you make the call. It's about how you understand and interpret.
+2. **_Bring the authors to terms:_** While reading syntopically and facing various authors, we see that each uses different terminology. They may use different words for the same thing or the same words for different things. That's why we must force authors to use our language instead of using their language. This is very challenging as, so far, we have always tried to understand the author and put our thoughts and prejudices, and words aside. But we have to refuse to pick any author's terminology and take even one more step and also refuse that no terminology will be useful for us (author's terminology). That's why we must translate authors' language to our language and bring every author into our terms.
+3. **_Getting the Questions Clear:_** After we face the challenge of getting authors to use the same terms and propositions, we still have a difficult job. The best way to ask them questions is to ask them in order. The questions must be framed in a way that helps us solve our problems, and simultaneously, all authors should be able to (imaginably) answer them. Most probably, authors have no answers in their books, but we have to think and assume as if they answer the questions, how would it be? What would they say?
    Moreover, the order of questions is important. While ordering questions, there are main categories in this order:
-   1) existence of the phenomenon or idea we're investigating.
-   2) how the phenomenon is known
-   3) the consequences of the answers we ask above.
-   The order can differ from subject to subject; it is the general guideline.
-4) ***Defining the Issues:*** If the questions are clear and we know that authors can answer in a way, then the issue is clear. However, we rarely see some problems: authors understand the question in the same way but answer in opposing ways. It's up to the reader to sort out these answers and group them. It's on the reader to relate these answers and join them as much as possible.
-5) ***Analyzing the discussion:*** Our job as a syntopical reader is not merely to answer questions we prepared thoroughly. we have to accept that the truth can be found in opposing and conflicting answers, if it can be found at all. The truth can be found in the ordered discussion itself. To present this to our minds, we must ask questions in order, and we must be able to defend that order; we must show how the questions were answered differently and why. We must point to the feedback we examined to support our classification of answers. Only then can we claim that we analyzed the discussion and understood it.
+   1. existence of the phenomenon or idea we're investigating.
+   2. how the phenomenon is known
+   3. the consequences of the answers we ask above.
+      The order can differ from subject to subject; it is the general guideline.
+4. **_Defining the Issues:_** If the questions are clear and we know that authors can answer in a way, then the issue is clear. However, we rarely see some problems: authors understand the question in the same way but answer in opposing ways. It's up to the reader to sort out these answers and group them. It's on the reader to relate these answers and join them as much as possible.
+5. **_Analyzing the discussion:_** Our job as a syntopical reader is not merely to answer questions we prepared thoroughly. we have to accept that the truth can be found in opposing and conflicting answers, if it can be found at all. The truth can be found in the ordered discussion itself. To present this to our minds, we must ask questions in order, and we must be able to defend that order; we must show how the questions were answered differently and why. We must point to the feedback we examined to support our classification of answers. Only then can we claim that we analyzed the discussion and understood it.
 
 The opinions in the discussion can all be wrong; none of them can be true, or each opinion can be part of the whole truth. It's possible that all conflicting opinions are also false.
 

@@ -1,14 +1,13 @@
 ---
 title: "Mektup #14: How often do you go out of your comfort zone?"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "14"
 date: 2021-09-21
 updateDate: 2021-09-21
 external: false
 ---
-
 
 Hey friend,
 
@@ -34,7 +33,7 @@ Many people get afraid when they are out of their comfort zone, which is fair. T
 
 It might not be the perfect time for you. However, **even if you are moving towards expertise, I recommend having some experience in another area**. If you don't know which field to explore, take a look around you. Who are you working closely with? Is it a backend engineer, an iOS engineer, a designer, or maybe a product manager? Talk with your manager and ask for recommendations.
 
-**Determine which role has a less steep learning curve** and _has a person who can be and willing to help you_. Invite them for an informal coffee session and discuss your intention: exploring another discipline.
+**Determine which role has a less steep learning curve** and *has a person who can be and willing to help you*. Invite them for an informal coffee session and discuss your intention: exploring another discipline.
 
 **Plan a pairing session and let them explain the basics and show you how they work every day and where to start.** Watch them during the day and follow how they work and what they talk about in meetings. You don't have to become an expert in a new field, but grasping their perspective improves empathy and enables stronger collaborations with better communication.
 

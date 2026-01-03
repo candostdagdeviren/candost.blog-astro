@@ -8,7 +8,6 @@ date: 2025-05-05T06:05:00.000Z
 updateDate: 2025-05-05T06:05:00.000Z
 ---
 
-
 Something is different about owning a website—a palace on the web. Unlike a car or a house, unlike other hobbies, a website exists in a subtle space between the private and public spheres. Though you create it, nurture it, and spend countless hours making it beautiful and functional, it lives out there on its own. The magical part is that strangers across the globe (many people you will never see in your life) can leave their thoughts on the pages, creating connections impossible in other creative hobbies.
 
 ## The Freedom of Creation
@@ -35,7 +34,7 @@ These connections have a different quality than those formed on social media. Th
 
 A personal website gives an opportunity for survival. Unlike physical artifacts that decay or require careful preservation, digital thoughts can be perfectly replicated, backed up, preserved, and even later improved.
 
- I built my own website first using Jekyll. I didn’t like the design that much and moved to Hugo, then to Ghost and later Astro, each time with a different design while preserving the pieces I’ve written.
+I built my own website first using Jekyll. I didn’t like the design that much and moved to Hugo, then to Ghost and later Astro, each time with a different design while preserving the pieces I’ve written.
 
 The only thing that has a chance to survive is your ideas that fill the website. Although you must update your website’s infrastructure due to ever-changing technology, your ideas, thoughts, memories stay the same. A website provides intellectual immortality.
 

@@ -9,6 +9,7 @@ external: false
 ---
 
 Jiddu Krishnamurti, [whom I admire for his ideas](/goals-and-existence/), talks about what binds a person.
+
 > “Cultures create religions but not the religious man. The religious man comes into being only when the mind rejects culture, which is the background, and is, therefore, free to find out what is true. […] Such a person is not an American, an Englishman, or a Hindu but a human being; he does not belong to any particular group, race, or culture and is therefore free to find out what is true, what is God. No culture helps man to find out what is true. Cultures only create organizations which bind man.”
 > —Jiddu Krishnamurti
 

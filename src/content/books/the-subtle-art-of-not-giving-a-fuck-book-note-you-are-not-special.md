@@ -4,7 +4,6 @@ description: "Most things in life are either average or suck. The media blurs th
 date: 2021-07-23
 updateDate: 2021-07-23
 external: false
-
 ---
 
 The media likes to show extraordinary people who achieved great things. Because these people create attention. Humans are interested in different things than themselves, and the press uses exceptional people to keep the interest high.

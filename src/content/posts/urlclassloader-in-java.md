@@ -29,7 +29,8 @@ public class Main {
 }
 ```
 
-----
+---
+
 Print classpath
 
 ```java

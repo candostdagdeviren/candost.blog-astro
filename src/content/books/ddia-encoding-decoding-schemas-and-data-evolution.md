@@ -40,7 +40,7 @@ Some applications might need to support both at any time because they might use 
 There are at least two data representations:
 
 1. In memory data: Objects, structs, arrays, lists, etc. Optimized for efficient access and manipulation by CPU.
-2. Self-contained bytes to transfer in-memory data to a file or over a network. As in-memory data uses pointers and they are useless while saving or sending data, we use encoding to convert data to bytes. Translation from in-memory to a byte sequence is called _encoding_ (serialization), and the other way around is called _decoding_ (deserialization).
+2. Self-contained bytes to transfer in-memory data to a file or over a network. As in-memory data uses pointers and they are useless while saving or sending data, we use encoding to convert data to bytes. Translation from in-memory to a byte sequence is called *encoding* (serialization), and the other way around is called *decoding* (deserialization).
 
 Do not use language-specific (e.g., `java.io.Serializable`) formats to encode the data because they are inefficient, bad with versioning, tie you into a particular language, and create security problems like remote arbitrary code execution.
 
@@ -99,7 +99,7 @@ Both have code-generation tools that generate classes for many programming langu
 
 #### Schema Evolution and Field Tags
 
-Schemas eventually change. Using field tags correctly enables us to support forward and backward compatibility. For example, when removing a field, we cannot use the same field tag again to support forward compatibility. The same way goes for `required` fields. All new fields that come _after the initial deployment_ must support backward compatibility. When we set ourselves some ground rules, we can easily support compatibility in both directions.
+Schemas eventually change. Using field tags correctly enables us to support forward and backward compatibility. For example, when removing a field, we cannot use the same field tag again to support forward compatibility. The same way goes for `required` fields. All new fields that come *after the initial deployment* must support backward compatibility. When we set ourselves some ground rules, we can easily support compatibility in both directions.
 
 Thrift with introducing and removing new fields (same example):
 
@@ -119,7 +119,7 @@ Avro separates writer's and reader's schemas to offer flexibility, forward and b
 
 In the encoded data, Avro doesn't keep any field tags or names; thus, it reduces the size of the message. Avro uses the order of the data to match encoded data to decode schema (reader's schema).
 
-While decoding, if the schemas are different, it compares the reader's and writer's schemas to match fields by looking at field names and types. When it cannot match, it uses default values. Reader's and writer's schemas don't have to match exactly; they have to be _compatible_.
+While decoding, if the schemas are different, it compares the reader's and writer's schemas to match fields by looking at field names and types. When it cannot match, it uses default values. Reader's and writer's schemas don't have to match exactly; they have to be *compatible*.
 
 After the data is decoded, the reader has access—and uses—the writer's schema. There are various ways we can provide the writer's schema to the reader. We can
 
@@ -134,7 +134,7 @@ The schema-based encoding made the adaption of Thrift, ProtoBuf, and Avro faster
 
 Binary encoding-based schemas are more compact than JSON and XML.
 
-Overall, schemas provide up-to-date documentation. They allow us to check backward and forward compatibility _before_ deploying any change and to generate client codes to type check in compile time.
+Overall, schemas provide up-to-date documentation. They allow us to check backward and forward compatibility *before* deploying any change and to generate client codes to type check in compile time.
 
 ## Modes Of Dataflow
 
@@ -152,7 +152,7 @@ Using HTTP as an underlying protocol makes a service web service—even though i
 
 **REST (Representational State Transfer):** It's **not** a protocol but a design philosophy. REST uses HTTP features, URLs, and simple data formats. There is no consensus on API versioning in RESTful APIs.
 
-**SOAP (Simple Object Access Protocol):** XML-based protocol for making network API requests. It aims to be independent of HTTP. A SOAP web service uses _Web Services Description Language (WSDL)_ to define the API. WDSL enables code generation.
+**SOAP (Simple Object Access Protocol):** XML-based protocol for making network API requests. It aims to be independent of HTTP. A SOAP web service uses *Web Services Description Language (WSDL)* to define the API. WDSL enables code generation.
 
 SOAP users heavily rely on tooling, code generation, and IDEs, as the WDSL is not human-readable.
 

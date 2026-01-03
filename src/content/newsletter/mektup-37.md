@@ -1,7 +1,7 @@
 ---
 title: "Mektup #37: Mentoring vs. Coaching vs. Teaching"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "37"
 date: 2022-08-09

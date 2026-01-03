@@ -33,11 +33,11 @@ As organizations extract efficiency with AI, the engineers who thrive will be th
 
 ## Good to Great
 
-***Good***: [Beliefs of Lee Robinson](https://leerob.com/beliefs). Although I believe one or two things differently, it’s a good list.
+**_Good_**: [Beliefs of Lee Robinson](https://leerob.com/beliefs). Although I believe one or two things differently, it’s a good list.
 
-***Better***: [Thank you for being annoying](https://www.experimental-history.com/p/thank-you-for-being-annoying) (also inspired one of my entries below).
+**_Better_**: [Thank you for being annoying](https://www.experimental-history.com/p/thank-you-for-being-annoying) (also inspired one of my entries below).
 
-***Great***: Nothing great I found this week.
+**_Great_**: Nothing great I found this week.
 
 ## I wrote about
 
@@ -47,4 +47,4 @@ As organizations extract efficiency with AI, the engineers who thrive will be th
 
 - I added 10 new notes to [my Zettelkasten](/notes/).
 
-*P.S. The Mexico F1 GP was one of the best of this season. It was super fun!*
+_P.S. The Mexico F1 GP was one of the best of this season. It was super fun!_

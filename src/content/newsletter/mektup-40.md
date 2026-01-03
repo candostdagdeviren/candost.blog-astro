@@ -1,7 +1,7 @@
 ---
 title: "Mektup #40: Pros and Cons of Changing Tech Stacks"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "40"
 date: 2022-09-21
@@ -9,18 +9,17 @@ updateDate: 2022-09-21
 external: false
 ---
 
-
 Lately, I had a conversation with an iOS developer who wants to change to the gaming industry and asked me how I switched my tech stack from iOS to the backend and my experience. Today, I will talk about the tech stack change, its effects on your career, advantages, and disad­vantages you will get.
 
 In short,
 
-| Advantages | Disadvantages |
-| ---- | ---- |
-| Gaining technical breadth | Losing technical depth |
-| New and transferred skills | Low-skill evaluation |
+| Advantages                       | Disadvantages                    |
+| -------------------------------- | -------------------------------- |
+| Gaining technical breadth        | Losing technical depth           |
+| New and transferred skills       | Low-skill evaluation             |
 | Higher compensation in long-term | Lower compensation in short-term |
-| Fresh perspective | Short-term stress |
-| Always having a backdoor | |
+| Fresh perspective                | Short-term stress                |
+| Always having a backdoor         |                                  |
 
 On top of these, there is a key difference between switching and sticking to a tech stack that is neither an advantage nor a disadvantage:
 
@@ -50,7 +49,7 @@ When we think about managerial roles, it's up to the company's expectations. The
 
 Let's address the elephant in the room—money. The company in which you're changing the stack will play a critical role here. If you're joining a big company like Amazon, your leveling will be lower than your expertise if you're changing tech stack by joining Amazon. I had a friend who got lower level because they joined a team that was not working in their expertise area.
 
-On the other hand, if you're staying in the same company, you _may_ negotiate. I had a friend who did the change and did not have an impact on the compensation. The possible scenario is you won't get any raise for another year, and if you're up for promotion, changing the tech stack will probably delay it.
+On the other hand, if you're staying in the same company, you *may* negotiate. I had a friend who did the change and did not have an impact on the compensation. The possible scenario is you won't get any raise for another year, and if you're up for promotion, changing the tech stack will probably delay it.
 
 ### Long- vs. Short-term Impact
 
@@ -60,7 +59,7 @@ When switching tech stack, you're making a move for your long-term career. It gi
 
 In my first attempt to switch to a new tech stack, I worked on the backend after working on iOS. Six months later, I returned to iOS by changing companies. Although I didn't enjoy my initial backend experience, it gave me a new perspective and made me a better developer. I improved not only my technical skills but also my communication and empathy skills toward backend engineers. Working with backend folks became much easier, and everyone was happier.
 
-So, returning is the option you will _always_ have, and people will perceive you as a better engineer when you return. In case you have a chance to work on a different tech stack, I highly recommend giving it a try.
+So, returning is the option you will *always* have, and people will perceive you as a better engineer when you return. In case you have a chance to work on a different tech stack, I highly recommend giving it a try.
 
 We had a live stream about generalist engineering where we talked about switching tech stacks often in detail. You can [watch the recording here](https://superpeer.com/candost/event/12-the-life-of-a-generalist-engineer?ref=candost.blog) or [listen to it in any podcast app here](https://candost.substack.com/p/12-the-life-of-a-generalist-software-engineer).
 

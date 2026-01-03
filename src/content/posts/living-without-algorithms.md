@@ -7,7 +7,6 @@ tags:
 date: 2025-04-28T05:00:00.000Z
 updateDate: 2025-04-28T05:00:00.000Z
 external: false
-
 ---
 
 What started with an experiment of [living without looking at social media](/my-experience-living-without-social-media/) turned into quitting it completely, [changing my reading habits](/how-to-get-to-the-end-of-a-pile-of-unread-books/), and [stopping consuming news daily](/no-more-debate-with-latest-or-daily-news/).
@@ -20,7 +19,7 @@ My goal is to stop relying on algorithmic feeds to fill my time. Many people fin
 
 Not only do I waste a lot of time, but I am also not even aware of wasting it. Companies using algorithmic feeds aim to obtain my time to the fullest **without me noticing it.** They create a frictionless user experience, which in turn allows them to serve better targeted ads (or sell more subscriptions). This doesn’t make any of these companies evil; it’s how business works.
 
-My goals and these companies’ goals conflict. What matters to them does not matter to me. Although most products use algorithms (and prediction models) to engage me with what I *may* like, it almost always feels like a toxic relationship. Sex is good, but life would be much better without all the manipulation.
+My goals and these companies’ goals conflict. What matters to them does not matter to me. Although most products use algorithms (and prediction models) to engage me with what I _may_ like, it almost always feels like a toxic relationship. Sex is good, but life would be much better without all the manipulation.
 
 I wanted to get rid of manipulation and keep the good parts.
 
@@ -36,7 +35,7 @@ I tried and used various other apps to manage all these lists. [Oku](https://oku
 
 Having a plain list in a file (or even on paper) has certain advantages. **The friction of manual writing is itself a selection process.** While adding an item, you have to write the full name and any details you need. You have no autocomplete, no suggestions. Before writing these, I consider whether I really want to write them down. Despite a bit of friction, it’s still easy; once you write the name in the inventory, it’s done. Choosing something from the inventory, on the other hand, is where I replace algorithms.
 
-Compared to any of the products (like Amazon or YouTube), the information in the list is minimal. Look at your shopping list on Amazon; you have price, reviews, shipping information, and more. When you keep your own list, you have as much as your own entry. **The trick is using the list as an initial decision point.** When I want to watch *something*, I don’t go to Netflix or Apple TV directly; I open my list first, choose one, and search for it specifically. This approach breaks the association of “being bored” with any digital service. I intend to do a specific thing and avoid filling a gap with algorithmic recommendations in my life whenever I get bored.
+Compared to any of the products (like Amazon or YouTube), the information in the list is minimal. Look at your shopping list on Amazon; you have price, reviews, shipping information, and more. When you keep your own list, you have as much as your own entry. **The trick is using the list as an initial decision point.** When I want to watch _something_, I don’t go to Netflix or Apple TV directly; I open my list first, choose one, and search for it specifically. This approach breaks the association of “being bored” with any digital service. I intend to do a specific thing and avoid filling a gap with algorithmic recommendations in my life whenever I get bored.
 
 > “People are drawn to the easy and to the easiest side of the easy, but it is clear that we must hold ourselves to the difficult.” — Rainer Maria Rilke
 
@@ -109,7 +108,7 @@ I constantly look for new topics and say no to many. Any algorithmic feed is whe
 
 ## Last Thoughts
 
-People underestimate real-life media. Before social media was defined with Facebook and Twitter, word of mouth was how society operated, and *it still does today*. **People are under the illusion that popularity on platforms is everything.** However, we still talk about what we are interested in and what’s popular in real life. The only difference is that you *have to listen to people* instead of seeing what they say from a screen.
+People underestimate real-life media. Before social media was defined with Facebook and Twitter, word of mouth was how society operated, and _it still does today_. **People are under the illusion that popularity on platforms is everything.** However, we still talk about what we are interested in and what’s popular in real life. The only difference is that you _have to listen to people_ instead of seeing what they say from a screen.
 
 Additionally, things-everyone-who-uses-social-media-knows are overrated. When you don’t have any algorithms that feed you with these popular topics like funny videos, you can send to your friend via Instagram DM (and receive a ❤️ emoji reaction), you do it in real life! All my friends talk about what they enjoyed or liked or found funny and show them to me. **[Real-life socialization is not extinct](/newsletter/mediations-3/) yet.** It’s the actual way of being social (both for extroverts and introverts).
 

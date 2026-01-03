@@ -1,14 +1,13 @@
 ---
 title: "Mektup #22: What should you expect from your manager?"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "22"
 date: 2022-01-11
 updateDate: 2022-01-11
 external: false
 ---
-
 
 Hey friend,
 
@@ -32,7 +31,7 @@ If you don't know where you should improve, talk about it. Start the conversatio
 
 ## Sponsoring
 
-Last but definitely not least is sponsoring—one of the powers of being a manager. Managers often coach and mentor the engineers, but they rarely sponsor. Sponsoring is different than mentoring or coaching. In mentoring, your manager tells you, "Did you try doing X?" but in sponsoring, they tell you, "I recommended you for doing X. Can you do it?" They take the extra step and actively recommend you to others. Sponsoring makes you visible to others in the company. If your manager has never done something like this, send them [this article](https://larahogan.me/blog/what-sponsorship-looks-like/) and ask them what they think about sponsoring you for one significant thing in an area you want to grow. It's _literally_ your manager's job to sponsor you. But let's be clear; they might not quickly find the right opportunity that matches your skills, or they may think you are not ready yet. That's why you should also open your eyes around and look for projects that you want to contribute and bring the project to your one-on-ones and talk it over.
+Last but definitely not least is sponsoring—one of the powers of being a manager. Managers often coach and mentor the engineers, but they rarely sponsor. Sponsoring is different than mentoring or coaching. In mentoring, your manager tells you, "Did you try doing X?" but in sponsoring, they tell you, "I recommended you for doing X. Can you do it?" They take the extra step and actively recommend you to others. Sponsoring makes you visible to others in the company. If your manager has never done something like this, send them [this article](https://larahogan.me/blog/what-sponsorship-looks-like/) and ask them what they think about sponsoring you for one significant thing in an area you want to grow. It's *literally* your manager's job to sponsor you. But let's be clear; they might not quickly find the right opportunity that matches your skills, or they may think you are not ready yet. That's why you should also open your eyes around and look for projects that you want to contribute and bring the project to your one-on-ones and talk it over.
 
 These three expectations are the baseline. If you don't have one-on-ones or think you get less feedback, or don't have any sponsorship, it won't be easy to grow your career. Of course, you might have other expectations, such as better compensation, promotion, getting quick (and no-questions-asked) approval for your vacation request, and more. If you have the baseline set correctly and build your relationship with your manager, talking about other expectations will be way easier. Set the base correctly; the rest will follow smoothly.
 

@@ -155,7 +155,7 @@ Resilient organizations don't allow mistakes or errors. Even when the captain or
 
 #### Teams Need Emancipation, Not Empowerment
 
-Empowerment doesn't work without clarity and competence—it also results from the top-down structure. The leader _empowers_ the team. That's why you need emancipation instead of empowerment. An emancipated team doesn't need empowerment. Because they don't need the power from the leader, when they have emancipation, they can act freely. Since they are competent and have a clear goal, they have the power to make better decisions.
+Empowerment doesn't work without clarity and competence—it also results from the top-down structure. The leader *empowers* the team. That's why you need emancipation instead of empowerment. An emancipated team doesn't need empowerment. Because they don't need the power from the leader, when they have emancipation, they can act freely. Since they are competent and have a clear goal, they have the power to make better decisions.
 
 ---
 

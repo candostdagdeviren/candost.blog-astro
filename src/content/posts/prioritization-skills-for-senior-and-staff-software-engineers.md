@@ -8,7 +8,7 @@ external: false
 
 A new calendar invitation arrives. Ellen looks into the event's details, and she is not sure if she should accept it or not. It conflicts with her plans. She actually wanted to finish the task from two days ago. She goes to Slack and talks with her boss, who sent the invitation, and they reschedule it, but this time, it conflicts with another meeting. Sigh. Ellen gives up and says to her boss, "Let's do it the first time you asked for." Ellen looks into the calendar to find another time slot to finish the open task. It seems like it won't be possible before next week. While missing the simple old days before she became a staff engineer, she leaves the task open on the To-Do list, hoping that she will find time to finish it in between meetings.
 
-When you grow into more senior roles like Ellen, your responsibilities change. They grow, and dependencies increase over time, calendar overflows, and to-do lists become endless. One of the misconceptions of senior roles is thinking of this situation as _normal_. It's not. It can't be. These symptoms all show a lack of prioritization.
+When you grow into more senior roles like Ellen, your responsibilities change. They grow, and dependencies increase over time, calendar overflows, and to-do lists become endless. One of the misconceptions of senior roles is thinking of this situation as *normal*. It's not. It can't be. These symptoms all show a lack of prioritization.
 
 In this article, I will help you to identify what's changing when you grow and how you can make minor adjustments in your workflow to prioritize your work better.
 
@@ -20,7 +20,7 @@ With becoming a senior, you start working on stories and epics and, later on, pr
 
 ![Impact and Freedom Growth](/images/content/posts/prioritization-for-staff-plus/growing-software-engineers-impact-freedom.jpg)
 
-Until becoming staff or principal engineer, you worked _in_ your team. Now, you work _at the side_ _of_ your team. You will have [one-on-ones](/effective-1-1-meetings-one-on-one-meeting-template/) with engineers and negotiations with other engineering teams and [get their buy-ins](/how-to-stop-endless-discussions/) and [feedback](/importance-of-the-feedback/) on projects covering multiple teams, such as engineering initiatives, major refactorings, or implementing new tools in all departments. The impact of the engineer increases and spreads through the organization.
+Until becoming staff or principal engineer, you worked *in* your team. Now, you work *at the side* *of* your team. You will have [one-on-ones](/effective-1-1-meetings-one-on-one-meeting-template/) with engineers and negotiations with other engineering teams and [get their buy-ins](/how-to-stop-endless-discussions/) and [feedback](/importance-of-the-feedback/) on projects covering multiple teams, such as engineering initiatives, major refactorings, or implementing new tools in all departments. The impact of the engineer increases and spreads through the organization.
 
 However, the chances of failure get higher because you have less context now when you compare it with earlier roles. You won't know every detail in one system, but you have a broad knowledge of what's going on. In junior positions, your risks are low because the task is small and the context is more specific. In staff and principal roles, you have less context about a particular system. You don't know every single line of every project that you might have an impact on.
 

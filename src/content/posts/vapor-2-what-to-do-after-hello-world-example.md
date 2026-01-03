@@ -20,7 +20,7 @@ There are some examples, and tutorials for setting up and creating an endpoint f
 
 We decided to go for MongoDB. Vapor has a Mongo provider to handle Mongo setup easily. We’ll set up MongoDB and connect to our API.
 
-Install MongoDB on Mac with _brew install mongodb_ command and start it with _brew services start_ mongodb. When it’s completed, connect to the admin board with Mongo admin. Then, create user with `db.createUser({ user: "admin", pwd: "password", roles: ["root"] })` command and exit from the admin board with Ctrl+C. Run _mongod_ command in the terminal. This will run the database on your local. Now, we need to put these configurations in the _Config_ folder in our Vapor app. I’ll explain what is Config and why we did this later. Create a new file named _mongo.json_ under the _Config_ folder and put the following JSON in there. (This config is only for development)
+Install MongoDB on Mac with *brew install mongodb* command and start it with *brew services start* mongodb. When it’s completed, connect to the admin board with Mongo admin. Then, create user with `db.createUser({ user: "admin", pwd: "password", roles: ["root"] })` command and exit from the admin board with Ctrl+C. Run *mongod* command in the terminal. This will run the database on your local. Now, we need to put these configurations in the *Config* folder in our Vapor app. I’ll explain what is Config and why we did this later. Create a new file named *mongo.json* under the *Config* folder and put the following JSON in there. (This config is only for development)
 
 ```json
 {
@@ -32,7 +32,7 @@ Our database is ready. Let’s take a look at our models.
 
 ## Models
 
-Models are pretty straightforward. Import _FluentProvider_ and conform to Model protocol. Add _Storage_ as property. It’ll handle all _id and exists_ thingies in the model. The only tweak here is for me to conforming _JSONRepresentable_ protocol and implement the custom JSON responses for the model. Because, if you want to return the id in the response, you have to use it. Also sometimes you just want a custom JSON response to fit your client’s style.
+Models are pretty straightforward. Import *FluentProvider* and conform to Model protocol. Add *Storage* as property. It’ll handle all *id and exists* thingies in the model. The only tweak here is for me to conforming *JSONRepresentable* protocol and implement the custom JSON responses for the model. Because, if you want to return the id in the response, you have to use it. Also sometimes you just want a custom JSON response to fit your client’s style.
 
 ```swift
 import Vapor
@@ -98,7 +98,7 @@ final class UserController {
 }
 ```
 
-First, we get all users. It uses Fluent’s [all()](https://github.com/vapor/fluent/blob/cc2e9ef2723ed8ca3633396b0c344816077d9539/Sources/Fluent/Entity/Entity.swift#L134) method. It returns all users as _User_ array. Then we try to make it JSON and return it. We’re going to connect this function to /all endpoint like the following:
+First, we get all users. It uses Fluent’s [all()](https://github.com/vapor/fluent/blob/cc2e9ef2723ed8ca3633396b0c344816077d9539/Sources/Fluent/Entity/Entity.swift#L134) method. It returns all users as *User* array. Then we try to make it JSON and return it. We’re going to connect this function to /all endpoint like the following:
 
 ```swift
 let userController = UserController()
@@ -169,7 +169,7 @@ extension UserController: ResourceRepresentable {
 }
 ```
 
-_UserController_ has two methods as an example. _index_ method returns all users and shows returns to the user you want. Instead of connecting these methods to endpoints one by one like this
+*UserController* has two methods as an example. *index* method returns all users and shows returns to the user you want. Instead of connecting these methods to endpoints one by one like this
 
 ```swift
 let users = UserController()
@@ -177,7 +177,7 @@ drop.get("users", handler: users.index)
 drop.get("users", User.self, handler: users.show)
 ```
 
-using _ResourceRepresentable_ protocol, we can add our controller methods to the endpoints easily by addingcontroller as a resource only.
+using *ResourceRepresentable* protocol, we can add our controller methods to the endpoints easily by addingcontroller as a resource only.
 
 ```swift
 let users = UserController()
@@ -188,7 +188,7 @@ You can find more details [here](https://docs.vapor.codes/basics/controllers/?h
 
 ## Routing with collections
 
-Everything looks nice for a small project with a few APIs. But when your app is getting bigger, you’ll need more APIs and want to group them and route them accordingly. This is what collections are for. In Kaucuk, we have operations on a score, like getting top 10 scores, fetching user position in highest scores, etc.. But we don’t have a score model and we don’t want to add everything to _UserController_. So, we decided to create another controller and put score logic in there. Everything in that controller is under /scores the URL path. Therefore, we have a custom _RouteCollection_.
+Everything looks nice for a small project with a few APIs. But when your app is getting bigger, you’ll need more APIs and want to group them and route them accordingly. This is what collections are for. In Kaucuk, we have operations on a score, like getting top 10 scores, fetching user position in highest scores, etc.. But we don’t have a score model and we don’t want to add everything to *UserController*. So, we decided to create another controller and put score logic in there. Everything in that controller is under /scores the URL path. Therefore, we have a custom *RouteCollection*.
 
 ```swift
 final class ScoreCollection: RouteCollection {
@@ -201,9 +201,9 @@ final class ScoreCollection: RouteCollection {
 }
 ```
 
-_grouped_ method in line 3 returns configured _RouteBuilder_ object and it allows us to make different groups consist of other groups. This can lead to more things. For example, if you prefer to handle versioning with URL paths, creating the collection for API versions makes it easy to handle. Just create a collection for the version. If you want to increase the API version with the support of the old version, create another one, create new or use existing endpoints and add them to it. Bind these two collections to your _Droplet_. It’s done, your API will be backward compatible.
+*grouped* method in line 3 returns configured *RouteBuilder* object and it allows us to make different groups consist of other groups. This can lead to more things. For example, if you prefer to handle versioning with URL paths, creating the collection for API versions makes it easy to handle. Just create a collection for the version. If you want to increase the API version with the support of the old version, create another one, create new or use existing endpoints and add them to it. Bind these two collections to your *Droplet*. It’s done, your API will be backward compatible.
 
-Let’s get back to our example. Binding collection to _Droplet_ is really easy.
+Let’s get back to our example. Binding collection to *Droplet* is really easy.
 
 ```swift
 let scoreCollection = ScoreCollection()
@@ -229,31 +229,31 @@ final class RequestVerificationMiddleware: Middleware {
 }
 ```
 
-_RequestVerificationMiddleware_, verifies all requests that come to our server. If the request has _Content-Type_ header, it has to be _application/json._ If it passes the check, we send it to the next _Responder_ object. If there is another middleware, the request will go to that one. Otherwise, it’ll directly go to the underlying operations. We can manipulate the request however we want. For example, we can forbid all DELETE operations without an Authentication header.
+_RequestVerificationMiddleware_, verifies all requests that come to our server. If the request has *Content-Type* header, it has to be *application/json.* If it passes the check, we send it to the next *Responder* object. If there is another middleware, the request will go to that one. Otherwise, it’ll directly go to the underlying operations. We can manipulate the request however we want. For example, we can forbid all DELETE operations without an Authentication header.
 
-Middleware can manipulate also the response. Middleware protocol’s only method (_respond_) returns a _Response_ object. For example, we can put information headers to the response or restructure the response to handle only one thing.
+Middleware can manipulate also the response. Middleware protocol’s only method (_respond_) returns a *Response* object. For example, we can put information headers to the response or restructure the response to handle only one thing.
 
-We created our custom middleware above. We need to add it to our _Config_ object with one line.
+We created our custom middleware above. We need to add it to our *Config* object with one line.
 
 ```swift
 config.addConfigurable(middleware: RequestVerificationMiddleware.init,
                        name: "request-verification")
 ```
 
-After that, we need to add the middleware’s name to the _droplet.json_ file. I’ll explain this file and the _Config_ object in a moment.
+After that, we need to add the middleware’s name to the *droplet.json* file. I’ll explain this file and the *Config* object in a moment.
 
 ## Application Configuration
 
-This is the place where Vapor handles applications’ all configurations. All configurations for _Droplet_ (our application) are managed by _Config_ object and JSON files. All _Droplet_ methods are constants. We cannot change the properties of the _Droplet_ after initialization. That’s why we have a _Config_ object. _Config_ object basically includes our middleware, preparations for models, and providers. Configuration generally takes two steps. First, we add a configuration to the _Config_ object and then to the JSON file. Let’s take a look one by one.
+This is the place where Vapor handles applications’ all configurations. All configurations for *Droplet* (our application) are managed by *Config* object and JSON files. All *Droplet* methods are constants. We cannot change the properties of the *Droplet* after initialization. That’s why we have a *Config* object. *Config* object basically includes our middleware, preparations for models, and providers. Configuration generally takes two steps. First, we add a configuration to the *Config* object and then to the JSON file. Let’s take a look one by one.
 
-We’ll start with our database. We set up our MongoDB at the beginning of the post, but we didn’t configure our app to use this database. We have _[MongoProvider](https://github.com/vapor-community/mongo-provider)_ as a community package. It allows us to use Mongo in our Vapor project. Adding it to the _Config_ requires only one line after importing _MongoProvider._
+We’ll start with our database. We set up our MongoDB at the beginning of the post, but we didn’t configure our app to use this database. We have *[MongoProvider](https://github.com/vapor-community/mongo-provider)* as a community package. It allows us to use Mongo in our Vapor project. Adding it to the *Config* requires only one line after importing *MongoProvider.*
 
 ```swift
 let config = try Config()
 try config.addProvider(MongoProvider.Provider.self)
 ```
 
-Now, _MongoProvider_ works with Mongo driver. (If you are using the same, don’t forget to create _mongo.json_ as I mentioned at the beginning. Otherwise, the app will crash) We then added this driver to _fluent.json_ file. _fluent.json_ file allows us to configure the Fluent package to have better communication with the database. Also, we are using ids in a type of UUID in the database. There are more options available in _fluent.json_ that we’re not using like pagination for the database. Here is our simple _fluent.json_ file.
+Now, *MongoProvider* works with Mongo driver. (If you are using the same, don’t forget to create *mongo.json* as I mentioned at the beginning. Otherwise, the app will crash) We then added this driver to *fluent.json* file. *fluent.json* file allows us to configure the Fluent package to have better communication with the database. Also, we are using ids in a type of UUID in the database. There are more options available in *fluent.json* that we’re not using like pagination for the database. Here is our simple *fluent.json* file.
 
 ```json
 {
@@ -262,7 +262,7 @@ Now, _MongoProvider_ works with Mongo driver. (If you are using the same, don�
 }
 ```
 
-It’s time to talk about the middleware integration to our _droplet.json_ file that I mentioned above. Whenever we add a new middleware, we have to add its name to our _droplet.json_ file. This file and the _Config_ object work together to configure our application. This approach allows us to create different configurations for development, testing, and production. In Kaucuk, we created folders for each of these configurations under the Config folder in the project and put different _droplet.json_ files under them. But how Vapor knows where to look when we have multiple files with the same name? Vapor has a priority for Config files. It takes a look at CLI (Command Line Interface) first. Then, it’ll take a look at the _secrets_ folder. If it cannot find the necessary files, it’ll take a look at our environment configuration folders. If the files don’t exist, it’ll take a look at the main Config directory. Thanks to Vapor’s this approach, we achieved different middleware orders, different logging, and different database setup for each configuration. But what is there in this file? Here is our _droplet.json_ for development configuration.
+It’s time to talk about the middleware integration to our *droplet.json* file that I mentioned above. Whenever we add a new middleware, we have to add its name to our *droplet.json* file. This file and the *Config* object work together to configure our application. This approach allows us to create different configurations for development, testing, and production. In Kaucuk, we created folders for each of these configurations under the Config folder in the project and put different *droplet.json* files under them. But how Vapor knows where to look when we have multiple files with the same name? Vapor has a priority for Config files. It takes a look at CLI (Command Line Interface) first. Then, it’ll take a look at the *secrets* folder. If it cannot find the necessary files, it’ll take a look at our environment configuration folders. If the files don’t exist, it’ll take a look at the main Config directory. Thanks to Vapor’s this approach, we achieved different middleware orders, different logging, and different database setup for each configuration. But what is there in this file? Here is our *droplet.json* for development configuration.
 
 ```json
 {
@@ -272,10 +272,7 @@ It’s time to talk about the middleware integration to our _droplet.json_ fil
   "log": "dev-console",
   "hash": "dev-crypto",
   "cipher": "dev-crypto",
-  "middleware": [
-    "error",
-    "request-verification"
-  ]
+  "middleware": ["error", "request-verification"]
 }
 ```
 
@@ -291,7 +288,7 @@ Until now, we have covered database setup, the logic of the app, routing, middle
 
 ### Further
 
-- If you want to deploy your app to AWS, check [this post](https://medium.com/swiftybeaver-blog/deployment-of-a-vapor-app-to-aws-ec2-f577eaa6c38c) out. You can also learn other things like setting up _systemd_ which is a tool to restart your app when it crashes.
+- If you want to deploy your app to AWS, check [this post](https://medium.com/swiftybeaver-blog/deployment-of-a-vapor-app-to-aws-ec2-f577eaa6c38c) out. You can also learn other things like setting up *systemd* which is a tool to restart your app when it crashes.
 - If you want to use Docker and deploy wherever you want you can check [this post](https://medium.com/@LarsJK/easy-server-side-swift-with-docker-4c297feeeeb5) out for setting up Docker for your server-side Swift app.
 - If you want to use DigitalOcean and MySQL, check [this post](https://medium.com/@pumplerod/server-side-swift-vapor-mysql-and-nginx-with-ssl-cert-running-on-ubuntu-instance-from-e59f50f450e2) out to learn all about setting up the process.
 - Also, Amazon has a Quick Start Reference for setting up Swift Web applications on the AWS cloud which you can access from [here](https://aws.amazon.com/about-aws/whats-new/2016/11/swift-web-applications-on-the-aws-cloud-quick-start-reference-deployment/).

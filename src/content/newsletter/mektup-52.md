@@ -2,7 +2,7 @@
 title: "Mektup #52: Multitasking hides design flaws and lowers the quality"
 description: "When I wrote you the last time about the myth of multitasking, I talked about our attention limit having a value of only one cognitive task. Today, I want to double-click on that attention-demanding creative task and connect it to the quality of results."
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "52"
 date: 2023-03-07
@@ -14,11 +14,11 @@ When I [wrote you the last time about the myth of multitasking](/newsletter/mekt
 
 In Mythical Man-Month book, Brooks talks about the importance of execution in software engineering. Much like in any other creative task (writing, painting, etc.), an idea has full of hidden flaws until the execution. Software engineers don't realize the inconsistencies in their proposals before implementing or at least writing the approach down. Without the execution, the flaws in system design will never surface. The discrepancies in component design will only come out with the coding. It's especially true with legacy systems. The majority of us work with codebases or projects we didn't develop. We design new components that fit into systems we cannot 100% comprehend. That's where I want to take Brook's statement one step further. Multitasking conceals all the design flaws even deeper.
 
-While reviewing our peer's code, we remember one thing that needs to be done and jump to it. We fix a bug in a meeting; we refine the next ticket while listening to the all-hands meeting. A Product Manager asks for something urgent that needs to be done *now*. We pick up multiple tasks with the intention of gaining a more holistic view. With a high workload, it often looks like we have no time and no choice. That's also what's expected from experienced engineers, right? Join meetings, finish tasks, drive initiatives, mentor others, and do more simultaneously. Within all this absurdity, we try to move our focus from one component to another, jump from meeting to meeting, and have three-four tasks assigned to us that are currently "in progress." But if our mind is everywhere, it's actually nowhere.
+While reviewing our peer's code, we remember one thing that needs to be done and jump to it. We fix a bug in a meeting; we refine the next ticket while listening to the all-hands meeting. A Product Manager asks for something urgent that needs to be done _now_. We pick up multiple tasks with the intention of gaining a more holistic view. With a high workload, it often looks like we have no time and no choice. That's also what's expected from experienced engineers, right? Join meetings, finish tasks, drive initiatives, mentor others, and do more simultaneously. Within all this absurdity, we try to move our focus from one component to another, jump from meeting to meeting, and have three-four tasks assigned to us that are currently "in progress." But if our mind is everywhere, it's actually nowhere.
 
 "How can I do less while the business expects more from me?" I hear you say. Here is the misunderstanding: organizations want you to achieve more, not to do more. **The more you do, the less you achieve. Not output, the outcome.** You may finish a small thing here and there while listening to a meeting, but it can only be a small output while the actual outcome awaits.
 
-**We can differentiate the outcome from the output by looking at the results.** In multitasking, you will definitely produce some work, so your output will be high. And that is the main confusion point. As the output is high, you're inclined to *assume* you're doing a great job. Only when we look at the results of outputs can we understand the impact you make.
+**We can differentiate the outcome from the output by looking at the results.** In multitasking, you will definitely produce some work, so your output will be high. And that is the main confusion point. As the output is high, you're inclined to _assume_ you're doing a great job. Only when we look at the results of outputs can we understand the impact you make.
 
 If we forbid multitasking, you have to choose one task while the others await. This selection forces you to understand the expected result; hence the task that gives a better outcome precedes the tasks with minor impact. We see these effects only by looking with second-order thinking: instead of "I will do X, and Y will happen," ask, "what will be the consequence of Y?" to think beyond. Ask yourself why that task matters and what would be the expected outcome. This strategy has another consequence we often overlook and sacrifice for speed: quality.
 
@@ -31,4 +31,4 @@ Within all the complexity Brooks discussed, **we have no choice but to do things
 Until next time,
 Candost
 
-*P.S. What I'm doing [now](/now/).*
+_P.S. What I'm doing [now](/now/)._

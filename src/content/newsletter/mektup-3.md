@@ -1,7 +1,7 @@
 ---
 title: "Mektup #3: Effective 1:1s, DevOps, Atomic Habits, Staff Engineer & more"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "3"
 date: 2021-03-25
@@ -15,7 +15,7 @@ Every last Thursday of the month, you get this newsletter from me. It takes less
 
 After a long time, I traveled by car to see my friends in Berlin. I cannot explain how much I needed it. Now, looking forward to seeing them again and planning the travel to Turkey, my home country.
 
-On the personal side, I decided to change the format of my Tuesday Livestream talks. There won't be _a live stream_ from now on, but I will continue as _a podcast_. More on this later under the Software World with Candost topic.
+On the personal side, I decided to change the format of my Tuesday Livestream talks. There won't be *a live stream* from now on, but I will continue as *a podcast*. More on this later under the Software World with Candost topic.
 
 Now, onto The Mektup.
 
@@ -40,7 +40,7 @@ Ricardo is one of the most generalist engineers I know. He did a variety of thin
 One of the most popular and demanding career paths is DevOps Engineering, although DevOps is a discipline, not a title. I had a lot of confusion in understanding DevOps and Site Reliability Engineering's (SRE) differences before our talk with Rene, one of the area's experts. Rene humbly explained the differences and even laid out great recommendations and tips about starting a DevOps and SRE career and growing it. [Check out the full talk, either as a video or a podcast.](https://candost.substack.com/p/13-devops-and-site-reliability-engineering#details)​
 
 **❗️ Update about Software World with Candost:**
-I decided to stop live streaming. I am currently writing a post about the reasoning. However, the main decisive factor is seeing the higher benefits of creating other types of content than the live version. That means, instead of having live sessions, I will now continue as a _**podcast**_. Every Tuesday at the same time (19:00 CET, 11:00 PT), there will be a new episode starting in April. And you will also sometimes hear me speaking alone. I am very excited about the new format. If you want to join me in one of the sessions, reply to this email.
+I decided to stop live streaming. I am currently writing a post about the reasoning. However, the main decisive factor is seeing the higher benefits of creating other types of content than the live version. That means, instead of having live sessions, I will now continue as a ***podcast***. Every Tuesday at the same time (19:00 CET, 11:00 PT), there will be a new episode starting in April. And you will also sometimes hear me speaking alone. I am very excited about the new format. If you want to join me in one of the sessions, reply to this email.
 
 ![Interesting Things Section](/images/content/newsletter/mektup-section-header-interesting-things.png)
 

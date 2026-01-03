@@ -18,17 +18,17 @@ Zettelkasten was born to build articles, books, or posts from the ground up. Whe
 
 How do I use Zettelkasten for work? I keep two Slip-Boxes: one for my knowledge-based notes ([sneak peek into my Zettelkasten](/notes/)) and one for work. Whenever I'm in a meeting, I keep notes in Meeting Slip-Box. I don't need to worry about categorization or folders. I link the new note to the main project notes, which is the most helpful move that helps me find all related notes later.
 
-Meanwhile, P.A.R.A. was born to know where to put a new note in a system. It aims to organize notes much better. P.A.R.A. stands for *Projects*, *Areas of Responsibility*, *Resources*, and *Archive*. How do I use P.A.R.A.? *Projects* are where I keep work-in-progress and ideas for articles, podcasts, and newsletters ideas. *Areas of Responsibility* are my daily notes, career notes, and notes related to my hobbies. *Resources* are things I saved online, checklists, and some more informational notes that I use as a resource. The *Archive* consists of notes I don't need daily, such as published essays, blog articles, templates, etc.
+Meanwhile, P.A.R.A. was born to know where to put a new note in a system. It aims to organize notes much better. P.A.R.A. stands for _Projects_, _Areas of Responsibility_, _Resources_, and _Archive_. How do I use P.A.R.A.? _Projects_ are where I keep work-in-progress and ideas for articles, podcasts, and newsletters ideas. _Areas of Responsibility_ are my daily notes, career notes, and notes related to my hobbies. _Resources_ are things I saved online, checklists, and some more informational notes that I use as a resource. The _Archive_ consists of notes I don't need daily, such as published essays, blog articles, templates, etc.
 
-How do I combine P.A.R.A. and Zettelkasten? I have six top-level folders: the P.A.R.A. folders, the Zettelkasten folder, and the Work folder.  Zettelkasten is my knowledge-base folder and could actually fit into the Resources folder, but I keep it separate. And lastly, the Work folder includes another Slip-Box, my brag document, my Kanban board, project notes, and others.
+How do I combine P.A.R.A. and Zettelkasten? I have six top-level folders: the P.A.R.A. folders, the Zettelkasten folder, and the Work folder. Zettelkasten is my knowledge-base folder and could actually fit into the Resources folder, but I keep it separate. And lastly, the Work folder includes another Slip-Box, my brag document, my Kanban board, project notes, and others.
 
-Whenever I add a note about something I have learned, I don't want to think about where to put it; I want to think about how it relates to my previous thoughts and knowledge. That's why it directly goes to Zettelkasten. If it's connected to a project I'm working on (in the *Projects* folder), I link the note to the project instead of putting it in the Project folder.
+Whenever I add a note about something I have learned, I don't want to think about where to put it; I want to think about how it relates to my previous thoughts and knowledge. That's why it directly goes to Zettelkasten. If it's connected to a project I'm working on (in the _Projects_ folder), I link the note to the project instead of putting it in the Project folder.
 
 I'm planning to write in more detail about my note-taking system. In the meantime, [I already wrote about changing my mindset about note-taking to come to this place](https://candost.blog/concluding-my-struggle-with-note-taking-systems-and-apps-finally/).
 
 Maybe P.A.R.A. and Zettelkasten methods are something you've been looking for for years; who knows? Let me know what you think by replying to this email!
 
-*P.S. I use [Obsidian](https://obsidian.md/) for everything: knowledge management, daily notes, permanent notes, checklists, journals, and task management tools.*
+_P.S. I use [Obsidian](https://obsidian.md/) for everything: knowledge management, daily notes, permanent notes, checklists, journals, and task management tools._
 
 ## Some things I found great
 

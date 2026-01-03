@@ -1,7 +1,7 @@
 ---
 title: "Mektup #33: One milestone and five articles"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "33"
 date: 2022-06-14

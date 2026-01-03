@@ -1,7 +1,7 @@
 ---
 title: "Mektup #32: Product Shouldn't Be Left to Product Managers"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "32"
 date: 2022-05-31
@@ -29,7 +29,7 @@ However, there is also an engineering side to product thinking: **you have to u
 
 Because if you want to develop better software, **you have to understand the factors that contribute to the problem you’re solving.** Without understanding your product’s strategy, how it will evolve, and the roadmap ahead, you will start accumulating technical debt at light speed. The system design and code structure will be flawed and inflexible.
 
-If you don’t know the engineering strategy of your company, you’ll have unnecessary debates and create future problems such as knowledge gaps, ineffective onboarding, and not leveraging engineering tools available to you. I’ve seen **many engineers get lost in creating the best architectural design because they focused on their engineering solution instead of the user’s or product’s problem.** (I also made these mistakes, and that’s why I’m sharing these learnings with you.) When you focus on the problem and dive deep to understand the real issue before writing a single line of code, you get to meet with your stakeholders, collaborate with your teammates, and create a better solution that _actually_ solves the problem.
+If you don’t know the engineering strategy of your company, you’ll have unnecessary debates and create future problems such as knowledge gaps, ineffective onboarding, and not leveraging engineering tools available to you. I’ve seen **many engineers get lost in creating the best architectural design because they focused on their engineering solution instead of the user’s or product’s problem.** (I also made these mistakes, and that’s why I’m sharing these learnings with you.) When you focus on the problem and dive deep to understand the real issue before writing a single line of code, you get to meet with your stakeholders, collaborate with your teammates, and create a better solution that *actually* solves the problem.
 
 That’s why you have to increase your product expertise and keep your users in mind. This way, **you will deliver customer value quickly to get the fastest feedback. You will step up within your peers and start leading.** If you leave product thinking to product managers, your chances of showing your excellent engineering skills will be low, and you will hit the ceiling whenever you want to get to the next level.
 

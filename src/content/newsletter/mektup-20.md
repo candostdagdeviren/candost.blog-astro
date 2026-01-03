@@ -1,7 +1,7 @@
 ---
 title: "Mektup #20: The Rule of Three to Avoid Bias"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "20"
 date: 2021-12-14
@@ -9,14 +9,13 @@ updateDate: 2021-12-14
 external: false
 ---
 
-
 Hey friend,
 
 I've been thinking about the goal of software engineering and what we do to achieve that goal. It's easy to generalize the goal by saying, "_it's all about solving problems._" However, it's not easy to generalize how we solve these problems at all. The most general answer to all our problems is "_it depends._"
 
 There is no single way to define our next step when facing any issue. We might immediately find a solution by instinct, or we research a lot and then come up with a solution, or even mix both and then do a little research, try an answer, do more research, and adjust the solution.
 
-The problem with going with instinct is that **we have biases and prejudice**. We intuitively form these with experience. If we didn't have any biases, we probably couldn't decide whether to use a _for loop_ or a _while loop_. Although biases are helpful for minor problems, when we face more significant issues, biases and prejudices are detrimental.
+The problem with going with instinct is that **we have biases and prejudice**. We intuitively form these with experience. If we didn't have any biases, we probably couldn't decide whether to use a *for loop* or a *while loop*. Although biases are helpful for minor problems, when we face more significant issues, biases and prejudices are detrimental.
 
 **Biases prevent us from finding the optimal solution.** In a problem, we recognize some cues that are familiar to us because of our previous knowledge. If we solved a similar issue in an earlier project, we're inclined to use the same solution, although the conditions are dif­ferent and the solution is suboptimal.
 
@@ -36,7 +35,7 @@ By the way, I hear your inner voice keep asking: why three?
 
 Because **one choice is literally a trap**, it's full of bias, and if your only solution doesn't work, you're out of options—you're screwed.
 
-**Two solutions are not enough because it creates a dilemma**. Your mind starts to think it like either _this_ or _that_. Instead of concentrating on the problem, you shift your focus to the solution.
+**Two solutions are not enough because it creates a dilemma**. Your mind starts to think it like either *this* or *that*. Instead of concentrating on the problem, you shift your focus to the solution.
 
 **Three solutions give you an actual choice.** The more solutions you have, the better.
 

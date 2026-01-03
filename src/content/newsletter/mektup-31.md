@@ -1,7 +1,7 @@
 ---
 title: "Mektup #31: Non-Engineers Leading Engineering Teams"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "31"
 date: 2022-05-17
@@ -35,4 +35,4 @@ Until next time, take care!
 
 Candost
 
-_**P.S.**_ _[Understand how distributed systems work if you're working with one](https://candost.substack.com/p/24-understanding-distributed-systems)._
+***P.S.*** *[Understand how distributed systems work if you're working with one](https://candost.substack.com/p/24-understanding-distributed-systems).*

@@ -1,7 +1,7 @@
 ---
 title: "Mektup #7: The Role of A Software Architect"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "7"
 date: 2021-06-10

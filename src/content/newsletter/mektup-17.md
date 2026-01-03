@@ -1,7 +1,7 @@
 ---
 title: "Mektup #17: Pair programming is not only for you."
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "17"
 date: 2021-11-02
@@ -13,7 +13,7 @@ Hey friend,
 
 I usually learn from my mistakes, but I additionally want to look at my successful attempts because we can also improve our lives when we repeat things that work. In the past, I made small advancements in the team to help me learn different disciplines and improve my communication. Today, I want to talk about one of them.
 
-In a leader's life, you need to constantly look for ways to improve team collaboration, competency, and project workflow while expanding your knowledge to understand different aspects of the job: product management, design, quality assurance, infrastructure, user interface development, and more. The best way to gain _enough_ knowledge in these topics is by using the advantage of working in a team: collaborating with experts. Although the best way to learn anything well is by doing it by yourself, there are people around you who can give you a hand when you ask.
+In a leader's life, you need to constantly look for ways to improve team collaboration, competency, and project workflow while expanding your knowledge to understand different aspects of the job: product management, design, quality assurance, infrastructure, user interface development, and more. The best way to gain *enough* knowledge in these topics is by using the advantage of working in a team: collaborating with experts. Although the best way to learn anything well is by doing it by yourself, there are people around you who can give you a hand when you ask.
 
 ## Increasing Collaboration
 

@@ -14,15 +14,15 @@ Let’s start with Xcode.
 
 ### Default Xcode Shortcuts
 
-- When the project grows, searching time for the file that we’re currently coding in _Project Navigator_ increases. The day I learned the ⌘⇧J shortcut to jump to the current file in navigation, I had a smile on my face.
-- Who doesn’t love to work with _Assistant Editor_ in Xcode? Some of us feel disturbed when we reach for the mouse while coding. So, moving the focus between Assistant and Main Editors as well as tabs has a shortcut ⌘J. It shows you a window where you can choose the focused editor by arrows. But there is one more shortcut which I find more useful is ⌃`. This allows you to move your focus directly to the text editor.
+- When the project grows, searching time for the file that we’re currently coding in *Project Navigator* increases. The day I learned the ⌘⇧J shortcut to jump to the current file in navigation, I had a smile on my face.
+- Who doesn’t love to work with *Assistant Editor* in Xcode? Some of us feel disturbed when we reach for the mouse while coding. So, moving the focus between Assistant and Main Editors as well as tabs has a shortcut ⌘J. It shows you a window where you can choose the focused editor by arrows. But there is one more shortcut which I find more useful is ⌃`. This allows you to move your focus directly to the text editor.
 - Sometimes I found myself copying and pasting a block of code a couple of lines up and down. Recently, I learned there are two shortcuts that most developers don’t use (at least, I didn’t see anyone using them lately). For moving the line up ⌥⌘[ and moving the line down ⌥⌘]
 - Everyone knows ⌘⇧O to open the file search bar in Xcode. If you’re working with Objective-C and Swift in the same project, you can search in Swift Generated Headers in this search. When the search bar is open, press⌘G to enable Swift-generated headers. It’ll generate headers in Swift for Objective-C files.
 - Let’s take a look at these shortcuts for opening/closing parts in Xcode 12.
 
 ![](/images/content/posts/ios-dev-productivity-kit/Pasted%20image%2020230722214113.png)
 
-During debugging, when we stop the running code with a breakpoint, we can use ⌘⌃Y to _Step Over_ as well as ⌘Y to enable/disable all breakpoints.
+During debugging, when we stop the running code with a breakpoint, we can use ⌘⌃Y to *Step Over* as well as ⌘Y to enable/disable all breakpoints.
 
 ### Customized Shortcuts
 
@@ -30,15 +30,15 @@ Let’s focus on creating our own shortcuts. Most of us even don’t know that w
 
 #### How?
 
-First, open _Properties_ -like most macOS apps- using ⌘. Switch to the _Key Bindings_ section for navigation. Choose _All_ Submenu. Now, you can see all shortcuts in there.
+First, open *Properties* -like most macOS apps- using ⌘. Switch to the *Key Bindings* section for navigation. Choose *All* Submenu. Now, you can see all shortcuts in there.
 
 #### Customize
 
-Below you can see all the customized shortcuts that I’ve been using for some time. Some of them conflict with Xcode default shortcuts, and I decided to remove the default ones because I never use them. You’ll also see some empty ones. Those are the ones I’m not using, conflicting or pressing by mistake all the time, like _Print_ in the beginning.
+Below you can see all the customized shortcuts that I’ve been using for some time. Some of them conflict with Xcode default shortcuts, and I decided to remove the default ones because I never use them. You’ll also see some empty ones. Those are the ones I’m not using, conflicting or pressing by mistake all the time, like *Print* in the beginning.
 
 ![](/images/content/posts/ios-dev-productivity-kit/Pasted%20image%2020230722214132.png)
 
-You probably noticed that I changed the _Rename_ shortcut to use the same key combinations with other refactor methods.
+You probably noticed that I changed the *Rename* shortcut to use the same key combinations with other refactor methods.
 
 In Xcode 12, here are the default Refactor shortcuts:
 
@@ -48,15 +48,15 @@ In Xcode 12, here are the default Refactor shortcuts:
 
 I won’t get into details of LLDB debugger commands. I just want to suggest [a good tutorial](https://www.objc.io/issues/19-debugging/lldb-debugging/) on how to use the commands and [one great cheat sheet for LLDB commands](https://www.nesono.com/blog/lldb-cheat-sheet/). One thing I want to mention is that if you get the following error while trying to access frame or similar things
 
-> error: property ‘frame not found on object of type ‘UIView *’ error: 1 errors parsing the expression
+> error: property ‘frame not found on object of type ‘UIView \*’ error: 1 errors parsing the expression
 
-you should write `expr import UIKit` in the LLDB command line. One way to execute this automatically is to create an auto-continue breakpoint in AppDelegate and add this command to the _Debugger Command_ action.
+you should write `expr import UIKit` in the LLDB command line. One way to execute this automatically is to create an auto-continue breakpoint in AppDelegate and add this command to the *Debugger Command* action.
 
 ## Other Tools and Frameworks
 
 ### Alfred
 
-I’ve replaced _Spotlight Search_ with Alfred on my Mac, and I’m really happy with all the features it has. Alfred has a **Clipboard** and **Snippets** features that I’m using all day long while coding. I’ve created some snippets according to my current iOS application development stack. For example, we’re using MVVM architecture, and I have boilerplate code snippets for ViewModel, View, and ViewController that I can easily use. You can reach my Alfred Snippets for Swift from [here](https://github.com/candostdagdeviren/Productivity/blob/master/Swift.alfredsnippets).
+I’ve replaced *Spotlight Search* with Alfred on my Mac, and I’m really happy with all the features it has. Alfred has a **Clipboard** and **Snippets** features that I’m using all day long while coding. I’ve created some snippets according to my current iOS application development stack. For example, we’re using MVVM architecture, and I have boilerplate code snippets for ViewModel, View, and ViewController that I can easily use. You can reach my Alfred Snippets for Swift from [here](https://github.com/candostdagdeviren/Productivity/blob/master/Swift.alfredsnippets).
 
 ### Command Line Tools & Aliases
 

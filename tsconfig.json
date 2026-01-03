@@ -2,9 +2,7 @@
   "compilerOptions": {
     "moduleResolution": "node",
     "module": "ES2022",
-    "lib": [
-      "es2020"
-    ],
+    "lib": ["es2020"],
     "target": "es2019",
     "verbatimModuleSyntax": true,
     "isolatedModules": false,
@@ -18,16 +16,10 @@
     "checkJs": false,
     "baseUrl": ".",
     "paths": {
-      "$components": [
-        "./src/components"
-      ],
-      "$": [
-        "./src"
-      ]
+      "$components": ["./src/components"],
+      "$": ["./src"]
     },
-    "types": [
-      "astro/env"
-    ],
+    "types": ["astro/env"],
     "jsx": "preserve",
     "jsxImportSource": "solid-js"
   },
@@ -35,10 +27,7 @@
     "src/**/*.d.ts",
     "src/**/*.js",
     "src/**/*.ts",
-    ".astro/types.d.ts",
+    ".astro/types.d.ts"
   ],
-  "exclude": [
-    "src/**/.astro",
-    "dist",
-  ]
+  "exclude": ["src/**/.astro", "dist"]
 }

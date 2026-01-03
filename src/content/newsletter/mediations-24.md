@@ -9,7 +9,6 @@ date: 2025-09-02T09:05:00.000Z
 updateDate: 2025-09-02T09:05:00.000Z
 ---
 
-
 I took a short break from writing due to some family matters, which have left me feeling incomplete. These days, I’m trying to come back and build those broken habits once again.
 
 Although I didn't write much, I somehow had a lot of spare time for reading; 10 minutes here, 15 minutes there. It’s too short for writing but perfect for reading a few articles and books. Thanks to it, I caught up with the majority of the online articles I wanted to read, which were waiting on my endless reading list.

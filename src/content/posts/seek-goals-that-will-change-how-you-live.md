@@ -12,7 +12,6 @@ external: false
 favorite: false
 ---
 
-
 While [I was writing about goals for the first time](/growth-with-systematic-bliss/), I challenged myself to reconsider the concept of goal setting. I tried setting goals in different ways and failed in almost all of them. During these four years, all my failures taught me a lot. Now, I know what I did wrong.
 
 I’ll share with you how to negotiate with yourself to set the right goals. This post will also be a note for me to visit again and remind myself how the system works.
@@ -23,7 +22,7 @@ Everything starts with setting the right mindset around goals.
 
 I learned that suffering is the source of happiness. This is counterintuitive, but we value things more when we bear the ups and downs of them. Think about a challenging process you went through, such as getting a new job or learning a new skill as a hobby. During the process, things might feel frustrating, but when we make it, it feels great. **Our commitment and the distress we endure is directly proportional to the intrinsic value we assign to it.** Hence, we feel happier when we spend our time with whatever we value more.
 
-Besides happiness, success and achieving goals are unrelated. **I can fail all my goals and consider myself successful.** These two are entirely irrelevant even though society pushes us to attach them together more. A goal aims at the process *within a timeframe*; success aims at the definition of identity and feelings. A goal is a short-term investment, while success is a long-term personality trait. Therefore, a goal that says, “improve A by X% in Y months,” is not a definition of success, but it’s a progression.
+Besides happiness, success and achieving goals are unrelated. **I can fail all my goals and consider myself successful.** These two are entirely irrelevant even though society pushes us to attach them together more. A goal aims at the process _within a timeframe_; success aims at the definition of identity and feelings. A goal is a short-term investment, while success is a long-term personality trait. Therefore, a goal that says, “improve A by X% in Y months,” is not a definition of success, but it’s a progression.
 
 Without tracking, we can’t judge the progress. Tracking goals is more important than achieving them. **The primary purpose of having a goal is to track progress and adjust to changes**; that’s it. Achieving the goals is in the second or third plan compared to monitoring progress. Tracking progress constantly reminds our brains to do something about it because tracking goals helps us build our identity.
 
@@ -37,7 +36,7 @@ How we define goals changes the result and the success rate.
 
 **Define goals that will form habits rather than ones you’ll complete and forget about.** Instead of saying, “I will read 20 books in 2025,” turn it into, “I will read >20 mins a day for 300 days.” If your reading speed is average, 20 minutes a day will quickly bring you ~20 books in a year. This way, the goal doesn’t seem too far, and carving out 20 minutes daily is easier than dealing with 20 books. In the end, you also form a habit that will stick with you for the rest of your life.
 
-If you recognize it, I didn’t say to read for 20 minutes *every day*; I capped it at 300 days. While reading about economics and psychology, I learned about the margin of safety or margin of error. **There should be a buffer on the goal for setbacks.** Instead of, “Write every day in 2025,” which will be unsuccessful on the first day you skip writing for any reason, say, “Write for more than 300 days in 2025.” The remaining 65 days will be the margin of safety. Skipping three days a month or a whole month will still bring achievement.
+If you recognize it, I didn’t say to read for 20 minutes _every day_; I capped it at 300 days. While reading about economics and psychology, I learned about the margin of safety or margin of error. **There should be a buffer on the goal for setbacks.** Instead of, “Write every day in 2025,” which will be unsuccessful on the first day you skip writing for any reason, say, “Write for more than 300 days in 2025.” The remaining 65 days will be the margin of safety. Skipping three days a month or a whole month will still bring achievement.
 
 **Keep the goals as small as possible and as ambitious as necessary.** What matters is the habits you form and the constant output it brings. If you’re not reading books at all, start by setting a goal for 5 minutes or a page a day instead of 20 minutes. The Kaizen way suggests that it should be so small that you have no option but to do it. For example, I started flossing one tooth a day years ago; that was my goal. It was so tiny that I could not not-do it. Now, I’m flossing all my teeth every day.
 
@@ -61,4 +60,4 @@ As humans, our brains can’t think in the very long term. We are stimulated wit
 
 With all the learnings I shared above, I am (and you are, too) better equipped to introduce long-lasting changes that will result in incredible achievements.
 
-***P.S.** [​Paradise Paradox can help you plan the new year more realistic​.](https://sketchplanations.com/the-paradise-paradox)*
+**\*P.S.** [​Paradise Paradox can help you plan the new year more realistic​.](https://sketchplanations.com/the-paradise-paradox)\*

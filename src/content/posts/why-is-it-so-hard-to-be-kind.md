@@ -8,7 +8,7 @@ external: false
 
 Why is it so challenging to be kind? I ask this question myself because I'm aware of my rare unkindness to the people I don't know. I rarely stop being kind, especially when the other side is unkind.
 
-But isn't _responding with kindness_ the best reaction to a rude person? Isn't it what keeps our personality intact? Isn't it what makes us untouchable?
+But isn't *responding with kindness* the best reaction to a rude person? Isn't it what keeps our personality intact? Isn't it what makes us untouchable?
 
 I observed others when they were in a conflict, and kindness often made one side partly superior—not as arrogant but as better or outstanding. Also, kind people don't chase this superior feeling; they are usually humble. Yet, they fall into a trap and act rudely in certain situations.
 
@@ -32,10 +32,10 @@ _How to be kind to strangers, especially when they are not kind to us?_
 
 Not being kind has a rolling effect; the more unkind we are, the more stress and anger we accumulate. Lately, I have been building up stress and tension, and being kind has become more challenging. I moved to a new city and [got a new job](/joining-sumup/). Everything is new, and it is stressful to improve on every front while trying to adapt to them. To prevent kindness from falling over, I changed a few things.
 
-While training my body in the gym, I'm training my mind more heavily these days with meditation. The core of mindfulness meditation is noticing. Maybe, we can recognize how we are being treated and notice feelings accumulating inside us. We can notice and acknowledge our harmful emotions instead of preventing them from suddenly unleashing as unkindness. And maybe, _maybe_, we can let them go. It is not easy, especially in the middle of heated-up arguments, but worth a try. Noticing requires consistent practice, but even noticing once helps to advance.
+While training my body in the gym, I'm training my mind more heavily these days with meditation. The core of mindfulness meditation is noticing. Maybe, we can recognize how we are being treated and notice feelings accumulating inside us. We can notice and acknowledge our harmful emotions instead of preventing them from suddenly unleashing as unkindness. And maybe, *maybe*, we can let them go. It is not easy, especially in the middle of heated-up arguments, but worth a try. Noticing requires consistent practice, but even noticing once helps to advance.
 
 I'm also trying to improve my relationships with the community and help others. These nice things help me relieve stress and build kindness. I started spending some time in non-profit organizations and helping those less fortunate than me in this harsh life. I'm not doing these to show kindness. I'm fighting back unkindness. I'm trying to relearn it.
 
 We evolve every day; we cannot stop. It's an endless journey. The only thing we, you and I, can do to impact this change is to choose a direction. We can make a conscious decision in which way we want to evolve.
 
-And that way has to be _kindness_.
+And that way has to be *kindness*.

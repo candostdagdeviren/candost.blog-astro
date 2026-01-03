@@ -1,10 +1,10 @@
 {
-    "no-inline-html": false,
-    "line-length": {
-        "line_length": 999,
-        "code_blocks": false,
-        "tables": false,
-        "ignore_code_blocks": false,
-        "ignore_tables": false
-    },
+  "no-inline-html": false,
+  "line-length": {
+    "line_length": 999,
+    "code_blocks": false,
+    "tables": false,
+    "ignore_code_blocks": false,
+    "ignore_tables": false
+  }
 }

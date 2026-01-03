@@ -32,7 +32,7 @@ resource "aws_iam_user" "candost" {
 }
 ```
 
-Lastly, we define a `aws_iam_user_policy` to attach necessary resource permissions to our brand-new user. We give our user name in user property as `aws_iam_user.candost.name`. This will fetch the name we defined with `user` variable. We assume that we have defined a DynamoDB Table named _MyTable_. I’ll explain the setup of that table later.
+Lastly, we define a `aws_iam_user_policy` to attach necessary resource permissions to our brand-new user. We give our user name in user property as `aws_iam_user.candost.name`. This will fetch the name we defined with `user` variable. We assume that we have defined a DynamoDB Table named *MyTable*. I’ll explain the setup of that table later.
 
 ```
 resource "aws_iam_user_policy" "candost_policy" {
@@ -92,7 +92,7 @@ EOF
 }
 ```
 
-As we can see, we changed nothing except combining the user name and the Terraform workspace. But they still access the same table. We need to separate that table too. Let’s take a look at how we add a resource for the DynamoDB table. We create a _database.tf_ file and put the following code in there.
+As we can see, we changed nothing except combining the user name and the Terraform workspace. But they still access the same table. We need to separate that table too. Let’s take a look at how we add a resource for the DynamoDB table. We create a *database.tf* file and put the following code in there.
 
 ```
 resource "aws_dynamodb_table" "MyTable" {

@@ -1,7 +1,7 @@
 ---
 title: "Mektup #2"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "2"
 date: 2021-02-25

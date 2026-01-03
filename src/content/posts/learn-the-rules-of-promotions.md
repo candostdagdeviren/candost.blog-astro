@@ -27,9 +27,9 @@ How we find the right track without falling into either edge is what matters. We
 
 ### Money & Privileges
 
-Promotion usually brings money. I say _usually_ because it’s not always the case. I’ve seen people who were happy to be promoted without any compensation change.
+Promotion usually brings money. I say *usually* because it’s not always the case. I’ve seen people who were happy to be promoted without any compensation change.
 
-If you need money and it’s the only reason you want the promotion or the title, it is wonderful. **You know** **_why_** **you want it, unlike many people.**
+If you need money and it’s the only reason you want the promotion or the title, it is wonderful. **You know** ***why*** **you want it, unlike many people.**
 
 Also, whatever I wrote below will assume that you’re in a privileged position—money is not your main motivation driver. Even if that's the case, you can still get a holistic picture of promotions.
 
@@ -37,11 +37,11 @@ It’s good to get extra money in the pocket, but we must understand the trade-o
 
 ### Why The Title Matters
 
-A title is proof that you _earned_ it and have specific responsibilities. It doesn’t give details of those responsibilities when someone looks at your CV, but it gives an idea.
+A title is proof that you *earned* it and have specific responsibilities. It doesn’t give details of those responsibilities when someone looks at your CV, but it gives an idea.
 
 **A title helps you pass the first stages of the interviewing process when you are looking for a new job.** If you're looking for an engineering manager role and have never had the title, your chances are lower compared to someone who has had it for a while. Yet, it doesn’t solely prove that you have all the needed skills; interviewing stages are there to examine your proficiency in the role.
 
-**A title helps establish your position in the company.** You may have already been doing the job, but the title _acknowledges_ it. It gives you a degree of power.
+**A title helps establish your position in the company.** You may have already been doing the job, but the title *acknowledges* it. It gives you a degree of power.
 
 Yet, businesses don’t give money or title if they have no return on investment. Understanding that return is crucial to set expectations right.
 
@@ -53,21 +53,21 @@ A lot of promotions come from someone leaving a job and the organization refilli
 
 Internal promotions don't always succeed. **When the promotion goes to the person who doesn’t want it and doesn’t have enough skills, promotions become detrimental.** A lot of managers were pushed to the role because somebody had to do the work. Organizations, often without realizing it, end up with the worst-case scenario: an unskilled person doing a job they don’t want. However, if there is already someone willing to become a manager and is already working on improving skills, the opportunity becomes a gold match.
 
-Another promotion type comes from organizational restructuring. Restructuring is costly to the organization and often has frustrating moments for many people affected. However, it’s also good for some people to change their focus and learn something new. A good example is doing the reverse of what we said above. Moving an unhappy manager to an individual contributor role in which they can be happier and more successful. The organization gains a lot of value by putting the talent into a good place—improving individual’s _and_ the organization’s performance. Restructuring can bring a lot of opportunities for change, forcing people to move out of their comfort zones.
+Another promotion type comes from organizational restructuring. Restructuring is costly to the organization and often has frustrating moments for many people affected. However, it’s also good for some people to change their focus and learn something new. A good example is doing the reverse of what we said above. Moving an unhappy manager to an individual contributor role in which they can be happier and more successful. The organization gains a lot of value by putting the talent into a good place—improving individual’s *and* the organization’s performance. Restructuring can bring a lot of opportunities for change, forcing people to move out of their comfort zones.
 
-Also, many organizations have people they cannot afford (or don't want) to lose. That person can leverage the situation _rightfully_ (this might not look ethical, but it’s the reality). As the employee-employer relationship is based on a contract, they have negotiation power and _the right to negotiate_.
+Also, many organizations have people they cannot afford (or don't want) to lose. That person can leverage the situation *rightfully* (this might not look ethical, but it’s the reality). As the employee-employer relationship is based on a contract, they have negotiation power and *the right to negotiate*.
 
 If an organization has one person they can’t afford to lose, the failure is on the leadership, and they have to pay the price. Why didn’t the organization work toward spreading the knowledge or responsibilities in time? It’s a difficult question for many organizations. If you see someone getting a promotion because of this case instead of you, don’t dwell on it too much. Try pushing your organization to change the situation. And if you’re in the leveraged position, use it wisely!
 
 There are many other cases in which organizations promote people, but the main idea is that there has to be a good return on investment for the business. Either keeping a valuable employee, reducing the organizational complexity, or improving individuals’ performance.
 
-If you’re looking for a promotion, **look for how you can increase your value to the organization: impact is key here**. _The more impactful you are, the more value you bring._
+If you’re looking for a promotion, **look for how you can increase your value to the organization: impact is key here**. *The more impactful you are, the more value you bring.*
 
 After you understand the organizational value, you can assess if it’s something you’d like to provide.
 
 ### The Value for You—Your Return on Investment
 
-When an organization requires you to take on more responsibilities, ask yourself, **do** **_you_** **want to take on them?**
+When an organization requires you to take on more responsibilities, ask yourself, **do** ***you*** **want to take on them?**
 
 Many people want the money but not the responsibility. Some people want the responsibility and don’t need the money. Everyone’s motivation is different. Look at yourself to figure out why you want a promotion.
 

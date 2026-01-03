@@ -18,21 +18,21 @@ And it starts with choosing a message for your talk.
 
 What is the one message you want to leave your listeners with?
 
-What is the one thing they can _try_ after they hear you?
+What is the one thing they can *try* after they hear you?
 
 Leaving your listeners with many ideas will make them overwhelmed and confused. Hence, they will never take any action. **Give them one clear message.** They should not doubt that they understand and can try after your talk.
 
-Don't hide the message when you give it—say it out loud. Make it crystal clear. You can even say, "If you want to get one thing out of this talk, it's this," and give them the key point. Even if they don't try, they will think about it. You'll _make someone think and challenge what they are already doing_ and nudge them to do it differently. That's how to impact someone's life—the real power of public speaking.
+Don't hide the message when you give it—say it out loud. Make it crystal clear. You can even say, "If you want to get one thing out of this talk, it's this," and give them the key point. Even if they don't try, they will think about it. You'll *make someone think and challenge what they are already doing* and nudge them to do it differently. That's how to impact someone's life—the real power of public speaking.
 
-But you won't be able to give that message if the message is not coming _from you_.
+But you won't be able to give that message if the message is not coming *from you*.
 
 ## The Talk is About YOU.
 
-If you're speaking about a topic, that shows you care. Although you're talking about a topic, the talk itself is not focused on it. It's about _how you explain the topic_.
+If you're speaking about a topic, that shows you care. Although you're talking about a topic, the talk itself is not focused on it. It's about *how you explain the topic*.
 
-Let's go over a simple example. If you're presenting a book you read and liked, the listeners are interested in learning more about the book's details, for sure. However, they are even more interested in what you learned from the book and how you applied it to your life. Because they want to know _why_ you're presenting the book and what you gained from it. How your life has changed after reading that book is more important to the audience than the book's full content.
+Let's go over a simple example. If you're presenting a book you read and liked, the listeners are interested in learning more about the book's details, for sure. However, they are even more interested in what you learned from the book and how you applied it to your life. Because they want to know *why* you're presenting the book and what you gained from it. How your life has changed after reading that book is more important to the audience than the book's full content.
 
-You must add your talk some pieces from you. If you don't talk about yourself at all, if you don't involve your experience with the topic, the talk will be blunt. People can learn any information from the internet, including what you present. But they chose to listen to you. That means **your audience wants to hear that topic** _**from you**_ **instead of others.**
+You must add your talk some pieces from you. If you don't talk about yourself at all, if you don't involve your experience with the topic, the talk will be blunt. People can learn any information from the internet, including what you present. But they chose to listen to you. That means **your audience wants to hear that topic** ***from you*** **instead of others.**
 
 Therefore, you must put yourself at the center of your talk instead of your beautiful slides.
 
@@ -42,9 +42,9 @@ Most of the "X tips for better presentations" articles I've read talk about how 
 
 I remember a fantastic presentation I watched at SwiftConf in Cologne. Each slide had either an image or a single word on it. There were hundreds of slides, and the speaker had only twenty minutes! How?
 
-They used the slides to _help themselves present the topic_. They built a story and used slides to guide people in the story.
+They used the slides to *help themselves present the topic*. They built a story and used slides to guide people in the story.
 
-Slides are tools to help you. They are not the center of the talk—you are. Once you move the center of the talk from slides to you and _make the talk fully yours_, the presentation will automatically improve.
+Slides are tools to help you. They are not the center of the talk—you are. Once you move the center of the talk from slides to you and *make the talk fully yours*, the presentation will automatically improve.
 
 Don't add thousands of words to slides unless you have a good reason. **The aim is to move the audience's focus from the slides to you.** The audience looks at your eyes when you talk, and slides shouldn't distract them from your beautiful eyes.
 
@@ -68,7 +68,7 @@ One caveat: don't overuse silence. As it grabs all the attention, [it needs to 
 
 Most presentations have a main topic and sub-topics. We often hear, "There are four categories of X. Let's talk about them." Nothing is wrong with that if you have to present four categories of X. How you connect those four and the main topic is what matters.
 
-The goal is to create a single message in listeners' minds—the key message of the talk. You must build the story around _that message_. Whenever there are sub-topics that give more details, you have to create good segues back to the main topic. These sub-topics are supportive ideas of the key message. Listeners should see the connections between them because they will try to connect those topics in their minds. Don't leave this job to them. They should spend their energy listening to you and understanding what you're talking about. **They shouldn't build up the topic on their minds; you must connect the dots for them.**
+The goal is to create a single message in listeners' minds—the key message of the talk. You must build the story around *that message*. Whenever there are sub-topics that give more details, you have to create good segues back to the main topic. These sub-topics are supportive ideas of the key message. Listeners should see the connections between them because they will try to connect those topics in their minds. Don't leave this job to them. They should spend their energy listening to you and understanding what you're talking about. **They shouldn't build up the topic on their minds; you must connect the dots for them.**
 
 So, if you [explain four sub-topics one by one](/newsletter/mektup-45/), you have to create good segues while switching from one to another instead of taking big jumps between them. You have to connect all sub-topics to the main message. Creating a good story is challenging, and there are [good](https://robbiesenbach.com/books/) [books](https://www.thescienceofstorytelling.com/) and [tons of videos about it](https://www.youtube.com/results?search_query=storytelling); I will leave it out of this post.
 

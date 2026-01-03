@@ -21,21 +21,21 @@ I think listing down the differences and asking a few questions will help everyo
 
 ## Differences between RFCs and ADRs
 
-| RFCs | ADRs |
-| ---- | ---- |
-| For influencing/driving a change that may (but not necessarily) take time to finalize. | For making/recording a decision that can be executed quickly. |
-| Driven by the *community* culture. | Driven by the *team* culture. |
-| Help to get people on board for a change. | Help make onboarding easier by giving context. |
-| Aim to *validate* or *challenge* the idea. | Aim to *remind* the idea. |
-| Help uncover hidden knowledge in other parts of the organization (by getting feedback from people) and make an unknown unknown known. | Help make better future decisions by making implicit decisions explicit. |
-| Aim to get feedback similar to incremental product delivery: get feedback early and find the best possible way. | Aim to keep discussions short and on point. |
-| It can be small, but the impact should be significant enough *in the context*. | Are small, and the impact doesn't need to be significant. |
-| The more people contribute to RFCs and give feedback, the better the result will be. | Only the people who are needed are involved. |
-| Should be part of general documentation. | Should stay close to the codebase. |
-| Consensus-based decision-making is commonly used but can be consent-based as well. | 100% consent-based decision making. |
-| Longer feedback periods | Short feedback period to gather strong objections |
-| Mostly asynchronous process | The process can be synchronous (by pairing) or asynchronous |
-| Has one of the statuses: Draft, Collecting Feedback, Accepted, Rejected, Abandoned | Has one of the statuses: Draft, In Discussion, Decided, Implemented, Abandoned, Superseded |
+| RFCs                                                                                                                                  | ADRs                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| For influencing/driving a change that may (but not necessarily) take time to finalize.                                                | For making/recording a decision that can be executed quickly.                              |
+| Driven by the _community_ culture.                                                                                                    | Driven by the _team_ culture.                                                              |
+| Help to get people on board for a change.                                                                                             | Help make onboarding easier by giving context.                                             |
+| Aim to _validate_ or _challenge_ the idea.                                                                                            | Aim to _remind_ the idea.                                                                  |
+| Help uncover hidden knowledge in other parts of the organization (by getting feedback from people) and make an unknown unknown known. | Help make better future decisions by making implicit decisions explicit.                   |
+| Aim to get feedback similar to incremental product delivery: get feedback early and find the best possible way.                       | Aim to keep discussions short and on point.                                                |
+| It can be small, but the impact should be significant enough _in the context_.                                                        | Are small, and the impact doesn't need to be significant.                                  |
+| The more people contribute to RFCs and give feedback, the better the result will be.                                                  | Only the people who are needed are involved.                                               |
+| Should be part of general documentation.                                                                                              | Should stay close to the codebase.                                                         |
+| Consensus-based decision-making is commonly used but can be consent-based as well.                                                    | 100% consent-based decision making.                                                        |
+| Longer feedback periods                                                                                                               | Short feedback period to gather strong objections                                          |
+| Mostly asynchronous process                                                                                                           | The process can be synchronous (by pairing) or asynchronous                                |
+| Has one of the statuses: Draft, Collecting Feedback, Accepted, Rejected, Abandoned                                                    | Has one of the statuses: Draft, In Discussion, Decided, Implemented, Abandoned, Superseded |
 
 ## When do we use ADRs? When do we use RFCs?
 
@@ -44,7 +44,7 @@ It's better to start with an end in mind. That demands asking the question, "Wha
 Do you want to introduce a change? Yes.
 
 - Does the change affect others and require buy-in? If yes, **write an RFC** (you have to collect feedback).
-- Is the change itself small, but the impact is significant? If yes, **write an RFC** (you still *have to* get feedback).
+- Is the change itself small, but the impact is significant? If yes, **write an RFC** (you still _have to_ get feedback).
 - If no, **write an ADR.**
 
 You collected feedback on an RFC and decided to move forward. What do you do? **Write ADRs**—as few as possible, as many as you need.
@@ -79,7 +79,7 @@ Feel free to use and adapt the templates below.
 
 #### (Expected or Known) Consequences
 
- // Explicitly list down the consequences. If you can, also think and write about the consequences of consequences ([second-order thinking](/chestertons-fence/)).
+// Explicitly list down the consequences. If you can, also think and write about the consequences of consequences ([second-order thinking](/chestertons-fence/)).
 
 #### Considered Options (and why they haven't been chosen?)
 
@@ -89,7 +89,7 @@ Feel free to use and adapt the templates below.
 
 // Add additional materials that can give more context or are relevant to the decision.
 
-#### Update Log: *(not needed if the ADRs are committed to the repository)*
+#### Update Log: _(not needed if the ADRs are committed to the repository)_
 
 // After the ADR moves out of Draft status, log changes here. A good analogy for this log is having them as meaningful commit messages.
 

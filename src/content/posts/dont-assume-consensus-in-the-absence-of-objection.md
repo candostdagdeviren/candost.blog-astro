@@ -18,7 +18,7 @@ When a leader effectively listens, they discover common patterns that form these
 
 **People avoid confrontation.** Depending on their cultural background, education, the companies they worked for, and personality, people dodge when there is a possibility of [conflict](/how-to-solve-and-prevent-conflicts/). For example, when working in Turkey, I couldn't imagine myself confronting my boss in a meeting, and it was customary to [have disagreements](/explicit-disagreement-is-better-than-implicit-misunderstanding/) with peers, not the boss. So, while I disagreed with my boss in a meeting, I stayed silent.
 
-After moving to Germany and _assuming_ many Germans as more contentious than Turks, I thought I wouldn't face a similar situation. However, I was wrong, and I learned that it's all about the environment.
+After moving to Germany and *assuming* many Germans as more contentious than Turks, I thought I wouldn't face a similar situation. However, I was wrong, and I learned that it's all about the environment.
 
 When the environment is set and created correctly, any person can confront ideas and proposals. When there is a poor environment, nobody will experience safety and be confrontational.
 

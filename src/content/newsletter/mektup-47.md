@@ -2,7 +2,7 @@
 title: "Mektup #47: Techniques and Tools for Energy Management"
 description: "Do you feel overwhelmed by the distractions at work that don't let you do your job? How many times did your 'focus time blockers' get interrupted? When was the last time did you think about your energy, not only your time?"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "47"
 date: 2022-12-27
@@ -12,7 +12,7 @@ external: false
 
 Hey friend,
 
-Do you _think_ that you have a lot of meetings? Do you _feel_ overwhelmed by the distractions at work that don't let you do your job? Maybe you found some tricks to manage your time and move some meetings back and forth to create "focus time" for yourself. But how many times did it also get interrupted? Within all these, when was the last time did you think about your energy, not only your time?
+Do you *think* that you have a lot of meetings? Do you *feel* overwhelmed by the distractions at work that don't let you do your job? Maybe you found some tricks to manage your time and move some meetings back and forth to create "focus time" for yourself. But how many times did it also get interrupted? Within all these, when was the last time did you think about your energy, not only your time?
 
 In [the last Mektup](/newsletter/mektup-46/), I talked about the challenge of managing time and energy and promised to talk about how to manage energy and time together in more detail.
 

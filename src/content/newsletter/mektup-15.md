@@ -1,7 +1,7 @@
 ---
 title: "Mektup #15: You don't need a title to be a leader!"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "15"
 date: 2021-10-05
@@ -49,7 +49,7 @@ Find a mentor who can correct the course when you go out of the direction and te
 
 **When you ask someone to mentor you, it doesn't mean that you are selfishly asking for their time.** Those people also need to improve their mentorship and coaching skills to grow themselves.
 
-While working on stretch projects, focus on improving your human skills, such as effective communication, giving and receiving feedback, facilitation, and mentorship. Once you complete the project, collect feedback from people who worked with you and add all of them to your brag document. _If you don't have a brag document, please start one immediately._ The brag document will be your go-to document in your annual reviews and promotion discussions.
+While working on stretch projects, focus on improving your human skills, such as effective communication, giving and receiving feedback, facilitation, and mentorship. Once you complete the project, collect feedback from people who worked with you and add all of them to your brag document. *If you don't have a brag document, please start one immediately.* The brag document will be your go-to document in your annual reviews and promotion discussions.
 
 There are many things on the road that will fail you and help you learn. Continue reading and talking with people in similar situations as you. Having like-minded people around you is one of the most beneficial things to grow. If you have nobody around, send me an email, and I may help find these people. If you are already a leader who can help others, reply to this email, and I will find people you can help.
 

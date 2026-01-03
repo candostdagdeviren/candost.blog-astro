@@ -97,7 +97,7 @@ We associate unrelated things with people. Similar to Pavlov's association of be
 
 There is no easy way to find all techniques that are used to increase the likeness of a person and block these methods one by one. Instead, we can allow these methods to work, and right before making a decision, we should ask ourselves, “Do I like this salesperson more than I would have expected?” If the answer is yes, then we know there was something. Then, we can/should separate the decision from how much likeness the person has. Mentally separating the offer and the person does the trick. This should be the way we make any decision with money. In each decision, having more rationale than feelings is better.
 
-*Additional:* Is it the same with leaders? Do we agree more with leaders we like?
+_Additional:_ Is it the same with leaders? Do we agree more with leaders we like?
 
 ## Chapter 4: Social Proof
 

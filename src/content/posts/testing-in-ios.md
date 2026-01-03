@@ -37,103 +37,104 @@ Ok, let’s summarize here:
 There are tons of great online tutorials about writing tests for iOS apps (links are below). Here, we will focus on important points and some testing tips.
 
 1. "Design your code for testability" - [John Sundell](https://youtu.be/amVstam84Xo?t=405)
-    As John says, we should ask ourselves one question: **"What makes code easy to test?"**. When we ask this question, there are two things that come to mind:
-    - We shouldn’t overuse singletons.
-        Singletons are great, and Apple also uses them in important places like `UIScreen`, `UIApplication`. Since we have only one screen and only one application in run-time, this makes sense. But making an object global is not always necessary. We should keep the state of the object local instead and don’t let everyone change the state. So, we should think twice when we create a singleton.
-    - We should use protocols and parameterization.
-        Instead of subclassing for mocking purposes, we should prefer protocols ([composition over inheritance](https://medium.com/commencis/reusability-and-composition-in-swift-6630fc199e16)). Protocols provide a more robust solution. When we subclass to create a mock for tests, Xcode doesn’t give any warning if we forget to add `override` to a function. It is risky and also some classes cannot be subclassed (like `UIApplication`). If we use protocols, we abstract the implementation, and we create a proper mock. Also, Xcode shows an error when we forget to implement one function while conforming to a protocol. Let’s take a look at an example.
-        Let’s say we want to create a `FileOpener` and its only purpose is opening files if the URL is correct. We’ll use `UIApplication.canOpenURL(url:)` method. And we’ll write tests for this.
+   As John says, we should ask ourselves one question: **"What makes code easy to test?"**. When we ask this question, there are two things that come to mind:
+   - We shouldn’t overuse singletons.
+     Singletons are great, and Apple also uses them in important places like `UIScreen`, `UIApplication`. Since we have only one screen and only one application in run-time, this makes sense. But making an object global is not always necessary. We should keep the state of the object local instead and don’t let everyone change the state. So, we should think twice when we create a singleton.
+   - We should use protocols and parameterization.
+     Instead of subclassing for mocking purposes, we should prefer protocols ([composition over inheritance](https://medium.com/commencis/reusability-and-composition-in-swift-6630fc199e16)). Protocols provide a more robust solution. When we subclass to create a mock for tests, Xcode doesn’t give any warning if we forget to add `override` to a function. It is risky and also some classes cannot be subclassed (like `UIApplication`). If we use protocols, we abstract the implementation, and we create a proper mock. Also, Xcode shows an error when we forget to implement one function while conforming to a protocol. Let’s take a look at an example.
+     Let’s say we want to create a `FileOpener` and its only purpose is opening files if the URL is correct. We’ll use `UIApplication.canOpenURL(url:)` method. And we’ll write tests for this.
 
-        ```swift
-        class FileOpener {
-          func open(identifier: String) {
-            guard let url = URL(string: "iosappscheme://open?id=\(identifier)") else {
-                debugPrint("Failed to convert URL")
-                return
-            }
-            if UIApplication.shared.canOpenURL(url) {
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-            } else {
-                debugPrint("Failed to open URL")
-            }
-          }
-        }
-        ```
+     ```swift
+     class FileOpener {
+       func open(identifier: String) {
+         guard let url = URL(string: "iosappscheme://open?id=\(identifier)") else {
+             debugPrint("Failed to convert URL")
+             return
+         }
+         if UIApplication.shared.canOpenURL(url) {
+             UIApplication.shared.open(url, options: [:], completionHandler: nil)
+         } else {
+             debugPrint("Failed to open URL")
+         }
+       }
+     }
+     ```
 
-        This should work in the app. But in UITests, this will open another app, and our tests will be blocked. When we start thinking about John’s question ("What makes code easy to test?"), we realize that we should parameterize the function first. `UIApplication` is a dependency in class. So, it’s better to inject it.
+     This should work in the app. But in UITests, this will open another app, and our tests will be blocked. When we start thinking about John’s question ("What makes code easy to test?"), we realize that we should parameterize the function first. `UIApplication` is a dependency in class. So, it’s better to inject it.
 
-        ```swift
-        class FileOpener {
-          let application: UIApplication
-          init(application: UIApplication = UIApplication.shared) {
-            self.application = application
-          }
+     ```swift
+     class FileOpener {
+       let application: UIApplication
+       init(application: UIApplication = UIApplication.shared) {
+         self.application = application
+       }
 
-          func open(identifier: String) {
-            let url = URL(string: "iosappscheme://open?id=\(identifier)")
-            if application.canOpenURL(url) {
-              application.open(url, options: [:], completionHandler: nil)
-            } else {
-              debugPrint("Failed to load URL")
-            }
-          }
-        }
-        ```
+       func open(identifier: String) {
+         let url = URL(string: "iosappscheme://open?id=\(identifier)")
+         if application.canOpenURL(url) {
+           application.open(url, options: [:], completionHandler: nil)
+         } else {
+           debugPrint("Failed to load URL")
+         }
+       }
+     }
+     ```
 
-        As we see in the initializer, we used `UIApplication.shared` in default parameter. This makes initializing the `DocumentOpener` so much easier. But we still have a problem. We cannot mock `UIApplication` because it’s a singleton. Now, we can get the power of protocols in Swift. Let’s implement a new protocol called `URLOpening` and make `UIApplication` to conform it.
+     As we see in the initializer, we used `UIApplication.shared` in default parameter. This makes initializing the `DocumentOpener` so much easier. But we still have a problem. We cannot mock `UIApplication` because it’s a singleton. Now, we can get the power of protocols in Swift. Let’s implement a new protocol called `URLOpening` and make `UIApplication` to conform it.
 
-        ```swift
-          protocol URLOpening {
-            func canOpenURL(_ url: URL) -> Bool
-            func open(_ url: URL, options: [UIApplication.OpenExternalURLOptionsKey : Any], completionHandler completion: ((Bool) -> Void)?)
-          }
+     ```swift
+       protocol URLOpening {
+         func canOpenURL(_ url: URL) -> Bool
+         func open(_ url: URL, options: [UIApplication.OpenExternalURLOptionsKey : Any], completionHandler completion: ((Bool) -> Void)?)
+       }
 
-          extension UIApplication: URLOpening {}
-        ```
+       extension UIApplication: URLOpening {}
+     ```
 
-        Now, let’s adjust our `FileOpener` and use the protocol as a parameter in the initializer.
+     Now, let’s adjust our `FileOpener` and use the protocol as a parameter in the initializer.
 
-        ```swift
-        class FileOpener {
-          let urlOpener: URLOpening
-          init(urlOpener: URLOpening = UIApplication.shared) {
-            self.urlOpener = urlOpener
-          }
+     ```swift
+     class FileOpener {
+       let urlOpener: URLOpening
+       init(urlOpener: URLOpening = UIApplication.shared) {
+         self.urlOpener = urlOpener
+       }
 
-          func open(identifier: String) {
-            let url = URL(string: "iosappscheme://open?id=\(identifier)")
-            if urlOpener.canOpenURL(url) {
-              urlOpener.open(url, options: [:], completionHandler: nil)
-            } else {
-              debugPrint("Failed to load URL")
-            }
-          }
-        }
-        ```
+       func open(identifier: String) {
+         let url = URL(string: "iosappscheme://open?id=\(identifier)")
+         if urlOpener.canOpenURL(url) {
+           urlOpener.open(url, options: [:], completionHandler: nil)
+         } else {
+           debugPrint("Failed to load URL")
+         }
+       }
+     }
+     ```
 
-        Thanks to Swift extensions, we don’t need to implement `URLOpening` protocol in the `UIApplication` extension, as we see above. Because we’re following the same method signature which `UIApplication` already has. Now we have abstracted the implementation; we can create a new mock class and just conform to `URLOpening` protocol. Thus, we’ll be able to use mocking while testing `FileOpener`.
+     Thanks to Swift extensions, we don’t need to implement `URLOpening` protocol in the `UIApplication` extension, as we see above. Because we’re following the same method signature which `UIApplication` already has. Now we have abstracted the implementation; we can create a new mock class and just conform to `URLOpening` protocol. Thus, we’ll be able to use mocking while testing `FileOpener`.
+
 2. We should separate logic and effects and create clear boundaries for APIs
-    We should create frameworks and libraries to separate the logic. Using [Separation of Concerns](https://www.wikiwand.com/en/Separation_of_concerns), we may extract business logic and algorithms. They can have their own tests. And whenever we need to change something, we will know our changes won’t affect the business logic if we designed the API boundaries well. Swift has powerful [access control](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html). We shouldn’t expose more information than needed to the outside of those frameworks.
+   We should create frameworks and libraries to separate the logic. Using [Separation of Concerns](https://www.wikiwand.com/en/Separation_of_concerns), we may extract business logic and algorithms. They can have their own tests. And whenever we need to change something, we will know our changes won’t affect the business logic if we designed the API boundaries well. Swift has powerful [access control](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html). We shouldn’t expose more information than needed to the outside of those frameworks.
 3. Use pure functions
-    We should leverage functional style and reduce the effects of our functions. One function should always return the same output when given the same input. Also, it shouldn't have any side effects. (in functional programming, these functions are called ‘[Pure function](https://www.wikiwand.com/en/Pure_function)’). Pure functions are predictable, and they are easily testable.
+   We should leverage functional style and reduce the effects of our functions. One function should always return the same output when given the same input. Also, it shouldn't have any side effects. (in functional programming, these functions are called ‘[Pure function](https://www.wikiwand.com/en/Pure_function)’). Pure functions are predictable, and they are easily testable.
 4. Optimize App Launch for Testing
-    While running the tests, we see the simulator but wait for a couple of seconds. This is because the app is loading. Tests don’t start before `func application(_ application: didFinishLaunchingWithOptions options:) -> Bool` returns. We generally do a lot of setup inside this method, like analytics and crash reporting setup. But we generally don’t need them during tests. So, we should avoid unnecessary work when the app is launched for tests. We can [set a custom scheme environment variable](https://medium.com/@derrickho_28266/xcode-custom-environment-variables-681b5b8674ec) and use it in `AppDelegate`.
+   While running the tests, we see the simulator but wait for a couple of seconds. This is because the app is loading. Tests don’t start before `func application(_ application: didFinishLaunchingWithOptions options:) -> Bool` returns. We generally do a lot of setup inside this method, like analytics and crash reporting setup. But we generally don’t need them during tests. So, we should avoid unnecessary work when the app is launched for tests. We can [set a custom scheme environment variable](https://medium.com/@derrickho_28266/xcode-custom-environment-variables-681b5b8674ec) and use it in `AppDelegate`.
 
-    ```swift
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions options: _) -> Bool {
-      let isUnitTesting = ProcessInfo.processInfo.environment["IS_UNIT_TESTING"] == "1"
-      if isUnitTesting == false {
-        // Do UI-related setup, which can be skipped when testing
-      }
-      return true
-    }
-    ```
+   ```swift
+   func application(_ application: UIApplication, didFinishLaunchingWithOptions options: _) -> Bool {
+     let isUnitTesting = ProcessInfo.processInfo.environment["IS_UNIT_TESTING"] == "1"
+     if isUnitTesting == false {
+       // Do UI-related setup, which can be skipped when testing
+     }
+     return true
+   }
+   ```
 
 5. Avoid too much mocking. Mocking is good while testing. But it might result in a lot of implementation details. Mocks provide predictability. Whenever we need really good predictability, we can define them. But even in this case, they should be as simple as possible, and they should be inline, not globally defined.
 6. Use correct expectations in tests and avoid ambiguous tests. We should use faster, callback-based expectations in unit tests:
-    - `XCTestExpectation`
-    - `XCTNSNotificationExpectation`
-    - `XCTKVOExpectation`
+   - `XCTestExpectation`
+   - `XCTNSNotificationExpectation`
+   - `XCTKVOExpectation`
 7. Use the [parallel testing](https://www.swiftbysundell.com/daily-wwdc/faster-and-more-robust-tests-with-xcode-10) feature in Xcode 10. If you have a lot of tests, make them run in parallel. Xcode runs them with good optimization to reduce the test running time. Try to watch your test classes’ execution times. If one test class takes a huge time while the others are not, try splitting the class into several classes or find the reason why it takes so much time. This will accelerate the running of the tests.
 
 ## Last Words

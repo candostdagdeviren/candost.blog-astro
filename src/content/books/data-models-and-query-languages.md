@@ -21,7 +21,6 @@ This article is part of my notes from Chapter 2 on [Designing Data-Intensive Ap
 - Chapter 11: Stream Processing
 - Chapter 12: The Future of Data Systems
 
-
 ---
 
 Data modeling might be one of the most difficult processes of software engineering. On top of that, data presentations differ for application developers from hardware engineers. Within these difficulties, we must learn how data modeling approaches work to choose the best one for our problem.
@@ -40,7 +39,7 @@ Yet, it looks like SQL is not going away and will stay together with non-relatio
 
 ### The Root Problem of Data Modeling: The Object-Relation Mismatch
 
-A lot of applications are written with object-oriented programming. When these applications want to store data in a relational database, they require a translation layer because data models between the application (object or class definitions) and the database (tables defined by schemas) don't match. This mismatch is called _impedance mismatch_ ([borrowed](https://en.wikipedia.org/wiki/Impedance_matching) from electrical engineering).
+A lot of applications are written with object-oriented programming. When these applications want to store data in a relational database, they require a translation layer because data models between the application (object or class definitions) and the database (tables defined by schemas) don't match. This mismatch is called *impedance mismatch* ([borrowed](https://en.wikipedia.org/wiki/Impedance_matching) from electrical engineering).
 
 When we consider a social profile as an example (LinkedIn), we can store profile data in relational databases. Although we will have one field for a person's name and/or surname, one person may have multiple jobs and educations that we have to store somehow. Earlier versions of SQL used foreign keys to connect separate tables (education table, profile table, job positions table, etc.). We may use the same approach or use newer versions that allow storing multiple entries in one row using struc­tured data types (XML, JSON) while keeping the querying option.
 
@@ -56,9 +55,9 @@ Applications are evolving and changing day by day. **The initial data model of 
 
 > We can remove duplications and replace them with IDs that refer to other rows in other tables. This operation is called **normalization**.
 
-When IDs are used, the relational databases can run _join_ operations easily to collect data across multiple databases.
+When IDs are used, the relational databases can run *join* operations easily to collect data across multiple databases.
 
-On the other hand, **document databases often don't support _join_ operations**. This operation is moved to the application. The application has to emulate join operations by making multiple queries to the database.
+On the other hand, **document databases often don't support *join* operations**. This operation is moved to the application. The application has to emulate join operations by making multiple queries to the database.
 
 When considering different types of relationships, relational and document-based databases have pros and cons.
 
@@ -66,12 +65,12 @@ When considering different types of relationships, relational and document-based
 
 ![Relational Databases vs. Document Databases](/images/content/books/designing-data-intensive-applications/relational-vs-document-databases.png)
 
-|Relational Databases|Document Databases|
-|---------|--------|
-| Join operations and references support many-to-one and many-to-many relationships nicely. However, if the application doesn't have these relationships a lot, it might not need a relational database. | It's not possible to refer directly to the nested items. Yet, if there is no deep nesting, document databases are usually fine. The poor support for `join`s may or may not be a problem. It depends on our application. If there are a lot of many-to-one or many-to-many relationships, the document model is not that great because these cases need to be handled by the application. |
-| **Shema-on-write:** Enforcing schema on write operations is similar to static type checking (compile-time) in programming languages. Ensures data schema is the same, and nobody can put broken data into the database. When we want to change data format, we have to perform a migration. (e.g., initially having one field for name and surname and separating it later). These schema changes (migrations) might be slow depending on which database is used (MySQL, PostgreSQL, etc.). Some databases might even require downtime. |**Schema-on-read:** Seeking schema on read is similar to dynamic type checking (run-time). This operation moves schema constraint to application. When we want to change the data format, we have to support old documents in the application code and start using the new format in the new documents. |
-|Advantageous when data is homogeneous because it enforces a mechanism and documents it (with explicit schemas).|If the data is heterogeneous, it's advantageous. No explicit schema makes it adaptable.|
-| Storage locality is supported in some databases (e.g., Spanner, Oracle, Big table) but in different strategies to group related data together. | Provides data locality, which can be powerful or harmful. If the document is big, the performance gets worse. When we need a small section of a document, we have to read the whole document. *Rule of thumb: keep documents fairly small & avoid writes that increase the document size.*|
+| Relational Databases                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Document Databases                                                                                                                                                                                                                                                                                                                                                                        |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Join operations and references support many-to-one and many-to-many relationships nicely. However, if the application doesn't have these relationships a lot, it might not need a relational database.                                                                                                                                                                                                                                                                                                                                  | It's not possible to refer directly to the nested items. Yet, if there is no deep nesting, document databases are usually fine. The poor support for `join`s may or may not be a problem. It depends on our application. If there are a lot of many-to-one or many-to-many relationships, the document model is not that great because these cases need to be handled by the application. |
+| **Shema-on-write:** Enforcing schema on write operations is similar to static type checking (compile-time) in programming languages. Ensures data schema is the same, and nobody can put broken data into the database. When we want to change data format, we have to perform a migration. (e.g., initially having one field for name and surname and separating it later). These schema changes (migrations) might be slow depending on which database is used (MySQL, PostgreSQL, etc.). Some databases might even require downtime. | **Schema-on-read:** Seeking schema on read is similar to dynamic type checking (run-time). This operation moves schema constraint to application. When we want to change the data format, we have to support old documents in the application code and start using the new format in the new documents.                                                                                   |
+| Advantageous when data is homogeneous because it enforces a mechanism and documents it (with explicit schemas).                                                                                                                                                                                                                                                                                                                                                                                                                         | If the data is heterogeneous, it's advantageous. No explicit schema makes it adaptable.                                                                                                                                                                                                                                                                                                   |
+| Storage locality is supported in some databases (e.g., Spanner, Oracle, Big table) but in different strategies to group related data together.                                                                                                                                                                                                                                                                                                                                                                                          | Provides data locality, which can be powerful or harmful. If the document is big, the performance gets worse. When we need a small section of a document, we have to read the whole document. _Rule of thumb: keep documents fairly small & avoid writes that increase the document size._                                                                                                |
 
 Overall relational databases have document features that allow storing and performing `join` operations on XML and JSON. Also, document databases (e.g., RethinkDB, MongoDB) have relational-like `join`s that are similar to relational databases. Although these `join` operations are slow—as they require a network round trip—**both relational and non-relational approaches are becoming more similar and adapting good sides from each other.** These feature intersections are good for the future of databases.
 
@@ -79,9 +78,9 @@ Overall relational databases have document features that allow storing and perfo
 
 ![Imperative vs. declarative languages](/images/content/books/designing-data-intensive-applications/declarative-vs-imperative-languages.jpeg)
 
-Most programming languages are _imperative:_ we define how the algorithm will work step by step. We tell the computer line by line what it should do.
+Most programming languages are *imperative:* we define how the algorithm will work step by step. We tell the computer line by line what it should do.
 
-On the other side, SQL is a _declarative_ language: we define what we want in the end, the criteria that the result should fit into, and how we want the data to be transformed. We don't get into defining the algorithm or steps that the database engine needs to execute in order. Our focus is on the end result.
+On the other side, SQL is a *declarative* language: we define what we want in the end, the criteria that the result should fit into, and how we want the data to be transformed. We don't get into defining the algorithm or steps that the database engine needs to execute in order. Our focus is on the end result.
 
 Declarative languages—such as SQL—hide the implementation details. **When we write an SQL query, it's up to the query optimizer to decide which operations the query needs and the algorithm it will use during execution.** As we don't care how the data is retrieved from the storage, the query optimizer can decide the order of operations as well.
 
@@ -103,7 +102,7 @@ Relational databases support many-to-many relations already, but when it's too m
 
 A graph has two object types: **vertices** (also called nodes, entities) and **edges** (also called relationships, arcs).
 
-There are two graph models to structure and query data: _the property graph model_ and _the triple-store graph model_.
+There are two graph models to structure and query data: *the property graph model* and *the triple-store graph model*.
 
 ### Property Graphs
 
@@ -115,7 +114,7 @@ Each edge has a unique ID, the vertex the edge starts (tail), the vertex the edg
 
 **There is no schema restriction in this model.** We can have any vertex connecting to others for anything. We can also traverse the graph because we know any vertex's incoming and outgoing edges. Additionally, labels give the flexibility to define the relationship between two vertices.
 
-This model gives us _**flexibility**_ and _**evolvability**_. When we need to extend our features in the application, we keep adding new data to the existing graph. However, the graph data store easily becomes a mess. We need to be careful with a single graph data store.
+This model gives us ***flexibility*** and ***evolvability***. When we need to extend our features in the application, we keep adding new data to the existing graph. However, the graph data store easily becomes a mess. We need to be careful with a single graph data store.
 
 ### Triple-Stores
 

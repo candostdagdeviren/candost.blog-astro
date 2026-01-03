@@ -1,7 +1,7 @@
 ---
 title: "Mektup #6: Why should you deploy your code in smaller chunks and release software often?"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "6"
 date: 2021-05-27
@@ -19,7 +19,7 @@ In the previous issues, I talked about deep work, prioritizing your workflow, an
 
 I think deploying software is similar to going to the supermarket for groceries. We don't visit the supermarket five times to buy five apples. We batch several things together to optimize our lives. Also, we don't buy fifty kilos of apples for the next five months. Sometimes we buy in bulk, but we make jam to maintain them for a longer time. I think software deployments are the same. **If you make extremely small deployments, it's inefficient and time-consuming. If you increase the deployment size, you have various disadvantages and, on top of that, rising maintenance costs.**
 
-In waterfall, the problem is not that every step is done one by one; it's _the size of the deployments and "Big Bang" releases_. That's what the agile approach claims to solve.
+In waterfall, the problem is not that every step is done one by one; it's *the size of the deployments and "Big Bang" releases*. That's what the agile approach claims to solve.
 
 > Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. - The first principle of the Agile Manifesto
 
@@ -42,7 +42,7 @@ If we look at direct costs, **increasing batch size demands more testing effort
 
 ![](/images/content/newsletter/cost-batch-size-communication-direct-people.png)
 
-On the other hand, **deploying tiny changes is not free**. Every deployment has infrastructure and people costs (we call them transactional costs). Every CI pipeline costs money, and people need to spend more time if something is broken (_damn you, outdated dependencies_). That's the part where people think they gain more advantage with bigger-size deployments; _fewer deployments mean people are spending less time on it_. The decrease in these transactional costs lures companies. **Using less infrastructure and money on CI & CD pipelines creates an illusion.**
+On the other hand, **deploying tiny changes is not free**. Every deployment has infrastructure and people costs (we call them transactional costs). Every CI pipeline costs money, and people need to spend more time if something is broken (_damn you, outdated dependencies_). That's the part where people think they gain more advantage with bigger-size deployments; *fewer deployments mean people are spending less time on it*. The decrease in these transactional costs lures companies. **Using less infrastructure and money on CI & CD pipelines creates an illusion.**
 
 ![](/images/content/newsletter/transactional-costs.png)
 

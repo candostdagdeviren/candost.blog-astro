@@ -1,7 +1,6 @@
-
 In Slip Box Index, notes are organized by tags. Tags are focused on improving the discoverability of a note, rather than categorizing the note. That's the reason tags are unconventional here. They are often consists of multiple words defining a case or scenario or idea so I can connect a new note (zettel) with previous ones easily.
 
-Indentation in the list means it's further organization within that tag. Fox example, *#feedback-handbook* is a tag and underneath, there is "*giving-feedback*," which means the tag should be interpreted as *#feedback-handbook > giving-feedback*. Once the sub-organization reaches certain size, I split them into a separate index note.
+Indentation in the list means it's further organization within that tag. Fox example, _#feedback-handbook_ is a tag and underneath, there is "_giving-feedback_," which means the tag should be interpreted as _#feedback-handbook > giving-feedback_. Once the sub-organization reaches certain size, I split them into a separate index note.
 
 There are Index Notes. These notes are a collection of other notes under one topic. All index notes are here:
 

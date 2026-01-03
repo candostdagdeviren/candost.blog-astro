@@ -13,11 +13,11 @@ I've been researching a better note-taking system, trying apps, and moving hundr
 
 I have been thinking about my notes and how to write them, edit them, and store them. There are countless note-taking applications and various techniques, and I tried many of them. Yet I realized it's not the differences or the method that matters for making notes valuable; it's the mindset I have while taking notes.
 
-I used to copy quotes as notes. They didn't consist of any word that is mine; they mainly comprised words of others—the authors. I kept their words, memories, experiences, and ideas. In this _collectivist mindset_, you know what you have is not yours; someone else created it. And it will never truly be yours, even if you _own_ them.
+I used to copy quotes as notes. They didn't consist of any word that is mine; they mainly comprised words of others—the authors. I kept their words, memories, experiences, and ideas. In this *collectivist mindset*, you know what you have is not yours; someone else created it. And it will never truly be yours, even if you *own* them.
 
 As I wrote down these notes, I also stored them within specific categories, such as habit building, software architecture design, personal values, et cetera. There were hundreds of notes and tens of categories. I never went back and read them. Even when I did, they were still not mine; therefore, I couldn't remember them. That triggered me to look for ways to improve my whole note-taking system.
 
-For a while, I started trying apps. I tried Evernote, GoodNotes, Ulysses, Bear, Apple Notes, Notion, Scrintal, Dropbox Paper, pen and paper, Anki, Craft, and Obsidian in search of a better system. None of them worked. But I was wrong expecting another piece of technology to solve a problem when my fundamentals were wrong. If I was using them the same way, how could I expect them to solve the problem? All these applications claim that they solve the problem of note-taking. And they _actually do_ if you have _the right mindset_ and _learn_ how to use them.
+For a while, I started trying apps. I tried Evernote, GoodNotes, Ulysses, Bear, Apple Notes, Notion, Scrintal, Dropbox Paper, pen and paper, Anki, Craft, and Obsidian in search of a better system. None of them worked. But I was wrong expecting another piece of technology to solve a problem when my fundamentals were wrong. If I was using them the same way, how could I expect them to solve the problem? All these applications claim that they solve the problem of note-taking. And they *actually do* if you have *the right mindset* and *learn* how to use them.
 
 Apparently, I neither had the right mindset nor learned how to use these apps for years. So, what did I change?
 
@@ -29,7 +29,7 @@ First, myself. As cliché as it sounds, I'm not the same person anymore. I grew 
 
 Before all these changes started, I thought I was smarter and more knowledgeable, or at least I wanted to be. The more I read and learned, the more everything revealed how foolish and ignorant I am. I realized I would feel even more stupid every other day if I kept reading.
 
-As I realized I was not smart, I had to keep better notes and write better. I couldn't leave it to chance to learn something and forget about it. As I'm a flawed human, I had to look at my note-taking with the mindset of _a person who forgets_. As I acknowledged that I would forget what I learned today, I was better off writing things down. Changing this perspective was not enough, though. Since I was already taking notes, something else should have been wrong.
+As I realized I was not smart, I had to keep better notes and write better. I couldn't leave it to chance to learn something and forget about it. As I'm a flawed human, I had to look at my note-taking with the mindset of *a person who forgets*. As I acknowledged that I would forget what I learned today, I was better off writing things down. Changing this perspective was not enough, though. Since I was already taking notes, something else should have been wrong.
 
 Yes, I faced the harsh reality: it was my perspective on my system.
 
@@ -37,15 +37,15 @@ Yes, I faced the harsh reality: it was my perspective on my system.
 
 The perspective is the biggest flaw we have. Yet, the slightest change can lead to magnificent results. Near the end of my search, I changed my perspective on my note-taking system without changing the system.
 
-I changed the _collectivist_ perspective to a _scientist's_ perspective. Scientists search the literature to learn from previous studies and collect a lot of data to build on it. While doing so, they write down their _observations_ on the previous research. They use their _own words_ (they have to prevent plagiarism). Otherwise, they never learn and cannot add anything to the literature. So, I started using my own words while taking a note.
+I changed the *collectivist* perspective to a *scientist's* perspective. Scientists search the literature to learn from previous studies and collect a lot of data to build on it. While doing so, they write down their *observations* on the previous research. They use their *own words* (they have to prevent plagiarism). Otherwise, they never learn and cannot add anything to the literature. So, I started using my own words while taking a note.
 
-I suddenly realized how much I was not learning from what I was reading. The sentences that I was trying to build threw me off the rack. I should have fully understood what I was reading to be able to write it down in my own words. As soon as I put the pen on the paper, writing tested my knowledge. I never had this challenge. By using my own words, I began to learn better. Along with better learning, I evolved my approach, and at one point, I had to change my note-_saving_ system.
+I suddenly realized how much I was not learning from what I was reading. The sentences that I was trying to build threw me off the rack. I should have fully understood what I was reading to be able to write it down in my own words. As soon as I put the pen on the paper, writing tested my knowledge. I never had this challenge. By using my own words, I began to learn better. Along with better learning, I evolved my approach, and at one point, I had to change my note-*saving* system.
 
 ## Changing Note-Saving System
 
 The system I was using pushed me to use the folders and categories. I also used tags to cross-reference between notes, but they were also categories. I used tags to place a note under two categories if a note belonged to more than one category. Later in my research, I learned about Zettelkasten.
 
-I started trying the system. At first, I couldn't really adapt to it because I was still saving quotes. My mind looked for categories and patterns to group notes. In Zettelkasten, there is also tagging, but it wasn't aligned with what I did before. Of course, I mistakenly used tags as before, and it didn't work out. I had to unlearn—which is one of the most difficult things we should do every day. Then I read How to Take Smart Notes _twice_. I learned the beauty and simplicity of the system and where I was wrong. The tags I used had the librarian mindset, but I needed the _archivist mindset_.
+I started trying the system. At first, I couldn't really adapt to it because I was still saving quotes. My mind looked for categories and patterns to group notes. In Zettelkasten, there is also tagging, but it wasn't aligned with what I did before. Of course, I mistakenly used tags as before, and it didn't work out. I had to unlearn—which is one of the most difficult things we should do every day. Then I read How to Take Smart Notes *twice*. I learned the beauty and simplicity of the system and where I was wrong. The tags I used had the librarian mindset, but I needed the *archivist mindset*.
 
 The librarian mindset looks for categories. Every book or magazine belongs to one category, and librarians place them with the goal of easily finding them by their name, genre, and author. Their purpose is simple: the shortest path to find a book.
 
@@ -67,7 +67,7 @@ Instead of trying to become smarter and memorize stuff, I assume I will forget. 
 
 Another expectation I had was to produce more articles or essays to publish on this blog. That is gone too. I will keep writing, but I do not crave to publish more. I expect to write daily and publish only when I'm ready and when it's time to publish [Mektup](/newsletter/).
 
-One expectation I will keep is to learn more, but this time differently. As I write notes in my _own_ words instead of taking quotes, each one challenges my learning. In every written word, I face a huge learning curve. Every note teaches me something better. That's why I keep my learning expectation.
+One expectation I will keep is to learn more, but this time differently. As I write notes in my *own* words instead of taking quotes, each one challenges my learning. In every written word, I face a huge learning curve. Every note teaches me something better. That's why I keep my learning expectation.
 
 ## Finalizing the Challenge
 

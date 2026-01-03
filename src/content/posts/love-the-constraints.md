@@ -40,5 +40,5 @@ _**P.S.** I recommend reading Thinking in Systems by Donella Meadows to learn mo
 
 _**P.P.S.** After two and a half years and 53 issues, [Mektup](/newsletter/) says goodbye to its readers. Mediations will be the only newsletter from now on (including occasional book notes). The archive of Mektup is always available._
 
-> _There_ are _no separate systems_. The _world_ is a _continuum_. Where to _draw_ a _boundary around_ a _system depends_ on the _purpose_ of the _discussion_.
+> *There* are *no separate systems*. The *world* is a *continuum*. Where to *draw* a *boundary around* a *system depends* on the *purpose* of the *discussion*.
 > — Donella Meadows.

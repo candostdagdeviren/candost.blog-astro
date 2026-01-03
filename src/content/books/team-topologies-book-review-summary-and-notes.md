@@ -132,7 +132,7 @@ After defining the topology of the team, we cannot expect that it will stay as i
 
 This interaction mode is suited for rapid discovery and innovation. Two teams can collaborate in two ways: each team works on its expertise area and works with the other team on a small set of things, or we merge two teams. Both styles demand good collaboration skills, alignment, and the ability to work with other teams.
 
-Two teams must take responsibility for the work _together_ and build trust. Because close collaboration blurs the responsibility lines, teams must work well together in a trust-based environment.
+Two teams must take responsibility for the work *together* and build trust. Because close collaboration blurs the responsibility lines, teams must work well together in a trust-based environment.
 
 There will definitely be communication overhead that will cost the organization some efficiency. Therefore, instead of measuring efficiency, the organization should focus on what it gains from rapid discovery and innovation.
 
@@ -168,7 +168,7 @@ During the initial organization design, there will be friction between teams and
 
 ### Evolve Team Structures with Organizational Sensing
 
-When designing teams and organizations, we also must design the _design rules_. The business and its needs will change. Our teams need to adjust themselves to these changes. So, we need to think about when to use which collaboration mode and when not to have any communication between the teams. If our organization needs innovation, we can start by using collaboration mode. Later, if we decide to establish the invention as a product, we can move to X-as-a-service or two stream-aligned teams taking parts of the product. Defining these design rules are as crucial as designing teams.
+When designing teams and organizations, we also must design the *design rules*. The business and its needs will change. Our teams need to adjust themselves to these changes. So, we need to think about when to use which collaboration mode and when not to have any communication between the teams. If our organization needs innovation, we can start by using collaboration mode. Later, if we decide to establish the invention as a product, we can move to X-as-a-service or two stream-aligned teams taking parts of the product. Defining these design rules are as crucial as designing teams.
 
 Organizations should have senses to understand their performance and use these senses to learn about their environment and problems. Much like any living organism needs senses to respond to changes in a dynamic environment, organizations can use communication lines between teams, organizations, and users, and also between internal and external stakeholders to understand and adapt to changes. Organizations can also use operations teams (like IT Operations and DevOps) to provide feedback to other teams about problems in operations. To better align feedback, organizations need to have operations teams embedded in development teams instead of having maintenance teams which are usually filled with low-cost labor to lower the costs.
 

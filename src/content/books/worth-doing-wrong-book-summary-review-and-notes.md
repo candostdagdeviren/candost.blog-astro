@@ -18,7 +18,7 @@ external: false
 
 ## 🌟 My Review
 
-The language of "we are awesome" is so strong, and it's not the way I enjoy the content. I understand that you have to stay strong and advertise what you have done. However, it's too much _for me_.
+The language of "we are awesome" is so strong, and it's not the way I enjoy the content. I understand that you have to stay strong and advertise what you have done. However, it's too much *for me*.
 
 I didn't learn something big and new from the book, but it gave me the words to express what I already knew. There are some books, like Worth Doing Wrong, that you need to read to learn how to express your knowledge and experience.
 
@@ -45,7 +45,6 @@ The book didn't change me, but it planted a few ideas in my head, which is what 
 > "To find your core values as a leader, think about them and ask yourself why they are your core values. The stories should pour out one after another, and if so, you found them."
 
 > "Culture Reflects Leadership."
-
 
 ## 📣What is Worth Doing Wrong Book by Arnie Malham About?
 

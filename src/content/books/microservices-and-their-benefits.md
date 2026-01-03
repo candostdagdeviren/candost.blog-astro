@@ -17,15 +17,15 @@ This post is Chapter 1 of my notes from the book [Building Microservices: Desig
 
 ---
 
-"Microservices are something that could be rewritten in two weeks." as Jon Eaves mentions. They are small and **focused on doing one thing well**. Yet, the size of the service is always problematic to define. We mostly don't realize it until it gets too big. Software architects and engineers can work on minimizing the service until it no longer _feels_ too big.
+"Microservices are something that could be rewritten in two weeks." as Jon Eaves mentions. They are small and **focused on doing one thing well**. Yet, the size of the service is always problematic to define. We mostly don't realize it until it gets too big. Software architects and engineers can work on minimizing the service until it no longer *feels* too big.
 
-_**Feeling**_ **small enough** is the right term.
+***Feeling*** **small enough** is the right term.
 
-Microservices are _**autonomous**_. One change in service shouldn't require a modification in another, and both can be deployed by themselves without requiring their consumers to make any change.
+Microservices are ***autonomous***. One change in service shouldn't require a modification in another, and both can be deployed by themselves without requiring their consumers to make any change.
 
 ## Key Benefits of Microservices
 
-Microservices are all about keeping the balance of these benefits. _Keep the balance right; they are great. Get it wrong; disaster awaits._ In the end, everything is about trade-offs.
+Microservices are all about keeping the balance of these benefits. *Keep the balance right; they are great. Get it wrong; disaster awaits.* In the end, everything is about trade-offs.
 
 - **Technology Heterogeneity**: Autonomous and small independent services enable us to use different tech stacks for each service. **Picking the right tools for the job** instead of a standardized approach fulfills business needs. We can also quickly adopt new technology. However, technological freedom comes with a price; the organizational alignment might suffer.
 - **Resilience**: When there is a problem in service, **it should be possible to isolate that point and degrade functionality instead of total failure**. Stability requires constant effort and knowledge of the domain. Considering microservices are small, we build many different services and need to know how to behave when one of them fails. Although resilience is hard, it is one of the most significant advantages of microservices.

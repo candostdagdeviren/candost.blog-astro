@@ -9,7 +9,6 @@ updateDate: 2013-01-16T11:33:00.000Z
 external: false
 ---
 
-
 ## What is Design Pattern?
 
 There is a good description from Christopher Alexander. He says, "Each pattern describes a problem which occurs over and over again in environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice."

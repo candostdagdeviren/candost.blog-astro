@@ -10,7 +10,6 @@ date: 2025-03-05T05:05:00.000Z
 updateDate: 2025-03-05T05:05:00.000Z
 ---
 
-
 Many job descriptions, company websites, and leaders mention “having a high bar in performance.” Everyone talks about it, but few define it. Nobody is transparent and doesn’t explain what they think. Defining the high bar isn’t just an intellectual exercise—it’s about setting expectations for ourselves and those we work with.
 
 I like clarity. So, here is my attempt to define the high bar—at least mine, at least the one I keep for myself, and the one I apply to people reporting to me.
@@ -19,7 +18,7 @@ To me, **having a high bar in performance means constantly living with and demo
 
 ## Ownership Mindset: The Foundation
 
-I [believe](/strong-ownership-culture-in-a-team/) that people are motivated and driven by purpose when they own, _truly own_, what they do. **Truly owning means taking full responsibility for all aspects of the work.** It’s not like Gollum’s ownership of the ring in The Lord of The Rings but more like Sam’s mission of helping Frodo. Sam is driven with a purpose. He [bears all the burdens on the road](/learnings-on-dealing-with-ambiguity/), sometimes more than Frodo. Even when everything is against him, he doesn’t give up and saves Frodo on various occasions. What he shows everyone is a true ownership mindset.
+I [believe](/strong-ownership-culture-in-a-team/) that people are motivated and driven by purpose when they own, *truly own*, what they do. **Truly owning means taking full responsibility for all aspects of the work.** It’s not like Gollum’s ownership of the ring in The Lord of The Rings but more like Sam’s mission of helping Frodo. Sam is driven with a purpose. He [bears all the burdens on the road](/learnings-on-dealing-with-ambiguity/), sometimes more than Frodo. Even when everything is against him, he doesn’t give up and saves Frodo on various occasions. What he shows everyone is a true ownership mindset.
 
 When people own the idea, put in the work, and drive themselves to the results, remarkable things happen. Every time I see someone owning a piece of work, I see the pride in their eyes when it reaches its end. They meticulously consider all the details, eliminate various risks, work hard and finally achieve an outcome.
 
@@ -47,7 +46,7 @@ This humility also [shapes how they approach their work](/a-life-without-proble
 
 ## Not a Hustle Culture; It’s a Long Term Game
 
-**Hustle culture glorifies overwork, but people with a high bar know better—they play the long game and avoid working more than necessary.** The growth mindset, which involves adjusting every specific detail of work to prevent distractions, focuses on eliminating distractions and maximizing impact with _just enough_ effort.
+**Hustle culture glorifies overwork, but people with a high bar know better—they play the long game and avoid working more than necessary.** The growth mindset, which involves adjusting every specific detail of work to prevent distractions, focuses on eliminating distractions and maximizing impact with *just enough* effort.
 
 These people work intensely when they focus but take breaks to be ready for the next round. They aim to [keep their pace and sustain it for a very long time](/seek-goals-that-will-change-how-you-live/), leaving the [_compounding effect_](https://www.mpfa.org.hk/en/mpf-investment/principles-of-fund-investment/compounding-effect) to play its role.
 
@@ -59,9 +58,9 @@ Yet, some people need guidance to unlock this approach and understand how the hi
 
 Sometimes, as a manager, I hear that I am constantly raising the bar, which may make people feel like they are always trying to do more, meet an impossible task, and fulfill unattainable expectations—making them feel like [Sisyphus](https://www.wikiwand.com/en/articles/Sisyphus). However, **my goal isn’t just to push people harder—it’s to help them realize their potential by gradually raising expectations based on their capabilities.**
 
-When I begin working with someone new, I start by observing where they are—how they approach their craft and what they’re capable of. Once the evaluation is done, we put a high bar _together_—high enough that it is not impossible to reach but definitely requires a good amount of effort.
+When I begin working with someone new, I start by observing where they are—how they approach their craft and what they’re capable of. Once the evaluation is done, we put a high bar *together*—high enough that it is not impossible to reach but definitely requires a good amount of effort.
 
-When I see them touching that bar, I raise it _only if_ _they don’t_. Because my job is to show people what they are capable of. They might not know their potential, but my job is to show them what is possible when _they aim right_ and _try their best_. **Incrementally raising expectations helps them build confidence while unlocking their potential step by step.**
+When I see them touching that bar, I raise it *only if* *they don’t*. Because my job is to show people what they are capable of. They might not know their potential, but my job is to show them what is possible when *they aim right* and *try their best*. **Incrementally raising expectations helps them build confidence while unlocking their potential step by step.**
 
 Of course, there is a catch. Once I discover that their bar is lower than what I would have expected at their level (according to the [organization’s career-level expectations](/the-good-the-bad-and-the-ugly-of-career-ladders-and-frameworks/)), the improvement steps can become a big challenge. However, we set the bar low first. Once we reach that lower bar, we start increasing again.
 

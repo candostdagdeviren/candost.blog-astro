@@ -47,18 +47,18 @@ To uncover the case, we need to understand three different kinds of feedback:
 [I wrote about these three kinds of feedback before](/three-types-of-feedback/). In short:
 
 1. **Appreciation:** It's the feedback we love when it's authentic and given on time. Examples:
-    "Great job!"
-    "I appreciate the feedback you gave last week. I was able to improve thanks to it."
-    "You're a great team player."
+   "Great job!"
+   "I appreciate the feedback you gave last week. I was able to improve thanks to it."
+   "You're a great team player."
 
 2. **Evaluation:** The feedback is to evaluate our skills, align expectations, and clarify consequences. Examples:
-    "We increased your compensation by 30% because you did an amazing job on the last project."
-    "You exceeded our expectations last year."
-    The goal is to rate against standards and expectations.
+   "We increased your compensation by 30% because you did an amazing job on the last project."
+   "You exceeded our expectations last year."
+   The goal is to rate against standards and expectations.
 3. **Coaching:** The feedback is to give direction. It aims to help us learn, grow, or change. Examples:
-    "You should work on your debugging skills."
-    "To improve your communication, please read these two books."
-    The coach is aimed at fixing a problem.
+   "You should work on your debugging skills."
+   "To improve your communication, please read these two books."
+   The coach is aimed at fixing a problem.
 
 We need all three of them. But **_we feel disappointed or become defensive when we expect one but receive the other_**. In the example above, we got evaluation feedback that indicates we didn't meet the expectations while we were waiting for the appreciation feedback.
 

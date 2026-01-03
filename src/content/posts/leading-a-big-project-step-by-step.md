@@ -10,7 +10,6 @@ date: 2025-01-21T08:30:00.000Z
 updateDate: 2025-01-21T08:30:00.000Z
 ---
 
-
 When I [​peaked into​](/studying-and-learning-leadership/) the engineering management role, one of my biggest challenges was learning how to lead projects involving multiple teams.
 
 Delivering a project from scratch to production is a big challenge, especially for big organizations. It takes months to move a needle due to the complexity. Clarifying the why and the what, identifying risks, setting expectations, and convincing people require a lot of time.

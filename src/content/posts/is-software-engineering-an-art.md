@@ -45,9 +45,9 @@ We often ignore the reality of innovation: The innovation rises from knowing the
 
 Take Tim Berners-Lee, for example. Before implementing the first HTTP, he worked in telecommunication companies, did many projects in computer networking for years. He learned the fundamentals well enough that later he was able to connect TCP and DNS to set the foundation of the World Wide Web (WWW).
 
-On a lower scale than WWW, let's take Uber (or any other big tech company) as an example. They have built their own mobile architecture ([RIBs](https://eng.uber.com/driver-app-ribs-architecture/)) *after* they learned the ground rules and used the boring ones. Until it didn't fulfill their need, they used what was there. They learned the technology, needs, and business so well that they knew what they had to do to invent a new framework.
+On a lower scale than WWW, let's take Uber (or any other big tech company) as an example. They have built their own mobile architecture ([RIBs](https://eng.uber.com/driver-app-ribs-architecture/)) _after_ they learned the ground rules and used the boring ones. Until it didn't fulfill their need, they used what was there. They learned the technology, needs, and business so well that they knew what they had to do to invent a new framework.
 
-The major problem of becoming an innovator, artist, and engineer, we have to do the boring work *first*. Without having the fundamentals in place and knowing the ground rules, innovation cannot emerge.
+The major problem of becoming an innovator, artist, and engineer, we have to do the boring work _first_. Without having the fundamentals in place and knowing the ground rules, innovation cannot emerge.
 
 I'm not saying that we have to learn how to use punch cards or write code in FORTRAN. We should choose our own boring technology that is established and won't require us to reinvent a new way to solve the same problems.
 

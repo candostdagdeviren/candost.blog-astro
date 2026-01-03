@@ -49,17 +49,17 @@ If we want linearizability, we have to understand its cost. When we think about 
 
 If we use a single leader, we have more problems because the leader can be in the other data center (not in the one the client sends the request). We must return an error because linearizable read and write operations will require the leader. If clients can get data directly from followers, we won't provide linearizability.
 
-The CAP theorem is often mentioned with linearizability with its *availability* property. But picking two out of three doesn't work; the real solution is "either consistent or available when partitioned." A system can either provide availability or consistency (linearizability), not both. But also partitioning is different in the CAP theorem. It refers to network faults, which is something we cannot avoid at all.
+The CAP theorem is often mentioned with linearizability with its _availability_ property. But picking two out of three doesn't work; the real solution is "either consistent or available when partitioned." A system can either provide availability or consistency (linearizability), not both. But also partitioning is different in the CAP theorem. It refers to network faults, which is something we cannot avoid at all.
 
 Additionally, not many systems provide linearizability, not because of availability but because of performance. Even when network delays are insignificant and have a reliable network, it is still costly in performance to provide linearizability.
 
 ## Ordering Guarantees
 
-We have seen [the ordering](/books/data-replication-in-distributed-systems/) and [learned](/books/data-storage-and-retrieval/) [about concurrency](/books/data-replication-in-distributed-systems/) in many places across the book. The information about which operation happened before another helped us to offer [different levels of guarantees](/books/understanding-how-database-transactions-work/). This happened-before is a *comparison operation*. When we want to put everything in total order, we should be able to *compare* certain things somehow. Yet, not everything is comparable.
+We have seen [the ordering](/books/data-replication-in-distributed-systems/) and [learned](/books/data-storage-and-retrieval/) [about concurrency](/books/data-replication-in-distributed-systems/) in many places across the book. The information about which operation happened before another helped us to offer [different levels of guarantees](/books/understanding-how-database-transactions-work/). This happened-before is a _comparison operation_. When we want to put everything in total order, we should be able to _compare_ certain things somehow. Yet, not everything is comparable.
 
 For example, two mathematical sets are incomparable: how can we compare {a, b} and {b, a}? We can only say they are partially ordered and can think about causally ordering them. So what's different between total order and causality?
 
-*The total order is linearizability*. One thing happens after another. **There are no concurrent operations.** *Causality is having causally related operations*; we can order them but can't compare them whether they are concurrent or not.
+_The total order is linearizability_. One thing happens after another. **There are no concurrent operations.** _Causality is having causally related operations_; we can order them but can't compare them whether they are concurrent or not.
 
 That shows that there are different ordering guarantees. In linearizability, there is no concurrency (it's a stricter consistency than causal consistency). Also, linearizability implies causality: if everything is in total order, it's causally correct.
 
@@ -67,21 +67,21 @@ So, how can we implement these ordering guarantees?
 
 ### Sequence Number Ordering
 
-It's difficult to track ordering operations and identify causality. If we track every operation and determine which ones are causally dependent on another, we would create a large performance overhead. Instead, we can use sequence numbers and timestamps to bring *total order* to the operations in the system.
+It's difficult to track ordering operations and identify causality. If we track every operation and determine which ones are causally dependent on another, we would create a large performance overhead. Instead, we can use sequence numbers and timestamps to bring _total order_ to the operations in the system.
 
-If each operation is assigned a unique number, we can use these numbers to order operations. For example, if the system has a single leader, this leader can assign each operation a sequence number or timestamp and use these numbers to order operations. In multi-leader or leaderless systems, *each node* can assign a number together with a unique node id to make these operations uniquely identifiable. However, we still have the problem of ordering (or causally relating two operations) across nodes if the system doesn't have a single leader.
+If each operation is assigned a unique number, we can use these numbers to order operations. For example, if the system has a single leader, this leader can assign each operation a sequence number or timestamp and use these numbers to order operations. In multi-leader or leaderless systems, _each node_ can assign a number together with a unique node id to make these operations uniquely identifiable. However, we still have the problem of ordering (or causally relating two operations) across nodes if the system doesn't have a single leader.
 
 Before we solve the problem across nodes, let's look at non-causal sequence number generators. Imagine we have two nodes: one can generate and assign odd numbers, and the other even numbers. This way, we can get unique numbers for each operation, but one node can be used more, and the other node's number can stay behind. Thus, it still doesn't tell us which operation came first. Another method is using timestamps generated by a time-of-day clock. However, it's subject to clock skew, as [we learned before](/books/the-trouble-with-distributed-systems/). Another method is using preallocated numbers in each node (e.g., node A uses 1-1000, node B uses 1001-2000). But again, same as even-odd numbering, using preallocated numbers doesn't ensure a causal relationship.
 
 To solve all these issues, we have Lamport timestamps. Lamport timestamps are presented as (counter, node-id). As the pair will always be unique, Lamport represents the total order. If the counters are equal, the higher node-id will be greater. As this structure is the same with even/odd numbering, the system uses an extra parameter to satisfy causality requirements. Every node and every client keeps track of the maximum counter it has seen so far and includes the maximum on every request sent.
 
-Although using Lamport timestamps brings total order and makes a system consistent with causality, it doesn't solve the problems such as choosing a unique username. Even if we can decide who came first, we can only tell after the order is *finalized*. If the order is not finalized yet, we cannot tell if a client making a username request can/should succeed. And for that, we need a total order broadcast.
+Although using Lamport timestamps brings total order and makes a system consistent with causality, it doesn't solve the problems such as choosing a unique username. Even if we can decide who came first, we can only tell after the order is _finalized_. If the order is not finalized yet, we cannot tell if a client making a username request can/should succeed. And for that, we need a total order broadcast.
 
 ### Total Order Broadcast
 
-Total order broadcast is, as the name tells itself, ensuring operations are executed in order across partitions and nodes. Using total order broadcast makes a system act like it has a single partition with a single-core CPU. Systems provide this guarantee with two qualities: **reliable delivery** (*no matter what happens, every node gets the message*) and **total order delivery** (*no matter what happens, every node gets the messages in the same order*).
+Total order broadcast is, as the name tells itself, ensuring operations are executed in order across partitions and nodes. Using total order broadcast makes a system act like it has a single partition with a single-core CPU. Systems provide this guarantee with two qualities: **reliable delivery** (_no matter what happens, every node gets the message_) and **total order delivery** (_no matter what happens, every node gets the messages in the same order_).
 
-In total order broadcast, the message order is fixed at the time messages are *delivered*; no node can intervene and retroactively insert a message in between if the subsequent messages have already been delivered. We can think of delivering messages like creating logs (transaction logs, write-ahead logs, etc.): we append any incoming messages to the end. As all nodes have to deliver the same messages in the same order, the nodes can get the logs and process the same message sequence.
+In total order broadcast, the message order is fixed at the time messages are _delivered_; no node can intervene and retroactively insert a message in between if the subsequent messages have already been delivered. We can think of delivering messages like creating logs (transaction logs, write-ahead logs, etc.): we append any incoming messages to the end. As all nodes have to deliver the same messages in the same order, the nodes can get the logs and process the same message sequence.
 
 Linearizability and total-order broadcast are related but not the same. Total order broadcast guarantees that messages will be delivered in order but **doesn't guarantee when they will be delivered**. In contrast, linearizability is a recency guarantee: a read operation is guaranteed to see the latest written value. We can implement linearizable storage using total order broadcast and total order broadcast using linearizable storage. Actually, both solutions are equivalent to a consensus that we were building upon. If we solve one of these problems, we can build another solution using similar (or sometimes the same) techniques.
 
@@ -94,7 +94,7 @@ Until now, we learned about transactions, replication, system models, linearizab
 Two-phase commit (2PC) separates from single-node transactions by providing atomicity by implementing two phases: prepare and commit. A transaction manager (or coordinator) manages this process to ensure all nodes are either committed or aborted. The 2PC process starts with all nodes reading or writing data as normal. When nodes are ready to commit, the coordinator sends a "prepare" message and asks nodes if they can commit. If all nodes answer "yes," then the coordinator sends another message (the second phase) and tells them to commit. If any node says "No" to the prepare request, the coordinator aborts the process and sends an abort message to all nodes.
 
 **How does the system work in detail?**
-After reads and writes (like in a single-node transaction), the coordinator asks if all nodes can commit. When a participant says "Yes," it has to wait. The node waives all abort rights by saying, "Yes." This is a critical point of no return. Until the node receives the commit message, it has to wait in an uncertain or in doubt state. Once all nodes say yes, the coordinator decides to commit/abort by appending a log message to the transaction log on disk. Right after the log is on disk, it sends a commit/abort message to all nodes. If the commit/abort message fails, the coordinator must retry it forever. If a participant fails at any time, it will commit when it recovers. That log on disk is another critical decision point; there is no turning back. So, in reality, 2PC is actually an atomic transaction *in the coordinator*.
+After reads and writes (like in a single-node transaction), the coordinator asks if all nodes can commit. When a participant says "Yes," it has to wait. The node waives all abort rights by saying, "Yes." This is a critical point of no return. Until the node receives the commit message, it has to wait in an uncertain or in doubt state. Once all nodes say yes, the coordinator decides to commit/abort by appending a log message to the transaction log on disk. Right after the log is on disk, it sends a commit/abort message to all nodes. If the commit/abort message fails, the coordinator must retry it forever. If a participant fails at any time, it will commit when it recovers. That log on disk is another critical decision point; there is no turning back. So, in reality, 2PC is actually an atomic transaction _in the coordinator_.
 **What happens if the coordinator fails?**
 If the coordinator fails before sending the "prepare" message, all nodes can safely abort the transaction. But once the participants receive the "prepare" message and vote "yes," they cannot abort unilaterally until they hear back from the coordinator. If the coordinator fails at this point, the participants have to wait for the coordinator to recover. This is why the coordinator must write the decision to its transaction log before sending a commit/abort message. Once the coordinator recovers, it checks its transaction log. If there are any transac­tions without commit messages, it aborts all.
 
@@ -104,8 +104,8 @@ Distributed transactions have a mixed reputation due to their impact on performa
 
 There are two types of distributed transactions.
 
-1) Database-internal
-2) Heterogeneous.
+1. Database-internal
+2. Heterogeneous.
 
 In database-internal distributed transactions, databases implement accor­ding to their needs and use protocols as they wish. Distributed tran­sactions are used for data replication and partitioning, and databases use the same software or protocol across the whole database. Database-internal transactions work well as they don't need to be compatible with other systems. We face most challenges in heterogeneous distributed transactions.
 
@@ -154,7 +154,7 @@ Before doing anything, the leader checks if there is another leader with a highe
 
 We have two rounds of voting: one round for selecting the leader and another for voting on the leader's proposal. The key is the attending nodes on two rounds must overlap: there has to be at least one node that is present in both rounds, even though quorums can consist of different nodes. This rule ensures that there is no other leader in the process.
 
-The algorithms we discussed look similar to Two-Phase Commit (2PC) but are different. 2PC requires all nodes to vote "yes'' while consensus demands a *quorum*. Also, 2PC is not fault-tolerant like consensus algorithms, and the 2PC coordinator is not elected.
+The algorithms we discussed look similar to Two-Phase Commit (2PC) but are different. 2PC requires all nodes to vote "yes'' while consensus demands a _quorum_. Also, 2PC is not fault-tolerant like consensus algorithms, and the 2PC coordinator is not elected.
 
 #### Limitations of consensus
 
@@ -171,6 +171,6 @@ Zookeeper and etcd are eventually key-value stores, databases that fit into memo
 - **Total ordering of operations:** With [fencing tokens](/books/the-trouble-with-distributed-systems/), Zookeeper prevents clients from conflicting with each other. Zookeeper uses total ordering and assigns each operation a monotonically increasing transaction ID and version number.
 - **Failure detection:** There are periodic heartbeat checks between Zookeeper and the client. If heartbeats fail above timeout time, the client is considered dead (it's called an ephemeral node in Zookeeper).
 - **Change notifications:** Clients can subscribe to changes in Zookeeper instead of requesting information regularly, so they can be notified when a new client joins the cluster.
-Even though only linearizable atomic operations require a consensus algorithm, combining these features makes Zookeeper worthwhile.
+  Even though only linearizable atomic operations require a consensus algorithm, combining these features makes Zookeeper worthwhile.
 
 Also, Zookeeper can be used to allocate work to nodes. While partitions can join and leave the cluster, they can register or be declared dead on Zookeeper. Using the combination of features listed above, we can automatically implement mechanisms to recover from failures without human intervention. However, this implementation is complex and difficult. That's why Zookeeper and etcd are often used for service discovery. This service discovery doesn't require consen­sus. However, leader election requires consensus, and knowing the leader (discovering) becomes important, and other services can discover the leader via Zookeeper. Hence, some consensus systems support read-only caching replicas. They do not participate in voting and asynchronously receive the all decision log of the consensus algorithm and serve read requests that are not needed to be linearizable.

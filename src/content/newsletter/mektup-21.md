@@ -1,7 +1,7 @@
 ---
 title: "Mektup #21: Which skills should you learn in 2022? and How?"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "21"
 date: 2021-12-28
@@ -45,7 +45,7 @@ The chart gives an overview of all skills distribution for senior software engin
 
 Source: [Gergely Orosz](https://twitter.com/GergelyOrosz/status/1473353064358756352)
 
-Looking at the picture closely, you see that **hands-on building software loses its portion once the software engineer starts growing into other roles.** Don't get me wrong; technical skills are still mandatory for almost all leading roles. But they are not _the only skill_ to become a great software engineer. In junior roles, improving technical skills has the highest priority. After that, other skills are more crucial.
+Looking at the picture closely, you see that **hands-on building software loses its portion once the software engineer starts growing into other roles.** Don't get me wrong; technical skills are still mandatory for almost all leading roles. But they are not *the only skill* to become a great software engineer. In junior roles, improving technical skills has the highest priority. After that, other skills are more crucial.
 
 When we think about technical skills, **the leading roles demand more [technical breadth than technical depth](/newsletter/mektup-8/)**. It's still essential to keep technical skills alive because they are beneficial in all leading roles. But you don't need to know every single detail in the code. **If you're leading, you will have to let others do the job so that they can grow while you're wor­king more strategically.**
 

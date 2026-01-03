@@ -1,7 +1,7 @@
-import {defineCollection, z} from 'astro:content';
+import { defineCollection, z } from "astro:content";
 
 const books = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
@@ -18,7 +18,7 @@ const books = defineCollection({
 });
 
 const journal = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
@@ -35,7 +35,7 @@ const journal = defineCollection({
 });
 
 const newsletter = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
@@ -54,7 +54,7 @@ const newsletter = defineCollection({
 });
 
 const notes = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     zettelId: z.string(),
@@ -72,7 +72,7 @@ const notes = defineCollection({
 });
 
 const podcast = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
@@ -90,7 +90,7 @@ const podcast = defineCollection({
 });
 
 const posts = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
@@ -110,7 +110,7 @@ const posts = defineCollection({
 });
 
 const de = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
@@ -126,4 +126,12 @@ const de = defineCollection({
   }),
 });
 
-export const collections = {books, journal, newsletter, notes, podcast, posts, de};
+export const collections = {
+  books,
+  journal,
+  newsletter,
+  notes,
+  podcast,
+  posts,
+  de,
+};

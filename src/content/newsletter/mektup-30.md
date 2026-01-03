@@ -1,7 +1,7 @@
 ---
 title: "Mektup #30: The Exceptional Books, Articles, Videos, and Communities That Made Me a Better Engineering Leader"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "30"
 date: 2022-05-03
@@ -91,4 +91,4 @@ _**P.S. [Managing up is difficult, but it sets you apart from the crowd in your
 
 ## A Quote I'm Pondering
 
-> _"Childhood is when you keep gaining, old age is when you keep losing."_​ — Ursula K. Le Guin
+> *"Childhood is when you keep gaining, old age is when you keep losing."*​ — Ursula K. Le Guin

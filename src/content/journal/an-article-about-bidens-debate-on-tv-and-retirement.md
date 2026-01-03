@@ -17,6 +17,7 @@ Well, I read [an article on The Atlantic](https://www.theatlantic.com/newsletter
 When I disconnect the article from Biden, the short interview gives food for thought in some other directions related to retirement.
 
 A quote from which I learned Grihastha and Vanaprastha and related a lot:
+
 > “…that many successful people get stuck in a stage called Grihastha—which is where you enjoy professional success and adulation—rather than progressing to Vanaprastha, which is where one should become more of a teacher (“crystallized intelligence”).”
 
 A short and good read. Recommended.

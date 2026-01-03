@@ -1,7 +1,7 @@
 ---
 title: "Mektup #19: How to Prepare for Your Annual Review"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "19"
 date: 2021-11-30
@@ -21,7 +21,7 @@ Julia structured the document in a way that forces you to think at different lev
 
 ## Measure Business Impact
 
-If you can identify the business impact of your specific work, add it to your document. Many people say they improved Continues Integration(Cl)/Continuous Deployment(CD) pipelines and reduced the deployment time from 40 minutes to 20. While it's _a_ good measurement, you can showcase it even better. If you want to impress, measure business impact.
+If you can identify the business impact of your specific work, add it to your document. Many people say they improved Continues Integration(Cl)/Continuous Deployment(CD) pipelines and reduced the deployment time from 40 minutes to 20. While it's *a* good measurement, you can showcase it even better. If you want to impress, measure business impact.
 
 Let's imagine your project/company makes $10 per minute, and you had a system failure that took the whole system down. Once you found the problem, you pushed the code. If Cl had run in 40 minutes, your company could have lost $400 in revenue. Thanks to your improvement, it was $200. On top of the saved hours from developers and release times, $200 is **an additional and literal** business impact.
 
@@ -29,9 +29,9 @@ Why is this important? Because the result of your compensation discussion may ne
 
 ## Add the user impact
 
-Besides business impact, think about how you impacted your users. Did the work you have done change users' lives? Not all of our work is on projects that reach millions of users. However, whatever we do, we impact _some_ people's lives.
+Besides business impact, think about how you impacted your users. Did the work you have done change users' lives? Not all of our work is on projects that reach millions of users. However, whatever we do, we impact *some* people's lives.
 
-The user definitions are different depending on the team (e.g., [product teams vs. platform teams](https://martinfowler.com/articles/talk-about-platforms.html)) you work on. Find out **how and how much** you impacted _your_ users. Did you improve performance by X%, and that improvement sole saved Y seconds every day in each user's life? If you have 10k users, Y second becomes Yx10kY seconds (probably some hours per day).
+The user definitions are different depending on the team (e.g., [product teams vs. platform teams](https://martinfowler.com/articles/talk-about-platforms.html)) you work on. Find out **how and how much** you impacted *your* users. Did you improve performance by X%, and that improvement sole saved Y seconds every day in each user's life? If you have 10k users, Y second becomes Yx10kY seconds (probably some hours per day).
 
 ## Attach the feedback
 

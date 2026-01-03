@@ -7,14 +7,13 @@ updateDate: 2021-09-08
 external: false
 ---
 
-
 I always thought that we needed to learn all of the fundamentals of a topic before taking any action. It was the approach I took as a software engineer. I spent my whole life going down rabbit holes, researching, learning, and coming up with solutions that substantially solved the problem. I was wrong. All I needed was action.
 
 Everything started with how the education system shaped my whole life. It is unimaginable. Each day I come across surprises. How the system teaches you to do homework defines your go-to strategy for implementing projects at work. The communication and decision style of the teacher becomes your default style when you collaborate with your colleagues.
 
 Now, when I think about it, as there are hundreds of different education systems around the world, each one of us has another way of doing things at work.
 
-One of the fundamental differences in education systems is persuasion: application-first or principles-first reasoning. In the application-first approach, people usually learn things while doing it. They quickly make _soft_ _decisions_ about how to do it and start implementing the idea. They learn and iterate on the decision on the way. Action is more important than understanding all principles and fundamentals.
+One of the fundamental differences in education systems is persuasion: application-first or principles-first reasoning. In the application-first approach, people usually learn things while doing it. They quickly make *soft* *decisions* about how to do it and start implementing the idea. They learn and iterate on the decision on the way. Action is more important than understanding all principles and fundamentals.
 
 In the principles-first approach, people first try to learn the fundamentals before taking any action. They look from different perspectives and then usually make a concrete decision that is difficult to change.
 

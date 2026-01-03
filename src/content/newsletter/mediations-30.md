@@ -80,7 +80,7 @@ _I share the max three things I found interesting, sorted from good to great._
 
 _**Good:**_ I sent this to a few people at work. Also deserves its share here. Building agency is what I wish everyone would try to do. [How to be high agency at work](https://www.operatorshandbook.com/p/how-to-be-high-agency-at-work?utm_source=%2Fsearch%2Fhigh%20agency&utm_medium=reader2&hide_intro_popup=true) by Torsten Walbaum
 
-_**Better:**_ _“…a reminder that self-understanding, like so many facets of life, rarely moves in a straight line.”_ let me repeat for myself: self-understanding rarely moves in a straight line._ [From Prison, a bank robber and acclaimed author reflects on time](https://psyche.co/videos/from-prison-a-bank-robber-and-acclaimed-author-reflects-on-time) by Psyche.
+_**Better:**_ _“…a reminder that self-understanding, like so many facets of life, rarely moves in a straight line.”_ let me repeat for myself: self-understanding rarely moves in a straight line.\_ [From Prison, a bank robber and acclaimed author reflects on time](https://psyche.co/videos/from-prison-a-bank-robber-and-acclaimed-author-reflects-on-time) by Psyche.
 
 _**Great:**_ [Adaptive Socio-Technical Systems with Architecture for Flow is a great talk by Susanne Kaiser](https://www.youtube.com/watch?v=lpNzR0fvxDw) about the topic we talked about this week. She uses Wardley Map, Team Topologies, and Domain-Driven Design approaches to structure an organization and its systems. Highly recommended!
 

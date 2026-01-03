@@ -1,7 +1,7 @@
 ---
 title: "Mektup #18: What did you learn during the last month?"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "18"
 date: 2021-11-16
@@ -13,9 +13,9 @@ Hey friend,
 
 Happy Tuesday!
 
-I sent the first Mektup on Jan 28, 2021. In ten months, Mektup changed and became what it is today: _letters to share my learnings and experiences about software engineering leadership_. When I send a letter, it's important that I also get a letter back. Therefore, **thanks for all your previous replies** to my letters and the meaningful conversations we had.
+I sent the first Mektup on Jan 28, 2021. In ten months, Mektup changed and became what it is today: *letters to share my learnings and experiences about software engineering leadership*. When I send a letter, it's important that I also get a letter back. Therefore, **thanks for all your previous replies** to my letters and the meaningful conversations we had.
 
-This week, I want to twist the Mektup and hear more from you. I would like _you_ to take a maximum of 5 minutes and answer one simple question:
+This week, I want to twist the Mektup and hear more from you. I would like *you* to take a maximum of 5 minutes and answer one simple question:
 
 **What did you learn during the last month?**
 

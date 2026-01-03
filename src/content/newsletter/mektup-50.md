@@ -2,7 +2,7 @@
 title: "Mektup #50: How to Build Habits That Last"
 description: "This is the 50th issue, and I thought it would be good to talk about habits and how I kept my writing habit to bring Mektup to you every second week."
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "50"
 date: 2023-02-07
@@ -22,7 +22,7 @@ When Kahneman explained the two different systems our brains have in his ground-
 
 Because of the delayed feedback. If we're learning how to ride a bike, we fall when we make a mistake. That's immediate feedback: the pain in our knees or hands shows what we did wrong. If we cycle for hundred meters, we understand what we make right. However, while building a reading, writing, or exercising habit, there is no instant feedback. If we don't read or exercise, nothing hurts at that moment. Moreover, when we consider our bodies' goal of saving energy, we're already inclined to do nothing. To break this physiological need, we need to trick our brains by either getting rewards for the energy spent or reducing the energy we spend on habits.
 
-The good thing about these tricks is that they don't need to be substantial. Our brain only needs _something._ That's why Seinfeld's "Don't Break The Chain" method works: putting a big red X on a calendar on the wall for every day completing the habit. Seinfeld moves the emphasis from performance and achievement to process. As long as he keeps putting marks, the chain continues. The longer the chain, the bigger the reward. As long as the process keeps going, the resistance to doing nothing shrinks.
+The good thing about these tricks is that they don't need to be substantial. Our brain only needs *something.* That's why Seinfeld's "Don't Break The Chain" method works: putting a big red X on a calendar on the wall for every day completing the habit. Seinfeld moves the emphasis from performance and achievement to process. As long as he keeps putting marks, the chain continues. The longer the chain, the bigger the reward. As long as the process keeps going, the resistance to doing nothing shrinks.
 
 I broke my body's resistance by following Seinfeld—I have been using [a dot-on calendar](https://dot-on.de/) for the last three years to mark my habits. Every day, I have two dots (one for writing, one for exercising) to put on the calendar on the wall. Although I might have skipped some exercise days, I have successfully kept my writing habit since 2020. My goal is to put a dot on my calendar every day, not writing 750 words a day for a year or writing three days per week. I sit down, grab the pen, write as long as I can, and put that dot sticker on my calendar. Albeit having a writing habit for years now, I struggled a lot at first. My most significant struggle was finding an answer to the question, "When?"
 

@@ -1,7 +1,7 @@
 ---
 title: "Mektup #5: How to choose what you should focus on next? The case of prioritization and decisions..."
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "5"
 date: 2021-05-13
@@ -11,9 +11,9 @@ external: false
 
 Hello friend! I hope that you are having a great week.
 
-When you, a software engineer, become seasoned (senior and staff engineers) at work, your tasks evolve and change. Multiple projects and initiatives run in parallel, and you start leading one or more of them. The calendar overflows with events, and finding the time to _do the hands-on work_ becomes difficult.
+When you, a software engineer, become seasoned (senior and staff engineers) at work, your tasks evolve and change. Multiple projects and initiatives run in parallel, and you start leading one or more of them. The calendar overflows with events, and finding the time to *do the hands-on work* becomes difficult.
 
-🙌 On the positive side, when you grow, your impact on the company increases. This impact comes from larger projects and initiatives that you work on or lead. Instead of working on one project or service, you start juggling between multiple services. In _smaller_ scoped projects, you sacrifice knowing every single line of code by heart. But in return, you gain a broader understanding of various systems. You often still actively code in some services, but your primary focus shifts to working with systems and constantly switching your focal point from one service to another. This frequent transition provokes other issues such as low motivation, Zoom fatigue, tiredness from the hyperactive hive mind, and lack of deep work that I talked about in the [previous Mektup](/newsletter/mektup-4/).
+🙌 On the positive side, when you grow, your impact on the company increases. This impact comes from larger projects and initiatives that you work on or lead. Instead of working on one project or service, you start juggling between multiple services. In *smaller* scoped projects, you sacrifice knowing every single line of code by heart. But in return, you gain a broader understanding of various systems. You often still actively code in some services, but your primary focus shifts to working with systems and constantly switching your focal point from one service to another. This frequent transition provokes other issues such as low motivation, Zoom fatigue, tiredness from the hyperactive hive mind, and lack of deep work that I talked about in the [previous Mektup](/newsletter/mektup-4/).
 
 ![](/images/content/newsletter/amount-career-experience.png)
 
@@ -48,7 +48,7 @@ Create sections for each category. Place your post-its in these categories.
 
 🔃 Use this visual overview once in a while. The frequency can be biweekly or once a month; it's up to you. The important thing is that you set some time aside and prioritize your work. I recommend setting a recurring time-blocker event in your calendar so that you don't forget and no one will be able to take your time during this event.
 
-🎯 Overall, your goal with this approach is to say "No" to _good things_ to be able to say "YES" to _great things!_
+🎯 Overall, your goal with this approach is to say "No" to *good things* to be able to say "YES" to *great things!*
 
 💁 If you want to learn more about prioritization for senior and staff software engineers, [listen to the 15th episode of the Software World Podcast](https://candost.substack.com/p/15-prioritization-for-senior-and-787) and [read my blog post to learn more in-depth and visual approaches](/prioritization-skills-for-senior-and-staff-software-engineers/).
 

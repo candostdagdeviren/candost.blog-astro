@@ -47,7 +47,8 @@ public class MainClass {
 }
 ```
 
-----
+---
+
 Java'da fonksiyonu final yapınca override yapılamaz.
 
 ```java

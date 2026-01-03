@@ -10,7 +10,7 @@ I live-streamed for fourteen weeks, every Tuesday at 19:00 CET. I had thirteen
 
 ## The Dilemma of Structure
 
-One of the major problems was either having too much structure or too little structure. Since I was interested in software engineering and development topics, it was hard to have an informal chat. Because the topics require preparation. When you have guests, then you _have to_ have questions so that you can guide the stream. But apparently, this is _not_ what people expect from live streams.
+One of the major problems was either having too much structure or too little structure. Since I was interested in software engineering and development topics, it was hard to have an informal chat. Because the topics require preparation. When you have guests, then you *have to* have questions so that you can guide the stream. But apparently, this is *not* what people expect from live streams.
 
 When the talk is live, people expect a more casual chat. Even though we were chatting without any presentation or formality, all the preparations led to not getting enough engagement. Structured live streams are considered like webinars. People hesitate to ask questions.
 

@@ -18,7 +18,7 @@ When we think about people with physical disabilities or difficulties, remote wo
 
 Also, there are invisible disorders from the outside and not even very well-known by the person who has them. [Attention Deficit Disorder (ADD)](https://www.verywellmind.com/add-and-attention-deficit-disorders-2161810) is one of the cognitive disorders. People who have ADD can have difficulties giving attention to something for extended periods. It might be difficult for them to work effectively in an office where there are many meetings and more prolonged social interactions. If they take many breaks, it might seem like they are not working as much as others.
 
-In remote work, _especially async communication_, they can better design their day to be more effective. Additionally, recording meetings becomes notably beneficial for these people to watch back the parts where they lost their attention.
+In remote work, *especially async communication*, they can better design their day to be more effective. Additionally, recording meetings becomes notably beneficial for these people to watch back the parts where they lost their attention.
 
 Another example is people with autism, who may have difficulties understanding some communications and social interactions. Autism spectrum disorder has a range of conditions; depending on the level and the circumstances, people with autism can work in companies that provide a comfortable environment. However, office environments might be troublesome because these people might avoid eye contact, be sensitive to loud noises, or have difficulty understanding what and how others feel.
 

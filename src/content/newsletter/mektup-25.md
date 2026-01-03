@@ -1,7 +1,7 @@
 ---
 title: "Mektup #25: You Need A Definition of Done in Your Team"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "25"
 date: 2022-02-22
@@ -13,7 +13,7 @@ Hey friend,
 
 In the last Mektup, I mentioned the Definition of Done when discussing reliability. Now, I want to dig deeper into it and explore why you and your team need one.
 
-If you hear someone says, _"The work is done,"_ but they need to do some minor things or add tests to ensure everything works, the work is actually not _"done"_! These situations appear more when there is no agreement about what Done means. Without the explicit Definition of Done (DoD), I always see that people use various definitions they _imagined_. Especially when tasks depend on each other, a different understanding of Done can cause misaligned expectations, conflicts, and double work.
+If you hear someone says, *"The work is done,"* but they need to do some minor things or add tests to ensure everything works, the work is actually not *"done"*! These situations appear more when there is no agreement about what Done means. Without the explicit Definition of Done (DoD), I always see that people use various definitions they *imagined*. Especially when tasks depend on each other, a different understanding of Done can cause misaligned expectations, conflicts, and double work.
 
 Instead of **[implicit misunderstandings](/explicit-disagreement-is-better-than-implicit-misunderstanding/)**, we need to make our processes as explicit and transparent as possible and create a common language for the phrases we use. Working agreements and using the same language enable us to focus on crucial and complex issues and free our brainpower.
 

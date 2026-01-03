@@ -1,19 +1,19 @@
-import {h as _h, s as _s} from "hastscript";
-import {remove} from "unist-util-remove";
-import {visit} from "unist-util-visit";
-import {t} from '../i18n/utils.ts';
+import { h as _h, s as _s } from "hastscript";
+import { remove } from "unist-util-remove";
+import { visit } from "unist-util-visit";
+import { t } from "../i18n/utils.ts";
 const variants = new Set(["note", "tip", "caution", "danger"]);
 
 function defaultLabel(v) {
   switch (v) {
     case "note":
-      return  t('aside.note') || 'Note';
+      return t("aside.note") || "Note";
     case "tip":
-      return t('aside.tip') || 'Tip';
+      return t("aside.tip") || "Tip";
     case "caution":
-      return t('aside.caution') || 'Caution';
+      return t("aside.caution") || "Caution";
     case "danger":
-      return t('aside.danger') || 'Danger';
+      return t("aside.danger") || "Danger";
     default:
       return "";
   }
@@ -21,20 +21,20 @@ function defaultLabel(v) {
 
 /** Hacky function that generates an mdast HTML tree ready for conversion to HTML by rehype. */
 function h(el, attrs = {}, children = []) {
-  const {tagName, properties} = _h(el, attrs);
+  const { tagName, properties } = _h(el, attrs);
   return {
     type: "paragraph",
-    data: {hName: tagName, hProperties: properties},
+    data: { hName: tagName, hProperties: properties },
     children,
   };
 }
 
 /** Hacky function that generates an mdast SVG tree ready for conversion to HTML by rehype. */
 function s(el, attrs = {}, children = []) {
-  const {tagName, properties} = _s(el, attrs);
+  const { tagName, properties } = _s(el, attrs);
   return {
     type: "paragraph",
-    data: {hName: tagName, hProperties: properties},
+    data: { hName: tagName, hProperties: properties },
     children,
   };
 }
@@ -104,7 +104,11 @@ export function remarkAsides(options) {
 
   const transformer = (tree) => {
     visit(tree, (node, index, parent) => {
-      if (!parent || index === undefined || node.type !== "containerDirective") {
+      if (
+        !parent ||
+        index === undefined ||
+        node.type !== "containerDirective"
+      ) {
         return;
       }
       const variant = node.name;
@@ -116,9 +120,17 @@ export function remarkAsides(options) {
       // title prop, and remove the paragraph from children.
       let title = options.label?.(variant);
 
-      remove(node, (child)=> {
-        if (child.data && "directiveLabel" in child.data && child.data.directiveLabel) {
-          if ("children" in child && Array.isArray(child.children) && "value" in child.children[0]) {
+      remove(node, (child) => {
+        if (
+          child.data &&
+          "directiveLabel" in child.data &&
+          child.data.directiveLabel
+        ) {
+          if (
+            "children" in child &&
+            Array.isArray(child.children) &&
+            "value" in child.children[0]
+          ) {
             title = child.children[0].value;
           }
           return true;
@@ -132,7 +144,7 @@ export function remarkAsides(options) {
           class: `remark-aside remark-aside--${variant}`,
         },
         [
-          h("h4", {class: "remark-aside__title", "aria-hidden": "true"}, [
+          h("h4", { class: "remark-aside__title", "aria-hidden": "true" }, [
             s(
               "svg",
               {
@@ -142,12 +154,12 @@ export function remarkAsides(options) {
                 fill: "currentColor",
                 class: "remark-aside__icon",
               },
-              iconPaths[variant]
+              iconPaths[variant],
             ),
-            {type: "text", value: title},
+            { type: "text", value: title },
           ]),
-          h("div", {class: "remark-aside__content"}, node.children),
-        ]
+          h("div", { class: "remark-aside__content" }, node.children),
+        ],
       );
 
       parent.children[index] = aside;

@@ -93,22 +93,22 @@ The book has many techniques that are designed to fit each section (Highlight, L
 There are 87 techniques in the book. I'm not going to write each one because almost all of them are written very well, and I can't write again without copy-pasting from the book. However, I will include the categories' list as it appears in the Table of Contents and how many techniques there are inside the category. So, you know what you will get from the book.
 
 1. Highlight Tactics
-    - Choose Your Highlight (7 techniques)
-    - Make Time For Your Highlight (9 techniques)
+   - Choose Your Highlight (7 techniques)
+   - Make Time For Your Highlight (9 techniques)
 2. Laser Tactics
-    - Be The Boss Of Your Phone (6 techniques)
-    - Stay Out of Infinity Pools (11 techniques)
-    - Slow Your Inbox (9 techniques)
-    - Make TV "Sometimes Treat" (5 techniques)
-    - Find Flow (7 techniques)
-    - Stay In The Zone (6 techniques)
+   - Be The Boss Of Your Phone (6 techniques)
+   - Stay Out of Infinity Pools (11 techniques)
+   - Slow Your Inbox (9 techniques)
+   - Make TV "Sometimes Treat" (5 techniques)
+   - Find Flow (7 techniques)
+   - Stay In The Zone (6 techniques)
 3. Energize Tactics
-    - Keep It Moving (4 techniques)
-    - Eat Real Food (5 techniques)
-    - Optimize caffeine (7 techniques)
-    - Go Off The Grid (4 techniques)
-    - Make It Personal (2 techniques)
-    - Sleep In A Cave (5 techniques)
+   - Keep It Moving (4 techniques)
+   - Eat Real Food (5 techniques)
+   - Optimize caffeine (7 techniques)
+   - Go Off The Grid (4 techniques)
+   - Make It Personal (2 techniques)
+   - Sleep In A Cave (5 techniques)
 4. Reflect (No special techniques, but it has three titles inside)
 
 ## ☘️ How the Book Changed Me

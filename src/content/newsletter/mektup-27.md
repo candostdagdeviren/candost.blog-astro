@@ -1,7 +1,7 @@
 ---
 title: "Mektup #27: Unstuck yourself from the ideas that go nowhere"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "27"
 date: 2022-03-22
@@ -17,7 +17,7 @@ Another project needed an engineer, and I was the lucky one to move there. The n
 
 What I didn’t know were the other business cases, deals between project stakeholders, and the urgency. We had to sacrifice technical excellence and deliver a feature, and it was a conscious decision that I couldn’t see. I failed to let the technical excellency go, and conflicts appeared. In the following weeks, I became frustrated, and the team's mood slightly changed. Eventually, I had a chance to move to another project, but I learned a lot. And here is what I learned.
 
-When people insist on doing a job in a certain way, try to understand why. If you’re both pushing in different ways, there is a high chance either one or both of you miss some context. Instead of pressing more and more, take a moment and notice that you’re trying to solve _the same_ problem. When you push the idea, the other side will immediately raise their defense walls because they _feel_ threatened. In turn, you also put your shields up, and the situation leads to conflicts. When you notice the differences, _**declare that both of you are solving the same problem**_. This strategy is one of the essential strategies for persuading others. It also helps you to _reconsider your thoughts_.
+When people insist on doing a job in a certain way, try to understand why. If you’re both pushing in different ways, there is a high chance either one or both of you miss some context. Instead of pressing more and more, take a moment and notice that you’re trying to solve *the same* problem. When you push the idea, the other side will immediately raise their defense walls because they *feel* threatened. In turn, you also put your shields up, and the situation leads to conflicts. When you notice the differences, ***declare that both of you are solving the same problem***. This strategy is one of the essential strategies for persuading others. It also helps you to *reconsider your thoughts*.
 
 Then, ask questions to broaden your perspective on the topic. A few straightforward questions are:
 

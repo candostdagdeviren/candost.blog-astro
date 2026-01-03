@@ -1,7 +1,7 @@
 ---
 title: "Mektup #36: How to Become A Great Mentor"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "36"
 date: 2022-07-26

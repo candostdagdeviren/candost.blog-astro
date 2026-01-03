@@ -14,7 +14,7 @@ external: false
 
 Since the industrial revolution, our daily options are multiplied each year. We have tens of alternatives for a loaf of bread and hundreds of possibilities in choosing a drawer for our bedroom. Mass production and the evolution of the transport industry made everything available everywhere.
 
-Moreover, in the digital age, we started following algorithms' suggestions which tell us what we _should_ choose from millions of options. But these suggestions are not necessarily the best for us; they only represent the best players in the algorithmic game. Although Amazon offers deals to show what we need, Netflix recommends things we might like, Twitter nudges us to follow trends and people, and Goodreads suggests what we read, they only produce poor proposals that _sound like good recommendations_; the decision is still on us—we still have to decide between a certain number of options.
+Moreover, in the digital age, we started following algorithms' suggestions which tell us what we *should* choose from millions of options. But these suggestions are not necessarily the best for us; they only represent the best players in the algorithmic game. Although Amazon offers deals to show what we need, Netflix recommends things we might like, Twitter nudges us to follow trends and people, and Goodreads suggests what we read, they only produce poor proposals that *sound like good recommendations*; the decision is still on us—we still have to decide between a certain number of options.
 
 Unlike many people believe, we're not good at decision-making because we can't consider all aspects of every decision all the time. We create wrong assumptions and make fast decisions that only look good in hindsight.
 
@@ -26,7 +26,7 @@ While we can improve our decision-making skills by learning methodologies and me
 
 For example, I decided not to read any book the same year it was published. Whenever I go to a bookstore and look for books to buy, I don't need to think about if I should buy that new bestseller book or not. I can safely ignore any new book that came out in the last year. That decision alone has already eliminated hundreds of decisions.
 
-We can convert hundreds of future decisions into one higher-level decision and make only one decision. Instead of making one _hasty_ decision, we slow down, take our time, and _decide once and for all_.
+We can convert hundreds of future decisions into one higher-level decision and make only one decision. Instead of making one *hasty* decision, we slow down, take our time, and *decide once and for all*.
 
 This concept is not mine. I learned it from [Tim Ferriss](https://tim.blog/2020/01/20/one-decision-that-removes-100-decisions/), and Tim also learned it from other folks. They used this technique to lighten their decisions and allow themselves to focus their energy on more important areas in their lives. After reading and listening to what they have been saying, I initially found it difficult to generalize my decisions in my life. I felt like my decisions didn't have any importance overall, and I could make them every day.
 

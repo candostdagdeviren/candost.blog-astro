@@ -13,7 +13,7 @@ There is an effective way to add a property to a category. These are called runt
 
 ## Categories
 
-Assume that you have a framework and you want to add some functionalities to one class of it.  For example, consider NSString class which one of the source code access is restricted classes. How can you add a new method to NSString without using categories? Let's write some code.
+Assume that you have a framework and you want to add some functionalities to one class of it. For example, consider NSString class which one of the source code access is restricted classes. How can you add a new method to NSString without using categories? Let's write some code.
 
 ```objective-c
  @interface NSString (SomeAdditions)

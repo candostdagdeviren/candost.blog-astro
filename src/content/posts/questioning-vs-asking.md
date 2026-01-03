@@ -20,22 +20,22 @@ We don't say, "I'm just questioning!"
 
 That's the nuance.
 
-When asking (non-rhetorical questions), we have _curiosity_, we _seek_ information purely to fill our knowledge gap. We ask because we want to _learn_.
+When asking (non-rhetorical questions), we have *curiosity*, we *seek* information purely to fill our knowledge gap. We ask because we want to *learn*.
 
-That's why the advice for young professionals (e.g., junior software engineers) is "ask questions," not "question things." Although we want them to _question the status quo_, we expect them to _ask first_.
+That's why the advice for young professionals (e.g., junior software engineers) is "ask questions," not "question things." Although we want them to *question the status quo*, we expect them to *ask first*.
 
-We may argue about both being the same if the **_intention_** is correct. I don't think so. Because the intention is **invisible**.
+We may argue about both being the same if the ***intention*** is correct. I don't think so. Because the intention is **invisible**.
 
-We don't _see_ anyone's intention when they question us or ask us questions. When someone messages me, I _read_ the message. I pay attention to the words they choose.
+We don't *see* anyone's intention when they question us or ask us questions. When someone messages me, I *read* the message. I pay attention to the words they choose.
 
 If we're in a conversation, the other side may make their intention somehow visible. Because we hear their voice. We observe their behavior and body language.
 
 As long as they don't reflect their intentions in their tone, body language, behavior, or words, we hear them as either condescending or uninterested in learning how things are done.
 
-If we say, "I'm just asking!" one more time, we _know_ where we stand.
+If we say, "I'm just asking!" one more time, we *know* where we stand.
 
 Now, I ask, are you questioning or asking a question?
 
 If you're going to ask, ask. Don't question.
 
-If you're going to question, first ask, _then_ question.
+If you're going to question, first ask, *then* question.

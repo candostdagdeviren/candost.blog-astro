@@ -20,7 +20,7 @@ Every minute, many voices come from everywhere in the world, making it almost im
 
 Moreover, while everyone flocks to the web with unfiltered thoughts, social media lately has gotten even worse. Everyone abruptly transitioned to a journalist. Everyone interprets the impact of the war in Ukraine or the conflict in Gaza, albeit nobody can _comprehend_ what's going on. Without any research, analysis, or even reading contradicting sides, many feel entitled to write a summary of the situation with their commentary. This is utter nonsense; just because they have a voice doesn't mean we should listen.
 
->"Not all writing is worth reading. Just because someone can put words on a page doesn’t mean they are worth reading or add value." — [Schopenhauer](https://fs.blog/schopenhauer-dangers-clickbate/)
+> "Not all writing is worth reading. Just because someone can put words on a page doesn’t mean they are worth reading or add value." — [Schopenhauer](https://fs.blog/schopenhauer-dangers-clickbate/)
 
 I can't endure the people who make a rumpus anymore. Instead of hearing news from everyone who has an emotional attachment—thus, false assessment—to the events, I prefer to read news from professional and _**independent**_ journalists _**who do research**_.
 

@@ -51,7 +51,7 @@ Goal setting is not new, but studies have found that when the goals are not used
 OKR stands for Objective and Key Results.
 
 **Objective:** What will be achieved: concise, clear, action-orien­ted, and inspirational. Destroys fuzzy thinking and execution.
-**Key Results (KRs):** Answers the question, "How do we know we reached the objective?" It is _measurable_, _time-bound_, _aggressive_, and _realistic_. There's no grey area in KR; you achieve it or not. If all KRs are completed, the objective is achieved.
+**Key Results (KRs):** Answers the question, "How do we know we reached the objective?" It is *measurable*, *time-bound*, *aggressive*, and *realistic*. There's no grey area in KR; you achieve it or not. If all KRs are completed, the objective is achieved.
 
 There shouldn't be more than three to five OKRs at the company level; less than five OKRs are always better. OKRs shouldn't be top-down but bottom-up. There shouldn't be any dictating: after agreeing on an objective, key results should become contracts between people.
 

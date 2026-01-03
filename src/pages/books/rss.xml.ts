@@ -1,9 +1,9 @@
 import rss from "@astrojs/rss";
-import {site} from "../../consts";
+import { site } from "../../consts";
 import { getCollectionByName } from "src/utils/getCollectionByName";
-import sanitizeHtml from 'sanitize-html';
-import MarkdownIt from 'markdown-it';
-import { sortPostsByDate } from '../../utils/sortPostsByDate';
+import sanitizeHtml from "sanitize-html";
+import MarkdownIt from "markdown-it";
+import { sortPostsByDate } from "../../utils/sortPostsByDate";
 const parser = new MarkdownIt();
 
 export async function GET() {
@@ -18,18 +18,22 @@ export async function GET() {
 
   return rss({
     title: "Candost's Book Notes",
-    description: "I share either a full book review or a single-chapter note from the books I read.",
+    description:
+      "I share either a full book review or a single-chapter note from the books I read.",
     site: baseUrl + "/books/",
-    stylesheet: '/rss/pretty-feed.xsl',
+    stylesheet: "/rss/pretty-feed.xsl",
     items: books.map((book) => {
-      let url= book.collection == 'posts' ? `${baseUrl}/${book.slug}/` : `${baseUrl}/${book.collection}/${book.slug}/`;
+      let url =
+        book.collection == "posts"
+          ? `${baseUrl}/${book.slug}/`
+          : `${baseUrl}/${book.collection}/${book.slug}/`;
       let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline) | [Buy me a coffee](https://www.ko-fi.com/candost)`;
       let newContent = book.body + `${reply}`;
       let body = parser.render(newContent);
 
       let content = sanitizeHtml(body, {
-        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
-      })
+        allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
+      });
 
       return {
         title: book.data.title,
@@ -37,7 +41,7 @@ export async function GET() {
         description: book.data.description ? book.data.description : "",
         link: url,
         content: content,
-      }
+      };
     }),
   });
-};
+}

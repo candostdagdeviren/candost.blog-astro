@@ -1,7 +1,7 @@
 ---
 title: "Mektup #16: Why do you hide your goals and ambitions?"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "16"
 date: 2021-10-19
@@ -25,7 +25,7 @@ During my one-on-ones with the people, I never mentioned that I wanted to become
 
 ## Compete with Yourself, Not Others
 
-When I had extra responsibilities, people questioned why I had these tasks, not them. Because in their eyes, I was an engineer like they were. What was my privilege to have more responsibilities? They were not jealous; they were confused. Although they may have sought the same position, the reason was _not_ the competition.
+When I had extra responsibilities, people questioned why I had these tasks, not them. Because in their eyes, I was an engineer like they were. What was my privilege to have more responsibilities? They were not jealous; they were confused. Although they may have sought the same position, the reason was *not* the competition.
 
 However, I saw that as a competition, and I hid my goals more intensely.
 

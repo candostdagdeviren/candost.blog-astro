@@ -96,9 +96,9 @@ The important thing is to have mindful moments and focus on what truly matters w
 
 **If I have to choose the most important part of weekly planning, I would choose my weekly promises because these promises bring ambition to my life.**
 
-Until setting promises, everything is *still* a routine life for me. Nothing ambitious; only the routine is more organized. With three weekly promises I make to myself, I raise the bar.
+Until setting promises, everything is _still_ a routine life for me. Nothing ambitious; only the routine is more organized. With three weekly promises I make to myself, I raise the bar.
 
-You can think of these as goals, but using the word *promise* gives a different meaning. If I promise myself to do something by the end of the week, I try my best to achieve it. It also forces my hand **not** to do other things. That’s the whole point.
+You can think of these as goals, but using the word _promise_ gives a different meaning. If I promise myself to do something by the end of the week, I try my best to achieve it. It also forces my hand **not** to do other things. That’s the whole point.
 
 In a given week, I may want to do a hundred things, but I deliberately focus on my promises and avoid the rest. One example from my previous promises is “Finish [Mediations newsletter’s 13th issue](/how-to-delegate-anything-successfully/).” I always send the [newsletter](/newsletter/) on Tuesday, and the promise was to make it ready on Sunday, two days before. During the week, that’s what I focused on and worked on to bring to the finish line. That required me not to do many other things, such as binge-watching a TV series or watching random YouTube videos. When I had to choose one, I knew what I had promised myself. By deciding on one promise, I [eliminated many other decisions](/decisions-that-remove-other-decisions/).
 

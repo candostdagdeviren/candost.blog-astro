@@ -7,7 +7,6 @@ newsletterName: "Mediations"
 issueNumber: "20"
 date: 2025-05-13T09:05:00.000Z
 updateDate: 2025-05-13T09:05:00.000Z
-
 ---
 
 What you do on bad days matters more than on good days
@@ -18,7 +17,7 @@ I am considering making this newsletter more helpful for you by extending its co
 
 Four months have passed since New Year’s resolutions. According to statistics, 23% of the people quit within the first week, 43% by the end of January, and up to 80% by mid-February. At the end of the year, we will have 8-9% of the people remaining. The long story short is that fewer than 1 out of 10 people stick to their resolutions. Which group are you in? One in 10 or the remaining 9? I’m somewhere in between (we’ll see at the end of the year).
 
- Albeit the majority of my resolutions are on track, I abandoned a few. It’s challenging to keep pushing and staying on track. There is one thing I constantly remind myself: if I wait for motivation or inspiration to arrive, I will most likely not find it. Even when I do, I probably won’t take any action about it.
+Albeit the majority of my resolutions are on track, I abandoned a few. It’s challenging to keep pushing and staying on track. There is one thing I constantly remind myself: if I wait for motivation or inspiration to arrive, I will most likely not find it. Even when I do, I probably won’t take any action about it.
 
 We all have good and bad days. It’s easier to work out or eat healthy when we are in a good mood. But “what you do on your bad days matters more than what you do on your good days,” [says](https://www.awakin.org/v2/read/view.php?tid=2577) [Kevin Kelly](https://kk.org).
 
@@ -36,5 +35,5 @@ I share max three things I found interesting, great, cool, etc.
 
 ## Recently, I thought/wrote about
 
-* I feel like owning a website/blog is a different thing from other hobbies. I [wrote](/on-owning-a-website/) about how I see it.
-* I [wrote](/living-without-algorithms/) about why and how I am trying to run away from recommendation engines and algorithmic feeds.
+- I feel like owning a website/blog is a different thing from other hobbies. I [wrote](/on-owning-a-website/) about how I see it.
+- I [wrote](/living-without-algorithms/) about why and how I am trying to run away from recommendation engines and algorithmic feeds.

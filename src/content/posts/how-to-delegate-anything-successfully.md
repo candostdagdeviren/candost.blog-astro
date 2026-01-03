@@ -10,7 +10,6 @@ date: 2025-02-04T08:05:00.000Z
 updateDate: 2025-02-04T08:05:00.000Z
 ---
 
-
 I had been struggling to find the right approach to delegation at work. I had made many small and big mistakes. Some have caused others frustration, and a few have cost time and financial loss. Now that I have gained experience, it’s time to share.
 
 My most significant learning in delegation is this: **a leader must delegate the work they know best** or **the skill they can perform well** to the person who **can and wants to acquire it**.
@@ -77,7 +76,7 @@ If someone is good at moderating the sprint planning, it doesn’t mean they wil
 
 ## Task-Maturity Scale
 
-_"How often you monitor should not be based on what you believe your subordinate can do in general, but on his experience with a specific task and his prior performance with it -_ _**his task-relevant maturity**__...as the subordinate's work improves over time, you should respond with a corresponding reduction in the intensity of the monitoring."_ — Andrew Groove, Co-founder & CEO of Intel
+_"How often you monitor should not be based on what you believe your subordinate can do in general, but on his experience with a specific task and his prior performance with it -_ _**his task-relevant maturity**\_\_...as the subordinate's work improves over time, you should respond with a corresponding reduction in the intensity of the monitoring."_ — Andrew Groove, Co-founder & CEO of Intel
 
 **The main goal is to stretch the person’s skills by helping them, not burn them out.** If we consider the new work on someone’s task-relevant maturity scale, it should fall into the delegation zone.
 

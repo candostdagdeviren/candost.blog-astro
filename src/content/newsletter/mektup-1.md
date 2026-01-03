@@ -1,7 +1,7 @@
 ---
 title: "Mektup #1"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "1"
 date: 2021-01-28
@@ -19,7 +19,7 @@ Before going into the details, I would like to thank you for being here. All eff
 
 Alright, on to the Mektup.
 
-![Good Job](/images/content/newsletter/good-job%20(1).png)
+![Good Job](</images/content/newsletter/good-job%20(1).png>)
 
 ## Interesting Things I Have Been Reading and Thinking About
 

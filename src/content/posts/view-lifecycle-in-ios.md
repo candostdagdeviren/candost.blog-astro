@@ -115,9 +115,9 @@ In this relationship, most of the lifecycle is handled automatically by the syst
 
 Here are the mentioned lifecycle methods for `UIView`:
 
-#### didAddSubview(_:)
+#### didAddSubview(\_:)
 
-#### willRemoveSubview(_:)
+#### willRemoveSubview(\_:)
 
 #### willMove(toSuperView:)
 

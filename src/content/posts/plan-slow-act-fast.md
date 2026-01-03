@@ -9,7 +9,6 @@ date: 2025-09-16T05:11:00.000Z
 updateDate: 2025-09-16T05:11:00.000Z
 ---
 
-
 Although this text seems related to software development projects, most lessons are also applicable to projects like planning a wedding, renovating a kitchen, and writing a book. I marked lessons with bold.
 
 I’ve been managing several large, months‑to-years‑long, cross‑team projects. As these projects tend to go over schedule and budget, I learned to take a different approach: **plan slow, act fast**. The bigger the project, the more planning I do.

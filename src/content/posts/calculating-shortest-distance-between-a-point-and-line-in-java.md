@@ -11,7 +11,7 @@ external: false
 
 Objective: The aim in this practical tutorial is for the students to develop the ability to design and write simple Java programs which may not require a through Object Oriented Design and Analysis. Your task in this week’s lab exercise is to write a Java program which can calculate the shortest distance d from a given point to a given line segment.
 
-The line segment will be given by the two end points by the user. If the projection of the point on the line that the line segment lies on falls outside the line segment, then the distance will be measure to the closest end point. Your program should ask for the point coordinates and line segment end points’ coordinates by using JOptionPane input dialogs, calculate the distance, and report the result by a JOptionPane message dialog. Show your program working in the lab hours and submit your source code via email. Please check that your code compiles from the command prompt with the “javac *.java” command and only send files with .java extension.
+The line segment will be given by the two end points by the user. If the projection of the point on the line that the line segment lies on falls outside the line segment, then the distance will be measure to the closest end point. Your program should ask for the point coordinates and line segment end points’ coordinates by using JOptionPane input dialogs, calculate the distance, and report the result by a JOptionPane message dialog. Show your program working in the lab hours and submit your source code via email. Please check that your code compiles from the command prompt with the “javac \*.java” command and only send files with .java extension.
 
 Solution:
 

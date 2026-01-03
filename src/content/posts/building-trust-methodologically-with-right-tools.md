@@ -60,7 +60,7 @@ Here is the complete list I leverage to build trust (with people directly report
 - [​Transparency over context](/transparency-over-context/): The manager’s job is to manage information flow. Sharing context allows people to do their job effectively while reducing secrecy, which helps build trust.
 - [​Delegation](/how-to-delegate-anything-successfully/): Delegate the work you know best or the skill you can perform well to the person who can and wants to acquire it. There is no better way to grow talent. The more you delegate, the more you show that you trust.
 - (for more relationship-based people) Lunch / Dinners / Social Events: Don’t underestimate the value of a shared meal. Food brings people together.
-​
+  ​
 
 **When I work with my peers or my managers, I still leverage most of these tools, but the shape changes.** With my peers, I rarely do weekly one-one-one but instead have irregular one-on-ones about a specific topic. I increase the level of transparency with them, including more personal details about my team, and I show them even more vulnerability. With my manager, I go all in on transparency and feedback, while delegation plays almost no role.
 

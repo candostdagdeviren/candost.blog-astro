@@ -8,7 +8,6 @@ updateDate: 2023-11-25
 external: false
 ---
 
-
 When I was in the tenth grade in high school, a man appeared next to our math teacher at the beginning of a class. I barely remembered his face then, but soon after introducing himself, I knew who he was as I had heard of him many times. He was one of the most successful graduates from our high-school, just graduated before I started.
 
 That day was a surprise for me to see that guy because the lecture was Math, not a meet-with-graduates event. He answered a lot of questions coming from us. This conversation was one of my main reasons for choosing computer science. One guy, taking a bit of time from his life and answering random questions, had such a great impact on me.

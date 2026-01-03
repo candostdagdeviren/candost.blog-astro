@@ -2,8 +2,8 @@
 title: "Psychology of Money—Book Review, Summary and Notes"
 description: "A profound book shows the psychological behaviors' impact on our investment and financial decisions."
 tags:
- - finance
- - psychology
+  - finance
+  - psychology
 date: 2024-12-30T04:54:00.000Z
 updateDate: 2024-12-30T04:54:00.000Z
 external: false
@@ -66,7 +66,7 @@ The real richness is how much you have control over your time. All surveys and r
 
 As our jobs evolved from laboring to office work, we are constantly working (even while not working, we think about work and problems). The freedom to not do that and have control over time is the real happiness. It's not the money you have, the size of your house. But money can provide you with that freedom. More money doesn't make you happy, but by using the money as a safeguard, you can free up the time to do whatever you want to do whenever you want to do with whoever you want to do with.
 
-## Chapter 8:  Man In The Car Paradox
+## Chapter 8: Man In The Car Paradox
 
 When you spend money to buy a fancy car thinking that people will recognize and respect you, look at you and think that you're an important person, you're putting yourself in the wrong place. When people see the car, they look and admire the car, not you. You're never the topic. They think that one day they will own a car like that and they will be respected. They never think that you must be a very respectful person. The car steals that from you.
 

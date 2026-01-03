@@ -13,11 +13,11 @@ How many times has someone asked you, “What do you mean?” How many times did
 
 How many times have you supposed everyone feels how nervous you are when you’re speaking to a group but they actually had no clue in the end? How many times did you think everybody saw how stressful you were before that meeting?
 
-Those were the moments where you firsthand experienced *the illusion of transparency*. Until someone loudly asked you to rephrase what you said, you thought your sentences all made sense. Yet, they didn’t. Until somebody told you that you nailed the presentation and looked very calm, you thought everyone heard your inner voice and understood your nervousness. Yet, nobody had a clue.
+Those were the moments where you firsthand experienced _the illusion of transparency_. Until someone loudly asked you to rephrase what you said, you thought your sentences all made sense. Yet, they didn’t. Until somebody told you that you nailed the presentation and looked very calm, you thought everyone heard your inner voice and understood your nervousness. Yet, nobody had a clue.
 
 When we talk, we think that everyone understands what we think, how we feel and what we intend. We feel all the spotlights on us, making our inner thoughts, feelings, and struggles clear as a day, and everyone grasps every word we say.
 
-The gap between our subjective experience and how others perceive our thoughts and interpret our emotions is called *the illusion of transparency*. It’s the distance between our internal world and how people around us perceive it.
+The gap between our subjective experience and how others perceive our thoughts and interpret our emotions is called _the illusion of transparency_. It’s the distance between our internal world and how people around us perceive it.
 
 Understanding the illusion of transparency and the size of that gap determines our ability to navigate otherwise challenging situations. It’s beneficial at work and in our relationships. Acknowledging others who don’t have a clue about what we think and feel forces us to create more transparent communication.
 
@@ -27,7 +27,7 @@ It’s similar when we look at someone from the outside. Knowing that they strug
 
 Two members of the Harvard Negotiation Project, Sheila Heen and Douglas Stone, focused on understanding and resolving the most complex negotiations around the world. They found out why people often can’t think straight when emotions are high. In their book Thanks for the Feedback, they explain how we fall into a trap when we confuse the rules.
 
-One of the negotiating moments is exchanging negative feedback. We approach feedback with rules in our heads—what we think is right and how wrong the other person is. While receiving feedback, we pass it through our internal filters using our rules. We confuse the rules because we think that our rules are not only ***our*** rules but ***the*** rules.
+One of the negotiating moments is exchanging negative feedback. We approach feedback with rules in our heads—what we think is right and how wrong the other person is. While receiving feedback, we pass it through our internal filters using our rules. We confuse the rules because we think that our rules are not only **_our_** rules but **_the_** rules.
 
 We also think that our rules should be obvious. We act according to these rules; it was all our intention. So, why do people see them differently? Because there is a gap between our intentions and behaviors and how they impact others.
 

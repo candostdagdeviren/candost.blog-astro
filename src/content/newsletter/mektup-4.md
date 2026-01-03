@@ -1,7 +1,7 @@
 ---
 title: "Mektup #4: Deep Work, 1:1s, Estimations, Conflicts, Documentation, Protective Leadership"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "4"
 date: 2021-04-29
@@ -24,11 +24,11 @@ Changing habits requires a little bit of preparation. As a start, I blocked Deep
 If you want to increase your deep working hours in your workflow like me, here are some suggestions I've seen work:
 
 - **Block focus time on your calendar. Plan it, don't decide on the go.** When the events are visible on your calendar, and you see them all the time, you will be more inclined to apply them. If you find recurring timeframes, you can set the calendar to repeat the events automatically. Make these events visible to everyone and reject other meetings during this timeframe.
-- **Turn off** _**every**_ **notification on your** _**phone**_ **and** _**computer**_**.** (Put your phone upside down in _another_ room. Take off your smartwatch if you have one) Log out from all social media websites on your computer browser. I have been living without social media notifications for a long time, and it's one of the best decisions I have made.
+- **Turn off** ***every*** **notification on your** ***phone*** **and** **\*computer\*\*\***.\** (Put your phone upside down in *another\* room. Take off your smartwatch if you have one) Log out from all social media websites on your computer browser. I have been living without social media notifications for a long time, and it's one of the best decisions I have made.
 - **Close Slack, Telegram, Discord, or whatever messaging app you use.** Don't worry if your team or boss complains. You can kindly say sorry (or not) by explaining that you were focusing on the task to produce a great result. I'm sure that they will understand. If you use the Focus feature of [RescueTime](https://www.rescuetime.com/ref/1098870) and combine it with Zapier to trigger focus time when you have a calendar event. In that case, you can even automatically block distracting apps and websites thanks to RescueTime. Have a system that automatically works for you. The goal is to reduce the effort of going into deep work.
 - **Choose tasks that you can finish in one deep work session.** If your work requires a significant amount of time, slice it down and work on them one by one. Don't overload yourself. At the end of each session, you should be able to have an achievement. Pick tasks you can finish in one sitting.
 - Make your table tidy or put something nice on your desk before starting your deep work. **Beautiful environments can help us to stick to what we're doing.** The trick is to choose something that will make the session attractive and joyful.
-- Put an X on your calendar or make a stack of legos on your table. It doesn't matter what you do; the **visual presentation of your progress will nudge you to do it one more time constantly**. You can also use the "[don't break the chain](https://lifehacker.com/jerry-seinfelds-productivity-secret-281626)" strategy or any other similar idea. Have a system where you _see_ the progress.
+- Put an X on your calendar or make a stack of legos on your table. It doesn't matter what you do; the **visual presentation of your progress will nudge you to do it one more time constantly**. You can also use the "[don't break the chain](https://lifehacker.com/jerry-seinfelds-productivity-secret-281626)" strategy or any other similar idea. Have a system where you *see* the progress.
 
 Try doing it once or twice a week in the beginning. Keep in mind that you cannot have deep work for the entire day. If you can have three sessions (each 1-2 hours) a day, that's great.
 

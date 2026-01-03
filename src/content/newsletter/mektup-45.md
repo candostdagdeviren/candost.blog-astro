@@ -2,7 +2,7 @@
 title: "Mektup #45: How to Explain Things Clearly"
 description: "Two strategies to help explain technical things to non-technical people."
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "45"
 date: 2022-11-29

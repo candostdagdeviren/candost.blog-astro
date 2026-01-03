@@ -1,7 +1,7 @@
 ---
 title: "Mektup #28: Changing jobs to seek happiness won't bring you what you want"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "28"
 date: 2022-04-05
@@ -47,8 +47,8 @@ I will close this week’s letter with the same paragraph from [the article I w
 
 — Candost
 
-***P.S.** [Deep Walks to increase life and work satisfaction.](/csikszentmihalyi-newport-and-pressfield-on-creativity-time-and-deep-walks-in-remote-work/)*
+**\*P.S.** [Deep Walks to increase life and work satisfaction.](/csikszentmihalyi-newport-and-pressfield-on-creativity-time-and-deep-walks-in-remote-work/)\*
 
 ## A Quote I’m Pondering
 
-> _"Many of our beliefs are cultural truisms: widely shared, but rarely questioned."_​ — Adam Grant
+> *"Many of our beliefs are cultural truisms: widely shared, but rarely questioned."*​ — Adam Grant

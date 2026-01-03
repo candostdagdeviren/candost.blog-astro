@@ -30,7 +30,7 @@ There’s no perfect formula for balancing delivery and learning. The reality is
 - _Good_: I will look, understand, act on the survey results from Lenny: [How tech workers really feel about work right now](https://www.lennysnewsletter.com/p/how-tech-workers-really-feel-about) + many things resonate a lot.
 - _Better_: [Is Netflix dumbing down the TV Series so you can watch it easier when you scroll through your Instagram/TikTok](https://www.theguardian.com/tv-and-radio/2025/jan/17/not-second-screen-enough-is-netflix-deliberately-dumbing-down-tv-so-people-can-watch-while-scrolling)? I rarely watch Netflix, but for other reasons.
 - _Great_: I found nothing great this time. Great things should be rare. Finding one is a blessing and requires a bit of luck.
-​
+  ​
 
 Until next time,
 

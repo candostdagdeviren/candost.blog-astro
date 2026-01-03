@@ -1,7 +1,7 @@
 ---
 title: "Mektup #12: Stairway to the Promotion"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "12"
 date: 2021-08-24
@@ -11,7 +11,7 @@ external: false
 
 Hey friend,
 
-Every second week, I write Mektup to share what I learned from reading many articles and books about _software engineering leadership_. Mektup is ideal for busy people such as engineering managers, team leads, and senior & staff software engineers.
+Every second week, I write Mektup to share what I learned from reading many articles and books about *software engineering leadership*. Mektup is ideal for busy people such as engineering managers, team leads, and senior & staff software engineers.
 
 Now, on to this week's Mektup.
 
@@ -31,7 +31,7 @@ It's good to be humble, but there is no need to be a pushover. Learning to take 
 
 When pride is used correctly, it helps tremendously. If used wrongly, it becomes detrimental. There are helpful tools that can be used to keep pride in balance. [The brag document](https://jvns.ca/blog/brag-documents/) is my go-to tool to pour out my holier-than-thou pride. I constantly write to it and use it in performance reviews. In the end, it gives a voice.
 
-As loud as you say, "here are the things I've done; I deserve this promotion," the correct timing is _the_ decisive factor. There might not be an available position, or internal promotions can be put on pause. If you ask for a promotion, you might get a "No," simply because there is no available seat. Talk with your manager and other people at upper levels to understand the environment.
+As loud as you say, "here are the things I've done; I deserve this promotion," the correct timing is *the* decisive factor. There might not be an available position, or internal promotions can be put on pause. If you ask for a promotion, you might get a "No," simply because there is no available seat. Talk with your manager and other people at upper levels to understand the environment.
 
 Sometimes you get a "No" when there are positions available, and you think you are ready for the next step in your career. But many people are usually blind to the next level's requirements. Without fulfilling the requirements, it's probable to get rejected, especially if you ask for the first time. You need to build yourself and everyone around you.
 

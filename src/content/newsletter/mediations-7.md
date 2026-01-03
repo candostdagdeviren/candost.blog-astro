@@ -22,13 +22,14 @@ A few years back, I learned two words that not suddenly but progressively change
 
 Mental models are frameworks for understanding and interpreting the world around us. They help us reflect reality correctly, eliminate misperceptions, and guide our thought processes.
 
-A good example is [Chesterton’s fence](/chestertons-fence/): it tells you to understand the reasons behind an established practice. Software engineers tend to rewrite already working code to make it more *modern*. People often trust themselves too much and remove some *seemingly unnecessary* parts of the code during the rewrite, resulting in bugs. Thinking with Chesterton’s fence, they pause before deleting the old code and ask, “Why was the code designed like this in the first place?” And that question is the essence. The answer will reveal valuable information that is often missed.
+A good example is [Chesterton’s fence](/chestertons-fence/): it tells you to understand the reasons behind an established practice. Software engineers tend to rewrite already working code to make it more _modern_. People often trust themselves too much and remove some _seemingly unnecessary_ parts of the code during the rewrite, resulting in bugs. Thinking with Chesterton’s fence, they pause before deleting the old code and ask, “Why was the code designed like this in the first place?” And that question is the essence. The answer will reveal valuable information that is often missed.
 
 Another mental model is second-order thinking, used to understand decisions' ripple effects and long-term consequences. In first-order thinking, we look for what would happen if we decide on something, focusing on immediate results. In second-order thinking, we look for the consequences of the results. We actively think about the indirect effects the first decision will cause later. In the above example, engineers can rewrite the code in various ways. Using this mental model, they can choose the best strategy to prepare the code for the future.
 
 **The existence of mental models** was probably the best thing I’ve ever learned so far. Knowing various mental models across disciplines, such as physics, economics, psychology, business, and systems and complexity theories, helps me make sense of the world around me. (We’ll not get into all of them, but I’ll write about them from time to time and introduce you to a few crucial ones.)
 
 As Charlie Munger, one of the best investors who have ever lived, says in his talk on April 14, 1994:
+
 > “You can’t really know anything if you just remember isolated facts and try and bang ‘em back. If the facts don’t hang together on a latticework of theory, you don’t have them in a usable form.”
 
 The goal is neither memorizing the facts of the world nor mental models but to use these models to turn the information we have been bombarded with into well-shaped knowledge.

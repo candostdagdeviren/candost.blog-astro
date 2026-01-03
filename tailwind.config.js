@@ -10,40 +10,40 @@ function withOpacity(variableName) {
 }
 
 export default {
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   darkmode: "class",
   theme: {
     screens: {
-      'sm': '600px',
+      sm: "600px",
       // => @media (min-width: 640px) { ... }
 
-      'md': '720px',
+      md: "720px",
       // => @media (min-width: 768px) { ... }
 
-      'lg': '840px',
+      lg: "840px",
       // => @media (min-width: 1024px) { ... }
 
-      'xl': '960px',
+      xl: "960px",
       // => @media (min-width: 1280px) { ... }
 
-      '2xl': '1080px',
+      "2xl": "1080px",
       // => @media (min-width: 1536px) { ... }
     },
     container: {
       center: true,
-      padding: '2rem',
+      padding: "2rem",
       screens: {
-        sm: '600px',
-        md: '720px',
-        lg: '800px',
-        xl: '800px',
-        '2xl': '800px'
-      }
+        sm: "600px",
+        md: "720px",
+        lg: "800px",
+        xl: "800px",
+        "2xl": "800px",
+      },
     },
     textColor: {
       skin: {
         base: withOpacity("--color-text"),
-        active: withOpacity("--color-text-active")
+        active: withOpacity("--color-text-active"),
       },
     },
 
@@ -58,19 +58,19 @@ export default {
     textDecorationColor: {
       skin: {
         base: withOpacity("--color-border"),
-        active: withOpacity("--color-text-active")
-      }
+        active: withOpacity("--color-text-active"),
+      },
     },
     borderColor: {
       skin: {
-        normal: withOpacity('--color-text'),
-        base: withOpacity('--color-border'),
+        normal: withOpacity("--color-text"),
+        base: withOpacity("--color-border"),
       },
     },
     extend: {
       colors: {
         custom: {
-          title: '#555',
+          title: "#555",
           subtitle: "#999",
           hover: "#e0a419",
           active: "#ff7f50",
@@ -80,11 +80,10 @@ export default {
           second: "#d6ccc2",
           third: "#f5ebe0",
           forth: "#e3d5ca",
-          fifth: "#d5bdaf"
-        }
-      }
+          fifth: "#d5bdaf",
+        },
+      },
     },
   },
   plugins: [],
-}
-
+};

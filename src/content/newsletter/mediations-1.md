@@ -39,7 +39,7 @@ These links won't be the hottest or newest links but rather what I recently spen
 
 ## Recently, I thought about
 
-*seeking inconvenience*.
+_seeking inconvenience_.
 
 How much time and money do we spend in our lives to make everything convenient? Does everything have to be convenient?
 

@@ -2,7 +2,7 @@
 title: "Mektup #46: Energy or Time—Which One to Manage?"
 description: "Everybody talks about managing time to get more things done. Yet, I rarely found conversations around managing energy to get the right thing done."
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "46"
 date: 2022-12-13
@@ -22,7 +22,7 @@ How often do you feel you're "_done_" after work in a week and don't want to do 
 
 In many conversations I had, it's apparent that many people have no energy left in the evenings. Also, their energy often depletes after 4-5 hours of shallow work (4-5 hours of deep work is the max we can do in a day). And that's something we need to change—you and me. I include myself because I sometimes feel the same.
 
-A few months ago, I felt lost while trying to start a new initiative at work. I was moving a few meetings to create two hours of uninterrupted time so I can work on it. After a few failed attempts, I came across [Cate's article](https://cate.blog/2022/03/21/energy-management-for-newer-managers/) about energy management (you can see my comment under that post). Then, I realized I had time but no energy to run the initiative at all. I stopped chasing it even though I knew the initiative's outcome would bring positive _results_ for the company and me. Yet, it could have drained my whole energy and motivation.
+A few months ago, I felt lost while trying to start a new initiative at work. I was moving a few meetings to create two hours of uninterrupted time so I can work on it. After a few failed attempts, I came across [Cate's article](https://cate.blog/2022/03/21/energy-management-for-newer-managers/) about energy management (you can see my comment under that post). Then, I realized I had time but no energy to run the initiative at all. I stopped chasing it even though I knew the initiative's outcome would bring positive *results* for the company and me. Yet, it could have drained my whole energy and motivation.
 
 These days, I'm focused on managing and **maintaining my energy together with my time**. Before I take any extra responsibility, begin a new initiative, start a new project, or say yes to a "quick question," I ask myself, "_Is this something I can spare some energy for even if I have time?_" I follow up the "Yes" answer with, "_Do I want to spend my energy on this thing? Is it going to deplete my energy or energize me?_" Once I know the answers, it's clearer whether I should take that extra responsibility.
 

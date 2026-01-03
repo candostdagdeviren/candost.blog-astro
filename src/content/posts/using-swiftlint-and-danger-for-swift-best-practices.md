@@ -20,7 +20,7 @@ Sounds interesting...🤔 But what are these tools, actually?
 
 You can take a look at the setup guide and tutorial [here](http://bit.ly/2oJGIUS). After installation, you’ll have some rules by default. For example, it warns when you use private IBOutlet or force unwrapping in optionals.
 
-Let’s take a look at Göksel’s [tips](http://bit.ly/2oTbJkg). He says, “Never use implicitly unwrap optionals.” SwiftLint provides this by default exactly how he describes it. SwiftLint will warn you when you implicitly unwrap an optional, except if it’s IBOutlet. The other one is “Avoiding _ misuse.” SwiftLint is smart enough to point you out when you’re not using your bound optionals.
+Let’s take a look at Göksel’s [tips](http://bit.ly/2oTbJkg). He says, “Never use implicitly unwrap optionals.” SwiftLint provides this by default exactly how he describes it. SwiftLint will warn you when you implicitly unwrap an optional, except if it’s IBOutlet. The other one is “Avoiding \_ misuse.” SwiftLint is smart enough to point you out when you’re not using your bound optionals.
 
 ```swift
 if let _ = Foo.optionalValue { } // Trigers a warning
@@ -29,9 +29,9 @@ if foo() { let _ = bar() } // Not triggers a warning
 if foo() { _ = bar() } // Not triggers a warning
 ```
 
-In addition to applying best practices individually, we want to make the codebase consistent. Make it easier to apply custom rules. These rules should fit best practices, though. Configuring linting is handled from the _.swiftlint.yml_ file. This file sits in the project’s main path. We can enable, disable or write custom rules in this YML file. Let’s take a look at some examples.
+In addition to applying best practices individually, we want to make the codebase consistent. Make it easier to apply custom rules. These rules should fit best practices, though. Configuring linting is handled from the *.swiftlint.yml* file. This file sits in the project’s main path. We can enable, disable or write custom rules in this YML file. Let’s take a look at some examples.
 
-First things first, writing a big function is generally a bad sign. If your function is getting bigger, it means that you should split [the responsibility](http://bit.ly/2qqFzxT). Add the following code piece to your _.swiftlint.yml_ file. This warns developers to have functions less than 200 lines. If the programmer reaches 300, SwiftLint generates an error. Remember, you can ignore warnings but not errors. 😉
+First things first, writing a big function is generally a bad sign. If your function is getting bigger, it means that you should split [the responsibility](http://bit.ly/2qqFzxT). Add the following code piece to your *.swiftlint.yml* file. This warns developers to have functions less than 200 lines. If the programmer reaches 300, SwiftLint generates an error. Remember, you can ignore warnings but not errors. 😉
 
 ```ruby
 function_body_length:
@@ -70,7 +70,7 @@ You can get the list of all rules by running `swiftlint rules` command in the 
 
 Finally, we finalized our rules, and now we can code in peace. But even in some cases, you have to be more careful than just applying your linting rules. This is where Danger comes into place.
 
-**P.S.:** You can find my predefined _.swiftlint.yml_ file [here](http://bit.ly/2pswdlX)😉.
+**P.S.:** You can find my predefined *.swiftlint.yml* file [here](http://bit.ly/2pswdlX)😉.
 
 ## Danger ⚡️
 
@@ -102,14 +102,14 @@ if has_app_changes && !has_test_changes && git.lines_of_code > 20
 end
 ```
 
-The Danger is suitable for every kind of project. It provides a broad range of configurations to several languages by plugins. In Swift's case, Ash Furrow developed [a plugin](http://bit.ly/2pvYyd2) for SwiftLint. Thanks to this plugin, we can have SwiftLint warnings as inline comments in the pull request. You can see the installation guide [here](http://bit.ly/2pvYyd2). After installation, you’ll need to add the following lines to the end of your _Dangerfile_.
+The Danger is suitable for every kind of project. It provides a broad range of configurations to several languages by plugins. In Swift's case, Ash Furrow developed [a plugin](http://bit.ly/2pvYyd2) for SwiftLint. Thanks to this plugin, we can have SwiftLint warnings as inline comments in the pull request. You can see the installation guide [here](http://bit.ly/2pvYyd2). After installation, you’ll need to add the following lines to the end of your *Dangerfile*.
 
 ```ruby
 swiftlint.lint_files
 swiftlint.lint_files inline_mode: true
 ```
 
-_Dangerfile_ ensures your development guidelines are applied to your code. It makes you more confident. In the long run, warnings teach you to be more careful. There is a reference guide [here](http://bit.ly/2oCQ9pd) to give you a more detailed view of Danger’s capabilities.
+*Dangerfile* ensures your development guidelines are applied to your code. It makes you more confident. In the long run, warnings teach you to be more careful. There is a reference guide [here](http://bit.ly/2oCQ9pd) to give you a more detailed view of Danger’s capabilities.
 
 **Note:** You don’t have to configure CI. It’s possible to run Danger on your local machine with `danger local` command.
 
@@ -119,7 +119,7 @@ If `danger local` command doesn’t run across the last open PR, you can alway
 danger pr https://YOUR_PR_URL --dangerfile=YOUR_DANGERFILE_PATH
 ```
 
-**P.S.:** You can find my predefined _Dangerfile_ [here](http://bit.ly/2oT8Z6s)😉.
+**P.S.:** You can find my predefined *Dangerfile* [here](http://bit.ly/2oT8Z6s)😉.
 
 ## Bonus: SwiftLint with Git Hook
 

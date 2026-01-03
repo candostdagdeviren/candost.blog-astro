@@ -2,7 +2,7 @@
 title: "Mektup #43: Mektup is changing—Failures and Reflections"
 description: "Today, I want to reflect on the past ~2 years of Mektup and share some news with you. It's a bit longer than usual but keep reading till the end."
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "43"
 date: 2022-11-01
@@ -26,13 +26,13 @@ The goal was to send casual letters to my friends about things I found interesti
 
 There is a concept of "finding your niche" in the content creator world. I found myself searching for my niche in every Mektup I wrote. The content creator community hooked me and pulled me away from my way.
 
-I sought to be more specific with the topics, my audience, and my writing. I focused on software engineers who are on the edge of becoming a leader. I looked for topics they needed to know and learn and tried to put one Mektup after another _for them_. You're one of these people, and I know how much stress you have in this leadership transitioning period. That's why I focused on _helping you_. With that focus, my list of possible topics to write about grew and became a giant that I could not complete in five years.
+I sought to be more specific with the topics, my audience, and my writing. I focused on software engineers who are on the edge of becoming a leader. I looked for topics they needed to know and learn and tried to put one Mektup after another *for them*. You're one of these people, and I know how much stress you have in this leadership transitioning period. That's why I focused on *helping you*. With that focus, my list of possible topics to write about grew and became a giant that I could not complete in five years.
 
-But (yes, there is a _but_), as my idea list grew, I forgot one crucial thing. While writing each Mektup focused on you, I forgot to focus on _how I want to grow_. While doubling down on helping you, _I forgot to help myself_.
+But (yes, there is a *but*), as my idea list grew, I forgot one crucial thing. While writing each Mektup focused on you, I forgot to focus on *how I want to grow*. While doubling down on helping you, *I forgot to help myself*.
 
 Mektup evolved and changed me together with itself, without me realizing this change. When I started, I was transitioning from a software engineer role to engineering management. And I was thinking of becoming a content creator on the side. That's why I created a newsletter, and a podcast, gave talks and mentored people.
 
-One thing I learned during my four months of sick leave for burnout (which was before all these efforts) was to know your limits and accept when you fail with your whole heart, as failure was yours from the beginning. So, this letter is an acceptance of my failure. Failure to find _me_, _my goal_, _my voice_, and _my limits_.
+One thing I learned during my four months of sick leave for burnout (which was before all these efforts) was to know your limits and accept when you fail with your whole heart, as failure was yours from the beginning. So, this letter is an acceptance of my failure. Failure to find *me*, *my goal*, *my voice*, and *my limits*.
 
 In every letter I wrote, it was not 100% me. I'm sorry. There were many pieces from me, but I tried to hold some of my thoughts for not going outside of the premise of the newsletter. Although it might be a good thing to write about a specific topic—a niche—it's not that great for me. I am a human, and I have more complex thoughts and life. Last two years, I put a blanket over my thoughts and hid them in my cabinet, where I stored all my other ideas.
 
@@ -42,9 +42,9 @@ So, "what's next?" you may ask.
 
 Well, first things first: I don't want to be a content creator anymore. I'm done with that stage of my life. I am a failed content creator, and I acknowledge it. Just writing this down is a relief in itself. Finding it took me about two years, but I'm glad I had the journey.
 
-Mektup will resume in the same cadence every two weeks on Tuesdays, though the content will change. It will include anything from my professional _and_ personal life. It will articulate my thoughts, share my learnings in my professional life, and carry my personal journey with it.
+Mektup will resume in the same cadence every two weeks on Tuesdays, though the content will change. It will include anything from my professional *and* personal life. It will articulate my thoughts, share my learnings in my professional life, and carry my personal journey with it.
 
-So, you will read more _about_ me _from_ me. The topics will include—but won't be limited to—software engineering, leadership, productivity, software and hardware, consumer behaviors, writing, reading, podcasting, snowboarding, kayaking, hiking, coffee, books, sleep, physical and mental health, music, Berlin/Germany life, learning a new language, philosophy, psychology, and some other topics I find interesting.
+So, you will read more *about* me *from* me. The topics will include—but won't be limited to—software engineering, leadership, productivity, software and hardware, consumer behaviors, writing, reading, podcasting, snowboarding, kayaking, hiking, coffee, books, sleep, physical and mental health, music, Berlin/Germany life, learning a new language, philosophy, psychology, and some other topics I find interesting.
 
 I know there are a ton of different topics above, but I have many interests, and that makes me a human. Denying it would not be wise.
 
@@ -60,6 +60,6 @@ Talk to you soon in another Mektup,
 
 Candost
 
-***P.S.** [My all-time favorite author, Ursula K. Le Guin, on answering questions](https://twitter.com/tferriss/status/1581678216984395777).*
+**\*P.S.** [My all-time favorite author, Ursula K. Le Guin, on answering questions](https://twitter.com/tferriss/status/1581678216984395777).\*
 
-***P.P.S.** There are more changes in my life. [I started a new job today!](/joining-sumup/)*
+**\*P.P.S.** There are more changes in my life. [I started a new job today!](/joining-sumup/)\*

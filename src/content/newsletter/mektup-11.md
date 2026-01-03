@@ -1,7 +1,7 @@
 ---
 title: "Mektup #11: Do you know what's coming next?"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "11"
 date: 2021-08-05
@@ -31,4 +31,4 @@ Plan, but not over plan. The trick is planning with a high-level overview, not w
 
 In a changing world, a certain level of expectancy is enough to reduce stress and motivate people. You don't need to create a plan for the following year. When you do, it will probably become obsolete. So, define what's coming next with an eye towards your end goal and vision. Reduce stress to increase motivation.
 
-*P.S.: [You can also improve your prioritization skills to decide what to focus on next.](/prioritization-skills-for-senior-and-staff-software-engineers/)*
+_P.S.: [You can also improve your prioritization skills to decide what to focus on next.](/prioritization-skills-for-senior-and-staff-software-engineers/)_

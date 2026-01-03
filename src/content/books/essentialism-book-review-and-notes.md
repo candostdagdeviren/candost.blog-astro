@@ -9,7 +9,6 @@ updateDate: 2023-10-29
 external: false
 ---
 
-
 > **How Strongly I Recommend It:** 5/10
 >
 > **How Likely I Will Gift It:** 7/10
@@ -20,7 +19,7 @@ Anyone who is pulled into too many directions in their lives and wants to change
 
 ## Why should you read it?
 
-I read it because I felt the pressure to do everything, do everything right, and do whatever is expected of me. I didn't really stop and consider what I *really wanted* or what *really mattered*. I tried and struggled to accomplish many things. I read it not because I had no idea what I could do but because I needed a think-along partner in this. I already knew many things mentioned in the book, and maybe only 5-10% was new to me. However, it helped me debate ideas and reiterate what I had forgotten. If you're like me, if you have already read many productivity things and know what you can do but are still pulled into many directions, then it can be a good book to accompany you while thinking.
+I read it because I felt the pressure to do everything, do everything right, and do whatever is expected of me. I didn't really stop and consider what I _really wanted_ or what _really mattered_. I tried and struggled to accomplish many things. I read it not because I had no idea what I could do but because I needed a think-along partner in this. I already knew many things mentioned in the book, and maybe only 5-10% was new to me. However, it helped me debate ideas and reiterate what I had forgotten. If you're like me, if you have already read many productivity things and know what you can do but are still pulled into many directions, then it can be a good book to accompany you while thinking.
 
 ## Reding Notes
 
@@ -28,7 +27,7 @@ I read it because I felt the pressure to do everything, do everything right, and
 - Read timeless ideas and create space to read more. Reading helps you find ideas, learn them, and debate with authors.
 - Listen to what's NOT said, read between the lines when people communicate, and focus on finding what their main point is.
 - Keep a journal. You can start with short entries every day. Read your journal every thirty or ninety days to see the bigger picture of what happened. We tend to be shortsighted with daily situations and don't see the progress or changes that happened in longer periods.
-- Sleep for high performance and clear thinking. 7-9 hours sleep boosts your performance. (*I read this so many times and also tried to increase my sleeping hours from 6 to 7.5, and I can say that it's true.*)
+- Sleep for high performance and clear thinking. 7-9 hours sleep boosts your performance. (_I read this so many times and also tried to increase my sleeping hours from 6 to 7.5, and I can say that it's true._)
 - Clarify your essential intention. What's the one thing that you want to do? What's the one thing that will eliminate nonessential things? What's one decision you can make that will remove hundreds of distractions?
 - Say no to things that distract you, or you lack the capacity for. You don't have to say no directly; you can learn nice and kind ways to do it.
 - Be aware of biases and try removing commitments one by one if they don't add any value to the essential thing in your focus.

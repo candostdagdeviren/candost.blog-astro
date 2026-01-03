@@ -19,7 +19,7 @@ I was in the first group rather than the latter. If I saw an opportunity to do s
 
 **When the ego is destroyed, when desires are stripped away, when arrogance is torn down, we arrive at the truth.** Nobody wants to be seen as stupid or wrong. I didn’t want either. However, the person who can [admit that they are wrong](/notes/7/) triumphs. Confessing the mistake requires setting the expertise aside and sitting in the learner’s chair.
 
-When I employed an open mind, a learner’s mindset, the right problem revealed itself, not the one that would *presumably* benefit me the most. _Feeling_ like an expert (and having the attitude of “I know them all”) prevented me from evaluating the problem fairly. I became a fake expert, shortsighted at the expense of "effectiveness." I focused on the number of issues I solved, while forgetting the efficiency: solving the right problem.
+When I employed an open mind, a learner’s mindset, the right problem revealed itself, not the one that would _presumably_ benefit me the most. _Feeling_ like an expert (and having the attitude of “I know them all”) prevented me from evaluating the problem fairly. I became a fake expert, shortsighted at the expense of "effectiveness." I focused on the number of issues I solved, while forgetting the efficiency: solving the right problem.
 
 The surprising truth, especially for people in leadership roles like me, is that others often tell us the problem, but we ignore it. We deny taking another perspective.
 
@@ -27,7 +27,7 @@ The surprising truth, especially for people in leadership roles like me, is that
 
 Arnie Malham, in his book [Worth Doing Wrong](/books/worth-doing-wrong-book-summary-review-and-notes/), talks about the importance of fostering an [open culture at work](/notes/54/). Only an open culture can provide opportunities for everyone to raise their voices, escalate problems (or even solve them without anyone noticing), and [share feedback](/notes/31/). The leader’s job is to create this culture and listen to the people, understand the problems, and prioritize correctly.
 
-Most escalated problems may appear as noise, especially when they conflict with problems leaders identify on their own. Many leaders tap into their ego and think, “My team neither sees the big picture nor the right problems.” They choose the problems they *assume* are important. They miss the forest for the trees.
+Most escalated problems may appear as noise, especially when they conflict with problems leaders identify on their own. Many leaders tap into their ego and think, “My team neither sees the big picture nor the right problems.” They choose the problems they _assume_ are important. They miss the forest for the trees.
 
 :::note[Story Time]
 Sometime ago, my team was falling behind on deliverables and was becoming a bottleneck in various projects. I focused on delivering results project by project and looked for all small problems that their resolution could speed up development. The harder I pushed for speed, the slower we got. However, the moment I took a step back, the moment I listened to my team, the moment I looked at the forest, I realized that I had chosen the wrong problem. The problem was not in my team or the speed of development.
@@ -49,4 +49,4 @@ Don’t invent problems. Leave your ego aside and carefully observe and evaluate
 
 ---
 
-*I created this article using these notes: [46j](/notes/46j/), [52a4](/notes/52a4/), [7](/notes/7/), [12](/notes/12/), [31](/notes/31/), [27a](/notes/27a/), [38b](/notes/38b/), [54](/notes/54/), [30](/notes/30/), [52a](/notes/52a/), [68](/notes/68/), [7c](/notes/7c/), [20c](/notes/20c/), [24a1](/notes/24a1/), [56m](/notes/56m/)*
+_I created this article using these notes: [46j](/notes/46j/), [52a4](/notes/52a4/), [7](/notes/7/), [12](/notes/12/), [31](/notes/31/), [27a](/notes/27a/), [38b](/notes/38b/), [54](/notes/54/), [30](/notes/30/), [52a](/notes/52a/), [68](/notes/68/), [7c](/notes/7c/), [20c](/notes/20c/), [24a1](/notes/24a1/), [56m](/notes/56m/)_

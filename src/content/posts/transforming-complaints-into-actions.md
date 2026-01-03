@@ -10,7 +10,6 @@ date: 2025-03-18T06:05:00.000Z
 updateDate: 2025-03-18T06:05:00.000Z
 ---
 
-
 During one-on-ones or team meetings, people sometimes complain endlessly. Managers struggle to understand how to respond to their direct reports’ complaints. They become people’s venting sponges, having no idea how to react or take action on most complaints.
 
 I’ve been in that place, and I know I’m not alone. I’ve also complained a lot to my managers. Some of them also had no idea what to do. I know it because I remember their faces. They looked calm. They tried to hide their frustration. They tried to listen to me and took my heat off about a topic that didn’t matter a week later.
@@ -35,7 +34,7 @@ When I ask my team members the question, sometimes they answer, “Nothing. I’
 
 **With that question, we open a conversation and start digging to find out what the person cares about.** I once had an engineer on my team who was very unhappy about many decisions in the organization. I asked the same question while they were complaining. Their answer was, “Can you help me make my concerns visible because I don’t have the forum to do it myself?” Through our conversation, I realized that they cared about accountability. Back then, a manager could get away with many bad decisions. For them, it wasn’t about any bad decision itself; it was about the dynamics of the organization. They didn’t have a voice or a forum to raise a concern. What we did was set up a meeting with the C-level.
 
-Today, I sometimes complain to my manager, and my team does the same to me. **Complaining shows that we care about what we are doing; it’s a very human thing. But when it gets too much and is not actionable, it becomes frustrating, especially for managers.** A simple question can sometimes change a lot of things. A slight nudge to others can change the whole team’s mood. But don’t forget: *this question requires trust and asking with curiosity.*
+Today, I sometimes complain to my manager, and my team does the same to me. **Complaining shows that we care about what we are doing; it’s a very human thing. But when it gets too much and is not actionable, it becomes frustrating, especially for managers.** A simple question can sometimes change a lot of things. A slight nudge to others can change the whole team’s mood. But don’t forget: _this question requires trust and asking with curiosity._
 
 If the manager asks it with frustration, the team will close their communication doors. Even if the manager is frustrated, that frustration has to be hidden. **The question should come from a place of genuine curiosity and be asked in a trustful environment.** Without these preconditions, it’s doomed to fail.
 

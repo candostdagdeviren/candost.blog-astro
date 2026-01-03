@@ -1,14 +1,13 @@
 ---
 title: "Mektup #29: Building correct relationships will help you climb the Ladder"
 tags:
- - mektup
+  - mektup
 newsletterName: "Mektup"
 issueNumber: "29"
 date: 2022-04-19
 updateDate: 2022-04-19
 external: false
 ---
-
 
 Hey friend,
 

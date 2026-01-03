@@ -9,7 +9,6 @@ external: false
 favorite: false
 ---
 
-
 Think about a company where you can find all the information you are looking for. Everything is written and accessible—from detailed analysis of company financials to notes from the board meetings, from all details of projects to who is doing what at any moment. It looks like a utopia. Why can't many organizations even get close?
 
 People cannot figure out what level of transparency they should provide others. Leaders, in particular, keep certain information to themselves, sometimes with good intentions, like protecting someone else's privacy, but more often, they can't control their egos. When they receive feedback that says they need more transparency, they struggle to understand what that means.
@@ -18,7 +17,7 @@ Many leaders think transparency is something unattainable. You will also hear ma
 
 Sometimes, leaders want to [control the decision-making process](/the-decision-making-pendulum/). They manage access to information, form groups and invite others as they see fit. As they try to influence or balance a group of people, uninvited access to information might jeopardize the group dynamics and cause problems.
 
-Actually, many leaders get the idea of decision-making wrong. Leadership is about decisions, but not always making them. Leaders must work toward helping the whole organization make better decisions *[quickly](/why-cant-this-be-done-sooner/)*. One way to do that is to lead the team by giving them full context.
+Actually, many leaders get the idea of decision-making wrong. Leadership is about decisions, but not always making them. Leaders must work toward helping the whole organization make better decisions _[quickly](/why-cant-this-be-done-sooner/)_. One way to do that is to lead the team by giving them full context.
 
 The team, which must make certain decisions to progress, must be able to access the context, content and all the information it needs without waiting for someone to make that information available to them. [Leaders must provide context to their teams and let the team of experts make a decision](/the-real-difficulty-of-engineering-leadership/). Leaders should work toward creating—[what Brie calls](https://koolaidfactory.com/structural-transparency-vs-content-level-transparency/)—content-level transparency.
 
