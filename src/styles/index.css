@@ -1,8 +1,9 @@
 @import url("./github-markdown.css");
+@import url("./waline.css");
 
 @import "remixicon/fonts/remixicon.css";
 @import "remark-aside.css";
-@import "waline.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -38,7 +38,7 @@ html[data-theme="light"] {
   --waline-info-font-size: 0.625em;
 
   /* Render choice */
-  --waline-border: 2px solid var(--waline-border-color);
+  --waline-border: 1px solid rgb(var(--color-border));
   --waline-avatar-radius: 50%;
   --waline-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -83,9 +83,9 @@ html[data-theme="dark"] {
   --waline-info-font-size: 0.625em;
 
   /* Render choice */
-  --waline-border: 2px solid var(--waline-border-color);
+  --waline-border: 1px solid rgb(var(--color-primary-yellow));
   --waline-avatar-radius: 50%;
-  --waline-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  --waline-box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
 .wl-power,
