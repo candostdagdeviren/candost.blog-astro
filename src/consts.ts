@@ -7,13 +7,9 @@
  * description {string} website description
  * author {string} author
  * avatar {string} Avatar used in the profile
- * motto {string} used in the profile
  * url {string} Website link
- * recentBlogSize {number} Number of recent articles displayed in the sidebar
- * archivePageSize {number} Number of articles on archive pages
- * postPageSize {number} Number of articles on blog pages
- * feedPageSize {number} Number of articles on feed pages
- * beian {string} Chinese policy
+ * favoritePostsSize {number} Number of favorite articles displayed in the home page
+ * homePageShowcaseSize {number} Number of articles displayed in the home page
  */
 export const site = {
   title: "Candost's Blog", // required
@@ -23,24 +19,16 @@ export const site = {
   author: "candost", // required
   avatar: "/avatar.jpg", // required
   url: "https://candost.blog", // required
-  motto:
-    "Hunting timeless insights into humans and software and helping others on the way.",
   favoritePostsSize: 10,
-  archivePageSize: 25,
-  postPageSize: 10,
-  feedPageSize: 20,
   homePageShowcaseSize: 10,
-  beian: "",
 };
 
 /**
- * busuanzi {boolean} link: https://busuanzi.ibruce.info/
  * lang {string} Default website language
  * codeFoldingStartLines {number}
  * ga {string|false}
  */
 export const config = {
-  busuanzi: false,
   lang: "en", // en | zh-cn | cs
   codeFoldingStartLines: 16, // Need to re-run the project to take effect
   ga: false, // If you want to integrate with Google Analytics, just enter your GA-ID here.
@@ -215,22 +203,6 @@ export const comment = {
       "/notes/",
       "/journal/",
     ],
-  },
-
-  // giscus config
-  giscusConfig: {
-    "data-repo": "",
-    "data-repo-id": "",
-    "data-category": "",
-    "data-category-id": "",
-    "data-mapping": "",
-    "data-strict": "",
-    "data-reactions-enabled": "",
-    "data-emit-metadata": "",
-    "data-input-position": "",
-    "data-theme": "",
-    "data-lang": "",
-    crossorigin: "",
   },
 };
 
