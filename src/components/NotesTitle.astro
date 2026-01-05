@@ -4,11 +4,13 @@ const { title, tags } = Astro.props;
 ---
 
 <div class="border-b-1">
-  <div class="space-x-2 pb-5 text-sm">
-    <i class="ri-corner-left-up-fill"></i>
+  <div class="space-x-2 text-sm">
+    <p class="text-sm italic mb-3"><i class="ri-brain-line mr-2 mt-2" />Note
+    (
     <a href="/notes/#index-notes" class="colored-link word-wrap break-all hover:text-skin-active"
-      >Go to main index <i class="ri-brain-line mr-2 mt-2"></i></a
-    >
+      >Go to main index</a
+    ><i class="ri-corner-right-up-fill"></i>)
+  </p>
   </div>
   <!-- title -->
   <h1 class="break-all text-xl font-bold my-2" style="white-space:pre-wrap; word-break:break-word;">{title}</h1>

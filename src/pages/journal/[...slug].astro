@@ -39,6 +39,7 @@ if (sortPosts[currentPostIndex + 1]) {
 <BlogPost frontmatter={{comment:true, ...post.data}}>
   {
     (
+    <p class="text-sm italic mb-3"><i class="ri-chat-thread-line mr-2 mt-2" />Journal</p>
     <PostTitle slug={`/journal/${post.slug}/`} {...post.data} lastModified={postUpdateDate}></PostTitle>
     <div class="flex items-center mb-2">
       {comment.enable && comment.type === "waline" && comment.pageview && (
