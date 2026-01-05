@@ -7,6 +7,7 @@ tags:
 date: 2025-12-25T10:33:00.000Z
 updateDate: 2025-12-15T10:33:00.000Z
 external: false
+favorite: true
 ---
 
 It's contradictory to sit alone in a café. It's against the reason cafés exist.

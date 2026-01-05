@@ -11,7 +11,7 @@ let sortedContent = await sortPostsByDate(all).slice(0, site.homePageShowcaseSiz
 const posts = await getCollectionByName('posts')
 let sortPosts = await sortPostsByDate(posts);
 let favorites = sortPosts.filter(post => post.data.favorite);
-let resultPosts = favorites.splice(0, site.recentPostsSize);
+let resultPosts = favorites.splice(0, site.favoritePostsSize);
 ---
 
 <BlogPost frontmatter={{ comment: false, title: "Home" }}>
@@ -110,88 +110,4 @@ let resultPosts = favorites.splice(0, site.recentPostsSize);
       <text class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">All Posts</text>
     </a>
     </div>
-<!--
-  <div class="divider-horizontal"></div>
-
-  <a
-    class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active"
-    href="/journal/">Journal</a
-  >
-  <p>
-    These posts are my casual entries that are not full blog posts. They include ideas, life updates, a link to a post,
-    a short comment about something, and more. Here are the latest added entries:
-  </p>
-  <ul>
-    {
-      sortedJournals.map((journalEntry) => {
-        return (
-          <li class="mb-3">
-            <a
-              class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
-              href={"/journal/" + journalEntry.slug}
-            >
-              <strong>{journalEntry.data.title}</strong>
-            </a>
-          </li>
-        );
-      })
-    }
-  </ul>
-
-  <div class="divider-horizontal"></div>
-
-  <a
-    class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active"
-    href="/notes/">Notes</a
-  >
-  <p>
-    These notes are in my Slip-Box in my Zettelkasten. We can call them as Digital Garden as well but I prefer calling
-    the whole system Zettelkasten. Here are the latest added notes:
-  </p>
-  <ul>
-    {
-      sortedNotes.map((zettel) => {
-        return (
-          <li class="mb-3">
-            <a
-              class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
-              href={"/notes/" + zettel.slug}
-            >
-              <strong>
-                {zettel.data.zettelId}: {zettel.data.title}
-              </strong>
-            </a>
-          </li>
-        );
-      })
-    }
-  </ul>
-
-  <div class="divider-horizontal"></div>
-
-  <a
-    class="text-xl mb-5 font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active"
-    href="/books/"
-    >Book Notes
-  </a>
-  <p>
-    I share either a full book review or a single-chapter note from the books I read. Here are the latest added book
-    notes:
-  </p>
-  <ul>
-    {
-      sortedBooks.map((note) => {
-        return (
-          <li class="mb-3">
-            <a
-              class="flex underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
-              href={"/books/" + note.slug}
-            >
-              <strong>{note.data.title}</strong>
-            </a>
-          </li>
-        );
-      })
-    }
-  </ul> -->
 </BlogPost>

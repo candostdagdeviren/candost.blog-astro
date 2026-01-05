@@ -25,7 +25,7 @@ export const site = {
   url: "https://candost.blog", // required
   motto:
     "Hunting timeless insights into humans and software and helping others on the way.",
-  recentPostsSize: 5,
+  favoritePostsSize: 10,
   archivePageSize: 25,
   postPageSize: 10,
   feedPageSize: 20,
