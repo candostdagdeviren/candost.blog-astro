@@ -7,10 +7,10 @@ import { getAllContent } from "../utils/getAllContent";
 import { getCollectionByName } from "../utils/getCollectionByName";
 
 let all = await getAllContent();
-let sortedContent = await sortPostsByDate(all).slice(0, site.homePageShowcaseSize);
-const posts = await getCollectionByName('posts')
+let sortedContent = await sortPostsByDate(all);
+const posts = await getCollectionByName("posts");
 let sortPosts = await sortPostsByDate(posts);
-let favorites = sortPosts.filter(post => post.data.favorite);
+let favorites = sortPosts.filter((post) => post.data.favorite);
 let resultPosts = favorites.splice(0, site.favoritePostsSize);
 ---
 
@@ -21,57 +21,65 @@ let resultPosts = favorites.splice(0, site.favoritePostsSize);
       <p class="text-sm italic">Writer, Software Engineering Leader, Problem Solver</p>
     </div>
     <p class="mb-2">
-      I work towards creating great, high-performing systems and technology organizations by identifying <em>the real problems</em>.
-      <p class="mb-5">On this website, I'm hunting timeless insights into humans, software, and leadership, bringing solutions along the way.</p>
+      I work towards creating great, high-performing systems and technology organizations by identifying <em
+        >the real problems</em
+      >.
+      <p class="mb-5">
+        On this website, I'm hunting timeless insights into humans, software, and leadership, bringing solutions along
+        the way.
+      </p>
     </p>
 
-    <a
-      href="/about/">
+    <a href="/about/">
       <i class="ri-arrow-right-line"></i>
-      <text class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">More on About page</text>
+      <text
+        class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+        >More on About page</text
+      >
     </a>
   </section>
 
   <div style="width: 100%;"><NewsletterForm /></div>
 
-  <h2 class="text-3xl mb-5 mt-10 font-bold"
-  >Recent.</h2
-  >
+  <h2 class="text-3xl mb-5 mt-10 font-bold">Recent.</h2>
   <ul>
     {
-      sortedContent.map((post) => {
-        return (
-          <li class="mb-3 content-item" data-collection={post.collection} style="display: list-item;">
-            {post.collection === "posts" ? (
-              <i class="ri-pen-nib-line mr-2 mt-2 text-xl" />
-            ) : post.collection === "books" ? (
-              <i class="ri-book-line mr-2 mt-2 text-xl" />
-            ) : post.collection === "journal" ? (
-              <i class="ri-chat-thread-line mr-2 mt-2 text-xl" />
-            ) : post.collection === "notes" ? (
-              <i class="ri-brain-line mr-2 mt-2 text-xl" />
-            ) : post.collection === "newsletter" ? (
-              <i class="ri-mail-check-line mr-2 mt-2 text-xl" />
-            ) : post.collection === "podcast" ? (
-              <i class="ri-mic-line mr-2 mt-2 text-xl" />
-            ) : (
-              <i class="ri-arrow-right-s-line mr-2 mt-2 text-xl" />
-            )}
-            <a
-              class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
-              href={post.collection === "posts" ? `/${post.slug}/` : `/${post.collection}/${post.slug}/`}
-            >
-              <strong class="text-lg">{post.data.title}</strong>
-            </a>
-          </li>
-        );
+      sortedContent.slice(0, site.homePageShowcaseSize).map((post) => {
+        if (post.collection) {
+          return (
+              <li class="mb-3 content-item" data-collection={post.collection} style="display: list-item;">
+                {post.collection === "posts" ? (
+                  <i class="ri-pen-nib-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "books" ? (
+                  <i class="ri-book-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "journal" ? (
+                  <i class="ri-chat-thread-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "notes" ? (
+                  <i class="ri-brain-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "newsletter" ? (
+                  <i class="ri-mail-check-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "podcast" ? (
+                  <i class="ri-mic-line mr-2 mt-2 text-xl" />
+                ) : (
+                  <i class="ri-arrow-right-s-line mr-2 mt-2 text-xl" />
+                )}
+                <a
+                  class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+                  href={post.collection === "posts" ? `/${post.slug}/` : post.collection === "podcast" ? post.data.externalUrl : `/${post.collection}/${post.slug}/`}
+                  target={post.collection === "podcast" ? "_blank" : undefined}
+                  rel={post.collection === "podcast" ? "noopener noreferrer" : undefined}
+                  aria-label={post.collection === "podcast" ? "Open in new tab" : "Go to post"}
+                >
+                  <strong class="text-lg">{post.collection === "newsletter" ? post.data.newsletterName + " #" + post.data.issueNumber + ": " + post.data.title : post.data.title}</strong>
+                </a>
+              </li>
+          );
+        }
       })
     }
   </ul>
 
-  <h2 class="text-3xl mb-5 mt-10 font-bold"
-    >Most popular.</h2
-  >
+  <h2 class="text-3xl mb-5 mt-10 font-bold">Most popular.</h2>
   <ul>
     {
       resultPosts.map((post) => {
@@ -96,7 +104,11 @@ let resultPosts = favorites.splice(0, site.favoritePostsSize);
               class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
               href={post.collection === "posts" ? `/${post.slug}/` : `/${post.collection}/${post.slug}/`}
             >
-              <strong class="text-lg">{post.data.title}</strong>
+              <strong class="text-lg">
+                {post.collection === "newsletter"
+                  ? post.data.newsletterName + " #" + post.data.issueNumber + ": " + post.data.title
+                  : post.data.title}
+              </strong>
             </a>
           </li>
         );
@@ -104,10 +116,15 @@ let resultPosts = favorites.splice(0, site.favoritePostsSize);
     }
   </ul>
   <div class="pt-10">
-  <a
-      href="/blog/" class="text-2xl font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active">
+    <a
+      href="/blog/"
+      class="text-2xl font-bold flex header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 hover:text-skin-active"
+    >
       <i class="ri-arrow-right-line"></i>
-      <text class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">All Posts</text>
+      <text
+        class="ml-1 mr-1 header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+        >All Posts</text
+      >
     </a>
-    </div>
+  </div>
 </BlogPost>

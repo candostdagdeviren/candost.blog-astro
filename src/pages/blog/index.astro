@@ -13,10 +13,15 @@ let sortedContent = await sortPostsByDate(all);
     <div>
       <h1 class="text-3xl mb-5 font-bold">Written and Spoken Ideas.</h1>
       <p class="mb-5">
-        I've used written or spoken words to present ideas in <mark class="highlighted-count px-1 rounded">{sortedContent.length}</mark>  pieces, from essays to notes, from book notes to podcasts. Ideas you want to feed into your AI to help you think better.
+        I've used written or spoken words to present ideas in <mark class="highlighted-count px-1 rounded"
+          >{sortedContent.length}</mark
+        > pieces, from essays to notes, from book notes to podcasts. Ideas you want to feed into your AI to help you think
+        better.
       </p>
       <p class="mb-5">Explore them below or use the search functionality to find specific topics.</p>
-      <p class="mb-10">They are not meant to be advice. Instead, they are ideas I learned or discovered in my experiences.</p>
+      <p class="mb-10">
+        They are not meant to be advice. Instead, they are ideas I learned or discovered in my experiences.
+      </p>
       <p class="text-sm italic mb-1">Click a post title below to jump to that post.</p>
       <Search client:only="solid-js" posts={sortedContent} />
     </div>
@@ -35,7 +40,10 @@ let sortedContent = await sortPostsByDate(all);
       <button class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base text-sm" data-filter="journal">
         <i class="ri-chat-thread-line mr-1"></i>Journal
       </button>
-      <button class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base text-sm" data-filter="newsletter">
+      <button
+        class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base text-sm"
+        data-filter="newsletter"
+      >
         <i class="ri-mail-check-line mr-1"></i>Newsletter
       </button>
       <button class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base text-sm" data-filter="podcast">
@@ -66,12 +74,24 @@ let sortedContent = await sortPostsByDate(all);
                 )}
                 <a
                   class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
-                  href={post.collection === "posts" ? `/${post.slug}/` : post.collection === "podcast" ? post.data.externalUrl : `/${post.collection}/${post.slug}/`}
+                  href={
+                    post.collection === "posts"
+                      ? `/${post.slug}/`
+                      : post.collection === "podcast"
+                        ? post.data.externalUrl
+                        : `/${post.collection}/${post.slug}/`
+                  }
                   target={post.collection === "podcast" ? "_blank" : undefined}
                   rel={post.collection === "podcast" ? "noopener noreferrer" : undefined}
                   aria-label={post.collection === "podcast" ? "Open in new tab" : "Go to post"}
                 >
-                  <strong class="text-lg">{post.data.title}</strong>
+                  <strong class="text-lg">
+                    {post.collection === "newsletter"
+                      ? post.data.newsletterName + " #" + post.data.issueNumber + ": " + post.data.title
+                      : post.collection === "notes"
+                        ? post.data.title + " (" + post.data.zettelId + ")"
+                        : post.data.title}
+                  </strong>
                 </a>
                 <p>{post.data.description}</p>
               </li>
