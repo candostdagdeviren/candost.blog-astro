@@ -28,7 +28,7 @@ export async function GET() {
         letter.collection == "posts"
           ? `${baseUrl}/${letter.slug}/`
           : `${baseUrl}/${letter.collection}/${letter.slug}/`;
-      let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline) | [Buy me a coffee](https://www.ko-fi.com/candost)`;
+      let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline)`;
       let newContent = letter.body + `${reply}`;
       let body = parser.render(newContent);
 
