@@ -17,4 +17,4 @@ I still prefer people commenting on the post instead of sending me money, but so
 
 Let's see how this goes.
 
-In case you want to support, [here is the link](https://ko-fi.com/candost).
+EDIT: I removed the link/button. It feels _weird_ to receive money from others for an open blog.
