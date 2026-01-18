@@ -30,7 +30,7 @@ I tried to write a short summary of the book and of what Ryan Holiday explains. 
 I will be giving this book as a gift to many people.
 
 ## Reading Notes (Chapter Notes)
-s
+
 - Our brains are wired to interpret the environment and act as fast as possible. This evolution was needed to survive and compensate for our weak bodies. The brain and its shortcuts have saved humans from extinction. Now, they cause detriment. We have enough power to eliminate most threats and don't need quick reactions to survive most of the time. This behavior remains part of us and complicates decision-making and judgment.
 - Gaining perspective is an exercise. It's the work you must put in. Spending that mental energy and capacity will bring you clarity. The more perception you try to gain, the more you see things as they are instead of how you feel about them. You gain control over the events and situations. The more you exercise, the easier it will get.
 - The inner critic plays a big role in how we perceive the obstacles we face. Focusing on how we played a role in the existence of the obstacle makes the obstacle bigger than it seems. Now we have to learn to deal with our impact on the obstacle, rather than focusing solely on overcoming it.

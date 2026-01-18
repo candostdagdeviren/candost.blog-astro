@@ -1,35 +1,31 @@
 ---
-import {getCollection} from 'astro:content';
-import BlogPost from '../../layouts/BlogPost.astro'
+import { getCollection } from "astro:content";
+import BlogPost from "../../layouts/BlogPost.astro";
 import PostTitle from "../../components/PostTitle.astro";
-import BlogFooter from '../../components/BlogFooter.astro'
-import {getCollectionByName} from "../../utils/getCollectionByName";
-import {sortPostsByDate} from "../../utils/sortPostsByDate";
+import BlogFooter from "../../components/BlogFooter.astro";
+import { getCollectionByName } from "../../utils/getCollectionByName";
+import { sortPostsByDate } from "../../utils/sortPostsByDate";
 
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const blogEntries = (await getCollection('books')).filter(({data}) => {
-    return import.meta.env.PROD ? !data.draft : true
+  const blogEntries = (await getCollection("books")).filter(({ data }) => {
+    return import.meta.env.PROD ? !data.draft : true;
   });
-  return blogEntries.map(entry => ({
-    params: {slug: entry.slug}, props: {entry,},
+  return blogEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
   }));
 }
 
-const {entry} = Astro.props;
-const {Content, remarkPluginFrontmatter} = await entry.render();
-
-const lastModified = entry.data.updateDate ?? remarkPluginFrontmatter.lastModified
-const readingTime = remarkPluginFrontmatter.readingTime
+const { entry } = Astro.props;
+const { Content } = await entry.render();
 
 const posts = await getCollectionByName("books");
 const sortPosts = sortPostsByDate(posts);
 
-const currentPostIndex = sortPosts.findIndex(
-(postItem) => postItem.data.title === entry.data.title
-);
-let prevPost, nextPost
+const currentPostIndex = sortPosts.findIndex((postItem) => postItem.data.title === entry.data.title);
+let prevPost, nextPost;
 if (sortPosts[currentPostIndex - 1]) {
   prevPost = sortPosts[currentPostIndex - 1];
 }
@@ -37,49 +33,60 @@ if (sortPosts[currentPostIndex + 1]) {
   nextPost = sortPosts[currentPostIndex + 1];
 }
 ---
-<BlogPost frontmatter={{ comment: true, ...entry.data}}>
+
+<BlogPost frontmatter={{ comment: true, ...entry.data }}>
   <div>
-    <p class="text-sm italic mb-3"><i class="ri-book-line mr-2 mt-2" />Book</p>
-    <PostTitle slug={`/${entry.slug}`} {...entry.data} lastModified={lastModified} readingTime={readingTime}></PostTitle>
+    <p class="text-sm italic mb-3"><i class="ri-book-line mr-2 mt-2"></i><a href="/books">Book</a></p>
+    <PostTitle {...entry.data} />
     <div class="divider-horizontal"></div>
     <article class="markdown-body">
-      <Content/>
+      <Content />
     </article>
     <div class="divider-horizontal"></div>
     <div class="h-8 text-skin-base">
       {
         prevPost ? (
-        <a
-        class="truncate  w-auto max-w-[40%] float-left"
-        href={prevPost.collection == 'posts'
-        ? '/' + prevPost.slug + '/'
-        : '/' + prevPost.collection + '/' + prevPost.slug + '/'}
-        title={prevPost.data.title}
-        >
-        <i class="ri-arrow-left-s-fill"/>
-        {prevPost.data.title}
-      </a>
-      ) : (
-      <div/>
-      )
-    }
-    {
-      nextPost ? (
-      <div class="flex item-center float-right w-auto max-w-[40%] text-right">
-        <a class="truncate " href={nextPost.collection == 'posts'
-        ? '/' + nextPost.slug + '/'
-        : '/' + nextPost.collection + '/' + nextPost.slug + '/'}
-        title={nextPost.data.title}>
-          {nextPost.data.title}
-        </a>
-        <i class="ri-arrow-right-s-fill float-right"/>
-      </div>
-      ) : (
-      <div/>
-      )
-    }
+          <a
+            class="truncate  w-auto max-w-[40%] float-left"
+            href={
+              prevPost.collection == "posts"
+                ? "/" + prevPost.slug + "/"
+                : "/" + prevPost.collection + "/" + prevPost.slug + "/"
+            }
+            title={prevPost.data.title}
+          >
+            <i class="ri-arrow-left-s-fill" />
+            {prevPost.data.title}
+          </a>
+        ) : (
+          <div />
+        )
+      }
+      {
+        nextPost ? (
+          <div class="flex item-center float-right w-auto max-w-[40%] text-right">
+            <a
+              class="truncate "
+              href={
+                nextPost.collection == "posts"
+                  ? "/" + nextPost.slug + "/"
+                  : "/" + nextPost.collection + "/" + nextPost.slug + "/"
+              }
+              title={nextPost.data.title}
+            >
+              {nextPost.data.title}
+            </a>
+            <i class="ri-arrow-right-s-fill float-right" />
+          </div>
+        ) : (
+          <div />
+        )
+      }
+    </div>
+    <BlogFooter
+      title={entry.data.title}
+      url={entry.collection == "posts" ? entry.slug : entry.collection + "/" + entry.slug}
+      date={entry.data.date}
+    />
   </div>
-  <BlogFooter title={entry.data.title} url={entry.collection == 'posts' ? entry.slug : entry.collection + '/' + entry.slug} date={entry.data.date}></BlogFooter>
-</div>
-
 </BlogPost>
