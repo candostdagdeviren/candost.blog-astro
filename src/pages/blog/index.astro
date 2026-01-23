@@ -57,7 +57,9 @@ let sortedContent = await sortPostsByDate(all);
           if (post.collection) {
             return (
               <li class="mb-3 content-item" data-collection={post.collection} style="display: list-item;">
-                {post.collection === "posts" ? (
+                {post.data.tags && post.data.tags.includes("mediations") ? (
+                  <i class="ri-mail-check-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "posts" ? (
                   <i class="ri-pen-nib-line mr-2 mt-2 text-xl" />
                 ) : post.collection === "books" ? (
                   <i class="ri-book-line mr-2 mt-2 text-xl" />
@@ -86,7 +88,7 @@ let sortedContent = await sortPostsByDate(all);
                   aria-label={post.collection === "podcast" ? "Open in new tab" : "Go to post"}
                 >
                   <strong class="text-lg">
-                    {post.collection === "newsletter"
+                    {post.data.tags && post.data.tags.includes("mediations")
                       ? post.data.newsletterName + " #" + post.data.issueNumber + ": " + post.data.title
                       : post.collection === "notes"
                         ? post.data.title + " (" + post.data.zettelId + ")"
