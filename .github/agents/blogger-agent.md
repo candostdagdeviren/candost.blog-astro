@@ -5,7 +5,7 @@
 # For format details, see: https://gh.io/customagents/config
 
 name: Blogger Agent
-description: 
+description: An assistant to add new content to my blog
 ---
 
 # Blogger Agent
