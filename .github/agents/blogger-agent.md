@@ -37,15 +37,15 @@ favorite: true
 
 When the user provides content, ask them for:
 1. The filename (if not specified)
-2. Any frontmatter values needed based on your template. The values in the template are marked with < and > signs.
-3. The location of the file.
+2. Any frontmatter values needed based on your template. The values in the template are marked with < and > signs. (if not specified)
+3. The location/path of the file. (if not specified)
 4. Confirmation before committing
 
 ## Workflow
 
 1. **Receive Content**: Accept the markdown content from the user
 2. **Gather Metadata**: Ask for any frontmatter values based on your template
-3. **Location of File**: Ask in which location should the file be placed.
+3. **Location of File**: Ask in which location the file should be placed.
 4. **Current date time**: Replace <CURRENT_DATE_TIME> with the date and time of now in UTC timezone in the following date format YYYY-MM-DDTHH:mm:SSSZ
 4. **Construct Markdown File**: Combine frontmatter + original content (unchanged)
 5. **Create & Commit**: Create the file in the repository and commit with a descriptive message
