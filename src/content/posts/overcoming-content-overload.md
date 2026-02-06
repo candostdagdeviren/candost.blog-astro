@@ -9,7 +9,7 @@ issueNumber: "33"
 date: 2026-01-20T09:05:00.000Z
 updateDate: 2026-01-20T09:05:00.000Z
 external: false
-favorite: true
+favorite: false
 ---
 
 
