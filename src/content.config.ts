@@ -1,7 +1,8 @@
 import { defineCollection, z } from "astro:content";
+import { glob } from 'astro/loaders';
 
 const books = defineCollection({
-  type: "content",
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/books" }),
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
@@ -18,7 +19,7 @@ const books = defineCollection({
 });
 
 const journal = defineCollection({
-  type: "content",
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/journal" }),
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
@@ -35,7 +36,7 @@ const journal = defineCollection({
 });
 
 const newsletter = defineCollection({
-  type: "content",
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/newsletter" }),
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
@@ -54,7 +55,7 @@ const newsletter = defineCollection({
 });
 
 const notes = defineCollection({
-  type: "content",
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/notes" }),
   schema: z.object({
     title: z.string(),
     zettelId: z.string(),
@@ -72,7 +73,7 @@ const notes = defineCollection({
 });
 
 const podcast = defineCollection({
-  type: "content",
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/podcast" }),
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
@@ -90,7 +91,7 @@ const podcast = defineCollection({
 });
 
 const posts = defineCollection({
-  type: "content",
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/posts" }),
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
@@ -110,7 +111,7 @@ const posts = defineCollection({
 });
 
 const de = defineCollection({
-  type: "content",
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/de" }),
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),

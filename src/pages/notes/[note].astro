@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import BlogPost from "../../layouts/BlogPost.astro";
 import NotesTitle from "../../components/NotesTitle.astro";
 import { getCollectionByName } from "../../utils/getCollectionByName";
@@ -9,18 +9,18 @@ import NotesFooter from "../../components/NotesFooter.astro";
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const blogEntries = (await getCollection("notes")).filter(({ data }) => {
+  const notesEntries = (await getCollection("notes")).filter(({ data }) => {
     return import.meta.env.PROD ? !data.draft : true;
   });
-  return blogEntries.map((entry) => ({
-    params: { slug: entry.slug },
+  return notesEntries.map((entry) => ({
+    params: { note: entry.id },
     props: { entry },
   }));
 }
 
 const { entry } = Astro.props;
-const slug = entry.slug;
-const { Content } = await entry.render();
+const id = entry.id;
+const { Content } = await render(entry);
 
 const allNotes = await getCollectionByName("notes");
 const sortPosts = sortNotesByZettelId(allNotes);
@@ -50,14 +50,14 @@ allNotes.forEach((note) => {
         }
         allLinks[linkUrl].push({
           frontmatter: note.data,
-          url: `/notes/${note.slug}`,
+          url: `/notes/${note.id}`,
         });
       }
     });
   }
 });
 
-const pathname = `/notes/${slug}/`;
+const pathname = `/notes/${id}/`;
 const backlinks = allLinks[pathname] || [];
 ---
 
@@ -76,8 +76,8 @@ const backlinks = allLinks[pathname] || [];
             class="colored-link truncate w-auto max-w-[40%] float-left hover:text-skin-active"
             href={
               prevPost.collection == "posts"
-                ? "/" + prevPost.slug + "/"
-                : "/" + prevPost.collection + "/" + prevPost.slug + "/"
+                ? "/" + prevPost.id + "/"
+                : "/" + prevPost.collection + "/" + prevPost.id + "/"
             }
             title={prevPost.data.zettelId + ": " + prevPost.data.title}
           >
@@ -95,8 +95,8 @@ const backlinks = allLinks[pathname] || [];
               class="colored-link truncate "
               href={
                 nextPost.collection == "posts"
-                  ? "/" + nextPost.slug + "/"
-                  : "/" + nextPost.collection + "/" + nextPost.slug + "/"
+                  ? "/" + nextPost.id + "/"
+                  : "/" + nextPost.collection + "/" + nextPost.id + "/"
               }
               title={nextPost.data.zettelId + ": " + nextPost.data.title}
             >
@@ -121,6 +121,6 @@ const backlinks = allLinks[pathname] || [];
           </span>
         ))
     }
-    <NotesFooter title={entry.data.title} url={entry.slug} date={entry.data.date} />
+    <NotesFooter title={entry.data.title} url={entry.id} date={entry.data.date} />
   </div>
 </BlogPost>

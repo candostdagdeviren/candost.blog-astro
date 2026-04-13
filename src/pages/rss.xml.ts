@@ -24,8 +24,8 @@ export async function GET() {
     items: sortedBlog.map((post) => {
       let url =
         post.collection == "posts"
-          ? `${baseUrl}/${post.slug}/`
-          : `${baseUrl}/${post.collection}/${post.slug}/`;
+          ? `${baseUrl}/${post.id}/`
+          : `${baseUrl}/${post.collection}/${post.id}/`;
       let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline)`;
       let newContent = post.body + `${reply}`;
       let body = parser.render(newContent);

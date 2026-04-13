@@ -25,8 +25,8 @@ export async function GET() {
     items: books.map((book) => {
       let url =
         book.collection == "posts"
-          ? `${baseUrl}/${book.slug}/`
-          : `${baseUrl}/${book.collection}/${book.slug}/`;
+          ? `${baseUrl}/${book.id}/`
+          : `${baseUrl}/${book.collection}/${book.id}/`;
       let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline)`;
       let newContent = book.body + `${reply}`;
       let body = parser.render(newContent);

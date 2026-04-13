@@ -65,7 +65,7 @@ let resultPosts = favorites.splice(0, site.favoritePostsSize);
                 )}
                 <a
                   class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
-                  href={post.collection === "posts" ? `/${post.slug}/` : post.collection === "podcast" ? post.data.externalUrl : `/${post.collection}/${post.slug}/`}
+                  href={post.collection === "posts" ? `/${post.id}/` : post.collection === "podcast" ? post.data.externalUrl : `/${post.collection}/${post.id}/`}
                   target={post.collection === "podcast" ? "_blank" : undefined}
                   rel={post.collection === "podcast" ? "noopener noreferrer" : undefined}
                   aria-label={post.collection === "podcast" ? "Open in new tab" : "Go to post"}
@@ -102,7 +102,7 @@ let resultPosts = favorites.splice(0, site.favoritePostsSize);
             )}
             <a
               class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
-              href={post.collection === "posts" ? `/${post.slug}/` : `/${post.collection}/${post.slug}/`}
+              href={post.collection === "posts" ? `/${post.id}/` : `/${post.collection}/${post.id}/`}
             >
               <strong class="text-lg">
                 {post.collection === "newsletter"

@@ -38,7 +38,7 @@ let sortedNotes = sortNotesByZettelId(zettels);
         sortedNotes
         .map((post) => (
         <li style="list-style-type: disc;" class="ml-4 my-2">
-          <a class="flex text-l" href={'/notes/' + post.slug}>
+          <a class="flex text-l" href={'/notes/' + post.id}>
             <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"><strong>{post.data.zettelId}:&nbsp;</strong>{post.data.title}</span>
           </a>
         </li>

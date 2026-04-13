@@ -78,10 +78,10 @@ let sortedContent = await sortPostsByDate(all);
                   class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
                   href={
                     post.collection === "posts"
-                      ? `/${post.slug}/`
+                      ? `/${post.id}/`
                       : post.collection === "podcast"
                         ? post.data.externalUrl
-                        : `/${post.collection}/${post.slug}/`
+                        : `/${post.collection}/${post.id}/`
                   }
                   target={post.collection === "podcast" ? "_blank" : undefined}
                   rel={post.collection === "podcast" ? "noopener noreferrer" : undefined}

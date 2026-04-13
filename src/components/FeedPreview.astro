@@ -1,11 +1,11 @@
 ---
-const { data, body, slug } = Astro.props.post;
+const { data, body, id } = Astro.props.post;
 ---
 
 <div>
   <a
     class="text-xl font-bold underline-offset-4 decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
-    href={`${slug}`}>{data.title}</a
+    href={`${id}`}>{data.title}</a
   >
   <p class="break-word first-letter tracking-wide">
     {

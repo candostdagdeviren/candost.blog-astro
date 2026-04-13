@@ -1,180 +1,129 @@
 {
-  "$ref": "#/definitions/journal",
-  "definitions": {
-    "journal": {
-      "type": "object",
-      "properties": {
-        "title": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "anyOf": [
+        {
           "type": "string"
         },
-        "description": {
-          "anyOf": [
-            {
-              "anyOf": [
-                {
-                  "not": {}
-                },
-                {
-                  "type": "string"
-                }
-              ]
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "date": {
-          "anyOf": [
-            {
-              "type": "string",
-              "format": "date-time"
-            },
-            {
-              "type": "string",
-              "format": "date"
-            },
-            {
-              "type": "integer",
-              "format": "unix-time"
-            }
-          ]
-        },
-        "updateDate": {
-          "anyOf": [
-            {
-              "type": "string",
-              "format": "date-time"
-            },
-            {
-              "type": "string",
-              "format": "date"
-            },
-            {
-              "type": "integer",
-              "format": "unix-time"
-            }
-          ]
-        },
-        "tags": {
-          "anyOf": [
-            {
-              "anyOf": [
-                {
-                  "not": {}
-                },
-                {
-                  "anyOf": [
-                    {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
-                    },
-                    {
-                      "type": "string"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "category": {
-          "anyOf": [
-            {
-              "anyOf": [
-                {
-                  "not": {}
-                },
-                {
-                  "anyOf": [
-                    {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
-                    },
-                    {
-                      "type": "string"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "sticky": {
-          "anyOf": [
-            {
-              "type": "number",
-              "default": 0
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "mathjax": {
-          "anyOf": [
-            {
-              "type": "boolean",
-              "default": false
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "mermaid": {
-          "anyOf": [
-            {
-              "type": "boolean",
-              "default": false
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "draft": {
-          "anyOf": [
-            {
-              "type": "boolean",
-              "default": false
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "comment": {
-          "anyOf": [
-            {
-              "type": "boolean",
-              "default": true
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "$schema": {
-          "type": "string"
+        {
+          "type": "null"
         }
-      },
-      "required": [
-        "title",
-        "date"
-      ],
-      "additionalProperties": false
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updateDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "tags": {
+      "anyOf": [
+        {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "category": {
+      "anyOf": [
+        {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "sticky": {
+      "anyOf": [
+        {
+          "default": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "mathjax": {
+      "anyOf": [
+        {
+          "default": false,
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "mermaid": {
+      "anyOf": [
+        {
+          "default": false,
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "draft": {
+      "anyOf": [
+        {
+          "default": false,
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "comment": {
+      "anyOf": [
+        {
+          "default": true,
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "$schema": {
+      "type": "string"
     }
   },
-  "$schema": "http://json-schema.org/draft-07/schema#"
+  "required": [
+    "title",
+    "date"
+  ]
 }

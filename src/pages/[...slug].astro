@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import BlogPost from "../layouts/BlogPost.astro";
 import PostTitle from "../components/PostTitle.astro";
 import BlogFooter from "../components/BlogFooter.astro";
@@ -13,13 +13,13 @@ export async function getStaticPaths() {
     return import.meta.env.PROD ? !data.draft : true;
   });
   return blogEntries.map((entry) => ({
-    params: { slug: entry.slug },
+    params: { slug: entry.id },
     props: { entry },
   }));
 }
 
 const { entry } = Astro.props;
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 
 const posts = await getCollectionByName("posts");
 const sortPosts = sortPostsByDate(posts);
@@ -50,8 +50,8 @@ if (sortPosts[currentPostIndex + 1]) {
             class="truncate  w-auto max-w-[40%] float-left"
             href={
               prevPost.collection == "posts"
-                ? "/" + prevPost.slug + "/"
-                : "/" + prevPost.collection + "/" + prevPost.slug + "/"
+                ? "/" + prevPost.id + "/"
+                : "/" + prevPost.collection + "/" + prevPost.id + "/"
             }
             title={prevPost.data.title}
           >
@@ -69,8 +69,8 @@ if (sortPosts[currentPostIndex + 1]) {
               class="truncate "
               href={
                 nextPost.collection == "posts"
-                  ? "/" + nextPost.slug + "/"
-                  : "/" + nextPost.collection + "/" + nextPost.slug + "/"
+                  ? "/" + nextPost.id + "/"
+                  : "/" + nextPost.collection + "/" + nextPost.id + "/"
               }
               title={nextPost.data.title}
             >
@@ -85,7 +85,7 @@ if (sortPosts[currentPostIndex + 1]) {
     </div>
     <BlogFooter
       title={entry.data.title}
-      url={entry.collection == "posts" ? entry.slug : entry.collection + "/" + entry.slug}
+      url={entry.collection == "posts" ? entry.id : entry.collection + "/" + entry.id}
       date={entry.data.date}
     />
   </div>

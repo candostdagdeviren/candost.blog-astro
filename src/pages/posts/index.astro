@@ -20,7 +20,7 @@ let sortedPosts = sortPostsByDate(posts.concat(newsletter));
         <i class="ri-pen-nib-line mr-2 mt-2 text-lg" />
         <a
           class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
-          href={post.collection === "posts" ? `/${post.slug}/` : `/${post.collection}/${post.slug}/`}
+          href={post.collection === "posts" ? `/${post.id}/` : `/${post.collection}/${post.id}/`}
         >
           <strong class="text-lg">{post.data.title}</strong>
         </a>

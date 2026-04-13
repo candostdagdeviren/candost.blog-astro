@@ -26,8 +26,8 @@ export async function GET() {
     items: rssNewsletters.map((letter) => {
       let url =
         letter.collection == "posts"
-          ? `${baseUrl}/${letter.slug}/`
-          : `${baseUrl}/${letter.collection}/${letter.slug}/`;
+          ? `${baseUrl}/${letter.id}/`
+          : `${baseUrl}/${letter.collection}/${letter.id}/`;
       let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline)`;
       let newContent = letter.body + `${reply}`;
       let body = parser.render(newContent);

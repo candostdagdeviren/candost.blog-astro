@@ -71,7 +71,7 @@ export function Search(props) {
           <>
             <a
               class="text-xl underline-offset-4 decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 font-bold"
-              href={`/${post.collection === "posts" ? post.slug : `${post.collection}/${post.slug}/`}`}
+              href={`/${post.collection === "posts" ? post.id : `${post.collection}/${post.id}/`}`}
               innerHTML={post.data.title}
             />
             <p class="break-all mb-4" innerHTML={post.data.description}></p>

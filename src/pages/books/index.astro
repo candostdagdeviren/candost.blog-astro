@@ -24,7 +24,7 @@ let sortedPosts = sortPostsAlphabetically(posts);
           <li class="mb-3 content-item" data-collection={post.collection} style="display: list-item;">
             <i class="ri-book-line mr-2 mt-2 text-xl" />
               <strong>
-                <a class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/books/' + post.slug}>
+                <a class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/books/' + post.id}>
                   {post.data.title}
                 </a>
               </strong>
