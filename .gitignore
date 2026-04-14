@@ -8,3 +8,7 @@ dist/
 
 .cursor
 .cursorrules
+
+# Enforce pnpm-only: reject npm/yarn lockfiles
+package-lock.json
+yarn.lock
