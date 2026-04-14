@@ -57,10 +57,10 @@ None of us knows what’s “the best.” We need to keep talking and sharing wh
 
 I share up to three things I found interesting, sorted from good to great.
 
-**_Good:_** While living in EU, I can see so many problems with how the corporate structures work across countries and regimes. EU Inc. A new harmonised corporate legal regime is in the plans of EU Commission. If you’re outside of EU, this might still be crucial for you as it might allow your company to expand to EU with a single entity instead of many. I’m waiting for its positive impact in the market. It’s sad that this came late. But better late than never.
+**_Good:_** While living in EU, I can see so many problems with how the corporate structures work across countries and regimes. [EU Inc. A new harmonised corporate legal regime](https://commission.europa.eu/topics/business-and-industry/doing-business-eu/company-law-and-corporate-governance/eu-inc-new-harmonised-corporate-legal-regime_en) is in the plans of EU Commission. If you’re outside of EU, this might still be crucial for you as it might allow your company to expand to EU with a single entity instead of many. I’m waiting for its positive impact in the market. It’s sad that this came late. But better late than never.
 
-**_Better:_** I read this again after a while. Very good reminder: start with solving the problem with smallest effort. Once your solution proves itself, you can advance it.
+**_Better:_** I read [this](http://hintjens.com/blog:16) again after a while. Very good reminder: start with solving the problem with smallest effort. Once your solution proves itself, you can advance it.
 
-**_Great:_** Let me take you away from technology a bit. I came across this. The interpretation of the book, the conversation, the thought flow, the picture book itself, what can I say; everything is pure gold. How not to love it?
+**_Great:_** Let me take you away from technology a bit. I came across [this](https://lookingatpicturebooks.com/p/the-very-hungry-caterpillar). The interpretation of the book, the conversation, the thought flow, the picture book itself, what can I say; everything is pure gold. How not to love it?
 
 Do you have suggestions for great things? Send me a message (or email).
