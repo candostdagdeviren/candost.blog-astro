@@ -11,9 +11,9 @@ I recently read the following text in the book Co-Intelligence by Ethan Mollick.
 
 If I read this text anywhere, I would say it's not written by AI. However, Mollick says it's entirely created by AI, word by word, during a conversation.
 
-As much as I don't add think AI is sentient, AI can form arguments (in a way), the ones that I haven't even thought about before.
+As much as I don't think AI is sentient, AI can form arguments (in a way), the ones that I haven't even thought about before.
 
-I have never considered myself as cyborg. When I think of a cyborg, RoboCop or Darth Vader comes to mind (or Inpector Gadget or even Stephen Hawking).
+I have never considered myself a cyborg. When I think of a cyborg, RoboCop or Darth Vader comes to mind (or Inspector Gadget or even Stephen Hawking).
 
 Yet, the AI is right. We actually became cyborgs when you think about it. Especially with the addition of artificial intelligence tools to our inventory, we started enhancing our abilities even further.
 
