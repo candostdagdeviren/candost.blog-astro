@@ -6,6 +6,10 @@
 @import "./remark.css";
 
 @theme {
+  /* Intentional: the prior v3 tailwind.config.js REPLACED the default color
+     palette with only `skin.*` utilities, so classes like bg-blue-50,
+     decoration-sky-500, text-gray-*, dark:bg-gray-800 produced no CSS on the
+     live site. Keeping --color-*: initial preserves that behavior. */
   --color-*: initial;
   --color-white: #fff;
 
