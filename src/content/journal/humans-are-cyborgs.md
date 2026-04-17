@@ -1,5 +1,6 @@
 ---
 title: "Humans are cyborgs"
+description: "I read a text written by AI in a book. I mean, the AI is kinda right when it says humans are cyborgs already."
 date: 2026-04-16T11:00:00
 tags:
   - life
