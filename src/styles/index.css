@@ -63,7 +63,7 @@
   @media (width >= 720px) {
     max-width: 720px;
   }
-  @media (width >= 840px) {
+  @media (width >= 800px) {
     max-width: 800px;
   }
 }
