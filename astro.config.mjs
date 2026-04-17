@@ -1,7 +1,7 @@
 import {defineConfig} from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite';
 import solid from '@astrojs/solid-js';
 import robotsTxt from "astro-robots-txt";
 import {remarkModifiedTime} from "./src/remarkPlugin/remark-modified-time.mjs";
@@ -50,7 +50,6 @@ export default defineConfig({
   },
   integrations: [
     sitemap(),
-    tailwind(),
     solid(),
     expressiveCode({
       plugins: [pluginLineNumbers(), pluginCollapsibleSections()],
@@ -113,6 +112,7 @@ export default defineConfig({
     rehypePlugins: [customRehypeLazyLoadImage],
   },
   vite: {
+    plugins: [tailwindcss()],
     ssr: {
       noExternal: ['nanoid']
     }

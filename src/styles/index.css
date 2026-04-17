@@ -1,21 +1,73 @@
-@import url("./github-markdown.css");
-@import url("./waline.css");
+@import "tailwindcss";
 
+@import "./github-markdown.css";
+@import "./waline.css";
 @import "remixicon/fonts/remixicon.css";
-@import "remark-aside.css";
+@import "./remark.css";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@theme {
+  --color-*: initial;
+  --color-white: #fff;
+
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 720px;
+  --breakpoint-lg: 840px;
+  --breakpoint-xl: 960px;
+  --breakpoint-2xl: 1080px;
+}
+
+@utility text-skin-base {
+  color: rgb(var(--color-text));
+}
+@utility text-skin-active {
+  color: rgb(var(--color-text-active));
+}
+
+@utility bg-skin-fill {
+  background-color: rgb(var(--color-fill));
+}
+@utility bg-skin-secondary {
+  background-color: rgb(var(--color-fill-secondary));
+}
+@utility bg-skin-card {
+  background-color: rgb(var(--color-card));
+}
+@utility bg-skin-modal {
+  background-color: rgb(var(--color-modal));
+}
+
+@utility decoration-skin-base {
+  text-decoration-color: rgb(var(--color-border));
+}
+@utility decoration-skin-active {
+  text-decoration-color: rgb(var(--color-text-active));
+}
+
+@utility border-skin-normal {
+  border-color: rgb(var(--color-text));
+}
+@utility border-skin-base {
+  border-color: rgb(var(--color-border));
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  @media (width >= 600px) {
+    max-width: 600px;
+  }
+  @media (width >= 720px) {
+    max-width: 720px;
+  }
+  @media (width >= 840px) {
+    max-width: 800px;
+  }
+}
 
 @font-face {
   font-family: "jetbrains-mono";
   src: url("./JetBrainsMono-Regular.ttf");
 }
-
-/**
-tailwindcss
- */
 
 html {
   height: 100%;
@@ -137,7 +189,6 @@ menu {
     @apply text-xl mr-2;
   }
 
-  /* markdown */
   .image-cols-2 {
     @apply grid gap-4 grid-cols-2 my-2;
   }
@@ -187,7 +238,6 @@ menu {
   background-color: rgba(var(--color-text), 0.3);
 }
 
-/* markdown */
 .markdown-body {
   background-color: inherit;
 }
@@ -201,7 +251,6 @@ a {
   line-height: 26px;
 }
 
-/* waline */
 .waline-comment-content-author {
   text-align: end;
   margin-bottom: 6px;
@@ -218,7 +267,6 @@ menu {
   list-style: none;
 }
 
-/* markdown  */
 .markdown-body menu,
 .markdown-body ul {
   list-style: disc;
@@ -272,7 +320,6 @@ menu {
   margin: 1rem 0;
 }
 
-/* fix mathjax style */
 .MathJax {
   text-align: left !important;
 }
@@ -281,30 +328,16 @@ menu {
   display: inline;
 }
 
-/*** Works on common browsers ***/
 ::selection {
   background-color: rgb(var(--color-border));
   color: rgb(var(--color-fill));
 }
 
-/*** Mozilla based browsers ***/
 ::-moz-selection {
   background-color: rgb(var(--color-border));
   color: rgb(var(--color-fill));
 }
 
-/***For Other Browsers ***/
-::-o-selection {
-  background-color: rgb(var(--color-border));
-  color: rgb(var(--color-fill));
-}
-
-::-ms-selection {
-  background-color: rgb(var(--color-border));
-  color: rgb(var(--color-fill));
-}
-
-/*** For Webkit ***/
 ::-webkit-selection {
   background-color: rgb(var(--color-border));
   color: rgb(var(--color-fill));

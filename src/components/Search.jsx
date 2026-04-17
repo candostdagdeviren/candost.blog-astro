@@ -47,7 +47,7 @@ export function Search(props) {
         </span>
         <input
           id="search-input"
-          class="block w-full rounded border border-opacity-40 bg-skin-fill text-skin-base py-3 pl-10 pr-3 placeholder:italic placeholder:text-opacity-75 focus:border-skin-accent focus:outline-none"
+          class="block w-full rounded border border-opacity-40 bg-skin-fill text-skin-base py-3 pl-10 pr-3 placeholder:italic placeholder:text-opacity-75 focus:border-skin-accent focus:outline-hidden"
           placeholder={t("search.placeholder")}
           type="text"
           name="search"
