@@ -11,8 +11,6 @@ updateDate: 2026-05-08T06:05:00.000Z
 external: false
 ---
 
-# Managers Returning to "Coding" with AI
-
 We have been talking with other engineering leaders around me about the impact of AI in _our_ profession. Although nobody knows what will happen, I kept thinking about where I'm standing and what others are doing _today_.
 
 There is certainly a trend among managers to go back to _building_ with AI. People who haven't been working as an individual contributor for longer than a decade find themselves building software again; some for production, some for open source, some for fun. All have a mixed bag of reasons.
