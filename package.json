@@ -37,7 +37,7 @@
     "reading-time": "^1.5.0",
     "remark-directive": "^4.0.0",
     "remixicon": "^4.9.1",
-    "sanitize-html": "^2.17.3",
+    "sanitize-html": "^2.17.4",
     "solid-js": "^1.9.12",
     "tailwindcss": "^4.2.2",
     "typescript": "^6.0.3",
