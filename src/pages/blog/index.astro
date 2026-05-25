@@ -49,6 +49,9 @@ let sortedContent = await sortPostsByDate(all);
       <button class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base text-sm" data-filter="podcast">
         <i class="ri-mic-line mr-1"></i>Podcast
       </button>
+      <button class="filter-btn px-3 py-2 rounded-lg shadow-md border-2 border-skin-base text-sm" data-filter="critique">
+        <i class="ri-quill-pen-line mr-1"></i>Critique
+      </button>
     </div>
 
     <ul id="content-list">
@@ -71,6 +74,8 @@ let sortedContent = await sortPostsByDate(all);
                   <i class="ri-mail-check-line mr-2 mt-2 text-xl" />
                 ) : post.collection === "podcast" ? (
                   <i class="ri-mic-line mr-2 mt-2 text-xl" />
+                ) : post.collection === "critique" ? (
+                  <i class="ri-quill-pen-line mr-2 mt-2 text-xl" />
                 ) : (
                   <i class="ri-arrow-right-s-line mr-2 mt-2 text-xl" />
                 )}
