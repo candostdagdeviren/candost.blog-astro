@@ -18,7 +18,7 @@ export async function GET() {
   return rss({
     title: "Candost's Critique",
     description:
-      "Short critical responses to posts, talks, books, and other things worth engaging with.",
+      "My critical responses to posts, articles, talks, and other things worth engaging with. In each entry, you'll find the link to the source so you can read the original alongside my comment.",
     site: baseUrl + "/critique/",
     stylesheet: "/rss/pretty-feed.xsl",
     items: critiqueEntries.map((entry) => {
