@@ -141,6 +141,11 @@ export const footerLinks = [
         href: "/blogroll",
         target: "_self",
       },
+      {
+        name: "Library",
+        href: "https://www.librarycat.org/lib/candost",
+        target: "_blank",
+      }
     ],
   },
 ];
