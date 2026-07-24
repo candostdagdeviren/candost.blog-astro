@@ -22,10 +22,7 @@ export async function GET() {
     site: baseUrl + "/journal/",
     stylesheet: "/rss/pretty-feed.xsl",
     items: journalEntries.map((entry) => {
-      let url =
-        entry.collection == "posts"
-          ? `${baseUrl}/${entry.id}/`
-          : `${baseUrl}/${entry.collection}/${entry.id}/`;
+      let url = `${baseUrl}/${entry.collection}/${entry.id}/`;
       let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline)`;
       let newContent = entry.body + `${reply}`;
       let body = parser.render(newContent);

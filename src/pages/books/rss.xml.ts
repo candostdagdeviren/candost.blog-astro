@@ -23,10 +23,7 @@ export async function GET() {
     site: baseUrl + "/books/",
     stylesheet: "/rss/pretty-feed.xsl",
     items: books.map((book) => {
-      let url =
-        book.collection == "posts"
-          ? `${baseUrl}/${book.id}/`
-          : `${baseUrl}/${book.collection}/${book.id}/`;
+      let url = `${baseUrl}/${book.collection}/${book.id}/`;
       let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline)`;
       let newContent = book.body + `${reply}`;
       let body = parser.render(newContent);

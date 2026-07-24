@@ -23,10 +23,7 @@ export async function GET() {
     site: baseUrl + "/de/",
     stylesheet: "/rss/pretty-feed.xsl",
     items: germanPosts.map((artikel) => {
-      let url =
-        artikel.collection == "posts"
-          ? `${baseUrl}/${artikel.id}/`
-          : `${baseUrl}/${artikel.collection}/${artikel.id}/`;
+      let url = `${baseUrl}/${artikel.collection}/${artikel.id}/`;
       let reply = `\n\n---\n[per E-Mail antworten](mailto:candost@candostdagdeviren.com?subject=Re:%20${url})`;
       let newContent = artikel.body + `${reply}`;
       let body = parser.render(newContent);

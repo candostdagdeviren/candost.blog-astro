@@ -8,7 +8,7 @@ const ui = {
 export function useTranslations(lang: string) {
   const safeLang: keyof typeof ui =
     lang in ui ? (lang as keyof typeof ui) : "en";
-  return function t(key: string) {
+  return function t(key: keyof typeof en) {
     return ui[safeLang][key] || ui["en"][key];
   };
 }

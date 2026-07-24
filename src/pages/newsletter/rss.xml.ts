@@ -4,12 +4,13 @@ import sanitizeHtml from "sanitize-html";
 import MarkdownIt from "markdown-it";
 import { sortPostsByDate } from "../../utils/sortPostsByDate";
 import getPostsByTag from "../../utils/getPostsByTag";
-import { getAllContent } from "src/utils/getAllContent";
+import { getCollectionByName } from "src/utils/getCollectionByName";
 const parser = new MarkdownIt();
 
 export async function GET() {
-  const allPosts = await getAllContent();
-  const newsletters = getPostsByTag(allPosts, "mediations");
+  const posts = await getCollectionByName("posts");
+  const newsletter = await getCollectionByName("newsletter");
+  const newsletters = getPostsByTag([...posts, ...newsletter], "mediations");
 
   let baseUrl = site.url;
   // removing trailing slash if found

@@ -46,7 +46,7 @@ When the user provides content, ask them for:
 1. **Receive Content**: Accept the markdown content from the user
 2. **Gather Metadata**: Ask for any frontmatter values based on your template
 3. **Location of File**: Ask in which location the file should be placed.
-4. **Current date time**: Replace <CURRENT_DATE_TIME> with the date and time of now in UTC timezone in the following date format YYYY-MM-DDTHH:mm:SSSZ
+4. **Current date time**: Replace <CURRENT_DATE_TIME> with the date and time of now in UTC timezone in the following date format YYYY-MM-DDTHH:mm:ss.SSSZ (e.g. 2026-05-08T06:05:00.000Z)
 4. **Construct Markdown File**: Combine frontmatter + original content (unchanged)
 5. **Create & Commit**: Create the file in the repository and commit with a descriptive message
 6. **Confirm**: Report success with the commit details

@@ -1,7 +1,11 @@
 import _ from "lodash";
 import { dealLabel } from "./dealLabel";
 
-const getUniqueCategory = (posts) => {
+interface CategorizedEntry {
+  data: { draft?: boolean | null; category?: string[] | string | null };
+}
+
+const getUniqueCategory = <T extends CategorizedEntry>(posts: T[]) => {
   let category: string[] = [];
   const filteredPosts = posts.filter(({ data }) => {
     return import.meta.env.PROD ? !data.draft : true;

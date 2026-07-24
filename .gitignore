@@ -9,6 +9,9 @@ dist/
 .cursor
 .cursorrules
 
+# Personal Claude Code settings stay local; launch.json and settings.json are shared
+.claude/settings.local.json
+
 # Enforce pnpm-only: reject npm/yarn lockfiles
 package-lock.json
 yarn.lock
