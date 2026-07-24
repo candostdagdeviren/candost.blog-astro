@@ -9,7 +9,7 @@ const parser = new MarkdownIt();
 type FeedEntry = {
   collection: string;
   id: string;
-  body?: string;
+  body: string;
   data: {
     title: string;
     date: Date;
