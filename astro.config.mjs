@@ -208,6 +208,9 @@ export default defineConfig({
     "/mektup/mektup-49": "/newsletter/mektup-49/",
     "/mektup/mektup-50": "/newsletter/mektup-50/",
     "/mektup/mektup-51": "/newsletter/mektup-51/",
-    "/mektup/mektup-52": "/newsletter/mektup-52/"
+    "/mektup/mektup-52": "/newsletter/mektup-52/",
+    "/critique/": "/journal/",
+    "/critique/rss.xml": "/journal/rss.xml",
+    "/critique/critique-ai-can-t-care/": "/journal/critique-ai-can-t-care/"
   }
 });

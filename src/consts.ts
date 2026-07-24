@@ -107,10 +107,6 @@ export const footerLinks = [
     href: "/journal/",
   },
   {
-    name: "Critique",
-    href: "/critique/",
-  },
-  {
     name: "More",
     href: "javascript:void(0);",
     children: [
@@ -211,7 +207,6 @@ export const comment = {
       "/newsletter/",
       "/notes/",
       "/journal/",
-      "/critique/",
     ],
   },
 };

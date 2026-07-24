@@ -8,7 +8,6 @@ export const getAllContent = async () => {
   let books = await getCollectionByName("books");
   let de = await getCollectionByName("de");
   let podcast = await getCollectionByName("podcast");
-  let critique = await getCollectionByName("critique");
   return [
     ...posts,
     ...journal,
@@ -17,6 +16,5 @@ export const getAllContent = async () => {
     ...books,
     ...de,
     ...podcast,
-    ...critique,
   ];
 };
