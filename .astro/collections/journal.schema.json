@@ -15,6 +15,26 @@
         }
       ]
     },
+    "externalUrl": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "externalTitle": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
     "date": {
       "type": "string",
       "format": "date-time"

@@ -23,6 +23,8 @@ const journal = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string().optional().nullable(),
+    externalUrl: z.string().optional().nullable(),
+    externalTitle: z.string().optional().nullable(),
     date: z.date(),
     updateDate: z.date().optional(),
     tags: z.array(z.string()).or(z.string()).optional().nullable(),
@@ -90,25 +92,6 @@ const podcast = defineCollection({
   }),
 });
 
-const critique = defineCollection({
-  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/critique" }),
-  schema: z.object({
-    title: z.string(),
-    description: z.string().optional().nullable(),
-    externalUrl: z.string().optional().nullable(),
-    externalTitle: z.string().optional().nullable(),
-    date: z.date(),
-    updateDate: z.date().optional(),
-    tags: z.array(z.string()).or(z.string()).optional().nullable(),
-    category: z.array(z.string()).or(z.string()).optional().nullable(),
-    sticky: z.number().default(0).nullable(),
-    mathjax: z.boolean().default(false).nullable(),
-    mermaid: z.boolean().default(false).nullable(),
-    draft: z.boolean().default(false).nullable(),
-    comment: z.boolean().default(true).nullable(),
-  }),
-});
-
 const posts = defineCollection({
   loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/posts" }),
   schema: z.object({
@@ -148,7 +131,6 @@ const de = defineCollection({
 
 export const collections = {
   books,
-  critique,
   journal,
   newsletter,
   notes,

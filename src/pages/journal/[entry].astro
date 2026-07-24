@@ -45,6 +45,15 @@ if (sortPosts[currentPostIndex + 1]) {
     </div>
     )
   }
+  {post.data.externalUrl && (
+    <p class="text-sm mb-2">
+      <span>In response to: </span>
+      <a href={post.data.externalUrl} target="_blank" rel="noopener noreferrer"
+         class="header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">
+        <i class="ri-external-link-line" /> {post.data.externalTitle || post.data.externalUrl}
+      </a>
+    </p>
+  )}
   <div class="divider-horizontal"></div>
   <article class="markdown-body scroll-smooth mb-4">
     <Content/>
