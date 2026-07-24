@@ -39,7 +39,7 @@
     "sanitize-html": "^2.17.6",
     "solid-js": "^1.9.14",
     "tailwindcss": "^4.3.2",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "unist-util-remove": "^4.0.0",
     "unist-util-visit": "^5.1.0"
   },
