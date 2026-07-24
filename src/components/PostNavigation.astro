@@ -1,0 +1,39 @@
+---
+import { getPostUrl } from "../utils/getPostUrl";
+
+// Previous/next navigation shared by all detail pages. `prevLabel`/`nextLabel`
+// override the link text (e.g. notes prefix titles with the zettel ID) and
+// `linkClass` adds page-specific link styling.
+const { prevPost, nextPost, prevLabel, nextLabel, linkClass = "", class: className = "" } = Astro.props;
+const prevText = prevLabel ?? prevPost?.data.title;
+const nextText = nextLabel ?? nextPost?.data.title;
+---
+
+<div class={`h-8 text-skin-base ${className}`.trim()}>
+  {
+    prevPost ? (
+      <a
+        class={`truncate w-auto max-w-[40%] float-left ${linkClass}`.trim()}
+        href={getPostUrl(prevPost)}
+        title={prevText}
+      >
+        <i class="ri-arrow-left-s-fill" />
+        {prevText}
+      </a>
+    ) : (
+      <div />
+    )
+  }
+  {
+    nextPost ? (
+      <div class="flex item-center float-right w-auto max-w-[40%] text-right">
+        <a class={`truncate ${linkClass}`.trim()} href={getPostUrl(nextPost)} title={nextText}>
+          {nextText}
+        </a>
+        <i class="ri-arrow-right-s-fill float-right" />
+      </div>
+    ) : (
+      <div />
+    )
+  }
+</div>

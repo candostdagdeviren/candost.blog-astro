@@ -1,6 +1,8 @@
 import { createSignal } from "solid-js";
-import _ from "lodash";
 import { t } from "../i18n/utils.ts";
+
+// Escape regex metacharacters so typing e.g. "(" or "c++" doesn't throw.
+const escapeRegExp = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 export function Search(props) {
   const [inputVal, setInputVal] = createSignal("");
@@ -17,7 +19,7 @@ export function Search(props) {
           post.data.title.toLowerCase().includes(value.toLowerCase()) ||
           post.data.description?.toLowerCase().includes(value.toLowerCase()),
       );
-      const reg = new RegExp(value, "gi");
+      const reg = new RegExp(escapeRegExp(value), "gi");
       const cloneBlogs = filterBlogs.map((blog) => ({
         ...blog,
         data: {

@@ -1,47 +1,19 @@
 import rss from "@astrojs/rss";
 import { site } from "../../consts";
-import { getCollectionByName } from "src/utils/getCollectionByName";
-import sanitizeHtml from "sanitize-html";
-import MarkdownIt from "markdown-it";
+import { getCollectionByName } from "../../utils/getCollectionByName";
 import { sortPostsByDate } from "../../utils/sortPostsByDate";
-const parser = new MarkdownIt();
+import { buildFeedItems, feedBaseUrl } from "../../utils/buildFeedItems";
 
 export async function GET() {
   const collection = await getCollectionByName("posts");
-
-  let baseUrl = site.url;
-  // removing trailing slash if found
-  // https://example.com/ => https://example.com
-  baseUrl = baseUrl.replace(/\/+$/g, "");
-
   const posts = sortPostsByDate(collection);
 
   return rss({
     title: "Posts, Essays, and Articles on " + site.title,
     description:
       "Posts, Essays, Articles that I write in a longer form combining my notes, journal entries, book notes, and my comments, thoughts, etc.",
-    site: baseUrl + "/posts/",
+    site: feedBaseUrl() + "/posts/",
     stylesheet: "/rss/pretty-feed.xsl",
-    items: posts.map((post) => {
-      let url =
-        post.collection == "posts"
-          ? `${baseUrl}/${post.id}/`
-          : `${baseUrl}/${post.collection}/${post.id}/`;
-      let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline)`;
-      let newContent = post.body + `${reply}`;
-      let body = parser.render(newContent);
-
-      let content = sanitizeHtml(body, {
-        allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
-      });
-
-      return {
-        title: post.data.title,
-        pubDate: post.data.date,
-        description: post.data.description ? post.data.description : "",
-        link: url,
-        content: content,
-      };
-    }),
+    items: buildFeedItems(posts),
   });
 }

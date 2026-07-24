@@ -4,6 +4,7 @@ import getUniqueTags from "../../utils/getUniqueTags";
 import getPostsByTag from "../../utils/getPostsByTag";
 import {sortPostsByDate} from "../../utils/sortPostsByDate";
 import { getAllContent } from "../../utils/getAllContent";
+import { getPostUrl } from "../../utils/getPostUrl";
 
 export const prerender = true;
 
@@ -20,7 +21,7 @@ const tagPosts = getPostsByTag(posts, tag);
 const resultPosts = sortPostsByDate(tagPosts);
 ---
 
-<IndexPage frontmatter={{title: "The Index of" + tag}}}>
+<IndexPage frontmatter={{ title: "The Index of " + tag }}>
   <h1 class="text-xl">Index of "<span class="header-link-active">{tag.includes("_") ? tag.split("_").join(" > ").split("-").join(" ") : tag.split("-").join(" ")}</span>"</h1>
 
   <p class="text-sm italic mb-1">Click a post title below to jump to that post.</p>
@@ -28,7 +29,7 @@ const resultPosts = sortPostsByDate(tagPosts);
     {
       resultPosts.map((post) => (
       <li style="list-style-type: disc;" class="ml-4 my-2">
-        <a href={post.collection == 'posts' ? "/" + post.id : '/' + post.collection + '/' + post.id}>
+        <a href={getPostUrl(post)}>
           <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">
             "{post.data.title}"
           </span>

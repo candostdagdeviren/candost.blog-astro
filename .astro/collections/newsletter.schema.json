@@ -15,26 +15,6 @@
         }
       ]
     },
-    "newsletterName": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "issueNumber": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
     "date": {
       "type": "string",
       "format": "date-time"
@@ -132,6 +112,26 @@
         {
           "default": true,
           "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "newsletterName": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "issueNumber": {
+      "anyOf": [
+        {
+          "type": "string"
         },
         {
           "type": "null"
