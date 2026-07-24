@@ -1,12 +1,10 @@
 import _ from "lodash";
 import { dealLabel } from "./dealLabel";
+import { filterDrafts } from "./filterDrafts";
 
 const getUniqueCategory = (posts) => {
   let category: string[] = [];
-  const filteredPosts = posts.filter(({ data }) => {
-    return import.meta.env.PROD ? !data.draft : true;
-  });
-  filteredPosts.forEach((post) => {
+  filterDrafts(posts).forEach((post) => {
     category = [
       ...category,
       ..._.flattenDeep(dealLabel(post.data.category)),

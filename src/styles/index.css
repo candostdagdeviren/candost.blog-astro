@@ -71,6 +71,7 @@
 @font-face {
   font-family: "jetbrains-mono";
   src: url("./JetBrainsMono-Regular.ttf");
+  font-display: swap;
 }
 
 html {

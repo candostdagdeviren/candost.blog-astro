@@ -63,26 +63,6 @@
         }
       ]
     },
-    "newsletterName": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "issueNumber": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
     "sticky": {
       "anyOf": [
         {
@@ -127,10 +107,10 @@
         }
       ]
     },
-    "favorite": {
+    "comment": {
       "anyOf": [
         {
-          "default": false,
+          "default": true,
           "type": "boolean"
         },
         {
@@ -138,10 +118,30 @@
         }
       ]
     },
-    "comment": {
+    "newsletterName": {
       "anyOf": [
         {
-          "default": true,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "issueNumber": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "favorite": {
+      "anyOf": [
+        {
+          "default": false,
           "type": "boolean"
         },
         {

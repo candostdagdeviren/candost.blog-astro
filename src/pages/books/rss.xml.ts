@@ -1,47 +1,18 @@
 import rss from "@astrojs/rss";
-import { site } from "../../consts";
-import { getCollectionByName } from "src/utils/getCollectionByName";
-import sanitizeHtml from "sanitize-html";
-import MarkdownIt from "markdown-it";
+import { getCollectionByName } from "../../utils/getCollectionByName";
 import { sortPostsByDate } from "../../utils/sortPostsByDate";
-const parser = new MarkdownIt();
+import { buildFeedItems, feedBaseUrl } from "../../utils/buildFeedItems";
 
 export async function GET() {
   const collection = await getCollectionByName("books");
-
-  let baseUrl = site.url;
-  // removing trailing slash if found
-  // https://example.com/ => https://example.com
-  baseUrl = baseUrl.replace(/\/+$/g, "");
-
   const books = sortPostsByDate(collection);
 
   return rss({
     title: "Candost's Book Notes",
     description:
       "I share either a full book review or a single-chapter note from the books I read.",
-    site: baseUrl + "/books/",
+    site: feedBaseUrl() + "/books/",
     stylesheet: "/rss/pretty-feed.xsl",
-    items: books.map((book) => {
-      let url =
-        book.collection == "posts"
-          ? `${baseUrl}/${book.id}/`
-          : `${baseUrl}/${book.collection}/${book.id}/`;
-      let reply = `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline)`;
-      let newContent = book.body + `${reply}`;
-      let body = parser.render(newContent);
-
-      let content = sanitizeHtml(body, {
-        allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
-      });
-
-      return {
-        title: book.data.title,
-        pubDate: book.data.date,
-        description: book.data.description ? book.data.description : "",
-        link: url,
-        content: content,
-      };
-    }),
+    items: buildFeedItems(books),
   });
 }
