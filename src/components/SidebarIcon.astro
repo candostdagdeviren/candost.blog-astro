@@ -26,19 +26,19 @@
   let menu = document.getElementById("mobile-menu");
 
   let personalInfo = document.getElementById("personal-info");
-  showAsideBtn.addEventListener("click", () => {
+  showAsideBtn?.addEventListener("click", () => {
     if (menuIcon && menuIcon.classList.contains("hidden")) {
       menuIcon.classList.toggle("hidden");
-      menuCloseIcon.classList.toggle("hidden");
-      menu.classList.toggle("hidden");
+      menuCloseIcon?.classList.toggle("hidden");
+      menu?.classList.toggle("hidden");
     }
     showAsideBtn.classList.toggle("hidden");
-    closeAsideBtn.classList.toggle("hidden");
-    personalInfo.classList.toggle("hidden");
+    closeAsideBtn?.classList.toggle("hidden");
+    personalInfo?.classList.toggle("hidden");
   });
-  closeAsideBtn.addEventListener("click", () => {
+  closeAsideBtn?.addEventListener("click", () => {
     closeAsideBtn.classList.toggle("hidden");
-    personalInfo.classList.toggle("hidden");
-    showAsideBtn.classList.toggle("hidden");
+    personalInfo?.classList.toggle("hidden");
+    showAsideBtn?.classList.toggle("hidden");
   });
 </script>

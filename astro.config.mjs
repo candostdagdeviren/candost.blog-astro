@@ -4,7 +4,6 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import solid from '@astrojs/solid-js';
 import robotsTxt from "astro-robots-txt";
-import {remarkModifiedTime} from "./src/remarkPlugin/remark-modified-time.mjs";
 import {resetRemark} from "./src/remarkPlugin/reset-remark.js";
 import remarkDirective from "remark-directive";
 import {remarkAsides} from  './src/remarkPlugin/remark-asides.js'
@@ -108,7 +107,7 @@ export default defineConfig({
   ],
 
   markdown: {
-    remarkPlugins: [remarkModifiedTime, resetRemark, remarkDirective, remarkAsides({}),remarkCollapse({})],
+    remarkPlugins: [resetRemark, remarkDirective, remarkAsides({}),remarkCollapse({})],
     rehypePlugins: [customRehypeLazyLoadImage],
   },
   vite: {
@@ -118,6 +117,10 @@ export default defineConfig({
     }
   },
   output: 'static',
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: 'hover'
+  },
   redirects: {
     "/favicon.png": "/favicon.ico",
     "/rss": "/rss.xml",

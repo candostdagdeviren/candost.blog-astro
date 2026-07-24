@@ -16,20 +16,19 @@
   let showAsideBtn = document.getElementById("aside-btn");
   let closeAsideBtn = document.getElementById("aside-close-btn");
   let personalInfo = document.getElementById("personal-info");
-  menuIcon.addEventListener("click", () => {
+  menuIcon?.addEventListener("click", () => {
     if (showAsideBtn && showAsideBtn.classList.contains("hidden")) {
       showAsideBtn.classList.toggle("hidden");
-      closeAsideBtn.classList.toggle("hidden");
-      personalInfo.classList.toggle("hidden");
+      closeAsideBtn?.classList.toggle("hidden");
+      personalInfo?.classList.toggle("hidden");
     }
     menuIcon.classList.toggle("hidden");
-    menuCloseIcon.classList.toggle("hidden");
-    menu.classList.toggle("hidden");
-    // 给背景添加蒙版
+    menuCloseIcon?.classList.toggle("hidden");
+    menu?.classList.toggle("hidden");
   });
-  menuCloseIcon.addEventListener("click", () => {
+  menuCloseIcon?.addEventListener("click", () => {
     menuCloseIcon.classList.toggle("hidden");
-    menu.classList.toggle("hidden");
-    menuIcon.classList.toggle("hidden");
+    menu?.classList.toggle("hidden");
+    menuIcon?.classList.toggle("hidden");
   });
 </script>
