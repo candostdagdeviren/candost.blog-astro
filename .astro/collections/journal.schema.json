@@ -15,26 +15,6 @@
         }
       ]
     },
-    "externalUrl": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "externalTitle": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
     "date": {
       "type": "string",
       "format": "date-time"
@@ -132,6 +112,26 @@
         {
           "default": true,
           "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "externalUrl": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "externalTitle": {
+      "anyOf": [
+        {
+          "type": "string"
         },
         {
           "type": "null"

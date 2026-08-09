@@ -142,6 +142,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"books">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "de": Record<string, {
   id: string;
@@ -150,6 +151,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"de">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "journal": Record<string, {
   id: string;
@@ -158,6 +160,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"journal">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "newsletter": Record<string, {
   id: string;
@@ -166,6 +169,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"newsletter">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "notes": Record<string, {
   id: string;
@@ -174,6 +178,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"notes">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "podcast": Record<string, {
   id: string;
@@ -182,6 +187,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"podcast">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 "posts": Record<string, {
   id: string;
@@ -190,6 +196,7 @@ declare module 'astro:content' {
   data: InferEntrySchema<"posts">;
   rendered?: RenderedContent;
   filePath?: string;
+  digest?: string | number;
 }>;
 
 	};
