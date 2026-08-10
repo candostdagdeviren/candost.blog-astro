@@ -50,7 +50,9 @@ import { site, config, footerLinks, infoLinks } from "../consts";
             const external = link.outlink.startsWith("http");
             // rel is a space-separated token list, so "me noopener" still
             // registers as rel=me for microformats parsers.
-            const rel = [link.me && "me", external && "noopener"].filter(Boolean).join(" ");
+            const rel = [link.me && "me", external && "noopener noreferrer"]
+              .filter(Boolean)
+              .join(" ");
             return (
               <a
                 href={link.outlink}

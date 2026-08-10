@@ -33,7 +33,9 @@ const { frontmatter = { comment: false } } = Astro.props;
     // Only mark up links that actually leave the site. Internal links keep
     // their default rel so search engines can follow them; `hostname` is
     // empty for mailto:, javascript: and anchor-less links, which skips
-    // those too. Mirrors the external-only check in BlogPost.astro.
+    // those too. Same goal as the outbound-link handling in BlogPost.astro,
+    // though that one is scoped to .markdown-body and compares the href
+    // prefix rather than the hostname.
     if (item.hostname && item.hostname !== window.location.hostname) {
       item.setAttribute("rel", "nofollow noreferrer");
     }

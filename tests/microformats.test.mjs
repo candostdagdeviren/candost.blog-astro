@@ -81,7 +81,24 @@ describe("h-card — homepage identity", () => {
   });
 });
 
+/** hrefs of <a>/<link> elements whose rel contains the "me" token. */
+const relMeHrefsIn = (html) => {
+  const found = new Set();
+  for (const [tag] of html.matchAll(/<(?:a|link)\b[^>]*>/gi)) {
+    const rel = /\brel="([^"]*)"/i.exec(tag)?.[1] ?? "";
+    if (!rel.split(/\s+/).includes("me")) continue;
+    const href = /\bhref="([^"]*)"/i.exec(tag)?.[1];
+    if (href) found.add(href);
+  }
+  return found;
+};
+
 describe("rel=me / rel=author — identity links", () => {
+  // Deliberately hardcoded rather than imported from src/consts.ts. This is
+  // the independent statement of *which* identities should be published, so
+  // changing a handle is expected to fail here until updated on purpose.
+  // (It also can't be imported: .nvmrc pins Node 22.12, which needs a flag
+  // to load .ts files.)
   const EXPECTED_ME = [
     "https://hachyderm.io/@candost",
     "https://github.com/candostdagdeviren",
@@ -111,6 +128,30 @@ describe("rel=me / rel=author — identity links", () => {
     // Entries carry no visible byline, so parsers rely on this to find the author.
     assert.ok((parsePage("").rels.author ?? []).includes(`${SITE}/`));
   });
+
+  // The <head> links and the visible footer links are both generated from
+  // infoLinks, so they cannot drift today. This asserts that structurally
+  // rather than trusting it, in case the head is ever hand-written again.
+  for (const [label, page] of [
+    ["homepage", ""],
+    ["/posts/", "posts"],
+  ]) {
+    test(`${label} publishes the same rel=me set in <head> and in the footer`, () => {
+      const html = readFileSync(join(DIST, trim(page), "index.html"), "utf-8");
+      const headEnd = html.indexOf("</head>");
+      assert.ok(headEnd > -1, "no </head> found");
+
+      const inHead = relMeHrefsIn(html.slice(0, headEnd));
+      const inBody = relMeHrefsIn(html.slice(headEnd));
+
+      assert.deepEqual(
+        [...inHead].sort(),
+        [...inBody].sort(),
+        `<head> and footer rel=me links disagree on ${label} — they should both ` +
+          `come from infoLinks in src/consts.ts`,
+      );
+    });
+  }
 });
 
 describe("h-entry — content pages", () => {
