@@ -7,6 +7,7 @@ import { getCollectionByName } from "../../utils/getCollectionByName";
 import { sortNotesByZettelId } from "../../utils/sortNotesByZettelId";
 import { getPrevNext } from "../../utils/getPrevNext";
 import NotesFooter from "../../components/NotesFooter.astro";
+import Webmentions from "../../components/Webmentions.astro";
 
 export const prerender = true;
 
@@ -85,4 +86,5 @@ const backlinks = allLinks[pathname] || [];
     }
     <NotesFooter title={entry.data.title} url={entry.id} date={entry.data.date} />
   </div>
+  <Webmentions />
 </BlogPost>

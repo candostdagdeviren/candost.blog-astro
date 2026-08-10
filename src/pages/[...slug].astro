@@ -7,6 +7,7 @@ import PostNavigation from "../components/PostNavigation.astro";
 import { getCollectionByName } from "../utils/getCollectionByName";
 import { sortPostsByDate } from "../utils/sortPostsByDate";
 import { getPrevNext } from "../utils/getPrevNext";
+import Webmentions from "../components/Webmentions.astro";
 
 export const prerender = true;
 
@@ -44,4 +45,5 @@ const { prevPost, nextPost } = getPrevNext(sortPosts, entry);
       date={entry.data.date}
     />
   </div>
+  <Webmentions />
 </BlogPost>

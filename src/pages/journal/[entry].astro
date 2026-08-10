@@ -8,6 +8,7 @@ import { comment } from "../../consts";
 import PostTitle from "../../components/PostTitle.astro";
 import BlogFooter from "../../components/BlogFooter.astro";
 import PostNavigation from "../../components/PostNavigation.astro";
+import Webmentions from "../../components/Webmentions.astro";
 
 export const prerender = true;
 
@@ -36,8 +37,10 @@ const { prevPost, nextPost } = getPrevNext(sortPosts, post);
     {post.data.externalUrl && (
       <p class="text-sm mb-2">
         <span>In response to: </span>
+        {/* u-in-reply-to marks this as a genuine reply, so a receiving site
+            can display it as one rather than a bare mention. */}
         <a href={post.data.externalUrl} target="_blank" rel="noopener noreferrer"
-           class="header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">
+           class="u-in-reply-to header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">
           <i class="ri-external-link-line" /> {post.data.externalTitle || post.data.externalUrl}
         </a>
       </p>
@@ -54,4 +57,5 @@ const { prevPost, nextPost } = getPrevNext(sortPosts, post);
   url={post.collection == 'posts' ? post.id : post.collection + '/' + post.id}
   date={post.data.date}>
 </BlogFooter>
+  <Webmentions />
 </BlogPost>
