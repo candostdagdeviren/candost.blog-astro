@@ -33,13 +33,13 @@ let sortedNotes = sortNotesByZettelId(zettels);
   <h2 class="text-2xl fa-2x mb-5 mt-10">All Notes</h2>
   <p class="fa-m mb-10 mt-10"><em>Here are all notes are ordered squentially by their Zettel numbers, not chronologically.</em></p>
   <div>
-    <ul>
+    <ul class="h-feed">
       {
         sortedNotes
         .map((post) => (
-        <li style="list-style-type: disc;" class="ml-4 my-2">
-          <a class="flex text-l" href={'/notes/' + post.id}>
-            <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"><strong>{post.data.zettelId}:&nbsp;</strong>{post.data.title}</span>
+        <li style="list-style-type: disc;" class="ml-4 my-2 h-entry">
+          <a class="flex text-l u-url" href={'/notes/' + post.id}>
+            <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 p-name"><strong>{post.data.zettelId}:&nbsp;</strong>{post.data.title}</span>
           </a>
         </li>
         )

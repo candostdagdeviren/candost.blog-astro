@@ -2,12 +2,12 @@
 const { data, body, id } = Astro.props.post;
 ---
 
-<div>
+<div class="h-entry">
   <a
-    class="text-xl font-bold underline-offset-4 decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+    class="text-xl font-bold underline-offset-4 decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 p-name u-url"
     href={`${id}`}>{data.title}</a
   >
-  <p class="break-word first-letter tracking-wide">
+  <p class="break-word first-letter tracking-wide p-summary">
     {
       body.length > 140
         ? body

@@ -27,28 +27,26 @@ const { prevPost, nextPost } = getPrevNext(sortPosts, post);
 ---
 
 <BlogPost frontmatter={{comment:true, ...post.data}}>
-  {
-    (
-    <p class="text-sm italic mb-3"><i class="ri-chat-thread-line mr-2 mt-2" /><a href="/journal">Journal</a></p>
+  <p class="text-sm italic mb-3"><i class="ri-chat-thread-line mr-2 mt-2" /><a href="/journal">Journal</a></p>
+  <div class="h-entry">
     <PostTitle {...post.data}></PostTitle>
     <div class="flex items-center mb-2">
       {comment.enable && comment.type === "waline" && comment.pageview}
     </div>
-    )
-  }
-  {post.data.externalUrl && (
-    <p class="text-sm mb-2">
-      <span>In response to: </span>
-      <a href={post.data.externalUrl} target="_blank" rel="noopener noreferrer"
-         class="header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">
-        <i class="ri-external-link-line" /> {post.data.externalTitle || post.data.externalUrl}
-      </a>
-    </p>
-  )}
-  <div class="divider-horizontal"></div>
-  <article class="markdown-body scroll-smooth mb-4">
-    <Content/>
-  </article>
+    {post.data.externalUrl && (
+      <p class="text-sm mb-2">
+        <span>In response to: </span>
+        <a href={post.data.externalUrl} target="_blank" rel="noopener noreferrer"
+           class="header-link-active underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500">
+          <i class="ri-external-link-line" /> {post.data.externalTitle || post.data.externalUrl}
+        </a>
+      </p>
+    )}
+    <div class="divider-horizontal"></div>
+    <article class="markdown-body scroll-smooth mb-4 e-content">
+      <Content/>
+    </article>
+  </div>
   <div class="divider-horizontal"></div>
   <PostNavigation prevPost={prevPost} nextPost={nextPost} />
   <BlogFooter

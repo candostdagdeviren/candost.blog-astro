@@ -14,6 +14,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "test:build": "astro build && node --test \"tests/**/*.test.mjs\"",
     "astro": "astro"
   },
   "dependencies": {
@@ -45,6 +47,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
+    "microformats-parser": "^2.0.6",
     "prettier-plugin-astro": "^0.14.1",
     "sass": "^1.101.0"
   },

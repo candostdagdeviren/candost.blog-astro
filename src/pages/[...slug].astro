@@ -29,11 +29,13 @@ const { prevPost, nextPost } = getPrevNext(sortPosts, entry);
 <BlogPost frontmatter={{ comment: true, ...entry.data }}>
   <div>
     <p class="text-sm italic mb-3"><i class="ri-pen-nib-line mr-2 mt-2"></i><a href="/posts">Essay</a></p>
-    <PostTitle {...entry.data} />
-    <div class="divider-horizontal"></div>
-    <article class="markdown-body">
-      <Content />
-    </article>
+    <div class="h-entry">
+      <PostTitle {...entry.data} />
+      <div class="divider-horizontal"></div>
+      <article class="markdown-body e-content">
+        <Content />
+      </article>
+    </div>
     <div class="divider-horizontal"></div>
     <PostNavigation prevPost={prevPost} nextPost={nextPost} />
     <BlogFooter

@@ -13,13 +13,13 @@ let sortedPosts = sortPostsByDate(posts.concat(newsletter));
   <h1 class="text-3xl mb-5 font-bold">Essays.</h1>
   You can get new posts in your favorite RSS reader via <a class="truncate mt-1 header-link-active cursor-pointer decoration-skin-base hover:text-skin-active" href="/posts/rss.xml">the dedicated RSS feed.</a>
   <div>
-    <ul>
+    <ul class="h-feed">
   {
     sortedPosts.map((post) => (
-      <li class="mb-3 content-item" data-collection={post.collection} style="display: list-item;">
+      <li class="mb-3 content-item h-entry" data-collection={post.collection} style="display: list-item;">
         <i class="ri-pen-nib-line mr-2 mt-2 text-lg" />
         <a
-          class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500"
+          class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 p-name u-url"
           href={post.collection === "posts" ? `/${post.id}/` : `/${post.collection}/${post.id}/`}
         >
           <strong class="text-lg">{post.data.title}</strong>

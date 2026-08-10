@@ -147,28 +147,53 @@ export const footerLinks = [
 ];
 
 /**
- * Personal link address
+ * Personal link addresses.
+ *
+ * `me` marks a link as an identity link, rendered with rel="me" so other
+ * services can tie the profile to this domain.
+ *
+ * For profile URLs (Mastodon, GitHub, LinkedIn) verification is reciprocal:
+ * the profile on the other end has to link back here, also with rel="me" —
+ * that is what earns Mastodon's verified checkmark. The mailto: link is a
+ * valid rel="me" identity too, but an address cannot link back, so it is
+ * confirmed through a separate opt-in flow (e.g. IndieAuth email auth)
+ * rather than by reciprocity.
  */
 export const infoLinks = [
   {
+    icon: "ri-mastodon-fill",
+    name: "mastodon",
+    label: "Mastodon",
+    outlink: "https://hachyderm.io/@candost",
+    me: true,
+  },
+  {
     icon: "ri-linkedin-fill",
     name: "linkedin",
+    label: "LinkedIn",
     outlink: "https://linkedin.com/in/candost",
+    me: true,
   },
   {
     icon: "ri-github-fill",
     name: "github",
+    label: "GitHub",
     outlink: "https://github.com/candostdagdeviren",
-  },
-  {
-    icon: "ri-rss-fill",
-    name: "rss",
-    outlink: "/feeds",
+    me: true,
   },
   {
     icon: "ri-mail-fill",
     name: "email",
+    label: "Email",
     outlink: "mailto:contact@candostdagdeviren.com",
+    me: true,
+  },
+  {
+    icon: "ri-rss-fill",
+    name: "rss",
+    label: "RSS",
+    outlink: "/feeds",
+    me: false,
   },
 ];
 

@@ -25,11 +25,13 @@ const { Content } = await render(entry);
     <p class="text-sm italic mb-3">
       <i class="ri-pen-nib-line mr-2 mt-2"></i><a href="/newsletter">Newsletter Issue</a>
     </p>
-    <PostTitle {...entry.data} />
-    <div class="divider-horizontal"></div>
-    <article class="markdown-body">
-      <Content />
-    </article>
+    <div class="h-entry">
+      <PostTitle {...entry.data} />
+      <div class="divider-horizontal"></div>
+      <article class="markdown-body e-content">
+        <Content />
+      </article>
+    </div>
     <div class="divider-horizontal"></div>
     <BlogFooter
       title={entry.data.title}

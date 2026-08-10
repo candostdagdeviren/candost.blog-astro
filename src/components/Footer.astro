@@ -1,5 +1,5 @@
 ---
-import { site, config, footerLinks } from "../consts";
+import { site, config, footerLinks, infoLinks } from "../consts";
 ---
 
 <div class="footer container p-4">
@@ -38,6 +38,37 @@ import { site, config, footerLinks } from "../consts";
           </ul>
         </div>
       </div>
+      <div class="divider-horizontal"></div>
+
+      <!--
+        Identity links. The ones flagged `me` carry rel="me" so services like
+        Mastodon can verify this domain (they link back here the same way).
+      -->
+      <div class="flex justify-center items-center gap-4 mb-5 text-2xl">
+        {
+          infoLinks.map((link) => {
+            const external = link.outlink.startsWith("http");
+            // rel is a space-separated token list, so "me noopener" still
+            // registers as rel=me for microformats parsers.
+            const rel = [link.me && "me", external && "noopener noreferrer"]
+              .filter(Boolean)
+              .join(" ");
+            return (
+              <a
+                href={link.outlink}
+                rel={rel || undefined}
+                target={external ? "_blank" : undefined}
+                class="hover:text-skin-active"
+                title={link.label}
+                aria-label={link.label}
+              >
+                <i class={link.icon} />
+              </a>
+            );
+          })
+        }
+      </div>
+
       <div class="divider-horizontal"></div>
       <div class="mb-5">
         All content on this website is licensed under

@@ -15,20 +15,27 @@ let resultPosts = favorites.splice(0, site.favoritePostsSize);
 ---
 
 <BlogPost frontmatter={{ comment: false, title: "Home" }}>
-  <section class="mb-8">
+  <!--
+    h-card: the machine-readable identity for this domain. Parsers (and
+    services like Bridgy Fed) read it to know who publishes here, and
+    rel="author" in the document head points at this page to find it.
+  -->
+  <section class="mb-8 h-card">
     <div class="pt-4 pb-4">
-      <p class="text-4xl">Candost</p>
-      <p class="text-sm italic">Software Engineering Leader, Writer, Problem Solver</p>
+      <p class="text-4xl"><a class="p-name u-url u-uid" href={`${site.url}/`}>Candost</a></p>
+      <p class="text-sm italic p-job-title">Software Engineering Leader, Writer, Problem Solver</p>
     </div>
-    <p class="mb-2">
-      I work towards creating great, high-performing systems and technology organizations by identifying <em
-        >the real problems</em
-      >.
+    <div class="p-note">
+      <p class="mb-2">
+        I work towards creating great, high-performing systems and technology organizations by identifying <em
+          >the real problems</em
+        >.
+      </p>
       <p class="mb-5">
         On this website, I'm hunting timeless insights into humans, software, and leadership, bringing solutions along
         the way.
       </p>
-    </p>
+    </div>
 
     <a href="/about/">
       <i class="ri-arrow-right-line"></i>

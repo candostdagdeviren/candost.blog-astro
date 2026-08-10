@@ -25,7 +25,20 @@ const { frontmatter = { comment: false } } = Astro.props;
 </body>
 <script>
   document.body.querySelectorAll("a").forEach(item => {
-    item.setAttribute("rel", "nofollow noreferrer");
+    // rel="me" and rel="author" carry meaning (identity verification and
+    // author discovery), so leave those links untouched.
+    const rel = item.getAttribute("rel");
+    if (rel && /\b(me|author)\b/.test(rel)) return;
+
+    // Only mark up links that actually leave the site. Internal links keep
+    // their default rel so search engines can follow them; `hostname` is
+    // empty for mailto:, javascript: and anchor-less links, which skips
+    // those too. Same goal as the outbound-link handling in BlogPost.astro,
+    // though that one is scoped to .markdown-body and compares the href
+    // prefix rather than the hostname.
+    if (item.hostname && item.hostname !== window.location.hostname) {
+      item.setAttribute("rel", "nofollow noreferrer");
+    }
   });
 </script>
 </html>

@@ -1,6 +1,6 @@
 ---
 import "../styles/index.css";
-import { site } from "../consts";
+import { site, infoLinks } from "../consts";
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const { mathjax = false, mermaid = false, title, description, ogImagePath } = Astro.props;
@@ -49,9 +49,18 @@ if (title === site.title) {
   <!-- Mastodon -->
   <meta name="fediverse:creator" content="@candost@hachyderm.io" />
 
-  <!-- IndieAuth -->
-  <link href="https://github.com/candostdagdeviren" rel="me" />
-  <link href="https://linkedin.com/in/candost" rel="me" />
+  <!--
+    IndieAuth / rel-me. Generated from the same infoLinks list that renders the
+    visible identity links in the footer, so the two cannot drift apart when a
+    profile is added or a handle changes.
+  -->
+  {infoLinks.filter((link) => link.me).map((link) => <link href={link.outlink} rel="me" />)}
+
+  <!--
+    Author discovery for microformats2 parsers: entries on this site have no
+    visible byline, so parsers follow rel="author" to the homepage h-card.
+  -->
+  <link href={new URL("/", Astro.site).href} rel="author" />
 
   <link rel="sitemap" href="/sitemap-0.xml" />
   <title>{title} | {site.title}</title>
