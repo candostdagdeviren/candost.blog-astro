@@ -26,6 +26,13 @@ export type Webmention = {
   "wm-received"?: string;
 };
 
+/**
+ * These two lists are an intentional allowlist, not an exhaustive one. A
+ * mention whose wm-property is neither (rsvp, follow-of, and anything
+ * webmention.io adds later) is deliberately not rendered, rather than being
+ * guessed at and shown in a category that misrepresents it.
+ */
+
 /** Reactions worth counting rather than quoting. */
 export const REACTION_PROPERTIES = ["like-of", "repost-of", "bookmark-of"] as const;
 /** Mentions worth showing with their text. */

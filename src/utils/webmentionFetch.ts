@@ -66,10 +66,12 @@ export const fetchWebmentions = async ({
       if (batch.length < perPage) break;
     }
   } catch (error) {
+    // Keep whatever earlier pages returned rather than discarding them: a
+    // blip on page 3 should cost that page, not the two that already
+    // succeeded. Matches how the non-OK branch above breaks out.
     warn(
-      `[webmention] could not reach webmention.io (${(error as Error)?.message ?? error}) - building without received mentions.`,
+      `[webmention] could not reach webmention.io (${(error as Error)?.message ?? error}) - using ${collected.length} mention(s) fetched so far.`,
     );
-    return [];
   }
 
   return collected;

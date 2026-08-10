@@ -16,8 +16,8 @@ const DEFAULT_API = "https://webmention.io/api/mentions.jf2";
 
 // import.meta.env covers .env files loaded by Vite; process.env covers CI and
 // Netlify build environment variables.
-const readEnv = (name: string): string | undefined => {
-  const fromVite = (import.meta as any)?.env?.[name];
+const readEnv = (name: keyof ImportMetaEnv): string | undefined => {
+  const fromVite = import.meta.env?.[name];
   const fromNode = typeof process !== "undefined" ? process.env?.[name] : undefined;
   return fromVite || fromNode || undefined;
 };
@@ -59,6 +59,12 @@ const load = async (): Promise<Map<string, Webmention[]>> => {
 let pending: Promise<Map<string, Webmention[]>> | null = null;
 
 export const getWebmentions = (): Promise<Map<string, Webmention[]>> => {
-  pending ??= load();
+  // load() is not expected to reject, but a memoised rejection would poison
+  // every remaining page of the build, so the guarantee is made explicit here
+  // rather than relied on.
+  pending ??= load().catch((error) => {
+    console.warn(`[webmention] unexpected failure (${error?.message ?? error}) - skipping.`);
+    return new Map<string, Webmention[]>();
+  });
   return pending;
 };

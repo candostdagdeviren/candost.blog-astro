@@ -196,6 +196,76 @@ describe("fetchWebmentions — never fails the build", () => {
   });
 });
 
+describe("fetchWebmentions — a late failure keeps earlier pages", () => {
+  test("a network throw on page 2 does not discard pages 0 and 1", async () => {
+    let calls = 0;
+    const warnings = [];
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      perPage: 2,
+      warn: (m) => warnings.push(m),
+      fetchImpl: async () => {
+        calls++;
+        if (calls <= 2) return okResponse([{ "wm-id": calls * 10 }, { "wm-id": calls * 10 + 1 }]);
+        throw new Error("ECONNRESET");
+      },
+    });
+    assert.equal(result.length, 4, "the four mentions already fetched must survive");
+    assert.deepEqual(
+      result.map((m) => m["wm-id"]),
+      [10, 11, 20, 21],
+    );
+    assert.match(warnings.join(" "), /4 mention\(s\) fetched so far/);
+  });
+
+  test("malformed JSON on page 2 does not discard page 1", async () => {
+    let calls = 0;
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      perPage: 1,
+      warn: silent,
+      fetchImpl: async () => {
+        calls++;
+        if (calls === 1) return okResponse([{ "wm-id": 1 }]);
+        return {
+          ok: true,
+          status: 200,
+          json: async () => {
+            throw new SyntaxError("Unexpected token <");
+          },
+        };
+      },
+    });
+    assert.deepEqual(
+      result.map((m) => m["wm-id"]),
+      [1],
+    );
+  });
+
+  test("a non-OK page 2 also keeps page 1", async () => {
+    let calls = 0;
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      perPage: 1,
+      warn: silent,
+      fetchImpl: async () => {
+        calls++;
+        return calls === 1 ? okResponse([{ "wm-id": 1 }]) : { ok: false, status: 500 };
+      },
+    });
+    assert.deepEqual(
+      result.map((m) => m["wm-id"]),
+      [1],
+    );
+  });
+});
+
 describe("fetchWebmentions — pagination", () => {
   test("stops on the first short page", async () => {
     let calls = 0;
