@@ -36,6 +36,16 @@ const LABELS: Record<string, string> = {
   "mention-of": "mentioned this",
 };
 
+/**
+ * Dates come from the sending site, so an unparseable one must not reach
+ * dayjs and render as "Invalid Date". Falls through to the time webmention.io
+ * received it.
+ */
+const usableDate = (value?: string | null): string | undefined => {
+  if (!value) return undefined;
+  return Number.isNaN(new Date(value).getTime()) ? undefined : value;
+};
+
 const snippet = (mention: Webmention): string => {
   // Deliberately the text, never content.html -- that is markup from a site
   // we do not control.
@@ -83,7 +93,7 @@ const snippet = (mention: Webmention): string => {
             const author = safeExternalUrl(mention.author?.url);
             const name = displayName(mention);
             const text = snippet(mention);
-            const when = mention.published || mention["wm-received"];
+            const when = usableDate(mention.published) ?? usableDate(mention["wm-received"]);
 
             return (
               <li class="text-sm">

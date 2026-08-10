@@ -209,7 +209,10 @@ export const infoLinks = [
  * as the WEBMENTION_IO_TOKEN environment variable at build time. Without it
  * the build still succeeds and simply renders no mentions.
  *
- * enable {boolean} render received mentions on entry pages
+ * enable {boolean} render received mentions on entry pages. This does NOT
+ *   gate endpoint discovery -- the rel="webmention" and rel="pingback" links
+ *   are always emitted, so mentions keep accumulating at webmention.io even
+ *   while display is switched off.
  * domain {string} the webmention.io account name; endpoints derive from it
  */
 export const webmention = {

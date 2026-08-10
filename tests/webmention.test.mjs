@@ -16,6 +16,7 @@ import {
   REACTION_PROPERTIES,
   RESPONSE_PROPERTIES,
 } from "../src/utils/webmentionFormat.ts";
+import { fetchWebmentions } from "../src/utils/webmentionFetch.ts";
 
 describe("safeExternalUrl — refuses anything that is not http(s)", () => {
   for (const hostile of [
@@ -110,5 +111,140 @@ describe("property groupings are disjoint", () => {
   test("no property is both a reaction and a response", () => {
     const overlap = REACTION_PROPERTIES.filter((p) => RESPONSE_PROPERTIES.includes(p));
     assert.deepEqual(overlap, []);
+  });
+});
+
+// ---------------------------------------------------------------------------
+
+/** A fetch stand-in returning one jf2 page. */
+const okResponse = (children) => ({
+  ok: true,
+  status: 200,
+  json: async () => ({ children }),
+});
+
+const silent = () => {};
+
+describe("fetchWebmentions — never fails the build", () => {
+  test("returns nothing when the token is missing", async () => {
+    const warnings = [];
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: undefined,
+      warn: (m) => warnings.push(m),
+      fetchImpl: () => assert.fail("must not call the API without a token"),
+    });
+    assert.deepEqual(result, []);
+    assert.match(warnings.join(" "), /WEBMENTION_IO_TOKEN is not set/);
+  });
+
+  test("returns nothing when the API responds non-OK", async () => {
+    const warnings = [];
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      warn: (m) => warnings.push(m),
+      fetchImpl: async () => ({ ok: false, status: 503, json: async () => ({}) }),
+    });
+    assert.deepEqual(result, []);
+    assert.match(warnings.join(" "), /responded 503/);
+  });
+
+  test("returns nothing when the network throws", async () => {
+    const warnings = [];
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      warn: (m) => warnings.push(m),
+      fetchImpl: async () => {
+        throw new Error("ENOTFOUND");
+      },
+    });
+    assert.deepEqual(result, []);
+    assert.match(warnings.join(" "), /could not reach webmention.io/);
+  });
+
+  test("returns nothing when the response is not valid JSON", async () => {
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      warn: silent,
+      fetchImpl: async () => ({
+        ok: true,
+        status: 200,
+        json: async () => {
+          throw new SyntaxError("Unexpected token <");
+        },
+      }),
+    });
+    assert.deepEqual(result, []);
+  });
+
+  test("tolerates JSON without a children array", async () => {
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      warn: silent,
+      fetchImpl: async () => ({ ok: true, status: 200, json: async () => ({ children: null }) }),
+    });
+    assert.deepEqual(result, []);
+  });
+});
+
+describe("fetchWebmentions — pagination", () => {
+  test("stops on the first short page", async () => {
+    let calls = 0;
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      perPage: 2,
+      warn: silent,
+      fetchImpl: async () => {
+        calls++;
+        return okResponse(calls === 1 ? [{ "wm-id": 1 }, { "wm-id": 2 }] : [{ "wm-id": 3 }]);
+      },
+    });
+    assert.equal(calls, 2, "should stop once a page comes back short");
+    assert.equal(result.length, 3);
+  });
+
+  test("honours maxPages when every page is full", async () => {
+    let calls = 0;
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      perPage: 1,
+      maxPages: 3,
+      warn: silent,
+      fetchImpl: async () => {
+        calls++;
+        return okResponse([{ "wm-id": calls }]);
+      },
+    });
+    assert.equal(calls, 3, "must not page forever");
+    assert.equal(result.length, 3);
+  });
+
+  test("passes the token and domain to the API", async () => {
+    let seen = "";
+    await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "secret token",
+      warn: silent,
+      fetchImpl: async (url) => {
+        seen = url;
+        return okResponse([]);
+      },
+    });
+    assert.match(seen, /domain=candost\.blog/);
+    assert.match(seen, /token=secret%20token/);
   });
 });
