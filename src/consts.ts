@@ -147,9 +147,8 @@ export const footerLinks = [
 ];
 
 /**
- * Personal link address
- */
-/**
+ * Personal link addresses.
+ *
  * `me` marks a link as an identity link, rendered with rel="me" so other
  * services can tie the profile to this domain.
  *
@@ -164,30 +163,35 @@ export const infoLinks = [
   {
     icon: "ri-mastodon-fill",
     name: "mastodon",
+    label: "Mastodon",
     outlink: "https://hachyderm.io/@candost",
     me: true,
   },
   {
     icon: "ri-linkedin-fill",
     name: "linkedin",
+    label: "LinkedIn",
     outlink: "https://linkedin.com/in/candost",
     me: true,
   },
   {
     icon: "ri-github-fill",
     name: "github",
+    label: "GitHub",
     outlink: "https://github.com/candostdagdeviren",
     me: true,
   },
   {
     icon: "ri-mail-fill",
     name: "email",
+    label: "Email",
     outlink: "mailto:contact@candostdagdeviren.com",
     me: true,
   },
   {
     icon: "ri-rss-fill",
     name: "rss",
+    label: "RSS",
     outlink: "/feeds",
     me: false,
   },

@@ -46,18 +46,24 @@ import { site, config, footerLinks, infoLinks } from "../consts";
       -->
       <div class="flex justify-center items-center gap-4 mb-5 text-2xl">
         {
-          infoLinks.map((link) => (
-            <a
-              href={link.outlink}
-              rel={link.me ? "me" : undefined}
-              target={link.outlink.startsWith("http") ? "_blank" : undefined}
-              class="hover:text-skin-active"
-              title={link.name}
-              aria-label={link.name}
-            >
-              <i class={link.icon} />
-            </a>
-          ))
+          infoLinks.map((link) => {
+            const external = link.outlink.startsWith("http");
+            // rel is a space-separated token list, so "me noopener" still
+            // registers as rel=me for microformats parsers.
+            const rel = [link.me && "me", external && "noopener"].filter(Boolean).join(" ");
+            return (
+              <a
+                href={link.outlink}
+                rel={rel || undefined}
+                target={external ? "_blank" : undefined}
+                class="hover:text-skin-active"
+                title={link.label}
+                aria-label={link.label}
+              >
+                <i class={link.icon} />
+              </a>
+            );
+          })
         }
       </div>
 
