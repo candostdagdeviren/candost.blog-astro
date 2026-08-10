@@ -50,6 +50,7 @@ import { site, config, footerLinks, infoLinks } from "../consts";
             <a
               href={link.outlink}
               rel={link.me ? "me" : undefined}
+              target={link.outlink.startsWith("http") ? "_blank" : undefined}
               class="hover:text-skin-active"
               title={link.name}
               aria-label={link.name}

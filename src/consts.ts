@@ -150,10 +150,15 @@ export const footerLinks = [
  * Personal link address
  */
 /**
- * `me` marks a link as an identity link. Those are rendered with rel="me" so
- * that other services can verify the profile belongs to this domain. The
- * verification is reciprocal: the profile on the other end has to link back
- * here, also with rel="me".
+ * `me` marks a link as an identity link, rendered with rel="me" so other
+ * services can tie the profile to this domain.
+ *
+ * For profile URLs (Mastodon, GitHub, LinkedIn) verification is reciprocal:
+ * the profile on the other end has to link back here, also with rel="me" —
+ * that is what earns Mastodon's verified checkmark. The mailto: link is a
+ * valid rel="me" identity too, but an address cannot link back, so it is
+ * confirmed through a separate opt-in flow (e.g. IndieAuth email auth)
+ * rather than by reciprocity.
  */
 export const infoLinks = [
   {
