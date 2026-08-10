@@ -25,6 +25,10 @@ const { frontmatter = { comment: false } } = Astro.props;
 </body>
 <script>
   document.body.querySelectorAll("a").forEach(item => {
+    // rel="me" and rel="author" carry meaning (identity verification and
+    // author discovery), so leave those links untouched.
+    const rel = item.getAttribute("rel");
+    if (rel && /\b(me|author)\b/.test(rel)) return;
     item.setAttribute("rel", "nofollow noreferrer");
   });
 </script>

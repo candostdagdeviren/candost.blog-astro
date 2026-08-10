@@ -149,26 +149,42 @@ export const footerLinks = [
 /**
  * Personal link address
  */
+/**
+ * `me` marks a link as an identity link. Those are rendered with rel="me" so
+ * that other services can verify the profile belongs to this domain. The
+ * verification is reciprocal: the profile on the other end has to link back
+ * here, also with rel="me".
+ */
 export const infoLinks = [
+  {
+    icon: "ri-mastodon-fill",
+    name: "mastodon",
+    outlink: "https://hachyderm.io/@candost",
+    me: true,
+  },
   {
     icon: "ri-linkedin-fill",
     name: "linkedin",
     outlink: "https://linkedin.com/in/candost",
+    me: true,
   },
   {
     icon: "ri-github-fill",
     name: "github",
     outlink: "https://github.com/candostdagdeviren",
-  },
-  {
-    icon: "ri-rss-fill",
-    name: "rss",
-    outlink: "/feeds",
+    me: true,
   },
   {
     icon: "ri-mail-fill",
     name: "email",
     outlink: "mailto:contact@candostdagdeviren.com",
+    me: true,
+  },
+  {
+    icon: "ri-rss-fill",
+    name: "rss",
+    outlink: "/feeds",
+    me: false,
   },
 ];
 

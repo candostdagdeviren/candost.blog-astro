@@ -49,9 +49,17 @@ if (title === site.title) {
   <!-- Mastodon -->
   <meta name="fediverse:creator" content="@candost@hachyderm.io" />
 
-  <!-- IndieAuth -->
+  <!-- IndieAuth / rel-me: mirrors the visible identity links in the footer -->
+  <link href="https://hachyderm.io/@candost" rel="me" />
   <link href="https://github.com/candostdagdeviren" rel="me" />
   <link href="https://linkedin.com/in/candost" rel="me" />
+  <link href="mailto:contact@candostdagdeviren.com" rel="me" />
+
+  <!--
+    Author discovery for microformats2 parsers: entries on this site have no
+    visible byline, so parsers follow rel="author" to the homepage h-card.
+  -->
+  <link href={new URL("/", Astro.site).href} rel="author" />
 
   <link rel="sitemap" href="/sitemap-0.xml" />
   <title>{title} | {site.title}</title>

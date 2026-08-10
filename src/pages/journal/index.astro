@@ -18,5 +18,7 @@ posts = sortPostsByDate(posts);
   <p class="mb-10">You can get new entries in your favorite RSS reader via <a class="truncate mt-1 header-link-active cursor-pointer decoration-skin-base hover:text-skin-active" href="/journal/rss.xml">the dedicated RSS feed</a>.</p>
   <div class="divider-horizontal"/>
 
-  {posts.map((post, index) => <FeedPreview post={post} index={index} />)}
+  <div class="h-feed">
+    {posts.map((post, index) => <FeedPreview post={post} index={index} />)}
+  </div>
 </IndexPage>

@@ -55,11 +55,13 @@ const backlinks = allLinks[pathname] || [];
 
 <BlogPost frontmatter={entry.data}>
   <div>
-    <NotesTitle {...entry.data} title={`${entry.data.zettelId}: ${entry.data.title}`} />
-    <div class="divider-horizontal"></div>
-    <article class="markdown-body">
-      <Content />
-    </article>
+    <div class="h-entry">
+      <NotesTitle {...entry.data} title={`${entry.data.zettelId}: ${entry.data.title}`} />
+      <div class="divider-horizontal"></div>
+      <article class="markdown-body e-content">
+        <Content />
+      </article>
+    </div>
 
     <PostNavigation
       class="mt-10"

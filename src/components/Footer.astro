@@ -1,5 +1,5 @@
 ---
-import { site, config, footerLinks } from "../consts";
+import { site, config, footerLinks, infoLinks } from "../consts";
 ---
 
 <div class="footer container p-4">
@@ -38,6 +38,28 @@ import { site, config, footerLinks } from "../consts";
           </ul>
         </div>
       </div>
+      <div class="divider-horizontal"></div>
+
+      <!--
+        Identity links. The ones flagged `me` carry rel="me" so services like
+        Mastodon can verify this domain (they link back here the same way).
+      -->
+      <div class="flex justify-center items-center gap-4 mb-5 text-2xl">
+        {
+          infoLinks.map((link) => (
+            <a
+              href={link.outlink}
+              rel={link.me ? "me" : undefined}
+              class="hover:text-skin-active"
+              title={link.name}
+              aria-label={link.name}
+            >
+              <i class={link.icon} />
+            </a>
+          ))
+        }
+      </div>
+
       <div class="divider-horizontal"></div>
       <div class="mb-5">
         All content on this website is licensed under
