@@ -6,6 +6,10 @@ on:
   pull_request:
     types: [opened, synchronize]
 
+# This workflow only reads the repository to build and test it.
+permissions:
+  contents: read
+
 jobs:
   microformats:
     name: Build and verify microformats
