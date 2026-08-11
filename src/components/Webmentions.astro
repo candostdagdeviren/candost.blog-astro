@@ -1,0 +1,137 @@
+---
+import {
+  getWebmentions,
+  mentionsFor,
+  safeExternalUrl,
+  displayName,
+  REACTION_PROPERTIES,
+  RESPONSE_PROPERTIES,
+  type Webmention,
+} from "../utils/getWebmentions";
+import { formatDate } from "../utils/formatDate";
+
+/**
+ * Mentions this page received from other sites, shown as a reference list.
+ *
+ * Kept separate from the comment section on purpose: comments are replies
+ * left here, these are links from someone else's own site. Only the plain-text
+ * content is rendered and every href is scheme-checked, because this is
+ * third-party data.
+ */
+
+const target = new URL(Astro.url.pathname, Astro.site).href;
+const mentions = mentionsFor(await getWebmentions(), target);
+
+const isProperty = (mention: Webmention, list: readonly string[]) =>
+  list.includes(mention["wm-property"] ?? "");
+
+// Likes and reposts are counted; replies and mentions are quoted.
+const reactions = mentions.filter((m) => isProperty(m, REACTION_PROPERTIES));
+const responses = mentions
+  .filter((m) => isProperty(m, RESPONSE_PROPERTIES))
+  .sort((a, b) => (a["wm-received"] ?? "").localeCompare(b["wm-received"] ?? ""));
+
+const LABELS: Record<string, string> = {
+  "in-reply-to": "replied",
+  "mention-of": "mentioned this",
+};
+
+/**
+ * Dates come from the sending site, so an unparseable one must not reach
+ * dayjs and render as "Invalid Date". Falls through to the time webmention.io
+ * received it.
+ */
+const usableDate = (value?: string | null): string | undefined => {
+  if (!value) return undefined;
+  return Number.isNaN(new Date(value).getTime()) ? undefined : value;
+};
+
+const snippet = (mention: Webmention): string => {
+  // Deliberately the text, never content.html -- that is markup from a site
+  // we do not control.
+  const text = mention.content?.text?.trim();
+  if (!text) return "";
+  return text.length > 280 ? `${text.slice(0, 280).trimEnd()}…` : text;
+};
+---
+
+{
+  (reactions.length > 0 || responses.length > 0) && (
+    <section class="mt-8">
+      <div class="divider-horizontal" />
+      <h2 class="text-xl font-bold mb-1">Mentioned elsewhere.</h2>
+      <p class="text-sm italic mb-4">
+        Links to this page from other people's websites, collected via{" "}
+        <a
+          href="https://indieweb.org/Webmention"
+          class="colored-link hover:text-skin-active"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Webmention
+        </a>
+        .
+      </p>
+
+      {reactions.length > 0 && (
+        <p class="text-sm mb-4">
+          <i class="ri-heart-3-line mr-1" />
+          {reactions.length === 1 ? "1 like or repost" : `${reactions.length} likes and reposts`}
+          {" from "}
+          {reactions
+            .map((mention) => displayName(mention))
+            .filter((name, index, all) => all.indexOf(name) === index)
+            .join(", ")}
+          .
+        </p>
+      )}
+
+      {responses.length > 0 && (
+        <ul class="space-y-4">
+          {responses.map((mention) => {
+            const source = safeExternalUrl(mention["wm-source"] ?? mention.url);
+            const author = safeExternalUrl(mention.author?.url);
+            const name = displayName(mention);
+            const text = snippet(mention);
+            const when = usableDate(mention.published) ?? usableDate(mention["wm-received"]);
+
+            return (
+              <li class="text-sm">
+                <p class="mb-1">
+                  {author ? (
+                    <a
+                      href={author}
+                      class="font-bold colored-link hover:text-skin-active"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {name}
+                    </a>
+                  ) : (
+                    <strong>{name}</strong>
+                  )}
+                  <span> {LABELS[mention["wm-property"] ?? ""] ?? "linked here"}</span>
+                  {when && <span class="italic"> on {formatDate(when)}</span>}
+                  {source && (
+                    <>
+                      {" — "}
+                      <a
+                        href={source}
+                        class="colored-link hover:text-skin-active"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        read it <i class="ri-external-link-line" />
+                      </a>
+                    </>
+                  )}
+                </p>
+                {text && <blockquote class="italic opacity-90">{text}</blockquote>}
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </section>
+  )
+}

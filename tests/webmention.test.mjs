@@ -1,0 +1,320 @@
+/**
+ * Unit tests for the webmention helpers.
+ *
+ * These operate on data supplied by whoever sent the mention, so the URL
+ * handling is a security boundary rather than a formatting detail. Imported
+ * directly from source (not from built output) because the module is pure and
+ * has no dependencies -- see tests/microformats.test.mjs for the markup checks.
+ */
+import { test, describe } from "node:test";
+import assert from "node:assert/strict";
+import {
+  safeExternalUrl,
+  normalizeTarget,
+  displayName,
+  mentionsFor,
+  REACTION_PROPERTIES,
+  RESPONSE_PROPERTIES,
+} from "../src/utils/webmentionFormat.ts";
+import { fetchWebmentions } from "../src/utils/webmentionFetch.ts";
+
+describe("safeExternalUrl — refuses anything that is not http(s)", () => {
+  for (const hostile of [
+    "javascript:alert(1)",
+    "JavaScript:alert(1)",
+    "  javascript:alert(1)",
+    "data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==",
+    "vbscript:msgbox(1)",
+    "file:///etc/passwd",
+    "not a url at all",
+    "",
+  ]) {
+    test(`rejects ${JSON.stringify(hostile)}`, () => {
+      assert.equal(safeExternalUrl(hostile), undefined);
+    });
+  }
+
+  test("rejects undefined", () => {
+    assert.equal(safeExternalUrl(undefined), undefined);
+  });
+
+  for (const allowed of ["https://example.com/post", "http://example.com/post"]) {
+    test(`allows ${allowed}`, () => {
+      assert.equal(safeExternalUrl(allowed), allowed);
+    });
+  }
+});
+
+describe("normalizeTarget — matches URLs that differ only cosmetically", () => {
+  const canonical = "https://candost.blog/journal/entry";
+
+  for (const variant of [
+    "https://candost.blog/journal/entry",
+    "https://candost.blog/journal/entry/",
+    "https://candost.blog/journal/entry//",
+    "https://CANDOST.blog/journal/entry/",
+    "https://candost.blog/journal/entry/#section",
+    "https://candost.blog/journal/entry/?utm_source=rss",
+  ]) {
+    test(`${variant} normalises to the same target`, () => {
+      assert.equal(normalizeTarget(variant), normalizeTarget(canonical));
+    });
+  }
+
+  test("keeps genuinely different paths apart", () => {
+    assert.notEqual(
+      normalizeTarget("https://candost.blog/journal/one"),
+      normalizeTarget("https://candost.blog/journal/two"),
+    );
+  });
+});
+
+describe("mentionsFor — looks up by normalised target", () => {
+  const mention = { "wm-target": "https://candost.blog/a/", "wm-property": "in-reply-to" };
+  const all = new Map([[normalizeTarget("https://candost.blog/a/"), [mention]]]);
+
+  test("finds mentions when the trailing slash differs", () => {
+    assert.deepEqual(mentionsFor(all, "https://candost.blog/a"), [mention]);
+  });
+
+  test("returns an empty list for a page with none", () => {
+    assert.deepEqual(mentionsFor(all, "https://candost.blog/b/"), []);
+  });
+});
+
+describe("displayName — falls back sensibly", () => {
+  test("prefers the author name", () => {
+    assert.equal(displayName({ author: { name: "Molly White" } }), "Molly White");
+  });
+
+  test("ignores a blank author name", () => {
+    assert.equal(
+      displayName({ author: { name: "   " }, "wm-source": "https://tantek.com/notes/2" }),
+      "tantek.com",
+    );
+  });
+
+  test("falls back to the source host without www.", () => {
+    assert.equal(displayName({ "wm-source": "https://www.example.com/x" }), "example.com");
+  });
+
+  test("does not leak a hostile source into the name", () => {
+    assert.equal(displayName({ "wm-source": "javascript:alert(1)" }), "Someone");
+  });
+
+  test("handles a mention with nothing usable", () => {
+    assert.equal(displayName({}), "Someone");
+  });
+});
+
+describe("property groupings are disjoint", () => {
+  test("no property is both a reaction and a response", () => {
+    const overlap = REACTION_PROPERTIES.filter((p) => RESPONSE_PROPERTIES.includes(p));
+    assert.deepEqual(overlap, []);
+  });
+});
+
+// ---------------------------------------------------------------------------
+
+/** A fetch stand-in returning one jf2 page. */
+const okResponse = (children) => ({
+  ok: true,
+  status: 200,
+  json: async () => ({ children }),
+});
+
+const silent = () => {};
+
+describe("fetchWebmentions — never fails the build", () => {
+  test("returns nothing when the token is missing", async () => {
+    const warnings = [];
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: undefined,
+      warn: (m) => warnings.push(m),
+      fetchImpl: () => assert.fail("must not call the API without a token"),
+    });
+    assert.deepEqual(result, []);
+    assert.match(warnings.join(" "), /WEBMENTION_IO_TOKEN is not set/);
+  });
+
+  test("returns nothing when the API responds non-OK", async () => {
+    const warnings = [];
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      warn: (m) => warnings.push(m),
+      fetchImpl: async () => ({ ok: false, status: 503, json: async () => ({}) }),
+    });
+    assert.deepEqual(result, []);
+    assert.match(warnings.join(" "), /responded 503/);
+  });
+
+  test("returns nothing when the network throws", async () => {
+    const warnings = [];
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      warn: (m) => warnings.push(m),
+      fetchImpl: async () => {
+        throw new Error("ENOTFOUND");
+      },
+    });
+    assert.deepEqual(result, []);
+    assert.match(warnings.join(" "), /could not reach webmention.io/);
+  });
+
+  test("returns nothing when the response is not valid JSON", async () => {
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      warn: silent,
+      fetchImpl: async () => ({
+        ok: true,
+        status: 200,
+        json: async () => {
+          throw new SyntaxError("Unexpected token <");
+        },
+      }),
+    });
+    assert.deepEqual(result, []);
+  });
+
+  test("tolerates JSON without a children array", async () => {
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      warn: silent,
+      fetchImpl: async () => ({ ok: true, status: 200, json: async () => ({ children: null }) }),
+    });
+    assert.deepEqual(result, []);
+  });
+});
+
+describe("fetchWebmentions — a late failure keeps earlier pages", () => {
+  test("a network throw on page 2 does not discard pages 0 and 1", async () => {
+    let calls = 0;
+    const warnings = [];
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      perPage: 2,
+      warn: (m) => warnings.push(m),
+      fetchImpl: async () => {
+        calls++;
+        if (calls <= 2) return okResponse([{ "wm-id": calls * 10 }, { "wm-id": calls * 10 + 1 }]);
+        throw new Error("ECONNRESET");
+      },
+    });
+    assert.equal(result.length, 4, "the four mentions already fetched must survive");
+    assert.deepEqual(
+      result.map((m) => m["wm-id"]),
+      [10, 11, 20, 21],
+    );
+    assert.match(warnings.join(" "), /4 mention\(s\) fetched so far/);
+  });
+
+  test("malformed JSON on page 2 does not discard page 1", async () => {
+    let calls = 0;
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      perPage: 1,
+      warn: silent,
+      fetchImpl: async () => {
+        calls++;
+        if (calls === 1) return okResponse([{ "wm-id": 1 }]);
+        return {
+          ok: true,
+          status: 200,
+          json: async () => {
+            throw new SyntaxError("Unexpected token <");
+          },
+        };
+      },
+    });
+    assert.deepEqual(
+      result.map((m) => m["wm-id"]),
+      [1],
+    );
+  });
+
+  test("a non-OK page 2 also keeps page 1", async () => {
+    let calls = 0;
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      perPage: 1,
+      warn: silent,
+      fetchImpl: async () => {
+        calls++;
+        return calls === 1 ? okResponse([{ "wm-id": 1 }]) : { ok: false, status: 500 };
+      },
+    });
+    assert.deepEqual(
+      result.map((m) => m["wm-id"]),
+      [1],
+    );
+  });
+});
+
+describe("fetchWebmentions — pagination", () => {
+  test("stops on the first short page", async () => {
+    let calls = 0;
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      perPage: 2,
+      warn: silent,
+      fetchImpl: async () => {
+        calls++;
+        return okResponse(calls === 1 ? [{ "wm-id": 1 }, { "wm-id": 2 }] : [{ "wm-id": 3 }]);
+      },
+    });
+    assert.equal(calls, 2, "should stop once a page comes back short");
+    assert.equal(result.length, 3);
+  });
+
+  test("honours maxPages when every page is full", async () => {
+    let calls = 0;
+    const result = await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "t",
+      perPage: 1,
+      maxPages: 3,
+      warn: silent,
+      fetchImpl: async () => {
+        calls++;
+        return okResponse([{ "wm-id": calls }]);
+      },
+    });
+    assert.equal(calls, 3, "must not page forever");
+    assert.equal(result.length, 3);
+  });
+
+  test("passes the token and domain to the API", async () => {
+    let seen = "";
+    await fetchWebmentions({
+      api: "https://example.com/api",
+      domain: "candost.blog",
+      token: "secret token",
+      warn: silent,
+      fetchImpl: async (url) => {
+        seen = url;
+        return okResponse([]);
+      },
+    });
+    assert.match(seen, /domain=candost\.blog/);
+    assert.match(seen, /token=secret%20token/);
+  });
+});

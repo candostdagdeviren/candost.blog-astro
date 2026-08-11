@@ -4,6 +4,7 @@ import BlogPost from "../../layouts/BlogPost.astro";
 import PostTitle from "../../components/PostTitle.astro";
 import BlogFooter from "../../components/BlogFooter.astro";
 import { getCollectionByName } from "../../utils/getCollectionByName";
+import Webmentions from "../../components/Webmentions.astro";
 
 export const prerender = true;
 
@@ -39,4 +40,5 @@ const { Content } = await render(entry);
       date={entry.data.date}
     />
   </div>
+  <Webmentions />
 </BlogPost>

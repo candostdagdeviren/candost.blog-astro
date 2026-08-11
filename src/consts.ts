@@ -198,6 +198,32 @@ export const infoLinks = [
 ];
 
 /**
+ * Webmention
+ *
+ * Received mentions are handled by webmention.io, which accepts them on this
+ * site's behalf (a static site has no server to receive the POST). Sign in
+ * there with candost.blog -- the rel="me" links make that work -- and the
+ * endpoints below start collecting.
+ *
+ * Displaying them needs a read token from webmention.io's settings, supplied
+ * as the WEBMENTION_IO_TOKEN environment variable at build time. Without it
+ * the build still succeeds and simply renders no mentions.
+ *
+ * enable {boolean} render received mentions on entry pages. This does NOT
+ *   gate endpoint discovery -- the rel="webmention" and rel="pingback" links
+ *   are always emitted, so mentions keep accumulating at webmention.io even
+ *   while display is switched off.
+ * domain {string} the webmention.io account name; endpoints derive from it
+ */
+export const webmention = {
+  enable: true,
+  domain: "candost.blog",
+};
+
+export const webmentionEndpoint = `https://webmention.io/${webmention.domain}/webmention`;
+export const webmentionPingback = `https://webmention.io/${webmention.domain}/xmlrpc`;
+
+/**
  * Comment Feature
  * enable {boolean}
  * type {string} required waline | giscus

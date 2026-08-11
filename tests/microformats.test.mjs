@@ -154,6 +154,51 @@ describe("rel=me / rel=author — identity links", () => {
   }
 });
 
+describe("Webmention — endpoint discovery", () => {
+  // A sending site fetches one of our pages and looks for these to know where
+  // to POST. Without them nobody can notify us that they linked here.
+  for (const [label, page] of [
+    ["homepage", ""],
+    ["an entry page", "why-is-writing-important"],
+    ["/posts/", "posts"],
+  ]) {
+    test(`${label} advertises a webmention endpoint`, () => {
+      const rels = parsePage(page).rels;
+      assert.ok(
+        (rels.webmention ?? []).some((url) => url.includes("webmention.io")),
+        `no rel="webmention" on ${label}`,
+      );
+      assert.ok((rels.pingback ?? []).length > 0, `no rel="pingback" on ${label}`);
+    });
+  }
+});
+
+describe("u-in-reply-to — journal replies", () => {
+  // Journal entries that respond to something elsewhere should say so in a way
+  // a receiving site can read, rather than only in prose.
+  const withReplyContext = entriesInFeed("journal").filter((relPath) => {
+    const entry = rootsOfType(parsePage(relPath), "h-entry")[0];
+    return entry && prop(entry, "in-reply-to").length > 0;
+  });
+
+  test("some journal entries publish reply context", () => {
+    assert.ok(
+      withReplyContext.length > 0,
+      "no journal entry exposes u-in-reply-to — the externalUrl markup may have regressed",
+    );
+  });
+
+  test("every reply target is an absolute http(s) URL", () => {
+    for (const relPath of withReplyContext) {
+      const entry = rootsOfType(parsePage(relPath), "h-entry")[0];
+      for (const value of prop(entry, "in-reply-to")) {
+        const url = typeof value === "string" ? value : value?.value;
+        assert.match(url ?? "", /^https?:\/\//, `bad in-reply-to on ${relPath}: ${url}`);
+      }
+    }
+  });
+});
+
 describe("h-entry — content pages", () => {
   // Every entry page is checked, not a sample. Templates are shared, so one
   // page per collection would catch a template regression — but not a page
