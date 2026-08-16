@@ -28,17 +28,17 @@
     "@fancyapps/ui": "^6.1.14",
     "@tailwindcss/vite": "^4.3.2",
     "@waline/client": "^3.15.2",
-    "astro": "^7.2.0",
+    "astro": "^7.2.2",
     "astro-expressive-code": "^0.44.0",
     "astro-robots-txt": "^1.0.0",
     "dayjs": "^1.11.21",
     "hastscript": "^9.0.1",
     "lodash": "^4.17.21",
-    "markdown-it": "^14.3.0",
+    "markdown-it": "^15.0.0",
     "mdast-util-to-string": "^4.0.0",
     "remark-directive": "^4.0.0",
     "remixicon": "^4.9.1",
-    "sanitize-html": "^2.17.6",
+    "sanitize-html": "^2.17.7",
     "solid-js": "^1.9.14",
     "tailwindcss": "^4.3.2",
     "typescript": "^7.0.2",
@@ -49,7 +49,7 @@
     "@astrojs/check": "^0.9.10",
     "microformats-parser": "^2.0.6",
     "prettier-plugin-astro": "^0.14.1",
-    "sass": "^1.101.0"
+    "sass": "^1.102.0"
   },
   "pnpm": {
     "overrides": {
