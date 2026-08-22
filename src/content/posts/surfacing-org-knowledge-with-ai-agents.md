@@ -101,6 +101,8 @@ In OpenCode, I created three primary agents and two subagents:
 - Domain Investigator subagent
 - Repository Inspector subagent
 
+![Hive Mind Agents](/images/content/posts/surfacing-org-knowledge-with-ai-agents/hive-mind-agents.png)
+
 A hive mind user can work with the primary agents but can't dispatch the background agents.
 Why use custom agents rather than leave it to the model to decide?
 
