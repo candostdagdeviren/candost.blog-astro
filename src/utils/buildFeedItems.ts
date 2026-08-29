@@ -19,7 +19,7 @@ type FeedEntry = {
 // Site URL without a trailing slash (https://example.com/ => https://example.com)
 export const feedBaseUrl = (): string => site.url.replace(/\/+$/g, "");
 const defaultReplyFooter = (url: string): string =>
-  `\n\n---\n[Reply via email](mailto:contact@candostdagdeviren.com?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline)`;
+  `\n\n---\n[Reply via email](mailto:hi@candost.blog?subject=Re:%20${url}) | [Reply via Mastodon](https://hachyderm.io/@candost) | [Comment](${url}#waline)`;
 type BuildFeedItemsOptions = {
   /** Override the item title (e.g. notes prefix the zettel ID). */
   titleFor?: (entry: any) => string;

@@ -103,7 +103,7 @@ describe("rel=me / rel=author — identity links", () => {
     "https://hachyderm.io/@candost",
     "https://github.com/candostdagdeviren",
     "https://linkedin.com/in/candost",
-    "mailto:contact@candostdagdeviren.com",
+    "mailto:hi@candost.blog",
   ];
 
   // The homepage uses BlogPost.astro and listing pages use IndexPage.astro.

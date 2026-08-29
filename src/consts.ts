@@ -176,7 +176,7 @@ export const infoLinks = [
     icon: "ri-mail-fill",
     name: "email",
     label: "Email",
-    outlink: "mailto:contact@candostdagdeviren.com",
+    outlink: "mailto:hi@candost.blog",
     me: true,
   },
   {
