@@ -6,7 +6,7 @@ Personal blog (candost.blog): Astro 7 on the [Astro Yi](https://github.com/cirry
 
 ## Commands
 
-pnpm only — `preinstall` enforces it, and npm/yarn lockfiles are gitignored. Node is pinned by `.nvmrc` (22.12.0).
+pnpm only — `preinstall` enforces it, and npm/yarn lockfiles are gitignored. Node is pinned by `.nvmrc` (22.18.0).
 
 - `pnpm install --frozen-lockfile` — run this first if `node_modules` looks stale; a missing devDependency shows up as a confusing test crash, not a clear error
 - `pnpm dev` — dev server at http://localhost:4321

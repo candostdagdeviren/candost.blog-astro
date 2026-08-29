@@ -12,6 +12,8 @@ import {remarkCollapse} from "./src/remarkPlugin/remark-collapse.js";
 import expressiveCode from "astro-expressive-code";
 import {pluginLineNumbers} from '@expressive-code/plugin-line-numbers'
 
+import {unified} from '@astrojs/markdown-remark';
+
 import {visit} from 'unist-util-visit'
 import {pluginCollapsibleSections} from '@expressive-code/plugin-collapsible-sections'
 
@@ -107,8 +109,10 @@ export default defineConfig({
   ],
 
   markdown: {
-    remarkPlugins: [resetRemark, remarkDirective, remarkAsides({}),remarkCollapse({})],
-    rehypePlugins: [customRehypeLazyLoadImage],
+    processor: unified({
+      remarkPlugins: [resetRemark, remarkDirective, remarkAsides({}),remarkCollapse({})],
+      rehypePlugins: [customRehypeLazyLoadImage],
+    }),
   },
   vite: {
     plugins: [tailwindcss()],

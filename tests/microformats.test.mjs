@@ -97,7 +97,7 @@ describe("rel=me / rel=author — identity links", () => {
   // Deliberately hardcoded rather than imported from src/consts.ts. This is
   // the independent statement of *which* identities should be published, so
   // changing a handle is expected to fail here until updated on purpose.
-  // (It also can't be imported: .nvmrc pins Node 22.12, which needs a flag
+  // (It also can't be imported: .nvmrc pins Node 22.18, which needs a flag
   // to load .ts files.)
   const EXPECTED_ME = [
     "https://hachyderm.io/@candost",
