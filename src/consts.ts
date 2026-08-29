@@ -51,10 +51,6 @@ export const navigationItems = [
     href: "/blog/",
   },
   {
-    name: "Newsletter",
-    href: "/newsletter/",
-  },
-  {
     name: "About",
     href: "/about/",
   },
@@ -91,8 +87,8 @@ export const footerLinks = [
     href: "/posts/",
   },
   {
-    name: "Newsletter",
-    href: "/newsletter/",
+    name: "Journal",
+    href: "/journal/",
   },
   {
     name: "Book Notes",
@@ -103,8 +99,8 @@ export const footerLinks = [
     href: "/notes/",
   },
   {
-    name: "Journal",
-    href: "/journal/",
+    name: "Podcast",
+    href: "/podcast/",
   },
   {
     name: "More",
@@ -121,11 +117,6 @@ export const footerLinks = [
       {
         name: "Now",
         href: "/now/",
-      },
-      {
-        name: "Podcast",
-        href: "/podcast/",
-        target: "_self",
       },
       {
         name: "Guestbook",
