@@ -32,7 +32,9 @@ const allLinks = {};
 const linkRegex = /\[.*?\]\((.*?)\)/g;
 
 allNotes.forEach((note) => {
-  const links = [...note.body.matchAll(linkRegex)];
+  // A note that is still a frontmatter-only stub has no body; without this the
+  // whole build dies on the first empty note.
+  const links = [...(note.body ?? "").matchAll(linkRegex)];
   if (links) {
     links.forEach((link) => {
       const linkUrl = link[1];
@@ -55,8 +57,10 @@ const backlinks = allLinks[pathname] || [];
 ---
 
 <BlogPost frontmatter={entry.data}>
-  <div>
-    <div class="h-entry">
+  <!-- The h-entry spans the footer as well, so the dates rendered there are read
+       as this note's dt-published / dt-updated rather than as loose markup. -->
+  <div class="h-entry">
+    <div>
       <NotesTitle {...entry.data} title={`${entry.data.zettelId}: ${entry.data.title}`} />
       <div class="divider-horizontal"></div>
       <article class="markdown-body e-content">
@@ -84,7 +88,12 @@ const backlinks = allLinks[pathname] || [];
           </span>
         ))
     }
-    <NotesFooter title={entry.data.title} url={entry.id} date={entry.data.date} />
+    <NotesFooter
+      title={entry.data.title}
+      url={entry.id}
+      date={entry.data.date}
+      updateDate={entry.data.updateDate}
+    />
   </div>
   <Webmentions />
 </BlogPost>

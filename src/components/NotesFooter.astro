@@ -1,7 +1,35 @@
 ---
+import { formatDate } from "../utils/formatDate";
+
+const { date, updateDate } = Astro.props;
 const currentPath = Astro.url.href;
+
+// Compare what a reader sees, not the raw timestamps. Most notes were last
+// revised on the day they were written, so comparing Date objects would print
+// the same day twice and make a real revision indistinguishable from none.
+const published = formatDate(date);
+const updated = formatDate(updateDate);
+const showUpdated = updated && updated !== published;
 ---
 
+{
+  published && (
+    <p class="my-5 text-xs italic">
+      This note is created at {" "}
+      <time class="dt-published" datetime={date.toISOString()}>
+        {published}
+      </time>
+      {showUpdated && (
+        <>
+          {" "}and updated at{" "}
+          <time class="dt-updated" datetime={updateDate.toISOString()}>
+            {updated}
+          </time>
+        </>
+      )}
+    </p>
+  )
+}
 <div class="divider-horizontal"></div>
 <div class="my-5 text-xs">
   <p>

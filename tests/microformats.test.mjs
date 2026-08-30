@@ -245,6 +245,44 @@ describe("h-entry — content pages", () => {
   }
 });
 
+describe("dt-published / dt-updated — note dates", () => {
+  // Scoped to notes on purpose: the other collections deliberately render no
+  // visible dates, so folding this into the loop above would assert a policy
+  // the site does not have.
+  const paths = entriesInFeed("notes");
+
+  /** The rendered day, which is the granularity the footer actually shows. */
+  const day = (value) => (typeof value === "string" ? value : value?.value ?? "").slice(0, 10);
+
+  test("every note publishes a parseable dt-published", () => {
+    const bad = paths.filter((p) => {
+      const entry = rootsOfType(parsePage(p), "h-entry")[0];
+      const published = prop(entry ?? {}, "published")[0];
+      return !published || Number.isNaN(Date.parse(published));
+    });
+    assert.deepEqual(bad, [], `notes without a parseable dt-published: ${bad.join(", ")}`);
+  });
+
+  test("dt-updated appears only when it falls on a different day", () => {
+    // Most notes were last revised the day they were written. Printing
+    // "Updated" there would be noise, so its presence has to mean something.
+    const bad = paths.filter((p) => {
+      const entry = rootsOfType(parsePage(p), "h-entry")[0];
+      const updated = prop(entry ?? {}, "updated")[0];
+      return updated && day(updated) === day(prop(entry, "published")[0]);
+    });
+    assert.deepEqual(bad, [], `notes with a redundant dt-updated: ${bad.join(", ")}`);
+  });
+
+  test("some note publishes a dt-updated", () => {
+    // Guards against the whole feature silently rendering nothing.
+    const withUpdate = paths.filter(
+      (p) => prop(rootsOfType(parsePage(p), "h-entry")[0] ?? {}, "updated").length > 0,
+    );
+    assert.ok(withUpdate.length > 0, "no note exposes dt-updated — the update markup may have regressed");
+  });
+});
+
 describe("h-feed — listing pages", () => {
   for (const page of LISTING_PAGES) {
     describe(`/${page}/`, () => {
