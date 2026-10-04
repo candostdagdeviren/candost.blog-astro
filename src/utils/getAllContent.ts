@@ -1,20 +1,7 @@
 import { getCollectionByName } from "./getCollectionByName";
 
-export const getAllContent = async () => {
-  let posts = await getCollectionByName("posts");
-  let journal = await getCollectionByName("journal");
-  let newsletter = await getCollectionByName("newsletter");
-  let notes = await getCollectionByName("notes");
-  let books = await getCollectionByName("books");
-  let de = await getCollectionByName("de");
-  let podcast = await getCollectionByName("podcast");
-  return [
-    ...posts,
-    ...journal,
-    ...newsletter,
-    ...notes,
-    ...books,
-    ...de,
-    ...podcast,
-  ];
-};
+// Keep in sync with content.config.ts when a collection is added.
+const COLLECTIONS = ["posts", "journal", "newsletter", "notes", "books", "de", "podcast"] as const;
+
+export const getAllContent = async () =>
+  (await Promise.all(COLLECTIONS.map((name) => getCollectionByName(name)))).flat();

@@ -27,33 +27,16 @@ const allNotes = await getCollectionByName("notes");
 const sortPosts = sortNotesByZettelId(allNotes);
 const { prevPost, nextPost } = getPrevNext(sortPosts, entry);
 
-// Build backlinks
-const allLinks = {};
+// Backlinks: every note whose body links to this one.
 const linkRegex = /\[.*?\]\((.*?)\)/g;
-
-allNotes.forEach((note) => {
-  // A note that is still a frontmatter-only stub has no body; without this the
-  // whole build dies on the first empty note.
-  const links = [...(note.body ?? "").matchAll(linkRegex)];
-  if (links) {
-    links.forEach((link) => {
-      const linkUrl = link[1];
-
-      if (linkUrl) {
-        if (!allLinks[linkUrl]) {
-          allLinks[linkUrl] = [];
-        }
-        allLinks[linkUrl].push({
-          frontmatter: note.data,
-          url: `/notes/${note.id}`,
-        });
-      }
-    });
-  }
-});
-
 const pathname = `/notes/${id}/`;
-const backlinks = allLinks[pathname] || [];
+const backlinks = allNotes
+  .filter((note) =>
+    // A note that is still a frontmatter-only stub has no body; without this the
+    // whole build dies on the first empty note.
+    [...(note.body ?? "").matchAll(linkRegex)].some((link) => link[1] === pathname),
+  )
+  .map((note) => ({ frontmatter: note.data, url: `/notes/${note.id}` }));
 ---
 
 <BlogPost frontmatter={entry.data}>

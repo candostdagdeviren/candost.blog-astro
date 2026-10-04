@@ -2,11 +2,11 @@
 import IndexPage from "../../layouts/IndexPage.astro";
 import { formatDate } from "../../utils/formatDate";
 import { sortPostsByDate } from "../../utils/sortPostsByDate";
-import getPostsByTag from "../../utils/getPostsByTag";
+import { entriesWithLabel } from "../../utils/labels";
 import { getAllContent } from "../../utils/getAllContent";
 
 let allPosts = await getAllContent();
-let mektups = getPostsByTag(allPosts, "mektup");
+let mektups = entriesWithLabel(allPosts, "tags", "mektup");
 let sortedMektups = sortPostsByDate(mektups);
 
 ---

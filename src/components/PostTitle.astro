@@ -1,5 +1,5 @@
 ---
-import {dealLabel} from "../utils/dealLabel";
+import { toLabels } from "../utils/labels";
 const {title, category } = Astro.props
 ---
 
@@ -11,7 +11,7 @@ const {title, category } = Astro.props
 
     <!-- category -->
     {
-      category && dealLabel(category).filter(item => item !== 'uncategorized').map((categoryName) => (
+      category && toLabels(category).filter(item => item !== 'uncategorized').map((categoryName) => (
         <i class="ri-folder-3-line"/>
         <a href={"/category/" + categoryName} class="text-wrap break-all  hover:text-skin-active cursor-pointer">{categoryName}</a>
       ))

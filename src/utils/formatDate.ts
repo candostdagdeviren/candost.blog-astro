@@ -8,7 +8,7 @@ dayjs.locale(config.lang);
 dayjs.extend(advancedFormat);
 dayjs.extend(utc);
 
-export function formatDate(date, dateType = "post.dateFormat") {
+export function formatDate(date?: Date | null, dateType: string = "post.dateFormat"): string {
   if (date) {
     const dateFormat = t(dateType) || "YYYY-MM-DD";
     return dayjs(date).utc().format(dateFormat);

@@ -1,11 +1,11 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
-import getUniqueTags from "../../utils/getUniqueTags";
+import { uniqueLabels } from "../../utils/labels";
 import { getAllContent } from "../../utils/getAllContent";
 import { t } from "../../i18n/utils";
 
 const posts = await getAllContent();
-let tags = getUniqueTags(posts);
+let tags = uniqueLabels(posts, "tags");
 
 ---
 <IndexPage frontmatter={{ comment: false, title: "Tags" }}>

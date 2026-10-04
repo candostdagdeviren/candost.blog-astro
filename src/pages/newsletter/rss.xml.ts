@@ -1,12 +1,12 @@
 import rss from "@astrojs/rss";
 import { sortPostsByDate } from "../../utils/sortPostsByDate";
-import getPostsByTag from "../../utils/getPostsByTag";
+import { entriesWithLabel } from "../../utils/labels";
 import { getAllContent } from "../../utils/getAllContent";
 import { buildFeedItems, feedBaseUrl } from "../../utils/buildFeedItems";
 
 export async function GET() {
   const allPosts = await getAllContent();
-  const newsletters = getPostsByTag(allPosts, "mediations");
+  const newsletters = entriesWithLabel(allPosts, "tags", "mediations");
   const rssNewsletters = sortPostsByDate(newsletters);
 
   return rss({

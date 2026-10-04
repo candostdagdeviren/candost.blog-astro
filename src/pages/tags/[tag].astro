@@ -1,7 +1,6 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
-import getUniqueTags from "../../utils/getUniqueTags";
-import getPostsByTag from "../../utils/getPostsByTag";
+import { uniqueLabels, entriesWithLabel } from "../../utils/labels";
 import {sortPostsByDate} from "../../utils/sortPostsByDate";
 import { getAllContent } from "../../utils/getAllContent";
 import { getPostUrl } from "../../utils/getPostUrl";
@@ -10,14 +9,14 @@ export const prerender = true;
 
 export async function getStaticPaths() {
   const posts = await getAllContent();
-  const tags = getUniqueTags(posts);
+  const tags = uniqueLabels(posts, "tags");
   return tags.map((tag) => {
     return {params: {tag,}, props: {tag,},};
   });
 }
 const {tag} = Astro.props;
 let posts = await getAllContent();
-const tagPosts = getPostsByTag(posts, tag);
+const tagPosts = entriesWithLabel(posts, "tags", tag);
 const resultPosts = sortPostsByDate(tagPosts);
 ---
 
