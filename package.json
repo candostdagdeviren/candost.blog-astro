@@ -39,7 +39,7 @@
     "mdast-util-to-string": "^4.0.0",
     "remark-directive": "^4.0.0",
     "remixicon": "^4.9.1",
-    "sanitize-html": "^2.17.6",
+    "sanitize-html": "^2.17.7",
     "solid-js": "^1.9.14",
     "tailwindcss": "^4.3.2",
     "typescript": "^7.0.2",
