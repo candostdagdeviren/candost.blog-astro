@@ -1,40 +1,21 @@
 ---
-import { render } from "astro:content";
-import BlogPost from "../../layouts/BlogPost.astro";
-import PostTitle from "../../components/PostTitle.astro";
-import BlogFooter from "../../components/BlogFooter.astro";
+import EntryArticle from "../../components/EntryArticle.astro";
 import { getCollectionByName } from "../../utils/getCollectionByName";
-import Webmentions from "../../components/Webmentions.astro";
 
 export const prerender = true;
 
 export async function getStaticPaths() {
-  let blogEntries = await getCollectionByName("newsletter");
-  return blogEntries.map((entry) => {
-    return {
-      params: { slug: entry.id },
-      props: { entry },
-    };
-  });
+  const entries = await getCollectionByName("newsletter");
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
 }
+
 const { entry } = Astro.props;
-const { Content } = await render(entry);
 ---
 
-<BlogPost frontmatter={{ comment: true, ...entry.data }}>
-  <div>
-    <p class="text-sm italic mb-3">
-      <i class="ri-pen-nib-line mr-2 mt-2"></i><a href="/newsletter">Newsletter Issue</a>
-    </p>
-    <div class="h-entry">
-      <PostTitle {...entry.data} />
-      <div class="divider-horizontal"></div>
-      <article class="markdown-body e-content">
-        <Content />
-      </article>
-    </div>
-    <div class="divider-horizontal"></div>
-    <BlogFooter />
-  </div>
-  <Webmentions />
-</BlogPost>
+<EntryArticle
+  entry={entry}
+  breadcrumb={{ icon: "ri-pen-nib-line", href: "/newsletter", label: "Newsletter Issue" }}
+/>

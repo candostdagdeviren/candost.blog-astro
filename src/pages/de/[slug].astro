@@ -1,44 +1,26 @@
 ---
-import { render } from "astro:content";
-import BlogPost from "../../layouts/BlogPost.astro";
-import PostTitle from "../../components/PostTitle.astro";
-import BlogFooter from "../../components/BlogFooter.astro";
-import PostNavigation from "../../components/PostNavigation.astro";
+import EntryArticle from "../../components/EntryArticle.astro";
 import { getCollectionByName } from "../../utils/getCollectionByName";
 import { sortPostsByDate } from "../../utils/sortPostsByDate";
 import { getPrevNext } from "../../utils/getPrevNext";
-import Webmentions from "../../components/Webmentions.astro";
 
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const blogEntries = await getCollectionByName("de");
-  return blogEntries.map((entry) => ({
+  const entries = await getCollectionByName("de");
+  return entries.map((entry) => ({
     params: { slug: entry.id },
     props: { entry },
   }));
 }
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
-
-const posts = await getCollectionByName("de");
-const sortPosts = sortPostsByDate(posts);
-const { prevPost, nextPost } = getPrevNext(sortPosts, entry);
+const entries = await getCollectionByName("de");
+const { prevPost, nextPost } = getPrevNext(sortPostsByDate(entries), entry);
 ---
 
-<BlogPost frontmatter={entry.data}>
-  <div>
-    <div class="h-entry">
-      <PostTitle {...entry.data} />
-      <div class="divider-horizontal"></div>
-      <article class="markdown-body e-content">
-        <Content />
-      </article>
-    </div>
-    <div class="divider-horizontal"></div>
-    <PostNavigation prevPost={prevPost} nextPost={nextPost} />
-    <BlogFooter />
-  </div>
-  <Webmentions />
-</BlogPost>
+<EntryArticle
+  entry={entry}
+  prevPost={prevPost}
+  nextPost={nextPost}
+/>

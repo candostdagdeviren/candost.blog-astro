@@ -1,0 +1,39 @@
+---
+import { render } from "astro:content";
+import BlogPost from "../layouts/BlogPost.astro";
+import PostTitle from "./PostTitle.astro";
+import PostNavigation from "./PostNavigation.astro";
+import BlogFooter from "./BlogFooter.astro";
+import Webmentions from "./Webmentions.astro";
+
+// The detail page shared by every collection except notes, whose title,
+// navigation labels and footer differ. The "after-title" slot carries
+// page-specific context, such as a journal entry's reply target.
+const { entry, breadcrumb, prevPost, nextPost, articleClass = "markdown-body e-content" } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<BlogPost frontmatter={{ comment: true, ...entry.data }}>
+  <div>
+    {
+      breadcrumb && (
+        <p class="text-sm italic mb-3">
+          <i class={`${breadcrumb.icon} mr-2 mt-2`} />
+          <a href={breadcrumb.href}>{breadcrumb.label}</a>
+        </p>
+      )
+    }
+    <div class="h-entry">
+      <PostTitle {...entry.data} />
+      <slot name="after-title" />
+      <div class="divider-horizontal"></div>
+      <article class={articleClass}>
+        <Content />
+      </article>
+    </div>
+    <div class="divider-horizontal"></div>
+    {(prevPost || nextPost) && <PostNavigation prevPost={prevPost} nextPost={nextPost} />}
+    <BlogFooter />
+  </div>
+  <Webmentions />
+</BlogPost>

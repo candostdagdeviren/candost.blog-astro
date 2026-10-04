@@ -1,5 +1,6 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
+import { getPostUrl } from "../../utils/getPostUrl";
 import { sortPostsAlphabetically } from "../../utils/sortPostsAlphabetically";
 import { getCollectionByName } from "../../utils/getCollectionByName";
 
@@ -23,7 +24,7 @@ let sortedPosts = sortPostsAlphabetically(posts);
           <li class="mb-3 content-item h-entry" data-collection={post.collection} style="display: list-item;">
             <i class="ri-book-line mr-2 mt-2 text-xl" />
               <strong>
-                <a class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 p-name u-url" href={'/books/' + post.id}>
+                <a class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 p-name u-url" href={getPostUrl(post)}>
                   {post.data.title}
                 </a>
               </strong>

@@ -1,5 +1,6 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
+import { getPostUrl } from "../../utils/getPostUrl";
 import {sortPostsByDate} from "../../utils/sortPostsByDate";
 import {getCollectionByName} from "../../utils/getCollectionByName";
 
@@ -20,7 +21,7 @@ let sortedPosts = sortPostsByDate(posts.concat(newsletter));
         <i class="ri-pen-nib-line mr-2 mt-2 text-lg" />
         <a
           class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 p-name u-url"
-          href={post.collection === "posts" ? `/${post.id}/` : `/${post.collection}/${post.id}/`}
+          href={getPostUrl(post)}
         >
           <strong class="text-lg">{post.data.title}</strong>
         </a>

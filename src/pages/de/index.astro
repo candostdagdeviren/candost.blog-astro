@@ -1,5 +1,6 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
+import { getPostUrl } from "../../utils/getPostUrl";
 import {sortPostsByDate} from "../../utils/sortPostsByDate";
 import {getCollectionByName} from "../../utils/getCollectionByName";
 
@@ -24,7 +25,7 @@ let sortedPosts = sortPostsByDate(posts);
           <li style="list-style-type: disc;" class="ml-4 my-2">
             <div>
               <strong>
-                <a class="flex text-l underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={'/de/' + post.id}>
+                <a class="flex text-l underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500" href={getPostUrl(post)}>
                   {post.data.title}
                 </a>
               </strong>

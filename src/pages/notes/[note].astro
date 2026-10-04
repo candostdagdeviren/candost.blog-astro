@@ -6,6 +6,7 @@ import PostNavigation from "../../components/PostNavigation.astro";
 import { getCollectionByName } from "../../utils/getCollectionByName";
 import { sortNotesByZettelId } from "../../utils/sortNotesByZettelId";
 import { getPrevNext } from "../../utils/getPrevNext";
+import { getPostUrl } from "../../utils/getPostUrl";
 import NotesFooter from "../../components/NotesFooter.astro";
 import Webmentions from "../../components/Webmentions.astro";
 
@@ -36,7 +37,7 @@ const backlinks = allNotes
     // whole build dies on the first empty note.
     [...(note.body ?? "").matchAll(linkRegex)].some((link) => link[1] === pathname),
   )
-  .map((note) => ({ frontmatter: note.data, url: `/notes/${note.id}` }));
+  .map((note) => ({ frontmatter: note.data, url: getPostUrl(note) }));
 ---
 
 <BlogPost frontmatter={entry.data}>

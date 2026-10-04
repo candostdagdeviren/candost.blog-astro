@@ -1,5 +1,6 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
+import { getPostUrl } from "../../utils/getPostUrl";
 import {sortNotesByZettelId} from "../../utils/sortNotesByZettelId";
 import {getCollectionByName} from "../../utils/getCollectionByName";
 import * as slipBox from './slip-box-index.md';
@@ -38,7 +39,7 @@ let sortedNotes = sortNotesByZettelId(zettels);
         sortedNotes
         .map((post) => (
         <li style="list-style-type: disc;" class="ml-4 my-2 h-entry">
-          <a class="flex text-l u-url" href={'/notes/' + post.id}>
+          <a class="flex text-l u-url" href={getPostUrl(post)}>
             <span class="underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 p-name"><strong>{post.data.zettelId}:&nbsp;</strong>{post.data.title}</span>
           </a>
         </li>
