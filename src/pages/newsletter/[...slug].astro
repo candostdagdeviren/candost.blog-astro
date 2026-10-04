@@ -34,11 +34,7 @@ const { Content } = await render(entry);
       </article>
     </div>
     <div class="divider-horizontal"></div>
-    <BlogFooter
-      title={entry.data.title}
-      url={entry.collection == "posts" ? "/" + entry.id : entry.collection + "/" + entry.id}
-      date={entry.data.date}
-    />
+    <BlogFooter />
   </div>
   <Webmentions />
 </BlogPost>

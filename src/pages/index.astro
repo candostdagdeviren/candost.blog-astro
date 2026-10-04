@@ -7,9 +7,9 @@ import { getAllContent } from "../utils/getAllContent";
 import { getCollectionByName } from "../utils/getCollectionByName";
 
 let all = await getAllContent();
-let sortedContent = await sortPostsByDate(all);
+let sortedContent = sortPostsByDate(all);
 const posts = await getCollectionByName("posts");
-let sortPosts = await sortPostsByDate(posts);
+let sortPosts = sortPostsByDate(posts);
 let favorites = sortPosts.filter((post) => post.data.favorite);
 let resultPosts = favorites.splice(0, site.favoritePostsSize);
 ---

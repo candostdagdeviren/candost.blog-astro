@@ -7,7 +7,7 @@ import { getAllContent } from "../../utils/getAllContent";
 
 let allPosts = await getAllContent();
 let mektups = getPostsByTag(allPosts, "mektup");
-let sortedMektups = await sortPostsByDate(mektups);
+let sortedMektups = sortPostsByDate(mektups);
 
 ---
 

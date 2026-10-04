@@ -8,7 +8,7 @@ import NewsletterForm from "../../components/NewsletterForm.astro";
 
 let allPosts = await getAllContent();
 let mediations = getPostsByTag(allPosts, "mediations");
-let sortedMediations = await sortPostsByIssueNumberDec(mediations);
+let sortedMediations = sortPostsByIssueNumberDec(mediations);
 
 ---
 

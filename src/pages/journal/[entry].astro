@@ -52,10 +52,6 @@ const { prevPost, nextPost } = getPrevNext(sortPosts, post);
   </div>
   <div class="divider-horizontal"></div>
   <PostNavigation prevPost={prevPost} nextPost={nextPost} />
-  <BlogFooter
-  title={post.data.title}
-  url={post.collection == 'posts' ? post.id : post.collection + '/' + post.id}
-  date={post.data.date}>
-</BlogFooter>
+  <BlogFooter />
   <Webmentions />
 </BlogPost>
