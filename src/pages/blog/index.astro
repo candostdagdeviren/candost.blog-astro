@@ -5,7 +5,7 @@ import { getAllContent } from "../../utils/getAllContent";
 import IndexPage from "../../layouts/IndexPage.astro";
 
 let all = await getAllContent();
-let sortedContent = await sortPostsByDate(all);
+let sortedContent = sortPostsByDate(all);
 ---
 
 <IndexPage frontmatter={{ comment: false, title: "Blog" }}>

@@ -1,49 +1,27 @@
 ---
-import { render } from "astro:content";
-import BlogPost from "../../layouts/BlogPost.astro";
-import PostTitle from "../../components/PostTitle.astro";
-import BlogFooter from "../../components/BlogFooter.astro";
-import PostNavigation from "../../components/PostNavigation.astro";
+import EntryArticle from "../../components/EntryArticle.astro";
 import { getCollectionByName } from "../../utils/getCollectionByName";
 import { sortPostsByDate } from "../../utils/sortPostsByDate";
 import { getPrevNext } from "../../utils/getPrevNext";
-import Webmentions from "../../components/Webmentions.astro";
 
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const bookEntries = await getCollectionByName("books");
-  return bookEntries.map((entry) => ({
+  const entries = await getCollectionByName("books");
+  return entries.map((entry) => ({
     params: { book: entry.id },
     props: { entry },
   }));
 }
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
-
-const posts = await getCollectionByName("books");
-const sortPosts = sortPostsByDate(posts);
-const { prevPost, nextPost } = getPrevNext(sortPosts, entry);
+const entries = await getCollectionByName("books");
+const { prevPost, nextPost } = getPrevNext(sortPostsByDate(entries), entry);
 ---
 
-<BlogPost frontmatter={{ comment: true, ...entry.data }}>
-  <div>
-    <p class="text-sm italic mb-3"><i class="ri-book-line mr-2 mt-2"></i><a href="/books">Book</a></p>
-    <div class="h-entry">
-      <PostTitle {...entry.data} />
-      <div class="divider-horizontal"></div>
-      <article class="markdown-body e-content">
-        <Content />
-      </article>
-    </div>
-    <div class="divider-horizontal"></div>
-    <PostNavigation prevPost={prevPost} nextPost={nextPost} />
-    <BlogFooter
-      title={entry.data.title}
-      url={entry.collection == "posts" ? entry.id : entry.collection + "/" + entry.id}
-      date={entry.data.date}
-    />
-  </div>
-  <Webmentions />
-</BlogPost>
+<EntryArticle
+  entry={entry}
+  breadcrumb={{ icon: "ri-book-line", href: "/books", label: "Book" }}
+  prevPost={prevPost}
+  nextPost={nextPost}
+/>

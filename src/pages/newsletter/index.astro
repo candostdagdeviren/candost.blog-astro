@@ -1,14 +1,14 @@
 ---
 import IndexPage from "../../layouts/IndexPage.astro";
 import { sortPostsByIssueNumberDec } from "../../utils/sortByIssueNumber";
-import getPostsByTag from "../../utils/getPostsByTag";
+import { entriesWithLabel } from "../../utils/labels";
 import { getAllContent } from "../../utils/getAllContent";
 import { getPostUrl } from "../../utils/getPostUrl";
 import NewsletterForm from "../../components/NewsletterForm.astro";
 
 let allPosts = await getAllContent();
-let mediations = getPostsByTag(allPosts, "mediations");
-let sortedMediations = await sortPostsByIssueNumberDec(mediations);
+let mediations = entriesWithLabel(allPosts, "tags", "mediations");
+let sortedMediations = sortPostsByIssueNumberDec(mediations);
 
 ---
 

@@ -1,4 +1,4 @@
-import { filterDrafts } from "./filterDrafts";
-
-export const sortPostsByIssueNumberDec = (posts) =>
-  filterDrafts(posts).sort((a, b) => b.data.issueNumber - a.data.issueNumber);
+// `issueNumber` is a string in the schema, so compare it numerically.
+export const sortPostsByIssueNumberDec = <T extends { data: { issueNumber?: string | null } }>(
+  posts: T[],
+): T[] => [...posts].sort((a, b) => Number(b.data.issueNumber) - Number(a.data.issueNumber));

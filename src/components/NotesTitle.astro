@@ -1,5 +1,5 @@
 ---
-import { dealLabel } from "../utils/dealLabel";
+import { toLabels } from "../utils/labels";
 const { title, tags } = Astro.props;
 ---
 
@@ -18,7 +18,7 @@ const { title, tags } = Astro.props;
   <div class="flex flex-wrap items-center my-2">
     {
       tags &&
-        dealLabel(tags).map((tagName) => (
+        toLabels(tags).map((tagName) => (
           <div class="w-full italic">
             <a href={"/tags/" + tagName} class="colored-link word-wrap break-all hover:text-skin-active">
               <i class="ri-hashtag" />

@@ -1,3 +1,3 @@
-import dayjs from "dayjs";
-export const sortPostsByDate = (posts) =>
-  posts.sort((a, b) => dayjs(b.data.date).unix() - dayjs(a.data.date).unix());
+// Newest first. Returns a copy so callers' collections are never reordered.
+export const sortPostsByDate = <T extends { data: { date: Date } }>(posts: T[]): T[] =>
+  [...posts].sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
