@@ -9,7 +9,6 @@ date: 2026-10-04T13:00:00.000Z
 updateDate: 2026-10-04T13:00:00.000Z
 external: false
 favorite: false
-draft: true
 ---
 
 After I began playing in an improv theatre, I've been observing people more. The more I observe, the fewer people I see who are willing to move out of their comfort zone. Even when they have the energy and really want to do something, like sign up for a hobby class or host a dinner with friends. When I ask why they aren't doing the things they would love to do, I hear the same answer from everyone, like they are in a choir. They are _busy_. **Everyone is busy.** People want to do a million things and never find the time. Perhaps they think time is like a material that can be mined, and they are waiting for someone to show them where to start digging. But they—all these busy people—have something in common. They _**choose**_ to be busy. And they use busyness as an excuse to avoid showing vulnerability.
